@@ -1,0 +1,1266 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>MIT Visualizing Cultures</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+
+
+<style type="text/css">
+<!--
+
+.backg {
+	position:absolute;
+	left:0px;
+	top:180px;
+	z-index: 1;
+background-image:url(../gt_japan_people/image/essay_bck.gif);
+}
+.top {
+	position:absolute;
+	left:0px;
+	top:45px;
+	z-index: 2;
+}
+.bottom {
+	position:absolute;
+	left:0px;
+	z-index: 2;
+}
+.essaynavtop {
+	position:absolute;
+	left:0px;
+	top:142px;
+	z-index: 3;
+}
+.essaynavbottom {
+	position:absolute;
+	left:0px;
+	z-index: 3;
+}
+.essay {
+	position:absolute;
+	left:20px;
+	top:195px;
+	z-index: 4;
+	background-color:#FFFFFF;
+}
+.flashy {
+	position:absolute;
+	left:467px;
+	top:42px;
+	z-index: 3;
+}
+.slug {        position:absolute;
+        left:20px;
+        top:475px;
+        width:476px;
+		z-index:2;
+		text-align:left;
+}
+.navbox {
+		position: fixed;
+        left:10px;
+        top:0px;
+		z-index: 5;
+		visibility:hidden;
+}
+.unitsnavbox01 {
+        position:fixed;
+        left:200px;
+        top:0px;
+		z-index:5;
+}
+.xnavbox {
+        position:fixed;
+        left:271px;
+        top:0px;
+		z-index:6;
+}
+.unitnavbox {
+        position:fixed;        left:512px;
+top:0px;
+		z-index:6;
+}
+.navboxu {
+		position: fixed;
+        left:200px;
+        top:0px;
+		z-index: 5;
+		visibility:hidden;	 
+}
+.navboxx {
+		position: fixed;
+        left:271px;
+        top:0px;
+		z-index: 6;
+		visibility:hidden;	 
+}
+.navboxv {
+		position: fixed;        left:512px;
+top:0px;
+		z-index: 8;
+		visibility:hidden;	 
+}
+.box14 {
+        position:fixed;
+        left:0px;
+        top:0px;
+		z-index:5;
+		background-color:#222222;
+		width:100%
+}
+.box15 {
+        position:fixed;
+        left:0px;
+        top:0px;
+		z-index:4;
+	    width: 100%;
+		background-color:#504B48
+}
+.box16 {        position:fixed;
+        left:0px;
+        top:23px;
+		z-index:4;
+	width: 100%;
+background-color:#2F302F 
+}
+.popup01 {        position:absolute;
+        left:624px;
+		z-index:4;
+}
+.boxtoalink {        position:absolute;
+        left:624px;
+		z-index:4;
+}
+.boxpdf {        position:absolute;
+        left:624px;
+        top:220px;
+		z-index:4;
+}
+
+.box01 { 
+		position: static;
+		top: 20%;
+		left: 20%;
+}		
+.pop {position:absolute;
+        left:-62px;
+		z-index:4;
+}
+
+#horizon        
+	{
+	text-align: center;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 1px;
+	overflow: visible;
+	visibility: visible;
+	display: block
+	}
+
+#content    
+	{
+	margin-left: -485px;
+	position: absolute;
+	top: 0px;
+	left: 50%;
+	width: 250px;
+	height: 70px;
+	visibility: visible;
+
+		}
+#treat    
+	{
+	margin-left: -610px;
+	position: absolute;
+	top: 379px;
+	left: 50%;
+	width: 1220px;
+	height: 640px;
+	visibility: hidden;
+	z-index: 5;
+		}
+.bottibody {color: #111111; font-size: 13px; line-height: 19px; font-family: Verdana, Arial, Helvetica, sans-serif
+	}
+.bottibody2 {color: #ffffff; font-size: 11px; line-height: 16px; font-family: Verdana, Arial, Helvetica, sans-serif
+	}
+.bottiblock {
+	color: #2D2D2D;
+	font-size: 15px;
+	line-height: 19px;
+	/*font-family: Georgia, "Times New Roman", Times, serif;*/
+	font-family: Times New Roman, Times, serif;
+	font-style: italic;
+	}
+.bottiblockplain {
+	color: #2D2D2D;
+	font-size: 15px;
+	line-height: 19px;
+	/*font-family: Georgia, "Times New Roman", Times, serif;*/
+	font-family:   Times New Roman, Times, serif;
+	font-style: normal;
+	}
+.bottiblock {
+	color: #2D2D2D;
+	font-size: 15px;
+	line-height: 19px;
+	/*font-family: Georgia, "Times New Roman", Times, serif;*/
+	font-family: Times New Roman, Times, serif;
+	font-style: italic;
+	}
+.bottiblockplain {
+	color: #2D2D2D;
+	font-size: 15px;
+	line-height: 19px;
+	/*font-family: Georgia, "Times New Roman", Times, serif;*/
+	font-family:   Times New Roman, Times, serif;
+	font-style: normal;
+	}
+.bottiblockiii {
+	color: #2D2D2D;
+	font-size: 14px;
+	line-height: 18px;
+	/*font-family: Georgia, "Times New Roman", Times, serif;*/
+	font-family: Times New Roman, Times, serif;
+	font-style: italic;
+	}
+.bottiblockplainiii {
+	color: #2D2D2D;
+	font-size: 14px;
+	line-height: 18px;
+	/*font-family: Georgia, "Times New Roman", Times, serif;*/
+	font-family:   Times New Roman, Times, serif;
+	font-style: normal;
+	}
+.bottiblockhead {
+	color: #2D2D2D;
+	font-size: 20px;
+	line-height: 18px;
+	/*font-family: Georgia, "Times New Roman", Times, serif;*/
+	font-family: Times New Roman, Times, serif;
+	font-style: italic;
+	}
+.bottismall {
+	color: #333333;
+	font-size: 9px;
+	line-height: 14px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-style: normal;
+	}
+.head { color: #222222; font-size: 15px; line-height: 19px; font-family: Verdana, Arial, Helvetica, sans-serif
+	}
+.halfer { color: #ffffff; font-size: 6px; line-height: 6px; font-family: Verdana, Arial, Helvetica, sans-serif
+	}
+a:link {
+        color:#1233FF;
+        text-decoration:none;
+    }
+ a:active { 
+		color:#1233FF;
+        text-decoration:none;
+	}
+a:visited {
+		color:#1233FF;
+        text-decoration:none;
+	}
+a:hover {
+		color:#1233FF;
+        text-decoration:none;
+	}
+.bottibody2 a:link {
+        color:#aaaaaa;
+        text-decoration:none;
+    }
+ .bottibody2 a:active { 
+		color:#aaaaaa;
+        text-decoration:none;
+	}
+.bottibody2 a:visited {
+		color:#aaaaaa;
+        text-decoration:none;
+	}
+.bottibody2 a:hover {
+		color:#ffffff;
+        text-decoration:none;
+	}
+.box141 {	position:absolute;
+	left:0px;
+	top:0px;
+}
+.intro {position:absolute;
+        left:0px;
+        width:600px;
+		z-index:2;
+text-align:center;
+font-family:"Times New Roman", Times, serif;
+color: #111111; font-size: 17px;
+line-height: 20px;
+}
+.bottiblockbig {
+	color: #111111;
+	font-size: 16px;
+	line-height: 23px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-style: italic;
+}
+.bottiblockbigplain {
+	color: #111111;
+	font-size: 16px;
+	line-height: 23px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-style: normal;
+}
+.boxtextplain{
+font-family:"Times New Roman", Times, serif;
+color: #000000; font-size: 18px;
+line-height: 22px;
+font-style:normal
+}
+.boxtextbig{
+font-family:"Times New Roman", Times, serif;
+color: #000000; font-size: 23px;
+line-height: 23px;
+font-style:italic;
+}
+.boxtext{
+font-family:"Times New Roman", Times, serif;
+color: #000000; font-size: 18px;
+line-height: 22px;
+font-style:italic;
+
+
+}
+
+.bottiblock a:link {
+        color:#275286;
+        text-decoration:none;
+    }
+ .bottiblock a:active { 
+		color:#275286;
+        text-decoration:none;
+	}
+.bottiblock a:visited {
+		color:#275286;
+        text-decoration:none;
+	}
+.bottiblock a:hover {
+		color:#275286;
+        text-decoration:none;
+	}
+
+.bottiblockplain a:link {
+        color:#000000;
+        text-decoration:none;
+    }
+ .bottiblockplain a:active { 
+		color:#000000;
+        text-decoration:none;
+	}
+.bottiblockplain a:visited {
+		color:#000000;
+        text-decoration:none;
+	}
+.bottiblockplain a:hover {
+		color:#000000;
+        text-decoration:none;
+	}
+
+.bottismall a:link {
+        color:#000000;
+        text-decoration:none;
+    }
+ .bottismall a:active { 
+		color:#000000;
+        text-decoration:none;
+	}
+.bottismall a:visited {
+		color:#000000;
+        text-decoration:none;
+	}
+.bottismall a:hover {
+		color:#000000;
+        text-decoration:none;
+	}
+
+.halfer a:link {
+        color:#000000;
+        text-decoration:none;
+    }
+ .halfer a:active { 
+		color:#000000;
+        text-decoration:none;
+	}
+.halfer a:visited {
+		color:#000000;
+        text-decoration:none;
+	}
+.halfer a:hover {
+		color:#000000;
+        text-decoration:none;
+	}
+.twit {
+		position: fixed;
+        top: 2px;
+        left: 810px;
+		z-index: 7;
+		
+}
+.emil{
+		position: fixed;
+        top: 4px;
+        left: 876px;
+		z-index: 7;
+		
+}
+.fbok{
+		position: fixed;
+        top: 2px;
+        left: 916px;
+		z-index: 7;
+		width: 48px;
+		overflow:hidden;
+}
+
+.eng
+ { visibility:hidden;
+   position:absolute;
+   left:302px;
+   width:320px;
+ }
+.ger
+ { visibility:visible;
+   position:absolute;
+   left:312px;
+   width:300px;
+ }
+
+
+
+
+
+-->
+</style>
+
+
+<script language="JavaScript" type="text/JavaScript">
+<!--
+//rollovers for menus
+
+function overlaytreat() {
+        el = document.getElementById("treat");
+        el.style.visibility ="visible";
+		noverlay();
+		noverlayu();
+		noverlayv();
+		noverlayx();
+}
+
+function noverlaytreat() {
+        el = document.getElementById("treat");
+        el.style.visibility ="hidden";
+}
+
+
+
+
+function overlay() {
+        el = document.getElementById("hideme");
+        el.style.visibility ="visible";
+		noverlayu();
+		noverlayv();
+		noverlayx();
+}
+
+function noverlay() {
+        el = document.getElementById("hideme");
+        el.style.visibility ="hidden";
+}
+
+
+function overlayu() {
+        el = document.getElementById("hidemeu");
+        el.style.visibility ="visible";
+		noverlay();
+		noverlayv();
+		noverlayx();
+}
+function noverlayu() {
+        el = document.getElementById("hidemeu");
+        el.style.visibility ="hidden";
+}
+
+
+function overlayv() {
+        el = document.getElementById("hidemev");
+        el.style.visibility ="visible";
+		noverlay();
+		noverlayu();
+		noverlayx();
+}
+function noverlayv() {
+        el = document.getElementById("hidemev");
+        el.style.visibility ="hidden";
+}
+
+
+function overlayx() {
+        el = document.getElementById("hidemex");
+        el.style.visibility ="visible";
+		noverlay();
+		noverlayu();
+		noverlayv();
+}
+function noverlayx() {
+        el = document.getElementById("hidemex");
+        el.style.visibility ="hidden";
+}
+function showvid() {
+        el = document.getElementById("thevid");
+        el.style.visibility ="visible";
+		noverlayu();
+		noverlayv();
+        PlayIt(document.movie1);
+}
+
+function hidevid() {
+        StopIt(document.movie1);
+		el = document.getElementById("thevid");
+        el.style.visibility ="hidden";
+
+
+}
+/* a javascript function that takes a QT movie and calls its "Play" method */
+        function PlayIt(anObj)
+        {
+                anObj.Play();
+        }
+        /* a javascript function that takes a QT movie and calls its "Stop" method */
+        function StopIt(anObj)
+        {
+                anObj.Stop();
+        }
+
+
+
+function sesame() {
+window.moveTo(0,0);        
+window.resizeTo(1350,screen.height);
+}
+
+
+window.onload=function()
+{
+	//sesame();
+    //StopIt(document.movie1);
+	noverlay();
+	noverlayu();
+	MM_preloadImages('../home/image/vc_home_nav_02.png','../home/image/vc_home_nav_03.png','../home/image/vc_home_nav_04.png','../home/image/vc_home_nav_05.png','../home/image/vc_home_nav_06.png','../home/image/vc_home_nav_07.png','../home/image/vc_home_nav_08.png','../home/image/vc_home_nav_09.png','../home/image/vc_home_nav_10.png','../home/image/vc_units_nav_01.png','../home/image/vc_units_nav_02.png','../home/image/essay_icon_jes02','image/anp2_nav_01.png','image/anp2_nav_02.png','image/anp2_nav_i_01.png','image/anp2_nav_i_02.png','image/anp2_nav_i_03.png','image/anp2_nav_i_04.png','image/anp2_nav_i_05.png','image/anp2_nav_i_06.png','image/anp2_essay_nav_01.gif','image/anp2_essay_nav_02.gif','image/anp2_essay_nav_03.gif','image/anp2_essay_nav_04.gif','image/anp2_essay_nav_05.gif','image/anp2_essay_nav_06.gif','image/anp2_gal_b.gif','image/essay_top.gif','../tokyo_1960/image/anp1_but02.png','image/anp2_nav_ii_01.png','image/anp2_nav_ii_02.png');
+}
+var newwindow = '';
+
+function imalert(url)
+{
+	if (!newwindow.closed && newwindow.location)
+	{
+		newwindow.location.href = url;
+	}
+	else
+	{
+		newwindow=window.open(url,'windowtwo','height=360,width=586, toolbar=no,  resizable=yes, status=no, scrollbars=yes');
+		if (!newwindow.opener) newwindow.opener = self;
+	}
+	if (window.focus) {newwindow.focus()}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//
+var vcidwindow = '';
+
+function openvcidwindow(url)
+{
+	if (!vcidwindow.closed && vcidwindow.location)
+	{
+		vcidwindow.location.href = url;
+	}
+	else
+	{
+		vcidwindow=window.open(url,'vcid','height=1000,width=1256, toolbar=yes, scrollbars=yes, resizable=yes, location=yes');
+		if (!vcidwindow.opener) vcidwindow.opener = self;
+	}
+	if (window.focus) {vcidwindow.focus()
+	}
+	} 
+
+
+
+ var curwindow = '';
+
+function opencurwindow(url)
+{
+	if (!curwindow.closed && curwindow.location)
+	{
+		curwindow.location.href = url;
+	}
+	else
+	{
+		curwindow=window.open(url,'curriculum','height=800,width=720, toolbar=yes, scrollbars=yes, resizable=yes,  location=yes');
+		if (!curwindow.opener) curwindow.opener = self;
+	}
+	if (window.focus) {curwindow.focus()
+	}
+	} 
+
+
+function decider(){
+ el = document.getElementById("thevid");
+
+if(el.style.visibility =="visible") {
+hidevid()
+} else {
+showvid()
+}
+}
+
+
+function german(){
+ el = document.getElementById("eng");
+
+if(el.style.visibility =="visible") {
+makger()
+} else {
+makeng()
+}
+}
+
+
+function makeng(){
+ el = document.getElementById("ger");
+ el.style.visibility ="hidden";
+ el = document.getElementById("eng");
+ el.style.visibility ="visible";
+}
+
+function makger(){
+ el = document.getElementById("ger");
+ el.style.visibility ="visible";
+ el = document.getElementById("eng");
+ el.style.visibility ="hidden";
+}
+//-->
+</script>
+<script type="text/javascript">
+<!--
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." :
+"http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost +
+"google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+//-->
+</script>
+<script type="text/javascript">
+<!--
+try {
+var pageTracker = _gat._getTracker("UA-12446158-1");
+pageTracker._trackPageview();
+} catch(err) {}
+//-->
+</script></head>
+<body bgcolor="#252422" >
+<div  id="horizon">
+<!--<div  id="treat"><a href="javascript:noverlaytreat();" onmouseout="noverlaytreat();" onmouseover="overlaytreat();"><img  alt="MIT Visualizing Cultures"  title="" border="0"  src="image/g_1846_TreatyNanking_B79155.jpg" width="1220" height="480" /><br />
+<img  alt="MIT Visualizing Cultures"  title="" border="0"  src="image/shad.png" width="1220" height="44" /></a></div> -->
+<div  id="content">
+<!--background elements -->
+<div class="backg"><table width="970" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    
+    <td width="970" >
+
+	  	
+<table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="20">&nbsp;</td>
+    <td width="582" align="left" class="bottibody"><span class="bottismall"><br />
+          <br />
+      </span><strong><br />
+      SITES OF PROTEST</strong><span class="bottismall"><br />
+      <br />
+      </span>
+      Hamaya&rsquo;s photographs of the Anpo protests form a unique record shaped by his style as a photographer, his understanding of the protests, and his literal positioning in relation to the events he was photographing. By all accounts he began covering the protests out of a sense of solidarity with the protestors and an awareness that he was living through a historical moment.<span class="bottismall"><a href="anp2_essay06.html#n22"> [22]</a></span> His afterword to the published Japanese selection of his photos of the demonstrations is a heartfelt indictment of factionalism and money politics and a defense of the student protestors&mdash;whom many others criticized for their extremism&mdash;as a natural outcome of government that excludes the voice of the people. &ldquo;It wasn&rsquo;t international communism that created the students the government saw as enemies, but Japanese politics and the institutionalized violence <em>(b&#333;ryokushugi)</em> among Japan&rsquo;s politicians.&rdquo;<br />
+      <br /></td> 
+    <td width="20">&nbsp;</td></tr></table>
+	  
+      <table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+   
+    <td width="350" rowspan="2" align="left" valign="top"  ><a href="javascript:openvcidwindow('hamaya/pages/anp7007_Hamaya_RGd_07June3.htm');"><img  src="image/anp7007_Hamaya_RGd_07Ju4277.jpg"  alt="MIT Visualizing Cultures" width="350" height="528" border="0" align="left"  title="" /></a></td>
+    <td width="272" align="left" valign="top" class="bottibody"  ><img  alt="MIT Visualizing Cultures"  title="" border="0"  src="image/spacer.gif" width="20" height="200"  align="left"/><img  alt="MIT Visualizing Cultures"  title="" border="0"  src="image/spacer.gif" width="20" height="200"  align="right"/>It was these convictions that drove Hamaya to follow the protests with such energy. He demonstrates a preternatural ability to be present at their most intense moments, and as the protests grew he got ever more caught up in their trajectory, often not returning home.</td> 
+ </tr>
+  <tr>
+    <td align="center" valign="middle" class="bottiblock"  ><img  alt="MIT Visualizing Cultures"  title="" border="0"  src="image/spacer.gif" width="20" height="260"  align="left"/><img  alt="MIT Visualizing Cultures"  title="" border="0"  src="image/spacer.gif" width="20" height="260"  align="right"/>During the protests, Hamaya was assisted by Kurihara Tatsuo, a student at Waseda University and member of the photo club. Kurihara introduced Hamaya to some of the leaders of the radical student organization Zengakuren. The photo to the left is probably at Waseda, inside Zengakuren offices. The banner on the ceiling is from a labor union congratulating the students on the recent release of nine of their members from police custody. Below, students gather at Waseda University on June 3.<span class="bottismall"><br /> 
+<br />
+[anp7007]  [anp7002]<br /><br /></span></td>
+  </tr>
+</table>
+<table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+          <td align="center" valign="middle" class="bottismall"  ><br />
+            <a href="javascript:openvcidwindow('hamaya/pages/anp7002_Hamaya_RGd_02June3.htm');"><img  src="image/anp7002_Hamaya_RGd_02Ju4279.jpg"  alt="MIT Visualizing Cultures" width="622" height="384" border="0" align="left"  title="" /></a></td>
+	   </tr>
+</table>
+      <table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="20">&nbsp;</td>
+    <td width="582" align="left" class="bottibody"><br />
+      The events that Hamaya covered in May and June correspond to the major episodes that feature in most histories of the protests. He begins with a student demonstration on May 20, the day after Kishi&rsquo;s actions in the parliament, a day that saw many protests. He follows the marches, rallies, and signature campaigns that were part of the People&rsquo;s Council&rsquo;s united actions. He was on the scene at Haneda Airport on June 10, when Eisenhower&rsquo;s press secretary James Hagerty was mobbed by protestors and trapped for almost an hour inside his car. He records moments from the three nationwide general strikes of June 4, June 15, and June 22.<br />
+        <br />
+            Hayama&rsquo;s devotion to recording the experience of the protestors is most evident in his proximity to the turbulent events of June 15. The protests on this day were some of the largest and most violent. Students of Zengakuren broke into the Diet compound through the south gate, clashing with police many times in the process. Hamaya remained through the entire confrontation, capturing a moment that was to become a great turning point in the protests.<br /><br />
+              In the days following, he was attendant at the mourning ceremonies for Kanba Michiko, a female student who was killed in the clashes of the 15th. Scenes of mourning for her blend into dispirited reactions when the treaty passed into law on June 19. But Hamaya ends his account on an upbeat note, with the general strike on June 22, where he shows how the spirit of democratic struggle had not been extinguished. <br />
+          <br />One of the recurrent tactics of the protestors was to insert themselves into places where their presence would disrupt the forces that lay behind the Anpo treaty. In many of these places Hamaya&rsquo;s photographs portray the protestors tearing down gates and scaling walls, refusing to be held by barriers to participation. The most startling example of protestors inserting themselves into places and processes they were never invited to was during Press Secretary Hagerty&rsquo;s visit to Japan.<br />
+      <br />
+         
+        </td>
+    <td width="20">&nbsp;</td>
+  </tr>
+</table>
+<table width="622" border="0" cellspacing="0" cellpadding="0" bgcolor="#C2C2C2">
+  <tr>
+    <td width="66">&nbsp;</td>
+    <td width="490" align="center" valign="top" class="bottiblock">
+      <span class="boxtextbig"><br />The Hagerty Incident</span>      <span class="bottismall"><br/>
+      <br/> 
+      </span><span class="bottiblockbig">On June 10, President Eisenhower&rsquo;s press secretary James Hagerty arrived to work out plans for the president&rsquo;s upcoming visit to celebrate the revised security treaty coming into effect. While attempting to leave the airport at Haneda to go to the U.S. embassy, Hagerty&rsquo;s car was mobbed by protestors and he had to be rescued by a Marine helicopter.</span><span class="bottismall"><br />
+      <br />
+      </span>      <span class="bottiblockbig">This incident alarmed official Washington and led the Kishi government to cancel Eisenhower&rsquo;s visit out of fear that it might be marred by similar protests. This humiliating turn of events did not prevent the treaty from coming into effect, but it did prompt Kishi&rsquo;s June 19 resignation as prime minister.<br />
+      <br />
+      </span></td>
+    <td width="66">&nbsp;</td>
+  </tr>
+</table>
+
+<table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+   
+    <td width="352" align="right" valign="top"   bgcolor="#C2C2C2" class="bottibody" ><a href="javascript:openvcidwindow('hamaya/pages/anp7129_Hamaya_RG29_Jun10.htm');">
+ <img  src="image/anp7129_Hamaya_RG29_Jun4781.jpg"  alt="MIT Visualizing Cultures" width="352" height="523" border="0" align="top"  title="" /></a><br />
+      <br />
+    </td>
+    <td width="270" align="center" valign="middle" class="bottiblock"    bgcolor="#C2C2C2" >
+      <img  alt="MIT Visualizing Cultures"  title="" border="0"  src="image/spacer.gif" width="20" height="100"  align="left"/><img  alt="MIT Visualizing Cultures"  title="" border="0"  src="image/spacer.gif" width="20" height="100"  align="right"/>Hagerty confers with his aides.     <span class="bottismall"><br /> 
+<br />
+[anp7129]<br /><br /></span></td> 
+    
+ </tr>
+</table>
+<table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+          <td align="center" valign="top" class="bottismall"   bgcolor="#C2C2C2"><a href="javascript:openvcidwindow('hamaya/pages/anp7131_Hamaya_RG31*_Jun10.htm');"><img  src="image/anp7131_Hamaya_RG31-_Ju4739.jpg"  alt="MIT Visualizing Cultures" width="622" height="413" border="0"  title="" /></a></td>
+  </tr>
+</table>
+<table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="66" align="left" valign="top"  bgcolor="#C2C2C2" >&nbsp;</td>
+    <td width="490" align="center" valign="top" class="bottiblock"  bgcolor="#C2C2C2"><span class="halfer"><br />
+</span>The crowd surrounds Hagerty&rsquo;s limousine and prevents it from moving.<br />
+      The &ldquo;Break Down Lower House&rdquo; banner in the foreground (displayed by a day-laborer union from Tokyo&rsquo;s Shibuya ward) is an appeal for dissolution of the Diet. This would have prevented the ratification of the security treaty that Kishi rammed through the parliament on May 19 from automatically going into effect.<span class="bottismall"><br /><br />
+[anp7131]<br /><br /></span></td>
+    <td width="66" align="right" valign="top" bgcolor="#C2C2C2" >&nbsp;</td>
+  </tr>
+</table>
+<table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+          <td align="center" valign="top" class="bottismall"   bgcolor="#C2C2C2"><a href="javascript:openvcidwindow('hamaya/pages/anp7132_Hamaya_RG32_Jun10.htm');"><img  src="image/anp7132_Hamaya_RG32_Jun4740.jpg"  alt="MIT Visualizing Cultures" width="622" height="422" border="0"  title="" /></a></td>
+  </tr>
+</table>
+<table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="66" align="left" valign="top"  bgcolor="#C2C2C2" >&nbsp;</td>
+    <td width="490" align="center" valign="top" class="bottiblock"  bgcolor="#C2C2C2"><span class="halfer"><br />
+</span>Eisenhower&rsquo;s envoys are rescued by a U.S. Marine helicopter after being immobilized by the mob for almost an hour.<span class="bottismall"><br />
+<br />
+[anp7132]<br /><br /></span></td>
+    <td width="66" align="right" valign="top" bgcolor="#C2C2C2" >&nbsp;</td>
+  </tr>
+</table>
+<table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+   
+    <td width="242" align="center" valign="middle" class="bottiblock"    bgcolor="#C2C2C2" >
+      <img  alt="MIT Visualizing Cultures"  title="" border="0"  src="image/spacer.gif" width="20" height="260"  align="left"/><img  alt="MIT Visualizing Cultures"  title="" border="0"  src="image/spacer.gif" width="20" height="260"  align="right"/>The protestors at Haneda were joined by a conspicuously smaller contingent of conservative and right-wing counter-protestors waving American and Japanese flags as well as signs of welcome. Both sides were acutely aware of the international press coverage Hagerty&rsquo;s visit was attracting, and used English as well as Japanese in their placards and banners.   
+      <br />
+      <br />
+      Protestors urge Hagerty<br />
+      to &ldquo;go away.&rdquo; <span class="bottismall"><br /> 
+<br />
+[anp7126]
+      </span></td> 
+    <td width="380" align="left" valign="top"    bgcolor="#C2C2C2" ><a href="javascript:openvcidwindow('hamaya/pages/anp7126_Hamaya_RG26_Jun10.htm');"><img  src="image/anp7126_Hamaya_RG26_Jun4729.jpg"  alt="MIT Visualizing Cultures" width="350" height="518" border="0" align="left"  title="" /></a></td>
+ </tr>
+</table>
+<table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+   
+    <td width="350" align="right" valign="top"   bgcolor="#C2C2C2" ><a href="javascript:openvcidwindow('hamaya/pages/anp7016_Hamaya_RGd_16June10.htm');"><br />
+      <img  src="image/anp7016_Hamaya_RGd_16Ju4731.jpg"  alt="MIT Visualizing Cultures" width="350" height="534" border="0" align="right"  title="" /><br />
+      <br />
+    </a></td>
+    <td width="272" align="center" valign="middle" class="bottiblock"    bgcolor="#C2C2C2" >
+      <img  alt="MIT Visualizing Cultures"  title="" border="0"  src="image/spacer.gif" width="20" height="100"  align="left"/><img  alt="MIT Visualizing Cultures"  title="" border="0"  src="image/spacer.gif" width="20" height="100"  align="right"/>Flag-waving supporters of the revised treaty welcome Eisenhower&rsquo;s advance party &ldquo;with open arms.&rdquo;      <span class="bottismall"><br /> 
+<br />
+[anp7016]<br /><br /></span></td> 
+    
+ </tr>
+</table>
+<table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="66" align="left" valign="top"  bgcolor="#C2C2C2" >&nbsp;</td>
+    <td width="490" align="center" valign="top" class="bottiblockbig" bgcolor="#C2C2C2" ><br />
+      On June 11, the day following the debacle at Haneda, protestors gathered at the prime minister&rsquo;s official residence, where Kishi and Hagerty were meeting. Hamaya&rsquo;s photos of this demonstration include exuberant students kicking at the graffiti-smeared wall of the compound.<span class="bottismall"><br />
+    <br /></span></td>
+    <td width="66" align="right" valign="top"bgcolor="#C2C2C2" >&nbsp;</td>
+  </tr>
+</table>
+<table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+          <td align="center" valign="middle" class="bottismall"  bgcolor="#C2C2C2"  ><a href="javascript:openvcidwindow('hamaya/pages/anp7148_Hamaya_RG48_Jun11.htm');"><img  src="image/anp7148_Hamaya_RG48_Jun4801.jpg"  alt="MIT Visualizing Cultures" width="622" height="452" border="0" align="left"  title="" /></a></td>
+	   </tr>
+</table>
+<table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="66" align="left" valign="top"  bgcolor="#C2C2C2" >&nbsp;</td>
+    <td width="490" align="center" valign="top" class="bottiblock" bgcolor="#C2C2C2" ><span class="bottismall"><br />
+[anp7148]<br /><br />
+    <br />
+</span></td>
+    <td width="66" align="right" valign="top"bgcolor="#C2C2C2" >&nbsp;</td>
+  </tr>
+</table>
+<table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="20">&nbsp;</td>
+    <td width="582" align="left" class="bottibody"><br />
+      
+      The most important focal point for demonstrations was the National Diet, whose ziggurat-like structure would figure in many photographs and artistic representations of Anpo over the decades. In Hamaya&rsquo;s photos, the Diet and its immediate surroundings appear in a number of different attitudes. Although the house of Japan&rsquo;s representative democracy, in one photo it rises behind a wall formed by police trucks with wooden barriers attached to them. Framed on a slight angle, the seat of Japanese democracy appears to have been knocked off balance. In another photo, taken from a similar position, the space in the foreground has been filled with a group of protestors sitting down, apparently listening to a speech off-camera. The Diet stands straight at the exact center of the background as if this is its proper place, surrounded and protected by the people.<br /><br /></td>
+    <td width="20">&nbsp;</td>
+  </tr>
+</table>
+<table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+          <td align="center" valign="middle" class="bottismall"  ><a href="javascript:openvcidwindow('hamaya/pages/anp7133_Hamaya_RG33_Jun11.htm');"><img  src="image/anp7133_Hamaya_RG33_Jun5062.jpg"  alt="MIT Visualizing Cultures" width="622" height="419" border="0" align="left"  title="" /></a></td>
+	   </tr>
+</table>
+<table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="66" align="left" valign="top" >&nbsp;</td>
+    <td width="490" align="center" valign="top" class="bottiblock"><span class="halfer"><br /></span>
+      In this photo of the Diet building blockaded by police trucks with wooden barriers attached to them, Hamaya&rsquo;s slightly off-balance composition conveys a deliberate sense of democratic disequilibrium.<span class="bottismall"><br />
+      <br />
+[anp7133]<br />
+<br />
+<br />
+</span></td>
+    <td width="66" align="right" valign="top">&nbsp;</td>
+  </tr>
+</table>
+<table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+   
+   
+    <td width="272" align="left" valign="top" class="bottibody"  ><img  alt="MIT Visualizing Cultures"  title="" border="0"  src="image/spacer.gif" width="20" height="360"  align="left"/><img  alt="MIT Visualizing Cultures"  title="" border="0"  src="image/spacer.gif" width="16" height="360"  align="right"/>This photograph  illustrates two consistent features of Hamaya&rsquo;s technical and stylistic approach: his framing of crowds so that they overrun the picture frame, and his use of deep focus. Framing the images this way makes it difficult to judge a crowd&rsquo;s size, and raises questions about how the group relates to the spaces around it. Deep focus, which keeps all planes in focus from foreground to background, captures the size of some  crowds, and allows the viewer to pick out  individuals;  the crowd appears as a collection rather than an undifferentiated mass.</td> <td width="350" rowspan="2" align="left" valign="top"  ><a href="javascript:openvcidwindow('hamaya/pages/anp7104_Hamaya_RG04_May26.htm');"><img  src="image/anp7104_Hamaya_RG04_May5065.jpg"  alt="MIT Visualizing Cultures" width="350" height="524" border="0" align="left"  title="" /></a></td> 
+ </tr>
+  <tr>
+    <td align="center" valign="middle" class="bottiblock"  ><img  alt="MIT Visualizing Cultures"  title="" border="0"  src="image/spacer.gif" width="20" height="100"  align="left"/><img  alt="MIT Visualizing Cultures"  title="" border="0"  src="image/spacer.gif" width="20" height="100"  align="right"/>A crowd of protestors listening to a speech sits squarely in front of the<br />
+      Diet building, as if they were its democratic defenders. The banner on the left indicates that they are members of the Communist Party.<span class="bottismall"><br /> 
+<br />
+[anp7104]<br /><br /></span></td>
+  </tr>
+</table>
+<table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="20">&nbsp;</td>
+    <td width="582" align="left" class="bottibody"><br />
+One can see Hamaya&rsquo;s decision working clearly by comparing two versions of a shot in which a group parades down one of the main thoroughfares of the Ginza, Tokyo&rsquo;s upscale shopping district. If we compare the original shot with the one that Hamaya included in his photo book, we can see how his cropping of the picture has reframed it significantly. While the un-cropped picture simply shows a crowd walking down a street in the Ginza, in the cropped picture the crowd itself defines the ground, unmooring the lights in the background so that they seem to stand on a sea of people. More often than not, the people in Hamaya&rsquo;s photos are not attacking barriers, but simply taking over the space they have chosen to occupy. The crowds of people become the center of attention, and simply in their overwhelming presence they redefine the space&rsquo;s functioning.<br />
+      <br /></td> 
+    <td width="20">&nbsp;</td></tr></table>
+	  
+      <table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+   
+    <td width="300" align="right" valign="top"  ><a href="javascript:openvcidwindow('hamaya/pages/anp7121_Hamaya_RG21_Jun3.htm');"><img  src="image/anp7121_Hamaya_RG21_Jun3423.jpg"  alt="MIT Visualizing Cultures" width="269" height="381" border="0"  title="" /></a></td>
+    <td width="322" align="center" valign="middle" class="bottiblock"  ><img  alt="MIT Visualizing Cultures"  title="" border="0"  src="image/spacer.gif" width="20" height="100"  align="left"/><img  alt="MIT Visualizing Cultures"  title="" border="0"  src="image/spacer.gif" width="20" height="100"  align="right"/>As seen in this juxtaposition, the powerful impact of Hamaya's images often reflected his skill at cropping photos in a manner that emphasized the presence of the crowds. <span class="bottismall"><br />
+        <br />
+    </span>left: Original photograph<br />
+below: Cropped version<span class="bottismall"><br /> 
+<br />
+[anp7121]<br />
+<br />
+ <br />
+      </span></td> 
+ </tr>
+</table>
+<table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+          <td align="center" valign="middle" class="bottismall"  ><br />
+            <a href="javascript:openvcidwindow('hamaya/pages/anp7121_Hamaya_RG21_Jun3.htm');"><img  src="image/anp7121b_Hamaya_RG21_Ju3418.jpg"  alt="MIT Visualizing Cultures" width="622" height="460" border="0" align="left"  title="" /></a></td>
+	   </tr>
+</table>
+
+<table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="20">&nbsp;</td>
+    <td width="582" align="left" class="bottibody"><br />
+If people from all walks of life came into familiar spaces to complicate them with their presence, the protests also went the other way, infiltrating the more mundane spaces of daily life. During the three general strikes of June, people all over the country participated in political movements from their workplaces. Workers at Tokyo&rsquo;s central post office threw paper out of the windows, almost like tickertape,  and the caption in Hamaya&rsquo;s book tells us that there was a crowd of protestors below them. The protests were not only on the street, but also at offices, shops, and train stations. The strikes were particularly significant because they did not include any labor demands; they were purely out of sympathy with the demands of the protests. The main industrial unions were joined by large numbers of small shop owners who also decided to shut down.<br />
+      <br /><br />
+</td> 
+    <td width="20">&nbsp;</td></tr></table>
+	  
+      <table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+   
+    <td width="350" align="right" valign="top"  ><a href="javascript:openvcidwindow('hamaya/pages/anp7124_Hamaya_RG24_Jun4.htm');"><img  src="image/anp7124_Hamaya_RG24_Jun5075.jpg"  alt="MIT Visualizing Cultures" width="350" height="546" border="0"  title="" /></a></td>
+    <td width="272" align="center" valign="middle" class="bottiblock"  ><img  alt="MIT Visualizing Cultures"  title="" border="0"  src="image/spacer.gif" width="20" height="450"  align="left"/><img  alt="MIT Visualizing Cultures"  title="" border="0"  src="image/spacer.gif" width="20" height="450"  align="right"/>left: On June 4, workers at Tokyo&rsquo;s central post office  throw paper out of the windows in support of the protests. This was the first of three general strikes that month.<span class="bottismall"><br /> 
+<br />
+[anp7124]<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+</span><span class="bottiblock">below: Shopkeepers showed solidarity with strikers and protestors by shutting down their businesses. Here, a group of shopkeepers march on June 18.</span><span class="bottismall"><br />
+<br />
+[anp7051]<br />
+ <br />
+      </span></td> 
+ </tr>
+</table>
+<table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+          <td align="center" valign="middle" class="bottismall"  ><br />
+            <a href="javascript:openvcidwindow('hamaya/pages/anp7051_Hamaya_RGd_50June18.htm');"><img  src="image/anp7051_Hamaya_RGd_50Ju5074.jpg"  alt="MIT Visualizing Cultures" width="622" height="386" border="0" align="left"  title="" /></a></td>
+	   </tr>
+</table>
+
+<table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="20">&nbsp;</td>
+    <td width="582" align="left" class="bottibody"><br />
+      In one photo, youngsters on the way to school stop to add their signatures to a petition against the treaty. Thus, while the Anpo protests were fought over fundamental issues of democracy, international alignment, and peace, they reached deep into the everyday places where people lived their lives. They were  both an expression of, and a forum for, people&rsquo;s understanding of how these issues touched their own lives.<br />
+      <br /></td>
+    <td width="20">&nbsp;</td>
+  </tr>
+</table>
+<table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+          <td align="center" valign="middle" class="bottismall"  ><a href="javascript:openvcidwindow('hamaya/pages/anp7135_Hamaya_RG35_Jun11.htm');"><img  src="image/anp7135_Hamaya_RG35_Jun5072.jpg"  alt="MIT Visualizing Cultures" width="622" height="405" border="0" align="left"  title="" /></a></td>
+	   </tr>
+</table>
+<table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="66" align="left" valign="top" >&nbsp;</td>
+    <td width="490" align="center" valign="top" class="bottiblock"><span 
+	class="halfer"><br /></span>
+      Schoolchildren add their names to a signature campaign against the treaty.<span class="bottismall"><br />
+      <br />
+[anp7135]</span></td>
+    <td width="66" align="right" valign="top">&nbsp;</td>
+  </tr>
+</table>
+<table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+
+    <td width="20">&nbsp;</td>
+    <td width="582" align="left" valign="top" class="bottibody"><br />
+<br />
+<br />
+<img src="../home/image/redline.gif" width="570" height="1"  alt="MIT Visualizing Cultures" title=""/><br/><br/>                
+<table width="582" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="3" class="bottismall" ><a href="javascript:imalert('../home/about.html')"><em>On viewing images of a potentially disturbing nature: click here.</em></a><br />
+<br /></td></tr><tr>
+  <td  width="350" align="left" valign="middle" class="bottismall" >Massachusetts Institute of Technology &#169; 2012 Visualizing Cultures
+                </td> 
+  <td  width="152" align="right" valign="middle" class="bottismall" > &nbsp;<a href="http://creativecommons.org/licenses/by-nc-sa/3.0/us/" target="_blank">Creative Commons License</a>&nbsp;&nbsp;
+              
+</td><td  align="left" valign="top" width="80" class="bottismall" ><a rel="license"
+ href="http://creativecommons.org/licenses/by-nc-sa/3.0/us/" target="_blank" ><img src="http://visualizingcultures.mit.edu/home/image/cc.png" alt="Creative Commons - some rights reserved" width="80" height="15" border="0" align="left" /></a></td>
+
+
+    </tr><tr><td colspan="3" class="bottismall" ><br />
+<br /></td></tr></table>
+               
+          </td>
+    <td width="20">&nbsp;</td>
+  </tr>
+</table></td>
+        </tr>
+ <tr>
+          <td align="left" valign="top"><div class="bottom"><img src="image/essay_bottom.gif"  alt="MIT Visualizing Cultures" width="970" height="136" border="0" align="left" title=""/></div>
+<div class="essaynavbottom">
+  <table width="622" border="0" cellspacing="0" cellpadding="0" align="left">
+  <tr align="left">
+    <td align="left" width="105"><img src="image/anp2_essay_nav_03.gif"  alt="Tokyo 1960: Days of Rage &amp; Grief" name="nav01b" width="622" height="58" border="0" usemap="#Map5" id="nav01b" title=""/></td>
+  </tr>
+</table>
+</div></td>
+      </tr>
+
+
+	  </table>
+</div>
+<div class="top"><img src="image/essay_top.gif"  alt="MIT Visualizing Cultures" width="970" height="136" border="0" align="left" title=""/></div>
+
+<!--end background elements -->
+
+<!-- essay nav -->
+<div class="essaynavtop"><table width="622" border="0" cellspacing="0" cellpadding="0" align="left">
+  <tr align="left">
+    <td align="left" width="105"><img src="image/anp2_essay_nav_03.gif"  alt="Tokyo 1960: Days of Rage &amp; Grief" name="nav01" width="622" height="58" border="0" usemap="#Map4" id="nav01" title=""/></td>
+  </tr>
+</table>
+</div>
+
+
+<!-- end essay nav -->
+
+<!-- <div class="slug" id="slug"><span class="bottibody2">Massachusetts Institute of Technology &#169; 2010 Visualizing Cultures</span></div> -->
+
+
+<!-- right-hand buttons -->
+
+
+<!-- <div class="boxtoalink" id="boxtoalink"><a href="javascript:alert('Sorry, this unit is unavailable in this demonstration.')" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image11','','../home/image/go_toa02.gif',1);noverlay();noverlayv();noverlayu();"><img src="../home/image/go_toa.gif" alt="Visual Narrative" name="Image11" width="243" height="276" border="0" id="Image11" title=""/></a></div>  -->
+
+<div class="boxpdf" id="boxpdf">
+<table width="348" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="39" align="left" valign="bottom"><!--<img alt="MIT Visualizing Cultures"  title="" border="0"  src="../rise_fall_canton_01/image/cw_pop_dot.gif"  width="42" height="17" />--></td>
+    <td width="240" align="left" valign="middle"><span class="bottibody2"><a href="anp2_essay03.pdf"  target="_blank" onmouseover="noverlay();noverlayv();noverlayu();">Printer-friendly PDF of this chapter</a><br />
+<br /></span>
+</td>
+  </tr>
+</table>
+<!--
+	  <table width="348" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="39" align="left" valign="bottom">&nbsp;</td>
+    <td width="240" align="left" valign="middle">
+      <span class="bottibody2"><a href="http://upload.wikimedia.org/wikipedia/commons/f/fb/Beijing_city_wall_map.jpg" target="_blank">Wikipedia: simplified Beijing map</a><br />
+        <br />
+      <a href="http://www.davidrumsey.com/luna/servlet/detail/RUMSEY%7E8%7E1%7E21941%7E690033?qvq=w4s:/what/Atlas+Map/World+Atlas/where/Beijing+(China)/when/1860/;sort:Pub_List_No_InitialSort,Pub_Date,Pub_List_No,Series_No;lc:RUMSEY%7E8%7E1&amp;mi=0&amp;trs=1#" target="_blank">Explore a complete China map in the <br />
+        David Rumsey Historical Map Collection</a><br />
+        <br />
+        <a href="http://books.google.com/books?id=2EtCTP7v8K0C&amp;pg=PA41&amp;dq=Lillian+M.+Li,+Alison+Dray-Novey,+Haili+Kong+chapter+2&amp;hl=en&amp;sa=X&amp;ei=PuoIT9yrDsrk0QGwrZmeAg&amp;ved=0CEAQ6AEwAA#v=onepage&amp;q&amp;f=false" target="_blank">Google Books: <em>Beijing: From Imperial <br />
+        Capital to Olympic City,</em> chapter two.
+        </a><br />
+        <br />
+        
+        <a href="http://en.wikipedia.org/wiki/Eight_Banners" target="_blank">Wikipedia: read  about Manchu bannermen</a></span></td>
+	</tr></table>-->
+</div>
+
+
+
+<!--end  right-hand buttons -->
+
+
+<!-- essay -->
+<div class="essay">
+
+</div>
+<!--end  essay -->
+
+
+</div>
+</div>
+
+
+<!--top bar nav elements -->
+<div class="box14" id="box14" ><table  width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><img src="../home/image/spacer.gif" width="10" height="26"  alt="MIT Visualizing Cultures"/><img src="../home/image/hometopnav01.gif"  alt="Menu" width="227" height="26" border="0" usemap="#topmap"/></td>
+  </tr>
+</table>
+</div>
+
+<div class="box15" id="box15" ><table  width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><img src="../home/image/spacer.gif" width="10" height="27"  alt="MIT Visualizing Cultures"/></td>
+  </tr>
+</table>
+</div>
+
+<div class="navbox" id="hideme"><a  onmouseout="javascript:noverlay();" onmouseover="javascript:overlay();"><img src="../home/image/vc_home_nav.png" alt="MIT Visualizing Cultures" width="202" height="300" border="0" usemap="#Map"  id="Image5"  name="Image5" title="" /></a></div> 
+
+
+<div class="twit">
+<a href="https://twitter.com/share" class="twitter-share-button" data-count="none">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></div>
+
+<div class="emil"><!--email-->
+<script type="text/javascript"><!--
+
+var SubjectLine='MIT Visualizing Cultures'; 
+var BodyText='You can see this page at: '+top.location.href;
+
+var Message='<A CLASS=contact HREF="mailto:?SUBJECT='+escape(SubjectLine)+'&BODY='+escape(BodyText)+'" OnMouseOver="status=\'Envoyer cette page à vos amis\'; return true;" ><img src="../home/image/email2.gif" alt="Email" name="Image321"   border="0" id="Image321"  title=""/><\/A>';
+
+var MessageIE='<A CLASS=contact HREF="mailto:?SUBJECT='+(SubjectLine)+'&BODY='+(BodyText)+'" OnMouseOver="status=\'Envoyer cette page à vos amis\'; return true;" ><img src="../home/image/email2.gif" alt="Email" name="Image321"   border="0" id="Image321"  title=""/><\/A>';
+
+if(document.all) { document.write(MessageIE); }
+
+else { document.write(Message); }
+
+// http://javascriptsource.com "The JavaScript Source"
+//--></script></div>
+
+
+
+<!--facebook--><div class="fbok">
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<div class="fb-like" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false" data-colorscheme="light" data-font="verdana"></div>
+
+</div> 
+
+<div class="unitsnavbox01" id="unitsnavbox01" ><a  onmouseout="javascript:noverlayu();" onmouseover="javascript:overlayu();"><img src="../home/image/unitstopnav01.gif"  alt="Units" width="227" height="26" border="0" /></a></div>
+ 
+<div class="navboxu" id="hidemeu"><a href="#" onmouseout="javascript:noverlayu();" onmouseover="javascript:overlayu();"><img src="../home/image/vc_units_cur_nav.png" alt="MIT Visualizing Cultures" width="179" height="148" border="0" usemap="#Map3"  id="Image6"  name="Image6" title=""/></a></div> 
+
+
+<div class="xnavbox" id="xnavbox" ><a  onmouseout="javascript:noverlayx();" onmouseover="javascript:overlayx();"><img src="image/topnav.gif"  alt="Tokyo 1960: Days of Rage &amp; Grief" width="326" height="26" border="0"  title="" /></a></div>
+
+<div class="navboxx" id="hidemex"><a  onmouseout="javascript:noverlayx();" onmouseover="javascript:overlayx();"><img src="image/anp2_nav.png" alt="Tokyo 1960: Days of Rage &amp; Grief"  name="Image8" width="280" height="131" border="0" usemap="#Image8Map"   id="Image8" title="" /></a></div>
+ 
+ 
+
+
+<div class="unitnavbox" id="unitnavbox" ><a  onmouseout="javascript:noverlayv();" onmouseover="javascript:overlayv();"><img src="../home/image/essaytop.gif"  alt="Essay" width="227" height="26" border="0" title="" /></a></div>
+ 
+<div class="navboxv" id="hidemev"><a  onmouseout="javascript:noverlayv();" onmouseover="javascript:overlayv();"><img src="image/anp2_nav_i.png" alt="Essay"  name="Image7" width="200" height="230" border="0" usemap="#Image7Map"   id="Image7" title=""/>
+</a></div><!--end top bar nav elements -->
+
+
+
+<!--image maps -->
+    <map name="topmap" id="topmap">
+    <area shape="rect" coords="0,0,180,47" href="#" onmouseover="overlay();"  alt="MIT Visualizing Cultures" />
+      <area shape="rect" coords="194,0,300,47" href="#" onmouseover="overlayu();"  alt="VC Units" />
+  </map>
+    
+
+<map name="Map" id="Map">
+      <area shape="rect" coords="0,0,211,39" href="../home/index.html" onmouseover="overlay()" alt="MIT Visualizing Cultures"/>
+      <area shape="rect" coords="0,39,211,66" href="../home/vc01_about.html" target="_top"  alt="About VC" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_02.png',1)"/>      
+      <area shape="rect" coords="0,66,211,96" href="../home/vc02_schol.html" target="_top"  alt="VC Scholars" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_03.png',1)" />
+  <area shape="rect" coords="0,96,211,124" href="../home/vc03_partner.html" target="_top"  alt="Partner Institutions" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_04.png',1)" />
+
+  <area shape="rect" coords="0,124,211,147" href="../home/vc05_outreach.html" target="_top"  alt="Outreach" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_05.png',1)" />
+  <area shape="rect" coords="3,147,211,181" href="../home/vc06_event.html" target="_top"  alt="Conferences &amp; Events" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_06.png',1)" />
+  <area shape="rect" coords="3,181,211,214" href="mailto:visualizingcultures@mit.edu" target="_top"  alt="Contact" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_07.png',1)" />
+ <area shape="rect" coords="1,214,212,240" href="http://www.facebook.com/home.php#!/group.php?gid=261831254970&amp;ref=ts" target="_blank"  alt="Join Us" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_08.png',1)" />
+  <area shape="rect" coords="0,240,211,266" href="http://twitter.com/Visualizing_Cul" target="_blank"  alt="Follow Us" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_09.png',1)" />
+</map>
+
+
+
+<!---->
+
+
+
+
+<map name="Image7Map" id="Image7Map">
+  <area shape="rect" coords="1,3,213,31" href="index.html" target="_top" alt="Essay" onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();" />
+      
+	  <area shape="rect" coords="1,40,258,70" href="anp2_essay01.html" target="_top" alt="Cold-War Japan" onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();MM_swapImage('Image7','','image/anp2_nav_i_01.png',1)" />
+  
+  <area shape="rect" coords="0,68,258,96" href="anp2_essay02.html" target="_top" alt="The Confrontation" onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();MM_swapImage('Image7','','image/anp2_nav_i_02.png',1)" />
+
+<area shape="rect" coords="0,95,258,122" href="anp2_essay03.html"  target="_top" alt="Sites of Protest" onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();MM_swapImage('Image7','','image/anp2_nav_i_03.png',1)" />
+
+<area shape="rect" coords="0,122,258,150" href="anp2_essay04.html"  target="_top" alt="&#8220;Average Citizens&#8221;" onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();MM_swapImage('Image7','','image/anp2_nav_i_04.png',1)" />
+
+<area shape="rect" coords="2,150,258,177" href="anp2_essay05.html"  target="_top" alt="Hope Deferred" onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();MM_swapImage('Image7','','image/anp2_nav_i_05.png',1)" />
+
+<area shape="rect" coords="2,177,258,200" href="anp2_essay06.html"  target="_top" alt="Sources &amp; Credits" onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();MM_swapImage('Image7','','image/anp2_nav_i_06.png',1)" />
+</map>
+
+<map name="Map4" id="Map4">
+<area shape="rect" coords="0,1,99,60"   href="anp2_essay01.html" onmouseover="MM_swapImage('nav01','','image/anp2_essay_nav_01.gif',1);noverlay();noverlayv();noverlayu()" onmouseout="MM_swapImgRestore()" alt="Cold-War Japan" title=""/>
+<area shape="rect" coords="99,0,225,65" href="anp2_essay02.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01','','image/anp2_essay_nav_02.gif',1);noverlay();noverlayv();noverlayu()"    title=""   alt="The Confrontation"/>
+
+<area shape="rect" coords="225,0,319,65" href="anp2_essay03.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01','','image/anp2_essay_nav_03.gif',1);noverlay();noverlayv();noverlayu()"    title=""   alt="Sites of Protest"/>
+       <area shape="rect" coords="319,1,421,70" href="anp2_essay04.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01','','image/anp2_essay_nav_04.gif',1);noverlay();noverlayv();noverlayu()"    title=""   alt="&#8220;Average Citizens&#8221;"/> 
+  <area shape="rect" coords="420,0,520,61" href="anp2_essay05.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01','','image/anp2_essay_nav_05.gif',1);noverlay();noverlayv();noverlayu()"    title=""   alt="Hope Deferred"/>
+  <area shape="rect" coords="520,0,619,58" href="anp2_essay06.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01','','image/anp2_essay_nav_06.gif',1);noverlay();noverlayv();noverlayu()"    title=""   alt="Sources &amp; Credits"/>
+</map>
+
+ <map name="Map5" id="Map5"><area shape="rect" coords="0,1,99,60"   href="anp2_essay01.html" onmouseover="MM_swapImage('nav01b','','image/anp2_essay_nav_01.gif',1);noverlay();noverlayv();noverlayu()" onmouseout="MM_swapImgRestore()" alt="Cold-War Japan" title=""/>
+<area shape="rect" coords="99,0,225,65" href="anp2_essay02.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01b','','image/anp2_essay_nav_02.gif',1);noverlay();noverlayv();noverlayu()"    title=""   alt="The Confrontation"/>
+
+<area shape="rect" coords="225,0,319,65" href="anp2_essay03.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01b','','image/anp2_essay_nav_03.gif',1);noverlay();noverlayv();noverlayu()"    title=""   alt="Sites of Protest"/>
+       <area shape="rect" coords="319,1,421,70" href="anp2_essay04.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01b','','image/anp2_essay_nav_04.gif',1);noverlay();noverlayv();noverlayu()"    title=""   alt="&#8220;Average Citizens&#8221;"/> 
+  <area shape="rect" coords="420,0,520,61" href="anp2_essay05.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01b','','image/anp2_essay_nav_05.gif',1);noverlay();noverlayv();noverlayu()"    title=""   alt="Hope Deferred"/>
+  <area shape="rect" coords="520,0,619,58" href="anp2_essay06.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01b','','image/anp2_essay_nav_06.gif',1);noverlay();noverlayv();noverlayu()"    title=""   alt="Sources &amp; Credits"/>
+</map>
+
+ <map name="Map3" id="Map3">
+  
+<area shape="rect" coords="0,2,312,30" href="../home/vis_menu.html" target="_top" alt="Units" onmouseout="noverlayu();MM_swapImgRestore()" onmouseover="overlayu();" />
+
+<area shape="rect" coords="2,38,314,68" href="../home/vis_menu.html" target="_top" alt="Icon View" onmouseout="noverlayu();MM_swapImgRestore()" onmouseover="overlayu();MM_swapImage('Image6','','../home/image/vc_units_cur_nav_01.png',1)" />
+
+<area shape="rect" coords="0,67,312,95" href="../home/vis_menu_02b.html" target="_top" alt="Text View" onmouseout="noverlayu();MM_swapImgRestore()" onmouseover="overlayu();MM_swapImage('Image6','','../home/image/vc_units_cur_nav_02.png',1)" />
+
+<area shape="rect" coords="1,94,313,122" href="../home/vis_menu_03.html" target="_top" alt="Curriculae" onmouseout="noverlayu();MM_swapImgRestore()" onmouseover="overlayu();MM_swapImage('Image6','','../home/image/vc_units_cur_nav_03.png',1)" /></map>
+<map name="Image8Map" id="Image8Map">
+  
+  
+<area shape="rect" coords="0,2,312,30" href="index.html" target="_top" alt="Tokyo 1960: Days of Rage &amp; Grief" onmouseout="noverlayx();MM_swapImgRestore()" onmouseover="overlayx();" />
+
+<area shape="rect" coords="4,39,316,69" href="anp2_gallery.html" target="_top" alt="Image Gallery" onmouseout="noverlayx();MM_swapImgRestore()" onmouseover="overlayx();MM_swapImage('Image8','','image/anp2_nav_01.png',1)" />
+
+<area shape="rect" coords="0,69,312,97" href="../protest_art_50s_japan/index.html" target="_top" alt="Protest Art in 1950s Japan" onmouseout="noverlayx();MM_swapImgRestore()" onmouseover="overlayx();MM_swapImage('Image8','','image/anp2_nav_02.png',1)" /></map>
+
+
+
+</body>
+</html>

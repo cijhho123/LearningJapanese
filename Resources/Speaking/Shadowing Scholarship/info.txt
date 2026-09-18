@@ -1,0 +1,52 @@
+Two sources on shadowing (シャドーイング), the technique this guide calls "the one procedure to
+take away from this guide" - previously described here with a 7-step procedure and no citations
+behind it at all. Both are freely downloadable; neither carries an explicit redistribution
+licence - see sources.md.
+
+---
+
+Sakoda Kumiko (n.d.), "Shadoiingu no miryoku to nazo - Nihongo no shuutoku kara shadoiingu no
+jissen made" [シャドーイングの魅力と謎 - 日本語の習得からシャドーイングの実践まで - "The Charm and
+Mystery of Shadowing: From Japanese Acquisition to Shadowing Practice"], research-meeting slide
+deck, Hiroshima University Graduate School of Education.
+https://gsjal.jp/toda/dat/kenkyuukai1102.pdf (hosted on Waseda University's Graduate School of
+Japanese Applied Linguistics site - Toda Takako's phonetics/pronunciation-teaching lab)
+No separate licence statement found; credit Sakoda Kumiko / Hiroshima University.
+
+Sakoda is a leading Japanese second-language-acquisition researcher (her name recurs throughout
+the shadowing literature, including later co-authoring the 2019 book "Nihongo kyoushi no tame no
+shadoiingu shidou" - Shadowing Instruction for Japanese Teachers). This is a 36-slide
+conference/workshop handout, not a peer-reviewed paper, but it is the single most useful item
+found here for the guide's shadowing section specifically because it is a synthesis: it connects
+general second-language-acquisition theory to shadowing research, and surveys what the prior
+shadowing literature has and has not established, rather than reporting one narrow experiment.
+No exact date is stated in the file; the filename ("kenkyuukai1102") suggests a November 2nd
+research-meeting talk.
+
+---
+
+Mochizuki Michiko (2006), "Shadoiinguhou no Nihongo kyouiku e no ouyou wo saguru - gakushuusha no
+Nihongo nouryoku to shadoiingu no kouka ni taisuru gakushuusha hyouka to no kanrensei wo chuushin
+ni -" [シャドーイング法の日本語教育への応用を探る―学習者の日本語能力とシャドーイングの効果に対する
+学習者評価との関連性を中心に― - "Exploring the Application of the Shadowing Method to Japanese
+Language Education"], Kansai University Audio-Visual Education (関西大学視聴覚教育), Vol.29,
+pp.37-53 (31 March 2006).
+https://www.kansai-u.ac.jp/fl/publication/pdf_aids/29/1-4_mochizuki.pdf
+No separate licence statement found; official Kansai University publication server. Credit
+Mochizuki Michiko / Kansai University.
+
+A full-length article (17 pages) that situates shadowing within the wider family of interpreter-
+training techniques - quick response, paraphrasing, summarisation, retention, sight translation,
+consecutive and simultaneous interpretation, repeating, dictation, slash reading - and examines
+which of these actually transfer to general Japanese-language ability, and how learner self-
+evaluation of shadowing correlates with measured proficiency. Useful precisely because the guide
+presents shadowing as a single fixed 7-step drill; this paper's frame (shadowing as one technique
+in a family, borrowed from professional interpreter training) explains *why* the drill is built
+the way it is. Text in this PDF has a CJK font-encoding quirk in this environment: English
+loanwords (the technique names above) extract correctly with pdftotext, confirming genuine
+academic content, even though pdftoppm cannot render the Japanese glyphs locally without an
+Adobe-Japan1 CMap resource this machine does not have installed.
+
+---
+
+Retrieved 2026-09-17.

@@ -1,0 +1,556 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>MIT Visualizing Cultures</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+
+
+<style type="text/css">
+<!--
+
+.backg {
+	position:absolute;
+	left:0px;
+	top:45px;
+	z-index: 1;
+}
+.flashy {
+	position:absolute;
+	left:467px;
+	top:42px;
+	z-index: 3;
+}
+.slug {        position:absolute;
+        left:20px;
+        top:479px;
+        width:472px;
+		z-index:2;
+		text-align:left;
+}
+.navbox {
+		position: fixed;
+        left:10px;
+        top:0px;
+		z-index: 5;
+		visibility:hidden;
+}
+.unitsnavbox01 {
+        position:fixed;
+        left:200px;
+        top:0px;
+		z-index:5;
+}
+.xnavbox {
+        position:fixed;
+        left:271px;
+        top:0px;
+		z-index:7;
+}
+.unitnavbox {
+        position:fixed;
+        left:425px;
+        top:0px;
+		z-index:8;
+}
+.navboxu {
+		position: fixed;
+        left:200px;
+        top:0px;
+		z-index: 6;
+		visibility:hidden;	 
+}
+.navboxx {
+		position: fixed;
+        left:271px;
+        top:0px;
+		z-index: 7;
+		visibility:hidden;	 
+}
+.navboxv {
+		position: fixed;
+        left:425px;
+        top:0px;
+		z-index: 8;
+		visibility:hidden;	 
+}
+.box14 {
+        position:fixed;
+        left:0px;
+        top:0px;
+		z-index:5;
+		background-color:#222222;
+		width:100%
+}
+.box15 {
+        position:fixed;
+        left:0px;
+        top:0px;
+		z-index:4;
+	    width: 100%;
+		background-color:#504B48
+}
+.box16 {        position:fixed;
+        left:0px;
+        top:23px;
+		z-index:4;
+	width: 100%;
+background-color:#2F302F 
+}
+.boxessay {        position:absolute;
+        left:624px;
+        top:134px;
+		z-index:4;
+}
+.boxvisnav {        position:absolute;
+        left:624px;
+        top:200px;
+		z-index:4;
+}
+.boxpdf {        position:absolute;
+        left:624px;
+        top:400px;
+		z-index:4;
+}
+.part {        position:absolute;
+        left:0px;
+        top:710px;
+		z-index:4;
+	width: 100%;
+background-color:#2F302F 
+}
+
+.box01 { 
+		position: static;
+		top: 20%;
+		left: 20%;
+}
+#horizon        
+	{
+	
+	text-align: center;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 1px;
+	overflow: visible;
+	visibility: visible;
+	display: block
+	}
+
+#content    
+	{
+	
+	margin-left: -485px;
+	position: absolute;
+	top: 0px;
+	left: 50%;
+	width: 250px;
+	height: 70px;
+	visibility: visible;
+
+	}
+.bottibody {color: #ffffff; font-size: 13px; line-height: 19px; font-family: Verdana, Arial, Helvetica, sans-serif
+	}
+
+	.bottibody2 {color: #ffffff; font-size: 12px; line-height: 16px; font-family: Verdana, Arial, Helvetica, sans-serif }
+	
+.bottibody2 a:link {
+        color:#aaaaaa;
+        text-decoration:none;
+    }
+ .bottibody2 a:active { 
+		color:#aaaaaa;
+        text-decoration:none;
+	}
+.bottibody2 a:visited {
+		color:#aaaaaa;
+        text-decoration:none;
+	}
+.bottibody2 a:hover {
+		color:#ffffff;
+        text-decoration:none;
+	}
+.bottibody3 {color: #ffffff; font-size: 11px; line-height: 16px; font-family: Verdana, Arial, Helvetica, sans-serif }
+
+.bottibody4 {color: #ffffff; font-size: 11px; line-height: 16px; font-family: Verdana, Arial, Helvetica, sans-serif }	 a:link {
+        color:#ffffff;
+        text-decoration:none;
+    }
+    a:active { color:#ffffff;
+        text-decoration:none;
+	}
+    a:visited { color:#ffffff;
+        text-decoration:none;
+	}
+	a:hover { color:#ffffff;
+        text-decoration:underline;
+	}
+.twit {
+		position: fixed;
+        top: 2px;
+        left: 810px;
+		z-index: 7;
+		
+}
+.emil{
+		position: fixed;
+        top: 4px;
+        left: 876px;
+		z-index: 7;
+		
+}
+.fbok{
+		position: fixed;
+        top: 2px;
+        left: 916px;
+		z-index: 7;
+		width: 48px;
+		overflow:hidden;
+}
+-->
+</style>
+
+
+<script language="JavaScript" type="text/JavaScript">
+<!--
+//rollovers for menus
+function overlay() {
+        el = document.getElementById("hideme");
+        el.style.visibility ="visible";
+		noverlayu();
+		noverlayv();
+		noverlayx();
+}
+
+function noverlay() {
+        el = document.getElementById("hideme");
+        el.style.visibility ="hidden";
+}
+
+
+function overlayu() {
+        el = document.getElementById("hidemeu");
+        el.style.visibility ="visible";
+		noverlay();
+		noverlayv();
+		noverlayx();
+}
+function noverlayu() {
+        el = document.getElementById("hidemeu");
+        el.style.visibility ="hidden";
+}
+
+
+function overlayv() {
+        el = document.getElementById("hidemev");
+        el.style.visibility ="visible";
+		noverlay();
+		noverlayu();
+		noverlayx();
+}
+function noverlayv() {
+        el = document.getElementById("hidemev");
+        el.style.visibility ="hidden";
+}
+
+
+function overlayx() {
+        el = document.getElementById("hidemex");
+        el.style.visibility ="visible";
+		noverlay();
+		noverlayu();
+		noverlayv();
+}
+function noverlayx() {
+        el = document.getElementById("hidemex");
+        el.style.visibility ="hidden";
+}
+
+
+
+
+function sesame() {
+window.moveTo(0,0);        
+window.resizeTo(1350,screen.height);
+}
+
+
+window.onload=function()
+{
+	//sesame();
+	noverlay();
+	noverlayu();
+	MM_preloadImages('../home/image/vc_home_nav_02.png','../home/image/vc_home_nav_03.png','../home/image/vc_home_nav_04.png','../home/image/vc_home_nav_05.png','../home/image/vc_home_nav_06.png','../home/image/vc_home_nav_07.png','../home/image/vc_home_nav_08.png','../home/image/vc_home_nav_09.png','../home/image/vc_home_nav_10.png','../home/image/vc_units_nav_01.png','../home/image/vc_units_nav_02.png','../home/image/vn_icon02.gif','../home/image/pdf_essay02.gif','../home/image/essay_icon02.gif','../home/image/units_bck_05.jpg','../home/image/units_bck_06.jpg','image/sh_nav_01.png','image/sh_nav_02.png','image/sh_nav_03.png','image/sh_nav_04.png','image/sh_essay_nav_05.gif','image/sh_essay_nav_01.gif','image/sh_essay_nav_02.gif','image/sh_essay_nav_03.gif','image/sh_essay_nav_04.gif','image/sh1_pop0b.gif','image/sh05_1927_c008a_soft2r32751.jpg','image/sh05_1927_c008a_soft2r32751.jpg','image/sh1_pop0b.gif','image/sh1_pop1b.gif','image/sh1_pop2b.gif','image/sh1_pop3b.gif','image/sh1_pop4b.gif','image/sh_2_pop1b.gif','image/sh_2_pop2b.gif','image/sh_2_pop3b.gif','image/sh_2_pop4b.gif','image/sh_2_pop5b.gif','image/sh3_pop1b.gif','image/sh3_pop2b.gif','image/sh3_pop3b.gif','image/sh3_pop4b.gif','image/sh3_pop5b.gif','image/sh3_pop6b.gif','image/sh3_pop7b.gif','image/sh3_pop8b.gif','image/sh3_pop9b.gif','image/sh3_pop10b.gif','image/sh3_pop11b.gif','image/sh3_pop12b.gif','image/sh3_pop13b.gif','image/par2.jpg','image/sh4_pop1b.gif','image/sh4_pop2b.gif');
+}
+var newwindow = '';
+
+function imalert(url)
+{
+	if (!newwindow.closed && newwindow.location)
+	{
+		newwindow.location.href = url;
+	}
+	else
+	{
+		newwindow=window.open(url,'windowtwo','height=360,width=586, toolbar=no,  resizable=yes, status=no, scrollbars=yes');
+		if (!newwindow.opener) newwindow.opener = self;
+	}
+	if (window.focus) {newwindow.focus()}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//
+var vcidwindow = '';
+
+function openvcidwindow(url)
+{
+	if (!vcidwindow.closed && vcidwindow.location)
+	{
+		vcidwindow.location.href = url;
+	}
+	else
+	{
+		vcidwindow=window.open(url,'vcid','height=1000,width=1256, toolbar=yes, scrollbars=yes, resizable=yes, location=yes');
+		if (!vcidwindow.opener) vcidwindow.opener = self;
+	}
+	if (window.focus) {vcidwindow.focus()
+	}
+	} 
+
+
+
+ var curwindow = '';
+
+function opencurwindow(url)
+{
+	if (!curwindow.closed && curwindow.location)
+	{
+		curwindow.location.href = url;
+	}
+	else
+	{
+		curwindow=window.open(url,'curriculum','height=800,width=720, toolbar=yes, scrollbars=yes, resizable=yes,  location=yes');
+		if (!curwindow.opener) curwindow.opener = self;
+	}
+	if (window.focus) {curwindow.focus()
+	}
+	} 
+//-->
+</script>
+<script type="text/javascript">
+<!--
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." :
+"http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost +
+"google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+//-->
+</script>
+<script type="text/javascript">
+<!--
+try {
+var pageTracker = _gat._getTracker("UA-12446158-1");
+pageTracker._trackPageview();
+} catch(err) {}
+//-->
+</script></head>
+<body bgcolor="#252422">
+<div  id="horizon">
+<div  id="content">
+<div class="backg"><img src="image/sh_home_bck1.jpg"  alt="MIT Visualizing Cultures" width="970" height="765" border="0" title=""/></div>
+
+<div class="slug" id="slug"><span class="bottibody">The 20th-century history of the Shiseido cosmetics company provides a vivid image of the efflorescence of modernity in Japan&mdash;reflecting the changing ideals of feminine beauty, the emergence of a vibrant consumer culture, cutting-edge trends in advertising and packaging, and the persistence of cosmopolitan ideals even in the midst of the rise of militarism in the 1930s. This unit draws on Shiseido&rsquo;s vast archives, focusing on the marketing of concepts of modern beauty from the 1920s through 1943, when wartime exigencies  eventually curtailed the promotion of an international aesthetic of worldly chic. </span><span class="bottibody2"><br />
+    <br />
+</span>    <span class="bottibody"><span class="bottibody2">Massachusetts Institute of Technology &#169; 2009 Visualizing Cultures</span>    </span></div>
+
+<!--<div class="part"><img src="image/cw_partner.gif" alt="MIT Visualizing Cultures" /></div> -->
+
+<!-- right-hand buttons -->
+<div class="boxessay" id="boxessay"><a href="sh_essay01.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image10','','image/essay_icon02.gif',1);noverlay();noverlayu();noverlayv();"><img src="image/essay_icon.gif" alt="Essay" name="Image10" width="348" height="67" border="0" id="Image10" /></a><table width="348" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="49" align="left" valign="bottom"><!--<img alt="MIT Visualizing Cultures"  title="" border="0"  src="../rise_fall_canton_01/image/cw_pop_dot.gif"  width="42" height="17" />--></td>
+    <td width="230" align="left" valign="middle"><span class="bottibody2"><a href="sh_essay.pdf"  target="_blank" onmouseover="noverlay();noverlayv();noverlayu();">Printer friendly PDF of the Essay</a></span></td>
+    <td width="69">&nbsp;</td>
+  </tr>
+
+    <tr>
+    <td width="44" align="left" valign="bottom" colspan="3"><img  alt="MIT Visualizing Cultures"  title="" border="0"  src="../rise_fall_canton_01/image/spacer.gif" width="348" height="4"  align="left"/></td>
+    
+  </tr>
+</table><table width="348" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="49" align="left" valign="bottom"><img  alt="MIT Visualizing Cultures"  title="" border="0"  src="../throwing_off_asia_01/image/spacer.gif" width="49" height="19"  align="left"/></td>
+    <td width="268" align="left" valign="top"><span class="bottibody2" id="bot"><br /><a href="javascript:opencurwindow('../shiseido_01/cur_student/sh_cur_toc.html')" >
+   
+     Curriculum by Lynn Parisi, <br />
+     Karen Johnson, &amp; Patty Koller</a></span></td> 
+
+    <td width="31">&nbsp;</td>
+  </tr></table></div>
+
+<!--<div class="boxvisnav" id="boxvisnav"><a href="cw_visnav01.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image11','','../home/image/vn_icon02.gif',1);noverlay();noverlayu();noverlayv();"><img src="../home/image/vn_icon.gif" alt="Visual Narratives" name="Image11" width="348" height="67" border="0" id="Image11" /></a></div>-->
+
+<div class="boxpdf" id="boxpdf">
+</div>
+
+
+
+<!--end  right-hand buttons -->
+</div>
+</div>
+
+
+<!--top bar nav elements -->
+<div class="box14" id="box14" ><table  width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><img src="../home/image/spacer.gif" width="10" height="26"  alt="MIT Visualizing Cultures"/><img src="../home/image/hometopnav01.gif"  alt="Menu" width="227" height="26" border="0" usemap="#topmap"/></td>
+  </tr>
+</table>
+</div>
+
+<div class="box15" id="box15" ><table  width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><img src="../home/image/spacer.gif" width="10" height="27"  alt="MIT Visualizing Cultures"/></td>
+  </tr>
+</table>
+</div>
+
+<div class="navbox" id="hideme"><a  onmouseout="javascript:noverlay();" onmouseover="javascript:overlay();"><img src="../home/image/vc_home_nav.png" alt="MIT Visualizing Cultures" width="202" height="300" border="0" usemap="#Map"  id="Image5"  name="Image5" title="" /></a></div> 
+
+
+<div class="twit">
+<a href="https://twitter.com/share" class="twitter-share-button" data-count="none">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></div>
+
+<div class="emil"><!--email-->
+<script type="text/javascript"><!--
+
+var SubjectLine='MIT Visualizing Cultures'; 
+var BodyText='You can see this page at: '+top.location.href;
+
+var Message='<A CLASS=contact HREF="mailto:?SUBJECT='+escape(SubjectLine)+'&BODY='+escape(BodyText)+'" OnMouseOver="status=\'Envoyer cette page à vos amis\'; return true;" ><img src="../home/image/email2.gif" alt="Email" name="Image321"   border="0" id="Image321"  title=""/><\/A>';
+
+var MessageIE='<A CLASS=contact HREF="mailto:?SUBJECT='+(SubjectLine)+'&BODY='+(BodyText)+'" OnMouseOver="status=\'Envoyer cette page à vos amis\'; return true;" ><img src="../home/image/email2.gif" alt="Email" name="Image321"   border="0" id="Image321"  title=""/><\/A>';
+
+if(document.all) { document.write(MessageIE); }
+
+else { document.write(Message); }
+
+// http://javascriptsource.com "The JavaScript Source"
+//--></script></div>
+
+
+
+<!--facebook--><div class="fbok">
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<div class="fb-like" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false" data-colorscheme="light" data-font="verdana"></div>
+
+</div>
+
+<div class="unitsnavbox01" id="unitsnavbox01" ><a  onmouseout="javascript:noverlayu();" onmouseover="javascript:overlayu();"><img src="../home/image/unitstopnav01.gif"  alt="Units" width="227" height="26" border="0" /></a></div>
+ 
+<div class="navboxu" id="hidemeu"><a href="#" onmouseout="javascript:noverlayu();" onmouseover="javascript:overlayu();"><img src="../home/image/vc_units_cur_nav.png" alt="MIT Visualizing Cultures" width="179" height="148" border="0" usemap="#Map3"  id="Image6"  name="Image6" title=""/></a></div> 
+
+
+<div class="xnavbox" id="xnavbox" ><a  onmouseout="javascript:noverlayx();" onmouseover="javascript:overlayx();"><img src="../shiseido_01/image/topnav_i.gif"  alt="Selling Shiseido I" width="227" height="26" border="0" title="" /></a></div>
+
+<div class="unitnavbox" id="unitnavbox" ><a  onmouseout="javascript:noverlayv();" onmouseover="javascript:overlayv();"><img src="../home/image/essaytop.gif"  alt="Essay" width="227" height="26" border="0" title="" /></a></div>
+ 
+
+<div class="navboxx" id="hidemex"><a  onmouseout="javascript:noverlayx();" onmouseover="javascript:overlayx();"><img src="../shiseido_01/image/sh_i_nav.png" alt="Selling Shiseido I"  name="Image8" width="206" height="144" border="0" usemap="#Image8Map"   id="Image8" title="" /></a></div>
+
+
+
+<div class="navboxv" id="hidemev"><a  onmouseout="javascript:noverlayv();" onmouseover="javascript:overlayv();"><img src="../shiseido_01/image/sh_nav.png" alt="Selling Shiseido I"  name="Image7" width="236" height="194" border="0" usemap="#Image7Map"   id="Image7" title="" /></a></div>
+
+<!--end top bar nav elements -->
+
+
+
+<!--image maps -->
+  <map name="topmap" id="topmap">
+      <area shape="rect" coords="1,0,181,47" href="#" onmouseover="overlay();"  alt="MIT Visualizing Cultures" />
+      <area shape="rect" coords="194,0,300,47" href="#" onmouseover="overlayu();"  alt="VC Units" />
+</map>
+
+<map name="Map" id="Map">
+      <area shape="rect" coords="0,0,211,39" href="../home/index.html" onmouseover="overlay()" alt="MIT Visualizing Cultures"/>
+      <area shape="rect" coords="0,39,211,66" href="../home/vc01_about.html" target="_top"  alt="About VC" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_02.png',1)"/>      
+      <area shape="rect" coords="0,66,211,96" href="../home/vc02_schol.html" target="_top"  alt="VC Scholars" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_03.png',1)" />
+  <area shape="rect" coords="0,96,211,124" href="../home/vc03_partner.html" target="_top"  alt="Partner Institutions" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_04.png',1)" />
+
+  <area shape="rect" coords="0,124,211,147" href="../home/vc05_outreach.html" target="_top"  alt="Outreach" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_05.png',1)" />
+  <area shape="rect" coords="3,147,211,181" href="../home/vc06_event.html" target="_top"  alt="Conferences &amp; Events" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_06.png',1)" />
+  <area shape="rect" coords="3,181,211,214" href="mailto:visualizingcultures@mit.edu" target="_top"  alt="Contact" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_07.png',1)" />
+ <area shape="rect" coords="1,214,212,240" href="http://www.facebook.com/home.php#!/group.php?gid=261831254970&amp;ref=ts" target="_blank"  alt="Join Us" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_08.png',1)" />
+  <area shape="rect" coords="0,240,211,266" href="http://twitter.com/Visualizing_Cul" target="_blank"  alt="Follow Us" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_09.png',1)" />
+</map><map name="Map3" id="Map3">
+  
+<area shape="rect" coords="0,2,312,30" href="../home/vis_menu.html" target="_top" alt="Units" onmouseout="noverlayu();MM_swapImgRestore()" onmouseover="overlayu();" />
+
+<area shape="rect" coords="2,38,314,68" href="../home/vis_menu.html" target="_top" alt="Icon View" onmouseout="noverlayu();MM_swapImgRestore()" onmouseover="overlayu();MM_swapImage('Image6','','../home/image/vc_units_cur_nav_01.png',1)" />
+
+<area shape="rect" coords="0,67,312,95" href="../home/vis_menu_02b.html" target="_top" alt="Text View" onmouseout="noverlayu();MM_swapImgRestore()" onmouseover="overlayu();MM_swapImage('Image6','','../home/image/vc_units_cur_nav_02.png',1)" />
+
+<area shape="rect" coords="1,94,313,122" href="../home/vis_menu_03.html" target="_top" alt="Curriculae" onmouseout="noverlayu();MM_swapImgRestore()" onmouseover="overlayu();MM_swapImage('Image6','','../home/image/vc_units_cur_nav_03.png',1)" /></map>
+<map name="Image8Map" id="Image8Map">
+  
+<area shape="rect" coords="0,2,312,30" href="index.html" target="_top" alt="Selling Shiseido II" onmouseout="noverlayx();MM_swapImgRestore()" onmouseover="overlayx();" />
+
+<area shape="rect" coords="2,38,314,68" href="../shiseido_02/index.html" target="_top" alt="Essay" onmouseout="noverlayx();MM_swapImgRestore()" onmouseover="overlayx();MM_swapImage('Image8','','../shiseido_01/image/sh_i_nav_01.png',1)" />
+
+<area shape="rect" coords="3,67,313,100" href="../shiseido_03/index.html" target="_top" alt="Image Galleries" onmouseout="noverlayx();MM_swapImgRestore()" onmouseover="overlayx();MM_swapImage('Image8','','../shiseido_01/image/sh_i_nav_02.png',1)" />
+
+<area shape="rect" coords="4,99,314,129" href="javascript:opencurwindow('../shiseido_01/cur_student/sh_cur_toc.html')" target="_top"  alt="Curriculum" onmouseout="noverlayx();MM_swapImgRestore()" onmouseover="overlayx();MM_swapImage('Image8','','../shiseido_01/image/sh_i_nav_03.png',1)" /></map>
+
+<map name="Image7Map" id="Image7Map">
+  <area shape="rect" coords="0,2,212,30" href="index.html" target="_top" alt="Selling Shiseido I" onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();" />
+  
+      <area shape="rect" coords="1,39,216,69" href="sh_essay01.html" target="_top" alt="Introduction" onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();MM_swapImage('Image7','','../shiseido_01/image/sh_nav_01.png',1)" />
+ 
+  <area shape="rect" coords="0,70,215,96" href="sh_essay02.html" target="_top" alt="Cosmopolitan Glamour" onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();MM_swapImage('Image7','','../shiseido_01/image/sh_nav_02.png',1)" />
+  
+<area shape="rect" coords="0,96,215,122" href="sh_essay03.html"  target="_top" alt="Marketing Beauty" onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();MM_swapImage('Image7','','../shiseido_01/image/sh_nav_03.png',1)"  />
+  
+<area shape="rect" coords="0,122,215,144" href="sh_essay04.html"  target="_top" alt="Luxury &amp; Thrift in Wartime" onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();MM_swapImage('Image7','','../shiseido_01/image/sh_nav_04.png',1)" />
+  
+<area shape="rect" coords="0,144,215,168" href="sh_essay05.html"  target="_top" alt="Sources/Resources" onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();MM_swapImage('Image7','','../shiseido_01/image/sh_nav_05.png',1)" />
+  
+
+</map>
+
+
+
+
+
+</body>
+</html>

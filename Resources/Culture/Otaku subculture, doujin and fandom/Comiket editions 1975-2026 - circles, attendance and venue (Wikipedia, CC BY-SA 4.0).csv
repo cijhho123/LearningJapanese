@@ -1,0 +1,118 @@
+"# Comic Market (Comiket) chronology: edition, year, dates, doujin circles, attendance, venue."
+"# Derived 2026-09-17 from the English Wikipedia article ""Comiket"" (section ""List of Comic Markets""),"
+"# via the MediaWiki action=parse API (prop=wikitext), then template/markup stripped. Wikipedia text is CC BY-SA 4.0."
+# Wikipedia cites the Comic Market Preparatory Committee's own published chronology (comiket.co.jp) for these figures.
+"# ATTENDANCE IS THE COMMITTEE'S OWN MEASURE: the sum of attendees on each day, NOT unique visitors."
+"# ""CS"" rows are Comiket Special editions. Blank = not published. TBA = future event."
+# This is a TERTIARY source. Verify any figure you intend to quote against comiket.co.jp.
+edition,year,dates,doujin_circles,attendance,venue
+1,1975,21 December,32,700,Nissho Hall
+2,1976,4 April,39,550,Itabashi Industrial Union Building (板橋産業連合会館)
+3,1976,25 July,56,500,Itabashi Industrial Union Building (板橋産業連合会館)
+4,1976,19 December,80,700,Itabashi Industrial Union Building (板橋産業連合会館)
+5,1977,10 April,94,1300,"Ōta, Tokyo (Ōta City Industrial Building)"
+6,1977,30-31 July,100,2000,"Ōta, Tokyo (Ōta City Industrial Building)"
+7,1977,18 December,131,2500,"Ōta, Tokyo (Ōta City Industrial Building)"
+8,1978,2 April,144,2000,"Ōta, Tokyo (Ōta City Industrial Building)"
+9,1978,29-30 July,200,3000,Yotsuya Public Hall (四谷公会堂)
+10,1978,17 December,200,3000,Ōta City Industrial Building
+11,1979,8 April,218,3000,Ōta City Industrial Building
+12,1979,28-29 July,330,4000,Tokyo Metropolitan Industrial Trade Center
+13,1979,23 December,290,4000,Ōta City Industrial Building
+14,1980,11 May,380,6000,"Kawasaki, Kanagawa (Kawasaki Shimin Plaza)"
+15,1980,14 September,340,7000,"Kawasaki, Kanagawa (Kawasaki Shimin Plaza)"
+16,1980,14 December,340,7000,"Kawasaki, Kanagawa (Kawasaki Shimin Plaza)"
+17,1981,5 April,400,8000,"Kawasaki, Kanagawa (Kawasaki Shimin Plaza)"
+18,1981,15-16 August,512,10000,Yokohama Sanbo Hall
+19,1981,20 December,600,9000,Harumi Fairgrounds
+20,1982,21 March,780,9000,Harumi Fairgrounds
+21,1982,8 August,970,10000,Harumi Fairgrounds
+22,1982,26 December,1060,8000,Harumi Fairgrounds
+23,1983,3 April,1200,13000,Harumi Fairgrounds
+24,1983,7 August,1500,18000,Harumi Fairgrounds
+25,1983,25 December,1550,25000,Harumi Fairgrounds
+26,1984,19 August,2400,30000,Harumi Fairgrounds
+27,1984,23 December,2300,25000,Harumi Fairgrounds
+28,1985,11 August,3450,30000,Harumi Fairgrounds
+29,1985,29 December,4000,30000,Harumi Fairgrounds
+30,1986,10 August,3900,35000,Harumi Fairgrounds
+31,1986,27-28 December,4400,40000,Tokyo Ryutsu Center
+32,1987,8-9 August,4400,60000,Tokyo Ryutsu Center
+33,1987,26-27 December,4400,55000,Tokyo Ryutsu Center
+34,1988,13-14 August,9200,70000,Harumi Fairgrounds
+35,1989,25-26 March,8900,70000,Harumi Fairgrounds
+36,1989,13-14 August,10000,100000,Harumi Fairgrounds
+37,1989,23-24 December,11000,120000,Makuhari Messe
+38,1990,18-19 August,13000,230000,Makuhari Messe
+39,1990,23-24 December,13000,250000,Makuhari Messe
+40,1991,16-17 August,11000,200000,Harumi Fairgrounds
+41,1991,29-30 December,14000,200000,Harumi Fairgrounds
+42,1992,15-16 August,12000,250000,Harumi Fairgrounds
+43,1992,29-30 December,15000,180000,Harumi Fairgrounds
+44,1993,15-16 August,15000,250000,Harumi Fairgrounds
+45,1993,29-30 December,16000,200000,Harumi Fairgrounds
+46,1994,7-8 August,16000,240000,Harumi Fairgrounds
+47,1994,29-30 December,16000,200000,Harumi Fairgrounds
+48,1995,18-20 August,22000,250000,Harumi Fairgrounds
+49,1995,29-30 December,16000,220000,Harumi Fairgrounds
+50,1996,3-4 August,18000,350000,Tokyo Big Sight
+51,1996,28-29 December,22000,220000,Tokyo Big Sight
+52,1997,15-17 August,33000,400000,Tokyo Big Sight
+53,1997,28-29 December,22000,300000,Tokyo Big Sight
+54,1998,14-16 August,33000,380000,Tokyo Big Sight
+55,1998,29-30 December,23000,300000,Tokyo Big Sight
+56,1999,13-15 August,35000,400000,Tokyo Big Sight
+57,1999,24-26 December,25000,320000,Tokyo Big Sight
+58,2000,11-13 August,35000,430000,Tokyo Big Sight
+59,2000,29-30 December,23000,300000,Tokyo Big Sight
+60,2001,10-12 August,35000,480000,Tokyo Big Sight
+61,2001,29-31 December,23000,360000,Tokyo Big Sight
+62,2002,9-11 August,35000,480000,Tokyo Big Sight
+63,2002,28-30 December,35000,450000,Tokyo Big Sight
+64,2003,15-17 August,35000,460000,Tokyo Big Sight
+65,2003,28-30 December,35000,420000,Tokyo Big Sight
+66,2004,15-17 August,35000,510000,Tokyo Big Sight
+67,2004,28-30 December,23000,370000,Tokyo Big Sight
+68,2005,12-14 August,35000,480000,Tokyo Big Sight
+69,2005,29-30 December,23000,350000,Tokyo Big Sight
+70,2006,11-13 August,35000,430000,Tokyo Big Sight
+71,2006,29-31 December,35000,440000,Tokyo Big Sight
+72,2007,17-19 August,35000,550000,Tokyo Big Sight
+73,2007,29-31 December,35000,500000,Tokyo Big Sight
+74,2008,15-17 August,35000,550000,Tokyo Big Sight
+75,2008,28-30 December,35000,510000,Tokyo Big Sight
+76,2009,14-16 August,35000,560000,Tokyo Big Sight
+77,2009,29-31 December,35000,510000,Tokyo Big Sight
+78,2010,13-15 August,35000,560000,Tokyo Big Sight
+79,2010,29-31 December,35000,520000,Tokyo Big Sight
+80,2011,12-14 August,35000,540000,Tokyo Big Sight
+81,2011,29-31 December,35000,500000,Tokyo Big Sight
+82,2012,10-12 August,35000,560000,Tokyo Big Sight
+84,2013,10-12 August,35000,590000,Tokyo Big Sight
+85,2013,29-31 December,35000,520000,Tokyo Big Sight
+86,2014,15-17 August,35000,550000,Tokyo Big Sight
+87,2014,28-30 December,35000,560000,Tokyo Big Sight
+88,2015,14-16 August,35000,550000,Tokyo Big Sight
+89,2015,29-31 December,35000,520000,Tokyo Big Sight
+90,2016,12-14 August,34000,530000,Tokyo Big Sight
+91,2016,29-31 December,36000,550000,Tokyo Big Sight
+92,2017,11-13 August,32000,500000,Tokyo Big Sight
+93,2017,29-31 December,32000,550000,Tokyo Big Sight
+94,2018,10-12 August,35000,530000,Tokyo Big Sight
+95,2018,29-31 December,35000,570000,Tokyo Big Sight
+96,2019,9-12 August,32000,730000,Tokyo Big Sight & Aomi Exhibition Hall
+97,2019,28-31 December,32000,750000,Tokyo Big Sight & Aomi Exhibition Hall
+98,2020,Cancelled,,,
+99,2021,30-31 December,20000,110000,Tokyo Big Sight
+100,2022,13-14 August,20000,170000,Tokyo Big Sight
+101,2022,30-31 December,20000,180000,Tokyo Big Sight
+102,2023,12-13 August,21000,260000,Tokyo Big Sight
+103,2023,30-31 December,25900,270000,Tokyo Big Sight
+104,2024,11-12 August,24000,260000,Tokyo Big Sight
+105,2024,29-30 December,29000,300000,Tokyo Big Sight
+106,2025,16-17 August,23000,250000,Tokyo Big Sight
+107,2025,30-31 December,23700,300000,Tokyo Big Sight
+108,2026,August,TBA,TBA,TBA
+109,2026,December,TBA,TBA,TBA
+110,2027,August,TBA,TBA,TBA
+111,2027,December,TBA,TBA,TBA

@@ -1,0 +1,851 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/tr/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>MIT Visualizing Cultures</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+
+
+<style type="text/css">
+<!--
+
+.backg {
+	position:absolute;
+	left:0px;
+	top:180px;
+	z-index: 1;
+background-image:url(../gt_japan_people/image/essay_bck.gif);
+}
+.top {
+	position:absolute;
+	left:0px;
+	top:45px;
+	z-index: 2;
+}
+.bottom {
+	position:absolute;
+	left:0px;
+	z-index: 2;
+}
+.essaynavtop {
+	position:absolute;
+	left:0px;
+	top:142px;
+	z-index: 3;
+}
+.essaynavbottom {
+	position:absolute;
+	left:0px;
+	z-index: 3;
+}
+.essay {
+	position:absolute;
+	left:20px;
+	top:195px;
+	z-index: 4;
+	background-color:#FFFFFF;
+}
+.flashy {
+	position:absolute;
+	left:467px;
+	top:42px;
+	z-index: 3;
+}
+.slug {        position:absolute;
+        left:20px;
+        top:475px;
+        width:476px;
+		z-index:2;
+		text-align:left;
+}
+.navbox {
+		position: fixed;
+        left:10px;
+        top:0px;
+		z-index: 5;
+		visibility:hidden;
+}
+.unitsnavbox01 {
+        position:fixed;
+        left:200px;
+        top:0px;
+		z-index:5;
+}
+.unitnavbox {
+        position:fixed;
+        left:271px;
+        top:0px;
+		z-index:6;
+}
+.navboxu {
+		position: fixed;
+        left:200px;
+        top:0px;
+		z-index: 6;
+		visibility:hidden;	 
+}
+.navboxv {
+		position: fixed;
+        left:271px;
+        top:0px;
+		z-index: 7;
+		visibility:hidden;	 
+}
+.box14 {
+        position:fixed;
+        left:0px;
+        top:0px;
+		z-index:5;
+		background-color:#222222;
+		width:100%
+}
+.box15 {
+        position:fixed;
+        left:0px;
+        top:0px;
+		z-index:4;
+	    width: 100%;
+		background-color:#504B48
+}
+.box16 {        position:fixed;
+        left:0px;
+        top:23px;
+		z-index:4;
+	width: 100%;
+background-color:#2F302F 
+}
+.popup01 {        position:absolute;
+        left:624px;
+		z-index:4;
+}
+.boxpreslink {        position:absolute;
+        left:624px;
+		z-index:4;
+}
+.boxtreatylink {        position:absolute;
+        left:624px;
+		z-index:4;
+}
+.boxjapanlink {        position:absolute;
+        left:624px;
+		z-index:4;
+}
+.boxperrylink {        position:absolute;
+        left:624px;
+		z-index:4;
+}
+.boxpdf {        position:absolute;
+        left:624px;
+        top:410px;
+		z-index:4;
+}
+.boxwelcomelink {        position:absolute;
+        left:622px;
+		z-index:3;
+}
+.boxwelcome {        position:absolute;
+        left:674px;
+        top:200px;
+		z-index:4;
+}
+
+.box01 { 
+		position: static;
+		top: 20%;
+		left: 20%;
+}
+
+.japan { 
+		position: absolute;
+		left:0px;
+}
+
+.video { 
+		position: absolute;
+		left:68px;
+		height:391px;
+		background-color:#cccccc;
+		visibility:hidden;
+}
+#horizon        
+	{
+	text-align: center;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 1px;
+	overflow: visible;
+	visibility: visible;
+	display: block
+	}
+
+#content    
+	{
+	margin-left: -485px;
+	position: absolute;
+	top: 0px;
+	left: 50%;
+	width: 250px;
+	height: 70px;
+	visibility: visible;
+
+	}
+.bottibody {color: #111111; font-size: 13px; line-height: 19px; font-family: Verdana, Arial, Helvetica, sans-serif
+	}
+.bottibody2 {color: #ffffff; font-size: 11px; line-height: 16px; font-family: Verdana, Arial, Helvetica, sans-serif
+	}
+.bottiblock {
+	color: #2D2D2D;
+	font-size: 15px;
+	line-height: 19px;
+	/*font-family: Georgia, "Times New Roman", Times, serif;*/
+	font-family: Times New Roman, Times, serif;
+	font-style: italic;
+	}
+.bottiblockplain {
+	color: #2D2D2D;
+	font-size: 15px;
+	line-height: 19px;
+	/*font-family: Georgia, "Times New Roman", Times, serif;*/
+	font-family:   Times New Roman, Times, serif;
+	font-style: normal;
+	}
+.bottiblockii {
+	color: #2D2D2D;
+	font-size: 16px;
+	line-height: 20px;
+	/*font-family: Georgia, "Times New Roman", Times, serif;*/
+	font-family: Times New Roman, Times, serif;
+	font-style: italic;
+	}
+.bottiblockplainii {
+	color: #2D2D2D;
+	font-size: 16px;
+	line-height: 20px;
+	/*font-family: Georgia, "Times New Roman", Times, serif;*/
+	font-family:   Times New Roman, Times, serif;
+	font-style: normal;
+	}
+.bottiblockhead {
+	color: #2D2D2D;
+	font-size: 20px;
+	line-height: 18px;
+	/*font-family: Georgia, "Times New Roman", Times, serif;*/
+	font-family: Times New Roman, Times, serif;
+	font-style: italic;
+	}
+.bottismall {
+	color: #333333;
+	font-size: 9px;
+	line-height: 12px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-style: normal;
+	}
+.head { color: #CC210E; font-size: 15px; line-height: 19px; font-family: Verdana, Arial, Helvetica, sans-serif
+	}
+.halfer { color: #ffffff; font-size: 6px; line-height: 6px; font-family: Verdana, Arial, Helvetica, sans-serif
+	}
+a:link {
+        color:#1233FF;
+        text-decoration:none;
+    }
+ a:active { 
+		color:#1233FF;
+        text-decoration:none;
+	}
+a:visited {
+		color:#1233FF;
+        text-decoration:none;
+	}
+a:hover {
+		color:#1233FF;
+        text-decoration:underline;
+	}
+.box141 {	position:absolute;
+	left:0px;
+	top:0px;
+	}
+.twit {
+		position: fixed;
+        top: 2px;
+        left: 810px;
+		z-index: 7;
+		
+}
+.emil{
+		position: fixed;
+        top: 4px;
+        left: 876px;
+		z-index: 7;
+		
+}
+.fbok{
+		position: fixed;
+        top: 2px;
+        left: 916px;
+		z-index: 7;
+		width: 48px;
+		overflow:hidden;
+}
+-->
+</style>
+
+
+<script language="JavaScript" type="text/JavaScript">
+<!--
+//rollovers for menus
+function overlay() {
+        el = document.getElementById("hideme");
+        el.style.visibility ="visible";
+		noverlayu();
+		noverlayv();
+}
+
+function noverlay() {
+        el = document.getElementById("hideme");
+        el.style.visibility ="hidden";
+}
+
+
+function overlayu() {
+        el = document.getElementById("hidemeu");
+        el.style.visibility ="visible";
+		noverlay();
+		noverlayv();
+}
+function noverlayu() {
+        el = document.getElementById("hidemeu");
+        el.style.visibility ="hidden";
+}
+
+
+function overlayv() {
+        el = document.getElementById("hidemev");
+        el.style.visibility ="visible";
+		noverlay();
+		noverlayu();
+}
+function noverlayv() {
+        el = document.getElementById("hidemev");
+        el.style.visibility ="hidden";
+}
+function showvid() {
+        el = document.getElementById("thevid");
+        el.style.visibility ="visible";
+		noverlayu();
+		noverlayv();
+        PlayIt(document.movie1);
+}
+
+function hidevid() {
+        StopIt(document.movie1);
+		el = document.getElementById("thevid");
+        el.style.visibility ="hidden";
+
+
+}
+/* a javascript function that takes a QT movie and calls its "Play" method */
+        function PlayIt(anObj)
+        {
+                anObj.Play();
+        }
+        /* a javascript function that takes a QT movie and calls its "Stop" method */
+        function StopIt(anObj)
+        {
+                anObj.Stop();
+        }
+
+
+
+function sesame() {
+window.moveTo(0,0);        
+window.resizeTo(1350,screen.height);
+}
+
+
+window.onload=function()
+{
+	//sesame();
+   // StopIt(document.movie1);
+	noverlay();
+	noverlayu();
+	MM_preloadImages('../home/image/vc_units_nav_11.png','../home/image/vc_units_nav_01.png','../home/image/vc_units_nav_07.png','../home/image/vc_home_nav_02.png','../home/image/essay_icon02.gif','../home/image/vn_icon02.gif','../home/image/pdf_chap02.gif','../home/image/go_toa02.gif','image/yb_nav_04.png','image/yb_nav_05.png','image/yb_nav_06.png','image/yb_nav_02.png','image/yb_nav_03.png','image/yb_essay_nav_01.gif','image/yb_essay_nav_02.gif','image/yb_essay_nav_03.gif','image/yb_essay_nav_04.gif','image/yb_essay_nav_05.gif','image/yb_essay_nav_06.gif','image/yb_essay_nav_07.gif','../home/image/popup02.gif','../black_ships_and_samurai/image/bss01_welcome02.gif','image/related_bss02.gif','image/explore_image02.gif');
+}
+var newwindow = '';
+
+function imalert(url)
+{
+	if (!newwindow.closed && newwindow.location)
+	{
+		newwindow.location.href = url;
+	}
+	else
+	{
+		newwindow=window.open(url,'windowtwo','height=360,width=586, toolbar=no,  resizable=yes, status=no, scrollbars=yes');
+		if (!newwindow.opener) newwindow.opener = self;
+	}
+	if (window.focus) {newwindow.focus()}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//
+var vcidwindow = '';
+
+function openvcidwindow(url)
+{
+	if (!vcidwindow.closed && vcidwindow.location)
+	{
+		vcidwindow.location.href = url;
+	}
+	else
+	{
+		vcidwindow=window.open(url,'vcid','height=950,width=1000, toolbar=yes, scrollbars=yes, resizable=yes, location=yes');
+		if (!vcidwindow.opener) vcidwindow.opener = self;
+	}
+	if (window.focus) {vcidwindow.focus()
+	}
+	} 
+
+
+
+ var curwindow = '';
+
+function opencurwindow(url)
+{
+	if (!curwindow.closed && curwindow.location)
+	{
+		curwindow.location.href = url;
+	}
+	else
+	{
+		curwindow=window.open(url,'curriculum','height=800,width=720, toolbar=yes, scrollbars=yes, resizable=yes,  location=yes');
+		if (!curwindow.opener) curwindow.opener = self;
+	}
+	if (window.focus) {curwindow.focus()
+	}
+	} 
+
+
+function decider(){
+ el = document.getElementById("thevid");
+
+if(el.style.visibility =="visible") {
+hidevid()
+} else {
+showvid()
+}
+}
+//-->
+</script>
+<script type="text/javascript">
+<!--
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." :
+"http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost +
+"google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+//-->
+</script>
+<script type="text/javascript">
+<!--
+try {
+var pageTracker = _gat._getTracker("UA-12446158-1");
+pageTracker._trackPageview();
+} catch(err) {}
+//-->
+</script></head>
+<body bgcolor="#252422" onload="MM_preloadImages('image/yb_essay_nav_01.gif')">
+<div  id="horizon">
+<div  id="content">
+<!--background elements -->
+<div class="backg"><table width="970" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="20">&nbsp;</td>
+    <td width="579" ><table width="579" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td  align="left" valign="top" class="bottibody">                
+                <span class="head"><br />Chaos</span><span class="halfer"><br /><br /></span></td>
+        </tr></table>
+
+
+
+<table width="579" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td align="left" valign="top" class="bottibody">
+            In retrospect, one of the most remarkable aspects of Commodore Perry&rsquo;s momentous visits to Japan in 1853 and 1854 was that, despite the consternation they caused, no chaos ensued and no one was killed on either side. &ldquo;Amity&rdquo; did prevail.<br />
+			    <br />
+			  Nothing of the sort can be said about the Harris Treaty and its aftermath. The unequal treaties inflamed patriotic samurai already smoldering with anger over abandonment of the once sacrosanct seclusion policy. And when these treaties actually came into effect beginning in mid 1859, they opened the door to unimagined kinds of chaos. <br />
+			  <br />
+			  Traditional domestic markets and distribution routes were disrupted&mdash;bringing profit to some native entrepreneurs but economic disaster to a great many more. A skewed international exchange rate involving gold and silver precipitated an enormous drain of gold from Japan&mdash;forcing the Bakufu to drastically debase Japanese currency in 1860. (Within Japan, the gold-to-silver exchange rate was 1:5, meaning that one unit of gold could be purchased for five units of silver. The international rate, by contrast, was 1:15&mdash;meaning that a unit of Japanese gold would fetch 15 of silver outside Japan, which in turn could be used to purchase three more units of Japanese gold.) <br />
+			  <br />
+			  Unemployment rose. Domestic prices soared sky high (conspicuous among them the price of rice and other cereals, silk and silkworms, tea, and sake rice wine). So precipitous was this inflation that in 1862 a city magistrate in Edo reported that living costs had increased by 50 percent. Coincidentally, largely due to disastrous harvests, much of Japan was wracked by famine in the mid 1860s. By 1867, the price of rice&mdash;the most basic of staples&mdash;had increased twelvefold in some areas. <br />
+              <br />
+              As if all this were not curse enough, the foreigners also brought cholera with them, in all likelihood picked up in India while en route to Japan. Local reports spoke of &nbsp;tens and even hundreds of thousands of Japanese dying from outbreaks of cholera over the course of the years that followed. <br />
+              <br />
+              Once they had arrived in the new treaty ports, moreover, more than a few traders and visiting seamen fell short of being exemplary goodwill ambassadors. They behaved, on the contrary, as might be anticipated in any largely male community planted far from its native soil. In Yokohama, as the historian Foster Rhea Dulles has recorded, by 1865 there were &ldquo;five hotels, twenty-five grog shops, and an unrecorded number of brothels in the foreign settlement.&rdquo; He might also have mentioned a &ldquo;cow yard&rdquo; that supplied the foreigners with beef, a horseracing track, gambling dens, and a particularly seedy neighborhood nicknamed &ldquo;Bloodtown.&rdquo; &nbsp;<br />
+              <br />
+              Good Christians blanched at the &ldquo;vice and impurity&rdquo; young men fell into in Yokohama, where&mdash;as a distraught English clergyman put it&mdash;corrupt Japanese officials in the customs office helped them &ldquo;negotiate&hellip; the terms of payment and selection of a partner in their dissolute mode of living.&rdquo; One early foreign diplomat condemned these transplanted foreigners as &ldquo;the scum of the earth,&rdquo; while a French traveler lambasted &ldquo;the insolent arrogance and swagger, the still more insolent familiarity, or the besotted violence, of many a European resident or visitor.&rdquo;<br />
+              <br />
+              This swagger took various forms. Most of the earliest foreign residents, for example, came from previous postings in China rather than directly from their home countries. Many brought small horses or ponies with them, as well as firearms, and they quickly turned their new enclave in Yokohama into what one writer on the foreign settlements (Harold Williams) has described as &ldquo;a fabulous Wild West type of town.&rdquo; It was not uncommon to see them galloping 
+              <table width="309" border="0" cellspacing="0" cellpadding="14" align="right">
+                <tr>
+                  <td align="center" valign="top"><a href="javascript:openvcidwindow('gallery/pages/Y0121_American_horseman.htm');"><img src="image/Y0121_AmHorseman_ce.jpg" alt="American with Japanese groom" width="309" height="441"  border="0" align="top" /></a><br />
+                    <span class="bottiblock">American with Japanese groom.<br />
+&ldquo;Eight Views of Yokohama in Bush&#363;:<br />
+Sunset Glow at Noge&rdquo;<br />
+                    Yoshitora, 1861</span>                    <span class="halfer"><br />
+                    <br />
+                    </span>                    <span class="bottismall">[Y0121] Arthur M. Sackler Gallery<br />
+                  Smithsonian Institution</span></td>
+                </tr>
+              </table>              
+              through the streets firing pistols in the air, or engaging in target practice or even steeplechases in the countryside&mdash;indifferent to local people&rsquo;s alarm. Sightseers barged into rural homes with their boots on. One particularly unrestrained coterie of foreign males went so far as to import a pack of hounds from Shanghai and thunder through the countryside&mdash;and rice fields&mdash;hunting boar, deer, and particularly foxes. <br />              
+              <br />
+              This was hardly endearing behavior by any standards. In feudal Japan, where public decorum was a virtue (and where only the samurai elite was permitted to ride horses), it fanned the fires of resentment already kindled by the Bakufu&rsquo;s abandonment of seclusion. <br />
+              <br />
+              In these unstable circumstances, all hell broke loose socially and politically throughout much of Japan. Peasant uprisings <em>(hyakush&#333; ikki)</em> and urban riots <em>(uchikowashi)</em> took place with increasing frequency in the 1860s. Rebellious millennial movements (<em>yonaoshi ikki</em>) emerged promising &ldquo;world renewal,&rdquo; and in 1867 there was a massive and utterly startling outburst of ecstatic mass hysteria in which ordinary people abandoned their work and daily routines to dance and sing in the streets&mdash;sometimes cross-dressing and engaging in lewd behavior, and sometimes breaking into the houses of the wealthy and helping themselves to food and drink. (Participants in the latter outbursts became famous for exclaiming <em>Eejanaika,</em> or &ldquo;Why not, it&rsquo;s okay!&rdquo;) Rumors spread like wildfire. And dissident samurai terrorists known as <em>shishi</em>&mdash;variously translated as &ldquo;men of high purpose&rdquo; or &ldquo;men of spirit&rdquo;&mdash;emerged to challenge the Bakufu and engage in acts of violence against the foreigners. <br />
+              <br />
+              The <em>shishi</em> flourished in the decade that followed the Harris Treaty, and Japan became steeped in blood. There was, of course, a stunning symmetry in this, for it was not Japan alone that was wracked with upheaval in the decade that followed the opening of the treaty ports. Beginning in 1861, the United States also plunged into its own and vastly more murderous Civil War. To a very considerable degree, this turned American eyes away from Japan at the very moment that the handiwork of Perry and Harris had opened up a new world of opportunity. <br />
+			  <br />
+			  In Japan, the rebels came almost entirely from the ranks of samurai, and they soon coined a potent slogan. Foreigners would be driven out. The Bakufu that had so cravenly let them in would be overthrown and replaced by a new source of power and legitimacy: the long impotent imperial family tucked away in Kyoto, which traced its lineage back to prehistoric (and, in fact, mythical) times.<em> Sonn&#333; j&#333;i</em> became the ubiquitous rallying cry of the <em>shishi:</em> &ldquo;Revere the emperor, expel the barbarians.&rdquo;<br />
+			  <br />
+		    Bakufu officials as well as foreigners were murdered. Ii Naosuke, a high official who played a leading role in the signing of the Harris Treaty, was assassinated in March 1860. In January 1861, unknown swordsmen killed Henry Heusken, the young Dutch secretary and translator for Townsend Harris, in the streets of Edo; he was the seventh foreigner murdered within 18 months. Some months later, <em>shishi</em> burst into the British legation in Edo, killing two consular officials with their swords and seriously wounding another. In the sensational Richardson Affair of September 1862, several brash Englishmen rode their horses into the retinue of the lord of Satsuma on the highway near Yokohama. The<em> daimy&#333;&rsquo;</em>s enraged retainers killed one of them, Charles Richardson, and wounded two of his companions. (A fourth person in Richardson&rsquo;s party, an English woman, escaped unharmed.) In May 1863, arsonists torched the U.S. legation in Edo.<br />
+		    <br /></td>
+        </tr>
+      </table>
+    
+	  <table border="0" cellspacing="0" cellpadding="0" width="579">
+        <tr><td align="left" valign="top" width="450"><a href="javascript:openvcidwindow('yiln071.html')"><img src="image/ILN071_cec.jpg" alt="Japanese terrorists attack the British legation in Edo in 1861" width="444" height="324" border="0" align="left" /></a></td>
+          <td align="left" valign="top" width="129"><span class="bottiblock"><br />
+                <br />
+                <br />
+                <br />
+                <br />
+              Japanese terrorists<br /> 
+              attack the British<br />
+          </span><span class="bottiblock">legation in Edo<br />
+          in 1861. (detail)<br />
+                <br />
+              </span><span class="bottismall">Illustrated London News, October 12, 1861<br />
+              </span></td>
+        </tr>
+        <tr align="left" valign="top"> 
+          <td colspan="2" class="bottibody">   <br />
+            In August 1863, in retaliation for the still festering Richardson Affair, a British fleet of seven warships bombarded Kagoshima, the capital &ldquo;castle town&rdquo; of Satsuma in the southernmost part of Japan, resulting in the destruction by fire of a large part of that port city.<br />
+            <br /></td>
+        </tr>
+		   <tr> 
+          <td colspan="2" align="center" valign="top">            <a href="javascript:openvcidwindow('yiln101.html')"><img src="image/YILN101_comp_s.jpg" alt="British fleet bombarding Kagoshima in August 1863" width="565" height="254" border="0" /></a><br />
+            <span class="bottiblock">British fleet bombarding Kagoshima in August 1863. (detail)<br /></span><span class="halfer"><br />
+            </span>
+            <span class="bottismall"><em>Illustrated London News</em>, November 7, 1863</span></td>
+          </tr>
+		 <tr align="left" valign="top"> 
+          <td colspan="2" class="bottibody"> <br />
+            That same summer, a U.S. warship sank two vessels belonging to Ch&#333;sh&#363;, another powerful <em>daimy&#333;</em> domain, after Ch&#333;sh&#363; had fired on foreign ships passing through the Straits of Shimonoseki in the southwest. A year later, in the summer of 1864, a combined British, French, Dutch, and U.S. fleet&mdash;17 warships in all&mdash;bombarded Ch&#333;sh&#363;&rsquo;s defenses at Shimonoseki for four days, routed the domain&rsquo;s forces, and spiked the coastal batteries. Unlike at Kagoshima, however, they spared the city itself.<br />
+            <br /></td>
+        </tr>
+				   <tr> 
+          <td align="left" valign="top"><a href="javascript:openvcidwindow('ya1230.html')"><img src="image/a123b_Beato_ce.jpg" alt="Felice Beato&rsquo;s well-known photograph of British marines with captured shore batteries at Shimonoseki" width="444" height="330" border="0" align="left" /></a></td>
+          <td align="left" valign="top" ><span class="bottiblock"><br/>
+              <br />
+              <br />
+              <br />
+              Felice Beato&rsquo;s well-known photograph of British marines with captured shore batteries at Shimonoseki, September 5, 1864.<br />
+<br/>
+</span></td>
+        </tr>
+	  </table>
+	  <table width="579" border="0" cellspacing="0" cellpadding="0">
+				   <tr> 
+          <td width="129" align="right" valign="top" class="bottiblock"><img src="image/space.gif" alt="space" width="129" height="5" align="right"/><br/>
+            <br/><br/><br /><br />
+            <img src="image/space.gif" alt="space" width="5" height="200" border="0" align="right"/><span class="bottiblockplain">Illustrated London News</span>&nbsp;rendering of the captured batteries in Shimonoseki, published in the December 24, 1864 issue.</td>
+          <td width="450" align="right" valign="top"><a href="javascript:openvcidwindow('yiln128.html')"><img src="image/YILN128_ce.jpg" alt="Illustrated London News rendering of the captured batteries in Shimonoseki" width="444" height="348" border="0" align="right" /></a><img src="image/space.gif" alt="space" width="5" height="358" border="0" align="right"/></td>
+        </tr>
+	    </table>
+		
+	 
+	  <table width="579" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td colspan="2" align="left" valign="top" class="bottibody"> Through all this, the beleaguered Bakufu was caught between a rock and a hard place&mdash;challenged by domestic opponents for failing to keep out the barbarians, and challenged by the foreigners for failing to protect them from these same domestic rebels. It did not help that the foreign powers demanded that the Bakufu publicly execute some of the samurai involved in anti-foreign acts.<br />
+            <br /></td>
+        </tr>
+       
+      </table>
+	  <table width="579" border="0" cellspacing="0" cellpadding="0">
+				   <tr> 
+          <td colspan="2" align="center" valign="top" class="halfer"><a href="javascript:openvcidwindow('yiln1330.html')"><img src="image/YILN133lr_execution_det.jpg" alt="Execution of a samurai involved in the 1861 attack on the British legation in Edo. (detail)" width="565" height="253" border="0" /></a><br />
+            <span class="bottiblock">Execution of a samurai involved in the 1861 attack on the British legation in Edo. (detail)</span><span class="halfer"><br /><br />
+            </span>
+            <span class="bottismall"><em>Illustrated London News</em>, February 25, 1865.</span></td>
+          </tr>
+	    </table>
+	  
+	   <table width="579" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td colspan="2" align="left" valign="top" class="bottibody"><br />
+            The foreigners also demanded large indemnities. In 1863, for example, the Bakufu agreed to pay the British 100,000 pounds as compensation for the Richardson Affair. In 1864, it was forced to agree to an indemnity of $3,000,000 as reimbursement for the expense of the foreign expedition against Shimonoseki. These were huge sums, and served to further deplete not only the government&rsquo;s treasury but also its credibility in the eyes of domestic critics.<br />
+            <br /></td>
+        </tr>
+       
+      </table>
+	  <table width="579" border="0" cellspacing="0" cellpadding="0">
+				   <tr> 
+          <td align="right" valign="top" width="229" class="bottiblock"><img src="image/space.gif" alt="space" width="229" height="5" align="right"/><br />
+            <img src="image/space.gif" alt="space" width="33" height="199" align="left"/><br />
+            <span class="bottiblock">
+            <img src="image/space.gif" alt="space" width="10" height="200" border="0" align="right"/>Representatives of Satsuma fief paying an indemnity to the British for the Richardson Affair, following the British bombardment of Kagoshima. (detail)</span><br />
+  <span class="bottismall"><br />
+  <em>Illustrated London News</em><br />
+  February 20, 1864</span></td>
+          <td align="left" valign="top" width="350"><a href="javascript:openvcidwindow('yiln220.html')"><img src="image/ILN2201864_reparations_s.jpg" alt="Representatives of Satsuma fief paying an indemnity to the British for the Richardson Affair" width="345" height="253" border="0" /></a></td>
+				   </tr>
+	  </table>
+	  
+	  
+	  
+	  
+	  
+	  <table width="579" border="0" cellspacing="0" cellpadding="0">
+	  <tr> 
+          <td align="left" valign="top" class="bottibody"><br />
+            Eventually, open warfare erupted between the Bakufu and its internal enemies, with opportunistic Westerners supplying both sides with arms. Woodblock artists wallowed in reportage of mayhem&mdash;horsemen burdened with severed heads, gunfire blowing people sky high, defeated samurai commiting suicide, landscapes roiled by pitched battles.<br />
+            <br /></td>
+        </tr>
+				   <tr> 
+          <td align="center" valign="top"><img src="image/space.gif" alt="space" width="4" height="340" align="left"/><a href="javascript:openvcidwindow('y1137586.html')"><img src="image/Y1137586_redbridge.jpg" alt="The final days of the Bakufu in 1868 as captured in a print by Yoshitoshi" width="565" height="278" border="0" /></a><br />
+            <span class="bottiblock">The final days of the Bakufu in 1868 as captured in a print by<br />
+            Yoshitoshi done six years later.<br />
+            </span><span class="halfer"><br />
+            </span>
+              <span class="bottismall">Museum of Fine Arts, Boston<br />
+              <br />
+              <br />
+              </span></td>
+          </tr>
+		<tr>
+          <td align="left" class="bottibody" valign="top">Most of the <em>shishi</em> terrorists died violently, but they did not die in vain. The Harris Treaty rang the death knell for the Bakufu: less than 10 years later, as 1867 turned into 1868, the shogun&rsquo;s government was overthrown by dissident samurai acting in the name of the emperor&mdash;a shadowy presence who had not wielded real power for centuries. This was the famous &ldquo;Meiji Restoration&rdquo; that set Japan on a course of pell-mell industrialization and &ldquo;Westernization.&rdquo; The radical <em>shishi</em> who did survive this decade of fury quickly threw off, not merely terror, but anti-foreign agitation as well. They proved themselves pragmatists&mdash;Western-style nation builders&mdash;and became the revered founding fathers of modern Japan. History does enjoy its little jokes.<br />
+            <br />
+            <br />
+            <br /></td>
+        </tr> </table>
+	  
+
+
+
+		 <table border="0" cellspacing="0" cellpadding="0" align="left">
+          
+ <tr>
+          <td align="left" valign="top"><span class="bottismall"><img src="../home/image/redline.gif" width="570" height="1"  alt="MIT Visualizing Cultures" title=""/><br/><br/>
+                <a href="javascript:imalert('../home/about.html')"><em>On viewing images of a potentially disturbing nature: click here.</em></a><br />
+                <br/>Massachusetts Institute of Technology &#169; 2008 Visualizing Cultures<br />
+                <br />
+          </span></td>
+          </tr>
+
+
+
+ <tr>
+          <td align="left" valign="top"><div class="bottom"><img src="image/essay_bottom.gif"  alt="MIT Visualizing Cultures" width="970" height="136" border="0" align="left" title=""/></div>
+<div class="essaynavbottom">
+  <table width="622" border="0" cellspacing="0" cellpadding="0" align="left">
+  <tr align="left">
+    <td align="left" width="105"><img src="image/yb_essay_nav_02.gif"  alt="Black Ships &amp; Samurai" name="nav01b" width="622" height="39" border="0" usemap="#Map5" id="nav01b" title=""/></td>
+  </tr>
+</table>
+</div></td>
+          </tr>
+
+
+	  </table>
+</td>
+    <td width="371">&nbsp;</td>
+  </tr>
+</table></div>
+<div class="top"><img src="image/essay_top.gif"  alt="MIT Visualizing Cultures" width="970" height="136" border="0" align="left" title=""/></div>
+
+<!--end background elements -->
+
+<!-- essay nav -->
+<div class="essaynavtop"><table width="622" border="0" cellspacing="0" cellpadding="0" align="left">
+  <tr align="left">
+    <td align="left" width="622"><img src="image/yb_essay_nav_02.gif"  alt="Black Ships &amp; Samurai" name="nav01" width="622" height="39" border="0" usemap="#Map4" id="nav01" title=""/></td>
+  </tr>
+</table>
+</div>
+
+
+<!-- end essay nav -->
+
+<!-- <div class="slug" id="slug"><span class="bottibody2">Massachusetts Institute of Technology &#169; 2008 Visualizing Cultures</span></div> -->
+
+
+<!-- right-hand buttons -->
+
+<!-- <div class="boxwelcome" id="boxwelcome">
+  <iframe  id="ifrm" name="ifrm" src="bss01_welcome.html" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" height="128" width="170"></iframe></div> -->
+
+
+
+<div class="boxpdf" id="boxpdf"><a href="pdf/yb_essay_02.pdf" target="_blank"  onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image12','','../home/image/pdf_chap02.gif',1);noverlay();noverlayv();noverlayu();"><img src="../home/image/pdf_chap.gif" alt="Printable PDF of this chapter" name="Image12" width="348" height="67" border="0" id="Image12"  title=""/></a></div>
+
+
+
+
+<!--end  right-hand buttons -->
+
+
+<!-- essay -->
+<div class="essay">
+
+</div>
+<!--end  essay -->
+
+
+</div>
+</div>
+
+
+<!--top bar nav elements -->
+<div class="box14" id="box14" ><table  width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><img src="../home/image/spacer.gif" width="10" height="26"  alt="MIT Visualizing Cultures"/><img src="../home/image/hometopnav01.gif"  alt="Menu" width="227" height="26" border="0" usemap="#topmap"/></td>
+  </tr>
+</table>
+</div>
+
+<div class="box15" id="box15" ><table  width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><img src="../home/image/spacer.gif" width="10" height="27"  alt="MIT Visualizing Cultures"/></td>
+  </tr>
+</table>
+</div>
+
+<div class="navbox" id="hideme"><a  onmouseout="javascript:noverlay();" onmouseover="javascript:overlay();"><img src="../home/image/vc_home_nav.png" alt="MIT Visualizing Cultures" width="202" height="300" border="0" usemap="#Map"  id="Image5"  name="Image5" title="" /></a></div> 
+
+<div class="twit">
+<a href="https://twitter.com/share" class="twitter-share-button" data-count="none">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></div>
+
+<div class="emil"><!--email-->
+<script type="text/javascript"><!--
+
+var SubjectLine='MIT Visualizing Cultures'; 
+var BodyText='You can see this page at: '+top.location.href;
+
+var Message='<A CLASS=contact HREF="mailto:?SUBJECT='+escape(SubjectLine)+'&BODY='+escape(BodyText)+'" OnMouseOver="status=\'Envoyer cette page à vos amis\'; return true;" ><img src="../home/image/email2.gif" alt="Email" name="Image321"   border="0" id="Image321"  title=""/><\/A>';
+
+var MessageIE='<A CLASS=contact HREF="mailto:?SUBJECT='+(SubjectLine)+'&BODY='+(BodyText)+'" OnMouseOver="status=\'Envoyer cette page à vos amis\'; return true;" ><img src="../home/image/email2.gif" alt="Email" name="Image321"   border="0" id="Image321"  title=""/><\/A>';
+
+if(document.all) { document.write(MessageIE); }
+
+else { document.write(Message); }
+
+// http://javascriptsource.com "The JavaScript Source"
+//--></script></div>
+
+
+
+<!--facebook--><div class="fbok">
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<div class="fb-like" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false" data-colorscheme="light" data-font="verdana"></div>
+
+</div> 
+
+<div class="unitsnavbox01" id="unitsnavbox01" ><a  onmouseout="javascript:noverlayu();" onmouseover="javascript:overlayu();"><img src="../home/image/unitstopnav01.gif"  alt="Units" width="227" height="26" border="0"/></a></div>
+ <div class="navboxu" id="hidemeu"><a href="#" onmouseout="javascript:noverlayu();" onmouseover="javascript:overlayu();"><img src="../home/image/vc_units_cur_nav.png" alt="MIT Visualizing Cultures" width="179" height="148" border="0" usemap="#Map3"  id="Image6"  name="Image6" title=""/></a></div> <div class="unitnavbox" id="unitnavbox" ><a  onmouseout="javascript:noverlayv();" onmouseover="javascript:overlayv();"><img src="image/topnav.gif"  alt="Black Ships &amp; Samurai" width="227" height="26" border="0"/></a></div>
+ 
+<div class="navboxv" id="hidemev"><a  onmouseout="javascript:noverlayv();" onmouseover="javascript:overlayv();"><img src="image/yb_nav.png" alt="Black Ships &amp; Samurai"  name="Image7" width="212" height="194" border="0" usemap="#Image7Map"   id="Image7" title=""/>
+    
+</a></div>
+<!--end top bar nav elements -->
+
+
+
+<!--image maps -->
+    <map name="topmap" id="topmap">
+      <area shape="rect" coords="0,0,180,47" href="#" onmouseover="overlay();"  alt="MIT Visualizing Cultures" />
+      <area shape="rect" coords="194,0,300,47" href="#" onmouseover="overlayu();"  alt="VC Units" />
+  </map>
+
+<map name="Map" id="Map">
+      <area shape="rect" coords="0,0,211,39" href="../home/index.html" onmouseover="overlay()" alt="MIT Visualizing Cultures"/>
+      <area shape="rect" coords="0,39,211,66" href="../home/vc01_about.html" target="_top"  alt="About VC" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_02.png',1)"/>      
+      <area shape="rect" coords="0,66,211,96" href="../home/vc02_schol.html" target="_top"  alt="VC Scholars" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_03.png',1)" />
+  <area shape="rect" coords="0,96,211,124" href="../home/vc03_partner.html" target="_top"  alt="Partner Institutions" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_04.png',1)" />
+
+  <area shape="rect" coords="0,124,211,147" href="../home/vc05_outreach.html" target="_top"  alt="Outreach" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_05.png',1)" />
+  <area shape="rect" coords="3,147,211,181" href="../home/vc06_event.html" target="_top"  alt="Conferences &amp; Events" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_06.png',1)" />
+  <area shape="rect" coords="3,181,211,214" href="mailto:visualizingcultures@mit.edu" target="_top"  alt="Contact" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_07.png',1)" />
+ <area shape="rect" coords="1,214,212,240" href="http://www.facebook.com/home.php#!/group.php?gid=261831254970&amp;ref=ts" target="_blank"  alt="Join Us" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_08.png',1)" />
+  <area shape="rect" coords="0,240,211,266" href="http://twitter.com/Visualizing_Cul" target="_blank"  alt="Follow Us" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_09.png',1)" />
+</map><map name="Map3" id="Map3">
+  
+<area shape="rect" coords="0,2,312,30" href="../home/vis_menu.html" target="_top" alt="Units" onmouseout="noverlayu();MM_swapImgRestore()" onmouseover="overlayu();" />
+
+<area shape="rect" coords="2,38,314,68" href="../home/vis_menu.html" target="_top" alt="Icon View" onmouseout="noverlayu();MM_swapImgRestore()" onmouseover="overlayu();MM_swapImage('Image6','','../home/image/vc_units_cur_nav_01.png',1)" />
+
+<area shape="rect" coords="0,67,312,95" href="../home/vis_menu_02b.html" target="_top" alt="Text View" onmouseout="noverlayu();MM_swapImgRestore()" onmouseover="overlayu();MM_swapImage('Image6','','../home/image/vc_units_cur_nav_02.png',1)" />
+
+<area shape="rect" coords="1,94,313,122" href="../home/vis_menu_03.html" target="_top" alt="Curriculae" onmouseout="noverlayu();MM_swapImgRestore()" onmouseover="overlayu();MM_swapImage('Image6','','../home/image/vc_units_cur_nav_03.png',1)" /></map>
+<map name="Image7Map" id="Image7Map">
+  <area shape="rect" coords="0,2,212,30" href="index.html" target="_top" alt="Black Ships &amp; Samurai" onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();" />
+      <area shape="rect" coords="0,30,215,70" href="yb_essay01.html" target="_top" alt="Essay" onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();MM_swapImage('Image7','','image/yb_nav_02.png',1)" />
+  <area shape="rect" coords="0,70,215,95" href="yb_visnav01.html" target="_top" alt="Visual Narratives" onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();MM_swapImage('Image7','','image/yb_nav_03.png',1)" />
+<area shape="rect" coords="0,95,215,130" href="woodblock.html" target="_top" alt="Making a Woodblock Print" onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();MM_swapImage('Image7','','image/yb_nav_04.png',1)" />
+  <area shape="rect" coords="0,130,215,155" href="javascript:openvcidwindow('gallery/index.htm')" target="_top" alt="Image Database" onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();MM_swapImage('Image7','','image/yb_nav_05.png',1)" />
+  <area shape="rect" coords="0,155,215,185" href="javascript:opencurwindow('cur_student/yb_cur_toc.html')" target="_top" alt="Curriculum" onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();MM_swapImage('Image7','','image/yb_nav_06.png',1)" />
+</map>
+<map name="Map4" id="Map4">
+<area shape="rect" coords="0,0,100,39"   href="yb_essay01.html" onmouseover="MM_swapImage('nav01','','image/yb_essay_nav_01.gif',1);noverlay();noverlayv();noverlayu();" onmouseout="MM_swapImgRestore()" alt="Introduction"/> 
+   <!--  <area shape="rect" coords="100,0,164,39" href="yb_essay02.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01','','image/yb_essay_nav_02.gif',1);noverlay();noverlayv();noverlayu();"  alt="Chaos"/>-->
+  <area shape="rect" coords="164,0,252,39" href="yb_essay03.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01','','image/yb_essay_nav_03.gif',1);noverlay();noverlayv();noverlayu();"  alt="Commerce"/>
+  <area shape="rect" coords="252,0,337,39" href="yb_essay04.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01','','image/yb_essay_nav_04.gif',1);noverlay();noverlayv();noverlayu();"  alt="Boomtown"/>
+  <area shape="rect" coords="337,0,430,39" href="yb_essay05.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01','','image/yb_essay_nav_05.gif',1);noverlay();noverlayv();noverlayu();"  alt="Interactions"/>
+  <area shape="rect" coords="430,0,544,39" href="yb_essay06.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01','','image/yb_essay_nav_06.gif',1);noverlay();noverlayv();noverlayu();"  alt="Internationalism"/>
+  <area shape="rect" coords="544,0,622,39" href="yb_essay07.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01','','image/yb_essay_nav_07.gif',1);noverlay();noverlayv();noverlayu();"  alt="Sources"/>
+</map>
+
+
+<map name="Map5" id="Map5">
+<area shape="rect" coords="0,0,100,39"   href="yb_essay01.html" onmouseover="MM_swapImage('nav01b','','image/yb_essay_nav_01.gif',1);noverlay();noverlayv();noverlayu();" onmouseout="MM_swapImgRestore()" alt="Introduction"/>
+  <!--   <area shape="rect" coords="100,0,164,39" href="yb_essay02.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01b','','image/yb_essay_nav_02.gif',1);noverlay();noverlayv();noverlayu();"  alt="Chaos"/> -->
+  <area shape="rect" coords="164,0,252,39" href="yb_essay03.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01b','','image/yb_essay_nav_03.gif',1);noverlay();noverlayv();noverlayu();"  alt="Commerce"/>
+  <area shape="rect" coords="252,0,337,39" href="yb_essay04.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01b','','image/yb_essay_nav_04.gif',1);noverlay();noverlayv();noverlayu();"  alt="Boomtown"/>
+  <area shape="rect" coords="337,0,430,39" href="yb_essay05.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01b','','image/yb_essay_nav_05.gif',1);noverlay();noverlayv();noverlayu();"  alt="Interactions"/>
+  <area shape="rect" coords="430,0,544,39" href="yb_essay06.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01b','','image/yb_essay_nav_06.gif',1);noverlay();noverlayv();noverlayu();"  alt="Internationalism"/>
+  <area shape="rect" coords="544,0,622,39" href="yb_essay07.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01b','','image/yb_essay_nav_07.gif',1);noverlay();noverlayv();noverlayu();"  alt="Sources"/>
+</map>
+
+
+</body>
+</html>

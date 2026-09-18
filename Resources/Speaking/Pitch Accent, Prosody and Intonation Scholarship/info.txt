@@ -1,0 +1,81 @@
+Four academic papers, gathered together because they are the empirical/scholarly backing this
+guide's Pronunciation and Pitch Accent sections did not have. All four are freely downloadable
+from their publisher (J-STAGE or the author's university), but none carries an explicit
+redistribution licence - see the caveat at the end of each entry and in sources.md.
+
+---
+
+Matsuzaki Hiroshi, Kushida Machiko, Josei Hyakutaro, Tsukiji Nobumi, Liu Mingjie (1994),
+"Puroso dii-hyo wo mochiita shizen na Nihongo shuutoku no tame no onsei kyouiku no kouka"
+[プロソディー表を用いた自然な日本語習得のための音声教育の効果 - "The effect of phonetic
+education using a 'Prosody Table' for natural Japanese acquisition"], Journal of Japanese
+Language Teaching Methods (日本語教育方法研究会誌), Vol.1 No.3, pp.20-21.
+https://www.jstage.jst.go.jp/article/jlem/1/3/1_KJ00008196379/_article/-char/ja/
+© 1994 Japanese Language Teaching Methods Research Association.
+
+Directly answers the guide's "should you study pitch accent deliberately" question with real
+data: the authors built a "Prosody Table" - a visualisation of the actual pitch curve of natural
+Tokyo speech, rather than just accent-nucleus numbers or intonation marks - and used it to teach
+12 Korean learners. Pronunciation improved more than with the conventional accent-mark-only
+method. Short (2 pages, a research-report format typical of this journal), but a genuine
+controlled comparison, not an opinion piece. Note that the CJK text in this PDF does not extract
+cleanly with pdftotext in every environment (a font-encoding quirk in the original scan); it was
+verified by rendering it to an image and reading it directly - the content is real and legible.
+
+---
+
+Kanamura Kumi (2020), "Nihongo akusento shidou wo shien suru tame no onseigaku kyouiku to wa -
+Nihongo kyouin e no ankeeto chousa kara -" [日本語アクセント指導を支援するための音声学教育とは
+―日本語教員へのアンケート調査から― - "Improvements to Phonetic Education That Would Aid in
+Teaching Japanese Pitch Accent: Suggestions from a Questionnaire Survey of Japanese Language
+Teachers"], Journal of the Phonetic Society of Japan (音声研究), Vol.24, pp.36-48.
+https://www.jstage.jst.go.jp/article/onseikenkyu/24/0/24_36/_article/-char/ja/
+© 2020 Phonetic Society of Japan.
+
+A teacher-facing survey, not a learner study, but practically useful: it asks working Japanese
+teachers what they find hardest about teaching pitch accent, and concludes that teacher training
+should emphasise (a) the ability to judge the pitch of one's own voice and (b) understanding the
+gap between "model" pronunciation and what teachers actually produce. Relevant to anyone using
+this guide to teach, or self-correcting from a recording, since the paper is explicitly about the
+self-assessment-of-one's-own-pitch skill that the guide's "why recording yourself is
+non-negotiable" section relies on. In clean English-abstract PDF, extracts and renders fine.
+
+---
+
+Kohno Morio (1998), "Moora, onsetsu, rizumu no shinrigengogakuteki kousatsu" [モーラ, 音節,
+リズムの心理言語学的考察 - "Mora, Syllable, and Rhythm: A Psycholinguistic Study"], Journal of
+the Phonetic Society of Japan, Vol.2 No.1, pp.16-24 (April 1998).
+https://www.jstage.jst.go.jp/article/onseikenkyu/2/1/2_KJ00007630824/_pdf
+© 1998 Phonetic Society of Japan.
+
+The scholarship behind "mora timing", which the guide calls "the thing that decides whether you
+are understood" but does not cite. Argues that humans have two separate, neuropsychologically
+distinct rhythm-processing systems - a fast "holistic" one (under ~330ms inter-beat intervals)
+and a slower "analytic" one (over ~420ms) - and situates Japanese mora timing within that
+framework rather than treating "one mora = one beat" as a bare classroom rule. A 1998 scan (9
+pages at 400ppi, hence its unusually large file size for a 9-page paper - it is page images, not
+reflowed text). English summary extracts cleanly; the Japanese body text has the same
+font-encoding quirk as the Matsuzaki paper above.
+
+---
+
+Kori Shiro (2013), "Hantei youkyuu no shitsumonbun ni okeru gimonkei joushouchou to sono onseiteki
+tokuchou" [判定要求の質問文における疑問型上昇調とその音声的特徴 - "Interrogative Rise in Tokyo
+Japanese"], Studies in Language and Culture (言語文化研究), Osaka University Graduate School of
+Language and Culture, Vol.39, starting p.221.
+http://www.lang.osaka-u.ac.jp/~caris/articles/ (author's own departmental page; PDF filename is
+the Japanese title)
+No separate licence statement found; self-archived by the author on his university page, credit
+Kori Shiro / Osaka University.
+
+The guide's Pitch accent chapter is entirely about word-level pitch; this is the closest thing
+found here to a scholarly treatment of the guide's other named gap, sentence-level intonation -
+specifically, how a plain yes/no question (no か) is produced and perceived in Tokyo Japanese:
+final-mora lengthening (40-100ms depending on the word's own accent), a widened pitch range and
+faster tempo before the rise, and four sub-types of question (high-necessity, doubtful, positive-
+assumption, negative-assumption) that differ acoustically. Written in English (the paper's own
+abstract/summary section), citable, 24 pages.
+
+---
+
+Retrieved 2026-09-17.

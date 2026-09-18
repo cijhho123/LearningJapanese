@@ -1,0 +1,18 @@
+Group descriptions, quoted verbatim from Jim Breen's original ti_list page.
+The `group` column in transitivity-pairs-breen.tsv refers to these.
+`source column order` records how the original HTML laid the columns out: two of the
+five tables print INTRANSITIVE first. The TSV normalises every group to
+transitive-then-intransitive, so do not assume the TSV column order matches the HTML.
+A handful of intransitive headwords are kana-only in the source; their
+*_kanji field is empty.
+
+group 1 (79 pairs, source column order: TRANSITIVE|INTRANSITIVE): The first table has verbs where the transitive/intransitive pair are related by an eru-aru pattern (ける→かる, げる→がる, etc.) A few at the end are not quite regular in this formation.
+
+group 2 (35 pairs, source column order: TRANSITIVE|INTRANSITIVE): The next table has verbs where the transitive/intransitive pair are related by an u-eru pattern (る→れる, く→ける, etc.) Again a few at the end are not quite regular in this formation.
+
+group 3 (42 pairs, source column order: INTRANSITIVE|TRANSITIVE): In the next table the direction changes, and the intransitive/transitive pair are related by the u-eru pattern (む→める, く→ける, etc.)
+
+group 4 (108 pairs, source column order: INTRANSITIVE|TRANSITIVE): In the next table the transitive verbs all end in す. Many of these see an intransitive/transitive pattern of eru-asu: (ける→かす, れる→らす etc.)
+
+group 5 (3 pairs, source column order: TRANSITIVE|INTRANSITIVE): The final table contains pairs that don't seem to fit into the above categories.
+

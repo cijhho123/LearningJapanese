@@ -1,0 +1,15 @@
+{
+  "name": "learning-japanese",
+  "owner": { "name": "LearningJapanese" },
+  "description": "Tooling that ships with the LearningJapanese resource library.",
+  "plugins": [
+    {
+      "name": "japanese-tutor",
+      "source": "./japanese-tutor",
+      "displayName": "Japanese Tutor",
+      "description": "A persistent, adaptive Japanese tutor built on this repo's resources.",
+      "version": "0.1.0",
+      "license": "MIT"
+    }
+  ]
+}

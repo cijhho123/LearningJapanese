@@ -1,0 +1,864 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/tr/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>MIT Visualizing Cultures</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+
+
+<style type="text/css">
+<!--
+
+.backg {
+	position:absolute;
+	left:0px;
+	top:326px;
+	z-index: 1;
+background-image:url(../gt_japan_people/image/essay_bck.gif);
+}.warning {
+	position:absolute;
+	left:0px;
+	top:168px;
+	z-index: 1;
+background-image:url(../gt_japan_people/image/essay_bck.gif);
+}
+.navbox {
+		position: fixed;
+        left:10px;
+        top:0px;
+		z-index: 5;
+		visibility:hidden;
+}
+.unitsnavbox01 {
+        position:fixed;
+        left:200px;
+        top:0px;
+		z-index:5;
+}
+.unitnavbox {
+        position:fixed;
+        left:271px;
+        top:0px;
+		z-index:6;
+}
+.navboxu {
+		position: fixed;
+        left:200px;
+        top:0px;
+		z-index: 6;
+		visibility:hidden;	 
+}
+.navboxv {
+		position: fixed;
+        left:271px;
+        top:0px;
+		z-index: 7;
+		visibility:hidden;	 
+}
+.box14 {
+        position:fixed;
+        left:0px;
+        top:0px;
+		z-index:5;
+		background-color:#222222;
+		width:100%
+}
+.box15 {
+        position:fixed;
+        left:0px;
+        top:0px;
+		z-index:4;
+	    width: 100%;
+		background-color:#504B48
+}
+.boxessay {        position:absolute;
+        left:624px;
+        top:124px;
+		z-index:4;
+}
+.boxmono {        position:absolute;
+        left:624px;
+		z-index:4;
+}
+.boxwar {
+	position:absolute;
+	left:671px;
+	z-index:4;
+	width: 250px;
+}
+
+.boxpdf {        position:absolute;
+        left:671px;
+        top:220px;
+		z-index:4;color: #999999; font-size: 12px; line-height: 16px; font-family: Verdana, Arial, Helvetica, sans-serif;
+		width: 250px;
+		text-align:left;
+}
+.top {
+	position:absolute;
+	left:0px;
+	top:45px;
+	z-index: 2;
+}
+.bottom {
+	position:absolute;
+	left:0px;
+	z-index: 2;
+}
+.essaynavbottom {
+	position:absolute;
+	left:0px;
+	z-index: 3;
+}
+.essaynavtop {
+	position:absolute;
+	left:0px;
+	top:142px;
+	z-index: 3;
+}
+#horizon        
+	{
+	
+	text-align: center;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 1px;
+	overflow: visible;
+	visibility: visible;
+	display: block
+	}
+
+#content    
+	{
+	
+	margin-left: -485px;
+	position: absolute;
+	top: 0px;
+	left: 50%;
+	width: 250px;
+	height: 70px;
+	visibility: visible;
+
+	}
+.bottibody {color: #000000; font-size: 13px; line-height: 19px; font-family: Verdana, Arial, Helvetica, sans-serif
+	}
+.bottibody2 {color: #000000; font-size: 11px; line-height: 16px; font-family: Verdana, Arial, Helvetica, sans-serif }
+.bottismall {
+	color: #333333;
+	font-size: 9px;
+	line-height: 12px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-style: normal;
+	}
+.head { color: #0033CC; font-size: 15px; line-height: 19px; font-family: Verdana, Arial, Helvetica, sans-serif
+	}
+.bottiblock {
+	color: #2D2D2D;
+	font-size: 15px;
+	line-height: 19px;
+	font-family: Times New Roman, Times, serif;
+	font-style: italic;
+	}
+.bottiblockplain {
+	color: #2D2D2D;
+	font-size: 15px;
+	line-height: 19px;
+	font-family:   Times New Roman, Times, serif;
+	font-style: normal;
+	}
+.bottiblockhead {
+	color: #2D2D2D;
+	font-size: 18px;
+	line-height: 21px;
+	font-family: Times New Roman, Times, serif;
+	font-style: italic;
+	}
+.halfer { color: #ffffff; font-size: 6px; line-height: 6px; font-family: Verdana, Arial, Helvetica, sans-serif
+	}
+a:link {
+        color:#1233FF;
+        text-decoration:none;
+    }
+ a:active { 
+		color:#1233FF;
+        text-decoration:none;
+	}
+a:visited {
+		color:#1233FF;
+        text-decoration:none;
+	}
+a:hover {
+		color:#1233FF;
+        text-decoration:underline;
+	}
+
+.boxpdf a:link {
+        color:#999999;
+        text-decoration:none;
+    }
+ .boxpdf a:active { 
+		color:#999999;
+        text-decoration:none;
+	}
+.boxpdf a:visited {
+		color:#999999;
+        text-decoration:none;
+	}
+.boxpdf a:hover {
+		color:#ffffff;
+        text-decoration:none;
+	}
+.twit {
+		position: fixed;
+        top: 2px;
+        left: 810px;
+		z-index: 7;
+		
+}
+.emil{
+		position: fixed;
+        top: 4px;
+        left: 876px;
+		z-index: 7;
+		
+}
+.fbok{
+		position: fixed;
+        top: 2px;
+        left: 916px;
+		z-index: 7;
+		width: 48px;
+		overflow:hidden;
+}
+
+	.bottibody22 {color: #E2F4AA; font-size: 13px; line-height: 18px; font-family: Verdana, Arial, Helvetica, sans-serif }
+	
+.bottibody22 a:link {
+        color:#CFE3D8;
+        text-decoration:none;
+    }
+ .bottibody22 a:active { 
+		color:#CFE3D8;
+        text-decoration:none;
+	}
+.bottibody22 a:visited {
+		color:#CFE3D8;
+        text-decoration:none;
+	}
+.bottibody22 a:hover {
+		color:#ffffff;
+        text-decoration:none;
+	}
+.style1 {color: #111111}
+.style2 {line-height: 6px; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 6px;}
+-->
+</style>
+
+
+<script language="JavaScript" type="text/JavaScript">
+<!--
+//rollovers for menus
+function overlay() {
+        el = document.getElementById("hideme");
+        el.style.visibility ="visible";
+		noverlayu();
+		noverlayv();
+}
+
+function noverlay() {
+        el = document.getElementById("hideme");
+        el.style.visibility ="hidden";
+}
+
+
+function overlayu() {
+        el = document.getElementById("hidemeu");
+        el.style.visibility ="visible";
+		noverlay();
+		noverlayv();
+}
+function noverlayu() {
+        el = document.getElementById("hidemeu");
+        el.style.visibility ="hidden";
+}
+
+
+function overlayv() {
+        el = document.getElementById("hidemev");
+        el.style.visibility ="visible";
+		noverlay();
+		noverlayu();
+}
+function noverlayv() {
+        el = document.getElementById("hidemev");
+        el.style.visibility ="hidden";
+}
+
+
+
+
+function sesame() {
+window.moveTo(0,0);        
+window.resizeTo(1350,screen.height);
+}
+
+
+window.onload=function()
+{
+	//sesame();
+	noverlay();
+	noverlayu();
+	MM_preloadImages('../home/image/vc_units_nav_13.png','../home/image/vc_units_nav_12.png','../home/image/vc_units_nav_11.png','../home/image/vc_units_nav_10.png','../home/image/vc_units_nav_07.png','../home/image/vc_units_nav_09.png','../home/image/vc_units_nav_14.png','../home/image/vc_units_nav_08.png','../home/image/vc_units_nav_06.png','../home/image/vc_units_nav_05.png','../home/image/vc_units_nav_04.png','../home/image/vc_units_nav_03.png','../home/image/vc_home_nav_02.png','../home/image/vc_home_nav_03.png','../home/image/vc_home_nav_04.png','../home/image/vc_home_nav_05.png','../home/image/vc_home_nav_06.png','../home/image/vc_home_nav_07.png','../home/image/vc_home_nav_08.png','../home/image/vc_home_nav_09.png','../home/image/vc_home_nav_10.png','../home/image/essay_icon02.gif','../home/image/album_icon02.gif','../home/image/pdf_essay02.gif','../throwing_off_asia_01/image/toa_nav_04.png','../throwing_off_asia_01/image/toa_nav_02.png','../throwing_off_asia_01/image/toa_nav_03.png','../throwing_off_asia_01/image/toa_nav_05.png','../throwing_off_asia_01/image/toa2_essay_nav_01.gif','../throwing_off_asia_01/image/toa2_essay_nav_02.gif','../throwing_off_asia_01/image/toa2_essay_nav_03.gif','../throwing_off_asia_01/image/toa2_essay_nav_04.gif','../throwing_off_asia_01/image/toa2_essay_nav_05.gif','../throwing_off_asia_01/image/toa2_essay_nav_06.gif','../home/image/popup02.gif');
+}
+var newwindow = '';
+
+function imalert(url)
+{
+	if (!newwindow.closed && newwindow.location)
+	{
+		newwindow.location.href = url;
+	}
+	else
+	{
+		newwindow=window.open(url,'windowtwo','height=360,width=586, toolbar=no,  resizable=yes, status=no, scrollbars=yes');
+		if (!newwindow.opener) newwindow.opener = self;
+	}
+	if (window.focus) {newwindow.focus()}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//
+var vcidwindow = '';
+
+function openvcidwindow(url)
+{
+	if (!vcidwindow.closed && vcidwindow.location)
+	{
+		vcidwindow.location.href = url;
+	}
+	else
+	{
+		vcidwindow=window.open(url,'vcid','height=950,width=1000, toolbar=yes, scrollbars=yes, resizable=yes, location=yes');
+		if (!vcidwindow.opener) vcidwindow.opener = self;
+	}
+	if (window.focus) {vcidwindow.focus()
+	}
+	} 
+
+
+
+ var curwindow = '';
+
+function opencurwindow(url)
+{
+	if (!curwindow.closed && curwindow.location)
+	{
+		curwindow.location.href = url;
+	}
+	else
+	{
+		curwindow=window.open(url,'curriculum','height=800,width=720, toolbar=yes, scrollbars=yes, resizable=yes,  location=yes');
+		if (!curwindow.opener) curwindow.opener = self;
+	}
+	if (window.focus) {curwindow.focus()
+	}
+	} 
+//-->
+</script>
+<script type="text/javascript">
+<!--
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." :
+"http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost +
+"google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+//-->
+</script>
+<script type="text/javascript">
+<!--
+try {
+var pageTracker = _gat._getTracker("UA-12446158-1");
+pageTracker._trackPageview();
+} catch(err) {}
+//-->
+</script></head>
+<body bgcolor="#252322">
+<div  id="horizon">
+<div  id="content">
+<div class="warning">
+<table width="970" border="0" cellspacing="0" cellpadding="0">
+  <tr><td>
+<table align="left" width="622" border="0" cellspacing="0" cellpadding="0">
+     <tr> 
+       
+		
+    <td width="20" bgcolor="#444444"  style="background-image:url(../throwing_off_asia_01/image/shad2.gif);"></td>   <td width="582"  align="center" valign="top" class="bottibody" bgcolor="#444444" style="background-image:url(../throwing_off_asia_01/image/shad2.gif);">                
+                 <br /> <span class="halfer"><br />
+                 </span>
+                 <span class="style1">The following chapter contains wartime propaganda images. <br />
+                Readers are warned that these images can be offensive to view. <span class="style2"><br />
+                <br />
+                <br />
+                </span></span>
+                  <span class="style1">&#35831;&#27880;&#24847;&#20197;&#19979;&#20869;&#23481;&#21547;&#26377;&#25112;&#26102;&#23459;&#20256;&#22270;&#20687;,&#27983;&#35272;&#26102;&#25110;&#35768;&#20250;&#32473;&#24744;&#24102;&#26469;&#24515;&#29702;&#19981;&#36866;&#24863;&#12290;<span class="style2"><br />
+                  <br />
+                  <br />
+                  </span></span>
+
+                  <span class="style1">&#12371;&#12398;&#31456;&#12391;&#12399;&#25126;&#26178;&#20013;&#12398;&#12503;&#12525;&#12497;&#12460;&#12531;&#12480;&#12398;&#30011;&#20687;&#12364;&#21547;&#12414;&#12428;&#12390;&#12356;
+&#12414;&#12377;&#12290;<br />
+&#19981;&#24555;&#12395;&#24863;&#12376;&#12427;&#12424;&#12358;&#12394;&#34920;&#29694;&#12418;&#12354;&#12426;&#12414;&#12377;&#12398;&#12391;&#12289; 
+
+&#20808;&#12395;
+&#36914;&#12416;&#21069;&#12395;&#12372;&#27880;&#24847;&#12367;&#12384;&#12373;&#12356;&#12290;</span><br />
+<br />
+               </td> 
+    <td width="20" bgcolor="#444444"  style="background-image:url(../throwing_off_asia_01/image/shad2.gif);" ></td> 
+        </tr></table>
+</td></tr></table>
+
+</div>
+<div class="backg">
+<table width="970" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="20">&nbsp;</td>
+    <td width="579" ><table width="579" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+		
+          <td  align="left" valign="top" class="bottibody">                
+                <span class="head"><br />Devil in the Details</span><span class="halfer"><br /><br /></span></td>
+        </tr></table>
+
+
+
+ 
+      <table width="579" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td colspan="2" align="left" valign="top" class="bottibody"><span class="bottibody"></span>When all was said and done, denigration  ruled the day when it came to portraying the Chinese foe. As the prints so graphically reveal, moreover, such disdain frequently carried both a harsh racist charge and an undisguised edge of pure sadism. The devil, as always, is in the details. The Chinese are slashed with swords; skewered with bayonets (often run through from behind, as in Kiyochika&rsquo;s showing); shot at close range; beaten down with rifle butts; strangled; crushed with boulders; pounded with oars while floundering in the sea. They tumble off cliffs and warships like tiny rag dolls. In one print, a civilian caught in battle lies crumpled on the ground with a still-open parasol on his corpse, conspicuous once again by his gaudy and (in Japanese eyes) outlandish clothing.<br />
+            <br/>
+            It is particularly sobering to keep in mind that this was not on-the-scene &ldquo;realism.&rdquo; The woodblock artists worked largely out of their own imaginations, tailoring this to news reports from the front. They were commercial artists catering to a popular audience, and this was the war Japanese wished to see.<br/>
+            <br/>            
+            Admiral
+
+
+ Ding Juchang, the Chinese generals on their horses, the occasional battlefield enemies treated as just as human as the Japanese are exceptions that prove the rule. The prototypical Chinese is grotesque. His face is contorted, his body twisted and often turned topsy-turvy, his demeanor in most cases abject. Battlefield scenes routinely include cringing foe pleading for their lives&mdash;even while making clear that the emperor&rsquo;s stalwart heroes should and would pay no heed to such cowardice. The braided queue becomes, in and of itself, a mark of backwardness and inferiority; in more than a few battle scenes, Japanese stalwarts grasp this while dispatching their victim. (Pulling Chinese men by their &ldquo;pigtail&rdquo; was also a favorite image among American and English cartoonists until the overthrow of the Manchu dynasty in 1911, after which this hairstyle was no longer mandatory for ethnic Chinese males.)<br />
+ <br /></td>
+        </tr>
+
+<tr align="left" valign="top"> 
+          <td colspan="2"  align="center">
+
+            <table width="576" border="0" cellspacing="0" cellpadding="0" bgcolor="#cccccc">
+            <tr>
+              <td align="center" class="bottiblock" colspan="2"><div class="boxmono"><br />
+<br />
+<a href="../throwing_off_asia_01/violence.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image40','','../throwing_off_asia_01/image/explore_devil02.gif',0)"><img src="../throwing_off_asia_01/image/explore_devil.gif" alt="The Devil in the Details" name="Image40" width="348" height="67" border="0" id="Image40" /></a></div>
+              <img  title="" src="../throwing_off_asia_01/image/spacer.gif" alt="space" width="50" height="130" align="left"/><img  title="" src="../throwing_off_asia_01/image/spacer.gif" alt="space" width="50" height="130" align="right"/><br />
+                 <span class="bottiblockhead">The Devil in the Details</span><span class="halfer"><br />
+                <br/>
+                </span>
+                Although woodblock artists did not personally visit the battle front, their war prints routinely ridiculed the Chinese and depicted Japanese fighting men committing extraordinary acts of violence against them. Clearly this was the war Japanese at home wished to see.<br />
+                <br /></td>
+            </tr>
+
+ <tr>
+              <td colspan="2" align="center" >                <table border="0" cellspacing="0" cellpadding="0"><tr>
+                  <td><div class="boxwar" id="boxwar"><span class="bottibody22"><br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<a href="javascript:imalert('../home/about.html')">Warning: On viewing images of <br />
+              a 
+potentially
+disturbing nature</a><span class="halfer"><br />
+<br /><br /></span><a href="javascript:imalert('../home/vc_intro_chinese.pdf')">&#35531;&#27880;&#24847;:&#22294;&#29255;&#25110;&#35377;&#26371;&#28858;&#24118;&#20358;&#24515;&#29702;&#19981;&#36969;</a></span></div>
+                  <a href="../throwing_off_asia_01/2000_181_l.html"><img  title="" src="../throwing_off_asia_01/image/2000_181_det_plead_g.jpg" alt="&quot;The Great Battle of Ansong Ford: The Valor of Captain Matsuzaki&quot; &nbsp;by Mizuno Toshikata, 18.... (detail) [2000_115] Sharf Collection, Museum of Fine Arts, Boston" width="282" height="302" border="0" /></a><a href="../throwing_off_asia_01/2000_021_l.html"><img  title="" src="../throwing_off_asia_01/image/2000_021_det_spear_g.jpg" alt="&quot;The Great Battle of Ansong Ford: The Valor of Captain Matsuzaki&quot; &nbsp;by Mizuno Toshikata, 18.... (detail) [2000_115] Sharf Collection, Museum of Fine Arts, Boston" width="282" height="302" border="0" /></a></td>
+                  </tr>
+                <tr>
+                  <td><a href="../throwing_off_asia_01/res_23_300_l.html"><img  title="" src="../throwing_off_asia_01/image/res_23_300_det_shield.jpg" alt="&quot;The Great Battle of Ansong Ford: The Valor of Captain Matsuzaki&quot; &nbsp;by Mizuno Toshikata, 18.... (detail) [2000_115] Sharf Collection, Museum of Fine Arts, Boston" width="282" height="302" border="0" /></a><a href="../throwing_off_asia_01/res_23_285_l.html"><img  title="" src="../throwing_off_asia_01/image/res_23_285_det_blood.jpg" alt="&quot;The Great Battle of Ansong Ford: The Valor of Captain Matsuzaki&quot; &nbsp;by Mizuno Toshikata, 18.... (detail) [2000_115] Sharf Collection, Museum of Fine Arts, Boston" width="282" height="302" border="0" /></a></td>
+                  </tr>
+                <tr>
+                  <td><a href="../throwing_off_asia_01/2000_233_l.html"><img  title="" src="../throwing_off_asia_01/image/2000_233_det_q.jpg" alt="&quot;The Great Battle of Ansong Ford: The Valor of Captain Matsuzaki&quot; &nbsp;by Mizuno Toshikata, 18.... (detail) [2000_115] Sharf Collection, Museum of Fine Arts, Boston" width="282" height="302" border="0" /></a><a href="../throwing_off_asia_01/2000_445_l.html"><img  title="" src="../throwing_off_asia_01/image/2000_445_det_rock.jpg" alt="&quot;The Great Battle of Ansong Ford: The Valor of Captain Matsuzaki&quot; &nbsp;by Mizuno Toshikata, 18.... (detail) [2000_115] Sharf Collection, Museum of Fine Arts, Boston" width="282" height="302" border="0" /></a></td>
+                  </tr>
+              </table></td>
+            </tr>
+
+<tr>
+              <td colspan="2" align="center" class="bottismall"><span class="halfer"><img  title="" src="../throwing_off_asia_01/image/spacer.gif" alt="space" width="15" height="8" align="left"/></span><img  title="" src="../throwing_off_asia_01/image/spacer.gif" alt="space" width="15" height="5" align="right"/></td>
+            </tr>
+<tr bgcolor="#FFFFFF">
+              <td colspan="2" align="center" class="bottiblock"><span class="halfer"></span><img  title="" src="../throwing_off_asia_01/image/spacer.gif" width="15" height="15" alt="space"/></td>
+            </tr>
+<tr bgcolor="#FFFFFF">
+              <td colspan="2" align="center" class="bottiblock"><img  title="" src="../throwing_off_asia_01/image/spacer.gif" width="15" height="5" align="left" alt="space"/></td>
+            </tr>
+          </table></td>
+        </tr>
+
+<tr align="left" valign="top">
+ 
+          <td colspan="2" class="bottibody">Chinese prisoners of war, usually bound with thick rope, also drew attention. &#332;kura K&#333;t&#333; imagined &ldquo;Captain Higuchi&rdquo; (lionized for picking up a Chinese child on the battlefield) confronting three such captured Chinese&mdash;a particularly suggestive scene, combining as it did denigration of the &ldquo;old&rdquo; China with chivalrously rescuing &ldquo;young&rdquo; (or future) China, and all this in front of a piece of heavy artillery. Toshihide and others similarly dwelled on Chinese officers kneeling in supplication before their captors.<br />
+            <br /></td>
+        </tr>
+ <tr> 
+          <td colspan="2" align="center" class="bottibody"><a href="../throwing_off_asia_01/2000_179_l.html">&nbsp;&nbsp;<img  title="" src="../throwing_off_asia_01/image/2000_179_det_pow.jpg"  alt="&ldquo;Captain Higuchi, A Fierce Warrior, Ready to Lay Down His Life for Mercy&rsquo;s Sake at Fort Motianling&rdquo; by &#332;kura K&#333;t&#333;, January 1895 (detail) [2000_179] Sharf Collection, Museum of Fine Arts, Boston" width="562" height="405" border="0" align="middle"/></a></td>
+	    </tr>
+
+<tr> 
+          <td colspan="2" align="center" valign="top" class="bottibody"><img  title="" src="../throwing_off_asia_01/image/spacer.gif" alt="space" width="44" height="220" align="left"/><img  title="" src="../throwing_off_asia_01/image/spacer.gif" alt="space" width="44" height="220" align="right"/><span class="bottiblock">&ldquo;Captain Higuchi, A Fierce Warrior, Ready to Lay Down His Life for Mercy&rsquo;s Sake at Fort Motianling&rdquo; by &#332;kura K&#333;t&#333;, January 1895 (detail)</span><span class="halfer"><br />
+                <br />
+            </span>
+<span class="bottismall">[2000.179] Sharf Collection, Museum of Fine Arts, Boston</span><span class="halfer"><br />
+                <br /><br />
+            </span><span class="bottiblock">Many of the basic themes of Japanese war propaganda are combined in this print. The disciplined and victorious Japanese stand before the machinery of modern warfare in their Western-style uniforms, while Chinese prisoners in old-fashioned garb&mdash;symbols of backward &#8220;old Asia&#8221;&mdash;kneel before them.<span class="halfer"><br />
+<br /><br />
+            </span> Captain Higuchi&#8217;s rescue of a Chinese infant (a widely trumpeted story in Japan) represents more than just Japan&#8217;s ostensible benevolence. Japan, as this propaganda would have it, is actually saving China&#8217; s future by forcing it into the &#8220;modern&#8221; age.<br />
+            <br />
+            </span></td>
+	    </tr>
+
+
+<!--<tr>
+<td align="center" valign="top" class="bottiblock" width="6"><img  title="" src="../throwing_off_asia_01/image/spacer.gif" width="6" height="64" align="right" alt="space"/>
+  <table width="282" border="0" cellspacing="0" cellpadding="0" align="left">
+  <tr>
+    <td><a href="../throwing_off_asia_01/2000_380_08_l.html"><img  title="" src="../throwing_off_asia_01/image/2000_380_08_det.jpg" alt="&ldquo;Illustration of Chinese Generals from Pyongyang Captured Alive&rdquo; by Migita Toshihide, October 1894 (detail) [2000_380_08] Museum of Fine Arts, Boston" width="282" height="275" border="0" /></a></td>
+    </tr>
+  <tr>
+    <td align="center">&ldquo;Illustration of Chinese Generals from 
+      Pyongyang Captured Alive&rdquo; by 
+      Migita Toshihide, October 1894 (detail)<span class="halfer"><br />
+        <br />
+    </span><span class="bottismall">[2000.380.08]<br />
+    Sharf Collection, Museum of Fine Arts, Boston<br /><br /><br /></span></td>
+  </tr>
+</table>
+  <table width="282" border="0" cellspacing="0" cellpadding="0" align="right">
+    <tr>
+      <td align="left" valign="top"><a href="../throwing_off_asia_01/2000_380_05_l.html"><img  title="" src="../throwing_off_asia_01/image/2000_380_05_det.jpg" alt="&ldquo;Illustration of Our Righteous Army Capturing Money and Prisoners,&rdquo; (detail) [2000_380_05] Museum of Fine Arts, Boston" width="282" height="275" border="0" /></a></td>
+    </tr>
+    <tr>
+      <td align="center">&ldquo;Illustration of Our Righteous Army 
+        Capturing Money and Prisoners,&rdquo; 
+        artist unidentified (detail)<span class="halfer"><br />
+            <br />
+        </span><span class="bottismall">[2000.380.05]<br />
+Sharf Collection, Museum of Fine Arts, Boston<br /><br /><br /></span></td>
+      </tr>
+  </table></td>
+          </tr> -->
+
+<tr><td><table width="579" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><a href="../throwing_off_asia_01/2000_380_08_l.html"><img  title="" src="../throwing_off_asia_01/image/2000_380_08_det.jpg" alt="&ldquo;Illustration of Chinese Generals from Pyongyang Captured Alive&rdquo; by Migita Toshihide, October 1894 (detail) [2000_380_08] Museum of Fine Arts, Boston" width="282" height="275" border="0" /></a></td>
+    <td><a href="../throwing_off_asia_01/2000_380_05_l.html"><img  title="" src="../throwing_off_asia_01/image/2000_380_05_det.jpg" alt="&ldquo;Illustration of Our Righteous Army Capturing Money and Prisoners,&rdquo; (detail) [2000_380_05] Museum of Fine Arts, Boston" width="282" height="275" border="0" /></a></td>
+  </tr>
+  <tr>
+     <td align="center" class="bottiblock">&ldquo;Illustration of Chinese Generals from 
+      Pyongyang Captured Alive&rdquo; by 
+      Migita Toshihide, October 1894 (detail)<span class="halfer"><br />
+        <br />
+    </span><span class="bottismall">[2000.380.08]<br />
+    Sharf Collection, Museum of Fine Arts, Boston<br /><br /><br /></span></td>
+     <td align="center" class="bottiblock">&ldquo;Illustration of Our Righteous Army 
+        Capturing Money and Prisoners,&rdquo; 
+        artist unidentified (detail)<span class="halfer"><br />
+            <br />
+        </span><span class="bottismall">[2000.380.05]<br />
+Sharf Collection, Museum of Fine Arts, Boston<br /><br /><br /></span></td>
+  </tr>
+</table>
+</td></tr>
+<tr align="left" valign="top">
+ 
+          <td colspan="2" class="bottibody">Kokunimasa offered a harsh &ldquo;Illustration of the Decapitation of Violent Chinese Soldiers&rdquo; that included a lengthy inscription. The benevolence and justice of the Japanese army, this text explained, equaled and even surpassed that of the civilized Western nations. By contrast, the barbarity of the Chinese was such that some prisoners attacked their guards. As a warning, the Japanese&mdash;as depicted in the print&mdash;had beheaded as many as 38 rebellious prisoners in front of other captured Chinese. The Rising Sun military flag still fluttered in one panel of Kokunimasa&rsquo;s print; the stalwart cavalry officer still surveyed the scene; the executioner still struck the familiar heroic pose with upraised sword. The subject itself, however, and severed heads on the ground, made this an unusually frightful scene.<br />
+            <br /><div class="boxwar" id="boxwar"><span class="bottibody22"><br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<a href="javascript:imalert('../home/about.html')">Warning: On viewing images of <br />
+              a 
+potentially
+disturbing nature</a><span class="halfer"><br />
+<br /><br /></span><a href="javascript:imalert('../home/vc_intro_chinese.pdf')">&#35531;&#27880;&#24847;:&#22294;&#29255;&#25110;&#35377;&#26371;&#28858;&#24118;&#20358;&#24515;&#29702;&#19981;&#36969;</a></span></div></td>
+        </tr>
+
+<tr>
+<td align="center" class="bottiblock"><a href="../throwing_off_asia_01/2000_380_07_l.html"><img  title="" src="../throwing_off_asia_01/image/2000_380_07_det.jpg" alt="&ldquo;Illustration of the Decapitation of Violent Chinese Soldiers&rdquo; by Utagawa Kokunimasa, October 1894 (detail) [2000_380_07] Sharf Collection, Museum of Fine Arts, Boston" width="565" height="304" border="0" /></a>               </td>
+          </tr>
+<tr>
+              <td align="center" class="bottiblock"><img  title="" src="../throwing_off_asia_01/image/spacer.gif" alt="space" width="44" height="230" align="left"/><img  title="" src="../throwing_off_asia_01/image/spacer.gif" alt="space" width="44" height="230" align="right"/>&ldquo;Illustration of the Decapitation of Violent Chinese Soldiers&rdquo;<br />
+                by Utagawa Kokunimasa, October 1894 (detail)<span class="halfer"><br />
+                <br />
+            </span><span class="bottismall">[2000.380.07] Sharf Collection, Museum of Fine Arts, Boston</span><span class="halfer"><br /><br />
+                <br />
+            </span><span class="bottiblock">The long description on this particularly grisly scene contrasts the &#8220;civilized&#8221; behavior of the Japanese to the &#8220;barbarity&#8221; of the Chinese&mdash;and as an example of the latter tells how Chinese prisoners rebelled against their captors and were executed as a warning to other Chinese.<span class="halfer"><br /><br />
+                <br />
+            </span>This is an extraordinary declaration given the atrocious nature of the graphic. At the same time, it is perfectly in accord with the rhetoric of Western imperialists of the time, who similarly portrayed their brutal suppression of peoples in other lands as part of a &#8220;civilizing mission.&#8221;<br />
+            <br />
+            </span></td>
+          </tr>
+<tr align="left" valign="top">
+ 
+          <td colspan="2" class="bottibody">
+            <table width="200" border="0" cellspacing="14" cellpadding="0" align="right" class="punchbox">
+                <tr>
+                  <td width="200" align="center" valign="top" ><div class="boxmono"><span class="bottiblock"><br />
+<br />
+<br />
+<br /></span>
+<a href="../throwing_off_asia_01/punch.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image39','','../throwing_off_asia_01/image/explore_orient02.gif',0)"><img src="../throwing_off_asia_01/image/explore_orient.gif" alt="Orientalism - the War in English Eyes" name="Image39" width="348" height="67" border="0" id="Image39" /></a></div>
+                    <a href="../throwing_off_asia_01/punch.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image39','','../throwing_off_asia_01/image/explore_orient02.gif',0)"><img src="../throwing_off_asia_01/image/punch.gif" alt="Punch" width="200" height="219" border="0" align="top"  title="" /></a><span class="bottiblock"><br />&ldquo;Orientalism:&rdquo; A sample of Western racial stereotypes 
+          of the Sino-Japanese War, as seen in 
+          cartoons (and texts) from the  
+          British weekly magazine </span><span class="bottiblockplain">Punch.<br />
+<br />
+</span></td>
+                </tr>
+            </table>
+            The derision of the Chinese that permeates these prints found expression in other sectors of popular Japanese culture. The scholar Donald Keene, for example, has documented how popular prose, poems, and songs of the war years took similar delight in lampooning the &ldquo;pumpkin-headed&rdquo; Chinese and making jokes about their slaughter. (It was around this time that the pejorative Japanese epithets <em>chanchan</em> and <em>chankoro</em> became popular, amounting to a counterpart to the English-language slur &ldquo;chink.&rdquo;)<br />
+            <br />
+            Even today, over a century later, this contempt remains shocking. Simply as racial stereotyping alone, it was as disdainful of the Chinese as anything that can be found in anti-&ldquo;Oriental&rdquo; racism in the United States and Europe at the time&mdash;as if the process of &ldquo;Westernization&rdquo; had entailed, for Japanese, adopting the white man&rsquo;s imagery while excluding themselves from it. This poisonous seed, already planted in violence in 1894&ndash;95, would burst into full atrocious flower four decades later, when the emperor&rsquo;s soldiers and sailors once again launched war against China. Ironically, the Japanese propaganda that accompanied that later war involved throwing off &ldquo;the West&rdquo; and embracing &ldquo;Pan-Asianism&rdquo;&mdash;but that is another story.<br />
+            <br /><br /><br/></td>
+        </tr>
+
+
+
+
+      </table>
+
+
+
+		 <table border="0" cellspacing="0" cellpadding="0" align="left">
+          
+ <tr>
+          <td align="left" valign="top"><span class="bottismall"><img src="../home/image/redline.gif" width="570" height="1"  alt="MIT Visualizing Cultures" title=""/><br/><br/>
+                <a href="javascript:imalert('../home/about.html')"><em>On viewing images of a potentially disturbing nature: click here.</em></a><br />
+                <br/>Massachusetts Institute of Technology &#169; 2008 Visualizing Cultures<br />
+                <br />
+          </span></td>
+          </tr>
+
+
+
+ <tr>
+          <td align="left" valign="top"><div class="bottom"><img src="../throwing_off_asia_01/image/essay_bottom.gif"  alt="MIT Visualizing Cultures" width="970" height="136" border="0" align="left" title=""/></div>
+<div class="essaynavbottom">
+  <table width="622" border="0" cellspacing="0" cellpadding="0" align="left">
+  <tr align="left">
+    <td align="left" width="105"><img src="../throwing_off_asia_01/image/toa2_essay_nav_04.gif"  alt="Throwing Off Asia II" name="nav01b" width="622" height="39" border="0" usemap="#Map5" id="nav01b" title=""/></td>
+  </tr>
+</table>
+</div></td>
+          </tr>
+
+
+	  </table>
+</td>
+    <td width="371">&nbsp;</td>
+  </tr>
+</table></div>
+<div class="top"><img src="../throwing_off_asia_01/image/essay_top_ii.gif"  alt="MIT Visualizing Cultures" width="970" height="136" border="0" align="left" title=""/></div>
+
+<!--end background elements -->
+
+<!-- essay nav -->
+<div class="essaynavtop"><table width="622" border="0" cellspacing="0" cellpadding="0" align="left">
+  <tr align="left">
+    <td align="left" width="622"><img src="../throwing_off_asia_01/image/toa2_essay_nav_04.gif"  alt="Throwing Off Asia II" name="nav01" width="622" height="39" border="0" usemap="#Map4" id="nav01" title=""/></td>
+  </tr>
+</table>
+</div>
+
+
+<!-- end essay nav -->
+
+
+
+<!-- right-hand buttons -->
+
+
+
+
+
+<div class="boxpdf" id="boxpdf"><span class="bottibody22"><a href="javascript:imalert('../home/about.html')">Warning: On viewing images of<br />a potentially
+disturbing nature</a><br />
+<br />
+<a href="javascript:imalert('../home/vc_intro_chinese.pdf')">&#35531;&#27880;&#24847;:&#22294;&#29255;&#25110;&#35377;&#26371;&#28858;&#24118;&#20358;&#24515;&#29702;&#19981;&#36969;</a></span><br /><br /><br />
+<a href="../throwing_off_asia_01/pdf/toa2_essay_04.pdf" target="_blank"    onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image12','','../home/image/pdf_chap04.gif',1);noverlay();noverlayv();noverlayu();">Printer-friendly PDF of this chapter</a></div>
+
+
+
+
+
+
+<!--end  right-hand buttons -->
+
+
+
+
+
+</div>
+</div>
+
+<!--top bar nav elements -->
+<div class="box14" id="box14" ><table  width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><img src="../home/image/spacer.gif" width="10" height="26"  alt="MIT Visualizing Cultures"/><img src="../home/image/hometopnav01.gif"  alt="Menu" width="227" height="26" border="0" usemap="#topmap"/></td>
+  </tr>
+</table>
+</div>
+
+<div class="box15" id="box15" ><table  width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><img src="../home/image/spacer.gif" width="10" height="27"  alt="MIT Visualizing Cultures"/></td>
+  </tr>
+</table>
+</div>
+
+<div class="navbox" id="hideme"><a  onmouseout="javascript:noverlay();" onmouseover="javascript:overlay();"><img src="../home/image/vc_home_nav.png" alt="MIT Visualizing Cultures" width="202" height="300" border="0" usemap="#Map"  id="Image5"  name="Image5" title="" /></a></div> 
+
+<div class="twit">
+<a href="https://twitter.com/share" class="twitter-share-button" data-count="none">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></div>
+
+<div class="emil"><!--email-->
+<script type="text/javascript"><!--
+
+var SubjectLine='MIT Visualizing Cultures'; 
+var BodyText='You can see this page at: '+top.location.href;
+
+var Message='<A CLASS=contact HREF="mailto:?SUBJECT='+escape(SubjectLine)+'&BODY='+escape(BodyText)+'" OnMouseOver="status=\'Envoyer cette page à vos amis\'; return true;" ><img src="../home/image/email2.gif" alt="Email" name="Image321"   border="0" id="Image321"  title=""/><\/A>';
+
+var MessageIE='<A CLASS=contact HREF="mailto:?SUBJECT='+(SubjectLine)+'&BODY='+(BodyText)+'" OnMouseOver="status=\'Envoyer cette page à vos amis\'; return true;" ><img src="../home/image/email2.gif" alt="Email" name="Image321"   border="0" id="Image321"  title=""/><\/A>';
+
+if(document.all) { document.write(MessageIE); }
+
+else { document.write(Message); }
+
+// http://javascriptsource.com "The JavaScript Source"
+//--></script></div>
+
+
+
+<!--facebook--><div class="fbok">
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<div class="fb-like" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false" data-colorscheme="light" data-font="verdana"></div>
+
+</div> 
+
+<div class="unitsnavbox01" id="unitsnavbox01" ><a  onmouseout="javascript:noverlayu();" onmouseover="javascript:overlayu();"><img src="../home/image/unitstopnav01.gif"  alt="Units" width="227" height="26" border="0"/></a></div>
+ <div class="navboxu" id="hidemeu"><a href="#" onmouseout="javascript:noverlayu();" onmouseover="javascript:overlayu();"><img src="../home/image/vc_units_cur_nav.png" alt="MIT Visualizing Cultures" width="179" height="148" border="0" usemap="#Map3"  id="Image6"  name="Image6" title=""/></a></div> <div class="unitnavbox" id="unitnavbox" ><a  onmouseout="javascript:noverlayv();" onmouseover="javascript:overlayv();"><img src="../throwing_off_asia_01/image/topnav_ii.gif"  alt="Throwing Off Asia II" width="227" height="26" border="0"/></a></div>
+ 
+<div class="navboxv" id="hidemev"><a  onmouseout="javascript:noverlayv();" onmouseover="javascript:overlayv();"><img src="../throwing_off_asia_01/image/toa_nav.png" alt="Throwing Off Asia II"  name="Image7" width="212" height="169" border="0" usemap="#Image7Map"   id="Image7" title=""/>
+    
+</a></div>
+<!--end top bar nav elements -->
+
+
+
+<!--image maps -->
+    <map name="topmap" id="topmap">
+      <area shape="rect" coords="0,0,180,47" href="#" onmouseover="overlay();"  alt="MIT Visualizing Cultures" />
+      <area shape="rect" coords="194,0,300,47" href="#" onmouseover="overlayu();"  alt="VC Units" />
+  </map>
+
+<map name="Map" id="Map">
+      <area shape="rect" coords="0,0,211,39" href="../home/index.html" onmouseover="overlay()" alt="MIT Visualizing Cultures"/>
+      <area shape="rect" coords="0,39,211,66" href="../home/vc01_about.html" target="_top"  alt="About VC" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_02.png',1)"/>      
+      <area shape="rect" coords="0,66,211,96" href="../home/vc02_schol.html" target="_top"  alt="VC Scholars" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_03.png',1)" />
+  <area shape="rect" coords="0,96,211,124" href="../home/vc03_partner.html" target="_top"  alt="Partner Institutions" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_04.png',1)" />
+
+  <area shape="rect" coords="0,124,211,147" href="../home/vc05_outreach.html" target="_top"  alt="Outreach" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_05.png',1)" />
+  <area shape="rect" coords="3,147,211,181" href="../home/vc06_event.html" target="_top"  alt="Conferences &amp; Events" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_06.png',1)" />
+  <area shape="rect" coords="3,181,211,214" href="mailto:visualizingcultures@mit.edu" target="_top"  alt="Contact" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_07.png',1)" />
+ <area shape="rect" coords="1,214,212,240" href="http://www.facebook.com/home.php#!/group.php?gid=261831254970&amp;ref=ts" target="_blank"  alt="Join Us" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_08.png',1)" />
+  <area shape="rect" coords="0,240,211,266" href="http://twitter.com/Visualizing_Cul" target="_blank"  alt="Follow Us" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_09.png',1)" />
+</map><map name="Map3" id="Map3">
+  
+<area shape="rect" coords="0,2,312,30" href="../home/vis_menu.html" target="_top" alt="Units" onmouseout="noverlayu();MM_swapImgRestore()" onmouseover="overlayu();" />
+
+<area shape="rect" coords="2,38,314,68" href="../home/vis_menu.html" target="_top" alt="Icon View" onmouseout="noverlayu();MM_swapImgRestore()" onmouseover="overlayu();MM_swapImage('Image6','','../home/image/vc_units_cur_nav_01.png',1)" />
+
+<area shape="rect" coords="0,67,312,95" href="../home/vis_menu_02b.html" target="_top" alt="Text View" onmouseout="noverlayu();MM_swapImgRestore()" onmouseover="overlayu();MM_swapImage('Image6','','../home/image/vc_units_cur_nav_02.png',1)" />
+
+<area shape="rect" coords="1,94,313,122" href="../home/vis_menu_03.html" target="_top" alt="Curriculae" onmouseout="noverlayu();MM_swapImgRestore()" onmouseover="overlayu();MM_swapImage('Image6','','../home/image/vc_units_cur_nav_03.png',1)" /></map>
+<map name="Image7Map" id="Image7Map">
+  <area shape="rect" coords="0,2,212,30" href="index.html" target="_top" alt="Throwing Off Asia II" onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();" />
+      <area shape="rect" coords="0,42,215,70" href="toa_essay01.html" target="_top" alt="Essay" onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();MM_swapImage('Image7','','../throwing_off_asia_01/image/toa_nav_02.png',1)" />
+  <area shape="rect" coords="0,70,215,99" href="toa_vis_01.html" target="_top" alt="Visual Narratives" onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();MM_swapImage('Image7','','../throwing_off_asia_01/image/toa_nav_03.png',1)" />
+  <area shape="rect" coords="0,99,215,127" href="javascript:openvcidwindow('../throwing_off_asia_01/gallery/index.htm')" target="_top" alt="Image Gallery" onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();MM_swapImage('Image7','','../throwing_off_asia_01/image/toa_nav_04.png',1)" />
+<area shape="rect" coords="0,127,215,154" href="javascript:opencurwindow('../throwing_off_asia_01/cur_student/toa_cur_toc.html')" target="_top" alt="Curriculum"  onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();MM_swapImage('Image7','','../throwing_off_asia_01/image/toa_nav_05.png',1)" />
+</map>
+
+<map name="Map4" id="Map4">
+ <area shape="rect" coords="0,0,137,41"   href="toa_essay01.html" onmouseover="MM_swapImage('nav01','','../throwing_off_asia_01/image/toa2_essay_nav_01.gif',1);noverlay();noverlayv();noverlayu();" onmouseout="MM_swapImgRestore()" alt="Prints &amp; Propaganda"/>
+
+ <area shape="rect" coords="137,0,249,41" href="toa_essay02.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01','','../throwing_off_asia_01/image/toa2_essay_nav_02.gif',1);noverlay();noverlayv();noverlayu();"  alt="Kyochika&#8217;s War"/>
+
+<area shape="rect" coords="249,1,346,42" href="toa_essay03.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01','','../throwing_off_asia_01/image/toa2_essay_nav_03.gif',1);noverlay();noverlayv();noverlayu();"  alt="&#8220;Old China,
+New Japan&#8221;"/>
+
+    <!-- <area shape="rect" coords="346,0,434,41" href="toa_essay04.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01','','../throwing_off_asia_01/image/toa2_essay_nav_04.gif',1);noverlay();noverlayv();noverlayu();"  alt="Devil in
+the Details"/> -->
+
+  <area shape="rect" coords="434,0,556,41" href="toa_essay05.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01','','../throwing_off_asia_01/image/toa2_essay_nav_05.gif',1);noverlay();noverlayv();noverlayu();"  alt="Symbolic &#8220;China&#8221;"/>
+
+  <area shape="rect" coords="555,0,622,41" href="toa_essay06.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01','','../throwing_off_asia_01/image/toa2_essay_nav_06.gif',1);noverlay();noverlayv();noverlayu();"  alt="Sources"/>
+</map>
+
+<map name="Map5" id="Map5">
+ <area shape="rect" coords="0,0,137,41"   href="toa_essay01.html" onmouseover="MM_swapImage('nav01b','','../throwing_off_asia_01/image/toa2_essay_nav_01.gif',1);noverlay();noverlayv();noverlayu();" onmouseout="MM_swapImgRestore()" alt="Prints &amp; Propaganda"/> 
+
+  <area shape="rect" coords="137,0,249,41" href="toa_essay02.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01b','','../throwing_off_asia_01/image/toa2_essay_nav_02.gif',1);noverlay();noverlayv();noverlayu();"  alt="Kyochika&#8217;s War"/>
+  
+ <area shape="rect" coords="249,1,346,42" href="toa_essay03.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01b','','../throwing_off_asia_01/image/toa2_essay_nav_03.gif',1);noverlay();noverlayv();noverlayu();"  alt="&#8220;Old China,
+New Japan&#8221;"/>
+
+  <!-- <area shape="rect" coords="346,0,434,41" href="toa_essay04.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01b','','../throwing_off_asia_01/image/toa2_essay_nav_04.gif',1);noverlay();noverlayv();noverlayu();"  alt="Devil in
+the Details"/>-->
+
+  <area shape="rect" coords="434,0,556,41" href="toa_essay05.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01b','','../throwing_off_asia_01/image/toa2_essay_nav_05.gif',1);noverlay();noverlayv();noverlayu();"  alt="Symbolic &#8220;China&#8221;"/>
+
+  <area shape="rect" coords="555,0,622,41" href="toa_essay06.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01b','','../throwing_off_asia_01/image/toa2_essay_nav_06.gif',1);noverlay();noverlayv();noverlayu();"  alt="Sources"/>
+</map>
+
+
+
+</body>
+</html>

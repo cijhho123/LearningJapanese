@@ -1,0 +1,684 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/tr/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>MIT Visualizing Cultures</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+
+
+<style type="text/css">
+<!--
+
+.backg {
+	position:absolute;
+	left:0px;
+	top:180px;
+	z-index: 1;
+background-image:url(../gt_japan_people/image/essay_bck.gif);
+}
+.flashy {
+	position:absolute;
+	left:467px;
+	top:42px;
+	z-index: 3;
+}
+.slug {        position:absolute;
+        left:20px;
+        top:475px;
+        width:467px;
+		z-index:2;
+		text-align:left;
+}
+.navbox {
+		position: fixed;
+        left:10px;
+        top:0px;
+		z-index: 5;
+		visibility:hidden;
+}
+.unitsnavbox01 {
+        position:fixed;
+        left:200px;
+        top:0px;
+		z-index:5;
+}
+.unitnavbox {
+        position:fixed;
+        left:271px;
+        top:0px;
+		z-index:6;
+}
+.navboxu {
+		position: fixed;
+        left:200px;
+        top:0px;
+		z-index: 6;
+		visibility:hidden;	 
+}
+.navboxv {
+		position: fixed;
+        left:271px;
+        top:0px;
+		z-index: 7;
+		visibility:hidden;	 
+}
+.box14 {
+        position:fixed;
+        left:0px;
+        top:0px;
+		z-index:5;
+		background-color:#222222;
+		width:100%
+}
+.box15 {
+        position:fixed;
+        left:0px;
+        top:0px;
+		z-index:4;
+	    width: 100%;
+		background-color:#504B48
+}
+.box16 {        position:fixed;
+        left:0px;
+        top:23px;
+		z-index:4;
+	width: 100%;
+background-color:#2F302F 
+}
+.boxessay {        position:absolute;
+        left:624px;
+        top:124px;
+		z-index:4;
+}
+.boxvisnav {        position:absolute;
+        left:624px;
+        top:200px;
+		z-index:4;
+}
+.boxpdf {        position:absolute;
+        left:624px;
+        top:220px;
+		z-index:4;
+}
+
+.box01 { 
+		position: static;
+		top: 20%;
+		left: 20%;
+}
+#horizon        
+	{
+	
+	text-align: center;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 1px;
+	overflow: visible;
+	visibility: visible;
+	display: block
+	}
+
+#content    
+	{
+	
+	margin-left: -485px;
+	position: absolute;
+	top: 0px;
+	left: 50%;
+	width: 250px;
+	height: 70px;
+	visibility: visible;
+
+	}
+.essaynavbottom {
+	position:absolute;
+	left:0px;
+	z-index: 3;
+}
+.essaynavtop {
+	position:absolute;
+	left:0px;
+	top:142px;
+	z-index: 3;
+}
+.top {
+	position:absolute;
+	left:0px;
+	top:45px;
+	z-index: 2;
+}
+.bottom {
+	position:absolute;
+	left:0px;
+	z-index: 2;
+}
+.boxmono {        position:absolute;
+        left:624px;
+		z-index:4;
+}
+.bottibody {color: #000000; font-size: 13px; line-height: 19px; font-family: Verdana, Arial, Helvetica, sans-serif
+	}
+.bottibody2 {color: #000000; font-size: 11px; line-height: 16px; font-family: Verdana, Arial, Helvetica, sans-serif }
+.bottismall {
+	color: #333333;
+	font-size: 9px;
+	line-height: 12px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-style: normal;
+	}
+.head { color: #8C42D0; font-size: 15px; line-height: 19px; font-family: Verdana, Arial, Helvetica, sans-serif
+	}
+.bottiblock {
+	color: #2D2D2D;
+	font-size: 15px;
+	line-height: 19px;
+	font-family: Times New Roman, Times, serif;
+	font-style: italic;
+	}
+.bottiblockplain {
+	color: #2D2D2D;
+	font-size: 15px;
+	line-height: 19px;
+	font-family:   Times New Roman, Times, serif;
+	font-style: normal;
+	}
+.bottiblockhead {
+	color: #2D2D2D;
+	font-size: 18px;
+	line-height: 21px;
+	font-family: Times New Roman, Times, serif;
+	font-style: italic;
+	}
+.halfer { color: #ffffff; font-size: 6px; line-height: 6px; font-family: Verdana, Arial, Helvetica, sans-serif
+	}
+a:link {
+        color:#1233FF;
+        text-decoration:none;
+    }
+ a:active { 
+		color:#1233FF;
+        text-decoration:none;
+	}
+a:visited {
+		color:#1233FF;
+        text-decoration:none;
+	}
+a:hover {
+		color:#1233FF;
+        text-decoration:underline;
+	}
+.twit {
+		position: fixed;
+        top: 2px;
+        left: 810px;
+		z-index: 7;
+		
+}
+.emil{
+		position: fixed;
+        top: 4px;
+        left: 876px;
+		z-index: 7;
+		
+}
+.fbok{
+		position: fixed;
+        top: 2px;
+        left: 916px;
+		z-index: 7;
+		width: 48px;
+		overflow:hidden;
+}
+-->
+</style>
+
+
+<script language="JavaScript" type="text/JavaScript">
+<!--
+//rollovers for menus
+function overlay() {
+        el = document.getElementById("hideme");
+        el.style.visibility ="visible";
+		noverlayu();
+		noverlayv();
+}
+
+function noverlay() {
+        el = document.getElementById("hideme");
+        el.style.visibility ="hidden";
+}
+
+
+function overlayu() {
+        el = document.getElementById("hidemeu");
+        el.style.visibility ="visible";
+		noverlay();
+		noverlayv();
+}
+function noverlayu() {
+        el = document.getElementById("hidemeu");
+        el.style.visibility ="hidden";
+}
+
+
+function overlayv() {
+        el = document.getElementById("hidemev");
+        el.style.visibility ="visible";
+		noverlay();
+		noverlayu();
+}
+function noverlayv() {
+        el = document.getElementById("hidemev");
+        el.style.visibility ="hidden";
+}
+
+
+
+
+function sesame() {
+window.moveTo(0,0);        
+window.resizeTo(1350,screen.height);
+}
+
+
+window.onload=function()
+{
+	//sesame();
+	noverlay();
+	noverlayu();
+	MM_preloadImages('../home/image/vc_home_nav_02.png','../home/image/vc_home_nav_03.png','../home/image/vc_home_nav_04.png','../home/image/vc_home_nav_05.png','../home/image/vc_home_nav_06.png','../home/image/vc_home_nav_07.png','../home/image/vc_home_nav_08.png','../home/image/vc_home_nav_09.png','../home/image/vc_home_nav_10.png','../home/image/vc_units_nav_02.png','../home/image/vc_units_nav_03.png','../home/image/vc_units_nav_04.png','../home/image/vc_units_nav_05.png','../home/image/vc_units_nav_06.png','../home/image/vc_units_nav_07.png','../home/image/vc_units_nav_08.png','../home/image/vc_units_nav_09.png','../home/image/vc_units_nav_10.png','../home/image/vc_units_nav_11.png','../home/image/vc_units_nav_12.png','../home/image/vc_units_nav_13.png','../home/image/vc_units_nav_14.png','../home/image/vn_icon02.gif','../home/image/pdf_essay02.gif','../home/image/essay_icon02.gif','image/gz_nav_02.png','image/gz_nav_03.png','image/gz_nav_04.png','image/gz_nav_05.png','image/gz_essay_nav_01.gif','image/gz_essay_nav_02.gif','image/gz_essay_nav_03.gif','image/gz_essay_nav_04.gif','image/gz_essay_nav_05.gif','image/gz_essay_nav_06.gif','image/gz_essay_nav_07.gif');
+}
+var newwindow = '';
+
+function imalert(url)
+{
+	if (!newwindow.closed && newwindow.location)
+	{
+		newwindow.location.href = url;
+	}
+	else
+	{
+		newwindow=window.open(url,'windowtwo','height=360,width=586, toolbar=no,  resizable=yes, status=no, scrollbars=yes');
+		if (!newwindow.opener) newwindow.opener = self;
+	}
+	if (window.focus) {newwindow.focus()}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//
+var vcidwindow = '';
+
+function openvcidwindow(url)
+{
+	if (!vcidwindow.closed && vcidwindow.location)
+	{
+		vcidwindow.location.href = url;
+	}
+	else
+	{
+		vcidwindow=window.open(url,'vcid','height=950,width=1000, toolbar=yes, scrollbars=yes, resizable=yes, location=yes');
+		if (!vcidwindow.opener) vcidwindow.opener = self;
+	}
+	if (window.focus) {vcidwindow.focus()
+	}
+	} 
+
+
+
+ var curwindow = '';
+
+function opencurwindow(url)
+{
+	if (!curwindow.closed && curwindow.location)
+	{
+		curwindow.location.href = url;
+	}
+	else
+	{
+		curwindow=window.open(url,'curriculum','height=800,width=720, toolbar=yes, scrollbars=yes, resizable=yes,  location=yes');
+		if (!curwindow.opener) curwindow.opener = self;
+	}
+	if (window.focus) {curwindow.focus()
+	}
+	} 
+//-->
+</script>
+<script type="text/javascript">
+<!--
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." :
+"http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost +
+"google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+//-->
+</script>
+<script type="text/javascript">
+<!--
+try {
+var pageTracker = _gat._getTracker("UA-12446158-1");
+pageTracker._trackPageview();
+} catch(err) {}
+//-->
+</script></head>
+<body bgcolor="#252422">
+<div  id="horizon">
+<div  id="content">
+<div class="backg">
+<table width="970" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="20">&nbsp;</td>
+    <td width="579" ><table width="579" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td  align="left" valign="top" class="bottibody">                
+                <span class="head"><br />
+                Hope
+                </span><span class="halfer"><br />
+                <br /></span></td>
+        </tr>
+	  <tr> 
+          <td align="left" valign="top" class="bottibody">It may seem difficult to look at these pictures of hell on earth and emerge with hope, but that is presumably what many of the survivors who drew them intended. One picture that was accompanied by a long explanation addressed this directly. The artwork itself depicted a man wearing nothing but shorts, standing by a wall of fire. He was the artist's neighbor, a professor who had been unable to save his trapped wife from the flames. They had been eating breakfast when the bomb fell, and he still held a ball of rice (<em>onigiri</em>) in his hand.
+<br />
+			    <br />
+&quot;But I wonder how he came to hold that rice ball in his hand,&quot; the artist wrote at the end of his commentary. &quot;His naked figure, standing there before the flames with that rice ball looked to me like a symbol of the modest hope of human beings.&quot;<br />
+<br /></td>
+        </tr>
+      </table>
+    
+		
+		 <table width="579" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td width="340" align="right" valign="top" ><a href="javascript:openvcidwindow('gallery/pages/14_08.htm');"><img src="image/GE14_08_ce.jpg" alt="A university professor whose wife has been consumed by the fire" width="317" height="405" border="0"/></a></td>
+          <td width="239" align="center" valign="middle" class="bottiblock"><img src="image/space.gif" width="14" height="150" align="right" alt="space"/>A university professor whose wife has been consumed by the fire stands stunned by the streetcar tracks, clutching a ball of rice in his hand.<br />            
+          <br />
+  INOUE Mikio<br />
+  40 years old in August 1945<br />
+  [14_08]<br />
+  <img src="image/space.gif" alt="space" width="230" height="5"/></td>
+        </tr>
+        <tr align="left" valign="top"> 
+          <td colspan="2" class="bottibody"><span class="bottismall"><br/>
+          </span>It is this modest hope that helps explain why so many survivors eventually responded to the invitation to share what they personally experienced and witnessed in August 1945. Grief and hope together underlie the philosophy that has developed around Hiroshima and (to a lesser extent) Nagasaki. This is conveyed in the famous lines by the poet T&#333;ge Sankichi that are carved (in English as well as Japanese) on a monument in the &quot;peace park&quot; in Hiroshima:<br />
+         <blockquote>Give back my father, give back my mother;
+              <br/>
+              Give grandpa back, grandma back;
+              <br/>
+              Give me my sons and daughters back.
+              <br/>
+              Give me back myself.
+              <br/>
+              Give me back the human race.
+              <br/>
+              As long as this life lasts, this life,
+              <br/>
+              Give back peace
+              <br/>
+              That will never end.
+          </blockquote>
+	 
+	
+	
+	 
+	  T&#333;ge was a survivor who died in 1957, at the age of 36, from leukemia caused by exposure to the bomb's radiation. His poem is titled &quot;Give Back the Human.&quot;
+            
+            <br/>
+            <br/>In more abrupt, political language, the intent behind such remembrance has been compressed into the simplest of slogans: <em>No More Hiroshimas</em>. What the artwork is intended to do is remind present and future generations of the intimate human experience behind such sloganeering.
+            
+            <br/>
+            <br/>As it happens, there is a serendipitous convergence between the bombing of Hiroshima and Nagasaki in August 1945 and traditional Japanese commemoration of the souls of the dead. The Japanese &quot;All Souls Day&quot; is known as &#332;bon, and falls either in mid-July or mid-August depending on whether one follows the old (lunar) or new (solar) calendars. Both dates are still observed in Japan, and the practice is both solemn and celebratory. The dead are welcomed back to earth with folk dances and other community activities. When time comes for them to return to the other world, they are seen off late in the evening by floating square paper lanterns lighted with candles on the rivers.
+            <br/><br/>Memorialization of the victims of the atomic bombs overlaps with traditional &#332;bon observances. Perhaps because of this (or perhaps the overlap of the calendar is just coincidence), it has become customary in Hiroshima and other places throughout the world to remember the victims of the 1945 bombs by floating lanterns. Usually each participant paints pictures or words on one of them. These are simultaneously prayers for the souls of the dead and prayers for peace.
+            
+            <br/><br/>In Hiroshima, the floating of these lanterns has poignancy beyond the city's experience in August 1945, for the beautiful lighted lanterns are floated on the very same rivers that once were clogged with corpses.
+            
+            <br/><br/>
+            Tucked among the survivors' pictures in the Hiroshima Peace Memorial Museum, without any explanation, is an amateur painting of these floating lanterns, with Hiroshima's famous, unreconstructed city-hall dome visible against the evening sky. The brief caption that came with this reads &quot;The lanterns floated and prayers lifted up for the peaceful repose of the A-bomb dead and for peace.&quot;
+            
+            The artist was a young woman born 11 years after the end of the war. She was 18 when, in 1974, she responded to the invitation to draw personal memories of the bomb. <br />
+            <br /></td>
+        </tr>
+       
+      </table>
+	  
+	   <table width="579" border="0" cellspacing="0" cellpadding="0">
+	  
+				   <tr> 
+          <td width="229" align="center" valign="middle" class="bottiblock"><img src="image/space.gif" width="14" height="200" align="left" alt="space"/><img src="image/space.gif" width="14" height="200" align="right" alt="space"/>Floating lanterns as a prayer for the souls of the dead and a prayer for peace. The artist was 18 years old in 1974 when she responded to the appeal for pictures recalling the bomb.
+            <br />
+            <br />
+            TAKASHIBA Harue<br />
+  Born in 1956<br />
+&nbsp;[17_30]<br />
+<img src="image/space.gif" alt="space" width="210" height="5"/></td>
+          <td width="350" align="left" valign="top"><img src="image/space.gif" width="10" height="466" align="right" alt="space"/><a href="javascript:openvcidwindow('gallery/pages/17_30.htm');"><img src="image/GE17_30_ce.jpg" alt="Floating lanterns as a prayer for the souls of the dead " width="333" height="456" border="0"/></a></td>
+        </tr>
+		</table>
+
+
+ <table width="579" border="0" cellspacing="0" cellpadding="0">
+
+
+<tr>
+          <td align="left" valign="top"><span class="bottismall"><img src="../home/image/redline.gif" width="570" height="1"  alt="MIT Visualizing Cultures" title=""/><br/><br/>                
+<a href="javascript:imalert('../home/about.html')"><em>On viewing images of a potentially disturbing nature: click here.</em></a><br />
+                <br/>Massachusetts Institute of Technology &#169; 2008 Visualizing Cultures<br />
+                <br />
+          </span></td>
+          </tr>
+
+ <tr>
+          <td align="left" valign="top"><div class="bottom"><img src="image/essay_bottom.gif"  alt="MIT Visualizing Cultures" width="970" height="136" border="0" align="left" title=""/></div>
+<div class="essaynavbottom">
+  <table width="622" border="0" cellspacing="0" cellpadding="0" align="left">
+  <tr align="left">
+    <td align="left" width="105"><img src="image/gz_essay_nav_06.gif"  alt="Yellow Promise/Yellow Peril" name="nav01b" width="622" height="39" border="0" usemap="#Map5" id="nav01b" title=""/></td>
+  </tr>
+</table>
+</div></td>
+          </tr>
+
+
+	  </table>
+</td>
+    <td width="371">&nbsp;</td>
+  </tr>
+</table></div>
+<div class="top"><img src="image/essay_top.gif"  alt="MIT Visualizing Cultures" width="970" height="136" border="0" align="left" title=""/></div>
+
+<!--end background elements -->
+
+<!-- essay nav -->
+<div class="essaynavtop"><table width="622" border="0" cellspacing="0" cellpadding="0" align="left">
+  <tr align="left">
+    <td align="left" width="622"><img src="image/gz_essay_nav_06.gif"  alt="Yellow Promise/Yellow Peril" name="nav01" width="622" height="39" border="0" usemap="#Map4" id="nav01" title=""/></td>
+  </tr>
+</table>
+</div>
+
+
+<!-- end essay nav -->
+
+
+
+<!-- right-hand buttons -->
+
+
+
+
+
+<div class="boxpdf" id="boxpdf"><a href="gz_essay06.pdf"  target="_blank"  onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image12','','../home/image/pdf_chap02.gif',1);noverlay();noverlayv();noverlayu();"><img src="../home/image/pdf_chap.gif" alt="Printable PDF of this chapter" name="Image12" width="348" height="67" border="0" id="Image12"  title=""/></a></div>
+
+
+
+
+<!--end  right-hand buttons -->
+
+
+
+
+
+</div>
+</div>
+
+
+<!--top bar nav elements -->
+<div class="box14" id="box14" ><table  width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><img src="../home/image/spacer.gif" width="10" height="26"  alt="MIT Visualizing Cultures"/><img src="../home/image/hometopnav01.gif"  alt="Menu" width="227" height="26" border="0" usemap="#topmap"/></td>
+  </tr>
+</table>
+</div>
+
+<div class="box15" id="box15" ><table  width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><img src="../home/image/spacer.gif" width="10" height="27"  alt="MIT Visualizing Cultures"/></td>
+  </tr>
+</table>
+</div>
+
+<div class="navbox" id="hideme"><a  onmouseout="javascript:noverlay();" onmouseover="javascript:overlay();"><img src="../home/image/vc_home_nav.png" alt="MIT Visualizing Cultures" width="202" height="300" border="0" usemap="#Map"  id="Image5"  name="Image5" title="" /></a></div> 
+
+<div class="twit">
+<a href="https://twitter.com/share" class="twitter-share-button" data-count="none">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></div>
+
+<div class="emil"><!--email-->
+<script type="text/javascript"><!--
+
+var SubjectLine='MIT Visualizing Cultures'; 
+var BodyText='You can see this page at: '+top.location.href;
+
+var Message='<A CLASS=contact HREF="mailto:?SUBJECT='+escape(SubjectLine)+'&BODY='+escape(BodyText)+'" OnMouseOver="status=\'Envoyer cette page à vos amis\'; return true;" ><img src="../home/image/email2.gif" alt="Email" name="Image321"   border="0" id="Image321"  title=""/><\/A>';
+
+var MessageIE='<A CLASS=contact HREF="mailto:?SUBJECT='+(SubjectLine)+'&BODY='+(BodyText)+'" OnMouseOver="status=\'Envoyer cette page à vos amis\'; return true;" ><img src="../home/image/email2.gif" alt="Email" name="Image321"   border="0" id="Image321"  title=""/><\/A>';
+
+if(document.all) { document.write(MessageIE); }
+
+else { document.write(Message); }
+
+// http://javascriptsource.com "The JavaScript Source"
+//--></script></div>
+
+
+
+<!--facebook--><div class="fbok">
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<div class="fb-like" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false" data-colorscheme="light" data-font="verdana"></div>
+
+</div> 
+
+<div class="unitsnavbox01" id="unitsnavbox01" ><a  onmouseout="javascript:noverlayu();" onmouseover="javascript:overlayu();"><img src="../home/image/unitstopnav01.gif"  alt="Units" width="227" height="26" border="0"/></a></div>
+ <div class="navboxu" id="hidemeu"><a href="#" onmouseout="javascript:noverlayu();" onmouseover="javascript:overlayu();"><img src="../home/image/vc_units_cur_nav.png" alt="MIT Visualizing Cultures" width="179" height="148" border="0" usemap="#Map3"  id="Image6"  name="Image6" title=""/></a></div> <div class="unitnavbox" id="unitnavbox" ><a  onmouseout="javascript:noverlayv();" onmouseover="javascript:overlayv();"><img src="image/topnav.gif"  alt="Yellow Promise/Yellow Peril" width="227" height="26" border="0"/></a></div>
+ 
+<div class="navboxv" id="hidemev"><a  onmouseout="javascript:noverlayv();" onmouseover="javascript:overlayv();"><img src="image/gz_nav.png" alt="Yellow Promise/Yellow Peril"  name="Image7" width="212" height="139" border="0" usemap="#Image7Map"   id="Image7" title=""/>
+    
+</a></div>
+<!--end top bar nav elements -->
+
+
+
+<!--image maps -->
+    <map name="topmap" id="topmap">
+      <area shape="rect" coords="0,0,180,47" href="#" onmouseover="overlay();"  alt="MIT Visualizing Cultures" />
+      <area shape="rect" coords="194,0,300,47" href="#" onmouseover="overlayu();"  alt="VC Units" />
+  </map>
+
+<map name="Map" id="Map">
+      <area shape="rect" coords="0,0,211,39" href="../home/index.html" onmouseover="overlay()" alt="MIT Visualizing Cultures"/>
+      <area shape="rect" coords="0,39,211,66" href="../home/vc01_about.html" target="_top"  alt="About VC" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_02.png',1)"/>      
+      <area shape="rect" coords="0,66,211,96" href="../home/vc02_schol.html" target="_top"  alt="VC Scholars" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_03.png',1)" />
+  <area shape="rect" coords="0,96,211,124" href="../home/vc03_partner.html" target="_top"  alt="Partner Institutions" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_04.png',1)" />
+
+  <area shape="rect" coords="0,124,211,147" href="../home/vc05_outreach.html" target="_top"  alt="Outreach" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_05.png',1)" />
+  <area shape="rect" coords="3,147,211,181" href="../home/vc06_event.html" target="_top"  alt="Conferences &amp; Events" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_06.png',1)" />
+  <area shape="rect" coords="3,181,211,214" href="mailto:visualizingcultures@mit.edu" target="_top"  alt="Contact" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_07.png',1)" />
+ <area shape="rect" coords="1,214,212,240" href="http://www.facebook.com/home.php#!/group.php?gid=261831254970&amp;ref=ts" target="_blank"  alt="Join Us" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_08.png',1)" />
+  <area shape="rect" coords="0,240,211,266" href="http://twitter.com/Visualizing_Cul" target="_blank"  alt="Follow Us" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_09.png',1)" />
+</map><map name="Map3" id="Map3">
+  
+<area shape="rect" coords="0,2,312,30" href="../home/vis_menu.html" target="_top" alt="Units" onmouseout="noverlayu();MM_swapImgRestore()" onmouseover="overlayu();" />
+
+<area shape="rect" coords="2,38,314,68" href="../home/vis_menu.html" target="_top" alt="Icon View" onmouseout="noverlayu();MM_swapImgRestore()" onmouseover="overlayu();MM_swapImage('Image6','','../home/image/vc_units_cur_nav_01.png',1)" />
+
+<area shape="rect" coords="0,67,312,95" href="../home/vis_menu_02b.html" target="_top" alt="Text View" onmouseout="noverlayu();MM_swapImgRestore()" onmouseover="overlayu();MM_swapImage('Image6','','../home/image/vc_units_cur_nav_02.png',1)" />
+
+<area shape="rect" coords="1,94,313,122" href="../home/vis_menu_03.html" target="_top" alt="Curriculae" onmouseout="noverlayu();MM_swapImgRestore()" onmouseover="overlayu();MM_swapImage('Image6','','../home/image/vc_units_cur_nav_03.png',1)" /></map>
+<map name="Map4" id="Map4">
+ <area shape="rect" coords="0,0,107,41"   href="gz_essay01.html" onmouseover="MM_swapImage('nav01','','image/gz_essay_nav_01.gif',1);noverlay();noverlayv();noverlayu();" onmouseout="MM_swapImgRestore()" alt="Introduction"/> 
+
+<area shape="rect" coords="107,0,197,40" href="gz_essay02.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01','','image/gz_essay_nav_02.gif',1);noverlay();noverlayv();noverlayu();"  alt="Hellfire"/>
+
+ <area shape="rect" coords="197,1,278,42" href="gz_essay03.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01','','image/gz_essay_nav_03.gif',1);noverlay();noverlayv();noverlayu();"  alt="Water"/>
+
+    <area shape="rect" coords="278,-1,368,40" href="gz_essay04.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01','','image/gz_essay_nav_04.gif',1);noverlay();noverlayv();noverlayu();"  alt="Ghosts"/>
+
+  <area shape="rect" coords="368,-2,458,39" href="gz_essay05.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01','','image/gz_essay_nav_05.gif',1);noverlay();noverlayv();noverlayu();"  alt="Despair"/>
+
+  <!-- <area shape="rect" coords="458,0,538,41" href="gz_essay06.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01','','image/gz_essay_nav_06.gif',1);noverlay();noverlayv();noverlayu();"  alt="Hope"/>-->
+
+  <area shape="rect" coords="538,0,622,41" href="gz_essay07.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01','','image/gz_essay_nav_07.gif',1);noverlay();noverlayv();noverlayu();"  alt="Sources"/>
+</map>
+
+<map name="Map5" id="Map5">
+ <area shape="rect" coords="0,0,107,41"   href="gz_essay01.html" onmouseover="MM_swapImage('nav01b','','image/gz_essay_nav_01.gif',1);noverlay();noverlayv();noverlayu();" onmouseout="MM_swapImgRestore()" alt="Introduction"/>
+
+  <area shape="rect" coords="107,0,197,40" href="gz_essay02.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01b','','image/gz_essay_nav_02.gif',1);noverlay();noverlayv();noverlayu();"  alt="Hellfire"/>
+
+<area shape="rect" coords="197,1,278,42" href="gz_essay03.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01b','','image/gz_essay_nav_03.gif',1);noverlay();noverlayv();noverlayu();"  alt="Water"/> 
+
+   <area shape="rect" coords="278,0,368,41" href="gz_essay04.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01b','','image/gz_essay_nav_04.gif',1);noverlay();noverlayv();noverlayu();"  alt="Ghosts"/>
+
+<area shape="rect" coords="368,0,458,41" href="gz_essay05.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01b','','image/gz_essay_nav_05.gif',1);noverlay();noverlayv();noverlayu();"  alt="Despair"/>
+
+    <!-- <area shape="rect" coords="458,-1,538,40" href="gz_essay06.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01b','','image/gz_essay_nav_06.gif',1);noverlay();noverlayv();noverlayu();"  alt="Hope"/>-->
+
+  <area shape="rect" coords="538,0,622,41" href="gz_essay07.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01b','','image/gz_essay_nav_07.gif',1);noverlay();noverlayv();noverlayu();"  alt="Sources"/>
+</map>
+
+
+
+
+
+<map name="Image7Map" id="Image7Map">
+  <area shape="rect" coords="0,2,212,30" href="index.html" target="_top" alt="Ground Zero 1945" onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();" />
+    <area shape="rect" coords="0,39,215,70" href="gz_essay01.html" target="_top" alt="Essay" onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();MM_swapImage('Image7','','image/gz_nav_02.png',1)" />
+
+  <area shape="rect" coords="0,69,215,96" href="gz_visnav01.html" target="_top" alt="Visual Narratives" onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();MM_swapImage('Image7','','image/gz_nav_03.png',1)" />
+
+  <area shape="rect" coords="0,95,215,127" href="javascript:openvcidwindow('gallery/index.htm')" target="_top" alt="Image Gallery" onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();MM_swapImage('Image7','','image/gz_nav_04.png',1)" />
+
+  <!--<area shape="rect" coords="0,130,215,160" href="javascript:openvcidwindow('gallery/index.htm')" target="_top" alt="Curriculum" onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();MM_swapImage('Image7','','image/gz_nav_05.png',1)" /> -->
+</map>
+
+
+
+
+</body>
+</html>

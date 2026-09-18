@@ -1,0 +1,1187 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/tr/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>MIT Visualizing Cultures</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+
+
+<style type="text/css">
+<!--
+
+.backg {
+	position:absolute;
+	left:0px;
+	top:180px;
+	z-index: 1;
+background-image:url(../gt_japan_people/image/essay_bck.gif);
+}
+.top {
+	position:absolute;
+	left:0px;
+	top:45px;
+	z-index: 2;
+}
+.bottom {
+	position:absolute;
+	left:0px;
+	z-index: 2;
+}
+.essaynavtop {
+	position:absolute;
+	left:0px;
+	top:142px;
+	z-index: 3;
+}
+.essaynavbottom {
+	position:absolute;
+	left:0px;
+	z-index: 3;
+}
+.essay {
+	position:absolute;
+	left:20px;
+	top:195px;
+	z-index: 4;
+	background-color:#FFFFFF;
+}
+.flashy {
+	position:absolute;
+	left:467px;
+	top:42px;
+	z-index: 3;
+}
+.slug {        position:absolute;
+        left:20px;
+        top:475px;
+        width:476px;
+		z-index:2;
+		text-align:left;
+}
+.navbox {
+		position: fixed;
+        left:10px;
+        top:0px;
+		z-index: 5;
+		visibility:hidden;
+}
+.unitsnavbox01 {
+        position:fixed;
+        left:200px;
+        top:0px;
+		z-index:5;
+}
+.unitnavbox {
+        position:fixed;
+        left:271px;
+        top:0px;
+		z-index:6;
+}
+.navboxu {
+		position: fixed;
+        left:200px;
+        top:0px;
+		z-index: 6;
+		visibility:hidden;	 
+}
+.navboxv {
+		position: fixed;
+        left:271px;
+        top:0px;
+		z-index: 7;
+		visibility:hidden;	 
+}
+.unitnavbox2 {
+        position:fixed;
+        left:454px;
+        top:0px;
+		z-index:6;
+}
+.navboxv2 {
+		position: fixed;
+        left:454px;
+        top:0px;
+		z-index: 7;
+		visibility:hidden;	 
+}
+.box14 {
+        position:fixed;
+        left:0px;
+        top:0px;
+		z-index:5;
+		background-color:#222222;
+		width:100%
+}
+.box15 {
+        position:fixed;
+        left:0px;
+        top:0px;
+		z-index:4;
+	    width: 100%;
+		background-color:#504B48
+}
+.box16 {        position:fixed;
+        left:0px;
+        top:23px;
+		z-index:4;
+	width: 100%;
+background-color:#2F302F 
+}
+.popup01 {        position:absolute;
+        left:624px;
+		z-index:4;
+}
+.boxjapanlink {        position:absolute;
+        left:624px;
+		z-index:4;
+}
+.boxpdf {        position:absolute;
+        left:624px;
+        top:410px;
+		z-index:4;
+}
+
+.box01 { 
+		position: static;
+		top: 20%;
+		left: 20%;
+}
+
+.japan { 
+		position: absolute;
+		left:0px;
+}
+
+.video { 
+		position: absolute;
+		left:68px;
+		height:391px;
+		background-color:#cccccc;
+		visibility:hidden;
+}
+#horizon        
+	{
+	text-align: center;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 1px;
+	overflow: visible;
+	visibility: visible;
+	display: block
+	}
+
+#content    
+	{
+	margin-left: -485px;
+	position: absolute;
+	top: 0px;
+	left: 50%;
+	width: 250px;
+	height: 70px;
+	visibility: visible;
+
+	}
+.bottibody {color: #111111; font-size: 13px; line-height: 19px; font-family: Verdana, Arial, Helvetica, sans-serif
+	}
+.bottibody2 {color: #ffffff; font-size: 11px; line-height: 16px; font-family: Verdana, Arial, Helvetica, sans-serif
+	}
+.bottiblock {
+	color: #2D2D2D;
+	font-size: 15px;
+	line-height: 19px;
+	/*font-family: Georgia, "Times New Roman", Times, serif;*/
+	font-family: Times New Roman, Times, serif;
+	font-style: italic;
+	}
+.bottiblockplain {
+	color: #2D2D2D;
+	font-size: 15px;
+	line-height: 19px;
+	/*font-family: Georgia, "Times New Roman", Times, serif;*/
+	font-family:   Times New Roman, Times, serif;
+	font-style: normal;
+	}
+.bottiblockii {
+	color: #2D2D2D;
+	font-size: 16px;
+	line-height: 20px;
+	/*font-family: Georgia, "Times New Roman", Times, serif;*/
+	font-family: Times New Roman, Times, serif;
+	font-style: italic;
+	}
+.bottiblockplainii {
+	color: #2D2D2D;
+	font-size: 16px;
+	line-height: 20px;
+	/*font-family: Georgia, "Times New Roman", Times, serif;*/
+	font-family:   Times New Roman, Times, serif;
+	font-style: normal;
+	}
+.bottiblockhead {
+	color: #2D2D2D;
+	font-size: 20px;
+	line-height: 18px;
+	/*font-family: Georgia, "Times New Roman", Times, serif;*/
+	font-family: Times New Roman, Times, serif;
+	font-style: italic;
+	}
+.bottismall {
+	color: #333333;
+	font-size: 9px;
+	line-height: 12px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-style: normal;
+	}
+.head { color: #34466F; font-size: 15px; line-height: 19px; font-family: Verdana, Arial, Helvetica, sans-serif
+	}
+.halfer { color: #ffffff; font-size: 6px; line-height: 6px; font-family: Verdana, Arial, Helvetica, sans-serif
+	}
+a:link {
+        color:#1233FF;
+        text-decoration:none;
+    }
+ a:active { 
+		color:#1233FF;
+        text-decoration:none;
+	}
+a:visited {
+		color:#1233FF;
+        text-decoration:none;
+	}
+a:hover {
+		color:#1233FF;
+        text-decoration:underline;
+	}
+.box141 {	position:absolute;
+	left:0px;
+	top:0px;
+	}
+.twit {
+		position: fixed;
+        top: 2px;
+        left: 810px;
+		z-index: 7;
+		
+}
+.emil{
+		position: fixed;
+        top: 4px;
+        left: 876px;
+		z-index: 7;
+		
+}
+.fbok{
+		position: fixed;
+        top: 2px;
+        left: 916px;
+		z-index: 7;
+		width: 48px;
+		overflow:hidden;
+}
+-->
+</style>
+
+
+<script language="JavaScript" type="text/JavaScript">
+<!--
+//rollovers for menus
+function overlay() {
+        el = document.getElementById("hideme");
+        el.style.visibility ="visible";
+		noverlayu();
+		noverlayv();
+		noverlayv2();
+}
+
+function noverlay() {
+        el = document.getElementById("hideme");
+        el.style.visibility ="hidden";
+}
+
+
+function overlayu() {
+        el = document.getElementById("hidemeu");
+        el.style.visibility ="visible";
+		noverlay();
+		noverlayv();
+		noverlayv2()
+}
+function noverlayu() {
+        el = document.getElementById("hidemeu");
+        el.style.visibility ="hidden";
+}
+
+
+function overlayv() {
+        el = document.getElementById("hidemev");
+        el.style.visibility ="visible";
+		noverlay();
+		noverlayu();
+		noverlayv2();
+}
+function noverlayv() {
+        el = document.getElementById("hidemev");
+        el.style.visibility ="hidden";
+}
+
+
+function overlayv2() {
+        el = document.getElementById("hidemev2");
+        el.style.visibility ="visible";
+		noverlay();
+		noverlayu();
+		noverlayv();
+}
+function noverlayv2() {
+        el = document.getElementById("hidemev2");
+        el.style.visibility ="hidden";
+}
+function showvid() {
+        el = document.getElementById("thevid");
+        el.style.visibility ="visible";
+		noverlayu();
+		noverlayv();
+        PlayIt(document.movie1);
+}
+
+function hidevid() {
+    //    StopIt(document.movie1);
+		el = document.getElementById("thevid");
+        el.style.visibility ="hidden";
+
+
+}
+/* a javascript function that takes a QT movie and calls its "Play" method */
+        function PlayIt(anObj)
+        {
+                anObj.Play();
+        }
+        /* a javascript function that takes a QT movie and calls its "Stop" method */
+        function StopIt(anObj)
+        {
+                anObj.Stop();
+        }
+
+
+
+function sesame() {
+window.moveTo(0,0);        
+window.resizeTo(1350,screen.height);
+}
+
+
+window.onload=function()
+{
+	//sesame();
+//    StopIt(document.movie1);
+	noverlay();
+	noverlayu();
+	MM_preloadImages('../home/image/vc_home_nav_02.png','../home/image/vc_home_nav_03.png','../home/image/vc_home_nav_04.png','../home/image/vc_home_nav_05.png','../home/image/vc_home_nav_06.png','../home/image/vc_home_nav_07.png','../home/image/vc_home_nav_08.png','../home/image/vc_home_nav_09.png','../home/image/vc_home_nav_10.png','../home/image/vc_units_nav_01.png','../home/image/vc_units_nav_02.png','../home/image/vn_icon02.gif','../home/image/pdf_essay02.gif','../home/image/essay_icon02.gif','../home/image/units_bck_05.jpg','../home/image/units_bck_06.jpg','../black_ships_and_samurai/image/bss_i_nav.png','../black_ships_and_samurai/image/bss_i_nav_02.png','../black_ships_and_samurai/image/bss_i_nav_03.png','../black_ships_and_samurai/image/bss_i_nav_04.png','../black_ships_and_samurai/image/bss_i_essay_nav.png','../black_ships_and_samurai/image/bss_i_essay_nav_02.png','../black_ships_and_samurai/image/bss_i_essay_nav_03.png','../black_ships_and_samurai/image/bss_i_essay_nav_04.png','../black_ships_and_samurai/image/bss_i_essay_nav_05.png','../black_ships_and_samurai/image/bss_i_essay_nav_06.png','../black_ships_and_samurai/image/bss_i_essay_nav_07.png','../black_ships_and_samurai/image/bss_i_essay_nav_08.png','../black_ships_and_samurai/image/bss_i_essay_nav_09.png','../black_ships_and_samurai/image/bss_i_essay_nav_10.png','image/bss_essay_nav_01.gif','image/bss_essay_nav_02.gif','image/bss_essay_nav_03.gif','image/bss_essay_nav_04.gif','image/bss_essay_nav_05.gif','image/bss_essay_nav_06.gif','image/bss_essay_nav_07.gif','image/bss_essay_nav_08.gif','image/bss_essay_nav_09.gif','../home/image/popup02.gif');
+}
+var newwindow = '';
+
+function imalert(url)
+{
+	if (!newwindow.closed && newwindow.location)
+	{
+		newwindow.location.href = url;
+	}
+	else
+	{
+		newwindow=window.open(url,'windowtwo','height=360,width=586, toolbar=no,  resizable=yes, status=no, scrollbars=yes');
+		if (!newwindow.opener) newwindow.opener = self;
+	}
+	if (window.focus) {newwindow.focus()}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//
+var vcidwindow = '';
+
+function openvcidwindow(url)
+{
+	if (!vcidwindow.closed && vcidwindow.location)
+	{
+		vcidwindow.location.href = url;
+	}
+	else
+	{
+		vcidwindow=window.open(url,'vcid','height=950,width=1000, toolbar=yes, scrollbars=yes, resizable=yes, location=yes');
+		if (!vcidwindow.opener) vcidwindow.opener = self;
+	}
+	if (window.focus) {vcidwindow.focus()
+	}
+	} 
+
+
+
+ var curwindow = '';
+
+function opencurwindow(url)
+{
+	if (!curwindow.closed && curwindow.location)
+	{
+		curwindow.location.href = url;
+	}
+	else
+	{
+		curwindow=window.open(url,'curriculum','height=800,width=720, toolbar=yes, scrollbars=yes, resizable=yes,  location=yes');
+		if (!curwindow.opener) curwindow.opener = self;
+	}
+	if (window.focus) {curwindow.focus()
+	}
+	} 
+
+
+function decider(){
+ el = document.getElementById("thevid");
+
+if(el.style.visibility =="visible") {
+hidevid()
+} else {
+showvid()
+}
+}
+//-->
+</script>
+<script type="text/javascript">
+<!--
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." :
+"http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost +
+"google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+//-->
+</script>
+<script type="text/javascript">
+<!--
+try {
+var pageTracker = _gat._getTracker("UA-12446158-1");
+pageTracker._trackPageview();
+} catch(err) {}
+//-->
+</script></head>
+<body bgcolor="#252422">
+<div  id="horizon">
+<div  id="content">
+<!--background elements -->
+<div class="backg"><table width="970" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="20">&nbsp;</td>
+    <td width="579" ><table width="579" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td  align="left" valign="top" class="bottibody">                
+                <span class="head"><br />Portraits</span><span class="halfer"><br /><br /></span></td>
+        </tr></table>
+
+
+ <table width="579" border="0" cellspacing="0" cellpadding="0">
+	       <tr> 
+          <td colspan="2" align="center"><img src="image/40_006_01_155L_Port_sig.jpg" alt="S. Wells Williams" width="565" height="269" border="0" usemap="#perry01"/></td>
+        </tr>
+        <tr> 
+          <td width="310" height="20" align="left" valign="top" class="bottiblock"><img src="image/space.gif" alt="space" title="" width="105" height="10"/>S. 
+            Wells Williams</td>
+          <td width="290" align="right" valign="top" class="bottiblock">Okinawan 
+            official<img src="image/space.gif" alt="space" title="" width="105" height="10"/></td>
+        </tr>
+        <tr> 
+          <td colspan="2" align="center"><img src="image/redline.gif"  alt= "line" height="1" width="579"/></td>
+        </tr>
+        <tr> 
+          <td width="310" height="20" align="left" valign="middle" class="bottismall"><img src="image/space.gif" alt="space" title="" width="105" height="10"/>Shiryo 
+            Hensanjo, University of Tokyo</td>
+          <td width="290" align="right" valign="middle" class="bottismall"> from 
+            the official Narrative<img src="image/space.gif" alt="space" title="" width="105" height="10"/></td>
+        </tr>
+      </table>
+	  <table width="579" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td width="579" align="left" valign="top" class="bottibody"><br/>
+            As already seen in their diverse renderings of Commodore Perry, Japanese 
+            artists did not hesitate to resort to outright fantasy when drawing 
+            portraits of the foreigners. Even when they were ostensibly drawing 
+            &#8220;from life,&#8221; their attempts to capture the spirit or personality 
+            of their subjects gave a touch of caricature to the resulting portrait. 
+            We see this in an ostensibly realistic pair of paintings of Perry 
+            and Commander Henry Adams, his second-in-command, for example, 
+            as well as in anonymous woodblock portraits of a decidedly foppish 
+            Adams and an alarmingly sharp-visaged &#8220;American Chief of the 
+            Artillery-men.&#8221;<br />
+            <br /></td>
+        </tr>
+        <tr align="center" valign="top"> 
+          <td class="bottiblock"><a href="javascript:openvcidwindow('gallery/pages/30_045_Adams_Perry.htm');"><img src="image/30_045_adamsperry_fall.jpg" alt="Perry and Adams" width="565" height="269" border="0"/></a></td>
+        </tr>
+      </table>
+      <table width="579" border="0" cellspacing="0" cellpadding="0">
+        <tr align="center" valign="top"> 
+          <td align="center"><span class="bottiblock"> <img src="image/space.gif" alt="space" title="" width="1" height="50" align="left"/>Perry 
+            (right) and Adams, ink and color on paper, 1854<br/>
+            </span>  <span class="halfer"><br/> </span ><span class="bottismall">Ryosenji Treasure Museum<br />
+            <br />
+            </span></td>
+        </tr>
+        <tr align="center" valign="top"> 
+          <td><img src="image/02_133a_02_134b_s.jpg" alt="&#8220;American chief of the Artillery-men&#8221;" width="565" height="294" border="0" usemap="#perry02"/></td>
+        </tr>
+        <tr valign="top"> 
+          <td align="center"><span class="bottiblock"><span class="head"><img src="image/space.gif" alt="space" title="" width="1" height="75" align="left"/></span>Left: 
+            &#8220;American Chief of the Artillery-men&#8221;<br/>
+            Right: &#8220;The North American Adjutant General (Adams)&#8221;<br/>
+            woodblock prints, ca. 1854<br/>
+            </span>  <span class="halfer"><br/> </span ><span class="bottismall">Peabody Essex Museum<br />
+            <br />
+            </span></td>
+        </tr>
+        <tr align="left" valign="top"> 
+          <td class="bottibody">Full-figure 
+            renderings of the foreigners as they were observed in Kurihama or 
+            Yokohama or Shimoda or Hakodate followed the same free style. Often 
+            these figures were lined up in a row like a droll playbill for a cast 
+            of characters who had chosen to strut their stuff on the Japanese 
+            stage.<br />
+            <br /></td>
+        </tr>
+      </table>
+	    <table width="579" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td width="456" align="right" valign="top"><a href="javascript:openvcidwindow('gallery/pages/30_048i_scroll.htm');"><img src="image/30_048i_blkshscroll_fal.jpg" alt="&#8220;Pictorial Scroll of Black Ships Landing at Shimoda" width="446" height="244" border="0"/></a></td>
+          <td width="123" align="left" valign="top"><span class="bottiblock"><br/>
+            <br/>
+            <br/>
+            &#8220;Pictorial Scroll of Black Ships Landing at Shimoda&#8221; (detail)<br/>
+            </span>  <span class="halfer"><br/> </span ><span class="bottismall">Ryosenji Treasure<br/>
+            Museum</span></td>
+        </tr>
+      </table>
+      <table width="579" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td width="109" align="right" valign="top"><span class="bottiblock"><br/>
+            <img src="image/space.gif" width="5" height="200" align="right" alt="space" title=""/><br/>
+            &#8220;Pictorial Record of the Arrival of Black Ships&#8221; (detail)<br/>
+            ca. 1854<br/>
+            </span>  <span class="halfer"><br/> </span ><span class="bottismall">Ryosenji Treasure Museum</span></td>
+          <td width="470" align="right" valign="top" class="bottismall"><a href="javascript:openvcidwindow('gallery/pages/30_049i_soldiers.htm');"><br />
+            <img src="image/30_049i_ryosenji_fall_s.jpg" alt="&#8220;Pictorial Record of the Arrival of Black Ships&#8221;" width="466" height="244" border="0"/></a></td>
+        </tr>
+           </table>
+	  
+	  
+	  
+	  
+	  
+	  
+      <table width="579" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td width="579" align="left" valign="top" class="bottibody"><span class="bottismall"><br /></span>
+            A 
+            particularly dramatic cast of characters accompanied one of the monstrous 
+            black ships introduced earlier, in the form of a gallery of nine individuals. 
+            In addition to Perry, the accompanying text identified them (right 
+            to left) as an interpreter, the crewman who sounded the ocean&#8217;s 
+            depth, a high officer, the chief of the &#8220;rifle corps&#8221; 
+            (marines), a navigator, a marine, a musician, and a crewman from a 
+            &#8220;country of black people,&#8221; usually called upon &#8220;to 
+            work in the rigging or dive in the sea.&#8221; Colorful and idiosyncratic, 
+            they comprised a motley crew indeed. <br />
+            <br /></td>
+        </tr>
+        <tr>
+          <td align="center" valign="top" class="bottibody"><a href="javascript:openvcidwindow('gallery/pages/30_013c1_detail_crew1.htm');"><img src="image/30_013c_crew1_fall_s.jpg" alt="Detail from &#8220;Black Ship and Crew&#8221;" width="565" height="210" border="0"/></a></td>
+        </tr>
+      </table>
+	     <table width="579" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td width="229" align="right" valign="top"><span class="bottiblock"><span class="head"><img src="image/space.gif" width="5" height="180" align="right" alt="space" title=""/></span><br/>
+            Detail from<br />
+            &#8220;Black Ship and Crew&#8221;<br/>
+            ca. 1854<br/>
+            </span>  <span class="halfer"><br/> </span ><span class="bottismall">Ryosenji Treasure Museum</span>  <span class="halfer"><br/>
+            </span></td>
+          <td width="350" align="left" valign="top"><a href="javascript:openvcidwindow('gallery/pages/30_013c2_detail_crew2.htm');"><img src="image/30_013c_crew2_fall_s.jpg" alt="Detail from &#8220;Black Ship and Crew&#8221;" width="296" height="210" border="0"/></a></td>
+        </tr>
+      </table>
+	  
+	  
+	  
+      <table width="579" border="0" cellspacing="0" cellpadding="0">
+        <tr align="left" valign="top"> 
+          <td width="579" class="bottibody"><span class="bottismall"><br />
+            </span>Some 
+              sketches by Japanese artists were clearly drawn from direct observation, 
+              with close and annotated attention to every article of attire and 
+              piece of equipment.<span class="bottismall"><br />
+              <br />
+              </span>          </td>
+        </tr>
+        <tr align="left" valign="top"> 
+          <td align="center" class="bottibody"><img src="image/41_050_41_049_s.jpg" alt="From an artist&#8217;s sketchbook" width="565" height="259" border="0" usemap="#perry03"/></td>
+        </tr>
+        <tr align="left" valign="top"> 
+          <td align="center" class="bottibody"><a href="javascript:openvcidwindow('gallery/pages/41_052_sketch.htm');"><img src="image/41_052_s.jpg" alt="From an artist&#8217;s sketchbook" width="565" height="253" border="0"/></a></td>
+        </tr>
+        <tr align="left" valign="top">
+          <td align="center"><span class="bottiblock"><span class="head"><img src="image/space.gif" alt="space" title="" width="1" height="44" align="left"/></span>From 
+            an artist&#8217;s sketchbook, 1854<br/>
+            </span>  <span class="halfer"><br/> </span ><span class="bottismall">Shiryo Hensanjo, University of Tokyo<br />
+            <br />
+            <br />
+            </span></td>
+        </tr>
+      </table>
+      <table width="579" border="0" cellspacing="0" cellpadding="0">
+        <tr align="left" valign="top"> 
+          <td width="579" class="bottibody">The 
+            most &#8220;realistic&#8221; run of portraits of the Americans dates 
+            from March 8, 1854, when Perry landed in Yokohama to initiate his 
+            second visit. Commissioned by the <em>daimyo</em> of Ogasawara, the original 
+            sketches were drawn by Hibata Osuke, a performer of classical Noh 
+            drama who studied under the famous woodblock artist Utagawa Kuniyoshi. 
+            With some difficulty, Hibata managed to situate himself in the midst 
+            of that day&#8217;s activities and record a great variety of subjects 
+            and events. <br/>
+            <br/>
+            Other artists subsequently copied his keenly observed renderings of 
+            the commodore and five others: Commander Adams; Captain Joel Abbott; 
+            S. Wells Williams, a missionary from China who knew some Japanese; 
+            a Dutch-Japanese interpreter named Anton Portman (communication often 
+            required using Dutch as an intermediary language between English and 
+            Japanese); and Perry&#8217;s son Oliver, who served as his personal 
+            secretary. The posing was highly stylized&#8212;all in half-profile&#8212;and 
+            each subject possessed the prominent nose that set Caucasians apart 
+            in Japanese eyes. At the same time, each was unmistakably imbued with 
+            individuality.<br />
+            <br /></td>
+        </tr>
+        <tr align="center" valign="top"> 
+          <td><a href="javascript:openvcidwindow('gallery/pages/40_006cu_sixportraits.htm');"><img src="image/40_006_portraits_small.jpg" alt="Two colored renderings based on Hibata Osuke&#8217;s 1854 sketches of Perry and five other" width="565" height="196" border="0"/></a></td>
+        </tr>
+      </table>
+      <table width="579" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td align="center" valign="top"><span class="bottiblock"><img src="image/space.gif" alt="space" title="" width="25" height="85" align="left"/><img src="image/space.gif" width="25" height="75" align="right" alt="space" title=""/>Two 
+            colored renderings based on Hibata Osuke&#8217;s 1854 sketches of 
+            Perry and five others. From right to left (above): Commodore Perry, Commander Adams, English-Japanese 
+            translator S. Wells Williams, translator Anton Portman, Captain Joel Abbot, and 
+            Perry&#8217;s son Oliver<br/>
+            </span>  <span class="halfer"><br/> </span ><span class="bottismall">Shiryo Hensanjo, University of Tokyo 
+            (above) Chrysler Museum of Art (below)<br />
+            <br />
+            </span></td>
+        </tr>
+        <tr> 
+          <td align="center" valign="top" class="bottiblock"><a href="javascript:openvcidwindow('gallery/pages/52_552_Chry_sixportraits.htm');"><img src="image/Chrysler_port_pt2_s.jpg" alt="Two colored renderings based on Hibata Osuke&#8217;s 1854 sketches of Perry and five other" width="456" height="159" border="0"/></a></td>
+        </tr>
+        <tr>
+          <td align="center" valign="top" class="bottiblock"><a href="javascript:openvcidwindow('gallery/pages/52_552_Chry_sixportraits.htm');"><img src="image/Chrysler_port_pt1_s.jpg" alt="Two colored renderings based on Hibata Osuke&#8217;s 1854 sketches of Perry and five other" width="452" height="159" border="0"/></a></td>
+        </tr>
+        <tr align="left" valign="top"> 
+          <td class="bottibody"><span class="bottismall"><br />
+            </span> The 
+                Americans brought a very different&#8212;and very recent&#8212;perspective 
+                to their individual portraits. Where Japanese depictions of the foreigners 
+                essentially came out of well-established rhetorical and pictorial 
+                conventions, the Americans brought the eye of the camera. Two different 
+                photographic processes&#8212;calotype and daguerreotype&#8212;had 
+                been introduced in the West in 1839, and the latter dominated the 
+                world of photography into the 1850s.<br/>
+                <br/>
+                Daguerreotypes were distinguished by their grainless and exceptionally 
+                sharp images, but had the disadvantage of producing a single, fragile, 
+                non-reproducible original. There was no negative, and thus no possibility 
+                of making multiple copies. Producing one of these plates involved 
+                a complex (and toxic) chemical process, and was exceedingly time-consuming. 
+                Although a daguerreotype camera was obtained by an enterprising Japanese 
+                as early as 1848, it was the Perry mission that actually made the 
+                first photographic portraits of Japanese.<br/> 
+                <br/>
+                The entertaining &#8220;Black Ship Scroll&#8221; rendering of three 
+                Americans photographing a courtesan (seen in the previous section) 
+                actually depicts the mission&#8217;s chief photographer, Eliphalet 
+                Brown, Jr., and his assistants. Although Brown is known to have taken 
+                more than 400 daguerreotypes of scenery and individuals, 
+                all but a handful have been lost. Some were given to the individuals 
+                who were photographed, and those brought back to the United States 
+                were destroyed in a fire while the official report was being prepared 
+                for publication. <br/>
+                <br/>
+                The few originals that have come down to us&#8212;mounted in the heavy 
+                gilt frames that commonly enhanced and protected these precious images&#8212;portray 
+                samurai. Among them are depictions of Namura Gohachiro, an interpreter 
+                summoned from Nagasaki; Tanaka Mitsuyoshi, a low-ranking guard in 
+                Uraga; and officials in the new treaty ports of Hakodate and Shimoda.<br />
+                <br /></td>
+        </tr>
+        <tr align="center" valign="top"> 
+          <td><img src="image/29_019_29_018_s.jpg" alt="Tanaka Mitsuyoshi, a low-ranking guardin Uraga." width="565" height="360" border="0" usemap="#perry04"/></td>
+        </tr>
+      </table>
+      <table width="579" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td width="290" align="center" valign="top"><span class="bottiblock"><span class="head"><img src="image/space.gif" alt="space" title="" width="25" height="85" align="left"/><img src="image/space.gif" width="20" height="75" align="right" alt="space" title=""/></span>Tanaka 
+            Mitsuyoshi, a low-ranking guard in Uraga. Daguerreotype by Eliphalet Brown, Jr., 1854<br/>
+            </span>  <span class="halfer"><br/>
+            </span ><span class="bottismall">Collection of Shimura Toyoshiro</span><span class="bottiblock"><br/>
+            <br/>
+            <img src="image/space.gif" alt="space" title="" width="290" height="5"/> </span></td>
+          <td width="289" align="center" valign="top"><span class="bottiblock"><img src="image/space.gif" alt="space" title="" width="14" height="75" align="left"/><img src="image/space.gif" width="20" height="85" align="right" alt="space" title=""/>Namura 
+            Gohachiro, an interpreter summoned from Nagasaki. Daguerreotype by 
+            Eliphalet Brown, Jr., 1854<br/>
+            </span>  <span class="halfer"><br/> </span ><span class="bottismall">Bishop Museum of Art</span><span class="bottiblock"><br />
+            <br/>
+            </span></td>
+        </tr>
+      </table>
+      <table width="579" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td width="579" align="left" valign="top" class="bottibody">The 
+            posed portraits of Namura and Tanaka, similar at first glance, have 
+            subtle stories to tell. Barely visible behind Tanaka&#8217;s feet, 
+            for example, is the foot of some sort of wooden stand&#8212;believed 
+            to be a prop used to assist subjects in holding steady for the long 
+            exposure that the daguerreotype process demanded. Additionally, whereas 
+            Tanaka appears as the eye would see him (kimono folded left over right, 
+            and swords carried on the left), Namura confronts us in reverse image 
+            (kimono folded right over left, and swords on the right&#8212;where 
+            a samurai, trained to fight right-handed, would be unable to draw 
+            quickly). Since the daguerreotype produced a mirror image, it is Tanaka 
+            who is the anomaly. To appear properly in the photo, he folded his 
+            garment and mounted his sword improperly. Namura did not do this.<br/>            <a name="lesson01c"><br/></a>
+            Another of Brown&#8217;s surviving &#8220;magic mirror&#8221; daguerreotypes 
+            exposes, in and of itself, this same issue of how to pose. In this 
+            daguerreotype, which has deteriorated over time, the seated <em>bungo</em> 
+            or prefect of Hakodate holds center stage, while two retainers stand 
+            behind him. Like Tanaka, the prefect maintained proper appearance 
+            by reversing his sword and garment for the camera; and, like Namura, 
+            his attendants did not bother to do so. As fate would have it, however, 
+            the prefect&#8217;s fastidiousness did not carry over to the wider 
+            world of publishing. The official Narrative contains a lithograph 
+            of the same three men&#8212;apparently based on another daguerreotype 
+            taken at the same sitting&#8212;in which the two aides have changed 
+            sides, but so have the prefect&#8217;s sword and kimono-fold. Somewhat 
+            inexplicably, all three men now appear to be improperly dressed and 
+            armed.<br />
+            <br /></td>
+        </tr>
+        <tr> 
+          <td align="center" valign="top"><img src="image/29_020_01_433_s.jpg" alt="Endo Matazaemon, a local official in Hakodate, and his attendants" width="565" height="347" border="0" usemap="#perry05"/></td>
+        </tr>
+        <tr> 
+          <td align="center" valign="top"><span class="bottiblock"><img src="image/space.gif" alt="space" title="" width="25" height="85" align="left"/><img src="image/space.gif" width="25" height="75" align="right" alt="space" title=""/>Endo 
+            Matazaemon, a local official in Hakodate, and his attendants. 1854 
+            daguerreotype by Eliphalet Brown, Jr. and a near mirror-image lithograph of the three 
+            men from the official Narrative of the Perry mission published in 1856<br/>
+            </span>  <span class="halfer"><br/> </span ><span class="bottismall">Yokohama Museum of Art<br />
+            <br />
+            <br />
+            </span></td>
+        </tr>
+        <tr>
+          <td align="left" valign="top" class="bottibody">Despite 
+            the loss of Brown&#8217;s original work, the official record actually 
+            contains a number of woodcut and lithograph portraits that are explicitly 
+            identified as being based on his daguerreotypes. Thus, the camera&#8217;s 
+            eye remains, even though the photographs themselves have disappeared. 
+            Its focus falls not just on samurai, but on anonymous commoners as 
+            well&#8212;and not just on the Japanese, but also on residents of 
+            the Ryukyu (&#8220;Lew Chew&#8221;) Islands, which did not formally 
+            become part of Japan until the 1870s.<br />
+            <br /></td>
+        </tr>
+      </table>
+      <table width="579" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td width="292" align="left" valign="top"><a href="javascript:openvcidwindow('gallery/pages/01_194L_narr_Brown.htm');"><img src="image/01_194L_TempleTumai_s.jpg" alt="&#8220;Temple at Tumai, Lew Chew&#8221; " width="282" height="199" border="0"/></a></td>
+          <td width="287" align="left" valign="top" class="bottibody">Like the official illustrations that included artists sketching and 
+            painting, the Narrative actually gives us a subtle &#8220;double exposure&#8221; 
+            of the photographer at work. Thus, close scrutiny of a bucolic illustration 
+            by Heine titled &#8220;Temple at Tumai, Lew Chew&#8221; reveals Brown 
+            at stage center preparing to photograph several seated figures.<br/>
+            <br/>           </td>
+        </tr>
+      </table>
+      <table width="579" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td width="203" align="left" valign="top" class="bottibody">            </td>
+          <td width="376" rowspan="2" align="left" valign="top"><a href="javascript:openvcidwindow('gallery/pages/01_194L_narr_Brown.htm');"><img src="image/01_194L_TempleTumai_det.jpg" alt="&#8220;Temple at Tumai, Lew Chew&#8221; " width="376" height="228" border="0"/></a></td>
+        </tr>
+        <tr>
+          <td align="right" valign="top" class="bottibody"> <span class="bottiblock"><span class="head"><img src="image/space.gif" alt="space" title="" width="20" height="172" align="left"/><img src="image/space.gif" alt="space" title="" width="10" height="172" align="right"/></span>&#8220;Temple at Tumai, Lew Chew&#8221; with Eliphalet Brown, Jr. preparing to take a daguerreotype portrait (detail at right)</span></td>
+        </tr>
+      </table>
+      <table width="579" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td align="left" valign="top" class="bottibody"><table width="376" border="0" cellspacing="0" cellpadding="14" align="left">
+            <tr>
+              <td align="center" valign="top" width="376"><a href="javascript:openvcidwindow('gallery/pages/01_219L_narr_Gossip.htm');"><img src="image/01_219L_AfternoonGossip.jpg" alt="&#8220;Afternoon Gossip, Lew Chew&#8221;" width="376" height="255" border="0" align="top"/></a><span class="bottiblock"><br />&#8220;Afternoon 
+            Gossip, Lew Chew&#8221;<br />
+            lithograph based on Brown&#8217;s daguerreotype<br /><br />
+              </span></td>
+            </tr>
+          </table>
+            <br />
+            Some 
+            twenty-plus pages later, we are treated to a charming, tipped-in lithograph 
+            titled &#8220;Afternoon Gossip, Lew Chew,&#8221; depicting three men&#8212;surely 
+            these very same subjects&#8212;seated on a mat beneath a tree, smoking 
+            and seemingly at perfect peace with the world.<br />
+<br />
+ While 
+            dignity pervades the individual portraits that grace the Narrative, informality such as 
+            this is rare. Usually, those who held so still for so long&#8212;as 
+            the slow daguerreotype process demanded&#8212;tend to seem immobilized, 
+            almost frozen. They inhabit a world far removed from the animated, 
+            colorful, half imagined or even entirely imagined &#8220;Americans&#8221; 
+            we encounter on the Japanese side.<br/>
+            <br/>
+            In subsequent years, the verisimilitude of photography and technical 
+            ease of both shooting and reproducing pictures would gradually render 
+            paintings, woodblock prints, lithographs, woodcuts, and the like outdated 
+            and even obsolete as ways of visualizing other peoples and cultures 
+            for mass consumption. And, indeed, immediately following Perry&#8217;s 
+            opening of Japan, both native and foreign photographers hastened to 
+            produce a rich record of the people and landscapes of the waning years 
+            of the feudal regime (the Shogun&#8217;s government was overthrown 
+            in 1868). In this regard, Eliphalet Brown, Jr.&#8217;s daguerreotypes 
+            and the portraits copied from them were a harbinger of what was to 
+            come.          </td>
+        </tr>
+      </table>
+   
+
+ 
+	  <table width="579" border="0" cellspacing="0" cellpadding="0">
+        <tr align="center" valign="middle"> 
+          <td  height="20" colspan="3"><img src="image/redline.gif"  alt= "line" height="1" width="579"/></td>
+        </tr>
+        <tr align="center"> 
+          <td height="24" colspan="3" class="bottiblocklarge">A Gallery of Portraits 
+            from the Official Narrative</td>
+        </tr>
+        <tr align="center" valign="middle"> 
+          <td height="20" colspan="3"><img src="image/redline.gif"  alt= "line" height="1" width="579"/></td>
+        </tr>
+        <tr> 
+          <td colspan="3" align="center" valign="top"><img src="image/01_192L_01_155_01_409_s.jpg" alt="Court interpreter, Ryukyus" width="565" height="269" border="0" align="middle" usemap="#perry06"/></td>
+        </tr>
+        <tr> 
+          <td width="193" align="center" valign="top" class="bottiblock">Court 
+            interpreter, Ryukyus</td>
+          <td width="193" align="center" valign="top" class="bottiblock"><img src="image/space.gif" alt="space" title="" width="2" height="40" align="right"/>Chief 
+            magistrate, Ryukyus</td>
+          <td width="193" align="center" valign="top" class="bottiblock"><img src="image/space.gif" alt="space" title="" width="15" height="40" align="right"/>Buddhist 
+            priest</td>
+        </tr>
+		 <tr> 
+          <td colspan="3" align="center" valign="top"><img src="image/01_405L_01_417_01_418_f.jpg" alt="Mother and child, Shimoda" width="565" height="269" border="0" usemap="#perry07"/></td>
+        </tr>
+        <tr> 
+          <td width="193" align="center" valign="top" class="bottiblock">Mother 
+            and child, Shimoda</td>
+          <td width="193" align="center" valign="top" class="bottiblock"><img src="image/space.gif" alt="space" title="" width="8" height="40" align="right"/>Prefect 
+            of Shimoda</td>
+          <td width="193" align="center" valign="top" class="bottiblock"><img src="image/space.gif" alt="space" title="" width="15" height="40" align="right"/>Women, 
+            Shimoda</td>
+        </tr>
+       <tr> 
+          <td colspan="3" align="center" valign="top"><img src="image/01_408_20_frontpiece.jpg" alt="&#8220;Priest in Full Dress,&#8221; Shimoda" width="565" height="269" border="0" usemap="#perry08"/></td>
+        </tr>
+        <tr> 
+          <td width="193" align="center" valign="top" class="bottiblock">&#8220;Priest 
+            in Full Dress,&#8221; Shimoda</td>
+          <td width="193" align="center" valign="top" class="bottiblock"><img src="image/space.gif" alt="space" title="" width="2" height="40" align="right"/>&#8220;Prince 
+            of Izu&#8221;</td>
+          <td width="193" align="center" valign="top" class="bottiblock"><img src="image/space.gif" alt="space" title="" width="15" height="40" align="right"/>Interpreters</td>
+        </tr>
+	  </table>
+	  <table width="579" border="0" cellspacing="0" cellpadding="0">
+        <tr align="center" valign="top"> 
+          <td width="579"><img src="image/01_397_01_418_s.jpg" alt="Women in Shimoda" width="565" height="278" border="0" usemap="#perry09"/></td>
+        </tr>
+        <tr align="left" valign="top"> 
+          <td align="center" class="bottiblock"><img src="image/space.gif" alt="space" title="" width="18" height="40" align="left"/>Women 
+            in Shimoda<br />
+            <br />
+            <br />
+            <br /></td>
+        </tr>
+      </table> 
+
+
+		 <table border="0" cellspacing="0" cellpadding="0" align="left">
+          
+ <tr>
+        <td colspan="3" class="bottismall"  align="left" > <img src="../home/image/redline.gif" width="570" height="1"  alt="MIT Visualizing Cultures" title=""/><br/><br/><a href="javascript:imalert('../home/about.html')"><em>On viewing images of a potentially disturbing nature: click here.</em></a><br />
+<br /></td></tr><tr>
+  <td  width="350" align="left" valign="middle" class="bottismall" >Massachusetts Institute of Technology &#169; 2010 Visualizing Cultures
+                </td> 
+  <td  width="152" align="right" valign="middle" class="bottismall" > &nbsp;<a href="http://creativecommons.org/licenses/by-nc-sa/3.0/us/" target="_blank">Creative Commons License</a>&nbsp;&nbsp;
+              
+</td><td  align="left" valign="top" width="80" class="bottismall" ><a rel="license"
+ href="http://creativecommons.org/licenses/by-nc-sa/3.0/us/" target="_blank" ><img src="http://visualizingcultures.mit.edu/home/image/cc.png" alt="Creative Commons - some rights reserved" width="80" height="15" border="0" align="left" /></a></td> </tr><tr><td colspan="3"><br  class="bottismall" />
+<br   class="halfer" /></td></tr>
+
+
+
+
+ <tr>
+          <td align="left" valign="top"><div class="bottom"><img src="image/essay_bottom.gif"  alt="MIT Visualizing Cultures" width="970" height="136" border="0" align="left" title=""/></div>
+<div class="essaynavbottom">
+  <table width="622" border="0" cellspacing="0" cellpadding="0" align="left">
+  <tr align="left">
+    <td align="left" width="105"><img src="image/bss_essay_nav_06.gif"  alt="Black Ships &amp; Samurai" name="nav01b" width="622" height="39" border="0" usemap="#Map5" id="nav01b" title=""/></td>
+  </tr>
+</table>
+</div></td>
+          </tr>
+
+
+	  </table>
+</td>
+    <td width="371">&nbsp;</td>
+  </tr>
+</table></div>
+<div class="top"><img src="image/essay_top.gif"  alt="MIT Visualizing Cultures" width="970" height="136" border="0" align="left" title=""/></div>
+
+<!--end background elements -->
+
+<!-- essay nav -->
+<div class="essaynavtop"><table width="622" border="0" cellspacing="0" cellpadding="0" align="left">
+  <tr align="left">
+    <td align="left" width="622"><img src="image/bss_essay_nav_06.gif"  alt="Black Ships &amp; Samurai" name="nav01" width="622" height="39" border="0" usemap="#Map4" id="nav01" title=""/></td>
+  </tr>
+</table>
+</div>
+
+
+<!-- end essay nav -->
+
+<!-- <div class="slug" id="slug"><span class="bottibody2">Massachusetts Institute of Technology &#169; 2008 Visualizing Cultures</span></div> -->
+
+
+<!-- right-hand buttons -->
+
+
+
+
+<div class="boxpdf" id="boxpdf"><a href="pdf/bss_essay_06.pdf" target="_blank" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image12','','../home/image/pdf_chap02.gif',1);noverlay();noverlayv();noverlayu();"><img src="../home/image/pdf_chap.gif" alt="Printable PDF of this chapter" name="Image12" width="348" height="67" border="0" id="Image12"  title=""/></a></div>
+
+
+<!--end  right-hand buttons -->
+
+
+<!-- essay -->
+<div class="essay">
+
+</div>
+<!--end  essay -->
+
+
+</div>
+</div>
+
+
+<!--top bar nav elements -->
+<div class="box14" id="box14" ><table  width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><img src="../home/image/spacer.gif" width="10" height="26"  alt="MIT Visualizing Cultures"/><img src="../home/image/hometopnav01.gif"  alt="Menu" width="227" height="26" border="0" usemap="#topmap"/></td>
+  </tr>
+</table>
+</div>
+
+<div class="box15" id="box15" ><table  width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><img src="../home/image/spacer.gif" width="10" height="27"  alt="MIT Visualizing Cultures"/></td>
+  </tr>
+</table>
+</div>
+
+<div class="navbox" id="hideme"><a  onmouseout="javascript:noverlay();" onmouseover="javascript:overlay();"><img src="../home/image/vc_home_nav.png" alt="MIT Visualizing Cultures" width="202" height="300" border="0" usemap="#Map"  id="Image5"  name="Image5" title="" /></a></div> 
+
+<div class="twit">
+<a href="https://twitter.com/share" class="twitter-share-button" data-count="none">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></div>
+
+<div class="emil"><!--email-->
+<script type="text/javascript"><!--
+
+var SubjectLine='MIT Visualizing Cultures'; 
+var BodyText='You can see this page at: '+top.location.href;
+
+var Message='<A CLASS=contact HREF="mailto:?SUBJECT='+escape(SubjectLine)+'&BODY='+escape(BodyText)+'" OnMouseOver="status=\'Envoyer cette page à vos amis\'; return true;" ><img src="../home/image/email2.gif" alt="Email" name="Image321"   border="0" id="Image321"  title=""/><\/A>';
+
+var MessageIE='<A CLASS=contact HREF="mailto:?SUBJECT='+(SubjectLine)+'&BODY='+(BodyText)+'" OnMouseOver="status=\'Envoyer cette page à vos amis\'; return true;" ><img src="../home/image/email2.gif" alt="Email" name="Image321"   border="0" id="Image321"  title=""/><\/A>';
+
+if(document.all) { document.write(MessageIE); }
+
+else { document.write(Message); }
+
+// http://javascriptsource.com "The JavaScript Source"
+//--></script></div>
+
+
+
+<!--facebook--><div class="fbok">
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<div class="fb-like" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false" data-colorscheme="light" data-font="verdana"></div>
+
+</div> 
+
+<div class="unitsnavbox01" id="unitsnavbox01" ><a  onmouseout="javascript:noverlayu();" onmouseover="javascript:overlayu();"><img src="../home/image/unitstopnav01.gif"  alt="Units" width="227" height="26" border="0"/></a></div>
+ <div class="navboxu" id="hidemeu"><a href="#" onmouseout="javascript:noverlayu();" onmouseover="javascript:overlayu();"><img src="../home/image/vc_units_cur_nav.png" alt="MIT Visualizing Cultures" width="179" height="148" border="0" usemap="#Map3"  id="Image6"  name="Image6" title=""/></a></div> 
+
+<div class="unitnavbox" id="unitnavbox" ><a  onmouseout="javascript:noverlayv();" onmouseover="javascript:overlayv();"><img src="../black_ships_and_samurai/image/topnav.gif"  alt="Black Ships &amp; Samurai" width="227" height="26" border="0"/></a></div>
+ 
+<div class="navboxv" id="hidemev"><a  onmouseout="javascript:noverlayv();" onmouseover="javascript:overlayv();"><img src="../black_ships_and_samurai/image/bss_i_nav.png" alt="Black Ships &amp; Samurai"  name="Image7" width="212" height="157" border="0" usemap="#Image7Map"   id="Image7" title=""/>
+    
+</a></div>
+	
+	<div class="unitnavbox2" id="unitnavbox2" ><a  onmouseout="javascript:noverlayv2();" onmouseover="javascript:overlayv2();"><img src="../home/image/essaytop.gif"  alt="Black Ships &amp; Samurai" width="227" height="26" border="0"/></a></div>
+ 
+<div class="navboxv2" id="hidemev2"><a  onmouseout="javascript:noverlayv2();" onmouseover="javascript:overlayv2();"><img src="../black_ships_and_samurai/image/bss_i_essay_nav.png" alt="Black Ships &amp; Samurai"  name="Image777" width="212" height="300" border="0" usemap="#Image777Map"   id="Image777" title=""/>
+</a></div>
+<!--end top bar nav elements -->
+
+
+<!--image maps -->
+    <map name="topmap" id="topmap">
+      <area shape="rect" coords="0,0,180,47" href="#" onmouseover="overlay();"  alt="MIT Visualizing Cultures" />
+      <area shape="rect" coords="194,0,300,47" href="#" onmouseover="overlayu();"  alt="VC Units" />
+  </map>
+
+<map name="Map" id="Map">
+      <area shape="rect" coords="0,0,211,39" href="../home/index.html" onmouseover="overlay()" alt="MIT Visualizing Cultures"/>
+      <area shape="rect" coords="0,39,211,66" href="../home/vc01_about.html" target="_top"  alt="About VC" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_02.png',1)"/>      
+      <area shape="rect" coords="0,66,211,96" href="../home/vc02_schol.html" target="_top"  alt="VC Scholars" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_03.png',1)" />
+  <area shape="rect" coords="0,96,211,124" href="../home/vc03_partner.html" target="_top"  alt="Partner Institutions" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_04.png',1)" />
+
+  <area shape="rect" coords="0,124,211,147" href="../home/vc05_outreach.html" target="_top"  alt="Outreach" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_05.png',1)" />
+  <area shape="rect" coords="3,147,211,181" href="../home/vc06_event.html" target="_top"  alt="Conferences &amp; Events" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_06.png',1)" />
+  <area shape="rect" coords="3,181,211,214" href="mailto:visualizingcultures@mit.edu" target="_top"  alt="Contact" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_07.png',1)" />
+ <area shape="rect" coords="1,214,212,240" href="http://www.facebook.com/home.php#!/group.php?gid=261831254970&amp;ref=ts" target="_blank"  alt="Join Us" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_08.png',1)" />
+  <area shape="rect" coords="0,240,211,266" href="http://twitter.com/Visualizing_Cul" target="_blank"  alt="Follow Us" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_09.png',1)" />
+</map><map name="Map3" id="Map3">
+  
+<area shape="rect" coords="0,2,312,30" href="../home/vis_menu.html" target="_top" alt="Units" onmouseout="noverlayu();MM_swapImgRestore()" onmouseover="overlayu();" />
+
+<area shape="rect" coords="2,38,314,68" href="../home/vis_menu.html" target="_top" alt="Icon View" onmouseout="noverlayu();MM_swapImgRestore()" onmouseover="overlayu();MM_swapImage('Image6','','../home/image/vc_units_cur_nav_01.png',1)" />
+
+<area shape="rect" coords="0,67,312,95" href="../home/vis_menu_02b.html" target="_top" alt="Text View" onmouseout="noverlayu();MM_swapImgRestore()" onmouseover="overlayu();MM_swapImage('Image6','','../home/image/vc_units_cur_nav_02.png',1)" />
+
+<area shape="rect" coords="1,94,313,122" href="../home/vis_menu_03.html" target="_top" alt="Curriculae" onmouseout="noverlayu();MM_swapImgRestore()" onmouseover="overlayu();MM_swapImage('Image6','','../home/image/vc_units_cur_nav_03.png',1)" /></map>
+<map name="Image7Map" id="Image7Map">
+  <area shape="rect" coords="0,2,212,30" href="index.html" target="_top" alt="Black Ships &amp; Samurai" onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();" />
+      <area shape="rect" coords="1,42,216,70" href="../black_ships_and_samurai_02/index.html" target="_top" alt="Black Ships &amp; Samurai II" onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();MM_swapImage('Image7','','../black_ships_and_samurai/image/bss_i_nav_02.png',1)" />
+  <area shape="rect" coords="0,69,215,99" href="javascript:openvcidwindow('gallery/index.htm')" target="_top" alt="Image Database" onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();MM_swapImage('Image7','','../black_ships_and_samurai/image/bss_i_nav_03.png',1)" />
+<area shape="rect" coords="1,100,216,130" href="javascript:opencurwindow('../black_ships_and_samurai/cur_student/bss_cur_toc.html')" target="_top" alt="Curriculum" onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();MM_swapImage('Image7','','../black_ships_and_samurai/image/bss_i_nav_04.png',1)" />
+</map>
+
+<map name="Map4" id="Map4">
+<area shape="rect" coords="0,0,46,39" href="bss_essay01.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01','','image/bss_essay_nav_01.gif',1);noverlay();noverlayv();noverlayu();"  alt="Intro"/>
+  <area shape="rect" coords="46,0,100,39" href="bss_essay02.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01','','image/bss_essay_nav_02.gif',1);noverlay();noverlayv();noverlayu();"  alt="Perry"/>
+  <area shape="rect" coords="99,0,184,39" href="bss_essay03.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01','','image/bss_essay_nav_03.gif',1);noverlay();noverlayv();noverlayu();"  alt="Blackships"/>
+  <area shape="rect" coords="182,0,277,39" href="bss_essay04.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01','','image/bss_essay_nav_04.gif',1);noverlay();noverlayv();noverlayu();"  alt="Facing East"/>
+  
+  <area shape="rect" coords="277,0,377,39" href="bss_essay05.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01','','image/bss_essay_nav_05.gif',1);noverlay();noverlayv();noverlayu();"  alt="Facing West"/>
+  <area shape="rect" coords="447,0,500,39" href="bss_essay07.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01','','image/bss_essay_nav_07.gif',1);noverlay();noverlayv();noverlayu();"  alt="Gifts"/>
+  <area shape="rect" coords="500,0,560,39" href="bss_essay08.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01','','image/bss_essay_nav_08.gif',1);noverlay();noverlayv();noverlayu();"  alt="Nature"/>
+  <area shape="rect" coords="560,0,622,39" href="bss_essay09.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01','','image/bss_essay_nav_09.gif',1);noverlay();noverlayv();noverlayu();"  alt="Sources"/>
+</map>
+
+
+<map name="Map5" id="Map5">
+ <area shape="rect" coords="0,0,46,39" href="bss_essay01.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01b','','image/bss_essay_nav_01.gif',1);noverlay();noverlayv();noverlayu();"  alt="Intro"/>
+  <area shape="rect" coords="46,0,100,39" href="bss_essay02.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01b','','image/bss_essay_nav_02.gif',1);noverlay();noverlayv();noverlayu();"  alt="Perry"/>
+  <area shape="rect" coords="99,0,184,39" href="bss_essay03.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01b','','image/bss_essay_nav_03.gif',1);noverlay();noverlayv();noverlayu();"  alt="Blackships"/>
+  <area shape="rect" coords="182,0,277,39" href="bss_essay04.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01b','','image/bss_essay_nav_04.gif',1);noverlay();noverlayv();noverlayu();"  alt="Facing East"/>
+  <area shape="rect" coords="277,0,377,39" href="bss_essay05.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01b','','image/bss_essay_nav_05.gif',1);noverlay();noverlayv();noverlayu();"  alt="Facing West"/> <area shape="rect" coords="447,0,500,39" href="bss_essay07.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01b','','image/bss_essay_nav_07.gif',1);noverlay();noverlayv();noverlayu();"  alt="Gifts"/>
+  <area shape="rect" coords="500,0,560,39" href="bss_essay08.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01b','','image/bss_essay_nav_08.gif',1);noverlay();noverlayv();noverlayu();"  alt="Nature"/>
+  <area shape="rect" coords="560,0,622,39" href="bss_essay09.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01b','','image/bss_essay_nav_09.gif',1);noverlay();noverlayv();noverlayu();"  alt="Sources"/>
+</map>
+
+<!-- body image maps-->
+<map name="perry01" id="perry01">
+  <area shape="rect" coords="96,4,266,255" href="javascript:openvcidwindow('gallery/pages/40_006cu_sixportraits.htm');" alt="S. Wells Williams" />
+  <area shape="rect" coords="296,3,466,255" href="javascript:openvcidwindow('gallery/pages/01_155L_narr_Magistrate.htm');" alt="Okinawan officia" />
+</map>
+<map name="perry02" id="perry02">
+  <area shape="rect" coords="72,5,272,282" href="javascript:openvcidwindow('gallery/pages/02_133a_ArtilleryChief.htm');" alt="American Chief of the Artillery-men" />
+  <area shape="rect" coords="297,7,497,284" href="javascript:openvcidwindow('gallery/pages/02_134b_Adams.htm');" alt="The North American Adjutant General (Adams)" />
+</map>
+<map name="perry03" id="perry03">
+  <area shape="rect" coords="4,3,270,244" href="javascript:openvcidwindow('gallery/pages/41_050_sketch.htm');" alt="From an artist&#8217;s sketchbook, 1854" />
+  <area shape="rect" coords="285,5,549,246" href="javascript:openvcidwindow('gallery/pages/41_049_sketch.htm');" alt="From an artist&#8217;s sketchbook, 1854" />
+</map>
+<map name="perry04" id="perry04">
+  <area shape="rect" coords="12,10,268,341" href="javascript:openvcidwindow('gallery/pages/29_019_dag_Tanaka.htm');" alt="Tanaka Mitsuyoshi, a low-ranking guardin Uraga" />
+  <area shape="rect" coords="299,10,549,341" href="javascript:openvcidwindow('gallery/pages/29_018_dag_Namura.htm');" alt="Namura Gohachiro, an interpreter summoned from Nagasaki" />
+</map>
+<map name="perry05" id="perry05">
+  <area shape="rect" coords="21,6,284,329" href="javascript:openvcidwindow('gallery/pages/29_020_dag_Endo.htm');" alt="Endo Matazaemon, a local official in Hakodate, and his attendants" />
+  <area shape="rect" coords="317,6,544,332" href="javascript:openvcidwindow('gallery/pages/01_433L_narr_Prefect.htm');" alt="Endo Matazaemon, a local official in Hakodate, and his attendants" />
+</map>
+<map name="perry06" id="perry06">
+  <area shape="rect" coords="8,5,180,255" href="javascript:openvcidwindow('gallery/pages/01_192L_narr_Interpreter.htm');" alt="Court interpreter, Ryukyus" />
+  <area shape="rect" coords="195,6,369,256" href="javascript:openvcidwindow('gallery/pages/01_155L_narr_Magistrate.htm');" alt="Chief magistrate, Ryukyus" />
+  <area shape="rect" coords="384,5,552,255" href="javascript:openvcidwindow('gallery/pages/01_409L_narr_Priest.htm');" alt="Buddhist priest" />
+</map>
+<map name="perry07" id="perry07">
+  <area shape="rect" coords="3,4,179,255" href="javascript:openvcidwindow('gallery/pages/01_405L_narr_MotherChild.htm');" alt="Mother and child, Shimoda" />
+  <area shape="rect" coords="192,9,363,261" href="javascript:openvcidwindow('gallery/pages/01_417L_narr_Prefect.htm');" alt="Prefect of Shimoda" />
+  <area shape="rect" coords="383,5,553,255" href="javascript:openvcidwindow('gallery/pages/01_418L_narr_Women.htm');" alt="Women, Shimoda" />
+</map>
+<map name="perry08" id="perry08">
+  <area shape="rect" coords="6,5,173,256" href="javascript:openvcidwindow('gallery/pages/01_408bL_narr_Priest.htm');" alt="Priest in Full Dress" />
+  <area shape="rect" coords="199,5,355,255" href="javascript:openvcidwindow('gallery/pages/20_000_PrinceIdzu.htm');" alt="Prince of Izu" />
+  <area shape="rect" coords="382,5,548,255" href="javascript:openvcidwindow('gallery/pages/01_348L_narr_Interpreter.htm');" alt="Interpreters" />
+</map>
+<map name="perry09" id="perry09">
+  <area shape="rect" coords="4,6,270,265" href="javascript:openvcidwindow('gallery/pages/01_397_narr_Women.htm');" alt="Women in Shimoda" />
+  <area shape="rect" coords="288,6,553,266" href="javascript:openvcidwindow('gallery/pages/01_418W_narr_Women.htm');" alt="Women in Shimoda" />
+</map>
+
+<map name="Image777Map" id="Image777Map">
+  <area shape="rect" coords="0,-1,212,27" href="index.html" target="_top" alt="Black Ships &amp; Samurai II" onmouseout="noverlayv2();MM_swapImgRestore()" onmouseover="overlayv2();" />
+      <area shape="rect" coords="0,40,215,69" href="bss_essay01.html" target="_top" alt="Introduction" onmouseout="noverlayv2();MM_swapImgRestore()" onmouseover="overlayv2();MM_swapImage('Image777','','../black_ships_and_samurai/image/bss_i_essay_nav_02.png',1)" />
+  <area shape="rect" coords="0,69,215,96" href="bss_essay02.html" target="_top" alt="Perry" onmouseout="noverlayv2();MM_swapImgRestore()" onmouseover="overlayv2();MM_swapImage('Image777','','../black_ships_and_samurai/image/bss_i_essay_nav_03.png',1)" />
+<area shape="rect" coords="4,96,216,122" href="bss_essay03.html" target="_top" alt="Blackships" onmouseout="noverlayv2();MM_swapImgRestore()" onmouseover="overlayv2();MM_swapImage('Image777','','../black_ships_and_samurai/image/bss_i_essay_nav_04.png',1)" />
+<area shape="rect" coords="4,122,216,150" href="bss_essay04.html" target="_top" alt="Facing East" onmouseout="noverlayv2();MM_swapImgRestore()" onmouseover="overlayv2();MM_swapImage('Image777','','../black_ships_and_samurai/image/bss_i_essay_nav_05.png',1)" />
+<area shape="rect" coords="3,150,216,175" href="bss_essay05.html" target="_top" alt="Facing West" onmouseout="noverlayv2();MM_swapImgRestore()" onmouseover="overlayv2();MM_swapImage('Image777','','../black_ships_and_samurai/image/bss_i_essay_nav_06.png',1)" />
+<area shape="rect" coords="4,175,216,200" href="bss_essay06.html" target="_top" alt="Portraits" onmouseout="noverlayv2();MM_swapImgRestore()" onmouseover="overlayv2();MM_swapImage('Image777','','../black_ships_and_samurai/image/bss_i_essay_nav_07.png',1)" />
+<area shape="rect" coords="4,200,216,226" href="bss_essay07.html" target="_top" alt="Gifts" onmouseout="noverlayv2();MM_swapImgRestore()" onmouseover="overlayv2();MM_swapImage('Image777','','../black_ships_and_samurai/image/bss_i_essay_nav_08.png',1)" />
+<area shape="rect" coords="4,226,216,254" href="bss_essay08.html" target="_top" alt="Nature" onmouseout="noverlayv2();MM_swapImgRestore()" onmouseover="overlayv2();MM_swapImage('Image777','','../black_ships_and_samurai/image/bss_i_essay_nav_09.png',1)" />
+<area shape="rect" coords="4,254,216,280" href="bss_essay09.html" target="_top" alt="Sources" onmouseout="noverlayv2();MM_swapImgRestore()" onmouseover="overlayv2();MM_swapImage('Image777','','../black_ships_and_samurai/image/bss_i_essay_nav_10.png',1)" />
+</map>
+
+</body>
+</html>

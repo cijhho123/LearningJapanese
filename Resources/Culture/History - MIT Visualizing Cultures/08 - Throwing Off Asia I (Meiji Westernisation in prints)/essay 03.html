@@ -1,0 +1,751 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/tr/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>MIT Visualizing Cultures</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+
+
+<style type="text/css">
+<!--
+
+.backg {
+	position:absolute;
+	left:0px;
+	top:180px;
+	z-index: 1;
+background-image:url(../gt_japan_people/image/essay_bck.gif);
+}
+.navbox {
+		position: fixed;
+        left:10px;
+        top:0px;
+		z-index: 5;
+		visibility:hidden;
+}
+.unitsnavbox01 {
+        position:fixed;
+        left:200px;
+        top:0px;
+		z-index:5;
+}
+.unitnavbox {
+        position:fixed;
+        left:271px;
+        top:0px;
+		z-index:6;
+}
+.navboxu {
+		position: fixed;
+        left:200px;
+        top:0px;
+		z-index: 6;
+		visibility:hidden;	 
+}
+.navboxv {
+		position: fixed;
+        left:271px;
+        top:0px;
+		z-index: 7;
+		visibility:hidden;	 
+}
+.box14 {
+        position:fixed;
+        left:0px;
+        top:0px;
+		z-index:5;
+		background-color:#222222;
+		width:100%
+}
+.box15 {
+        position:fixed;
+        left:0px;
+        top:0px;
+		z-index:4;
+	    width: 100%;
+		background-color:#504B48
+}
+.boxessay {        position:absolute;
+        left:624px;
+        top:124px;
+		z-index:4;
+}
+.boxmono {        position:absolute;
+        left:624px;
+		z-index:4;
+}
+.boxpdf {        position:absolute;
+        left:671px;
+        top:220px;
+		z-index:4;color: #999999; font-size: 11px; line-height: 16px; font-family: Verdana, Arial, Helvetica, sans-serif;
+		width: 250px;
+		text-align:left;
+}
+.top {
+	position:absolute;
+	left:0px;
+	top:45px;
+	z-index: 2;
+}
+.bottom {
+	position:absolute;
+	left:0px;
+	z-index: 2;
+}
+.essaynavbottom {
+	position:absolute;
+	left:0px;
+	z-index: 3;
+}
+.essaynavtop {
+	position:absolute;
+	left:0px;
+	top:142px;
+	z-index: 3;
+}
+#horizon        
+	{
+	
+	text-align: center;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 1px;
+	overflow: visible;
+	visibility: visible;
+	display: block
+	}
+
+#content    
+	{
+	
+	margin-left: -485px;
+	position: absolute;
+	top: 0px;
+	left: 50%;
+	width: 250px;
+	height: 70px;
+	visibility: visible;
+
+	}
+.bottibody {color: #000000; font-size: 13px; line-height: 19px; font-family: Verdana, Arial, Helvetica, sans-serif
+	}
+.bottibody2 {color: #000000; font-size: 11px; line-height: 16px; font-family: Verdana, Arial, Helvetica, sans-serif }
+.bottiblock {
+	color: #2D2D2D;
+	font-size: 15px;
+	line-height: 19px;
+	font-family: Times New Roman, Times, serif;
+	font-style: italic;
+	}
+.bottiblockplain {
+	color: #2D2D2D;
+	font-size: 15px;
+	line-height: 19px;
+	font-family:   Times New Roman, Times, serif;
+	font-style: normal;
+	}
+.bottiblockhead {
+	color: #2D2D2D;
+	font-size: 18px;
+	line-height: 21px;
+	font-family: Times New Roman, Times, serif;
+	font-style: italic;
+	}
+.bottismall {
+	color: #333333;
+	font-size: 9px;
+	line-height: 12px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-style: normal;
+	}
+.head { color: #0033CC; font-size: 15px; line-height: 19px; font-family: Verdana, Arial, Helvetica, sans-serif
+	}
+.halfer { color: #ffffff; font-size: 6px; line-height: 6px; font-family: Verdana, Arial, Helvetica, sans-serif
+	}
+a:link {
+        color:#1233FF;
+        text-decoration:none;
+    }
+ a:active { 
+		color:#1233FF;
+        text-decoration:none;
+	}
+a:visited {
+		color:#1233FF;
+        text-decoration:none;
+	}
+a:hover {
+		color:#1233FF;
+        text-decoration:underline;
+	}
+
+.boxpdf a:link {
+        color:#aaaaaa;
+        text-decoration:none;
+    }
+ .boxpdf a:active { 
+		color:#aaaaaa;
+        text-decoration:none;
+	}
+.boxpdf a:visited {
+		color:#aaaaaa;
+        text-decoration:none;
+	}
+.boxpdf a:hover {
+		color:#ffffff;
+        text-decoration:none;
+	}
+
+.twit {
+		position: fixed;
+        top: 2px;
+        left: 810px;
+		z-index: 7;
+		
+}
+.emil{
+		position: fixed;
+        top: 4px;
+        left: 876px;
+		z-index: 7;
+		
+}
+.fbok{
+		position: fixed;
+        top: 2px;
+        left: 916px;
+		z-index: 7;
+		width: 48px;
+		overflow:hidden;
+}
+-->
+</style>
+
+
+<script language="JavaScript" type="text/JavaScript">
+<!--
+//rollovers for menus
+function overlay() {
+        el = document.getElementById("hideme");
+        el.style.visibility ="visible";
+		noverlayu();
+		noverlayv();
+}
+
+function noverlay() {
+        el = document.getElementById("hideme");
+        el.style.visibility ="hidden";
+}
+
+
+function overlayu() {
+        el = document.getElementById("hidemeu");
+        el.style.visibility ="visible";
+		noverlay();
+		noverlayv();
+}
+function noverlayu() {
+        el = document.getElementById("hidemeu");
+        el.style.visibility ="hidden";
+}
+
+
+function overlayv() {
+        el = document.getElementById("hidemev");
+        el.style.visibility ="visible";
+		noverlay();
+		noverlayu();
+}
+function noverlayv() {
+        el = document.getElementById("hidemev");
+        el.style.visibility ="hidden";
+}
+
+
+
+
+function sesame() {
+window.moveTo(0,0);        
+window.resizeTo(1350,screen.height);
+}
+
+
+window.onload=function()
+{
+	//sesame();
+	noverlay();
+	noverlayu();
+	MM_preloadImages('../home/image/vc_units_nav_13.png','../home/image/vc_units_nav_12.png','../home/image/vc_units_nav_11.png','../home/image/vc_units_nav_10.png','../home/image/vc_units_nav_07.png','../home/image/vc_units_nav_09.png','../home/image/vc_units_nav_14.png','../home/image/vc_units_nav_08.png','../home/image/vc_units_nav_06.png','../home/image/vc_units_nav_05.png','../home/image/vc_units_nav_04.png','../home/image/vc_units_nav_03.png','../home/image/vc_home_nav_02.png','../home/image/vc_home_nav_03.png','../home/image/vc_home_nav_04.png','../home/image/vc_home_nav_05.png','../home/image/vc_home_nav_06.png','../home/image/vc_home_nav_07.png','../home/image/vc_home_nav_08.png','../home/image/vc_home_nav_09.png','../home/image/vc_home_nav_10.png','../home/image/essay_icon02.gif','../home/image/album_icon02.gif','../home/image/pdf_essay02.gif','image/toa_nav_04.png','image/toa_nav_02.png','image/toa_nav_03.png','image/toa_nav_05.png','image/toa_essay_nav_01.gif','image/toa_essay_nav_02.gif','image/toa_essay_nav_03.gif','image/toa_essay_nav_04.gif','../home/image/popup02.gif');
+}
+var newwindow = '';
+
+function imalert(url)
+{
+	if (!newwindow.closed && newwindow.location)
+	{
+		newwindow.location.href = url;
+	}
+	else
+	{
+		newwindow=window.open(url,'windowtwo','height=360,width=586, toolbar=no,  resizable=yes, status=no, scrollbars=yes');
+		if (!newwindow.opener) newwindow.opener = self;
+	}
+	if (window.focus) {newwindow.focus()}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//
+var vcidwindow = '';
+
+function openvcidwindow(url)
+{
+	if (!vcidwindow.closed && vcidwindow.location)
+	{
+		vcidwindow.location.href = url;
+	}
+	else
+	{
+		vcidwindow=window.open(url,'vcid','height=950,width=1000, toolbar=yes, scrollbars=yes, resizable=yes, location=yes');
+		if (!vcidwindow.opener) vcidwindow.opener = self;
+	}
+	if (window.focus) {vcidwindow.focus()
+	}
+	} 
+
+
+
+ var curwindow = '';
+
+function opencurwindow(url)
+{
+	if (!curwindow.closed && curwindow.location)
+	{
+		curwindow.location.href = url;
+	}
+	else
+	{
+		curwindow=window.open(url,'curriculum','height=800,width=720, toolbar=yes, scrollbars=yes, resizable=yes,  location=yes');
+		if (!curwindow.opener) curwindow.opener = self;
+	}
+	if (window.focus) {curwindow.focus()
+	}
+	} 
+//-->
+</script>
+<script type="text/javascript">
+<!--
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." :
+"http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost +
+"google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+//-->
+</script>
+<script type="text/javascript">
+<!--
+try {
+var pageTracker = _gat._getTracker("UA-12446158-1");
+pageTracker._trackPageview();
+} catch(err) {}
+//-->
+</script></head>
+<body bgcolor="#252322">
+<div  id="horizon">
+<div  id="content">
+<div class="backg">
+<table width="970" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="20">&nbsp;</td>
+    <td width="579" ><table width="579" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td  align="left" valign="top" class="bottibody">                
+                <span class="head"><br />
+                Wealth &amp; Power</span><span class="halfer"><br />
+                <br /></span></td>
+        </tr></table>
+
+
+
+ <table width="579" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td colspan="2" align="left" valign="top" class="bottibody">
+                Around 1880, a popular Japanese song appeared with these unsentimental lyrics (as translated many years ago by the distinguished British historian of Japan George Sansom):<br/>
+            <br/>
+            <table width="300" border="0" cellspacing="0" cellpadding="0" align="center">
+              <tr>
+                <td align="center"><em>In the West there is England,<br />
+              In the North, Russia.<br />
+              My countrymen, be careful!<br />
+              Outwardly they make treaties,<br />
+              But you cannot tell<br />
+              What is at the bottom of their hearts.<br />
+              There is a Law of Nations, it is true,<br />
+              But when the moment comes, remember,<br />
+              The Strong eat up the Weak.</em></td>
+              </tr>
+            </table>
+            <br/>This&mdash;as much (or more) than abstract notions of freedom or equality or individual rights&mdash;was the great lesson to be learned from the expansionist Western nations. Power politics and Machiavellian realism&mdash;<em>Machtpolitik</em> and <em>Realpolitik</em>&mdash;was the name of the game. However much one might praise global commerce and free trade, the bedrock of international stature was empire and clearly defined spheres of influence. &ldquo;Diplomacy&rdquo; was never absent the warships. Mammon (<em>fukoku</em> or &ldquo;rich country&rdquo; in Japanese parlance) was always accompanied by Mars (<em>ky&#333;hei</em>, a &ldquo;strong military&rdquo;).<br/>
+            <br/>By the 1880s, such Social Darwinist thinking was not merely accepted as common sense by Japanese policymakers and public commentators. It was concretely applied to the situation in Asia&mdash;and more specifically to Japan&rsquo;s position vis-&agrave;-vis China, Korea, and Russia. No matter what international law might say, &ldquo;the Strong eat up the Weak.&rdquo; This perception became the rationale for building a military establishment capable of overseas missions, and for simultaneously promoting a potent, emperor-centered nationalistic ideology to buttress this.<br />
+            <br /></td>
+        </tr>
+<tr align="left" valign="top"> 
+          <td colspan="2"  align="center">
+
+            <table width="579" border="0" cellspacing="0" cellpadding="0" bgcolor="#cccccc">
+            <tr>
+              <td align="center" class="bottiblock" colspan="2"><img  title="" src="image/spacer.gif" alt="space" width="44" height="116" align="left"/><img  title="" src="image/spacer.gif" alt="space" width="44" height="116" align="right"/><br />
+                 <span class="bottiblockhead">The Threat of the West</span><span class="halfer"><br />
+                <br/>
+                </span>
+                This rare woodblock print reveals the acute sensitivity of the Japanese to the threat of Western &ldquo;gunboat diplomacy&rdquo; in Asia. The incident depicted is an attack on China by French warships in 1884.<br /></td>
+            </tr>
+ <tr align="center" valign="top">
+              <td height="281" colspan="2" class="bottiblock"><a href="2000_161_l.html"><img  title="" src="image/2000_161_sg.jpg" alt="&ldquo;Story from the Sino-French War&rdquo; by Utagawa Kunisada III, 1884 [2000.161] &nbsp;Sharf Collection, Museum of Fine Arts, Boston" width="553" height="279" border="0" /></a>               </td>
+            </tr>
+ <tr>
+              <td colspan="2" align="center" class="bottiblock"><a href="2000_161_l.html"><img  title="" src="image/2000_161_det_chinese.jpg" alt="&ldquo;Story from the Sino-French War&rdquo; by Utagawa Kunisada III, 1884 (detail) [2000.161] &nbsp;Sharf Collection, Museum of Fine Arts, Boston" width="268" height="283" border="0" /><img  title="" src="image/spacer.gif" alt="space" width="5" height="10" border="0"/></a><a href="2000_161_l.html"><img  title="" src="image/2000_161_det_french.jpg" alt="&ldquo;Story from the Sino-French War&rdquo; by Utagawa Kunisada III, 1884 (detail) [2000.161] &nbsp;Sharf Collection, Museum of Fine Arts, Boston" width="268" height="283" border="0" /></a>               </td>
+            </tr>
+<tr>
+              <td align="center" class="bottiblock" width="289"><img  title="" src="image/spacer.gif" width="15" height="30" align="left" alt="space"/>detail depicting Chinese forces&nbsp; </td>
+              <td align="center" class="bottiblock" width="290"><img  title="" src="image/spacer.gif" width="15" height="30" align="right" alt="space"/>&nbsp; detail depicting French attackers</td>
+</tr>
+<tr>
+              <td colspan="2" align="center" class="bottiblock"><img  title="" src="image/spacer.gif" width="15" height="74" align="left" alt="space"/><img  title="" src="image/spacer.gif" width="15" height="70" align="right" alt="space"/>&ldquo;Story from the Sino-French War&rdquo;<br />by Utagawa Kunisada III, 1884<span class="halfer"><br />
+                    <br />
+                </span><span class="bottismall">[2000.161] Sharf Collection, Museum of Fine Arts, Boston</span> </td>
+            </tr>
+<tr bgcolor="#cccccc">
+              <td colspan="2" align="center" class="bottiblock"><img  title="" src="image/spacer.gif" width="15" height="15" align="left" alt="space"/></td>
+            </tr>
+          </table></td>
+        </tr>
+<tr align="left" valign="top"> 
+          <td colspan="2" class="bottibody"><a name="sugita" id="sugita"></a><br />
+            China in particular appeared to be the perfect negative example of this ruthless power struggle. In 1884, for example, a Japanese official published an account of recent travels in China that captured this sentiment in the harshest imaginable terms. The Chinese, Sugita Teiichi wrote, were narrow-minded and obstinate and &ldquo;do not know the great trends of the world.&rdquo; As a consequence, China was about to become a battleground of Western economic imperialism, with Japan relegated to being a mere spectator. The choice came down to being &ldquo;meat&rdquo; or &ldquo;a guest at the table&rdquo;&mdash;and it was obvious what Japan&rsquo;s choice should be. This was, Sugita declared, &ldquo;the law of the survival of the fittest in the real world.&rdquo;
+            <br />
+            <br/>
+            As early as 1881, Fukuzawa Yukichi had employed an equally vivid metaphor to introduce much the same theme. In a famous essay titled &ldquo;A Critique of the Times,&rdquo; Fukuzawa lavished praise on Japan&rsquo;s progress in mastering Western learning. Japan, he enthused, was already standing with the West &ldquo;at the center of civilization&rdquo;&mdash;while China, by contrast, had manifestly failed to attain such enlightenment. <br/>
+            <br/>With this prelude, Fukuzawa slipped in the knife, and gave it a telling twist. However attractive Western &ldquo;civilization and enlightenment&rdquo; might be, Western imperialism was spreading throughout Asia like a fire. In this situation, Japan could be compared to a man who had built a &ldquo;stone house&rdquo; while neighboring China and Korea, unequaled in foolishness, continued to live in &ldquo;wooden houses.&rdquo; Even the wise man in the stone house would be imperiled if his neighbors&rsquo; dwellings went up in flames. Thus Japan had a right and indeed duty to use force, if necessary, to make backward neighbors adopt the path of &ldquo;progress.&rdquo; In so doing, Japan would &ldquo;give them military protection&rdquo; and &ldquo;be their cultural inspiration&rdquo;&mdash;not out of altruism, but out of plain self-interest.<br/>
+            <br/>
+            Four years later Fukuzawa reiterated this thesis in an equally famous essay titled &ldquo;On Throwing Off Asia&rdquo; (<em>Datsu-A Ron</em>). In the modern world, he wrote, a nation could only ensure its independence by casting off old customs and introducing Western civilization as Japan had done. By failing to do this, China and Korea remained but &ldquo;half-civilized countries&rdquo; with which Japan should feel no allegiance:<br />
+            <br /></td>
+        </tr>
+<tr align="left" valign="top"> 
+          <td colspan="2" class="bottiblock" align="center"><img  title="" src="image/space.gif" alt="space" width="50" height="160" align="left"/><img  title="" src="image/space.gif" width="50" height="160" align="right" alt="space"/>We must not wait for neighboring countries to become civilized so that we can together promote Asia&rsquo;s revival. Rather we should leave their ranks and join forces with the civilized countries of the West. We don&rsquo;t have to give China and Korea any special treatment just because they are neighboring countries. We should deal with them as Western people do. Those who have bad friends cannot avoid having a bad reputation. I reject the idea that we must continue to associate with bad friends in East Asia.<span class="halfer"><br />
+            <br />
+                    <br />
+                </span>[quoted in Oka Yoshitake&rsquo;s excellent &ldquo;Prologue&rdquo; to Marlene Mayo, ed.,<br />
+                <span class="bottiblockplain">The Emergence of Imperial Japan</span>]<br />
+                <br /></td>
+        </tr>
+<tr align="left" valign="top"> 
+          <td colspan="2" class="bottibody">&ldquo;Throwing off Asia&rdquo;&mdash;the most celebrated catch phrase in the rhetoric of early Japanese imperialism&mdash;captured the double edge of &ldquo;Westernization&rdquo; brilliantly: to survive as a modern nation, Japan not only had to throw off its own past, but also to overthrow the neighbors with whom it ostensibly shared so many cultural and racial affinities. <br/>
+            <br/>In so neatly equating unsentimental power politics with &ldquo;progress,&rdquo; Fukuzawa was parroting the rhetoric of Western imperialism itself, where empire-building was invariably glossed with the rhetoric of bringing &ldquo;civilization&rdquo; to backward peoples. In American rhetoric, this was usually phrased in terms of &ldquo;mission and manifest destiny.&rdquo; In time, the Japanese coined the word <em>tenshoku</em> &mdash; literally &ldquo;heaven&rsquo;s work&rdquo; or &ldquo;divine calling&rdquo;&mdash;as their own code word for this expansionist vision.<br />
+            <br />
+            Over the course of the 1880s and early 1890s, these fears and ambitions were pumped up with unrelenting fervor. And as they girded for inevitable war, the Meiji leaders initiated an intense campaign of indoctrination aimed at establishing the emperor as the symbolic center of a muscular modern nationalism. A major step in this direction was the famous 1882 &ldquo;Imperial Precepts to Soldiers and Sailors,&rdquo; a military code that resurrected feudal ideals of the &ldquo;way of the warrior&rdquo; and declared selfless loyalty to the emperor to be the supreme duty of the fighting man. In a phrase that was often repeated six decades later in World War Two, the precepts declared that, for the Japanese fighting man, &ldquo;Duty is weightier than a mountain, while death is lighter than a feather.&rdquo;
+            <br />
+            <br/>Simultaneously, the spiritual glory of dying for the emperor was promoted through a series of steps centering on the new Yasukuni Shrine in Tokyo, where the souls of those who died fighting on the emperor&rsquo;s behalf were enshrined. A &ldquo;Military Exhibition Hall&rdquo; (the <em>Y&#363;sh&#363;kan</em>) was established on the shrine grounds in 1882, and&mdash;amidst great ceremonial fanfare involving the emperor personally&mdash;a huge bronze <em>torii</em> (Shinto gateway) was erected there in 1887.<br />            <br/></td>
+        </tr>
+<tr>
+              <td colspan="2" align="center" class="bottiblock"><a href="2000_513_l.html"><img  title="" src="image/2000_513_s.jpg" alt="&ldquo;Illustration of Grand Festival at Yasukuni Shrine&rdquo; by Shinohara Kiyooki, 1895 [2000.513] Sharf Collection, Museum of Fine Arts, Boston" width="565" height="293" border="0" /></a>               </td>
+          </tr>
+<tr>
+              <td colspan="2" align="center" class="bottiblock"><img  title="" src="image/spacer.gif" width="15" height="50" align="left" alt="space"/><img  title="" src="image/spacer.gif" width="15" height="50" align="right" alt="space"/>&ldquo;Illustration of Grand Festival at Yasukuni Shrine&rdquo; by Shinohara Kiyooki, 1895<span class="halfer"><br />
+                <br />
+            </span><span class="bottismall">[2000.513] Sharf Collection, Museum of Fine Arts, Boston</span> </td>
+          </tr>
+<tr align="left" valign="top"> 
+          <td colspan="2" class="bottibody"><span class="bottismall"><br />
+          </span>
+            The &ldquo;brocade pictures&rdquo; depicting the emperor that flourished in the 1880s and 1890s reflected this carefully cultivated new nationalism. Even when depicted engaged in familial or recreational or civilian activities, the emperor was almost invariably dressed in military uniform and plastered like a bulletin board with sashes and medals. At the same time, even when war still lay years in the future, he was frequently portrayed as the great supreme commander overseeing military maneuvers.<br />
+            <br /></td>
+        </tr>
+<tr>
+              <td colspan="2" align="center" class="bottiblock"><a href="2000_247_l.html"><img  title="" src="image/2000_247_s.jpg" alt="&ldquo;Illustration of a Military Review&rdquo; by Toyohara Chikanobu, 1887 [2000.247] Sharf Collection, Museum of Fine Arts, Boston" width="565" height="296" border="0" /></a>               </td>
+          </tr>
+<tr>
+              <td colspan="2" align="center" class="bottiblock"><img  title="" src="image/spacer.gif" width="15" height="50" align="left" alt="space"/><img  title="" src="image/spacer.gif" width="15" height="50" align="right" alt="space"/>&ldquo;Illustration of a Military Review&rdquo; by Toyohara Chikanobu, 1887<span class="halfer"><br />
+                <br />
+            </span><span class="bottismall">[2000.247] Sharf Collection, Museum of Fine Arts, Boston</span> </td>
+          </tr>
+<tr>
+              <td colspan="2" align="center" class="bottiblock"><a href="2000_499_l.html"><img  title="" src="image/2000_499_s.jpg" alt="&ldquo;Observance by His Imperial Majesty of the Military Maneuvers of Combined Army and Navy Forces&rdquo;by Toyohara Chikanobu, 1890 [2000.499] Sharf Collection, Museum of Fine Arts, Boston" width="565" height="298" border="0" /></a>               </td>
+          </tr>
+<tr>
+              <td colspan="2" align="center" class="bottiblock"><img  title="" src="image/spacer.gif" width="15" height="70" align="left" alt="space"/><img  title="" src="image/spacer.gif" width="15" height="70" align="right" alt="space"/>&ldquo;Observance by His Imperial Majesty of the Military Maneuvers of Combined<br />
+                Army and Navy Forces&rdquo; by Toyohara Chikanobu, 1890<span class="halfer"><br />
+                <br />
+            </span><span class="bottismall">[2000.499] Sharf Collection, Museum of Fine Arts, Boston</span> </td>
+          </tr>
+<tr> 
+          <td colspan="2" align="left" valign="top" class="bottibody"><span class="bottismall"><br /></span>In a rare lithograph of the emperor dating from around 1889 (based on an 1887 drawing of the photography-shy monarch by the Italian Edoardo Chiossone),
+            <table width="188" border="0" cellspacing="16" cellpadding="0" align="right">
+              <tr>
+                <td align="center" valign="top" class="bottiblock"><a href="2000_547_l.html"><img  title="" src="image/2000_547_s.jpg"  alt="&ldquo;True Portrait of His Majesty,&rdquo; lithograph based on a drawing by Edoardo Chiossone, ca. 1889 [2000.547] Sharf Collection, Museum of Fine Arts, Boston" width="188" height="469" border="0" align="top"/></a><br />
+                  &ldquo;True Portrait of His Majesty,&rdquo; lithograph based on a drawing 
+                      by Edoardo Chiossone, ca. 1889<span class="bottismall"><br /> 
+                    <br />
+                    [2000.547] Sharf Collection, <br />
+                    Museum of Fine Arts, Boston<br />
+<br />
+</span>                </td>
+              </tr>
+            </table> 
+            he is portrayed beneath an elaborate decoration that features not only military flags, but also a small rendering of a divine, conquering progenitor. Here was a graphic image of the sovereign enshrined in the constitution that came into effect in 1890&mdash;the &ldquo;sacred and inviolable&rdquo; supreme commander of the new Japan. <br />            
+            <br />            <img  title="" src="image/space.gif" width="16" height="230" align="right" alt="space"/>In 1884 (with the help of a German geopolitical adviser), Japanese strategic planners added another compelling metaphor to the catalog of reasons for taking military action on the Asian continent. Korea, it was declared&mdash;politically unstable and wracked by conflict that pitted pro-Chinese against pro-Japanese factions&mdash;was a &ldquo;dagger pointing at the heart of Japan.&rdquo; It could never be allowed to fall into hostile hands.<br />            
+            <br/>
+            When, in 1884, China sent troops to Korea to quell a pro-Japanese domestic uprising, only fear that Japan was not yet militarily prepared for war persuaded the Meiji leaders to work out a negotiated solution with China. Ten years later, when renewed turmoil in Korea again raised the prospect of Chinese intervention, the Japanese were stronger and not amenable to another negotiated solution. War with China came when the Japanese poured thousands of troops into Korea&mdash;in the name, as the propagandists would have it, of protecting Korea against intrigues by China. Neither Korea nor China nor Japan nor Asia would ever be the same again.<br />            <br/></td>
+	    </tr>
+ <tr align="left" valign="top"> 
+          <td colspan="2"  align="center">
+
+            <table width="579" border="0" cellspacing="0" cellpadding="0" bgcolor="#cccccc">
+            <tr>
+              <td align="center" class="bottiblock" colspan="2"><img  title="" src="image/spacer.gif" alt="space" width="44" height="140" align="left"/><img  title="" src="image/spacer.gif" alt="space" width="44" height="140" align="right"/><br />
+                 <span class="bottiblockhead">The Propaganda of &ldquo;Defending Korea&rdquo;</span><span class="halfer"><br />
+                <br/>
+                </span>
+                A number of Sino-Japanese War prints, such as this one, depicted Korean digitaries in the company of the Japanese. This served the purpose of reinforcing the Japanese argument that they were fighting to protect Korea against Chinese encroachment and had the support of more progressive Korean leaders in doing so.<span class="bottismall"><br />
+                <br />
+                </span></td>
+            </tr>
+<tr>
+              <td height="288" colspan="2" align="center" class="bottiblock"><a href="2000_203_l.html"><img  title="" src="image/2000_203_sg.jpg" alt="&ldquo;Minister Otori Protecting the Korean Emperor as They Enter the Castle at Keijo&rdquo;
+          by Toyohara Chikanobu, 1894 [2000.203] &nbsp;Sharf Collection, Museum of Fine Arts, Boston" width="553" height="282" border="0" /></a>               </td>
+            </tr>
+<tr> 
+          <td width="169" align="center" valign="middle" class="bottiblock">
+          <img  title="" src="image/spacer.gif" alt="spacer" width="5" height="180" border="0" align="right"/><img  title="" src="image/spacer.gif" width="20" height="180" align="left" alt="space"/>&ldquo;Minister &#332;tori Escorting the Korean Regent as They Enter the Palace at Keijo&rdquo;
+          by Toyohara Chikanobu, 1894 <br />
+            (with detail)<span class="bottismall"><br />
+              <br />
+            [2000.203]<span class="halfer"><br /><br /></span>
+            Sharf Collection, Museum<br />
+            of Fine Arts, Boston<br /><img  title="" src="image/spacer.gif" alt="space" width="130" height="5" align="right"/></span>
+            </td>
+          <td width="410" align="left" valign="top"><a href="2000_203_l.html"><img  title="" src="image/2000_203_det.jpg" alt="&ldquo;Minister &#332;tori Escorting the Korean Regent as They Enter the Palace at Keijo&rdquo; by Toyohara Chikanobu, 1894 (detail)[2000.203] &nbsp;Sharf Collection, Museum of Fine Arts, Boston" width="385" height="288" border="0" align="left" /></a></td>
+        </tr>
+ 
+<tr>
+              <td align="center" class="bottiblock">&nbsp;</td>
+              <td align="center" class="bottiblock"><img  title="" src="image/spacer.gif" width="25" height="45" align="right" alt="space"/><img  title="" src="image/spacer.gif" width="5" height="45" align="left" alt="space"/>Detail of Japanese Minister &#332;tori escorting the Korean king's father, who was appointed regent after the king was forced to abdicate.<br /><br /><br /></td>
+</tr>
+<tr bgcolor="#FFFFFF">
+              <td colspan="2" align="center" class="bottiblock"><img  title="" src="image/spacer.gif" width="15" height="60" align="left" alt="space"/></td>
+            </tr>
+          </table></td>
+        </tr></table>
+
+ 
+
+
+
+
+
+		 <table border="0" cellspacing="0" cellpadding="0" align="left">
+          
+ <tr>
+          <td align="left" valign="top"><span class="bottismall"><img src="../home/image/redline.gif" width="570" height="1"  alt="MIT Visualizing Cultures" title=""/><br/><br/>
+                <a href="javascript:imalert('../home/about.html')"><em>On viewing images of a potentially disturbing nature: click here.</em></a><br />
+                <br/>Massachusetts Institute of Technology &#169; 2008 Visualizing Cultures<br />
+                <br />
+          </span></td>
+          </tr>
+
+
+
+ <tr>
+          <td align="left" valign="top"><div class="bottom"><img src="image/essay_bottom.gif"  alt="MIT Visualizing Cultures" width="970" height="136" border="0" align="left" title=""/></div>
+<div class="essaynavbottom">
+  <table width="622" border="0" cellspacing="0" cellpadding="0" align="left">
+  <tr align="left">
+    <td align="left" width="105"><img src="image/toa_essay_nav_03.gif"  alt="Throwing Off Asia I" name="nav01b" width="622" height="39" border="0" usemap="#Map5" id="nav01b" title=""/></td>
+  </tr>
+</table>
+</div></td>
+          </tr>
+
+
+	  </table>
+</td>
+    <td width="371">&nbsp;</td>
+  </tr>
+</table></div>
+<div class="top"><img src="image/essay_top.gif"  alt="MIT Visualizing Cultures" width="970" height="136" border="0" align="left" title=""/></div>
+
+<!--end background elements -->
+
+<!-- essay nav -->
+<div class="essaynavtop"><table width="622" border="0" cellspacing="0" cellpadding="0" align="left">
+  <tr align="left">
+    <td align="left" width="622"><img src="image/toa_essay_nav_03.gif"  alt="Throwing Off Asia I" name="nav01" width="622" height="39" border="0" usemap="#Map4" id="nav01" title=""/></td>
+  </tr>
+</table>
+</div>
+
+
+<!-- end essay nav -->
+
+
+
+<!-- right-hand buttons -->
+
+
+
+
+
+<div class="boxpdf" id="boxpdf"><!--<a href="javascript:imalert('../home/about.html')">Warning: On viewing images of <br />a potentially
+disturbing nature</a><br />
+<br />-->
+<a href="pdf/toa1_essay_03.pdf" target="_blank"   onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image12','','../home/image/pdf_chap02.gif',1);noverlay();noverlayv();noverlayu();">Printer-friendly PDF of this chapter</a></div>
+
+
+
+
+<!--end  right-hand buttons -->
+
+
+
+
+
+</div>
+</div>
+
+<!--top bar nav elements -->
+<div class="box14" id="box14" ><table  width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><img src="../home/image/spacer.gif" width="10" height="26"  alt="MIT Visualizing Cultures"/><img src="../home/image/hometopnav01.gif"  alt="Menu" width="227" height="26" border="0" usemap="#topmap"/></td>
+  </tr>
+</table>
+</div>
+
+<div class="box15" id="box15" ><table  width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><img src="../home/image/spacer.gif" width="10" height="27"  alt="MIT Visualizing Cultures"/></td>
+  </tr>
+</table>
+</div>
+
+<div class="navbox" id="hideme"><a  onmouseout="javascript:noverlay();" onmouseover="javascript:overlay();"><img src="../home/image/vc_home_nav.png" alt="MIT Visualizing Cultures" width="202" height="300" border="0" usemap="#Map"  id="Image5"  name="Image5" title="" /></a></div> 
+
+<div class="twit">
+<a href="https://twitter.com/share" class="twitter-share-button" data-count="none">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></div>
+
+<div class="emil"><!--email-->
+<script type="text/javascript"><!--
+
+var SubjectLine='MIT Visualizing Cultures'; 
+var BodyText='You can see this page at: '+top.location.href;
+
+var Message='<A CLASS=contact HREF="mailto:?SUBJECT='+escape(SubjectLine)+'&BODY='+escape(BodyText)+'" OnMouseOver="status=\'Envoyer cette page à vos amis\'; return true;" ><img src="../home/image/email2.gif" alt="Email" name="Image321"   border="0" id="Image321"  title=""/><\/A>';
+
+var MessageIE='<A CLASS=contact HREF="mailto:?SUBJECT='+(SubjectLine)+'&BODY='+(BodyText)+'" OnMouseOver="status=\'Envoyer cette page à vos amis\'; return true;" ><img src="../home/image/email2.gif" alt="Email" name="Image321"   border="0" id="Image321"  title=""/><\/A>';
+
+if(document.all) { document.write(MessageIE); }
+
+else { document.write(Message); }
+
+// http://javascriptsource.com "The JavaScript Source"
+//--></script></div>
+
+
+
+<!--facebook--><div class="fbok">
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<div class="fb-like" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false" data-colorscheme="light" data-font="verdana"></div>
+
+</div> 
+
+<div class="unitsnavbox01" id="unitsnavbox01" ><a  onmouseout="javascript:noverlayu();" onmouseover="javascript:overlayu();"><img src="../home/image/unitstopnav01.gif"  alt="Units" width="227" height="26" border="0"/></a></div>
+ <div class="navboxu" id="hidemeu"><a href="#" onmouseout="javascript:noverlayu();" onmouseover="javascript:overlayu();"><img src="../home/image/vc_units_cur_nav.png" alt="MIT Visualizing Cultures" width="179" height="148" border="0" usemap="#Map3"  id="Image6"  name="Image6" title=""/></a></div> <div class="unitnavbox" id="unitnavbox" ><a  onmouseout="javascript:noverlayv();" onmouseover="javascript:overlayv();"><img src="image/topnav.gif"  alt="Throwing Off Asia I" width="227" height="26" border="0"/></a></div>
+ 
+<div class="navboxv" id="hidemev"><a  onmouseout="javascript:noverlayv();" onmouseover="javascript:overlayv();"><img src="image/toa_nav.png" alt="Asia Rising"  name="Image7" width="212" height="169" border="0" usemap="#Image7Map"   id="Image7" title=""/>
+    
+</a></div>
+<!--end top bar nav elements -->
+
+
+
+<!--image maps -->
+    <map name="topmap" id="topmap">
+      <area shape="rect" coords="0,0,180,47" href="#" onmouseover="overlay();"  alt="MIT Visualizing Cultures" />
+      <area shape="rect" coords="194,0,300,47" href="#" onmouseover="overlayu();"  alt="VC Units" />
+  </map>
+
+<map name="Map" id="Map">
+      <area shape="rect" coords="0,0,211,39" href="../home/index.html" onmouseover="overlay()" alt="MIT Visualizing Cultures"/>
+      <area shape="rect" coords="0,39,211,66" href="../home/vc01_about.html" target="_top"  alt="About VC" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_02.png',1)"/>      
+      <area shape="rect" coords="0,66,211,96" href="../home/vc02_schol.html" target="_top"  alt="VC Scholars" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_03.png',1)" />
+  <area shape="rect" coords="0,96,211,124" href="../home/vc03_partner.html" target="_top"  alt="Partner Institutions" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_04.png',1)" />
+
+  <area shape="rect" coords="0,124,211,147" href="../home/vc05_outreach.html" target="_top"  alt="Outreach" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_05.png',1)" />
+  <area shape="rect" coords="3,147,211,181" href="../home/vc06_event.html" target="_top"  alt="Conferences &amp; Events" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_06.png',1)" />
+  <area shape="rect" coords="3,181,211,214" href="mailto:visualizingcultures@mit.edu" target="_top"  alt="Contact" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_07.png',1)" />
+ <area shape="rect" coords="1,214,212,240" href="http://www.facebook.com/home.php#!/group.php?gid=261831254970&amp;ref=ts" target="_blank"  alt="Join Us" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_08.png',1)" />
+  <area shape="rect" coords="0,240,211,266" href="http://twitter.com/Visualizing_Cul" target="_blank"  alt="Follow Us" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_09.png',1)" />
+</map><map name="Map3" id="Map3">
+  
+<area shape="rect" coords="0,2,312,30" href="../home/vis_menu.html" target="_top" alt="Units" onmouseout="noverlayu();MM_swapImgRestore()" onmouseover="overlayu();" />
+
+<area shape="rect" coords="2,38,314,68" href="../home/vis_menu.html" target="_top" alt="Icon View" onmouseout="noverlayu();MM_swapImgRestore()" onmouseover="overlayu();MM_swapImage('Image6','','../home/image/vc_units_cur_nav_01.png',1)" />
+
+<area shape="rect" coords="0,67,312,95" href="../home/vis_menu_02b.html" target="_top" alt="Text View" onmouseout="noverlayu();MM_swapImgRestore()" onmouseover="overlayu();MM_swapImage('Image6','','../home/image/vc_units_cur_nav_02.png',1)" />
+
+<area shape="rect" coords="1,94,313,122" href="../home/vis_menu_03.html" target="_top" alt="Curriculae" onmouseout="noverlayu();MM_swapImgRestore()" onmouseover="overlayu();MM_swapImage('Image6','','../home/image/vc_units_cur_nav_03.png',1)" /></map>
+<map name="Image7Map" id="Image7Map">
+  <area shape="rect" coords="0,2,212,30" href="index.html" target="_top" alt="Globetrotters&#8217;s Japan: People" onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();" />
+      <area shape="rect" coords="0,42,215,70" href="toa_essay01.html" target="_top" alt="Essay" onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();MM_swapImage('Image7','','image/toa_nav_02.png',1)" />
+  <area shape="rect" coords="0,70,215,99" href="toa_vis_01.html" target="_top" alt="Visual Narratives" onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();MM_swapImage('Image7','','image/toa_nav_03.png',1)" />
+  <area shape="rect" coords="0,99,215,127" href="javascript:openvcidwindow('gallery/index.htm')" target="_top" alt="Image Gallery" onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();MM_swapImage('Image7','','image/toa_nav_04.png',1)" />
+<area shape="rect" coords="0,127,215,154" href="javascript:opencurwindow('cur_student/toa_cur_toc.html')" target="_top" alt="Image Gallery"  onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();MM_swapImage('Image7','','image/toa_nav_05.png',1)" />
+</map>
+
+<map name="Map4" id="Map4">
+<area shape="rect" coords="0,0,145,41"   href="toa_essay01.html" onmouseover="MM_swapImage('nav01','','image/toa_essay_nav_01.gif',1);noverlay();noverlayv();noverlayu();" onmouseout="MM_swapImgRestore()" alt="Westernization"/>
+<area shape="rect" coords="145,0,355,41" href="toa_essay02.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01','','image/toa_essay_nav_02.gif',1);noverlay();noverlayv();noverlayu();"  alt="&#8220;Civilization &amp; Enlightenment&#8221;"/>
+    <!--   <area shape="rect" coords="355,0,499,41" href="toa_essay03.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01','','image/toa_essay_nav_03.gif',1);noverlay();noverlayv();noverlayu();"  alt="Wealth &amp; Power"/>
+ -->
+  <area shape="rect" coords="499,0,622,41" href="toa_essay04.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01','','image/toa_essay_nav_04.gif',1);noverlay();noverlayv();noverlayu();"  alt="Sources"/>
+</map>
+
+<map name="Map5" id="Map5">
+ <area shape="rect" coords="0,0,145,41"   href="toa_essay01.html" onmouseover="MM_swapImage('nav01b','','image/toa_essay_nav_01.gif',1);noverlay();noverlayv();noverlayu();" onmouseout="MM_swapImgRestore()" alt="Westernization"/>
+<area shape="rect" coords="145,0,355,41" href="toa_essay02.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01b','','image/toa_essay_nav_02.gif',1);noverlay();noverlayv();noverlayu();"  alt="&#8220;Civilization &amp; Enlightenment&#8221;"/>
+    <!--  <area shape="rect" coords="355,0,499,41" href="toa_essay03.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01b','','image/toa_essay_nav_03.gif',1);noverlay();noverlayv();noverlayu();"  alt="Wealth &amp; Power"/> -->
+
+  <area shape="rect" coords="499,0,622,41" href="toa_essay04.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01b','','image/toa_essay_nav_04.gif',1);noverlay();noverlayv();noverlayu();"  alt="Sources"/>
+</map>
+
+
+</body>
+</html>

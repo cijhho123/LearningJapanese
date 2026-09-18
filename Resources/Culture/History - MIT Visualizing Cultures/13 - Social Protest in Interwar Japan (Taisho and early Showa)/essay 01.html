@@ -1,0 +1,1355 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>MIT Visualizing Cultures</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+
+
+<style type="text/css">
+<!--
+
+.backg {
+	position:absolute;
+	left:0px;
+	top:180px;
+	z-index: 1;
+background-image:url(../gt_japan_people/image/essay_bck.gif);
+}
+.top {
+	position:absolute;
+	left:0px;
+	top:45px;
+	z-index: 2;
+}
+.bottom {
+	position:absolute;
+	left:0px;
+	z-index: 2;
+}
+.essaynavtop {
+	position:absolute;
+	left:0px;
+	top:142px;
+	z-index: 3;
+}
+.essaynavbottom {
+	position:absolute;
+	left:0px;
+	z-index: 3;
+}
+.essay {
+	position:absolute;
+	left:20px;
+	top:195px;
+	z-index: 4;
+	background-color:#FFFFFF;
+}
+.flashy {
+	position:absolute;
+	left:467px;
+	top:42px;
+	z-index: 3;
+}
+.slug {        position:absolute;
+        left:20px;
+        top:475px;
+        width:476px;
+		z-index:2;
+		text-align:left;
+}
+.navbox {
+		position: fixed;
+        left:10px;
+        top:0px;
+		z-index: 5;
+		visibility:hidden;
+}
+.unitsnavbox01 {
+        position:fixed;
+        left:200px;
+        top:0px;
+		z-index:5;
+}
+.xnavbox {
+        position:fixed;
+        left:271px;
+        top:0px;
+		z-index:6;
+}
+.unitnavbox {
+        position:fixed; 
+        left:521px;
+       top:0px;
+       z-index:6;
+}
+.navboxu {
+		position: fixed;
+        left:200px;
+        top:0px;
+		z-index: 5;
+		visibility:hidden;	 
+}
+.navboxx {
+		position: fixed;
+        left:271px;
+        top:0px;
+		z-index: 6;
+		visibility:hidden;	 
+}
+.navboxv {
+		position: fixed;		
+		left:521px;
+		top:0px;
+		z-index: 8;
+		visibility:hidden;	 
+}
+.box14 {
+        position:fixed;
+        left:0px;
+        top:0px;
+		z-index:5;
+		background-color:#222222;
+		width:100%
+}
+.box15 {
+        position:fixed;
+        left:0px;
+        top:0px;
+		z-index:4;
+	    width: 100%;
+		background-color:#504B48
+}
+.box16 {        position:fixed;
+        left:0px;
+        top:23px;
+		z-index:4;
+	width: 100%;
+background-color:#2F302F 
+}
+.popup01 {        position:absolute;
+        left:624px;
+		z-index:4;
+}
+.boxtoalink {        position:absolute;
+        left:624px;
+		z-index:4;
+}
+.boxpdf {        position:absolute;
+        left:624px;
+        top:220px;
+		z-index:4;
+}
+
+.box01 { 
+		position: static;
+		top: 20%;
+		left: 20%;
+}		
+.pop {position:absolute;
+        left:638px;
+		z-index:4;
+}
+
+#horizon        
+	{
+	text-align: center;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 1px;
+	overflow: visible;
+	visibility: visible;
+	display: block
+	}
+
+#content    
+	{
+	margin-left: -485px;
+	position: absolute;
+	top: 0px;
+	left: 50%;
+	width: 250px;
+	height: 70px;
+	visibility: visible;
+
+		}
+#treat    
+	{
+	margin-left: -610px;
+	position: absolute;
+	top: 379px;
+	left: 50%;
+	width: 1220px;
+	height: 640px;
+	visibility: hidden;
+	z-index: 5;
+		}
+.bottibody {color: #111111; font-size: 13px; line-height: 19px; font-family: Verdana, Arial, Helvetica, sans-serif
+	}
+.bottibody2 {color: #ffffff; font-size: 11px; line-height: 16px; font-family: Verdana, Arial, Helvetica, sans-serif
+	}
+.bottiblock {
+	color: #2D2D2D;
+	font-size: 15px;
+	line-height: 19px;
+	/*font-family: Georgia, "Times New Roman", Times, serif;*/
+	font-family: Times New Roman, Times, serif;
+	font-style: italic;
+	}
+.bottiblockplain {
+	color: #2D2D2D;
+	font-size: 15px;
+	line-height: 19px;
+	/*font-family: Georgia, "Times New Roman", Times, serif;*/
+	font-family:   Times New Roman, Times, serif;
+	font-style: normal;
+	}
+.bottiblock {
+	color: #2D2D2D;
+	font-size: 15px;
+	line-height: 19px;
+	/*font-family: Georgia, "Times New Roman", Times, serif;*/
+	font-family: Times New Roman, Times, serif;
+	font-style: italic;
+	}
+.bottiblockplain {
+	color: #2D2D2D;
+	font-size: 15px;
+	line-height: 19px;
+	/*font-family: Georgia, "Times New Roman", Times, serif;*/
+	font-family:   Times New Roman, Times, serif;
+	font-style: normal;
+	}
+.bottiblockiii {
+	color: #2D2D2D;
+	font-size: 14px;
+	line-height: 18px;
+	/*font-family: Georgia, "Times New Roman", Times, serif;*/
+	font-family: Times New Roman, Times, serif;
+	font-style: italic;
+	}
+.bottiblockplainiii {
+	color: #2D2D2D;
+	font-size: 14px;
+	line-height: 18px;
+	/*font-family: Georgia, "Times New Roman", Times, serif;*/
+	font-family:   Times New Roman, Times, serif;
+	font-style: normal;
+	}
+.bottiblockhead {
+	color: #2D2D2D;
+	font-size: 20px;
+	line-height: 18px;
+	/*font-family: Georgia, "Times New Roman", Times, serif;*/
+	font-family: Times New Roman, Times, serif;
+	font-style: italic;
+	}
+.bottismall {
+	color: #333333;
+	font-size: 9px;
+	line-height: 14px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-style: normal;
+	}
+.head { color: #222222; font-size: 15px; line-height: 19px; font-family: Verdana, Arial, Helvetica, sans-serif
+	}
+.halfer { color: #ffffff; font-size: 6px; line-height: 6px; font-family: Verdana, Arial, Helvetica, sans-serif
+	}
+a:link {
+        color:#1233FF;
+        text-decoration:none;
+    }
+ a:active { 
+		color:#1233FF;
+        text-decoration:none;
+	}
+a:visited {
+		color:#1233FF;
+        text-decoration:none;
+	}
+a:hover {
+		color:#1233FF;
+        text-decoration:none;
+	}
+.bottibody2 a:link {
+        color:#aaaaaa;
+        text-decoration:none;
+    }
+ .bottibody2 a:active { 
+		color:#aaaaaa;
+        text-decoration:none;
+	}
+.bottibody2 a:visited {
+		color:#aaaaaa;
+        text-decoration:none;
+	}
+.bottibody2 a:hover {
+		color:#ffffff;
+        text-decoration:none;
+	}
+.box141 {	position:absolute;
+	left:0px;
+	top:0px;
+}
+.intro {position:absolute;
+        left:0px;
+        width:600px;
+		z-index:2;
+text-align:center;
+font-family:"Times New Roman", Times, serif;
+color: #111111; font-size: 17px;
+line-height: 20px;
+}
+.bottiblockbig {
+	color: #111111;
+	font-size: 16px;
+	line-height: 23px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-style: italic;
+}
+.bottiblockbigplain {
+	color: #111111;
+	font-size: 16px;
+	line-height: 23px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-style: normal;
+}
+.boxtextplain{
+font-family:"Times New Roman", Times, serif;
+color: #000000; font-size: 18px;
+line-height: 22px;
+font-style:normal
+}
+.boxtextbig{
+font-family:"Times New Roman", Times, serif;
+color: #000000; font-size: 23px;
+line-height: 23px;
+font-style:italic;
+}
+.boxtext{
+font-family:"Times New Roman", Times, serif;
+color: #000000; font-size: 18px;
+line-height: 22px;
+font-style:italic;
+
+
+}
+
+.bottiblock a:link {
+        color:#275286;
+        text-decoration:none;
+    }
+ .bottiblock a:active { 
+		color:#275286;
+        text-decoration:none;
+	}
+.bottiblock a:visited {
+		color:#275286;
+        text-decoration:none;
+	}
+.bottiblock a:hover {
+		color:#275286;
+        text-decoration:none;
+	}
+
+.bottiblockplain a:link {
+        color:#000000;
+        text-decoration:none;
+    }
+ .bottiblockplain a:active { 
+		color:#000000;
+        text-decoration:none;
+	}
+.bottiblockplain a:visited {
+		color:#000000;
+        text-decoration:none;
+	}
+.bottiblockplain a:hover {
+		color:#000000;
+        text-decoration:none;
+	}
+
+.bottismall a:link {
+        color:#000000;
+        text-decoration:none;
+    }
+ .bottismall a:active { 
+		color:#000000;
+        text-decoration:none;
+	}
+.bottismall a:visited {
+		color:#000000;
+        text-decoration:none;
+	}
+.bottismall a:hover {
+		color:#000000;
+        text-decoration:none;
+	}
+
+.halfer a:link {
+        color:#000000;
+        text-decoration:none;
+    }
+ .halfer a:active { 
+		color:#000000;
+        text-decoration:none;
+	}
+.halfer a:visited {
+		color:#000000;
+        text-decoration:none;
+	}
+.halfer a:hover {
+		color:#000000;
+        text-decoration:none;
+	}
+.twit {
+		position: fixed;
+        top: 2px;
+        left: 810px;
+		z-index: 7;
+		
+}
+.emil{
+		position: fixed;
+        top: 4px;
+        left: 876px;
+		z-index: 7;
+		
+}
+.fbok{
+		position: fixed;
+        top: 2px;
+        left: 916px;
+		z-index: 7;
+		width: 48px;
+		overflow:hidden;
+}
+
+.eng
+ { visibility:hidden;
+   position:absolute;
+   left:302px;
+   width:320px;
+ }
+.ger
+ { visibility:visible;
+   position:absolute;
+   left:312px;
+   width:300px;
+ }
+.bottibody1 {color: #ffffff; font-size: 13px; line-height: 19px; font-family: Verdana, Arial, Helvetica, sans-serif
+}
+
+
+
+
+
+-->
+</style>
+
+
+<script language="JavaScript" type="text/JavaScript">
+<!--
+//rollovers for menus
+
+function overlaytreat() {
+        el = document.getElementById("treat");
+        el.style.visibility ="visible";
+		noverlay();
+		noverlayu();
+		noverlayv();
+		noverlayx();
+}
+
+function noverlaytreat() {
+        el = document.getElementById("treat");
+        el.style.visibility ="hidden";
+}
+
+
+
+
+function overlay() {
+        el = document.getElementById("hideme");
+        el.style.visibility ="visible";
+		noverlayu();
+		noverlayv();
+		noverlayx();
+}
+
+function noverlay() {
+        el = document.getElementById("hideme");
+        el.style.visibility ="hidden";
+}
+
+
+function overlayu() {
+        el = document.getElementById("hidemeu");
+        el.style.visibility ="visible";
+		noverlay();
+		noverlayv();
+		noverlayx();
+}
+function noverlayu() {
+        el = document.getElementById("hidemeu");
+        el.style.visibility ="hidden";
+}
+
+
+function overlayv() {
+        el = document.getElementById("hidemev");
+        el.style.visibility ="visible";
+		noverlay();
+		noverlayu();
+		noverlayx();
+}
+function noverlayv() {
+        el = document.getElementById("hidemev");
+        el.style.visibility ="hidden";
+}
+
+
+function overlayx() {
+        el = document.getElementById("hidemex");
+        el.style.visibility ="visible";
+		noverlay();
+		noverlayu();
+		noverlayv();
+}
+function noverlayx() {
+        el = document.getElementById("hidemex");
+        el.style.visibility ="hidden";
+}
+function showvid() {
+        el = document.getElementById("thevid");
+        el.style.visibility ="visible";
+		noverlayu();
+		noverlayv();
+        PlayIt(document.movie1);
+}
+
+function hidevid() {
+        StopIt(document.movie1);
+		el = document.getElementById("thevid");
+        el.style.visibility ="hidden";
+
+
+}
+/* a javascript function that takes a QT movie and calls its "Play" method */
+        function PlayIt(anObj)
+        {
+                anObj.Play();
+        }
+        /* a javascript function that takes a QT movie and calls its "Stop" method */
+        function StopIt(anObj)
+        {
+                anObj.Stop();
+        }
+
+
+
+function sesame() {
+window.moveTo(0,0);        
+window.resizeTo(1350,screen.height);
+}
+
+
+window.onload=function()
+{
+	//sesame();
+    //StopIt(document.movie1);
+	noverlay();
+	noverlayu();
+	MM_preloadImages('../home/image/vc_home_nav_02.png','../home/image/vc_home_nav_03.png','../home/image/vc_home_nav_04.png','../home/image/vc_home_nav_05.png','../home/image/vc_home_nav_06.png','../home/image/vc_home_nav_07.png','../home/image/vc_home_nav_08.png','../home/image/vc_home_nav_09.png','../home/image/vc_home_nav_10.png','../home/image/vc_units_nav_01.png','../home/image/vc_units_nav_02.png','../home/image/essay_icon_ger02','image/pij1_nav_01.png','image/pij1_nav_02.png','image/pij1_nav_i_01.png','image/pij1_nav_i_02.png','image/pij1_nav_i_03.png','image/pij1_nav_i_04.png','image/pij1_nav_i_05.png','image/pij1_essay_nav_01.gif','image/pij1_essay_nav_02.gif','image/pij1_essay_nav_03.gif','image/pij1_essay_nav_04.gif','image/pij1_essay_nav_05.gif','image/essay_top.gif','image/pij2_but02.png');
+}
+var newwindow = '';
+
+function imalert(url)
+{
+	if (!newwindow.closed && newwindow.location)
+	{
+		newwindow.location.href = url;
+	}
+	else
+	{
+		newwindow=window.open(url,'windowtwo','height=360,width=586, toolbar=no,  resizable=yes, status=no, scrollbars=yes');
+		if (!newwindow.opener) newwindow.opener = self;
+	}
+	if (window.focus) {newwindow.focus()}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//
+var vcidwindow = '';
+
+function openvcidwindow(url)
+{
+	if (!vcidwindow.closed && vcidwindow.location)
+	{
+		vcidwindow.location.href = url;
+	}
+	else
+	{
+		vcidwindow=window.open(url,'vcid','height=1000,width=960, toolbar=yes, scrollbars=yes, resizable=yes, location=yes');
+		if (!vcidwindow.opener) vcidwindow.opener = self;
+	}
+	if (window.focus) {vcidwindow.focus()
+	}
+	} 
+
+
+
+ var curwindow = '';
+
+function opencurwindow(url)
+{
+	if (!curwindow.closed && curwindow.location)
+	{
+		curwindow.location.href = url;
+	}
+	else
+	{
+		curwindow=window.open(url,'curriculum','height=800,width=720, toolbar=yes, scrollbars=yes, resizable=yes,  location=yes');
+		if (!curwindow.opener) curwindow.opener = self;
+	}
+	if (window.focus) {curwindow.focus()
+	}
+	} 
+
+
+function decider(){
+ el = document.getElementById("thevid");
+
+if(el.style.visibility =="visible") {
+hidevid()
+} else {
+showvid()
+}
+}
+
+
+function german(){
+ el = document.getElementById("eng");
+
+if(el.style.visibility =="visible") {
+makger()
+} else {
+makeng()
+}
+}
+
+
+function makeng(){
+ el = document.getElementById("ger");
+ el.style.visibility ="hidden";
+ el = document.getElementById("eng");
+ el.style.visibility ="visible";
+}
+
+function makger(){
+ el = document.getElementById("ger");
+ el.style.visibility ="visible";
+ el = document.getElementById("eng");
+ el.style.visibility ="hidden";
+}
+//-->
+</script>
+<script type="text/javascript">
+<!--
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." :
+"http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost +
+"google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+//-->
+</script>
+<script type="text/javascript">
+<!--
+try {
+var pageTracker = _gat._getTracker("UA-12446158-1");
+pageTracker._trackPageview();
+} catch(err) {}
+//-->
+</script></head>
+<body bgcolor="#252422" onload="MM_preloadImages('image/pij2_but02.png')" >
+<div  id="horizon">
+<!--<div  id="treat"><a href="javascript:noverlaytreat();" onmouseout="noverlaytreat();" onmouseover="overlaytreat();"><img  alt="MIT Visualizing Cultures"  title="" border="0"  src="image/g_1846_TreatyNanking_B79155.jpg" width="1220" height="480" /><br />
+<img  alt="MIT Visualizing Cultures"  title="" border="0"  src="image/shad.png" width="1220" height="44" /></a></div> -->
+<div  id="content">
+<!--background elements -->
+<div class="backg"><table width="970" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    
+    <td width="970" ><table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td  width="622" align="left" valign="top" bgcolor="#cccccc" class="halfer" ><br /><br /><a href="javascript:openvcidwindow('gal/pij_all/pages/b379_1935_PA0997.htm');" ><img  src="image/pij1_rssay_bc.gif"  alt="MIT Visualizing Cultures" width="622" height="564" border="0"  title="" /></a></td>
+  </tr>
+</table>
+<table width="622" border="0" cellspacing="0" cellpadding="0" bgcolor="#cccccc">
+  <tr>
+    <td width="66">&nbsp;</td>
+    <td width="490" align="center" valign="top" class="bottiblockbig"><br />
+      This unit introduces Japanese political graphics from the 1920s and 1930s selected from the remarkable collection of several thousand posters and handbills maintained by the Ohara Institute for Social Science Research at Hosei University in Tokyo. Focusing on leftwing political parties, labor-union and tenant-farmer organizations and protests, and proletarian social and cultural movements in general, the Ohara collection opens a window on the domestic conflict and turbulence that lay beneath the ultimate triumph of militarism and authoritarianism in Imperial Japan.<br />
+      <br />
+      It is well known that this leftwing protest eventually was suppressed by the state. More than purely textual accounts alone can convey, however, the Ohara graphics help us literally visualize how substantial the contradictions and tensions of the interwar years were. These images and their pithy accompanying verbiage are bold and aggressive in the mode of proletarian art globally in this period. And the range of organizations and activities represented suggests how broad and diversified political and social protest was&mdash;while also hinting at the curse of factionalism that helped undermine the left.<br />
+      <br />
+      The chronological span of this selection, extending from the mid 1920s to mid 1930s, also illuminates how tenaciously leftwing activists carried on in the face of the notorious &ldquo;peace preservation&rdquo; legislation of the 1920s, and even after the introduction of militarist governments following the Manchurian Incident and invasion of northern China in 1931. Although these opposition voices were thoroughly co-opted or repressed by the latter half of the 1930s, they were not extinguished. On the contrary, they were the baseline out of which assertive left-of-center movements emerged in the immediate wake of Japan&rsquo;s defeat in 1945.<br />
+      <br />
+      This leftwing and proletarian artwork presents a counterpoint to the celebrations of interwar consumer culture and bourgeois developments addressed in   Visualizing Cultures units such as &ldquo;Selling Shiseido&rdquo; and &ldquo;Tokyo Modern.&rdquo; All of these graphics reflect Western influences. More suggestive yet, they all also reflect&mdash;from their contrasting perspectives&mdash;the complex &ldquo;modernity&rdquo; that culminated so tragically in militarism, ultra-nationalism, and authoritarianism.<br /> 
+        <br />        <br /></td>
+    <td width="66">&nbsp;</td>
+  </tr>
+</table>
+
+	   <table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+          <td align="center" valign="top" class="bottiblock"  ><span class="halfer"><br />
+          </span>
+All images in this unit are from the  Ohara Institute <br />
+for Social Research, Hosei University</td>
+	   </tr>
+</table> 
+<table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+          <td align="center" valign="middle" class="bottiblock"  >
+	     <img  src="../empress_dowager/image/shad1.gif"  alt="MIT Visualizing Cultures" width="622" height="19" border="0" align="left"  title="" /> </td>
+	   </tr>
+</table>		
+<table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="20">&nbsp;</td>
+    <td width="582" align="left" class="bottibody"><span class="bottismall"><br /><br />
+      </span><strong>PARTIES &amp; POLITICS </strong><span class="bottismall"><br />
+      <br />
+      </span>Interwar Japan is not usually thought of as a bastion of participatory politics, but the 1920s and 1930s in fact were host to a surprising diversity of political parties. Passage of a General Election Law establishing universal manhood suffrage in 1925 seemed to harken the emergence of a representative democracy for men of all classes.<br />
+<br />
+The turbulent campaign for manhood suffrage&mdash;led by coalitions of intellectuals, social reformers, labor unions, tenant-farmer movements, and political parties&mdash;compelled the national Diet (parliament) to take notice of the widespread desire for an expanded franchise. Enactment of the 1925 law invested millions of men with the ability to affect social change through electoral politics. On the one hand, this resulted in revitalization of the conservative mainstream parties, the Seiy&#363;kai and Minseit&#333;. At the same time, it also paved the way for formation of many progressive and leftist parties&mdash;ranging from the moderate Social Democratic Party (Shakai Minsh&#363;t&#333;) to the centrist Japan Labor-Farmer Party (Nihon R&#333;n&#333;t&#333;) to the rurally based Japan Farmers&rsquo; Party (Nihon N&#333;mint&#333;) to the decidedly communist Labor-Farmer Party (R&#333;d&#333; N&#333;mint&#333;).<br />
+<br />
+Although women&rsquo;s organizations also participated vigorously in the grassroots demands for universal suffrage, women were not given the right to vote until after Japan&rsquo;s defeat in World War II. Their exclusion from the formal political process led to their being almost literally painted out of the leftwing political posters and handbills of the interwar period, but this was misleading. Women continued to remain significant actors in social movements that supported political parties on both the political left and right.<br />
+      <br /></td> 
+    <td width="20">&nbsp;</td></tr></table>
+	  
+	  
+	  
+	  <table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+          <td align="center" valign="middle" class="bottismall"  ><br />            <a href="javascript:openvcidwindow('gal/pij_all/pages/d140_1928_PA0646.htm');"><img  src="image/d140_1928_PA0646.gif"  alt="MIT Visualizing Cultures" width="400" height="540" border="0"  title="" /></a></td>
+	   </tr>
+</table>
+<table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="66" align="left" valign="top" >&nbsp;</td>
+    <td width="490" align="center" valign="top" class="bottiblock"><span class="halfer"><br />
+    </span>Masculine imagery was a common visual signifier of political strength. This 1928 poster portrays five male workers stridently expressing their support for five leftist parties running in prefectural assembly elections, and extols workers to &ldquo;Come under the banner of the United Front.&rdquo;<span class="bottismall"><br />
+      <br />
+ (1928)&nbsp;&nbsp;[PA0646]<br />
+<br />
+</span></td>
+    <td width="66" align="right" valign="top">&nbsp;</td>
+  </tr>
+</table>
+
+
+
+      <table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="20">&nbsp;</td>
+    <td width="582" align="left" class="bottibody"><br />
+      Despite the 1925 election law, and despite the support they received from labor and farmer organizations, the position of the leftist parties was always precarious. Various factors figured into this. Even as suffrage was being expanded, the Diet was losing power to the constitutionally independent state bureaucracy. More significant still, the 1925 law was enacted in tandem with a Peace Preservation Law that placed various legal constraints on public political activity. The latter law was specifically intended to mute the effect of extending the vote to workingclass men. <br />
+      <br />
+      The leftist parties and their affiliated organizations also were plagued by internal schisms. The minutia of internal ideological differences often led to bitter fratricidal division. Solidarity also was undermined by mounting economic disparities between rural and urban areas&mdash;to the point that the urban-centric parties and labor unions often seemed blind to the plight of rural farmers plagued by low crop prices, high rents, disproportionate tax burdens, and desperate poverty. <br />
+      <br />
+      Such fractional strife, coupled with government repression, caused the dissolution of many radical parties even before the first general election to be held under universal male suffrage took place in 1928. Still, several restructured parties on the left&mdash;notably, the Labor-Farmer Party, the Japan Labor-Farmer Party, the Socialist Party, and the Social Democratic Party (Shakai Minsh&#363;t&#333;)&mdash;survived to take part in that widely heralded election.<br />
+      <br />
+      In 1926 rural labor activist Asanuma Inejir&#333; attempted to create a basis for a leftist intervention in rural Japan by founding the R&#333;n&#333;t&#333; (Japan Labor-Farmer Party), which he envisioned as a means to bridge the growing economic and cultural chasm between rural farmers and urban workers. His effort to create a formal alliance between the labor movement and leftist political parties backfired when the labor federation S&#333;d&#333;mei ordered the Japan Labor-Farmer Party leadership to resign their membership in the federation and respect the federation&rsquo;s status as a non-political organization. This further inflamed the fratricidal vitriol in the leftist press that characterized the lead-up to the 1928 general elections.<br />
+    <br /></td>
+    <td width="20">&nbsp;</td>
+  </tr>
+</table>
+<table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+          <td align="center" valign="top" class="bottiblock"  ><a href="javascript:openvcidwindow('gal/pij_all/pages/PA0043.htm');"><img  src="image/PA0043.gif"  alt="MIT Visualizing Cultures" width="622" height="409" border="0" usemap="#Map6"  title="" /></a></td>
+	   </tr>
+</table>
+<table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="66" align="left" valign="top" >&nbsp;</td>
+    <td width="490" align="center" valign="top" class="bottiblock"><span class="halfer"><br />
+      </span>Portraying a split image of a rising sun (symbol of the Japanese empire),<br />
+      one side light and one dark, this large (95 cm. x 64 cm.) Home Ministry<br />
+      poster issued in 1928 celebrates the establishment of universal male<br />
+      suffrage and calls on voters to go to their polling stations so that &ldquo;public<br />
+      opinion politics for a Sh&#333;wa Restoration will become a reality.&rdquo; &ldquo;Vote,&rdquo;<br />
+      the poster extols, &ldquo;and the future will be bright. Abstain, and darkness will<br />
+      fall.&rdquo; The &ldquo;Sh&#333;wa Restoration&rdquo; rhetoric captured popular sentiment that<br />
+      Japan needed to undergo political revitalization comparable to that<br />
+      associated with the Meiji Restoration six decades earlier.<br />
+      <br />
+      <span class="bottismall">1928&nbsp;&nbsp;[PA0043]<br />
+      <br />
+      <br />
+      </span></td>
+    <td width="66" align="right" valign="top">&nbsp;</td>
+  </tr>
+</table>
+
+<table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+   
+    <td width="258" align="center" valign="middle" class="bottiblock"  >
+      <img  alt="MIT Visualizing Cultures"  title="" border="0"  src="image/spacer.gif" width="20" height="440"  align="right"/><img  alt="MIT Visualizing Cultures"  title="" border="0"  src="image/spacer.gif" width="20" height="440"  align="left"/>This avant-garde poster, produced by the Japan Labor-Farmer Party during the lead-up to the 1928 election, portrays a double-stacked factory chained to a pick and hoe&mdash;obvious symbols of the worker-farmer alliance envisioned by party organizers. Red stacks and smoke convey the leftist  origins of the movement; the crossed hoe and shovel resemble the communist hammer and sickle. The chains seem symbolic of the idea that farmers and workers had reason to vote as a bloc&mdash;despite facing different social and economic problems&mdash;and suggest the leftist call for workers and peasants to throw off  political, economic, and societal chains.
+      <!--<span class="bottismall"><br /><br />
+The Palace Museum, Beijing<br />
+[ymy7018]<br /><br /></span> -->
+      <br />
+      <br />
+      <span class="bottismall">1928<br />
+[PA0623]</span>      <!--<span class="bottismall"><br /><br />
+The Palace Museum, Beijing<br />
+[ymy7018]<br /><br /></span> --></td> 
+    <td width="364" align="left" valign="top"  ><a href="javascript:openvcidwindow('gal/pij_all/pages/d106_192-_PA0623.htm');"><img  src="image/d106_192-_PA0623.gif"  alt="MIT Visualizing Cultures" width="364" height="520" border="0" align="top"  title="" /></a><br />      
+      <br />    </td>
+ </tr>
+</table>
+<table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+   
+    <td width="364" align="left" valign="top"  ><a href="javascript:openvcidwindow('gal/pij_all/pages/mus2pg2_1928_PA0322.htm');"><img  src="image/mus2pg2_1928_PA0322_c.gif"  alt="MIT Visualizing Cultures" width="364" height="524" border="0" align="top"  title="" /><br />
+      <br />
+    </a></td>
+    <td width="258" align="center" valign="middle" class="bottiblock"  ><img  alt="MIT Visualizing Cultures"  title="" border="0"  src="image/spacer.gif" width="20" height="250"  align="left"/><img  alt="MIT Visualizing Cultures"  title="" border="0"  src="image/spacer.gif" width="20" height="250"  align="right"/><span class="bottiblockplain">&#332;hashi Harufusa<br />
+        Official candidate for the Labor-Farmer Party<!-- (R&#333;n&#333;t&#333;). --><br />
+        <br />
+        Principles of the <br />
+        Labor-Farmer Party:<br />
+        Give the workers food and work!<br />
+        Guarantee land for the cultivators!<br />
+        Liberty for all the people!</span><br />
+<br />
+<span class="bottismall">1928<br />
+[PA0322]</span></td> 
+ </tr>
+</table>
+
+<table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+   
+    <td width="258" align="center" valign="middle" class="bottiblock"  >
+      <img  alt="MIT Visualizing Cultures"  title="" border="0"  src="image/spacer.gif" width="20" height="200"  align="left"/><img  alt="MIT Visualizing Cultures"  title="" border="0"  src="image/spacer.gif" width="20" height="200"  align="right"/>This poster lays out the three pillars of the Japan Labor-Farmer Party platform: &ldquo;Bread, Justice, and Liberty.&rdquo; It was produced for As&#333; Hisashi, party chairman and candidate for parliament in the constituency that included the Ashio Copper Mine, where worker unrest had precipitated many of the government&rsquo;s labor and policing policies.<span class="bottismall"><br />
+      <br />
+1928<br />
+[PA0002]</span>      <!--<span class="bottismall"><br /><br />
+The Palace Museum, Beijing<br />
+[ymy7018]<br /><br /></span> --></td> 
+    <td width="364" align="left" valign="top"  ><a href="javascript:openvcidwindow('gal/pij_all/pages/b002_1928_PA0002.htm');"><img  src="image/b002_1928_PA0002.gif"  alt="MIT Visualizing Cultures" width="364" height="543" border="0" align="top"  title="" /></a><br />      
+      <br />    </td>
+ </tr>
+</table>
+<table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+   
+    <td width="364" align="left" valign="top"  ><a href="javascript:openvcidwindow('gal/pij_all/pages/b164_1928_PA0164.htm');"><img  src="image/b164_1928_PA0164.gif"  alt="MIT Visualizing Cultures" width="364" height="528" border="0" align="bottom"  title="" /><br />
+      <br />
+    </a></td>
+    <td width="258" align="center" valign="middle" class="bottiblock"  ><img  alt="MIT Visualizing Cultures"  title="" border="0"  src="image/spacer.gif" width="20" height="150"  align="left"/><img  alt="MIT Visualizing Cultures"  title="" border="0"  src="image/spacer.gif" width="20" height="150"  align="right"/>In this 1928 poster, candidate Taman Kiyoomi of the Social Democratic Party bluntly declares that &ldquo;In order to secure the livelihood of the working masses I need your vote.&rdquo;
+      <!--<span class="bottismall"><br /><br />
+The Palace Museum, Beijing<br />
+[ymy7018]<br /><br /></span> -->
+      <br />
+      <br />
+      <span class="bottismall">1928<br />
+      [PA0623]</span></td> 
+ </tr>
+</table>
+
+<table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+   
+    <td width="258" align="center" valign="middle" class="bottiblock"  >
+      <img  alt="MIT Visualizing Cultures"  title="" border="0"  src="image/spacer.gif" width="20" height="400"  align="left"/><img  alt="MIT Visualizing Cultures"  title="" border="0"  src="image/spacer.gif" width="20" height="400"  align="right"/>Although produced by one of the leftwing parties, this 1928 poster does not feature the party&rsquo;s name, but rather concentrates on promoting candidate  Imai Kak&#333; as &ldquo;the &lsquo;number one&rsquo; [first] vote under universal suffrage.&rdquo;  A masculine figure is posed holding a placard with Imai&rsquo;s name up to the sun (labeled &ldquo;general election&rdquo;). To the left, Imai&rsquo;s name is printed in large, formal Chinese characters (kanji); the name on the placard  contains simplified script (katakana), used to assist the less-literate. This was important&mdash;the official ballots used kanji, and it was uncertain whether the  newly-enfranchised men could read them.<span class="bottismall"><br />
+      <br />
+1928&nbsp;&nbsp;
+      [PA0084]</span>      <!--<span class="bottismall"><br /><br />
+The Palace Museum, Beijing<br />
+[ymy7018]<br /><br /></span> --></td> 
+    <td width="364" align="left" valign="top"  ><a href="javascript:openvcidwindow('gal/pij_all/pages/b084_1928_PA0084.htm');"><img  src="image/b084_1928_PA0084.gif"  alt="MIT Visualizing Cultures" width="364" height="538" border="0" align="top"  title="" /></a><br />      
+      <br />    </td>
+ </tr>
+</table>
+<table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+   
+    <td width="364" align="left" valign="top"  ><a href="javascript:openvcidwindow('gal/pij_all/pages/b003_1928_PA0003.htm');"><img  src="image/b003_1928_PA0003.gif"  alt="MIT Visualizing Cultures" width="364" height="556" border="0" align="top"  title="" /><br />
+      <br />
+    </a></td>
+    <td width="258" align="center" valign="middle" class="bottiblock"  ><img  alt="MIT Visualizing Cultures"  title="" border="0"  src="image/spacer.gif" width="20" height="150"  align="left"/><img  alt="MIT Visualizing Cultures"  title="" border="0"  src="image/spacer.gif" width="20" height="150"  align="right"/>The 1928 campaign poster for Ishihara Zensabur&#333;, candidate of the mainstream Minseit&#333; Party, modestly appeals for a strong<br />
+      vote for a humble (literally, &ldquo;weak&rdquo;) man<br />
+      <br />
+      <span class="bottismall">1928 &nbsp;
+      [PA0003]</span>
+<!--<span class="bottismall"><br /><br />
+The Palace Museum, Beijing<br />
+[ymy7018]<br /><br /></span> --></td> 
+ </tr>
+</table>
+
+<table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+   
+    <td width="258" align="center" valign="middle" class="bottiblock"  >
+      <img  alt="MIT Visualizing Cultures"  title="" border="0"  src="image/spacer.gif" width="20" height="280"  align="left"/><img  alt="MIT Visualizing Cultures"  title="" border="0"  src="image/spacer.gif" width="20" height="280"  align="right"/>This Minseit&#333; poster calls on voters to support candidate Masutani Torakichi with a request attributed to his voice: &ldquo;Let me embark upon central politics.&rdquo; The poster depicts a dirigible, the technological marvel of the era, flying through clouds and dropping leaflets featuring the candidate's name in simplified characters. A formal photograph of the candidate floats just below.
+      <!--<span class="bottismall"><br /><br />
+The Palace Museum, Beijing<br />
+[ymy7018]<br /><br /></span> -->
+      <br />
+      <br />
+      <span class="bottismall">1928<br />
+[PA0021]</span>      <!--<span class="bottismall"><br /><br />
+The Palace Museum, Beijing<br />
+[ymy7018]<br /><br /></span> --></td> 
+    <td width="364" align="left" valign="top"  ><a href="javascript:openvcidwindow('gal/pij_all/pages/b021_1928_PA0021.htm');"><img  src="image/b021_1928_PA0021.gif"  alt="MIT Visualizing Cultures" width="364" height="508" border="0" align="left"  title="" /></a><a href="javascript:openvcidwindow('gal/pij_all/pages/mus2pg2_1928_PA0322.htm');"></a><br />      
+      <br />    </td>
+ </tr>
+</table>
+<table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="20">&nbsp;</td>
+    <td width="582" align="left" class="bottibody"><br />
+      Despite a fresh field of new political parties in the nationwide 1928 election, the established parties lost little ground in the popular vote. Only eight of the 88 non-mainstream candidates fielded&mdash;from seven different parties (the four main leftist parties and three local independents)&mdash;won a seat in the House of Representatives, where the total number of seats was 466. Although leftist candidates did slightly better than they had done in the 1927 prefectural assembly elections (winning 5 percent as compared to 1927&rsquo;s 3.9 percent of total votes cast), they lacked the name recognition and established local constituencies of the mainstream parties. <!--[3] --><br />
+      <br />
+      Unsurprisingly, the radical positions of the leftwing parties also cut them off from the largest source of campaign funding: the corporate conglomerates known as <em>zaibatsu.</em> The established conservative parties&mdash;the Seiy&#363;kai backed by the Mitsui <em>zaibatsu</em> and the Minseit&#333; backed by Mitsubishi&mdash;held a monopoly on campaign finance. These handicaps were compounded by repressive state interventions in the form of disruption of meetings and arbitrary arrests. Although the proletarian parties attempted to regroup in the wake of overwhelming defeat in 1928, the government banned the communist influenced Labor-Farmer Party before the end of the year, and the remaining leftist parties remained divided over ideological issues. <!--[4, 5, 6] --><br />
+      <br />
+      Another factor contributing to the poor showing of the political left in 1928 was the inability, or unwillingness, of the leftist parties to cooperate, which resulted in their often being unable to strategically place candidates in a national field. <!--The system of proportional representation adopted by the 1928 law created the need for parties to cooperate strategically in order to maximize votes by running candidates in such a way that they would not be running against each other. Although there were indeed arrangements made, m -->Many districts saw leftist candidates run against each other, which usually enabled an established candidate to win. <!--[7] --> As if to add insult to injury, it is also doubtful that the voters themselves were fully aware of the differences between the various parties, a problem the Minseit&#333; in particular exploited by presenting itself as the only viable party to improve the lot of the common people. <!--[8] --><br />
+      <br />
+      <!--Combined leftist parties managed to only win eight of 466 seats in the National Diet in 1928, and thus proved to be largely ineffective in enacting their political agendas. Their p -->Political weakness <!--was clear to their allies, as well as to the electorate,  and--> helped to precipitate even worse electoral results in the 1930 general election. <!--[9] --> The worldwide depression of the early 1930s prompted the labor federation S&#333;d&#333;mei to withdraw official support for political parties and adopt a policy of &ldquo;non-political unionism&rdquo;. <!--[10]  -->S&#333;d&#333;mei retained informal ties with a few leftist parties, but also with the Minseit&#333;, and thus leftist parties were not even assured of dependable backing from labor unions<!-- or any chance of sustained campaign finance. [11]-->  <br />
+      <br />
+      The late 1920s and early 1930s thus saw a cacophony of leftist parties with bewilderingly similar names. Some newly named parties represented short-lived mergers, and almost none survived past 1932. Their campaign posters featured agendas and images ranging from stridently radical to moderate, although usually with a consistent critique of capitalism and explicit appeal to workers and tenant farmers. The only nominally leftist party that was allowed to continue operating through the 1930s was the Social Masses Party (Shakai Taish&#363;t&#333;), which emerged out of a 1932 merger and promoted an essentially centrist agenda calling for agrarian reform alongside close ties with the urban middle class, especially small shopkeepers who felt squeezed out by the economic dominance of the <em>zaibatsu</em> conglomerates. Although this party initially called for cuts in military spending to help pay for agrarian reform, it also cultivated ties with the so-called Control Faction (T&#333;seiha) in the imperial army and supported Japan&rsquo;s expansion into Manchuria and eventually all of China&mdash;collusion that helps account for its survival when more radical parties on the left disappeared from the scene.<br />
+    <br /></td>
+    <td width="20">&nbsp;</td>
+  </tr>
+</table>
+<table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+          <td align="center" valign="top" class="bottiblock"  ><a href="javascript:openvcidwindow('gal/pij_all/pages/d160_1930_PA0663.htm');"><img  src="image/d160_1930_PA0663.gif"  alt="MIT Visualizing Cultures" width="400" height="549" border="0" usemap="#Map6"  title="" /></a></td>
+	   </tr>
+</table>
+<table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="66" align="left" valign="top" >&nbsp;</td>
+    <td width="490" align="center" valign="top" class="bottiblock"><span class="halfer"><br />
+      </span>This clarion call to &ldquo;Gather at the Worker-Farmer Assembly!&rdquo; in November 1930 was issued by the newly established and short-lived National Masses Party (Zenkoku Taish&#363;t&#333;). The vertical exhortation on the left reads: &ldquo;Defend the livelihood of the working masses!&rdquo; Writing on the right-hand side declares: &ldquo;No starving our struggle! November 2&mdash;To Tokyo! To Osaka!&rdquo; The battle-flag spells out: &ldquo;To the worker-farmer assembly!&rdquo; The new party&rsquo;s demands are as follows:<span class="bottiblockplain"><br />
+      <br />
+      Provide immediate unemployment benefits! <br />
+      Enact tenant laws and laws allowing independent unions! <br />
+      Lower tenant fees by 50 percent! <br />
+      Lower the price of salt, tobacco, electricity, gas, and train fares!<br />
+      Do away with the violent, oppressive bureaucracy!</span><span class="bottismall"><br />
+      <br />
+1930&nbsp;&nbsp;
+[PA0663]</span></td>
+    <td width="66" align="right" valign="top">&nbsp;</td>
+  </tr>
+</table>
+
+<table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+          <td align="center" valign="top" class="bottiblock"  ><br /><br />
+            <a href="javascript:openvcidwindow('gal/pij_all/pages/d209_1932_PA0551.htm');"><img  src="image/d209_1932_PA0551.gif"  alt="MIT Visualizing Cultures" width="400" height="593" border="0" usemap="#Map6"  title="" /></a></td>
+	   </tr>
+</table>
+<table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="66" align="left" valign="top" >&nbsp;</td>
+    <td width="490" align="center" valign="top" class="bottiblock"><span class="halfer"><br />
+      </span>This July 1932 poster announces a general meeting for the merger of the Social Democratic Party (Shakai Minsh&#363;t&#333;) and National Labor-Farmer Mass Party (Zenkoku R&#333;n&#333; Taish&#363;t&#333;) that resulted in the moderate Social Masses Party. This was the only nominally leftist party that survived to the end of the 1930s. It did so by watering down its agenda and eventually curbing its criticism of Japanese military expansion. The three slogans read:<span class="bottismall"><br />
+      <br />
+      </span><span class="bottiblockplain">Overthrow the failing capitalism!<br />
+      Crush fascist reactionaries!<br />
+      Celebrate the formation of a strong proletarian party!</span><span class="bottismall"><br />
+      <br />
+1932&nbsp;&nbsp;
+[PA0551]</span></td>
+    <td width="66" align="right" valign="top">&nbsp;</td>
+  </tr>
+</table>
+<table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+          <td align="center" valign="top" class="bottiblock"  ><br /><br />
+            <a href="javascript:openvcidwindow('gal/pij_all/pages/b124_1928_PA0124.htm');"><img  src="image/b124_1928_PA0124.gif"  alt="MIT Visualizing Cultures" width="400" height="550" border="0" usemap="#Map6"  title="" /></a></td>
+	   </tr>
+</table>
+<table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="66" align="left" valign="top" >&nbsp;</td>
+    <td width="490" align="center" valign="top" class="bottiblock"><span class="halfer"><br />
+      </span>Drawing on the avant-garde style characteristic of the MAVO art movement, this 1932 poster calls on &ldquo;those of the reading class to vote for Kikuchi Kan, official candidate of the Social Masses Party.&rdquo; Kikuchi was a prize-winning popular writer, and the poster further implores voters to &ldquo;Give a seat in parliament to a man of letters.&rdquo; While the artwork is anonymous, MAVO artists produced visual propaganda for leftist organizations
+      well into the early 1930s.<span class="bottismall"><br />
+      <br />
+      1932&nbsp;&nbsp;
+      [PA0124]<br />
+<br />
+</span></td>
+    <td width="66" align="right" valign="top">&nbsp;</td>
+  </tr>
+</table>
+
+
+
+<table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+
+    <td width="20">&nbsp;</td>
+    <td width="582" align="left" valign="top" class="bottibody"><br /><br />
+<br />
+<img src="../home/image/redline.gif" width="570" height="1"  alt="MIT Visualizing Cultures" title=""/><br />
+<table width="582" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="3" class="bottismall" ><br /><br /></td></tr><tr>
+  <td  width="350" align="left" valign="middle" class="bottismall" >Massachusetts Institute of Technology &#169; 2013 Visualizing Cultures
+                </td> 
+  <td  width="152" align="right" valign="middle" class="bottismall" > &nbsp;<a href="http://creativecommons.org/licenses/by-nc-sa/3.0/us/" target="_blank">Creative Commons License</a>&nbsp;&nbsp;
+              
+</td><td  align="left" valign="top" width="80" class="bottismall" ><a rel="license"
+ href="http://creativecommons.org/licenses/by-nc-sa/3.0/us/" target="_blank" ><img src="http://visualizingcultures.mit.edu/home/image/cc.png" alt="Creative Commons - some rights reserved" width="80" height="15" border="0" align="left" /></a></td>
+
+
+    </tr><tr><td colspan="3" class="bottismall" ><br /><br /></td></tr></table>
+               
+          </td>
+    <td width="20">&nbsp;</td>
+  </tr>
+</table></td>
+        </tr>
+ <tr>
+          <td align="left" valign="top"><div class="bottom"><img src="image/essay_bottom.gif"  alt="MIT Visualizing Cultures" width="970" height="136" border="0" align="left" title=""/></div>
+<div class="essaynavbottom">
+  <table width="622" border="0" cellspacing="0" cellpadding="0" align="left">
+  <tr align="left">
+    <td align="left" width="105"><img src="image/pij1_essay_nav_01.gif"  alt="Political Protest in Interwar Japan l" name="nav01b" width="622" height="58" border="0" usemap="#Map5" id="nav01b" title=""/></td>
+  </tr>
+</table>
+</div></td>
+      </tr>
+
+
+	  </table>
+</div>
+<div class="top"><img src="image/essay_top.gif"  alt="MIT Visualizing Cultures" width="970" height="136" border="0" align="left" title=""/></div>
+
+<!--end background elements -->
+
+<!-- essay nav -->
+<div class="essaynavtop"><table width="622" border="0" cellspacing="0" cellpadding="0" align="left">
+  <tr align="left">
+    <td align="left" width="105"><img src="image/pij1_essay_nav_01.gif"  alt="Political Protest in Interwar Japan l" name="nav01" width="622" height="58" border="0" usemap="#Map4" id="nav01" title=""/></td>
+  </tr>
+</table>
+</div>
+
+
+<!-- end essay nav -->
+
+<!-- <div class="slug" id="slug"><span class="bottibody2">Massachusetts Institute of Technology &#169; 2010 Visualizing Cultures</span></div> -->
+
+
+<!-- right-hand buttons -->
+
+
+<!-- <div class="boxtoalink" id="boxtoalink"><a href="javascript:alert('Sorry, this unit is unavailable in this demonstration.')" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image11','','../home/image/go_toa02.gif',1);noverlay();noverlayv();noverlayu();"><img src="../home/image/go_toa.gif" alt="Visual Narrative" name="Image11" width="243" height="276" border="0" id="Image11" title=""/></a></div>  -->
+
+<div class="boxpdf" id="boxpdf">
+<table width="348" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="39" align="left" valign="bottom"><!--<img alt="MIT Visualizing Cultures"  title="" border="0"  src="../rise_fall_canton_01/image/cw_pop_dot.gif"  width="42" height="17" />--></td>
+    <td width="240" align="left" valign="middle"><span class="bottibody2"><a href="javascript:alert('Not available')"  target="_blank" onmouseover="noverlay();noverlayv();noverlayu();">Printer-friendly PDF of this chapter</a><br />
+<br /><br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br /><br />
+<a href="../protest_interwar_japan_02/index.html" onmouseover="MM_swapImage('anpbut','','image/pij2_but02.png',1);noverlay();noverlayv();noverlayu()" onmouseout="MM_swapImgRestore()"><img src="image/pij2_but.png" alt="Protest Art in 1950s Japan"  border="0"  title=""  id="anpbut"/></a></span><span class="halfer"><br />
+<br />
+</span><span class="bottibody2"><a href="../protest_interwar_japan_02/index.html" onmouseover="MM_swapImage('anpbut','','image/pij2_but02.png',1);noverlay();noverlayv();noverlayu()" onmouseout="MM_swapImgRestore()">&quot;Political Protest in Interwar Japan ll,&quot; <br />
+Eight Topical Galleries</a>
+<br />
+<br />
+<br /><br /><br /><br /><br />
+<br /><a href="http://oohara.mt.tama.hosei.ac.jp/english/index.html">
+
+The Ohara Institute for Social Science <br />
+Research: full collection including <br />
+postwar as well as prewar posters, with <br />
+Japanese and English annotation</a><br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+Learn more in the following <br />
+Visualizing Cultures units: <br />
+<br />
+<a href="../shiseido_01/index.html">&quot;Selling Shiseido&quot; by Gennifer Weisenfeld</a><br />
+<br />
+<a href="../tokyo_modern_01/index.html">&quot;Tokyo Modern&quot; by James T. Ulak</a><br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+</span></td>
+  </tr>
+</table>
+<!--
+	  <table width="348" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="39" align="left" valign="bottom">&nbsp;</td>
+    <td width="240" align="left" valign="middle">
+      <span class="bottibody2"><a href="http://upload.wikimedia.org/wikipedia/commons/f/fb/Beijing_city_wall_map.jpg" target="_blank">Wikipedia: simplified Beijing map</a><br /><br />
+      <a href="http://www.davidrumsey.com/luna/servlet/detail/RUMSEY%7E8%7E1%7E21941%7E690033?qvq=w4s:/what/Atlas+Map/World+Atlas/where/Beijing+(China)/when/1860/;sort:Pub_List_No_InitialSort,Pub_Date,Pub_List_No,Series_No;lc:RUMSEY%7E8%7E1&amp;mi=0&amp;trs=1#" target="_blank">Explore a complete China map in the <br />
+        David Rumsey Historical Map Collection</a><br /><br />
+        <a href="http://books.google.com/books?id=2EtCTP7v8K0C&amp;pg=PA41&amp;dq=Lillian+M.+Li,+Alison+Dray-Novey,+Haili+Kong+chapter+2&amp;hl=en&amp;sa=X&amp;ei=PuoIT9yrDsrk0QGwrZmeAg&amp;ved=0CEAQ6AEwAA#v=onepage&amp;q&amp;f=false" target="_blank">Google Books: <em>Beijing: From Imperial <br />
+        Capital to Olympic City,</em> chapter two.
+        </a><br /><br />
+        
+        <a href="http://en.wikipedia.org/wiki/Eight_Banners" target="_blank">Wikipedia: read  about Manchu bannermen</a></span></td>
+	</tr></table>-->
+</div>
+
+
+
+<!--end  right-hand buttons -->
+
+
+<!-- essay -->
+<div class="essay">
+
+</div>
+<!--end  essay -->
+
+
+</div>
+</div>
+
+
+<!--top bar nav elements -->
+<div class="box14" id="box14" ><table  width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><img src="../home/image/spacer.gif" width="10" height="26"  alt="MIT Visualizing Cultures"/><img src="../home/image/hometopnav01.gif"  alt="Menu" width="227" height="26" border="0" usemap="#topmap"/></td>
+  </tr>
+</table>
+</div>
+
+<div class="box15" id="box15" ><table  width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><img src="../home/image/spacer.gif" width="10" height="27"  alt="MIT Visualizing Cultures"/></td>
+  </tr>
+</table>
+</div>
+
+<div class="navbox" id="hideme"><a  onmouseout="javascript:noverlay();" onmouseover="javascript:overlay();"><img src="../home/image/vc_home_nav.png" alt="MIT Visualizing Cultures" width="202" height="300" border="0" usemap="#Map"  id="Image5"  name="Image5" title="" /></a></div> 
+
+
+<div class="twit">
+<a href="https://twitter.com/share" class="twitter-share-button" data-count="none">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></div>
+
+<div class="emil"><!--email-->
+<script type="text/javascript"><!--
+
+var SubjectLine='MIT Visualizing Cultures'; 
+var BodyText='You can see this page at: '+top.location.href;
+
+var Message='<A CLASS=contact HREF="mailto:?SUBJECT='+escape(SubjectLine)+'&BODY='+escape(BodyText)+'" OnMouseOver="status=\'Envoyer cette page à vos amis\'; return true;" ><img src="../home/image/email2.gif" alt="Email" name="Image321"   border="0" id="Image321"  title=""/><\/A>';
+
+var MessageIE='<A CLASS=contact HREF="mailto:?SUBJECT='+(SubjectLine)+'&BODY='+(BodyText)+'" OnMouseOver="status=\'Envoyer cette page à vos amis\'; return true;" ><img src="../home/image/email2.gif" alt="Email" name="Image321"   border="0" id="Image321"  title=""/><\/A>';
+
+if(document.all) { document.write(MessageIE); }
+
+else { document.write(Message); }
+
+// http://javascriptsource.com "The JavaScript Source"
+//--></script></div>
+
+
+
+<!--facebook--><div class="fbok">
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<div class="fb-like" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false" data-colorscheme="light" data-font="verdana"></div>
+
+</div> 
+
+<div class="unitsnavbox01" id="unitsnavbox01" ><a  onmouseout="javascript:noverlayu();" onmouseover="javascript:overlayu();"><img src="../home/image/unitstopnav01.gif"  alt="Units" width="227" height="26" border="0" /></a></div>
+ 
+<div class="navboxu" id="hidemeu"><a href="#" onmouseout="javascript:noverlayu();" onmouseover="javascript:overlayu();"><img src="../home/image/vc_units_cur_nav.png" alt="MIT Visualizing Cultures" width="179" height="148" border="0" usemap="#Map3"  id="Image6"  name="Image6" title=""/></a></div> 
+
+
+<div class="xnavbox" id="xnavbox" ><a  onmouseout="javascript:noverlayx();" onmouseover="javascript:overlayx();"><img src="image/topnav.gif"  alt="Political Protest in Interwar Japan l" width="326" height="26" border="0"  title="" /></a></div>
+
+<div class="navboxx" id="hidemex"><a  onmouseout="javascript:noverlayx();" onmouseover="javascript:overlayx();"><img src="image/pij1_nav.png" alt="Political Protest in Interwar Japan l"  name="Image8" width="280" height="158" border="0" usemap="#Image8Map"   id="Image8" title="" /></a></div>
+ 
+ 
+
+
+<div class="unitnavbox" id="unitnavbox" ><a  onmouseout="javascript:noverlayv();" onmouseover="javascript:overlayv();"><img src="../home/image/essaytop.gif"  alt="Essay" width="227" height="26" border="0" title="" /></a></div>
+ 
+<div class="navboxv" id="hidemev"><a  onmouseout="javascript:noverlayv();" onmouseover="javascript:overlayv();"><img src="image/pij1_nav_i.png" alt="Essay"  name="Image7" width="200" height="206" border="0" usemap="#Image7Map"   id="Image7" title=""/>
+</a></div><!--end top bar nav elements -->
+
+
+
+<!--image maps -->
+    <map name="topmap" id="topmap">
+    <area shape="rect" coords="0,0,180,47" href="#" onmouseover="overlay();"  alt="MIT Visualizing Cultures" />
+      <area shape="rect" coords="194,0,300,47" href="#" onmouseover="overlayu();"  alt="VC Units" />
+  </map>
+    
+
+<map name="Map" id="Map">
+      <area shape="rect" coords="0,0,211,39" href="../home/index.html" onmouseover="overlay()" alt="MIT Visualizing Cultures"/>
+      <area shape="rect" coords="0,39,211,66" href="../home/vc01_about.html" target="_top"  alt="About VC" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_02.png',1)"/>      
+      <area shape="rect" coords="0,66,211,96" href="../home/vc02_schol.html" target="_top"  alt="VC Scholars" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_03.png',1)" />
+  <area shape="rect" coords="0,96,211,124" href="../home/vc03_partner.html" target="_top"  alt="Partner Institutions" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_04.png',1)" />
+
+  <area shape="rect" coords="0,124,211,147" href="../home/vc05_outreach.html" target="_top"  alt="Outreach" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_05.png',1)" />
+  <area shape="rect" coords="3,147,211,181" href="../home/vc06_event.html" target="_top"  alt="Conferences &amp; Events" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_06.png',1)" />
+  <area shape="rect" coords="3,181,211,214" href="mailto:visualizingcultures@mit.edu" target="_top"  alt="Contact" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_07.png',1)" />
+ <area shape="rect" coords="1,214,212,240" href="http://www.facebook.com/home.php#!/group.php?gid=261831254970&amp;ref=ts" target="_blank"  alt="Join Us" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_08.png',1)" />
+  <area shape="rect" coords="0,240,211,266" href="http://twitter.com/Visualizing_Cul" target="_blank"  alt="Follow Us" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_09.png',1)" />
+</map>
+
+
+
+<!---->
+
+
+
+
+<map name="Image7Map" id="Image7Map">
+  <area shape="rect" coords="1,3,213,31" href="index.html" target="_top" alt="Essay" onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();" />
+      
+	  <area shape="rect" coords="1,40,258,70" href="pij1_essay01.html" target="_top" alt="Parties &amp; Politics" onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();MM_swapImage('Image7','','image/pij1_nav_i_01.png',1)" />
+  
+  <area shape="rect" coords="0,68,258,96" href="pij1_essay02.html" target="_top" alt="Labor Activism" onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();MM_swapImage('Image7','','image/pij1_nav_i_02.png',1)" />
+
+<area shape="rect" coords="0,95,258,122" href="pij1_essay03.html"  target="_top" alt="Farmers&#8217; Movements" onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();MM_swapImage('Image7','','image/pij1_nav_i_03.png',1)" />
+
+<area shape="rect" coords="0,122,258,148" href="pij1_essay04.html"  target="_top" alt="Cultural Movements" onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();MM_swapImage('Image7','','image/pij1_nav_i_04.png',1)" />
+
+<area shape="rect" coords="0,148,258,178" href="pij1_essay05.html"  target="_top" alt="Sources &amp; Credits" onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();MM_swapImage('Image7','','image/pij1_nav_i_05.png',1)" />
+</map>
+
+<map name="Map4" id="Map4">
+<area shape="rect" coords="-25,0,127,60"   href="pij1_essay01.html" onmouseover="MM_swapImage('nav01','','image/pij1_essay_nav_01.gif',1);noverlay();noverlayv();noverlayu()" onmouseout="MM_swapImgRestore()" alt="Parties &amp; Politics" title=""/>
+<area shape="rect" coords="126,-12,247,57" href="pij1_essay02.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01','','image/pij1_essay_nav_02.gif',1);noverlay();noverlayv();noverlayu()"    title=""   alt="Labor Activism"/>
+
+<area shape="rect" coords="244,-8,377,60" href="pij1_essay03.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01','','image/pij1_essay_nav_03.gif',1);noverlay();noverlayv();noverlayu()"    title=""   alt="Farmers&#8217; Movements"/>
+
+<area shape="rect" coords="377,-8,504,60" href="pij1_essay04.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01','','image/pij1_essay_nav_04.gif',1);noverlay();noverlayv();noverlayu()"    title=""   alt="Cultural Movements"/>
+
+<area shape="rect" coords="504,0,658,58" href="pij1_essay05.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01','','image/pij1_essay_nav_05.gif',1);noverlay();noverlayv();noverlayu()"    title=""   alt="Sources &amp; Credits"/>
+</map>
+
+ <map name="Map5" id="Map5">
+ <area shape="rect" coords="-25,0,127,60"   href="pij1_essay01.html" onmouseover="MM_swapImage('nav01b','','image/pij1_essay_nav_01.gif',1);noverlay();noverlayv();noverlayu()" onmouseout="MM_swapImgRestore()" alt="Parties &amp; Politics" title=""/>
+<area shape="rect" coords="126,-12,247,57" href="pij1_essay02.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01b','','image/pij1_essay_nav_02.gif',1);noverlay();noverlayv();noverlayu()"    title=""   alt="Labor Activism"/>
+
+<area shape="rect" coords="244,-8,377,60" href="pij1_essay03.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01b','','image/pij1_essay_nav_03.gif',1);noverlay();noverlayv();noverlayu()"    title=""   alt="Farmers&#8217; Movements"/>
+
+<area shape="rect" coords="377,-8,504,60" href="pij1_essay04.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01b','','image/pij1_essay_nav_04.gif',1);noverlay();noverlayv();noverlayu()"    title=""   alt="Cultural Movements"/>
+
+<area shape="rect" coords="504,0,658,58" href="pij1_essay05.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01b','','image/pij1_essay_nav_05.gif',1);noverlay();noverlayv();noverlayu()"    title=""   alt="Sources &amp; Credits"/>
+</map>
+
+ <map name="Map3" id="Map3">
+  
+<area shape="rect" coords="0,2,312,30" href="../home/vis_menu.html" target="_top" alt="Units" onmouseout="noverlayu();MM_swapImgRestore()" onmouseover="overlayu();" />
+
+<area shape="rect" coords="2,38,314,68" href="../home/vis_menu.html" target="_top" alt="Icon View" onmouseout="noverlayu();MM_swapImgRestore()" onmouseover="overlayu();MM_swapImage('Image6','','../home/image/vc_units_cur_nav_01.png',1)" />
+
+<area shape="rect" coords="0,67,312,95" href="../home/vis_menu_02b.html" target="_top" alt="Text View" onmouseout="noverlayu();MM_swapImgRestore()" onmouseover="overlayu();MM_swapImage('Image6','','../home/image/vc_units_cur_nav_02.png',1)" />
+
+<area shape="rect" coords="1,94,313,122" href="../home/vis_menu_03.html" target="_top" alt="Curriculae" onmouseout="noverlayu();MM_swapImgRestore()" onmouseover="overlayu();MM_swapImage('Image6','','../home/image/vc_units_cur_nav_03.png',1)" /></map>
+
+<map name="Image8Map" id="Image8Map">
+  
+<area shape="rect" coords="0,2,312,30" href="index.html" target="_top" alt="Political Protest in Interwar Japan l" onmouseout="noverlayx();MM_swapImgRestore()" onmouseover="overlayx();" />
+
+<area shape="rect" coords="0,39,316,69" href="javascript:openvcidwindow('gal/pij_all/index.htm')" target="_top" alt="Image Galleries" onmouseout="noverlayx();MM_swapImgRestore()" onmouseover="overlayx();MM_swapImage('Image8','','image/pij1_nav_01.png',1)" />
+
+<area shape="rect" coords="0,69,312,160" href="../protest_interwar_japan_02/index.html" target="_top" alt="Political Protest in Interwar Japan ll" onmouseout="noverlayx();MM_swapImgRestore()" onmouseover="overlayx();MM_swapImage('Image8','','image/pij1_nav_02.png',1)" /></map>
+
+
+
+</body>
+</html>

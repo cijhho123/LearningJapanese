@@ -1,0 +1,1525 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>MIT Visualizing Cultures</title>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+
+
+<style type="text/css">
+<!--
+
+.backg {
+	position:absolute;
+	left:0px;
+	top:144px;
+	z-index: 1;
+background-image:url(../kiyochika_tokyo/image/essay_bck.gif);
+/*visibility:hidden;*/
+}
+.top {
+	position:absolute;
+	left:0px;
+	top:45px;
+	z-index: 4;
+}
+.bottom {
+	position:absolute;
+	left:0px;
+	z-index: 2;
+}
+.essaynavtop {
+	position:absolute;
+	left:0px;
+	top:149px;
+	z-index: 3;
+}
+.essaynavbottom {
+	position:absolute;
+	left:0px;
+	z-index: 3;
+}
+.essay {
+	position:absolute;
+	left:20px;
+	top:195px;
+	z-index: 4;
+	background-color:#FFFFFF;
+}
+.flashy {
+	position:absolute;
+	left:467px;
+	top:42px;
+	z-index: 3;
+}
+.slug {        position:absolute;
+        left:20px;
+        top:475px;
+        width:476px;
+		z-index:2;
+		text-align:left;
+}
+.navbox {
+		position: fixed;
+        left:10px;
+        top:0px;
+		z-index: 5;
+		visibility:hidden;
+}
+.unitsnavbox01 {
+        position:fixed;
+        left:200px;
+        top:0px;
+		z-index:5;
+}
+.xnavbox {
+        position:fixed;
+        left:271px;
+        top:0px;
+		z-index:6;
+}
+.unitnavbox {
+        position:fixed;        left:452px;
+top:0px;
+		z-index:6;
+}
+.navboxu {
+		position: fixed;
+        left:200px;
+        top:0px;
+		z-index: 5;
+		visibility:hidden;	 
+}
+.navboxx {
+		position: fixed;
+        left:271px;
+        top:0px;
+		z-index: 6;
+		visibility:hidden;	 
+}
+.navboxv {
+		position: fixed;        left:452px;
+		top:0px;
+		z-index: 8;
+		visibility:hidden;	 
+}
+.box14 {
+        position:fixed;
+        left:0px;
+        top:0px;
+		z-index:5;
+		background-color:#222222;
+		width:100%
+}
+.box15 {
+        position:fixed;
+        left:0px;
+        top:0px;
+		z-index:4;
+	    width: 100%;
+		background-color:#504B48
+}
+.box16 {        position:fixed;
+        left:0px;
+        top:23px;
+		z-index:4;
+	width: 100%;
+background-color:#2F302F 
+}
+.popup01 {        position:absolute;
+        left:624px;
+		z-index:4;
+}
+.boxtoalink {        position:absolute;
+        left:624px;
+		z-index:4;
+}
+.boxpdf {        position:absolute;
+        left:624px;
+        top:164px;
+		z-index:2;
+}
+.boxpdf2 {        position:absolute;
+        left:624px;
+		z-index:2;
+		width:348px;
+}
+
+.box01 { 
+		position: static;
+		top: 20%;
+		left: 20%;
+}		
+.pop {
+	position:absolute;
+	left:0px;
+	z-index:4;
+	width: 970px;
+}
+		
+.pop2 {position:absolute;
+        left:314px;
+		z-index:4;
+}
+		
+.pop3 {position:absolute;
+        left:14px;
+		z-index:4;
+}
+		
+.pop4 {position:absolute;
+        left:250px;
+		z-index:4;
+}	
+.pop5 {position:absolute;
+        left:497px;
+		z-index:4;
+}
+
+#horizon        
+	{
+	text-align: center;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 1px;
+	overflow: visible;
+	visibility: visible;
+	display: block
+	}
+
+#content    
+	{
+	margin-left: -485px;
+	position: absolute;
+	top: 0px;
+	left: 50%;
+	width: 250px;
+	height: 70px;
+	visibility: visible;
+
+		}
+#treat    
+	{
+	margin-left: -610px;
+	position: absolute;
+	top: 379px;
+	left: 50%;
+	width: 1220px;
+	height: 640px;
+	visibility: hidden;
+	z-index: 5;
+		}
+.bottibody {color: #111111; font-size: 13px; line-height: 19px; font-family: Verdana, Arial, Helvetica, sans-serif
+	}
+.bottibody2 {color: #ffffff; font-size: 11px; line-height: 18px; font-family: Verdana, Arial, Helvetica, sans-serif
+	}
+.bottiblock {
+	color: #2D2D2D;
+	font-size: 15px;
+	line-height: 19px;
+	/*font-family: Georgia, "Times New Roman", Times, serif;*/
+	font-family: Times New Roman, Times, serif;
+	font-style: italic;
+	}
+.bottiblockplain {
+	color: #2D2D2D;
+	font-size: 15px;
+	line-height: 19px;
+	/*font-family: Georgia, "Times New Roman", Times, serif;*/
+	font-family:   Times New Roman, Times, serif;
+	font-style: normal;
+	}
+.bottiblock {
+	color: #2D2D2D;
+	font-size: 15px;
+	line-height: 19px;
+	/*font-family: Georgia, "Times New Roman", Times, serif;*/
+	font-family: Times New Roman, Times, serif;
+	font-style: italic;
+	}
+.bottiblockplain {
+	color: #2D2D2D;
+	font-size: 15px;
+	line-height: 19px;
+	/*font-family: Georgia, "Times New Roman", Times, serif;*/
+	font-family:   Times New Roman, Times, serif;
+	font-style: normal;
+	}
+.bottiblockiii {
+	color: #2D2D2D;
+	font-size: 14px;
+	line-height: 18px;
+	/*font-family: Georgia, "Times New Roman", Times, serif;*/
+	font-family: Times New Roman, Times, serif;
+	font-style: italic;
+	}
+.bottiblockplainiii {
+	color: #2D2D2D;
+	font-size: 14px;
+	line-height: 18px;
+	/*font-family: Georgia, "Times New Roman", Times, serif;*/
+	font-family:   Times New Roman, Times, serif;
+	font-style: normal;
+	}
+.bottiblockhead {
+	color: #2D2D2D;
+	font-size: 20px;
+	line-height: 18px;
+	/*font-family: Georgia, "Times New Roman", Times, serif;*/
+	font-family: Times New Roman, Times, serif;
+	font-style: italic;
+	}
+.bottismall {
+	color: #333333;
+	font-size: 9px;
+	line-height: 14px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-style: normal;
+	}
+.head { color: #222222; font-size: 15px; line-height: 19px; font-family: Verdana, Arial, Helvetica, sans-serif
+	}
+.halfer { color: #ffffff; font-size: 6px; line-height: 6px; font-family: Verdana, Arial, Helvetica, sans-serif
+	}
+a:link {
+        color:#1233FF;
+        text-decoration:none;
+    }
+ a:active { 
+		color:#1233FF;
+        text-decoration:none;
+	}
+a:visited {
+		color:#1233FF;
+        text-decoration:none;
+	}
+a:hover {
+		color:#1233FF;
+        text-decoration:none;
+	}
+.bottibody2 a:link {
+        color:#aaaaaa;
+        text-decoration:none;
+    }
+ .bottibody2 a:active { 
+		color:#aaaaaa;
+        text-decoration:none;
+	}
+.bottibody2 a:visited {
+		color:#aaaaaa;
+        text-decoration:none;
+	}
+.bottibody2 a:hover {
+		color:#ffffff;
+        text-decoration:none;
+	}
+.box141 {	position:absolute;
+	left:0px;
+	top:0px;
+}
+.intro {position:absolute;
+        left:0px;
+        width:600px;
+		z-index:2;
+text-align:center;
+font-family:"Times New Roman", Times, serif;
+color: #111111; font-size: 17px;
+line-height: 20px;
+}
+.bottiblockbig {
+	color: #111111;
+	font-size: 16px;
+	line-height: 23px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-style: italic;
+}
+.bottiblockbigplain {
+	color: #111111;
+	font-size: 16px;
+	line-height: 23px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-style: normal;
+}
+.boxtextplain{
+font-family:"Times New Roman", Times, serif;
+color: #000000; font-size: 18px;
+line-height: 22px;
+font-style:normal
+}
+.boxtextbig{
+font-family:"Times New Roman", Times, serif;
+color: #000000; font-size: 23px;
+line-height: 23px;
+font-style:italic;
+}
+.boxtext{
+font-family:"Times New Roman", Times, serif;
+color: #000000; font-size: 18px;
+line-height: 22px;
+font-style:italic;
+
+
+}
+
+.bottiblock a:link {
+        color:#275286;
+        text-decoration:none;
+    }
+ .bottiblock a:active { 
+		color:#275286;
+        text-decoration:none;
+	}
+.bottiblock a:visited {
+		color:#275286;
+        text-decoration:none;
+	}
+.bottiblock a:hover {
+		color:#275286;
+        text-decoration:none;
+	}
+
+.bottiblockplain a:link {
+        color:#000000;
+        text-decoration:none;
+    }
+ .bottiblockplain a:active { 
+		color:#000000;
+        text-decoration:none;
+	}
+.bottiblockplain a:visited {
+		color:#000000;
+        text-decoration:none;
+	}
+.bottiblockplain a:hover {
+		color:#000000;
+        text-decoration:none;
+	}
+
+.bottismall a:link {
+        color:#000000;
+        text-decoration:none;
+    }
+ .bottismall a:active { 
+		color:#000000;
+        text-decoration:none;
+	}
+.bottismall a:visited {
+		color:#000000;
+        text-decoration:none;
+	}
+.bottismall a:hover {
+		color:#000000;
+        text-decoration:none;
+	}
+
+.halfer a:link {
+        color:#000000;
+        text-decoration:none;
+    }
+ .halfer a:active { 
+		color:#000000;
+        text-decoration:none;
+	}
+.halfer a:visited {
+		color:#000000;
+        text-decoration:none;
+	}
+.halfer a:hover {
+		color:#000000;
+        text-decoration:none;
+	}
+.twit {
+		position: fixed;
+        top: 2px;
+        left: 810px;
+		z-index: 7;
+		
+}
+.emil{
+		position: fixed;
+        top: 4px;
+        left: 876px;
+		z-index: 7;
+		
+}
+.fbok{
+		position: fixed;
+        top: 2px;
+        left: 916px;
+		z-index: 7;
+		width: 48px;
+		overflow:hidden;
+}
+
+.eng
+ { visibility:hidden;
+   position:absolute;
+   left:302px;
+   width:320px;
+ }
+.ger
+ { visibility:visible;
+   position:absolute;
+   left:312px;
+   width:300px;
+ }
+.bottibody1 {color: #ffffff; font-size: 13px; line-height: 19px; font-family: Verdana, Arial, Helvetica, sans-serif
+}
+.bottibody21 {color: #aaabbb; font-size: 12px; line-height: 18px; font-family: Verdana, Arial, Helvetica, sans-serif }
+.halfer1 {color: #ffffff; font-size: 4px; line-height: 6px; font-family: Verdana, Arial, Helvetica, sans-serif }
+
+
+
+
+
+-->
+</style>
+
+
+<script language="JavaScript" type="text/JavaScript">
+<!--
+//rollovers for menus
+
+function overlaytreat() {
+        el = document.getElementById("treat");
+        el.style.visibility ="visible";
+		noverlay();
+		noverlayu();
+		noverlayv();
+		noverlayx();
+}
+
+function noverlaytreat() {
+        el = document.getElementById("treat");
+        el.style.visibility ="hidden";
+}
+
+
+
+
+function overlay() {
+        el = document.getElementById("hideme");
+        el.style.visibility ="visible";
+		noverlayu();
+		noverlayv();
+		noverlayx();
+}
+
+function noverlay() {
+        el = document.getElementById("hideme");
+        el.style.visibility ="hidden";
+}
+
+
+function overlayu() {
+        el = document.getElementById("hidemeu");
+        el.style.visibility ="visible";
+		noverlay();
+		noverlayv();
+		noverlayx();
+}
+function noverlayu() {
+        el = document.getElementById("hidemeu");
+        el.style.visibility ="hidden";
+}
+
+
+function overlayv() {
+        el = document.getElementById("hidemev");
+        el.style.visibility ="visible";
+		noverlay();
+		noverlayu();
+		noverlayx();
+}
+function noverlayv() {
+        el = document.getElementById("hidemev");
+        el.style.visibility ="hidden";
+}
+
+
+function overlayx() {
+        el = document.getElementById("hidemex");
+        el.style.visibility ="visible";
+		noverlay();
+		noverlayu();
+		noverlayv();
+}
+function noverlayx() {
+        el = document.getElementById("hidemex");
+        el.style.visibility ="hidden";
+}
+function showvid() {
+        el = document.getElementById("thevid");
+        el.style.visibility ="visible";
+		noverlayu();
+		noverlayv();
+        PlayIt(document.movie1);
+}
+
+function hidevid() {
+        StopIt(document.movie1);
+		el = document.getElementById("thevid");
+        el.style.visibility ="hidden";
+
+
+}
+/* a javascript function that takes a QT movie and calls its "Play" method */
+        function PlayIt(anObj)
+        {
+                anObj.Play();
+        }
+        /* a javascript function that takes a QT movie and calls its "Stop" method */
+        function StopIt(anObj)
+        {
+                anObj.Stop();
+        }
+
+
+
+function sesame() {
+window.moveTo(0,0);        
+window.resizeTo(1350,screen.height);
+}
+
+
+window.onload=function()
+{
+	//sesame();
+    //StopIt(document.movie1);
+	noverlay();
+	noverlayu();
+	MM_preloadImages('../home/image/vc_home_nav_02.png','../home/image/vc_home_nav_03.png','../home/image/vc_home_nav_04.png','../home/image/vc_home_nav_05.png','../home/image/vc_home_nav_06.png','../home/image/vc_home_nav_07.png','../home/image/vc_home_nav_08.png','../home/image/vc_home_nav_09.png','../home/image/vc_home_nav_10.png','../home/image/vc_units_nav_01.png','../home/image/vc_units_nav_02.png','image/cb_nav_01.png','image/cb_nav_02.png','image/cb_nav_03.png','image/cb_nav_04.png','image/cb_nav_05.png','image/cb_nav_06.png','image/essay_top.gif');
+}
+var newwindow = '';
+
+function imalert(url)
+{
+	if (!newwindow.closed && newwindow.location)
+	{
+		newwindow.location.href = url;
+	}
+	else
+	{
+		newwindow=window.open(url,'windowtwo','height=360,width=586, toolbar=no,  resizable=yes, status=no, scrollbars=yes');
+		if (!newwindow.opener) newwindow.opener = self;
+	}
+	if (window.focus) {newwindow.focus()}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+//
+var vcidwindow = '';
+
+function openvcidwindow(url)
+{
+	if (!vcidwindow.closed && vcidwindow.location)
+	{
+		vcidwindow.location.href = url;
+	}
+	else
+	{
+		vcidwindow=window.open(url,'vcid','height=1000,width=1256, toolbar=yes, scrollbars=yes, resizable=yes, location=yes');
+		if (!vcidwindow.opener) vcidwindow.opener = self;
+	}
+	if (window.focus) {vcidwindow.focus()
+	}
+	} 
+
+
+
+ var curwindow = '';
+
+function opencurwindow(url)
+{
+	if (!curwindow.closed && curwindow.location)
+	{
+		curwindow.location.href = url;
+	}
+	else
+	{
+		curwindow=window.open(url,'curriculum','height=800,width=720, toolbar=yes, scrollbars=yes, resizable=yes,  location=yes');
+		if (!curwindow.opener) curwindow.opener = self;
+	}
+	if (window.focus) {curwindow.focus()
+	}
+	} 
+
+
+function decider(){
+ el = document.getElementById("thevid");
+
+if(el.style.visibility =="visible") {
+hidevid()
+} else {
+showvid()
+}
+}
+
+
+function german(){
+ el = document.getElementById("eng");
+
+if(el.style.visibility =="visible") {
+makger()
+} else {
+makeng()
+}
+}
+
+
+function makeng(){
+ el = document.getElementById("ger");
+ el.style.visibility ="hidden";
+ el = document.getElementById("eng");
+ el.style.visibility ="visible";
+}
+
+function makger(){
+ el = document.getElementById("ger");
+ el.style.visibility ="visible";
+ el = document.getElementById("eng");
+ el.style.visibility ="hidden";
+}
+//-->
+</script>
+<script type="text/javascript">
+<!--
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." :
+"http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost +
+"google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+//-->
+</script>
+<script type="text/javascript">
+<!--
+try {
+var pageTracker = _gat._getTracker("UA-12446158-1");
+pageTracker._trackPageview();
+} catch(err) {}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+</head>
+<body bgcolor="#252422"  >
+<div  id="horizon">
+<!--<div  id="treat"><a href="javascript:noverlaytreat();" onmouseout="noverlaytreat();" onmouseover="overlaytreat();"><img  alt="MIT Visualizing Cultures"  title="" border="0"  src="image/g_1846_TreatyNanking_B79155.jpg" width="1220" height="480" /><br />
+<img  alt="MIT Visualizing Cultures"  title="" border="0"  src="image/shad.png" width="1220" height="44" /></a></div> -->
+<div  id="content">
+<!--background elements -->
+<div class="backg">
+  <table width="970" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    
+    <td width="970" >
+
+	  
+<table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="20">&nbsp;</td>
+    <td width="582" align="left" class="bottibody"><span class="bottismall"><br />
+      <br /></span>
+      <br />
+<br />
+<br />
+<strong>&ldquo;THE WHITE MAN&rsquo;S BURDEN&rdquo;</strong><br/>
+      <br/>
+      During the last decade of the 19th century, the antagonistic relationship between Great Britain and the United States&mdash;rooted in colonial rebellion and heightened in territorial conflicts like the War of 1812&mdash;grew into a sympathetic partnership. In the U.S., the 1860s Civil War generated suspicion that neutral Britain covertly supported the Confederacy. Postwar industrialization and the introduction of new commodities such as steel and electricity gradually transformed the agrarian nation. As the American West was absorbed and the continent consolidated, the mandate of &ldquo;Manifest Destiny&rdquo; shifted from territorial to commercial expansion beyond contiguous borders.<br /><br />
+      As a long-established world empire, Great Britain held sway over some 12 million square miles and a quarter of the world&rsquo;s population. Backed by the formidable Royal Navy, Britain could maintain a policy of &ldquo;splendid isolation&rdquo; independent of European alliances for much of the century. But by the 1890s, emerging industrial powerhouses like the U.S. and Germany reduced Britain&rsquo;s industrial dominance. As Britain stepped up financial industries, shipping, and insurance to make up the deficit, global sea power took on additional significance. New commodities also meant advances in weaponry that might give neighboring countries&mdash;in particular, Germany&mdash;the potential to strike Britain. To maintain its position in the international balance of power, Britain needed allies. Relatively free from European rivalries and well situated to become a transoceanic partner, the U.S. was courted for the role.<br /><br />
+      Beyond commercial and military prowess, the two nations formed a natural brotherhood within attitudes later labeled as social Darwinism. When applied to people and cultures, the &ldquo;survival of the fittest&rdquo; doctrine gave wealthy, technologically-advanced countries not only the right to dominate &ldquo;backward&rdquo; nations, but an imperative and duty to bring them into the modern world. The belief in racial/cultural superiority that fueled the British empire embraced the U.S. in Anglo-Saxonism based on common heritage and language. In the U.S., despite spirited resistance from Anglophobic Irish immigrants and anti-imperialist leagues, overseas military campaigns gradually gained public support.<br /><br />
+      The burgeoning mass media helped promote jingoistic foreign policies by printing disparaging depictions of barbarous-looking natives from countries &ldquo;benevolently assimilated&rdquo; by the U.S. A brash Uncle Sam was shown coming under the wing of the older, more experienced empire builder, John Bull. Uncle Sam was portrayed both with youthful energy and as a paternal older figure straining to follow in John Bull&rsquo;s footsteps as he took up the &ldquo;White Man&rsquo;s Burden.&rdquo; <br /><br />
+      <strong>&ldquo;After Many Years&rdquo;: The Great Rapprochement</strong><br /><br />
+      &ldquo;The Great Rapprochement&rdquo; describes a shift in the relationship of the U.S. and Great Britain that, in the 1890s, moved from animosity and suspicion to friendship and cooperation.<br /><br />
+      In an 1898 two-page spread in <em>Puck,</em> female symbols of the two nations, Columbia and Britannia, meet as mother and daughter to celebrate their reunion &ldquo;After Many Years.&rdquo; Wearing archaic breastplates and helmets, with trident and sword, these outsized, archetypal crusaders helm modern warships. The conspicuously larger size of Britannia&rsquo;s big guns in <em>Puck&rsquo;s</em> cartoon reflects England&rsquo;s leading role in imperial conquest.<br /><br />
+      Contemporary conflicts are spelled out over dark clouds. Looming on the left, the &ldquo;Eastern Question&rdquo; refers to the long-standing British confrontation with Russia in the Balkans that would soon extend to conflict over Britain&rsquo;s &ldquo;Cape to Cairo&rdquo; strategy in Africa. The Battle of Omdurman in September 1898&mdash;in which British forces retook the Sudan using Maxim machine guns to inflict disproportionate casualties on native Mahdi forces&mdash;was followed almost immediately by the &ldquo;Fashoda Crisis&rdquo; with France, in which the British asserted their control of territory around the upper Nile.<br /><br />
+      Written over the battle clouds on the right, the &ldquo;Spanish-American War&rdquo; would have inspired the depiction of Columbia as an emerging military power. On May 1, the U.S. Navy scored its first major victory in foreign waters&mdash;far from assured given the weakness of the American fleet at the time&mdash;by defeating Spanish warships defending their longtime Pacific colony in the Battle of Manila Bay.<br /><br />
+      </td> 
+    <td width="20">&nbsp;</td></tr></table>
+	  
+	  <table width="622" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td colspan="3" align="left" valign="top" class="bottibody2"  >
+<div class="pop"><a href="javascript:openvcidwindow('gallery/pages/cb03-020_puck_1898_j_2d5973.htm');"><img src="image/cb03-020_puck_1898_j_2d5973.png"  alt="MIT Visualizing Cultures" width="980" height="699" border="0" align="left" title=""/></a><br />
+</div>
+<img src="image/spacer.gif"  alt="MIT Visualizing Cultures" width="622" height="641" border="0" align="left" title=""/></td>
+</tr><tr><td width="61" ></td>
+<td width="500" align="center" valign="top"  class="bottiblock"><br /><br />
+<br />
+&ldquo;After Many Years.<br />
+Britannia&mdash;Daughter!<br />
+Columbia&mdash;Mother!&rdquo; <br />
+<span class="bottiblockplain">Puck,</span> June 15, 1898<br />
+Artist: Louis Dalrymple<br />
+Source: Library of Congress <a href="http://www.loc.gov/pictures/item/2012647573/" target="_blank">[view]</a><span class="bottismall"><span class="halfer"><br />
+<br /></span>[cb03-020_puck_1898_June15_AfterManyYears_loc]<br/>
+   <br/>
+  </span>In this 1898 cartoon, Britannia (Great Britain) welcomes Columbia (the United States) as an estranged daughter and new imperialist partner. The U.S. entered the elite group of world powers with victories in the &ldquo;Spanish-American War&rdquo; (written in the clouds over the naval battle on the right). In the storm clouds on the left, the &ldquo;Eastern Question&rdquo; looms.<span class="bottismall"><br />
+<br />
+</span><br />
+<br /></td>
+<td width="61" ></td>
+</tr>
+</table>
+<table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="20">&nbsp;</td>
+    <td width="582" align="left" valign="top" class="bottibody">      A poster headlined &ldquo;A Union in the Interest of Humanity &ndash; Civilization, Freedom and Peace for all Time,&rdquo; probably also dating from 1898, celebrated the rapprochement between the United States and Great Britain with particularly dense detail. In this rendering, progress&mdash;economic, technological, and cultural&mdash;is spread through global military aggression. The rays of the sun shine over Uncle Sam and John Bull, who clasp hands in a renewed Anglo-American alliance of &ldquo;Kindred Interests&rdquo; rooted in the &ldquo;English Tongue.&rdquo; Warships on the horizon ground their mission in naval power. Britain, the more powerful military partner, shows celebrated victories over the Spanish Armada in 1588 and over the French and Spanish navies at Trafalgar in 1805. The U.S. is newly victorious in 1898 naval victories over the Spanish at Manila and Santiago de Cuba. &ldquo;Colonial success&rdquo; is equated with &ldquo;chivalry&rdquo; and &ldquo;invincibility.&rdquo;<span class="bottismall"><br />
+      <br /></span></td> 
+    <td width="20">&nbsp;</td></tr></table>
+	
+  <table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    
+    <td width="13">&nbsp;</td> <td width="600" align="left" valign="top" class="bottismall" ><a href="javascript:openvcidwindow('gallery/pages/cb04-001_1898_unionh_2d67d2.htm');"><img src="image/cb04-001_1898_UnionHum17083.jpg"  alt="MIT Visualizing Cultures" width="600" height="805" border="0" align="left" title=""/></a><a href="javascript:openvcidwindow('gallery/pages/s2003_8_1179.htm');"></a><br />
+      <br /></td>  <td width="9">&nbsp;</td>
+   
+  </tr></table>
+	
+  <table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="61">&nbsp;</td>
+    <td width="500" align="center" >
+    <span class="bottiblock">&ldquo;A Union in the Interest of Humanity &ndash; Civilization<br />
+    Freedom and Peace for all Time.&rdquo; <br />
+    ca. 1898, Donaldson Litho Co.<br />
+    Source: Library of Congress <a href="http://www.loc.gov/pictures/item/99472459/" target="_blank">[view]</a><span class="halfer"> <br />
+    <br />
+</span>
+    <span class="bottismall">[cb27-004_1900_Judge_BackUp_000016] <br />
+    <br />
+</span>This ca. 1898 poster promotes the U.S.-British rapprochement as &ldquo;A Union in the Interest of Humanity &ndash; Civilization, Freedom and Peace for All Time.&rdquo; Multiple representations symbolize the two Anglo nations: national symbols (the eagle and lion); flags (the Stars and Stripes and Union Jack); female personifications (Columbia and Britannia); male personifications (Uncle Sam and John Bull); and national coats of arms (eagle and shield for America; lion, unicorn, crown, and shield for Great Britain).<br />
+    <br /><br /><br />
+    </span></td> 
+    <td width="61">&nbsp;</td>
+  </tr></table>
+  <table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="20">&nbsp;</td>
+    <td width="582" align="left" valign="top" class="bottibody"><strong>&ldquo;A Rival Who Has Come to Stay&rdquo;: Naval Power</strong><br /><br />
+      In the final years of the Civil War, U.S. naval power was second only to the great seafaring empire of Great Britain. The regular army was dissolved after the war and the ironclad warships gradually fell into disrepair. Few new vessels were commissioned until the 1880s when the first battleships were built, <em>U.S.S. Texas</em> and <em>U.S.S. Maine</em>. Militarily beneath notice by the major European powers, and able to resolve conflicts with Britain in the Western Hemisphere diplomatically, there was little pressure for a strong military in the U.S. With minimal military expenditures, the U.S. economy grew rapidly.<br /><br />
+      By the 1890s, the U.S. began to revitalize both its commercial and naval fleets. Partnership with Great Britain brought the advantage of shared technology to the U.S., but the new American-made ships represented competition for the British shipbuilding industry. In an 1895 <em>Puck</em> cartoon, &ldquo;A Rival Who Has Come to Stay,&rdquo; John Bull gapes while Uncle Sam proudly displays his prowess as &ldquo;Uncle Sam the Ship Builder.&rdquo; The U.S. Navy moved up from twelfth to fifth place in the world.<br /><br />
+      </td> 
+    <td width="20">&nbsp;</td></tr></table>
+	
+	
+	 <table width="622" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td colspan="3" align="left" valign="top" class="bottibody2">
+<div class="pop"><a href="javascript:openvcidwindow('gallery/pages/cb05-129_1895_july24_2d67d3.htm');"><img src="image/cb05-129_1895_july24_2d67d3.png"  alt="MIT Visualizing Cultures" width="980" height="669" border="0" align="left" title=""/></a><br />
+</div>
+<img src="image/spacer.gif"  alt="MIT Visualizing Cultures" width="622" height="631" border="0" align="left" title=""/></td>
+</tr><tr><td width="61" ></td>
+<td width="500" align="center" valign="top"  class="bottiblock"><br /><br />
+  &ldquo;A Rival Who Has Come to Stay.<br />
+  John Bull &ndash; Good 'evins! &ndash; wotever 'll become of my ship-building monopoly, if that there Yankee is going to turn out boats like that right along?&rdquo; <br />
+  <span class="bottiblockplain">Puck,</span> July 24, 1895<br />
+  Artist: Louis Dalrymple<br />
+  Source: Library of Congress <a href="http://www.loc.gov/pictures/item/2012648646/" target="_blank">[view]</a><span class="bottismall"><span class="halfer"><br />
+<br /></span>[cb05-129_1895_July24_ShipBuilder_Puck_29027u_loc]
+  </span><br />
+<br /></td>
+<td width="61" ></td>
+</tr>
+</table>
+
+ <table width="622" border="0" cellspacing="0" cellpadding="0">
+<tr><td width="61" ></td>
+<td width="250" align="center" valign="top"  class="bottiblock"><img src="image/spacer.gif"  alt="MIT Visualizing Cultures" width="22" height="120" border="0" align="right" title=""/>Left: John Bull gapes at a new American steamer. The sign on the shores of England reads, &quot;John Bull &ndash; The old reliable ship builder since 1861. Ships for American commerce a speciality.&rdquo;<br />
+<br /></td>
+<td width="250" align="center" valign="top"  class="bottiblock"><img src="image/spacer.gif"  alt="MIT Visualizing Cultures" width="22" height="120" border="0" align="left" title=""/>Right: Uncle Sam proudly displays his new steamship and a sign that reads, &quot;Uncle Sam the ship builder re-established with great success in 1893. American ships for American commerce!!&quot;</td>
+<td width="61" ></td>
+</tr>
+</table>
+
+	
+	<table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="20">&nbsp;</td>
+    <td width="582" align="left" class="bottibody"><br />
+      <br />
+The test of U.S. naval power came with the Spanish-American War. A pair of 1898 graphics offer &ldquo;before and after&rdquo; snapshots related to two major events.<br /><br />
+      On February 15, 1898, the battleship <em>U.S.S. Maine</em> exploded and sank in the harbor at Havana. The <em>Maine</em> had been dispatched to Cuba to support an indigenous insurrection against Spain. The cause of the explosion is still undetermined. In all likelihood, it was an internal malfunction, but many Americans blamed the Spanish and rallied behind the slogan &ldquo;Remember the <em>Maine,</em> to Hell with Spain.&rdquo; The United States declared war on Spain on April 20, and the fury kindled by the sinking of the <em>Maine</em> was appeased by a great U.S. naval victory on the other side of the world two and a half months later. On May 1&mdash;a month before the celebratory second magazine cover reproduced here was published&mdash;Commodore George Dewey destroyed a Spanish fleet in Manila Bay in the Philippines.<br /><br />
+      Published in April 27, 1898, the first cartoon calls the monumental warship &ldquo;The Sphinx of the Period: an unknown quantity in modern warfare.&rdquo;<br /><br />
+      </td> 
+    <td width="20">&nbsp;</td></tr></table>
+	<table width="622" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td colspan="3" align="center" valign="top" class="bottibody2">
+<a href="javascript:openvcidwindow('gallery/pages/cb06-108_1898_april2_2d646d.htm');"><img src="image/cb06-108_1898_April27_17225.jpg"  alt="MIT Visualizing Cultures" width="520" height="717" border="0" title=""/></a><a href="javascript:openvcidwindow('gallery/pages/s2003_8_1179.htm');"></a></td>
+</tr> <tr>
+    <td width="61">&nbsp;</td>
+    <td width="500" align="center"  class="bottiblock" >&ldquo;The Sphinx of the Period.<br />
+      An Unknown Quantity in Modern Warfare.&rdquo; <br />
+      <span class="bottiblockplain">Puck, </span>April 27, 1898<br />
+      Artist: Udo Keppler<br />
+      Source: Library of Congress<span class="bottiblock"> <a href="http://www.loc.gov/pictures/item/2012647558/" target="_blank">[view]</a> <br />
+    </span><span class="halfer"><br /><br />
+    </span><span class="bottismall">[cb06-108_1898_April27_puck_Sphinx_28695u_loc]</span><br />
+<br />
+<br /></td> 
+    <td width="61">&nbsp;</td>
+  </tr>
+</table>
+
+   <table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="20">&nbsp;</td>
+    <td width="582" align="left" class="bottibody">About a month later, a June 1 graphic picks up on the Sphinx metaphor and declares &ldquo;The American Battle-Ship is No Longer an Unknown Quantity.&rdquo; A pugnacious sailor and sweeping U.S. flag have replaced the inscrutable sphinx; guns are smoking, the Spanish fleet lies sunken below.<br />
+      <br /></td> 
+    <td width="20">&nbsp;</td></tr></table>
+	<table width="622" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td colspan="3" align="center" valign="top" class="bottibody2">
+<a href="javascript:openvcidwindow('gallery/pages/cb07-109_1898_june1__2d646c.htm');"><img src="image/cb07-109_1898_June1_pu17228.jpg"  alt="MIT Visualizing Cultures" width="520" height="749" border="0" title=""/></a><a href="javascript:openvcidwindow('gallery/pages/s2003_8_1179.htm');"></a></td>
+</tr> <tr>
+    <td width="61">&nbsp;</td>
+    <td width="500" align="center"  class="bottiblock" >&ldquo;The Modern Sphinx has Spoken.<br />
+      The American Battle-Ship is No Longer an Unknown Quantity.&rdquo;<br />
+      <span class="bottiblockplain">Puck,</span> June 1, 1898<br />
+      Artist: Louis Dalrymple<br />
+      U.S. Library of Congress<span class="bottiblock"> <a href="http://www.loc.gov/pictures/item/2012647568/" target="_blank">[view]</a> <br />
+    </span><span class="halfer"><br /><br />
+    </span><span class="bottismall">[cb07-109_1898_June1_puck_sphinx2_28705u]</span><br />
+<br /><br />
+<br /></td> 
+    <td width="61">&nbsp;</td>
+  </tr>
+</table>
+	<table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="20">&nbsp;</td>
+    <td width="582" align="left" class="bottibody"><strong>&ldquo;United We Stand for Civilization and Peace&rdquo;: the Anglo-Saxon Globe</strong><br /><br />
+      By the end of 1898, a succession of U.S. military successes and territorial acquisitions reinforced the image of the United States standing side by side with Great Britain in bringing &ldquo;civilization and peace&rdquo; to the world. Commodore Dewey&rsquo;s victory in Manila Bay in May not only paved the way for U.S. conquest of the Philippines, but also provided a valuable naval base for U.S. fleets in the Pacific. (This coincided with the annexation of Hawaii as a U.S. territory in congressional votes in June and July of the same year.) Simultaneously, the war against Spain in Cuba and the Caribbean saw the U.S. seizure of Cuba&rsquo;s Guantanamo Bay in June, giving the U.S. a naval base retained into the 21st century. This was followed by the invasion and takeover of Puerto Rico. Looming just ahead for the two Anglo nations were turbulence and intervention in such widely dispersed places as Samoa, China, and Africa. <br /><br />
+      <em>Puck&rsquo;</em>s cover for June 8, 1898, celebrated this new Anglo-Saxon solidarity and sense of mission with an illustration of two resolute soldiers standing with fixed bayonets on a parapet and overlooking the globe. Their uniforms are oddly reminiscent of the Revolutionary War that had seen them as bitter adversaries a little more than a century earlier. The caption at their feet exclaims &ldquo;United We Stand for Civilization and Peace!&rdquo;<br /><br />
+    </td> 
+    <td width="20">&nbsp;</td></tr></table>
+	<table width="622" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td colspan="2" align="center" valign="top" class="bottiblock" width="300"  >
+<div class="pop2"><a href="javascript:openvcidwindow('gallery/pages/cb08-030_1898_8june__2d597a.htm');"><img src="image/cb08-030_1898_8June_pu19401.jpg"  alt="MIT Visualizing Cultures" width="642" height="788" border="0" align="left" title=""/></a><br />
+</div>
+<img src="image/spacer.gif"  alt="MIT Visualizing Cultures" width="16" height="800" border="0" align="left" title=""/><span class="halfer"><br /></span>
+<a href="javascript:openvcidwindow('gallery/pages/cb08-030_1898_8june__2d597a.htm');"><img src="image/cb08-030_1898_8June_pu19400.jpg"  alt="MIT Visualizing Cultures" width="283" height="384" border="0"  title=""/></a><br />
+<br />&quot;United We Stand for Civilization <br />
+and Peace!&quot;<br />
+  <span class="bottiblockplain">Puck,</span> June 8, 1898<br />
+  Artist: Louis Dalrymple<br />
+  Source: Library of Congress <a href="http://www.loc.gov/pictures/item/2012647570/" target="_blank">[view]</a><span class="halfer"><br /><br />
+  </span><span class="bottismall">
+  [cb08-030_1898_8June_puck_united_28707u_loc]<br />
+<br />
+</span>Uncle Sam and John Bull, as fellow soldiers, survey the globe from a parapet. The caption applies the motto &ldquo;united we stand&rdquo; to the Anglo-Saxon brotherhood spreading Western civilization abroad.</td>
+<td align="left" valign="top" class="bottibody2" width="322">&nbsp;</td>
+</tr>
+</table>
+
+<table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="20">&nbsp;</td>
+    <td width="582" align="left" class="bottibody">The weekly magazine <em>Judge,</em> a rival to <em>Puck</em> that was published from 1881 to 1947, opened 1899 with a barbed rendering of the Anglo nations gorging on the globe. &ldquo;It ought to be a Happy New Year,&rdquo; the caption reads. &ldquo;Uncle Sam and his English cousin have the world between them.&rdquo; Here, the United States has ingested Cuba, &ldquo;Porto&rdquo; Rico, Hawaii, and the Philippines. Britain is digesting China, Egypt, Australia, Africa, Canada, and India. Warships steam over the horizon of their chests flying banners of great waterways that would ideally open the world to commerce&mdash;&ldquo;Suez Canal&rdquo; (completed in 1869) and &ldquo;Nicaragua Canal&rdquo; (projected through Nicaragua to link the Caribbean and Pacific oceans&mdash;an undertaking later transferred to Panama).<br /><br />
+     </td> 
+    <td width="20">&nbsp;</td></tr></table>
+	<table width="622" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td colspan="2" align="center" valign="top" class="bottiblock" width="300">
+<div class="pop2"><a href="javascript:openvcidwindow('gallery/pages/cb09-140_1899_jan7_j_2d6802.htm');"><img src="image/cb09-140_1899_Jan7_Jud19405.jpg"  alt="MIT Visualizing Cultures" width="642" height="891" border="0" align="left" title=""/></a><br />
+</div>
+<img src="image/spacer.gif"  alt="MIT Visualizing Cultures" width="16" height="891" border="0" align="left" title=""/><span class="halfer"><br /></span>
+<a href="javascript:openvcidwindow('gallery/pages/cb09-140_1899_jan7_j_2d6802.htm');"><img src="image/cb09-140_1899_Jan7_Jud19404.jpg"  alt="MIT Visualizing Cultures" width="283" height="388" border="0"  title=""/></a><br />
+<br />
+&ldquo;It Ought to be a Happy New Year.<br />
+Uncle Sam and his English cousin have the world between them&rdquo;<br />
+<span class="bottiblockplain">Judge,</span> January 7, 1899<br />
+Artist: Victor Gillam<br />
+Source: CGACGA - The Ohio State University Billy Ireland Cartoon<br />
+Library &amp; Museum <a href="https://library.osu.edu/ims/files/g732tk30x#.VnRPCXsfuP-" target="_blank">[view]</a><span class="halfer"><br />
+<br />
+  </span><span class="bottismall">
+  [cb09-140_1899_Jan7_Judge_d_10385_osu]<br />
+<br />
+</span>John Bull, whose portliness stood for prosperity, has joined with Uncle Sam to swallow the globe. The boats crossing their chests, labeled &ldquo;Suez Canal&rdquo; and &ldquo;Nicaragua Canal,&rdquo; show the importance of efficient naval and shipping routes through their &ldquo;distended&rdquo; realms. The countries have been jumbled to align them with American or British imperialistic interests.</td>
+<td align="left" valign="top" class="bottibody2" width="322">&nbsp;</td>
+</tr>
+</table>
+	<table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="20">&nbsp;</td>
+    <td width="582" align="left" class="bottibody"><br />
+Udo Keppler, a <em>Puck</em> cartoonist who was still in his twenties at the time, was more benign in his rendering of the great rapprochement. A cartoon published in May, 1899 over the caption &ldquo;&mdash;And Peace Shall Rule&rdquo; offered a female angel of peace flying over a globe (turned to Asia and the Pacific) hoisted by John Bull and Uncle Sam.<br /><br />
+    </td> 
+    <td width="20">&nbsp;</td></tr></table>
+	<table width="622" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td colspan="3" align="center" valign="top" class="bottibody2">
+<a href="javascript:openvcidwindow('gallery/pages/cb10-101_puck_1899_m_2d597c.htm');"><img src="image/cb10-101_puck_1899_May15667.jpg"  alt="MIT Visualizing Cultures" width="521" height="802" border="0" title=""/></a><a href="javascript:openvcidwindow('gallery/pages/s2003_8_1179.htm');"></a></td>
+</tr> <tr>
+    <td width="101">&nbsp;</td>
+    <td width="420" align="center"  class="bottiblock" >&ldquo;&mdash;And Peace Shall Rule&rdquo; <br />
+      <span class="bottiblockplain">Puck,</span> May 3,1899<br />
+      Artist: Udo Keppler<br />
+      Source: Library of Congress<span class="bottiblock"> <a href="http://www.loc.gov/pictures/item/2012647419/" target="_blank">[view]</a>  </span><span class="halfer"><br /><br />
+    </span><span class="bottismall">[cb10-101_puck_1899_May3_Peace_28594u]<br />
+<br />
+    </span>
+John Bull and Uncle Sam lift the globe, turned toward Asia and the Pacific, to the heavens. The angel of peace and caption suggest that their joint strength will bring about world peace.
+<br /><br />
+<br />
+</td> 
+    <td width="101">&nbsp;</td>
+  </tr>
+</table>
+
+<table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="20">&nbsp;</td>
+    <td width="582" align="left" valign="top" class="bottibody"> From the high to the low, by 1901 the collaboration between the two Anglo nations held a different fate for the globe. In the French cartoon &ldquo;Leur r&ecirc;ve&rdquo; (Their dream), the globe is portrayed as a victim carried on a stretcher. The two allies had been embroiled in lengthy wars with costly and devastating effects on the populations in Africa and Asia.<br /><br /></td> 
+    <td width="20">&nbsp;</td></tr></table>
+	
+	
+	 <table width="622" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td colspan="3" align="left" valign="top" class="bottibody2">
+<div class="pop3"><a href="javascript:openvcidwindow('gallery/pages/cb20-226_1901_june27_2d5990.htm');"><img src="image/cb20-226_1901_June27_217239.jpg"  alt="MIT Visualizing Cultures" width="942" height="615" border="0" align="left" title=""/></a><br />
+</div>
+<img src="image/spacer.gif"  alt="MIT Visualizing Cultures" width="622" height="615" border="0" align="left" title=""/></td>
+</tr><tr><td width="61" ></td>
+<td width="500" align="center" valign="top"  class="bottiblock">&ldquo;Leur r&ecirc;ve.&rdquo; <br />
+  Translation: &ldquo;Their dream.&rdquo;<br />
+  <span class="bottiblockplain">L&rsquo;Assiette au Beurre,</span> June 27, 1901<!--, Paris --><br />
+  Artist: Th&eacute;ophile Steinlen<br />
+  Source: Biblioth&egrave;que nationale de France <!--<a href="http://www.loc.gov/pictures/item/2012648646/" target="_blank">[view]</a> --><span class="bottismall"><span class="halfer"><br />
+<br /></span>[cb20-226_1901_June27_212-213]
+  <br />
+<br /></span>This French cartoon eschews the romantic presentation in the preceding <span class="bottiblockplain">Puck</span>  graphic and casts a far more cynical eye on Anglo-American expansion as fundamentally a matter of conquest.<span class="halfer"><br />
+<br /></span><a href="http://gallica.bnf.fr/ark:/12148/bpt6k10478288/f1.planchecontact.r=L%27Assiette%20au%20beurre.langEN" target="_blank">[view complete issue]</a><br />
+<br />
+<br /></td>
+<td width="61" ></td>
+</tr>
+</table>
+<table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="20">&nbsp;</td>
+    <td width="582" align="left" class="bottibody">In the centerfold of the August 16, 1899 issue of <em>Puck,</em> the not-so-cynical Keppler extended his feminization of global power politics to other great nations including a new arrival on the scene: Japan. Following its victory over China in the Sino-Japanese War of 1894-95, Japan had the heady experience of being welcomed into the imperialist circle. Keppler rendered this as &ldquo;Japan Makes her D&eacute;but Under Columbia&rsquo;s Auspices,&rdquo; with Columbia, Britannia, and a geisha-like Japan at the center of the scene. Seated around them (left to right) are a feminized Russia, Turkey, Italy, Austria, Spain, and France. A tiny female &ldquo;China&rdquo; peers at the scene from behind a wall.<br /><br />
+      In Library of Congress notes on this image, the seated figure on the left is identified as Minerva&mdash;the Roman goddess of wisdom, arts, and commerce, which would be a perfectly mythologized rendering of the mystique of Western &ldquo;civilization.&rdquo; Instead, however, it is recognizable as Germania (Germany), personified with her reddish-blond hair, black-white-red dress mirroring the flag of the German empire, and shield bearing an eagle with outspread wings.<br />
+      <br />
+     </td> 
+    <td width="20">&nbsp;</td></tr></table>
+	 <table width="622" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td colspan="3" align="left" valign="top" class="bottibody2">
+<div class="pop3"><a href="javascript:openvcidwindow('gallery/pages/cb21-112_puck_1899_a_2d5982.htm');"><img src="image/cb21-112_puck_1899_Aug17371.jpg"  alt="MIT Visualizing Cultures" width="942" height="632" border="0" align="left" title=""/></a><br />
+</div>
+<img src="image/spacer.gif"  alt="MIT Visualizing Cultures" width="622" height="632" border="0" align="left" title=""/></td>
+</tr><tr><td width="61" ></td>
+<td width="500" align="center" valign="top"  class="bottiblock">
+  &ldquo;Japan Makes her D&eacute;but Under Columbia&rsquo;s Auspices.&rdquo; <br />
+  <span class="bottiblockplain">Puck,</span> August 16, 1899<br />
+  Artist: Udo Keppler<br />
+  Source: Library of Congress
+  <a href="http://www.loc.gov/pictures/item/2012647330/" target="_blank">[view]</a><span class="bottismall"><span class="halfer"><br />
+<br /></span>[cb21-112_puck_1899_Aug16_JapanDebut_28532u]
+  <br />
+<br />
+  </span>Japan is introduced in this 1899 cartoon as the lone Asian nation in the imperialist circle of world powers. Having defeated China in 1894&ndash;95, Japan is presented by Columbia (the U.S.) to her closest ally, Britannia (Great Britain). The feminine representations of imperial nations pictured here include Russia, Turkey, Italy, Austria, Spain, and France. China peeps over the wall. The unidentified figure on the left is Germania (Germany), personified with her reddish-blond hair, black-white-red dress mirroring the flag of the German empire, and shield bearing an eagle with outspread wings.<br />
+  <br />
+<br />
+<br /></td>
+<td width="61" ></td>
+</tr>
+</table>
+
+<table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="20">&nbsp;</td>
+    <td width="582" align="left" valign="top" class="bottibody"><div class="boxpdf2" id="boxpdf2">
+<table width="348" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="39" align="left" valign="bottom"></td>
+    <td width="240" align="left" valign="top" class="bottibody2">
+
+  <img src="image/spacer.gif" alt="MIT Visualizing Cultures" width="22" height="50" /><br />
+  <a href="../photography_and_power/index.html">Learn more in the Visualizing Cultures unit<br /> 
+  <em>Photography &amp; Power in the Colonial <br />
+  Philippines l</em> by Christopher Capozzola</a><br /></td>
+  </tr>
+</table></div><strong>&ldquo;Misery Loves Company&rdquo;: Parallel Colonial Wars (1899-1902)</strong><br /><br />
+      From 1899 to 1902, the U.S. and Great Britain each became mired in colonial wars that were more vicious and long-lasting than expected. Having purchased the Philippines from Spain per the Treaty of Paris for $20 million, the Americans then had to fight Filipino resisters to &ldquo;benevolent assimilation.&rdquo; The Philippine-American War dragged on with a large number of Filipino fatalities, shocking Americans unused to foreign wars. The war was declared over by President Theodore Roosevelt in 1902 but continued in parts of the country until 1913.<br /><br />
+      At the same time, Britain was fighting the Anglo-Boer War in South Africa. The war with the Boers (who were ethnically Dutch and Afrikaans-speaking) took place in the South African Republic (Transvaal) and Orange Free State. When rich tracts of gold were discovered, an influx of large numbers of British immigrants threatened to overturn Boer rule over these republics. Britain stepped in to defend the rights of the immigrants, known as <em>uitlanders</em> (foreigners) to the Boers. The larger objective, to gain control of the Boer territories, was part of Britain&rsquo;s colonial scheme for &ldquo;Cape to Cairo&rdquo; hegemony in Africa. The campaign met with fierce resistance and saw the introduction of concentration camps as an extreme maneuver against the Boer defenders.<br />
+      <br />
+      Despite public neutrality, the U.S. and Britain covertly supported each other. While the European powers favored Spain in the Spanish-American War, for example, neutral Britain backed the U.S. During the 1898 Battle of Manila Bay, British ships quietly reenforced the untried U.S. navy by blocking a squadron of eight German ships positioned to take advantage of the situation. Presence of a German fleet lent evidence to one of the justifications the U.S. gave for war with Spain, that is, to protect the Philippines from takeover by a rival major power. The U.S. policy of &ldquo;benevolent neutrality&rdquo; supported Britain in the Boer War with large war loans, exports of military supplies, and diplomatic assistance for British POWs. In addition, the U.S. ignored human rights violations in the use of concentration camps.<br /><br />
+      The human and financial cost of these extended conflicts was large. A 1901 <em>Puck</em> cover, &ldquo;Misery Loves Company...,&rdquo; depicts John Bull and Uncle Sam mired in colonial wars at a steep price: &quot;Boer War &pound;16,000,000 yearly&quot; and &quot;Philippine War $80,000,000 yearly.&quot; Anti-imperialist movements targeted the human rights violations in both the Philippines and Transvaal in their protests. <br /><br />
+      </td> 
+    <td width="20">&nbsp;</td></tr></table>
+	
+  <table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    
+    <td width="13">&nbsp;</td> <td width="600" align="left" valign="top" class="bottismall" ><a href="javascript:openvcidwindow('gallery/pages/cb22-119_1901_march2_2d646e.htm');"><img src="image/cb22-119_1901_March20_24395.png"  alt="MIT Visualizing Cultures" width="601" height="791" border="0" align="left" title=""/></a><a href="javascript:openvcidwindow('gallery/pages/s2003_8_1179.htm');"></a><br />
+      <br /></td>  <td width="9">&nbsp;</td>
+   
+  </tr></table>
+	
+  <table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="101">&nbsp;</td>
+    <td width="420" align="center" >
+    <span class="bottiblock">&ldquo;Misery Loves Company; &mdash; but they hope soon to be out of it&rdquo; <br />
+    </span><span class="bottiblockplain">Puck,</span><span class="bottiblock"> March 20, 1901<br />
+    Artist: Louis Dalrymple<br />
+    Source: Theodore Roosevelt Center at Dickinson State University <a href="http://www.theodorerooseveltcenter.org/Research/Digital-Library/Record.aspx?libID=o275822" target="_blank">[view]</a><span class="halfer"> <br />
+    <br />
+    </span>
+    <span class="bottismall">[cb27-004_1900_Judge_BackUp_000016] <br />
+    <br />
+    </span>By 1901, John Bull and Uncle Sam were bogged down in prolonged overseas wars at a cost, here, the &quot;Philippine War $80,000,000 yearly&quot; and the &quot;Boer War &pound;16,000,000 yearly.&quot; Yet, the protagonists exchange encouraging looks, revealing the covert support behind their positions of &ldquo;benevolent neutrality.&rdquo;<br />
+    <br />
+    <br />
+    </span></td> 
+    <td width="101">&nbsp;</td>
+  </tr></table>
+  <table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="20">&nbsp;</td>
+    <td width="582" align="left" class="bottibody">Unlike<em> Puck</em> and <em>Judge,</em> <em>Life</em> was often highly critical of U.S. overseas expansion. <em>Life&rsquo;</em>s black-and-white January 4, 1900 cover welcomed the new millennium by illustrating &ldquo;The Anglo-Saxon Christmas 1899.&rdquo; John Bull and Uncle Sam are positioned within a holiday wreath, machine guns pointing out in both directions. The caption is ominous: &ldquo;War on Earth. Good Will to Nobody.&rdquo;
+   </td> 
+    <td width="20">&nbsp;</td></tr></table>
+	<table width="622" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td colspan="2" align="center" valign="top" class="bottiblock" width="300">
+<div class="pop4"><a href="javascript:openvcidwindow('gallery/pages/cb23-133_1900_jan4_l_2d5986.htm');"><img src="image/cb23-133_1900_Jan4_lif17427.png"  alt="MIT Visualizing Cultures" width="693" height="627" border="0" align="left" title=""/></a><br />
+</div>
+<img src="image/spacer.gif"  alt="MIT Visualizing Cultures" width="16" height="670" border="0" align="left" title=""/><span class="bottismall"><br /><br />
+</span>
+<a href="javascript:openvcidwindow('gallery/pages/cb23-133_1900_jan4_l_2d5986.htm');"><img src="image/cb23-133_1900_jan4_l_2d5986.gif"  alt="MIT Visualizing Cultures" width="283" height="358" border="0"  title=""/></a><span class="halfer"><br />
+<br />
+  </span>
+<img src="image/spacer.gif"  alt="MIT Visualizing Cultures" width="22" height="224" border="0" align="right" title=""/><span class="halfer"><br /></span>
+&ldquo;The Anglo-Saxon Christmas 1899<br />
+War on Earth. Good Will to Nobody.&rdquo;<br />
+Life, January 4, 1900<br />
+Artist: unidentified<br />
+Source: Widener Library,<br />
+Harvard University<span class="halfer"><br />
+<br />
+  </span><span class="bottismall">
+  [cb23-133_1900_Jan4_life1900v2_001_widener]<br />
+<br />
+</span>John Bull and Uncle Sam celebrate &#8220;The Anglo-Saxon Christmas&#8221; of 1899 together, manning machine guns from within <!--in --> a holiday wreath.</td>
+<td align="left" valign="top" class="bottibody2" width="322">&nbsp;</td>
+</tr>
+</table><!--
+  <table width="622" border="0" cellspacing="0" cellpadding="0">
+<tr><td width="50" bgcolor="#CCCCCC"></td>
+<td width="522" align="center" valign="top" bgcolor="cccccc" class="boxtext">
+<br /><br />
+<span class="boxtextbig">&ldquo;Guess I&rsquo;ll keep &lsquo;em.&rdquo;<br /><br /></span>
+The image of the affable conquerer on the June 9, 1898 black-and-white cover of <span class="boxtextplain">Leslie&rsquo;s Weekly</span> was no accident. The McKinley administration utilized new communication technologies and press conferences to influence public opinion. McKinley cultivated the quiet persona of a reluctant expansionist to ease the country into wars in Cuba and the Philippines. Here, a patriotically-clothed Uncle Sam searches for the Philippine Islands with a magnifying glass. A battleship backs up his seemingly casual decision to assimilate them. The move was a turning point for the U.S., from isolationism toward joining an exclusive group of imperialist world powers.<span class="bottismall"><br />
+<br />
+<br />
+</span></td>
+<td width="50" bgcolor="#CCCCCC"></td>
+</tr>
+<tr>
+<td colspan="3" align="center" valign="top"  bgcolor="#CCCCCC" class="bottibody2">
+<a href="javascript:openvcidwindow('gallery/pages/s2003_8_1179.htm');"><img src="image/cb24-132_1898_June9_Le40136.jpg"  alt="MIT Visualizing Cultures" width="503" height="772" border="0" title=""/></a></td>
+</tr><tr><td width="50" bgcolor="#CCCCCC"></td>
+<td width="522" align="center" valign="top" bgcolor="cccccc" class="bottiblock">
+<span class="halfer"><br /> </span>
+&ldquo;Uncle Sam&mdash;Guess I&rsquo;ll keep &lsquo;em!&rdquo;<br />
+<span class="bottiblockplain">Leslie&rsquo;s Weekly,</span> June 9, 1898, NYC<br />
+Artist: E.N. Blue<br />
+Source: Visualizing Cultures<span class="halfer"><br />
+<br />
+  </span><span class="bottismall">
+  [cb23-133_1900_Jan4_life1900v2_001_widener]</span><br /><br />
+<br />
+</td>
+<td width="50" bgcolor="#CCCCCC"></td>
+</tr>
+</table> -->
+  <table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="20">&nbsp;</td>
+    <td width="582" align="left" valign="top" class="bottibody"><div class="boxpdf2" id="boxpdf2">
+<table width="348" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="39" align="left" valign="bottom"></td>
+    <td width="240" align="left" valign="top" class="bottibody2">
+  <img src="image/spacer.gif" alt="MIT Visualizing Cultures" width="22" height="500" /><br />
+  <a href="https://www.mtholyoke.edu/acad/intrel/mkinly3.htm" target="_blank">William McKinley: <br />
+  <em>The Acquisition of the Philippines</em></a><br /></td>
+  </tr>
+</table>
+
+</div><span class="bottismall"><br />
+        <br />
+      </span><strong>The Poet, the President &amp; &ldquo;The White Man&rsquo;s Burden&rdquo;</strong><br />
+      <br />
+      Rudyard Kipling&rsquo;s poem that begins with the line &ldquo;Take up the White Man&rsquo;s burden&mdash;&rdquo; was published in the United States in the February, 1899 issue of <em>McClure&rsquo;s Magazine,</em> as the American war against the First Philippine Republic began to escalate. The phrase became a trope in articles and graphics dealing with imperialism and the advancement of Western &ldquo;civilization&rdquo; against barbarians&mdash;or as the poem put it, &ldquo;Your new-caught sullen peoples, Half devil and half child.&rdquo; <br />
+      <br />
+      The poem acknowledged the thanklessness of a task rewarded with &ldquo;The blame of those ye better, The hate of those ye guard&mdash;&rdquo; and sentimentalized the &ldquo;savage wars of peace&rdquo; as self-sacrificial crusades undertaken for the greater good. Kipling offered moral justification for the bloody war the U.S. was fighting to suppress the independent Philippine regime following Spanish rule. &ldquo;The White Man&rsquo;s Burden&rdquo; was used by both pro- and anti-imperialist factions.<br /><br />
+      At the core of the &ldquo;White Man&rsquo;s Burden&rdquo; is a reluctant civilizer who takes up arms for &ldquo;the purpose of relieving grievous wrongs,&rdquo; in the words of President William McKinley. In his 1898 notes for the Treaty of Paris&mdash;which ended the Spanish-American War with Spain surrendering Cuba and ceding territories including Puerto Rico, Guam, and the Philippines&mdash;McKinley made a prototypical statement of the civilizer&rsquo;s responsibilities in the kind of rhetoric still used today:
+      <blockquote><em>We took up arms only in obedience to the dictates of humanity and in the fulfillment of high public and moral obligations. We had no design of aggrandizement and no ambition of conquest.</em></blockquote>
+      Regarding the Philippines in particular, he continues:<blockquote><em>...without any desire or design on our part, the war has brought us new duties and responsibilities which we must meet and discharge as becomes a great nation on whose growth and career from the beginning the ruler of nations has plainly written the high command and pledge of civilization.</em></blockquote>
+      McKinley also mentions profit, free trade, and the open door in Asia:<blockquote><em>Incidental to our tenure in the Philippines is the commercial opportunity to which American statesmanship cannot be indifferent. It is just to use every legitimate means for the enlargement of American trade; but we seek no advantages in the Orient which are not common to all. Asking only the open door for ourselves, we are ready to accord the open door to others.</em></blockquote>
+      An exceptionally vivid cartoon version of Kipling&rsquo;s message titled &ldquo;The White Man&rsquo;s Burden (Apologies to Rudyard Kipling)&rdquo; was published in <em>Judge</em> on April 1, 1899. &ldquo;Barbarism&rdquo; lies at the base of the mountain to be climbed by Uncle Sam and John Bull&mdash;with &ldquo;civilization&rdquo; far off at the hoped-for end of the journey, where a glowing figure proffers &ldquo;education&rdquo; and &ldquo;liberty.&rdquo; The fifth stanza of Kipling&rsquo;s poem refers to an ascent toward the light:
+      <blockquote>The cry of hosts ye humour<br />
+        (Ah, slowly!) toward the light:&mdash;<br />
+        &quot;Why brought he us from bondage,<br />
+        Our loved Egyptian night?&quot;</blockquote>Barbarism&rsquo;s companion attributes of backwardness, spelled out on the boulders underfoot, include oppression, brutality, vice, cannibalism, slavery, and cruelty. Britain leads the way in this harsh rendering, shouldering the burden of &ldquo;China,&rdquo; &ldquo;India,&rdquo; &ldquo;Egypt,&rdquo; and &ldquo;Soudan.&rdquo; The United States staggers behind carrying grotesque racist caricatures labeled &ldquo;Filipino,&rdquo; &ldquo;Porto Rico,&rdquo; &ldquo;Cuba,&rdquo; &ldquo;Samoa,&rdquo; and &ldquo;Hawaii.&rdquo;<br /><br />
+      The racism and contempt for non-Western others that undergirds Kipling&rsquo;s famous poem&mdash;and the &ldquo;civilizing mission&rdquo; in general&mdash;is unmistakable here. At the same time, the distinction the artist draws between Britain&rsquo;s burden and America&rsquo;s is striking. America&rsquo;s recent subjugated populations are savage, unruly, and rebellious&mdash;literally visually &ldquo;half devil and half child,&rdquo; as Kipling would have it. By contrast, with the exception of Sudan, the burden Britain bears reflects backward older cultures that look forward to &ldquo;civilization&rdquo; or back, condescendingly, at those people, cultures, and societies deemed even closer than they to &ldquo;barbarism.&rdquo; Both visually and textually, the &ldquo;white man&rsquo;s burden&rdquo; was steeped in derision of non-white, non-Western, non-Christian others.<br /><br />
+    </td> 
+    <td width="20">&nbsp;</td></tr></table>
+   <table width="622" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td colspan="3" align="left" valign="top" class="bottibody2">
+<div class="pop3"><a href="javascript:openvcidwindow('gallery/pages/cb25-141_1899_judge__2d5989.htm');"><img src="image/cb25-141_1899_Judge_d_19853.png"  alt="MIT Visualizing Cultures" width="942" height="661" border="0" align="left" title=""/></a><br />
+</div>
+<img src="image/spacer.gif"  alt="MIT Visualizing Cultures" width="622" height="661" border="0" align="left" title=""/></td>
+</tr><tr><td width="61" ></td>
+<td width="500" align="center" valign="top"  class="bottiblock">&ldquo;The White Man&rsquo;s Burden (Apologies to Rudyard Kipling)&rdquo;<br />
+  <span class="bottiblockplain">Judge,</span> April 1, 1899<br />
+  Artist: Victor Gillam<br />
+  Source: CGACGA - The Ohio State University<br />
+  Billy Ireland Cartoon Library &amp; Museum <a href="https://library.osu.edu/ims/files/g732tk384#.VnRQOHsfuP8" target="_blank">[view]</a><span class="bottismall"><span class="halfer"><br />
+<br /></span>[cb25-141_1899_Judge_d_10386_osu]
+  <br />
+<br /></span>The U.S. follows Britain&rsquo;s imperial lead carrying people from &ldquo;Barbarism&rdquo; at the base of the hill to &ldquo;Civilization&rdquo; at its summit. In this blatantly racist rendering, America&rsquo;s newly subjugated people appear far more primitive and barbaric than the older empire&rsquo;s load.<br />
+<br />
+<br />
+</td>
+<td width="61" ></td>
+</tr>
+</table>
+  
+  <table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="20">&nbsp;</td>
+    <td width="582" align="left" valign="top" class="bottibody"><div class="boxpdf2" id="boxpdf2">
+<table width="348" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="39" align="left" valign="bottom"></td>
+    <td width="240" align="left" valign="top" class="bottibody2"><br />
+<img src="image/spacer.gif" alt="MIT Visualizing Cultures" width="22" height="10" /><br /> 
+<a href="http://www.fordham.edu/halsall/mod/kipling.asp" target="_blank">Read the full text of Kipling&rsquo;s poem<br />
+  &ldquo;The White Man&rsquo;s Burden&rdquo;</a></td>
+  </tr>
+</table>
+
+</div>Shortly after Kipling&rsquo;s poem appeared, the consistently anti-imperialist <em>Life</em> fired back with a decidedly different view of the white man&rsquo;s burden on its March 16, 1899 cover: a cartoon that showed the foreign powers riding on the backs of their colonial subjects. The black-and-white drawing by William H. Walker captured the harsh reality behind the ideal of benevolent assimilation, depicting imperialists Uncle Sam, John Bull,  Kaiser Wilhelm, and, coming into view, a figure that probably represents France, as burdens carried by vanquished non-white peoples. The addition of a question mark in the caption, &ldquo;The White (?) Man&rsquo;s Burden,&rdquo; emphasized its hypocrisy. The U.S. appears to be carried by the Philippines, Great Britain by India, and Germany by Africa. Although Wilhelm II was famous for introducing the concept of a &ldquo;yellow peril,&rdquo; Germany&rsquo;s major colonial possessions were in Africa.<br />
+      <br /></td> 
+    <td width="20">&nbsp;</td></tr></table>
+  <table width="622" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td colspan="3" align="left" valign="top" class="bottibody2">
+<div class="pop3"><a href="javascript:openvcidwindow('gallery/pages/cb26-139_1899_march1_2d5987.htm');"><img src="image/cb26-139_1899_March16_16035.jpg"  alt="MIT Visualizing Cultures" width="794" height="825" border="0" align="left" title=""/></a><br />
+</div>
+<img src="image/spacer.gif"  alt="MIT Visualizing Cultures" width="622" height="825" border="0" align="left" title=""/></td>
+</tr><tr><td width="61" ></td>
+<td width="500" align="center" valign="top"  class="bottiblock">&ldquo;The White (?) Man&rsquo;s Burden&rdquo;<br />
+  Illustration on the cover of  <span class="bottiblockplain">Life,</span> March 16, 1899<br />
+  Author: William H. Walker<br />
+  Source: William H. Walker Cartoon Collection, Princeton University Library <a href="http://findingaids.princeton.edu/collections/MC068/c00104" target="_blank">[view]</a><span class="bottismall"><span class="halfer"><br />
+<br /></span>[cb26-139_1899_March16_WllmHWalker_WhManB_LifeMag_Princeton]
+  <br />
+<br /></span>A question mark was added to the phrase, &ldquo;The White (?) Man&rsquo;s Burden,&rdquo; in the caption to this <span class="bottiblockplain">Life</span> cover published shortly after Kipling&rsquo;s poem. Imperialists Uncle Sam, John Bull, Kaiser Wilhelm, and, in the distance, probably France are borne on the backs of subjugated people in the Philippines, India, and Africa.<br />
+<br /></td>
+<td width="61" ></td>
+</tr>
+</table>
+   <table width="622" border="0" cellspacing="0" cellpadding="0">
+<tr><td width="20" align="center" valign="top" class="bottiblock"></td>
+<td width="280" align="center" valign="middle" class="bottiblock">Walker's illustration appeared
+  on the <br />
+  cover of <span class="bottiblockplain">Life</span> with
+  the caption<br />
+  &ldquo;The White (?) Man&rsquo;s Burden.&rdquo;<a href="http://findingaids.princeton.edu/collections/MC068/c00104" target="_blank"></a><span class="bottismall"><span class="halfer"><br />
+<br /></span>[cb330_1899_March16_<br />
+WhiteManBurden_Widener_600w.jpg]
+  <br />
+<br /></span></td><td width="322" align="right" valign="top" ><a href="javascript:openvcidwindow('gallery/pages/cb330_1899_March16_WhiteMan.htm');"><img src="image/cb330_1899_March16_WhiteManBurden_Widener_600w.jpg"  alt="MIT Visualizing Cultures" width="322" height="auto" border="0" align="left" title=""/></a></td>
+</tr></table>
+  
+  
+  
+  
+	<table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+
+    <td width="20">&nbsp;</td>
+    <td width="582" align="left" valign="top" class="bottibody"><br /><br />
+<br />
+<img src="../home/image/redline.gif" width="570" height="1"  alt="MIT Visualizing Cultures" title=""/><br />                
+<table width="582" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="3" class="bottismall" ><!--<a href="javascript:imalert('../home/about.html')"><em>On viewing images of a potentially disturbing nature: click here.</em></a> --><br /><br /></td></tr><tr>
+  <td  width="350" align="left" valign="middle" class="bottismall" >Massachusetts Institute of Technology &#169; 2014 Visualizing Cultures
+                </td> 
+  <td  width="152" align="right" valign="middle" class="bottismall" > &nbsp;<a href="http://creativecommons.org/licenses/by-nc-sa/3.0/us/" target="_blank">Creative Commons License</a>&nbsp;&nbsp;
+              
+</td><td  align="left" valign="top" width="80" class="bottismall" ><a rel="license"
+ href="http://creativecommons.org/licenses/by-nc-sa/3.0/us/" target="_blank" ><img src="http://visualizingcultures.mit.edu/home/image/cc.png" alt="Creative Commons - some rights reserved" width="80" height="15" border="0" align="left" /></a></td>
+
+
+    </tr><tr><td colspan="3" class="bottismall" ><br /></td></tr></table>
+               
+          </td>
+    <td width="20">&nbsp;</td>
+  </tr>
+</table></td>
+        </tr>
+ <tr>
+          <td align="left" valign="top"><div class="essaynavbottom">
+  <table width="622" border="0" cellspacing="0" cellpadding="0" align="left">
+  <tr align="left">
+    <td align="left" width="105"><img src="image/cb_essay_nav_02.gif"  alt="Civilization &amp; Barbarism" name="nav01b" width="622" height="58" border="0" usemap="#Map5" id="nav01b" title=""/></td>
+  </tr>
+</table>
+</div><div class="bottom"><img src="../kiyochika_tokyo/image/bottom2.gif"  alt="MIT Visualizing Cultures" width="970" height="122" border="0" align="left" title=""/></div>
+</td>
+ </tr>
+
+
+	  </table>
+</div>
+<div class="top"><img src="image/essay_top.gif"  alt="MIT Visualizing Cultures" width="970" height="104" border="0" align="left" title=""/></div>
+
+<!--end background elements -->
+
+<!-- essay nav -->
+<div class="essaynavtop"><table width="622" border="0" cellspacing="0" cellpadding="0" align="left">
+  <tr align="left">
+    <td align="left" width="105"><img src="image/cb_essay_nav_02.gif"  alt="Civilization &amp; Barbarism" name="nav01" width="622" height="58" border="0" usemap="#Map4" id="nav01" title=""/></td>
+  </tr>
+</table>
+</div>
+<!-- end essay nav -->
+<!-- <div class="slug" id="slug"><span class="bottibody2">Massachusetts Institute of Technology &#169; 2010 Visualizing Cultures</span></div> -->
+<!-- right-hand buttons -->
+<!-- <div class="boxtoalink" id="boxtoalink"><a href="javascript:alert('Sorry, this unit is unavailable in this demonstration.')" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image11','','../home/image/go_toa02.gif',1);noverlay();noverlayv();noverlayu();"><img src="../home/image/go_toa.gif" alt="Visual Narrative" name="Image11" width="243" height="276" border="0" id="Image11" title=""/></a></div>  -->
+<div class="boxpdf" id="boxpdf">
+<table width="348" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="39" align="left" valign="bottom"><!--<img alt="MIT Visualizing Cultures"  title="" border="0"  src="../rise_fall_canton_01/image/cw_pop_dot.gif"  width="42" height="17" />--></td>
+    <td width="240" align="left" valign="top" class="bottibody2"><a href="cb_essay_02.pdf"  target="_blank" onmouseover="noverlay();noverlayv();noverlayu();">Printer-friendly PDF</a><br />
+            <br /><br />
+     <a href="javascript:imalert('../home/about.html')">Warning: On viewing images of <br />
+a potentially
+disturbing nature</a><br /><br />
+
+  <img src="image/spacer.gif" alt="MIT Visualizing Cultures" width="22" height="57" /><br />
+ </td>
+  </tr>
+</table>
+
+</div>
+
+
+
+
+
+
+
+
+<!--end  right-hand buttons -->
+
+
+<!-- essay -->
+<div class="essay">
+
+</div>
+<!--end  essay -->
+
+
+</div>
+</div>
+
+
+<!--top bar nav elements -->
+<div class="box14" id="box14" ><table  width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><img src="../home/image/spacer.gif" width="10" height="26"  alt="MIT Visualizing Cultures"/><img src="../home/image/hometopnav01.gif"  alt="Menu" width="227" height="26" border="0" usemap="#topmap"/></td>
+  </tr>
+</table>
+</div>
+
+<div class="box15" id="box15" ><table  width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><img src="../home/image/spacer.gif" width="10" height="27"  alt="MIT Visualizing Cultures"/></td>
+  </tr>
+</table>
+</div>
+
+<div class="navbox" id="hideme"><a  onmouseout="javascript:noverlay();" onmouseover="javascript:overlay();"><img src="../home/image/vc_home_nav.png" alt="MIT Visualizing Cultures" width="202" height="300" border="0" usemap="#Map"  id="Image5"  name="Image5" title="" /></a></div> 
+
+
+<div class="twit">
+<a href="https://twitter.com/share" class="twitter-share-button" data-count="none">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></div>
+
+<div class="emil"><!--email-->
+<script type="text/javascript"><!--
+
+var SubjectLine='MIT Visualizing Cultures'; 
+var BodyText='You can see this page at: '+top.location.href;
+
+var Message='<A CLASS=contact HREF="mailto:?SUBJECT='+escape(SubjectLine)+'&BODY='+escape(BodyText)+'" OnMouseOver="status=\'Envoyer cette page à vos amis\'; return true;" ><img src="../home/image/email2.gif" alt="Email" name="Image321"   border="0" id="Image321"  title=""/><\/A>';
+
+var MessageIE='<A CLASS=contact HREF="mailto:?SUBJECT='+(SubjectLine)+'&BODY='+(BodyText)+'" OnMouseOver="status=\'Envoyer cette page à vos amis\'; return true;" ><img src="../home/image/email2.gif" alt="Email" name="Image321"   border="0" id="Image321"  title=""/><\/A>';
+
+if(document.all) { document.write(MessageIE); }
+
+else { document.write(Message); }
+
+// http://javascriptsource.com "The JavaScript Source"
+//--></script></div>
+
+
+
+<!--facebook--><div class="fbok">
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<div class="fb-like" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false" data-colorscheme="light" data-font="verdana"></div>
+
+</div> 
+
+<div class="unitsnavbox01" id="unitsnavbox01" ><a  onmouseout="javascript:noverlayu();" onmouseover="javascript:overlayu();"><img src="../home/image/unitstopnav01.gif"  alt="Units" width="227" height="26" border="0" /></a></div>
+ 
+<div class="navboxu" id="hidemeu"><a href="#" onmouseout="javascript:noverlayu();" onmouseover="javascript:overlayu();"><img src="../home/image/vc_units_cur_nav.png" alt="MIT Visualizing Cultures" width="179" height="148" border="0" usemap="#Map3"  id="Image6"  name="Image6" title=""/></a></div> 
+
+
+<div class="xnavbox" id="xnavbox" ><a  onmouseout="javascript:noverlayx();" onmouseover="javascript:overlayx();"><img src="image/topnav.gif"  alt="Civilization &amp; Barbarism" width="227" height="26" border="0"  title="" /></a></div>
+
+<div class="navboxx" id="hidemex"><a  onmouseout="javascript:noverlayx();" onmouseover="javascript:overlayx();"><img src="image/cb_nav.png" alt="Civilization &amp; Barbarism"  name="Image8" width="223" height="110" border="0" usemap="#Image8Map"   id="Image8" title="" /></a></div>
+ 
+ 
+
+
+<div class="unitnavbox" id="unitnavbox" ><a  onmouseout="javascript:noverlayv();" onmouseover="javascript:overlayv();"><img src="../home/image/essaytop.gif"  alt="Essay" width="227" height="26" border="0" title="" /></a></div> 
+ 
+<div class="navboxv" id="hidemev"><a  onmouseout="javascript:noverlayv();" onmouseover="javascript:overlayv();"><img src="image/cb_nav_i.png" alt="Essay"  name="Image7" width="207" height="238" border="0" usemap="#Image7Map"   id="Image7" title=""/>
+</a></div>
+
+ 
+<!--end top bar nav elements -->
+
+
+
+<!--image maps -->
+
+<map name="Map4" id="Map4">
+  
+<area shape="rect" coords="0,0,117,66"   href="cb_essay01.html" onmouseover="MM_swapImage('nav01','','image/cb_essay_nav_01.gif',1);noverlay();noverlayv();noverlayu()" onmouseout="MM_swapImgRestore()" alt="Introduction" title=""/>
+
+<area shape="rect" coords="115,0,237,60" href="cb_essay02.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01','','image/cb_essay_nav_02.gif',1);noverlay();noverlayv();noverlayu()"    title=""   alt="#8220;The White Man's Burden&#8221;"/>
+
+<area shape="rect" coords="237,0,334,59" href="cb_essay03.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01','','image/cb_essay_nav_03.gif',1);noverlay();noverlayv();noverlayu()"    title=""   alt="Progress &amp; Profits"/>
+
+  <area shape="rect" coords="333,1,420,60" href="cb_essay04.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01','','image/cb_essay_nav_04.gif',1);noverlay();noverlayv();noverlayu()"    title=""   alt="Bibles &amp; Guns"/>
+  
+  <area shape="rect" coords="418,3,525,61" href="cb_essay05.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01','','image/cb_essay_nav_05.gif',1);noverlay();noverlayv();noverlayu()"    title=""   alt="Who is the Barbarian?"/>
+  
+  <area shape="rect" coords="524,0,627,57" href="cb_essay06.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01','','image/cb_essay_nav_06.gif',1);noverlay();noverlayv();noverlayu()"    title=""   alt="Sources &amp; Credits"/>
+</map> 
+
+<map name="Map5" id="Map5">
+<area shape="rect" coords="0,0,117,66"   href="cb_essay01.html" onmouseover="MM_swapImage('nav01b','','image/cb_essay_nav_01.gif',1);noverlay();noverlayv();noverlayu()" onmouseout="MM_swapImgRestore()" alt="Introduction" title=""/>
+
+<area shape="rect" coords="115,0,237,60" href="cb_essay02.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01b','','image/cb_essay_nav_02.gif',1);noverlay();noverlayv();noverlayu()"    title=""   alt="#8220;The White Man's Burden&#8221;"/>
+
+<area shape="rect" coords="237,0,334,59" href="cb_essay03.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01b','','image/cb_essay_nav_03.gif',1);noverlay();noverlayv();noverlayu()"    title=""   alt="Progress &amp; Profits"/>
+
+  <area shape="rect" coords="333,1,420,60" href="cb_essay04.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01b','','image/cb_essay_nav_04.gif',1);noverlay();noverlayv();noverlayu()"    title=""   alt="Bibles &amp; Guns"/>
+  
+  <area shape="rect" coords="418,3,525,61" href="cb_essay05.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01b','','image/cb_essay_nav_05.gif',1);noverlay();noverlayv();noverlayu()"    title=""   alt="Who is the Barbarian?"/>
+  
+  <area shape="rect" coords="524,0,627,57" href="cb_essay06.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01b','','image/cb_essay_nav_06.gif',1);noverlay();noverlayv();noverlayu()"    title=""   alt="Sources &amp; Credits"/>
+</map> 
+
+
+    <map name="topmap" id="topmap">
+    <area shape="rect" coords="0,0,180,47" href="#" onmouseover="overlay();"  alt="MIT Visualizing Cultures" />
+      <area shape="rect" coords="194,0,300,47" href="#" onmouseover="overlayu();"  alt="VC Units" />
+  </map>
+    
+
+<map name="Map" id="Map">
+      <area shape="rect" coords="0,0,211,39" href="../home/index.html" onmouseover="overlay()" alt="MIT Visualizing Cultures"/>
+      <area shape="rect" coords="0,39,211,66" href="../home/vc01_about.html" target="_top"  alt="About VC" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_02.png',1)"/>      
+      <area shape="rect" coords="0,66,211,96" href="../home/vc02_schol.html" target="_top"  alt="VC Scholars" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_03.png',1)" />
+  <area shape="rect" coords="0,96,211,124" href="../home/vc03_partner.html" target="_top"  alt="Partner Institutions" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_04.png',1)" />
+
+  <area shape="rect" coords="0,124,211,147" href="../home/vc05_outreach.html" target="_top"  alt="Outreach" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_05.png',1)" />
+  <area shape="rect" coords="3,147,211,181" href="../home/vc06_event.html" target="_top"  alt="Conferences &amp; Events" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_06.png',1)" />
+  <area shape="rect" coords="3,181,211,214" href="mailto:visualizingcultures@mit.edu" target="_top"  alt="Contact" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_07.png',1)" />
+ <area shape="rect" coords="1,214,212,240" href="http://www.facebook.com/home.php#!/group.php?gid=261831254970&amp;ref=ts" target="_blank"  alt="Join Us" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_08.png',1)" />
+  <area shape="rect" coords="0,240,211,266" href="http://twitter.com/Visualizing_Cul" target="_blank"  alt="Follow Us" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_09.png',1)" />
+</map>
+
+
+
+<map name="Image7Map" id="Image7Map">
+  <area shape="rect" coords="1,3,213,31" href="index.html" target="_top" alt="Essay" onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();" />
+      
+	  <area shape="rect" coords="1,40,258,70" href="cb_essay01.html" target="_top" alt="Introduction" onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();MM_swapImage('Image7','','image/cb_nav_i_01.png',1)" />
+  
+  <area shape="rect" coords="0,68,258,96" href="cb_essay02.html" target="_top" alt="&#8220;The White Man’s Burden&#8221;" onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();MM_swapImage('Image7','','image/cb_nav_i_02.png',1)" />
+
+<area shape="rect" coords="0,95,258,122" href="cb_essay03.html"  target="_top" alt="Progress &amp; Profits" onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();MM_swapImage('Image7','','image/cb_nav_i_03.png',1)" />
+
+<area shape="rect" coords="0,121,258,150" href="cb_essay04.html"  target="_top" alt="Bibles &amp; Guns" onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();MM_swapImage('Image7','','image/cb_nav_i_04.png',1)" />
+
+<area shape="rect" coords="0,149,258,179" href="cb_essay05.html"  target="_top" alt="Who is the Barbarian?" onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();MM_swapImage('Image7','','image/cb_nav_i_05.png',1)" />
+
+<area shape="rect" coords="0,178,258,200" href="cb_essay06.html"  target="_top" alt="Sources &amp; Credits" onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();MM_swapImage('Image7','','image/cb_nav_i_06.png',1)" />
+
+
+</map>
+<map name="Map3" id="Map3">
+  
+<area shape="rect" coords="0,2,312,30" href="../home/vis_menu.html" target="_top" alt="Units" onmouseout="noverlayu();MM_swapImgRestore()" onmouseover="overlayu();" />
+
+<area shape="rect" coords="2,38,314,68" href="../home/vis_menu.html" target="_top" alt="Icon View" onmouseout="noverlayu();MM_swapImgRestore()" onmouseover="overlayu();MM_swapImage('Image6','','../home/image/vc_units_cur_nav_01.png',1)" />
+
+<area shape="rect" coords="0,67,312,95" href="../home/vis_menu_02b.html" target="_top" alt="Text View" onmouseout="noverlayu();MM_swapImgRestore()" onmouseover="overlayu();MM_swapImage('Image6','','../home/image/vc_units_cur_nav_02.png',1)" />
+
+<area shape="rect" coords="1,94,313,122" href="../home/vis_menu_03.html" target="_top" alt="Curriculae" onmouseout="noverlayu();MM_swapImgRestore()" onmouseover="overlayu();MM_swapImage('Image6','','../home/image/vc_units_cur_nav_03.png',1)" /></map>
+
+<map name="Image8Map" id="Image8Map">
+  
+<area shape="rect" coords="0,2,312,30" href="index.html" target="_top" alt="Civilization &amp; Barbarism" onmouseout="noverlayx();MM_swapImgRestore()" onmouseover="overlayx();" />
+
+<area shape="rect" coords="0,39,316,66" href="cb_gallery.html" target="_top" alt="Civilization &amp; Barbarism" onmouseout="noverlayx();MM_swapImgRestore()" onmouseover="overlayx();MM_swapImage('Image8','','image/cb_nav_01.png',1)" />
+
+
+</map>
+
+
+</body>
+</html>

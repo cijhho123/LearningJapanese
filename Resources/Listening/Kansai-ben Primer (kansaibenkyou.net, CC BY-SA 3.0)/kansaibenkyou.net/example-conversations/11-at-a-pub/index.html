@@ -1,0 +1,664 @@
+
+
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.28.0 by Michael Rose
+  Copyright 2013-2026 Michael Rose - mademistakes.com | @mmistakes
+  Copyright 2024-2026 iBug - ibugone.com | @iBug
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+
+<html lang="en" class="no-js" dir="ltr">
+  <head>
+    
+<meta charset="utf-8">
+
+
+<!-- begin _includes/seo.html --><title>居酒屋で / At an Izakaya - Kansaibenkyou.net</title>
+<meta name="description" content="">
+
+
+  <meta name="author" content="Keiko Yukawa">
+  
+  <meta property="article:author" content="Keiko Yukawa">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Kansaibenkyou.net">
+<meta property="og:title" content="居酒屋で / At an Izakaya">
+<meta property="og:url" content="https://kansaibenkyou.net/example-conversations/11-at-a-pub/">
+
+
+  <meta property="og:description" content="">
+
+
+
+
+
+
+
+
+
+  <meta property="article:published_time" content="2026-06-21T05:08:08+00:00">
+
+
+
+
+
+
+<link rel="canonical" href="index.html">
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="../../assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css"></noscript>
+
+
+
+    <link rel="icon" href="../../assets/images/takkun.ico" type="image/x-icon">
+<meta name="baseurl" content="">
+<link rel="stylesheet" href="../../assets/css/custom.css">
+<script defer src="../../assets/js/kb-audio.js"></script>
+<script>
+// Banner-image rotation applies ONLY to the homepage hero overlay.
+// The old site did not carry a photo banner on interior pages — only
+// a thin title bar. Two independent visual audits flagged the
+// inner-page banner strip as the biggest "louder" regression.
+document.addEventListener("DOMContentLoaded", function() {
+  var hero = document.querySelector(".page__hero--overlay");
+  if (!hero) return;
+  var base = (document.querySelector('meta[name="baseurl"]') || {}).content || "";
+  fetch(base + "/assets/banner/manifest.json")
+    .then(function(r) { return r.json(); })
+    .then(function(images) {
+      if (!images.length) return;
+      var pick = images[Math.floor(Math.random() * images.length)];
+      var url = base + "/assets/banner/" + pick;
+      hero.style.backgroundImage = "linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(" + url + ")";
+    });
+});
+</script>
+
+  </head>
+
+  <body class="layout--conversation wide">
+    
+<nav class="skip-links" aria-label="Skip links">
+  <ul>
+    <li><a href="index.html#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="index.html#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="index.html#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    
+
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav" aria-label="Primary navigation">
+        
+          <a class="site-logo" href="../../index.html"><img src="../../assets/images/takkun.png" alt="Kansaibenkyou.net"></a>
+        
+        <a class="site-title" href="../../index.html">
+          Kansaibenkyou.net
+          <span class="site-subtitle">A learning resource for Kansai-ben (関西弁)</span>
+        </a>
+        <ul class="visible-links"></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+
+  
+    
+
+
+
+
+<nav class="breadcrumbs" aria-label="Breadcrumb">
+  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+    
+    
+    
+      
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="../../index.html" itemprop="item"><span itemprop="name">Home</span></a>
+
+          <meta itemprop="position" content="1" />
+        </li>
+        <span class="sep">/</span>
+      
+      
+        
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="../../example-conversations.1.html" itemprop="item"><span itemprop="name">Example conversations</span></a>
+          <meta itemprop="position" content="2" />
+        </li>
+        <span class="sep">/</span>
+      
+    
+      
+      
+        <li class="current">居酒屋で / At an Izakaya</li>
+      
+    
+  </ol>
+</nav>
+
+  
+
+
+<div id="main" role="main">
+  
+
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+    
+      
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    
+      
+      
+        <li>
+          
+            <a href="../../index.html"><span class="nav__sub-title">Home</span></a>
+          
+
+          
+        </li>
+      
+        <li>
+          
+            <a href="../../intro/index.html"><span class="nav__sub-title">Introduction</span></a>
+          
+
+          
+        </li>
+      
+        <li>
+          
+            <a href="../../what/index.html"><span class="nav__sub-title">Kansai-ben is...?</span></a>
+          
+
+          
+        </li>
+      
+        <li>
+          
+            <a href="../../example-conversations.1.html"><span class="nav__sub-title">Example conversations</span></a>
+          
+
+          
+        </li>
+      
+        <li>
+          
+            <a href="../../grammar/index.html"><span class="nav__sub-title">Grammar</span></a>
+          
+
+          
+        </li>
+      
+        <li>
+          
+            <a href="../../vocabulary/index.html"><span class="nav__sub-title">Vocabulary</span></a>
+          
+
+          
+        </li>
+      
+        <li>
+          
+            <a href="../../pronunciation/index.html"><span class="nav__sub-title">Pronunciation</span></a>
+          
+
+          
+        </li>
+      
+        <li>
+          
+            <a href="../../real-conversations.1.html"><span class="nav__sub-title">Real conversations</span></a>
+          
+
+          
+        </li>
+      
+        <li>
+          
+            <a href="../../resources/index.html"><span class="nav__sub-title">Resources</span></a>
+          
+
+          
+        </li>
+      
+        <li>
+          
+            <a href="../../about/index.html"><span class="nav__sub-title">About</span></a>
+          
+
+          
+        </li>
+      
+        <li>
+          
+            <a href="../../feedback/index.html"><span class="nav__sub-title">Feedback</span></a>
+          
+
+          
+        </li>
+      
+        <li>
+          
+            <a href="../../search/index.html"><span class="nav__sub-title">Search</span></a>
+          
+
+          
+        </li>
+      
+    
+  </ul>
+</nav>
+
+    
+  
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="居酒屋で / At an Izakaya">
+    <meta itemprop="description" content="">
+    <meta itemprop="datePublished" content="2026-06-21T05:08:08+00:00">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title p-name" itemprop="headline">
+            <a href="index.html" itemprop="url">居酒屋で / At an Izakaya
+</a>
+          </h1>
+          
+
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+        <article class="conversation-example">
+
+  <section>
+    <h2>Description:</h2>
+    <p>Junko and Noriko are drinking and chatting at an izakaya after work.</p>
+  </section>
+    <section>
+      <h2>Characters:</h2>
+      <p>
+          <a href="../../taxonomy/term/218/index.html">Junko</a> &nbsp; 
+          <a href="../../taxonomy/term/219/index.html">Noriko</a>
+      </p>
+    </section>
+    <p class="conversation-audio">
+      <strong>Audio (click &#9654; to play):</strong><br>
+      <audio controls preload="metadata"
+             src="https://kansaibenkyou.net/assets/audio/ex_com_izakaya.mp3">
+        <a href="https://kansaibenkyou.net/assets/audio/ex_com_izakaya.mp3">Download audio</a>
+      </audio>
+    </p>
+
+  <div class="skit">
+
+    <div class="skit-controls">
+      <button type="button" class="skit-toggle skit-toggle-s">Show Standard</button>
+      <button type="button" class="skit-toggle skit-toggle-e">Show English</button>
+      <button type="button" class="skit-toggle skit-toggle-g">Show Grammar</button>
+      <button type="button" class="skit-toggle skit-toggle-w">Show Words</button>
+    </div>
+
+    <table class="skit-table">
+      <tbody>
+        <tr class="skit-stanza">
+          <td class="skit-name">のり子：</td>
+          <td class="skit-line-container">
+            <ul class="skit-lines">
+              <li class="skit-line skit-k">あ〜、もう毎日残業ばっかりでやってられへんわ。</li>
+              <li class="skit-line skit-g">あ〜、もう毎日残業ばっかりで(296やってられへん)(304わ)。</li>
+              <li class="skit-line skit-w">あ〜、もう毎日残業ばっかりでやってられへんわ。</li>
+              <li class="skit-line skit-s">あ〜、もう毎日残業ばかりでやってられないよ。</li>
+              <li class="skit-line skit-e">Ugh...I can't do overtime every day.</li>
+            </ul>
+          </td>
+        </tr>
+        <tr class="skit-stanza">
+          <td class="skit-name">じゅん子：</td>
+          <td class="skit-line-container">
+            <ul class="skit-lines">
+              <li class="skit-line skit-k">ほんまやで。給料安いのに、なんでこない毎日遅うまで働かなあかんのやろ。仕事ばっかりで、どっこも行かれへん。いっこもおもんないわ。</li>
+              <li class="skit-line skit-g">ほんま(330や)(307で)。給料安いのに、なんでこない毎日遅うまで(323働かなあかん)の(330やろ)。仕事ばっかりで、(299どっこも)(296行かれへん)。(299いっこも)(297おもんない)(304わ)。</li>
+              <li class="skit-line skit-w">(41ほんま)やで。給料安いのに、なんで(157こない)毎日遅うまで働かな(39あかん)のやろ。仕事ばっかりで、どっこも行かれへん。いっこも(46おもんない)わ。</li>
+              <li class="skit-line skit-s">本当に。給料安いのに、なぜこんなに毎日遅くまで働かなきゃいけないんだろう。仕事ばかりで、どこにも行けない。全然おもしろくないよ。</li>
+              <li class="skit-line skit-e">I know. I don't understand why we have to work so long for so little. I can never go anywhere because I have work. It gets so boring.</li>
+            </ul>
+          </td>
+        </tr>
+        <tr class="skit-stanza">
+          <td class="skit-name">のり子：</td>
+          <td class="skit-line-container">
+            <ul class="skit-lines">
+              <li class="skit-line skit-k">でも、あんた、かれしおるからええやん。</li>
+              <li class="skit-line skit-g">でも、あんた、かれしおるからええ(311やん)。</li>
+              <li class="skit-line skit-w">でも、(214あんた)、かれし(149おる)から(45ええ)やん。</li>
+              <li class="skit-line skit-s">でも、じゅん子、かれしいるからいいじゃない。</li>
+              <li class="skit-line skit-e">Well, at least you have a boyfriend.</li>
+            </ul>
+          </td>
+        </tr>
+        <tr class="skit-stanza">
+          <td class="skit-name">じゅん子：</td>
+          <td class="skit-line-container">
+            <ul class="skit-lines">
+              <li class="skit-line skit-k">あんな、実はな、さとしと別れよ思てんねん。</li>
+              <li class="skit-line skit-g">あんな、実は(305な)、さとしと(258別れよ)(331思てん)(309ねん)。</li>
+              <li class="skit-line skit-w">(288あんな)、実はな、さとしと別れよ思てんねん。</li>
+              <li class="skit-line skit-s">あのね、実はね、さとしと別れようと思ってるんだ。</li>
+              <li class="skit-line skit-e">Um, you know, I'm actually thinking about breaking up with Satoshi.</li>
+            </ul>
+          </td>
+        </tr>
+        <tr class="skit-stanza">
+          <td class="skit-name">のり子：</td>
+          <td class="skit-line-container">
+            <ul class="skit-lines">
+              <li class="skit-line skit-k">え、うそやん。こないだ会うたとき二人ともめっちゃ仲良かったやん。</li>
+              <li class="skit-line skit-g">え、うそ(311やん)。こないだ(258会うた)とき二人ともめっちゃ仲良かった(311やん)。</li>
+              <li class="skit-line skit-w">え、うそやん。(289こないだ)会うたとき二人とも(160めっちゃ)仲良かったやん。</li>
+              <li class="skit-line skit-s">え、うそ。このあいだ会ったとき二人ともすごく仲良かったじゃない。</li>
+              <li class="skit-line skit-e">You're kidding! The last time we met, you looked so happy together.</li>
+            </ul>
+          </td>
+        </tr>
+        <tr class="skit-stanza">
+          <td class="skit-name">じゅん子：</td>
+          <td class="skit-line-container">
+            <ul class="skit-lines">
+              <li class="skit-line skit-k">あん時はな、まだよかってんけど、うち最近、仕事めっちゃ忙しかったやろ。ほんで、あんまさとしと会われへんかってんな。ほんなら、あいつ、うわきしよってん。うちがいっしょうけんめい働いてるっちゅうのに、あっちはほかの女んとこ行とってんで。ひどない？</li>
+              <li class="skit-line skit-g">あん時は(305な)、まだよかっ(309てん)けど、うち最近、仕事めっちゃ忙しかった(330やろ)。(316ほんで)、あんまさとしと(296会われへん)かっ(309てん)(305な)。ほんなら、あいつ、(338うわきしよってん)。うちがいっしょうけんめい(331働いてる)(302っちゅう)のに、あっちはほかの女んとこ(331行とってん)(307で)。ひどない？</li>
+              <li class="skit-line skit-w">あん時はな、まだよかってんけど、うち最近、仕事(160めっちゃ)忙しかったやろ。(169ほんで)、(143あんま)さとしと会われへんかってんな。(171ほんなら)、あいつ、うわきしよってん。(155うち)がいっしょうけんめい働いてるっちゅうのに、あっちはほかの女んとこ行とってんで。ひどない？</li>
+              <li class="skit-line skit-s">あの時はね、まだよかったんだけど、私、最近、仕事すごく忙しかったでしょ。それで、あんまりさとしと会えなかったんだ。そしたら、あいつ、うわきしたの。私がいっしょうけんめい働いてるというのに、あっちはほかの女のところに行ってたんだよ。ひどくない？</li>
+              <li class="skit-line skit-e">We were still okay then, but after I got so busy we couldn't see each other much. That's when he cheated on me. While I was working hard, he off at another girl's place. Isn't that awful?</li>
+            </ul>
+          </td>
+        </tr>
+        <tr class="skit-stanza">
+          <td class="skit-name">のり子：</td>
+          <td class="skit-line-container">
+            <ul class="skit-lines">
+              <li class="skit-line skit-k">めちゃくちゃやなあ。</li>
+              <li class="skit-line skit-g">めちゃくちゃやなあ。</li>
+              <li class="skit-line skit-w">めちゃくちゃやなあ。</li>
+              <li class="skit-line skit-s">めちゃくちゃだねえ。</li>
+              <li class="skit-line skit-e">It's terrible.</li>
+            </ul>
+          </td>
+        </tr>
+        <tr class="skit-stanza">
+          <td class="skit-name">じゅん子：</td>
+          <td class="skit-line-container">
+            <ul class="skit-lines">
+              <li class="skit-line skit-k">時々、メール来んねんけどな、むかつくからいっこも返事してへんねん。</li>
+              <li class="skit-line skit-g">時々、メール来ん(309ねん)けど(305な)、むかつくから(299いっこも)(296返事してへん)(309ねん)。</li>
+              <li class="skit-line skit-w">時々、メール来んねんけどな、むかつくからいっこも返事してへんねん。</li>
+              <li class="skit-line skit-s">時々、メール来るんだけどね、むかつくから全然返事していないんだ。</li>
+              <li class="skit-line skit-e">I sometimes get messages from him, but I'm still pretty angry don't even acknowledge them.</li>
+            </ul>
+          </td>
+        </tr>
+        <tr class="skit-stanza">
+          <td class="skit-name">のり子：</td>
+          <td class="skit-line-container">
+            <ul class="skit-lines">
+              <li class="skit-line skit-k">えー、むこうはまだ気ぃあるんちゃうん？どんなメール来んの？</li>
+              <li class="skit-line skit-g">えー、むこうはまだ気ぃあるんちゃう(309ん)？どんなメール来んの？</li>
+              <li class="skit-line skit-w">えー、むこうはまだ(283気ぃある)ん(178ちゃう)ん？どんなメール来んの？</li>
+              <li class="skit-line skit-s">えー、むこうはまだ気があるんじゃないの？どんなメールが来るの？</li>
+              <li class="skit-line skit-e">Really? He might still have feelings for you. What kind of messages?</li>
+            </ul>
+          </td>
+        </tr>
+        <tr class="skit-stanza">
+          <td class="skit-name">じゅん子：</td>
+          <td class="skit-line-container">
+            <ul class="skit-lines">
+              <li class="skit-line skit-k">「もうあいつと別れたからもっかい会うてくれへん？」とか「ごめん、かんにんして。まだおこってんか？」とか。もう、ほんまむかつくで。</li>
+              <li class="skit-line skit-g">「もうあいつと別れたからもっかい(318会うてくれへん)？」とか「ごめん、かんにんして。まだ(309おこってん)(308か)？」とか。もう、ほんまむかつく(307で)。</li>
+              <li class="skit-line skit-w">「もうあいつと別れたから(196もっかい)会うてくれへん？」とか「ごめん、(199かんにんして)。まだおこってんか？」とか。もう、(41ほんま)むかつくで。</li>
+              <li class="skit-line skit-s">「もうあいつと別れたからもう一回会ってくれない？」とか「ごめん、ゆるして。まだおこってる？」とか。もう、本当にむかつくよ。</li>
+              <li class="skit-line skit-e">I got ones like: "I'm not seeing that girl anymore, could we meet just one more time?" and "I'm so sorry, please forgive me. Are you still mad?". It really gets me cranked up.</li>
+            </ul>
+          </td>
+        </tr>
+        <tr class="skit-stanza">
+          <td class="skit-name">のり子：</td>
+          <td class="skit-line-container">
+            <ul class="skit-lines">
+              <li class="skit-line skit-k">ほやけど、あんた、ほんまに別れてええん？あんたもまだ気ぃあるんちゃうん？</li>
+              <li class="skit-line skit-g">ほやけど、あんた、ほんまに別れてええ(309ん)？あんたもまだ気ぃあるんちゃう(309ん)？</li>
+              <li class="skit-line skit-w">ほやけど)、(214あんた)、(41ほんま)に別れて(45ええ)ん？(214あんた)もまだ(283気ぃある)ん(178ちゃう)ん？</li>
+              <li class="skit-line skit-s">そうだけど、じゅん子、本当に別れてもいいの？じゅん子もまだ気があるんじゃない？</li>
+              <li class="skit-line skit-e">But are you really sure that you want to break up with him? I think that you're still interested in him.</li>
+            </ul>
+          </td>
+        </tr>
+        <tr class="skit-stanza">
+          <td class="skit-name">じゅん子：</td>
+          <td class="skit-line-container">
+            <ul class="skit-lines">
+              <li class="skit-line skit-k">そら、ちょっとはな。ほやけど、いっぺんうわきされたらもう信じられへんわ。</li>
+              <li class="skit-line skit-g">そら、ちょっとは(305な)。ほやけど、いっぺんうわきされたらもう(296信じられへん)(304わ)。</li>
+              <li class="skit-line skit-w">(205そら)、ちょっとはな。(166ほやけど)、(145いっぺん)うわきされたらもう信じられへんわ。</li>
+              <li class="skit-line skit-s">それは、ちょっとはね。だけど、一回うわきされたらもう信じられないよ。</li>
+              <li class="skit-line skit-e">Yeah, a little bit. But he cheated on me and I just can't trust him anymore.</li>
+            </ul>
+          </td>
+        </tr>
+        <tr class="skit-stanza">
+          <td class="skit-name">のり子：</td>
+          <td class="skit-line-container">
+            <ul class="skit-lines">
+              <li class="skit-line skit-k">まあ、そらそやなあ。ほやけど、むこうもそないあやまってんやったら、いっぺん、会うだけ会うてみぃや。</li>
+              <li class="skit-line skit-g">まあ、そらそやなあ。ほやけど、むこうもそない(331あやまってん)(330やったら)、いっぺん、会うだけ(321会うてみぃ)(306や)。</li>
+              <li class="skit-line skit-w">まあ、(205そら)(161そや)なあ。(166ほやけど)、むこうも(173そない)あやまってんやったら、(145いっぺん)、会うだけ会うてみぃや。</li>
+              <li class="skit-line skit-s">まあ、それはそうだね。だけど、むこうもそんなにあやまっているんだったら、一回、会うだけ会ってみたら？</li>
+              <li class="skit-line skit-e">That's true. But if he's apologizing that much you might want to consider seeing him one more time.</li>
+            </ul>
+          </td>
+        </tr>
+        <tr class="skit-stanza">
+          <td class="skit-name">じゅん子：</td>
+          <td class="skit-line-container">
+            <ul class="skit-lines">
+              <li class="skit-line skit-k">う〜ん、考えてみるわ。</li>
+              <li class="skit-line skit-g">う〜ん、考えてみる(304わ)。</li>
+              <li class="skit-line skit-w">う〜ん、考えてみるわ。</li>
+              <li class="skit-line skit-s">う〜ん、考えてみるよ。</li>
+              <li class="skit-line skit-e">Well, I'll think about it.</li>
+            </ul>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+    <section class="conv-tags">
+      <h2>Common uses</h2>
+      <ul class="tag-cloud">
+          <li><a href="../../taxonomy/term/131/index.html">Assertion</a></li>
+          <li><a href="../../taxonomy/term/119/index.html">Attentiveness</a></li>
+          <li><a href="../../taxonomy/term/121/index.html">Connecting sentences</a></li>
+          <li><a href="../../taxonomy/term/128/index.html">Possession</a></li>
+          <li><a href="../../taxonomy/term/123/index.html">Soliciting and demonstrating agreement</a></li>
+          <li><a href="../../taxonomy/term/111/index.html">Negation</a></li>
+          <li><a href="../../taxonomy/term/57/index.html">Question</a></li>
+          <li><a href="../../taxonomy/term/58/index.html">Complete negation</a></li>
+          <li><a href="../../taxonomy/term/39/index.html">Conjecture</a></li>
+          <li><a href="../../taxonomy/term/33/index.html">Progressive</a></li>
+          <li><a href="../../taxonomy/term/35/index.html">Suggestion</a></li>
+          <li><a href="../../taxonomy/term/26/index.html">Third-person expressive</a></li>
+          <li><a href="../../taxonomy/term/23/index.html">Conditional</a></li>
+          <li><a href="../../taxonomy/term/30/index.html">Request</a></li>
+          <li><a href="../../taxonomy/term/29/index.html">Imperative</a></li>
+          <li><a href="../../taxonomy/term/20/index.html">Obligation</a></li>
+      </ul>
+    </section>
+    <section class="conv-tags">
+      <h2>Grammar elements</h2>
+      <ul class="tag-cloud">
+          <li><a href="../../taxonomy/term/67/index.html">や</a></li>
+          <li><a href="../../taxonomy/term/95/index.html">Vなあかん／Vんとあかん／Vんならん</a></li>
+          <li><a href="../../taxonomy/term/99/index.html">Vて</a></li>
+          <li><a href="../../taxonomy/term/101/index.html">Vてくれへん／Vてんか</a></li>
+          <li><a href="../../taxonomy/term/98/index.html">Vてみ(ぃ)</a></li>
+          <li><a href="../../taxonomy/term/103/index.html">Vやる／Vよる</a></li>
+          <li><a href="../../taxonomy/term/139/index.html">Vはる</a></li>
+          <li><a href="../../taxonomy/term/81/index.html">ほんで／ほいで</a></li>
+          <li><a href="../../taxonomy/term/68/index.html">やったら</a></li>
+      </ul>
+    </section>
+
+</article>
+
+<script src="../../assets/js/skit.js" defer></script>
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+  
+
+  
+
+
+        
+
+      </footer>
+
+      
+
+      
+
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+      
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-copyright">
+  <p>Unless otherwise noted on the <a href="../../copyright/index.html">copyright</a> page,
+  this site and its contents are licensed under a
+  <a href="https://creativecommons.org/licenses/by-sa/3.0/">Creative Commons
+  Attribution-ShareAlike 3.0 Unported License</a>
+  by <a href="../../about/index.html">Keiko Yukawa</a>.</p>
+</div>
+
+      </footer>
+    </div>
+
+    
+
+  <script src="../../assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-38LKKSF2EE"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-38LKKSF2EE', { 'anonymize_ip': false});
+</script>
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

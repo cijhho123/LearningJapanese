@@ -1,0 +1,17 @@
+Source (Internet Archive mirror of the original OpenCourseWare release):
+https://archive.org/details/open-course-ware-classical-japanese-gramma
+Direct file:
+https://archive.org/download/open-course-ware-classical-japanese-gramma/OpenCourseWare_Classical_Japanese_Gramma.pdf
+
+"Classical Japanese: A Grammatical Compendium" - an open-courseware
+reference guide to bungo (classical Japanese) grammar, aimed at students who
+already have a working command of modern Japanese grammar. Covers the
+classical conjugation system (the six bases, the auxiliary verbs, the
+particles that differ from or vanished in modern Japanese), with worked
+examples.
+
+This is the first classical-Japanese grammar resource in this folder. The
+Culture and Reading folders elsewhere in this repo hold classical texts
+(Hojoki, Tosa Nikki) that assume this kind of grammar as background.
+
+PDF, ~4.2 MB. Retrieved 2026-09-17.

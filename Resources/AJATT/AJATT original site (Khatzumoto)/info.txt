@@ -1,0 +1,26 @@
+https://alljapanesealltheti.me/
+https://web.archive.org/web/*/alljapaneseallthetime.com (not used - live successor domain worked)
+
+Full site mirror (wget --mirror --convert-links --adjust-extension --page-requisites --no-parent,
+--reject-regex "replytocom" to skip WordPress comment-reply URL variants which are not distinct
+content). The live site itself is a static HTTrack export of the original alljapaneseallthetime.com
+WordPress blog, hosted on GitHub Pages under the successor domain - the WordPress markup
+(wp-content, wp-includes paths) and the "Added by HTTrack" comment in the page source are both
+original-site artifacts preserved in that export, not something this mirror added.
+
+Two orphan pages were not reachable by crawling alone (not linked from any page wget visited) and
+were fetched by their known URLs instead:
+  - table-of-contents/ redirects to the real Table of Contents at
+    all-japanese-all-the-time-ajatt-how-to-learn-japanese-on-your-own-having-fun-and-to-fluency/
+  - the-best-well-least-crappy-of-ajatt/ (the "Best of AJATT" curated index)
+Both correspond to two of the six pages originally saved individually before this folder was
+completed into a full mirror; the other four (aim-to-fail/, showing-up/,
+critical-frequency-a-brand-new-way-of-looking-at-language-exposure/,
+how-to-learn-multiple-languages-without-getting-confused-the-laddering-method/) were reached by
+normal crawling.
+
+Because the crawl only follows links it can actually find, there may still be other very old,
+unlinked/orphaned posts on this site beyond the ~270 files captured here. No 403/429 responses
+were seen at any point.
+
+Archive saved 2026/09/17

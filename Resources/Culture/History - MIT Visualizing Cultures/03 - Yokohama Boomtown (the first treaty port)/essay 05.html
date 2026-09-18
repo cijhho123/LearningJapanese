@@ -1,0 +1,992 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/tr/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>MIT Visualizing Cultures</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+
+
+<style type="text/css">
+<!--
+
+.backg {
+	position:absolute;
+	left:0px;
+	top:180px;
+	z-index: 1;
+background-image:url(../gt_japan_people/image/essay_bck.gif);
+}
+.top {
+	position:absolute;
+	left:0px;
+	top:45px;
+	z-index: 2;
+}
+.bottom {
+	position:absolute;
+	left:0px;
+	z-index: 2;
+}
+.essaynavtop {
+	position:absolute;
+	left:0px;
+	top:142px;
+	z-index: 3;
+}
+.essaynavbottom {
+	position:absolute;
+	left:0px;
+	z-index: 3;
+}
+.essay {
+	position:absolute;
+	left:20px;
+	top:195px;
+	z-index: 4;
+	background-color:#FFFFFF;
+}
+.flashy {
+	position:absolute;
+	left:467px;
+	top:42px;
+	z-index: 3;
+}
+.slug {        position:absolute;
+        left:20px;
+        top:475px;
+        width:476px;
+		z-index:2;
+		text-align:left;
+}
+.navbox {
+		position: fixed;
+        left:10px;
+        top:0px;
+		z-index: 5;
+		visibility:hidden;
+}
+.unitsnavbox01 {
+        position:fixed;
+        left:200px;
+        top:0px;
+		z-index:5;
+}
+.unitnavbox {
+        position:fixed;
+        left:271px;
+        top:0px;
+		z-index:6;
+}
+.navboxu {
+		position: fixed;
+        left:200px;
+        top:0px;
+		z-index: 6;
+		visibility:hidden;	 
+}
+.navboxv {
+		position: fixed;
+        left:271px;
+        top:0px;
+		z-index: 7;
+		visibility:hidden;	 
+}
+.box14 {
+        position:fixed;
+        left:0px;
+        top:0px;
+		z-index:5;
+		background-color:#222222;
+		width:100%
+}
+.box15 {
+        position:fixed;
+        left:0px;
+        top:0px;
+		z-index:4;
+	    width: 100%;
+		background-color:#504B48
+}
+.box16 {        position:fixed;
+        left:0px;
+        top:23px;
+		z-index:4;
+	width: 100%;
+background-color:#2F302F 
+}
+.popup01 {        position:absolute;
+        left:624px;
+		z-index:4;
+}
+.boxpreslink {        position:absolute;
+        left:624px;
+		z-index:4;
+}
+.boxtreatylink {        position:absolute;
+        left:624px;
+		z-index:4;
+}
+.boxjapanlink {        position:absolute;
+        left:624px;
+		z-index:4;
+}
+.boxperrylink {        position:absolute;
+        left:624px;
+		z-index:4;
+}
+.boxpdf {        position:absolute;
+        left:624px;
+        top:410px;
+		z-index:4;
+}
+.explore07 {        position:absolute;
+        left:622px;
+		z-index:3;
+}
+.explore01 {        position:absolute;
+        left:622px;
+		z-index:3;
+}
+.explore02 {        position:absolute;
+        left:622px;
+		z-index:3;
+}
+.explore03 {        position:absolute;
+        left:622px;
+		z-index:3;
+}
+.explore04 {        position:absolute;
+        left:622px;
+		z-index:3;
+}
+.explore05 {        position:absolute;
+        left:622px;
+		z-index:3;
+}
+.explore06 {        position:absolute;
+        left:622px;
+		z-index:3;
+}
+.boxwelcome {        position:absolute;
+        left:624px;
+        top:280px;
+		z-index:4;
+}
+
+.box01 { 
+		position: static;
+		top: 20%;
+		left: 20%;
+}
+
+.japan { 
+		position: absolute;
+		left:0px;
+}
+
+.video { 
+		position: absolute;
+		left:68px;
+		height:391px;
+		background-color:#cccccc;
+		visibility:hidden;
+}
+#horizon        
+	{
+	text-align: center;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 1px;
+	overflow: visible;
+	visibility: visible;
+	display: block
+	}
+
+#content    
+	{
+	margin-left: -485px;
+	position: absolute;
+	top: 0px;
+	left: 50%;
+	width: 250px;
+	height: 70px;
+	visibility: visible;
+
+	}
+.bottibody {color: #111111; font-size: 13px; line-height: 19px; font-family: Verdana, Arial, Helvetica, sans-serif
+	}
+.bottibody2 {color: #ffffff; font-size: 11px; line-height: 16px; font-family: Verdana, Arial, Helvetica, sans-serif
+	}
+.bottiblock {
+	color: #2D2D2D;
+	font-size: 15px;
+	line-height: 19px;
+	/*font-family: Georgia, "Times New Roman", Times, serif;*/
+	font-family: Times New Roman, Times, serif;
+	font-style: italic;
+	}
+.bottiblockplain {
+	color: #2D2D2D;
+	font-size: 15px;
+	line-height: 19px;
+	/*font-family: Georgia, "Times New Roman", Times, serif;*/
+	font-family:   Times New Roman, Times, serif;
+	font-style: normal;
+	}
+.bottiblockii {
+	color: #2D2D2D;
+	font-size: 16px;
+	line-height: 20px;
+	/*font-family: Georgia, "Times New Roman", Times, serif;*/
+	font-family: Times New Roman, Times, serif;
+	font-style: italic;
+	}
+.bottiblockplainii {
+	color: #2D2D2D;
+	font-size: 16px;
+	line-height: 20px;
+	/*font-family: Georgia, "Times New Roman", Times, serif;*/
+	font-family:   Times New Roman, Times, serif;
+	font-style: normal;
+	}
+.bottiblockhead {
+	color: #2D2D2D;
+	font-size: 20px;
+	line-height: 18px;
+	/*font-family: Georgia, "Times New Roman", Times, serif;*/
+	font-family: Times New Roman, Times, serif;
+	font-style: italic;
+	}
+.bottismall {
+	color: #333333;
+	font-size: 9px;
+	line-height: 12px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-style: normal;
+	}
+.head { color: #CC210E; font-size: 15px; line-height: 19px; font-family: Verdana, Arial, Helvetica, sans-serif
+	}
+.halfer { color: #ffffff; font-size: 6px; line-height: 6px; font-family: Verdana, Arial, Helvetica, sans-serif
+	}
+a:link {
+        color:#1233FF;
+        text-decoration:none;
+    }
+ a:active { 
+		color:#1233FF;
+        text-decoration:none;
+	}
+a:visited {
+		color:#1233FF;
+        text-decoration:none;
+	}
+a:hover {
+		color:#1233FF;
+        text-decoration:underline;
+	}
+.box141 {	position:absolute;
+	left:0px;
+	top:0px;
+	}
+.twit {
+		position: fixed;
+        top: 2px;
+        left: 810px;
+		z-index: 7;
+		
+}
+.emil{
+		position: fixed;
+        top: 4px;
+        left: 876px;
+		z-index: 7;
+		
+}
+.fbok{
+		position: fixed;
+        top: 2px;
+        left: 916px;
+		z-index: 7;
+		width: 48px;
+		overflow:hidden;
+}
+-->
+</style>
+
+
+<script language="JavaScript" type="text/JavaScript">
+<!--
+//rollovers for menus
+function overlay() {
+        el = document.getElementById("hideme");
+        el.style.visibility ="visible";
+		noverlayu();
+		noverlayv();
+}
+
+function noverlay() {
+        el = document.getElementById("hideme");
+        el.style.visibility ="hidden";
+}
+
+
+function overlayu() {
+        el = document.getElementById("hidemeu");
+        el.style.visibility ="visible";
+		noverlay();
+		noverlayv();
+}
+function noverlayu() {
+        el = document.getElementById("hidemeu");
+        el.style.visibility ="hidden";
+}
+
+
+function overlayv() {
+        el = document.getElementById("hidemev");
+        el.style.visibility ="visible";
+		noverlay();
+		noverlayu();
+}
+function noverlayv() {
+        el = document.getElementById("hidemev");
+        el.style.visibility ="hidden";
+}
+function showvid() {
+        el = document.getElementById("thevid");
+        el.style.visibility ="visible";
+		noverlayu();
+		noverlayv();
+        PlayIt(document.movie1);
+}
+
+function hidevid() {
+        StopIt(document.movie1);
+		el = document.getElementById("thevid");
+        el.style.visibility ="hidden";
+
+
+}
+/* a javascript function that takes a QT movie and calls its "Play" method */
+        function PlayIt(anObj)
+        {
+                anObj.Play();
+        }
+        /* a javascript function that takes a QT movie and calls its "Stop" method */
+        function StopIt(anObj)
+        {
+                anObj.Stop();
+        }
+
+
+
+function sesame() {
+window.moveTo(0,0);        
+window.resizeTo(1350,screen.height);
+}
+
+
+window.onload=function()
+{
+	//sesame();
+   // StopIt(document.movie1);
+	noverlay();
+	noverlayu();
+	MM_preloadImages('../home/image/vc_units_nav_11.png','../home/image/vc_units_nav_01.png','../home/image/vc_units_nav_07.png','../home/image/vc_home_nav_02.png','../home/image/essay_icon02.gif','../home/image/vn_icon02.gif','../home/image/pdf_chap02.gif','../home/image/go_toa02.gif','image/yb_nav_04.png','image/yb_nav_05.png','image/yb_nav_06.png','image/yb_nav_02.png','image/yb_nav_03.png','image/yb_essay_nav_01.gif','image/yb_essay_nav_02.gif','image/yb_essay_nav_03.gif','image/yb_essay_nav_04.gif','image/yb_essay_nav_05.gif','image/yb_essay_nav_06.gif','image/yb_essay_nav_07.gif','../home/image/popup02.gif','../black_ships_and_samurai/image/bss01_welcome02.gif','image/related_bss02.gif','image/explore_image02.gif');
+}
+var newwindow = '';
+
+function imalert(url)
+{
+	if (!newwindow.closed && newwindow.location)
+	{
+		newwindow.location.href = url;
+	}
+	else
+	{
+		newwindow=window.open(url,'windowtwo','height=360,width=586, toolbar=no,  resizable=yes, status=no, scrollbars=yes');
+		if (!newwindow.opener) newwindow.opener = self;
+	}
+	if (window.focus) {newwindow.focus()}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//
+var vcidwindow = '';
+
+function openvcidwindow(url)
+{
+	if (!vcidwindow.closed && vcidwindow.location)
+	{
+		vcidwindow.location.href = url;
+	}
+	else
+	{
+		vcidwindow=window.open(url,'vcid','height=950,width=1000, toolbar=yes, scrollbars=yes, resizable=yes, location=yes');
+		if (!vcidwindow.opener) vcidwindow.opener = self;
+	}
+	if (window.focus) {vcidwindow.focus()
+	}
+	} 
+
+
+
+ var curwindow = '';
+
+function opencurwindow(url)
+{
+	if (!curwindow.closed && curwindow.location)
+	{
+		curwindow.location.href = url;
+	}
+	else
+	{
+		curwindow=window.open(url,'curriculum','height=800,width=720, toolbar=yes, scrollbars=yes, resizable=yes,  location=yes');
+		if (!curwindow.opener) curwindow.opener = self;
+	}
+	if (window.focus) {curwindow.focus()
+	}
+	} 
+
+
+function decider(){
+ el = document.getElementById("thevid");
+
+if(el.style.visibility =="visible") {
+hidevid()
+} else {
+showvid()
+}
+}
+//-->
+</script>
+<script type="text/javascript">
+<!--
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." :
+"http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost +
+"google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+//-->
+</script>
+<script type="text/javascript">
+<!--
+try {
+var pageTracker = _gat._getTracker("UA-12446158-1");
+pageTracker._trackPageview();
+} catch(err) {}
+//-->
+</script></head>
+<body bgcolor="#252422" onload="MM_preloadImages('image/yb_essay_nav_01.gif')">
+<div  id="horizon">
+<div  id="content">
+<!--background elements -->
+<div class="backg"><table width="970" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="20">&nbsp;</td>
+    <td width="579" ><table width="579" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td  align="left" valign="top" class="bottibody">                
+                <span class="head"><br />Interactions</span><span class="halfer"><br /><br /></span></td>
+        </tr></table>
+
+ 
+	        <table width="579" border="0" title=""  cellspacing="0" cellpadding="0">
+        <tr> 
+          <td align="left" valign="top" class="bottibody">
+            The &ldquo;people of the five nations&rdquo; brought a babel of different languages to Yokohama that, as can be easily imagined, caused a great deal of confusion. Prior to Perry&rsquo;s visit, the only European language the Japanese had slight familiarity with was Dutch, which a few officials had picked up through contact with the small Dutch contingent in Nagasaki. In his negotiations with the Japanese, Perry relied on a Dutch interpreter as well as an American missionary versed in reading Chinese and thus capable of recognizing the ideographs that written Japanese and Chinese shared. Townsend Harris commonly relied on the young and ill-fated Dutchman Henry Heusken as a translator.<br />
+			    <br />
+		        <a name="y0086" id="y0086"></a>In Yokohama, verbal communication between Japanese and foreigners was initially carried out in what a British observer in 1862 called &ldquo;a sort of bastard language&rdquo; in which Japanese and foreign words were jumbled haphazardly together&mdash;all accompanied by gestures and sign language. Where written exchanges were involved, the foreign merchants relied heavily on their Chinese assistants. It was not until 1867 that the American missionary and physician James Hepburn, a Yokohama resident, published the first Japanese-English dictionary. Hepburn devised the system for &ldquo;romanizing&rdquo; Japanese&mdash;that is, rendering it in Latin letters&mdash;that became known as <em>romaji</em> in Japanese.<a name="popy0086" id="popy0086"></a><br />
+		      <br />
+	        Sadahide captured the liveliness and body language of these complicated communications, and considerably more, in a work titled &ldquo;Picture of a Salesroom in a Foreign Mercantile Firm in Yokohama.&rdquo; <br />
+	        <br /></td>
+        </tr>
+      </table>
+	  
+	    <table width="579" border="0" title=""  cellspacing="0" cellpadding="0">
+				   <tr> 
+          <td align="center" valign="top"><div class="explore01" id="explore01" ><span class="bottibody"><br /><br />
+                <br />
+                <br /><br />
+</span><a href="y0086.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image222','','image/explore_image02.gif',0);noverlay();noverlayv();noverlayu();"><img src="image/explore_image.gif" alt="Explore this image" name="Image222" width="348" height="67" border="0" title=""  id="Image222" /></a></div><a href="javascript:openvcidwindow('gallery/pages/Y0086_Office.htm');"><img src="image/Y0086_Office_s.jpg" alt="&ldquo;Picture of a Salesroom in a Foreign Mercantile Firm in Yokohama&rdquo; by Sadahide, 1861" width="565" height="281" border="0" title=""  /></a><br />
+            <span class="bottiblock">&ldquo;Picture of a Salesroom in a Foreign Mercantile Firm in Yokohama&rdquo;<br />
+            by Sadahide, 1861 (detail below)<br />
+                  </span> <span class="halfer"><br/>
+            </span> <span class="bottismall">[Y0086] Arthur M. Sackler Gallery, Smithsonian Institution<br />
+            <br />
+            <br />
+            </span></td>
+          </tr>
+	    </table>
+	  
+	  <table width="579" border="0" title=""  cellspacing="0" cellpadding="0">
+				   <tr> 
+          <td colspan="2" align="left" valign="top" class="bottibody">One side of this print amounts to a backroom scene of the foreigners&rsquo; servants engaged in tasks such as preparing food and doing laundry. One of the servants is identified as a &ldquo;black laundress.&rdquo; A turbaned Indian stands beside her plucking a duck. On the other side of this engaging print, Caucasian, Japanese, and Chinese men are absorbed in an animated exchange. Embossed account books and a startling picture of an elephant rest on a shelf behind them.<br />
+            <br /> </td>
+          </tr>
+	  </table>
+	  <table width="579" border="0" title=""  cellspacing="0" cellpadding="0">
+				   <tr> 
+          <td align="center" valign="top"><a href="javascript:openvcidwindow('gallery/pages/Y0086_Office.htm');"><img src="image/Y0086_Office_barter.jpg" alt="&ldquo;Picture of a Salesroom in a Foreign Mercantile Firm in Yokohama&rdquo; by Sadahide, 1861" width="565" height="319" border="0" title=""  /></a></td>
+          </tr>
+	    </table>
+	  
+	  
+	  
+	  
+	  <table width="579" border="0" title=""  cellspacing="0" cellpadding="0">
+	  <tr> 
+          <td align="left" valign="top" class="bottibody"><span class="bottismall"><br />
+          </span>
+            Even more numerous than prints of the foreigners at work were depictions of them at home or at play. In their renderings of residences and domestic family scenes, the Yokohama artists let their imaginations stray particularly far from reality. Not only was the number of actual families very small, but the life-style of males who did take up residence was usually less sumptuous&mdash;and more typical of bachelor life&mdash;than what the prints conveyed. Most of these men lived in or above their offices or warehouses, and early Japanese-language directories for the foreign settlement tended to identify the master <em>(danna-san)</em> of each &ldquo;lot&rdquo; or house number, along with his principal employees, servant<em>s (kozukai</em>), groom or stableman<em> (bett&#333;)</em>, and mistress (<em>musume</em>&mdash;literally &ldquo;daughter,&rdquo; but used at the time as argot for a young Japanese woman). In a study of one such directory dating from 1861&ndash;1862, the Australian student of the foreign settlements Harold Williams identified &ldquo;79 danna-sans, against which were listed by name 30 musume, 79 kozukai, and 52 bett&#333;.&rdquo;<br />
+            <br />
+            A woodblock by Yoshikazu titled &ldquo;Foreigners Enjoying a Banquet&rdquo; offers an unusually sharp illustration of the extent to which artists ignored such mundane realities and used &ldquo;Yokohama&rdquo; simply as a vehicle for introducing ordinary Japanese to the customs and appearance of foreigners in their native lands. Published in December 1860, the print depicts a small girl dancing with castanets in the midst of a rather stiff group of Caucasian men, women, and children. Ships in the harbor and the exterior of a Japanese-style building are visible through an open window.<br />
+            <br /> </td>
+        </tr>
+				   <tr> 
+          <td align="center" valign="top"><a href="javascript:openvcidwindow('gallery/pages/Y0142_MayFest_Party.htm');"><img src="image/Y0142_MayFest_Party_s.jpg" alt="&ldquo;Picture of Foreigners Enjoying a Banquet&rdquo; by Yoshikazu, December 1860 [Y0142] Arthur M. Sackler Gallery, Smithsonian Institution" width="565" height="293" border="0" title=""  /></a><br />
+            <span class="bottiblock">&ldquo;Picture of Foreigners Enjoying a Banquet&rdquo; by Yoshikazu, December 1860<br />
+            </span><span class="halfer"><br/>
+            </span>
+            <span class="bottismall">[Y0142] Arthur M. Sackler Gallery, Smithsonian Institution<br />
+            <br />
+            <br />
+            </span></td>
+          </tr>
+		<tr>
+          <td align="left" class="bottibody" valign="top">
+            In fact, the model for this scene was an engraving that appeared six months earlier in <em>Frank Leslie&rsquo;s Illustrated Newspaper</em>, accompanying an article about a children&rsquo;s dance held in Washington in honor of the Japanese officials who had come to exchange ratifications of the Harris Treaty. Yoshikazu simply excised the Japanese figures in the original graphic, replaced them with his own version of Americans, and cut a window in the wall to bring in Yokohama.<br />
+            <br /></td>
+        </tr>
+		</table>
+		
+		 <table width="579" border="0" title=""  cellspacing="0" cellpadding="0">
+				   <tr> 
+          <td width="410" align="left" valign="top">
+            <a href="javascript:openvcidwindow('yfl606.html')"><img src="image/YFLIN0606_dance.jpg"  alt="Children dance at the &ldquo;May Festival Ball&rdquo; given in honor of the Japanese ambassadors. Frank Leslie&rsquo;s Illustrated Newspaper June 6, 1860 [YFLIN0606]" width="402" height="269" border="0" title=""  align="left"/></a></td>
+          <td width="169" align="left" valign="middle"><span class="bottiblock">Children dance at the 
+            &ldquo;May Festival Ball&rdquo; given in honor of the Japanese ambassadors.<br />
+            <br />
+            </span><span class="bottismall">[YFLIN0606] <em>Frank Leslie&rsquo;s<br />
+            Illustrated Newspaper,</em><br />
+            June 6, 1860<br/></span>
+            
+           <img src="image/space.gif" width="160" height="5" align="right" alt="space"/>
+           </td>
+	      </tr>
+	    </table>
+	  
+ 
+	  
+<table width="579" border="0" title=""  cellspacing="0" cellpadding="0">
+        <tr valign="middle"> 
+          <td height="5" colspan="2" align="left" valign="top" class="bottibody"><span class="bottismall"><br />
+          </span><a name="y0099" id="y0099"></a>In a more charming but equally implausible depiction of the Westerners at play in the foreign settlement, Yoshikazu moved directly into the interior of a merchant&rsquo;s <a name="popy0099" id="popy0099"></a>private residence. This particular domestic scene actually carries a title calling the residence a <em>yashik</em>i&mdash;usually used to refer to a<em> daimy&#333;&rsquo;</em>s mansion. Yoshikazu&rsquo;s rendering manages to include harbor, mirror, chandelier, carpet, glass windows, dining-room table laden with food and drink, people seated on chairs, kitchen with a wood-burning stove, and well over a dozen men, women, and children&mdash;including a man playing a cello and another getting a shave.<br />
+          <br /></td>
+        </tr>
+        <tr valign="middle">
+          <td height="2" colspan="2" align="center" valign="top"><div class="explore02" id="explore02" ><span class="bottibody"><br /><br />
+                <br />
+                <br /><br />
+</span><a href="y0099.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image223','','image/explore_image02.gif',0);noverlay();noverlayv();noverlayu();"><img src="image/explore_image.gif" alt="Explore this image" name="Image223" width="348" height="67" border="0" title=""  id="Image223"  /></a></div>
+             <a href="javascript:openvcidwindow('gallery/pages/Y0099_Residence.htm')"><img src="image/Y0099_Residence_s.jpg" alt="&ldquo;Picture of a Foreign Residence in Yokohama&rdquo; by Yoshikazu, 1861 [Y0099] Arthur M. Sackler Gallery, Smithsonian Institution" width="565" height="287" border="0" title=""  /></a><br />            <span class="bottiblock">&ldquo;Picture of a Foreign Residence in Yokohama&rdquo; by Yoshikazu, 1861<br />
+            </span><span class="halfer"><br/>
+            </span><span class="bottismall">[Y0099] Arthur M. Sackler Gallery, Smithsonian Institution<br />
+            <br /><br /></span></td>
+        </tr>
+        <tr valign="middle">
+          <td height="0" colspan="2" align="left" valign="top" class="bottibody">These depictions of married couples and mixed gatherings of men and women reveal obvious fascination not merely with &ldquo;family&rdquo; (a familiar Japanese preoccupation), but more particularly with Western women. We know from the diaries and journals of members of the 1860 Japanese mission to the United States that the Japanese were shocked (and, in some cases, attracted) by the dress and behavior of American women, and by relations between men and women more generally. The deference generally shown to women was deemed (as one high official wrote) &ldquo;a most curious custom,&rdquo; and their inclusion in banquets and public ceremonies caught the Japanese completely by surprise. That a man should stand while a woman sat, or walk hand in hand with his wife in public, or bring a glass of water or wine to her was simply astonishing&mdash;to say nothing of ballroom dancing, which made it into one journal as &ldquo;this extraordinary sight of men and bare-shouldered women hopping about the floor, arm in arm.&rdquo;<br />
+            <br />
+            While the bare shoulders rarely made it into the Yokohama prints, the elegantly dressed Caucasian woman with her corseted waist and extraordinary full-skirted crinoline gown was an irresistible subject for the woodblock artists. Indeed, like other pictorial conventions that crept into the &ldquo;Yokohama prints&rdquo;&mdash;the gold-flecked clouds, majestic Mount Fuji, filigreed splash of water<em>, daimy&#333;</em>-like processions of foreigners, blown-away-roof perspective, dramatic sense of urban hustle-bustle in general&mdash;&ldquo;pictures of beauties&rdquo; <em>(bijinga)</em> were well established in the popular culture. (Neither bosom, waist, nor derriere were part of the Japanese canon of feminine beauty, however.) Usually these beauties were women of the pleasure quarters, but the subject might be a shop girl or merchant wife as well.<a name="y0141" id="y0141"></a><br />
+            <br />
+            In the portrait prints of &ldquo;people of the five nations,&rdquo; the Yokohama artists were essentially adapting and coloring the &ldquo;fashion plates&rdquo; that routinely appeared in illustrated foreign publications. In their more congested and animated depictions of the foreigners at play, however, they often went beyond this and brought Japanese and Western beauties together in the same composition. As usual, Sadahide did this with surpassing skill. In a well-known print that can be seen as the &ldquo;upstairs&rdquo; counterpart to his &ldquo;downstairs&rdquo; depiction of merchants doing business and servants tending to menial tasks, he imagined a lively mixed party on the open verandah of &ldquo;a mercantile establishment in Yokohama.&rdquo; <br />
+            <br /></td>
+        </tr>
+        <tr valign="middle">
+          <td height="0" colspan="2" align="center" valign="top"><div class="explore03" id="explore03" ><span class="bottibody"><br /><br />
+                <br />
+                <br /><br />
+</span><a href="y0141.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image224','','image/explore_image02.gif',0);noverlay();noverlayv();noverlayu();"><img src="image/explore_image.gif" alt="Explore this image" name="Image224" width="348" height="67" border="0" title=""  id="Image224" /></a></div><a href="javascript:openvcidwindow('gallery/pages/Y0141_AmericanParty.htm');"><img src="image/Y0141_AmericanParty_s.jpg" alt="&ldquo;Picture of a Mercantile Establishment in Yokohama&rdquo; by Sadahide, 1861 [Y0141] Arthur M. Sackler Gallery, Smithsonian Institution" width="565" height="284" border="0" title=""  /></a><br />
+            <span class="bottiblock">&ldquo;Picture of a Mercantile Establishment in Yokohama&rdquo;<br />
+            by Sadahide, 1861 (details below)<br />
+            </span><span class="halfer"><br/>
+            </span><span class="bottismall">[Y0141] Arthur M. Sackler Gallery, Smithsonian Institution<br />
+            <br />
+            <br />
+            </span></td>
+        </tr>
+       
+        <tr align="left" valign="middle">
+          <td  valign="top" class="bottibody">All kinds of exotica&mdash;Japanese and Western alike&mdash;have been gathered here. Red and white stripes of an American flag flutter in the top corner. Trading vessels anchored in the harbor occupy the background. A lavish Western-style dinner party takes place in a back room, under an elaborate chandelier.
+            <a href="javascript:openvcidwindow('gallery/pages/Y0141_AmericanParty.htm');"> <img src="image/Y0141_AmericanParty_music.jpg"  alt="&ldquo;Picture of a Mercantile Establishment in Yokohama&rdquo; by Sadahide, 1861 [Y0141] Arthur M. Sackler Gallery, Smithsonian Institution" width="397" height="269" hspace="5" vspace="10" border="0" title=""  align="right"/></a>Paintings on the walls include both Mount Fuji and men riding camels. And a cosmopolitan group holds center stage. An elegant geisha observes one of her courtesan colleagues playing a samisen, while a Caucasian beauty holds and strums a viola in the same manner (Sadahide obviously had never seen how Western stringed instruments were actually played).<br />
+            <br /></td>
+        </tr></table>
+	  
+	
+	  
+	   <table width="579" border="0" title=""  cellspacing="0" cellpadding="0">
+        <tr> 
+          <td colspan="2" align="left" valign="top" class="bottibody"><a href="javascript:openvcidwindow('gallery/pages/Y0141_AmericanParty.htm');"><img src="image/Y0141_AmericanParty_queue.jpg" alt="&ldquo;Picture of a Mercantile Establishment in Yokohama&rdquo; by Sadahide, 1861 [Y0141] Arthur M. Sackler Gallery, Smithsonian Institution" width="369" height="270" hspace="5" border="0" title=""  align="left" /></a>Elsewhere on the verandah, a white man dressed in his holiday finest observes an American boy tugging the queue of a Chinese servant, while another Japanese beauty looks on. In the back room, far removed from all this, a second Chinese, clearly of higher status, converses with a Westerner.<a name="y0148" id="y0148"></a></td>
+        </tr>
+       
+      </table>
+	  
+	  	   <table width="579" border="0" title=""  cellspacing="0" cellpadding="0">
+        <tr> 
+          <td colspan="2" align="left" valign="top" class="bottibody"><span class="bottismall"><br />
+          </span><a name="popy0148" id="popy0148"></a>Many of the prints depicting entertainment move the foreigners into a pure Japanese milieu, usually involving the Miyozaki entertainment quarters, where a special establishment (named Gankir&#333;) was reserved for foreign patrons. The same Yoshikazu who managed to get cello playing, shaving, wood-burning stoves, and the harbor into a single print also produced a comparably busy &ldquo;Picture of Foreigners&rsquo; Revelry at the Gankir&#333; in the Miyozaki Quarter of Yokohama.&rdquo;<br />
+          <br /></td>
+        </tr>
+       
+      </table>
+	  
+	  
+	    <table width="579" border="0" title=""  cellspacing="0" cellpadding="0">
+				   <tr> 
+          <td align="center" valign="top"><div class="explore04" id="explore04" ><span class="bottibody"><br /><br />
+                <br />
+                <br /><br />
+</span><a href="y0148.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image225','','image/explore_image02.gif',0);noverlay();noverlayv();noverlayu();"><img src="image/explore_image.gif" alt="Explore this image" name="Image225" width="348" height="67" border="0" title=""  id="Image225" /></a></div><a href="javascript:openvcidwindow('gallery/pages/Y0148_FanRoom_wide.htm');"><img src="image/Y0148_FanRoom_wide_s.jpg" alt="&ldquo;Picture of Foreigners' Revelry at the Gankir&#333; in the Miyozaki Quarter of Yokohama&rdquo; by Yoshikazu, 1861 [Y0148] Arthur M. Sackler Gallery, Smithsonian Institution" width="565" height="289" border="0" title=""  /></a><br />            <span class="bottiblock">&ldquo;Picture of Foreigners' Revelry at the Gankir&#333; in the Miyozaki Quarter of Yokohama&rdquo;<br />
+            by Yoshikazu, 1861 (details below)<br />
+            </span><span class="halfer"><br/>
+            </span><span class="bottismall">[Y0148] Arthur M. Sackler Gallery, Smithsonian Institution<br />
+            <br />
+            <br />
+            </span></td>
+          </tr>
+	    </table>  
+	 
+	  
+	  <table width="579" border="0" title=""  cellspacing="0" cellpadding="0">
+        <tr valign="middle"> 
+          <td height="5" colspan="2" align="left" valign="top" class="bottibody">The center of attention is a group of foreign men enjoying a drinking party in the company of female Japanese entertainers, including two geisha playing samisen. Just as Japanese males would do in the same setting, they sit on the floor, pampered and animated. One has taken his coat off and is doing an impromptu dance. It is easy to imagine them tipsy.<br />
+            <br /></td>
+        </tr>
+        <tr valign="middle">
+          <td height="2" colspan="2" align="center" valign="top"><a href="javascript:openvcidwindow('gallery/pages/Y0148_FanRoom_wide.htm');"><img src="image/Y0148_FanRoom_sake.jpg"  alt="&ldquo;Picture of Foreigners' Revelry at the Gankir&#333; in the Miyozaki Quarter of Yokohama&rdquo; by Yoshikazu, 1861 (details below) [Y0148] Arthur M. Sackler Gallery, Smithsonian Institution"  width="565" height="273" hspace="0" vspace="0" border="0" title=""  /></a></td>
+        </tr>
+        <tr valign="middle">
+          <td height="0" colspan="2" align="left" valign="top" class="bottibody"><span class="bottismall"><br />
+          </span>Barely visible in the upper righthand corner, foreigners enjoy a Western-style dinner. To their left is one of the Gankir&#333;&rsquo;s most famous attractions, known as the Fan Room from the decorations on its sliding doors.<br />
+          <br /> </td>
+        </tr>
+		
+        <tr valign="middle">
+          <td height="2" colspan="2" align="center" valign="top"><img src="image/space.gif" alt="space" width="4" height="200" align="left"/><a href="javascript:openvcidwindow('gallery/pages/Y0148_FanRoom_wide.htm');"><img src="image/Y0148_FanRoom_dinner.jpg"  alt="&ldquo;Picture of Foreigners' Revelry at the Gankir&#333; in the Miyozaki Quarter of Yokohama&rdquo; by Yoshikazu, 1861 (details below) [Y0148] Arthur M. Sackler Gallery, Smithsonian Institution"  width="565" height="276" hspace="0" vspace="0" border="0" title=""  /></a></td>
+        </tr>
+       </table>
+	   <table width="579" border="0" title=""  cellspacing="0" cellpadding="0">
+	  <tr> 
+          <td colspan="2" align="left" valign="top" class="bottibody"><span class="bottismall"><br />
+          </span><a name="y0149" id="y0149"></a>A Yokohama print by another artist, Yoshiiku, actually enters the Fan Room to reveal an unexpected five-nations-plus scene in which the male and female participants&mdash;apart from two high-ranking geisha <em>(oiran)</em> and two little Japanese boys affiliated with the Gankir&#333;&mdash;carry explicit national labels. They represent, Yoshiiku tells us, an English man and woman, Russian man and woman, American man and woman, Frenchman, and Dutchman (identified as &ldquo;Red Hair,&rdquo; a familiar old term attached to the Dutch in Nagasaki). The dancing figure holding center stage is a well-dressed Chinese (called &ldquo;Nanjing&rdquo; in the label).<br />
+          <br /></td>
+        </tr>
+				   <tr> 
+          <td colspan="2" align="center" valign="top"><div class="explore05" id="explore05" ><span class="bottibody"><br /><br />
+                <br />
+                <br /><br />
+</span><a href="y0149.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image226','','image/explore_image02.gif',0);noverlay();noverlayv();noverlayu();"><img src="image/explore_image.gif" alt="Explore this image" name="Image226" width="348" height="67" border="0" title=""  id="Image226"  /></a></div><a href="javascript:openvcidwindow('gallery/pages/Y0149_FanRoom_closeup.htm');"><img src="image/Y0149_FanRoom_closeup_12550.jpg" alt="&ldquo;Picture of Foreigners of the Five Nations Carousing in the Gankir&#333;&rdquo; by Yoshiiku, 1860 [Y0149] Arthur M. Sackler Gallery, Smithsonian Institution" width="565" height="295" border="0" title=""  /></a><br />            <span class="bottiblock">&ldquo;Picture of Foreigners of the Five Nations Carousing in the Gankir&#333;&rdquo; by Yoshiiku, 1860<br />
+            </span><span class="halfer"><br/>
+            </span>
+            <span class="bottismall">[Y0149] Arthur M. Sackler Gallery, Smithsonian Institution<br />
+            <br />
+            <br />
+            </span></td>
+          </tr>
+		<tr>
+          <td colspan="2" align="left" valign="top" class="bottibody">
+            Imaginary as so much of this may have been, this picture-world of &ldquo;Yokohama&rdquo; reflected an animated sense of intermingling rarely found in the cooler and more detached Western illustrations of Japan and the Japanese. While violently anti-Bakufu samurai were clamoring to &ldquo;expel the barbarians,&rdquo; the Yokohama artists and their large domestic audience found the foreigners curious, to be sure, but also accessible and even attractive. The very notion of &ldquo;people of the five nations&rdquo; introduced to a secluded feudal society not merely the unfamiliar concept of the modern nation-state, but also the spectacle of peoples of different races and cultures interacting as equals&mdash;a little showpiece, as it were, of internationalism.<br />
+            <br />
+            Such generally positive impressions were easily accommodated in the tolerant, affirmative, urbane world of woodblock-print imagery. As Foster Rhea Dulles put it, the Yokohama boomtown &ldquo;was a little oasis relatively free from violence and providing a showplace of Western civilization.&rdquo;<br />
+            <br />            
+            The most obvious Western counterpart to the outpouring of Yokohama prints that greeted the opening of the port in 1859 was to be seen in American coverage of the Bakufu&rsquo;s 1860 mission to the United States. Here, too, the &ldquo;foreigners&rdquo; were a sensation. Enthusiastic crowds turned out to see them in every city they visited, and the media was almost unanimous in praising their dignity and decorum. At one point, <em>Harper&rsquo;s Weekly</em> went so far as to comment that &ldquo;civilized as we boast of being, we can learn much of the Japanese.&rdquo; Still, in Western eyes they invariably remained a people apart&mdash;archaically costumed and, with but a few exceptions within the large visiting delegation, reticent and reserved. Social interaction took place entirely at a formal level. There was little sense of private lives.<br />
+            <br />
+            The Yokohama prints, by contrast, celebrated fraternization and even outright sexuality as natural. The entertainment district was, of course, a favorite setting for woodblock artists in general. Now they let the foreigners in, and artists like Yoshitora did not hesitate to go further to depict those erotic encounters between Western men and Japanese women that drove the Western clergymen and other moralists to distraction.<br />
+            <br />
+            His romantic rendering of a bearded foreigner gazing at the moon with a courtesan in the Miyozaki pleasure quarter captured the more expensive end of such liaisons. In another print, titled &ldquo;An American Drinking and Carousing,&rdquo; Yoshitora&rsquo;s mixed couple strikes a scarcely disguised phallic pose together.<br />
+            <br /></td>
+        </tr>
+		<tr> 
+          <td colspan="2" align="center" valign="top"><img src="image/Y0122_Y0145_ce15576.jpg" alt="&ldquo;Autumn Moon at Miyozaki&rdquo;
+by Yoshitora, 1861 [Y0122] Arthur M. Sackler Gallery, Smithsonian Institution &ldquo;American Drinking and Carousing&rdquo; by Yoshitora, 1861 [Y0145] Arthur M. Sackler Gallery, Smithsonian Institution" width="564" height="411" border="0" title=""  usemap="#yoko01" /></td>
+          </tr>
+		<tr>
+		  <td width="289" align="center" valign="top"><span class="bottiblock">&ldquo;Autumn Moon at Miyozaki&rdquo;<br />
+by Yoshitora, 1861
+          </span> <span class="halfer"><br/><br />
+          </span> <span class="bottismall">[Y0122] Arthur M. Sackler Gallery,<br />
+          Smithsonian Institution</span></td>
+		  <td width="290" align="center" valign="top"><span class="bottiblock">&ldquo;American Drinking and Carousing&rdquo;<br />
+		    by Yoshitora, 1861
+          </span> <span class="halfer"><br /><br/>
+          </span> <span class="bottismall">[Y0145] Arthur M. Sackler Gallery,<br />
+Smithsonian Institution<br />
+<br />
+<br />
+          </span></td>
+		</tr>
+		<tr>
+          <td colspan="2" align="left" valign="top" class="bottibody">
+            <a name="y0144" id="y0144"></a>While Western photographers and illustrators of this early period also found the geisha or courtesan or lowly prostitute an enticing subject, they took care to avoid such open suggestion of interracial intimacy. &ldquo;Madame Chrysantheme&rdquo; and &ldquo;Madame Butterfly&rdquo; would come decades later.<a name="popy0144" id="popy0144"></a><br />
+            <br />
+            While the woodblock artists obviously found the people of the five nations fascinating, it was just as natural for them to depict foreigners finding the Japanese fascinating as well. One of Yoshitora&rsquo;s most chaotic prints, for example, amounted to a jumble of &ldquo;Yokohama&rdquo; subjects he had treated individually elsewhere. As piled together here, the &ldquo;amusements&rdquo; of the foreigners included not only riding on horses or in horse-drawn carriages, or purchasing Japanese goods, but also partying in the Miyozaki (drinking sake and listening to the samisen) and attending a Kabuki performance.<br />
+            <br /></td>
+        </tr>
+		</table>
+		  <table width="579" border="0" title=""  cellspacing="0" cellpadding="0">
+				   <tr> 
+          <td align="center" valign="top"><div class="explore06" id="explore06" ><span class="bottibody"><br /><br />
+                <br />
+                <br /><br />
+</span><a href="y0144.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image227','','image/explore_image02.gif',0);noverlay();noverlayv();noverlayu();"><img src="image/explore_image.gif" alt="Explore this image" name="Image227" width="348" height="67" border="0" title=""  id="Image227" /></a></div><a href="javascript:openvcidwindow('gallery/pages/Y0144_Amusements.htm');"><img src="image/Y0144_Amusements_551.jpg" alt="&ldquo;Picture of Amusements of Foreigners in Yokohama in Bush&#363; &ldquo; by Yoshitora, 1861 [Y0144] Arthur M. Sackler Gallery, Smithsonian Institution" width="570" height="283" border="0" title=""  /></a><br />            
+<span class="bottiblock">&ldquo;Picture of Amusements of Foreigners in Yokohama in Bush&#363;&rdquo; by Yoshitora, 1861<br />
+            </span><span class="halfer"><br/>
+            </span><span class="bottismall">[Y0144] Arthur M. Sackler Gallery, Smithsonian Institution<br />
+            <br />
+            <br />
+            </span></td>
+          </tr>
+		<tr>
+          <td colspan="2" align="left" valign="top" class="bottibody">
+            In another scene from the entertainment quarter, Yoshitora&rsquo;s colleague Yoshikazu offered a highly original rendering of a dance performed by young girls for the merchants and their wives. In this composition, the scene is depicted from backstage. It is the Japanese performers who are of central interest, the foreigners but their appreciative audience.<br />
+            <br /> </td>
+        </tr>
+	    </table> 
+		
+	   
+	  
+	   <table width="579" border="0" title=""  cellspacing="0" cellpadding="0">
+        <tr> 
+          <td width="149" align="right" valign="middle" class="bottiblock">&ldquo;Picture of a Children's Dance Performance at the Gankir&#333; in Yokohama&rdquo; by Yoshikazu, 1861<br />
+            (detail)            <p class="bottismall">[Y0146] <br />
+              Arthur M. Sackler Gallery, Smithsonian Institution</p><img src="image/space.gif" width="140" height="5" align="right" alt="space"/><br />            </td>
+          <td width="430" align="right" valign="top" class="bottibody"><a href="javascript:openvcidwindow('gallery/pages/Y0146_Childrens_Dance.htm');"><img src="image/Y0146_dance_frombook_det_s.jpg" alt="&ldquo;Picture of a Children's Dance Performance at the Gankir&#333; in Yokohama&rdquo; by Yoshikazu, 1861 (detail) [Y0146] Arthur M. Sackler Gallery, Smithsonian Institution" width="419" height="319" border="0" title=""  align="top" /></a><br />
+            <br /> <br />
+            <br /></td>
+        </tr>
+
+      </table>
+
+
+
+
+		 <table border="0" cellspacing="0" cellpadding="0" align="left">
+          
+ <tr>
+          <td align="left" valign="top"><span class="bottismall"><img src="../home/image/redline.gif" width="570" height="1"  alt="MIT Visualizing Cultures" title=""/><br/><br/>
+                <a href="javascript:imalert('../home/about.html')"><em>On viewing images of a potentially disturbing nature: click here.</em></a><br />
+                <br/>Massachusetts Institute of Technology &#169; 2008 Visualizing Cultures<br />
+                <br />
+          </span></td>
+          </tr>
+
+
+
+ <tr>
+          <td align="left" valign="top"><div class="bottom"><img src="image/essay_bottom.gif"  alt="MIT Visualizing Cultures" width="970" height="136" border="0" align="left" title=""/></div>
+<div class="essaynavbottom">
+  <table width="622" border="0" cellspacing="0" cellpadding="0" align="left">
+  <tr align="left">
+    <td align="left" width="105"><img src="image/yb_essay_nav_05.gif"  alt="Black Ships &amp; Samurai" name="nav01b" width="622" height="39" border="0" usemap="#Map5" id="nav01b" title=""/></td>
+  </tr>
+</table>
+</div></td>
+          </tr>
+
+
+	  </table>
+</td>
+    <td width="371">&nbsp;</td>
+  </tr>
+</table></div>
+<div class="top"><img src="image/essay_top.gif"  alt="MIT Visualizing Cultures" width="970" height="136" border="0" align="left" title=""/></div>
+
+<!--end background elements -->
+
+<!-- essay nav -->
+<div class="essaynavtop"><table width="622" border="0" cellspacing="0" cellpadding="0" align="left">
+  <tr align="left">
+    <td align="left" width="622"><img src="image/yb_essay_nav_05.gif"  alt="Black Ships &amp; Samurai" name="nav01" width="622" height="39" border="0" usemap="#Map4" id="nav01" title=""/></td>
+  </tr>
+</table>
+</div>
+
+
+<!-- end essay nav -->
+
+<!-- <div class="slug" id="slug"><span class="bottibody2">Massachusetts Institute of Technology &#169; 2008 Visualizing Cultures</span></div> -->
+
+
+<!-- right-hand buttons -->
+
+<!-- <div class="boxwelcome" id="boxwelcome">
+  <a href="y0119a.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image123','','image/woodblock_link02.gif',1);noverlay();noverlayv();noverlayu();"><img src="image/woodblock_link.gif" alt="How a woodblock print is made" name="Image123" width="243" height="198" border="0" id="Image123"  title=""/></a></div> -->
+
+
+
+<div class="boxpdf" id="boxpdf"><a href="pdf/yb_essay_05.pdf" target="_blank"  onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image12','','../home/image/pdf_chap02.gif',1);noverlay();noverlayv();noverlayu();"><img src="../home/image/pdf_chap.gif" alt="Printable PDF of this chapter" name="Image12" width="348" height="67" border="0" id="Image12"  title=""/></a></div>
+
+
+
+
+<!--end  right-hand buttons -->
+
+
+<!-- essay -->
+<div class="essay">
+
+</div>
+<!--end  essay -->
+
+
+</div>
+</div>
+
+
+<!--top bar nav elements -->
+<div class="box14" id="box14" ><table  width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><img src="../home/image/spacer.gif" width="10" height="26"  alt="MIT Visualizing Cultures"/><img src="../home/image/hometopnav01.gif"  alt="Menu" width="227" height="26" border="0" usemap="#topmap"/></td>
+  </tr>
+</table>
+</div>
+
+<div class="box15" id="box15" ><table  width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><img src="../home/image/spacer.gif" width="10" height="27"  alt="MIT Visualizing Cultures"/></td>
+  </tr>
+</table>
+</div>
+
+<div class="navbox" id="hideme"><a  onmouseout="javascript:noverlay();" onmouseover="javascript:overlay();"><img src="../home/image/vc_home_nav.png" alt="MIT Visualizing Cultures" width="202" height="300" border="0" usemap="#Map"  id="Image5"  name="Image5" title="" /></a></div> 
+
+<div class="twit">
+<a href="https://twitter.com/share" class="twitter-share-button" data-count="none">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></div>
+
+<div class="emil"><!--email-->
+<script type="text/javascript"><!--
+
+var SubjectLine='MIT Visualizing Cultures'; 
+var BodyText='You can see this page at: '+top.location.href;
+
+var Message='<A CLASS=contact HREF="mailto:?SUBJECT='+escape(SubjectLine)+'&BODY='+escape(BodyText)+'" OnMouseOver="status=\'Envoyer cette page à vos amis\'; return true;" ><img src="../home/image/email2.gif" alt="Email" name="Image321"   border="0" id="Image321"  title=""/><\/A>';
+
+var MessageIE='<A CLASS=contact HREF="mailto:?SUBJECT='+(SubjectLine)+'&BODY='+(BodyText)+'" OnMouseOver="status=\'Envoyer cette page à vos amis\'; return true;" ><img src="../home/image/email2.gif" alt="Email" name="Image321"   border="0" id="Image321"  title=""/><\/A>';
+
+if(document.all) { document.write(MessageIE); }
+
+else { document.write(Message); }
+
+// http://javascriptsource.com "The JavaScript Source"
+//--></script></div>
+
+
+
+<!--facebook--><div class="fbok">
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<div class="fb-like" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false" data-colorscheme="light" data-font="verdana"></div>
+
+</div> 
+
+<div class="unitsnavbox01" id="unitsnavbox01" ><a  onmouseout="javascript:noverlayu();" onmouseover="javascript:overlayu();"><img src="../home/image/unitstopnav01.gif"  alt="Units" width="227" height="26" border="0"/></a></div>
+ <div class="navboxu" id="hidemeu"><a href="#" onmouseout="javascript:noverlayu();" onmouseover="javascript:overlayu();"><img src="../home/image/vc_units_cur_nav.png" alt="MIT Visualizing Cultures" width="179" height="148" border="0" usemap="#Map3"  id="Image6"  name="Image6" title=""/></a></div> <div class="unitnavbox" id="unitnavbox" ><a  onmouseout="javascript:noverlayv();" onmouseover="javascript:overlayv();"><img src="image/topnav.gif"  alt="Black Ships &amp; Samurai" width="227" height="26" border="0"/></a></div>
+ 
+<div class="navboxv" id="hidemev"><a  onmouseout="javascript:noverlayv();" onmouseover="javascript:overlayv();"><img src="image/yb_nav.png" alt="Black Ships &amp; Samurai"  name="Image7" width="212" height="194" border="0" usemap="#Image7Map"   id="Image7" title=""/>
+    
+</a></div>
+<!--end top bar nav elements -->
+
+
+
+<!--image maps -->
+    <map name="topmap" id="topmap">
+      <area shape="rect" coords="0,0,180,47" href="#" onmouseover="overlay();"  alt="MIT Visualizing Cultures" />
+      <area shape="rect" coords="194,0,300,47" href="#" onmouseover="overlayu();"  alt="VC Units" />
+  </map>
+
+<map name="Map" id="Map">
+      <area shape="rect" coords="0,0,211,39" href="../home/index.html" onmouseover="overlay()" alt="MIT Visualizing Cultures"/>
+      <area shape="rect" coords="0,39,211,66" href="../home/vc01_about.html" target="_top"  alt="About VC" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_02.png',1)"/>      
+      <area shape="rect" coords="0,66,211,96" href="../home/vc02_schol.html" target="_top"  alt="VC Scholars" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_03.png',1)" />
+  <area shape="rect" coords="0,96,211,124" href="../home/vc03_partner.html" target="_top"  alt="Partner Institutions" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_04.png',1)" />
+
+  <area shape="rect" coords="0,124,211,147" href="../home/vc05_outreach.html" target="_top"  alt="Outreach" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_05.png',1)" />
+  <area shape="rect" coords="3,147,211,181" href="../home/vc06_event.html" target="_top"  alt="Conferences &amp; Events" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_06.png',1)" />
+  <area shape="rect" coords="3,181,211,214" href="mailto:visualizingcultures@mit.edu" target="_top"  alt="Contact" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_07.png',1)" />
+ <area shape="rect" coords="1,214,212,240" href="http://www.facebook.com/home.php#!/group.php?gid=261831254970&amp;ref=ts" target="_blank"  alt="Join Us" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_08.png',1)" />
+  <area shape="rect" coords="0,240,211,266" href="http://twitter.com/Visualizing_Cul" target="_blank"  alt="Follow Us" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_09.png',1)" />
+</map><map name="Map3" id="Map3">
+  
+<area shape="rect" coords="0,2,312,30" href="../home/vis_menu.html" target="_top" alt="Units" onmouseout="noverlayu();MM_swapImgRestore()" onmouseover="overlayu();" />
+
+<area shape="rect" coords="2,38,314,68" href="../home/vis_menu.html" target="_top" alt="Icon View" onmouseout="noverlayu();MM_swapImgRestore()" onmouseover="overlayu();MM_swapImage('Image6','','../home/image/vc_units_cur_nav_01.png',1)" />
+
+<area shape="rect" coords="0,67,312,95" href="../home/vis_menu_02b.html" target="_top" alt="Text View" onmouseout="noverlayu();MM_swapImgRestore()" onmouseover="overlayu();MM_swapImage('Image6','','../home/image/vc_units_cur_nav_02.png',1)" />
+
+<area shape="rect" coords="1,94,313,122" href="../home/vis_menu_03.html" target="_top" alt="Curriculae" onmouseout="noverlayu();MM_swapImgRestore()" onmouseover="overlayu();MM_swapImage('Image6','','../home/image/vc_units_cur_nav_03.png',1)" /></map>
+<map name="Image7Map" id="Image7Map">
+  <area shape="rect" coords="0,2,212,30" href="index.html" target="_top" alt="Black Ships &amp; Samurai" onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();" />
+      <area shape="rect" coords="0,30,215,70" href="yb_essay01.html" target="_top" alt="Essay" onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();MM_swapImage('Image7','','image/yb_nav_02.png',1)" />
+  <area shape="rect" coords="0,70,215,95" href="yb_visnav01.html" target="_top" alt="Visual Narratives" onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();MM_swapImage('Image7','','image/yb_nav_03.png',1)" />
+<area shape="rect" coords="0,95,215,130" href="woodblock.html" target="_top" alt="Making a Woodblock Print" onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();MM_swapImage('Image7','','image/yb_nav_04.png',1)" />
+  <area shape="rect" coords="0,130,215,155" href="javascript:openvcidwindow('gallery/index.htm')" target="_top" alt="Image Database" onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();MM_swapImage('Image7','','image/yb_nav_05.png',1)" />
+  <area shape="rect" coords="0,155,215,185" href="javascript:opencurwindow('cur_student/yb_cur_toc.html')" target="_top" alt="Curriculum" onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();MM_swapImage('Image7','','image/yb_nav_06.png',1)" />
+</map>
+<map name="Map4" id="Map4">
+<area shape="rect" coords="0,0,100,39"   href="yb_essay01.html" onmouseover="MM_swapImage('nav01','','image/yb_essay_nav_01.gif',1);noverlay();noverlayv();noverlayu();" onmouseout="MM_swapImgRestore()" alt="Introduction"/> 
+ <area shape="rect" coords="100,0,164,39" href="yb_essay02.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01','','image/yb_essay_nav_02.gif',1);noverlay();noverlayv();noverlayu();"  alt="Chaos"/>
+  <area shape="rect" coords="164,0,252,39" href="yb_essay03.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01','','image/yb_essay_nav_03.gif',1);noverlay();noverlayv();noverlayu();"  alt="Commerce"/>
+ <area shape="rect" coords="252,0,337,39" href="yb_essay04.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01','','image/yb_essay_nav_04.gif',1);noverlay();noverlayv();noverlayu();"  alt="Boomtown"/>
+     <!--  <area shape="rect" coords="337,0,430,39" href="yb_essay05.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01','','image/yb_essay_nav_05.gif',1);noverlay();noverlayv();noverlayu();"  alt="Interactions"/>-->
+  <area shape="rect" coords="430,0,544,39" href="yb_essay06.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01','','image/yb_essay_nav_06.gif',1);noverlay();noverlayv();noverlayu();"  alt="Internationalism"/>
+  <area shape="rect" coords="544,0,622,39" href="yb_essay07.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01','','image/yb_essay_nav_07.gif',1);noverlay();noverlayv();noverlayu();"  alt="Sources"/>
+</map>
+
+
+<map name="Map5" id="Map5">
+<area shape="rect" coords="0,0,100,39"   href="yb_essay01.html" onmouseover="MM_swapImage('nav01b','','image/yb_essay_nav_01.gif',1);noverlay();noverlayv();noverlayu();" onmouseout="MM_swapImgRestore()" alt="Introduction"/>
+ <area shape="rect" coords="100,0,164,39" href="yb_essay02.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01b','','image/yb_essay_nav_02.gif',1);noverlay();noverlayv();noverlayu();"  alt="Chaos"/>
+ <area shape="rect" coords="164,0,252,39" href="yb_essay03.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01b','','image/yb_essay_nav_03.gif',1);noverlay();noverlayv();noverlayu();"  alt="Commerce"/> 
+  <area shape="rect" coords="252,0,337,39" href="yb_essay04.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01b','','image/yb_essay_nav_04.gif',1);noverlay();noverlayv();noverlayu();"  alt="Boomtown"/>
+     <!--  <area shape="rect" coords="337,0,430,39" href="yb_essay05.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01b','','image/yb_essay_nav_05.gif',1);noverlay();noverlayv();noverlayu();"  alt="Interactions"/>-->
+  <area shape="rect" coords="430,0,544,39" href="yb_essay06.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01b','','image/yb_essay_nav_06.gif',1);noverlay();noverlayv();noverlayu();"  alt="Internationalism"/>
+  <area shape="rect" coords="544,0,622,39" href="yb_essay07.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01b','','image/yb_essay_nav_07.gif',1);noverlay();noverlayv();noverlayu();"  alt="Sources"/>
+</map>
+
+<!-- body image maps-->
+<map name="yoko01" id="yoko01">
+  <area shape="rect" coords="7,5,269,398" href="javascript:openvcidwindow('gallery/pages/Y0122_American_Courtesan.htm');" alt="&ldquo;Autumn Moon at Miyozaki&rdquo; by Yoshitora, 1861 [Y0122] Arthur M. Sackler Gallery, Smithsonian Institution" />
+  <area shape="rect" coords="287,5,550,398" href="javascript:openvcidwindow('gallery/pages/Y0145_American_Courtesan.htm');" alt="&ldquo;American Drinking and Carousing&rdquo; by Yoshitora, 1861 [Y0145] Arthur M. Sackler Gallery, Smithsonian Institution" />
+</map>
+</body>
+</html>

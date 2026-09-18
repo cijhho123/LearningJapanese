@@ -1,0 +1,866 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/tr/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>MIT Visualizing Cultures</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+
+
+<style type="text/css">
+<!--
+
+.backg {
+	position:absolute;
+	left:0px;
+	top:180px;
+	z-index: 1;
+background-image:url(../gt_japan_people/image/essay_bck.gif);
+}
+.top {
+	position:absolute;
+	left:0px;
+	top:45px;
+	z-index: 2;
+}
+.bottom {
+	position:absolute;
+	left:0px;
+	z-index: 2;
+}
+.essaynavtop {
+	position:absolute;
+	left:0px;
+	top:142px;
+	z-index: 3;
+}
+.essaynavbottom {
+	position:absolute;
+	left:0px;
+	z-index: 3;
+}
+.essay {
+	position:absolute;
+	left:20px;
+	top:195px;
+	z-index: 4;
+	background-color:#FFFFFF;
+}
+.flashy {
+	position:absolute;
+	left:467px;
+	top:42px;
+	z-index: 3;
+}
+.slug {        position:absolute;
+        left:20px;
+        top:475px;
+        width:476px;
+		z-index:2;
+		text-align:left;
+}
+.navbox {
+		position: fixed;
+        left:10px;
+        top:0px;
+		z-index: 5;
+		visibility:hidden;
+}
+.unitsnavbox01 {
+        position:fixed;
+        left:200px;
+        top:0px;
+		z-index:5;
+}
+.unitnavbox {
+        position:fixed;
+        left:271px;
+        top:0px;
+		z-index:6;
+}
+.navboxu {
+		position: fixed;
+        left:200px;
+        top:0px;
+		z-index: 6;
+		visibility:hidden;	 
+}
+.navboxv {
+		position: fixed;
+        left:271px;
+        top:0px;
+		z-index: 7;
+		visibility:hidden;	 
+}
+.box14 {
+        position:fixed;
+        left:0px;
+        top:0px;
+		z-index:5;
+		background-color:#222222;
+		width:100%
+}
+.box15 {
+        position:fixed;
+        left:0px;
+        top:0px;
+		z-index:4;
+	    width: 100%;
+		background-color:#504B48
+}
+.box16 {        position:fixed;
+        left:0px;
+        top:23px;
+		z-index:4;
+	width: 100%;
+background-color:#2F302F 
+}
+.popupb {        position:absolute;
+        left:624px;
+        top:870px;
+		z-index:4;
+}
+.popupc {        position:absolute;
+        left:624px;
+        top:7320px;
+		z-index:4;
+}
+.popupd {        position:absolute;
+        left:624px;
+        top:6460px;
+		z-index:4;
+}
+.boxtoalink {        position:absolute;
+        left:624px;
+        top:1294px;
+		z-index:4;
+}
+.boxpdf {        position:absolute;
+        left:621px;
+        top:410px;
+		z-index:4;
+}
+.box01 { 
+		position: static;
+		top: 20%;
+		left: 20%;
+}
+#horizon        
+	{
+	text-align: center;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 1px;
+	overflow: visible;
+	visibility: visible;
+	display: block
+	}
+
+#content    
+	{
+	margin-left: -485px;
+	position: absolute;
+	top: 0px;
+	left: 50%;
+	width: 250px;
+	height: 70px;
+	visibility: visible;
+
+	}
+.monkeybox {        position:absolute;
+        left:624px;
+		z-index:4;
+		line-height:20px;
+}
+.bottibody {color: #111111; font-size: 13px; line-height: 19px; font-family: Verdana, Arial, Helvetica, sans-serif
+	}
+.bottibody2 {color: #ffffff; font-size: 11px; line-height: 16px; font-family: Verdana, Arial, Helvetica, sans-serif
+	}
+.bottiblock {
+	color: #2D2D2D;
+	font-size: 15px;
+	line-height: 19px;
+	/*font-family: Georgia, "Times New Roman", Times, serif;*/
+	font-family: Times New Roman, Times, serif;
+	font-style: italic;
+	}
+.bottiblockplain {
+	color: #2D2D2D;
+	font-size: 15px;
+	line-height: 19px;
+	/*font-family: Georgia, "Times New Roman", Times, serif;*/
+	font-family:   Times New Roman, Times, serif;
+	font-style: normal;
+	}
+.bottismall {
+	color: #333333;
+	font-size: 9px;
+	line-height: 12px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-style: normal;
+	}
+.head { color: #3C6382; font-size: 15px; line-height: 19px; font-family: Verdana, Arial, Helvetica, sans-serif
+	}
+.halfer { color: #ffffff; font-size: 6px; line-height: 6px; font-family: Verdana, Arial, Helvetica, sans-serif
+	}
+a:link {
+        color:#1233FF;
+        text-decoration:none;
+    }
+ a:active { 
+		color:#1233FF;
+        text-decoration:none;
+	}
+a:visited {
+		color:#1233FF;
+        text-decoration:none;
+	}
+a:hover {
+		color:#1233FF;
+        text-decoration:underline;
+	}
+.twit {
+		position: fixed;
+        top: 2px;
+        left: 810px;
+		z-index: 7;
+		
+}
+.emil{
+		position: fixed;
+        top: 4px;
+        left: 876px;
+		z-index: 7;
+		
+}
+.fbok{
+		position: fixed;
+        top: 2px;
+        left: 916px;
+		z-index: 7;
+		width: 48px;
+		overflow:hidden;
+}
+-->
+</style>
+
+
+<script language="JavaScript" type="text/JavaScript">
+<!--
+//rollovers for menus
+function overlay() {
+        el = document.getElementById("hideme");
+        el.style.visibility ="visible";
+		noverlayu();
+		noverlayv();
+}
+
+function noverlay() {
+        el = document.getElementById("hideme");
+        el.style.visibility ="hidden";
+}
+
+
+function overlayu() {
+        el = document.getElementById("hidemeu");
+        el.style.visibility ="visible";
+		noverlay();
+		noverlayv();
+}
+function noverlayu() {
+        el = document.getElementById("hidemeu");
+        el.style.visibility ="hidden";
+}
+
+
+function overlayv() {
+        el = document.getElementById("hidemev");
+        el.style.visibility ="visible";
+		noverlay();
+		noverlayu();
+}
+function noverlayv() {
+        el = document.getElementById("hidemev");
+        el.style.visibility ="hidden";
+}
+
+
+
+
+function sesame() {
+window.moveTo(0,0);        
+window.resizeTo(1350,screen.height);
+}
+
+
+window.onload=function()
+{
+	//sesame();
+	noverlay();
+	noverlayu();
+	MM_preloadImages('../home/image/vc_units_nav_11.png','../home/image/vc_units_nav_01.png','../home/image/vc_units_nav_07.png','../home/image/vc_home_nav_02.png','../home/image/essay_icon02.gif','../home/image/vn_icon02.gif','../home/image/pdf_chap02.gif','../home/image/go_toa02.gif','image/ar_nav_04.png','image/ar_nav_02.png','image/ar_nav_03.png','image/ar_essay_nav_01.gif','image/ar_essay_nav_02.gif','image/ar_essay_nav_03.gif','image/ar_essay_nav_04.gif','image/ar_essay_nav_05.gif','image/ar_essay_nav_06.gif','../home/image/popup02.gif','../home/image/popup_c02.gif','../home/image/popup_b02.gif','../home/image/popup_d02.gif','../home/image/vc_home_nav_03.png','../home/image/vc_home_nav_04.png','../home/image/vc_home_nav_05.png','../home/image/vc_home_nav_06.png','../home/image/vc_home_nav_07.png','../home/image/vc_home_nav_08.png');
+}
+var newwindow = '';
+
+function imalert(url)
+{
+	if (!newwindow.closed && newwindow.location)
+	{
+		newwindow.location.href = url;
+	}
+	else
+	{
+		newwindow=window.open(url,'windowtwo','height=360,width=586, toolbar=no,  resizable=yes, status=no, scrollbars=yes');
+		if (!newwindow.opener) newwindow.opener = self;
+	}
+	if (window.focus) {newwindow.focus()}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//
+var vcidwindow = '';
+
+function openvcidwindow(url)
+{
+	if (!vcidwindow.closed && vcidwindow.location)
+	{
+		vcidwindow.location.href = url;
+	}
+	else
+	{
+		vcidwindow=window.open(url,'vcid','height=950,width=1000, toolbar=yes, scrollbars=yes, resizable=yes, location=yes');
+		if (!vcidwindow.opener) vcidwindow.opener = self;
+	}
+	if (window.focus) {vcidwindow.focus()
+	}
+	} 
+
+
+
+ var curwindow = '';
+
+function opencurwindow(url)
+{
+	if (!curwindow.closed && curwindow.location)
+	{
+		curwindow.location.href = url;
+	}
+	else
+	{
+		curwindow=window.open(url,'curriculum','height=800,width=720, toolbar=yes, scrollbars=yes, resizable=yes,  location=yes');
+		if (!curwindow.opener) curwindow.opener = self;
+	}
+	if (window.focus) {curwindow.focus()
+	}
+	} 
+//-->
+</script>
+<script type="text/javascript">
+<!--
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." :
+"http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost +
+"google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+//-->
+</script>
+<script type="text/javascript">
+<!--
+try {
+var pageTracker = _gat._getTracker("UA-12446158-1");
+pageTracker._trackPageview();
+} catch(err) {}
+//-->
+</script></head>
+<body bgcolor="#252422">
+<div  id="horizon">
+<div  id="content">
+<!--background elements -->
+
+<div class="top"><img src="image/essay_top.gif"  alt="MIT Visualizing Cultures" width="970" height="136" border="0" align="left" title=""/></div>
+<!--end background elements -->
+<!-- essay nav -->
+<div class="essaynavtop"><table width="622" border="0" cellspacing="0" cellpadding="0" align="left">
+  <tr align="left">
+    <td align="left" width="105"><img src="image/ar_essay_nav_04.gif"  alt="Asia Rising" name="nav01" width="622" height="39" border="0" usemap="#Map4" id="nav01" title=""/></td>
+  </tr>
+</table>
+</div>
+
+<!-- end essay nav -->
+<!-- <div class="slug" id="slug"><span class="bottibody2">Massachusetts Institute of Technology &#169; 2008 Visualizing Cultures</span></div> -->
+<!-- right-hand buttons -->
+<!-- <div class="popupb" id="popupb"><a href="javascript:openvcidwindow('silhouette.html')" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image98','','../home/image/popup_b02.gif',1);noverlay();noverlayv();noverlayu();"><img src="../home/image/popup_b.gif" alt="pop-up" name="Image98" width="348" height="67" border="0" id="Image98" title=""/></a></div>
+
+<div class="popupc" id="popupc"><a href="javascript:openvcidwindow('post_wood_print_mode.html')" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('furious','','../home/image/popup_c02.gif',1);noverlay();noverlayv();noverlayu();"><img src="../home/image/popup_c.gif" alt="pop-up" name="furious" width="348" height="110" border="0" id="furious" title=""/></a></div>
+
+
+<div class="popupd" id="popupd"><a href="javascript:openvcidwindow('togo.html')" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('togo','','../home/image/popup_d02.gif',1);noverlay();noverlayv();noverlayu();"><img src="../home/image/popup_d.gif" alt="pop-up" name="togo" width="348" height="67" border="0" id="togo" title=""/></a></div>
+
+<div class="boxtoalink" id="boxtoalink"><a href="javascript:alert('Sorry, this unit is unavailable in this demonstration.')" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image11','','../home/image/go_toa02.gif',1);noverlay();noverlayv();noverlayu();"><img src="../home/image/go_toa.gif" alt="Visual Narrative" name="Image11" width="243" height="276" border="0" id="Image11" title=""/></a></div> -->
+<div class="boxpdf" id="boxpdf"><a href="pdf/ar_essay_04.pdf" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image12','','../home/image/pdf_chap02.gif',1);noverlay();noverlayv();noverlayu();" target="_blank" ><img src="../home/image/pdf_chap.gif" alt="Printable PDF of this chapter" name="Image12" width="348" height="67" border="0" id="Image12"  title=""/></a></div>
+
+
+<!--end  right-hand buttons -->
+
+
+<!-- essay -->
+<div class="backg">
+<table width="970" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="20">&nbsp;</td>
+    <td width="579" ><table width="579" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td  align="left" valign="top" class="bottibody">  <span class="head"><br />
+            Celebration</span><span class="halfer"><br />
+                <br /></span>&ldquo;Women back home&rdquo; were an integral part of the postcard boom, and artists devoted almost as much time to the home front as they did to the battlefront. Unlike the earlier war against China, where Japanese fatalities were relatively light, close to 100,000 Japanese perished in the Russo-Japanese War. The sense of ultimate sacrifice was always present, and picture postcards did not exclude the grieving widow and orphaned child from their subject matter.<br /><br /></td>
+        </tr></table>
+		
+		 <table width="579" border="0" cellspacing="0" cellpadding="0">
+
+<tr>
+              <td colspan="2" align="center" class="bottiblock"><a href="javascript:openvcidwindow('gallery/pages/2002_3371.htm');"><img src="image/2002_3371_s.jpg" alt="&ldquo;Surviving Members of a Family&rdquo; Artist unknown, 1904-05 [2002.3371] Leonard A. Lauder Collection, Museum of Fine Arts, Boston" width="565" height="319" border="0" /></a> </td>
+           </tr>
+ <tr align="center" valign="top"> 
+          <td colspan="2" class="bottiblock" align="center"><img src="image/space.gif" alt="space" title="" width="35" height="150" align="left"/><img src="image/space.gif" width="35" height="150" align="right" alt="space" title=""/>Japanese postcards did not shy away from the hardship and sacrifice the war imposed on families back home. This rendering of a war widow with her little boy incorporates a memorial service for the war dead and a scene of the Sh&#333;konsha at Yasukuni Shrine, where the souls of those who died for the emperor were enshrined.<span class="bottismall"><span class="halfer"><br />
+                <br />
+          </span></span>&ldquo;Surviving Members of a Family&rdquo;<span class="bottismall"><br />
+          [2002.3371]</span><span class="bottismall"><br/><br /><br />
+          </span></td>
+        </tr>
+<tr align="left" valign="top"> 
+          <td colspan="2" class="bottibody">Most often, however, the message was one of concerned but optimistic support for the men on the front. Wives dreamed of their husbands celebrating victory in battle. They waited patiently with their children for heroic homecomings, and devoured letters sent from the front. Women sewed clothing for the military and joined in making the &ldquo;thousand-stitch belly warmers&rdquo; (<em>senninbari</em>) that symbolized an intimate relationship between brave men abroad and their communities back home. (In theory, a different girl or woman added each of the thousand decorative stitches on these stomach warmers.) Schoolgirls in their distinctive uniforms lined up to offer a ceremonial banzai for the men at the front. Fashionable Japanese women (sometimes virtually indistinguishable from high-society Caucasian ladies) saw troops off with flowers at the railway station.<br /><br /></td>
+        </tr>
+	  </table>
+		 <table width="579" border="0" cellspacing="0" cellpadding="0">
+
+<tr>
+              <td colspan="2" align="center" class="bottiblock"><a href="javascript:openvcidwindow('gallery/pages/2002_3370.htm');"><img src="image/2002_3370_s.jpg" alt="&ldquo;Occupation of Nanshan and Dream of the Homes&rdquo; Artist unknown, 1904-05 [2002.3370] Leonard A. Lauder Collection, Museum of Fine Arts, Boston" width="565" height="319" border="0" /></a> </td>
+          </tr>
+	   
+
+
+<tr>
+              <td colspan="2" align="center" class="bottiblock"><img src="image/spacer.gif" width="70" height="40" align="left" alt="space" title=""/><img src="image/spacer.gif" width="70" height="40" align="right" alt="space" title=""/><!-- Images of domestic support for the troops abroad often featured women and children. Wives dreamed of their husband&rsquo;s heroism, read letters sent from the front, and sewed shirts and &ldquo;thousand stitch&rdquo; stomach warmers. In one subtle design, uniformed upper-school girls offered a &ldquo;<span class="bottiblockplain">banzai</span>&rdquo; cheer for the military. Elegant high-class ladies wearing the latest Western fashions saw the troops off at railway stations.<span class="halfer"><br />
+                  <br />
+            </span> -->&ldquo;Occupation of Nanshan and Dream of the Homes&rdquo;<span class="bottismall"><br />
+            [2002.3370]<br />
+              <br />
+              <br />
+              </span></td>
+          </tr> 
+ </table>
+		 <table width="579" border="0" cellspacing="0" cellpadding="0">
+<tr>
+            <td width="297" align="center" class="bottiblock" valign="top"><a href="javascript:openvcidwindow('gallery/pages/2002_3182.htm');"><img src="image/2002_3182_s.jpg" alt="&ldquo;Mother and Child Giving a Soldier a Send-Off&rdquo;  Artist unknown, 1904-05 [2002.3371] Leonard A. Lauder Collection, Museum of Fine Arts, Boston" width="282" height="428" border="0" /></a><br/>
+            &ldquo;Mother and Child Giving a<br />
+            Soldier a Send-Off&rdquo;<span class="bottismall"><br />
+            [2002.3182]<br />
+            <br />
+            <br />
+            </span>
+            <a href="javascript:openvcidwindow('gallery/pages/2002_3515.htm');"><img src="image/2002_3515_s.jpg" alt="&ldquo;Mother and Child Holding the Japanese Flag&rdquo;  Artist unknown, 1906 [2002.3515] Leonard A. Lauder Collection, Museum of Fine Arts, Boston" width="282" height="442" border="0" /></a><br />
+            &ldquo;Mother and Child Holding the<br />
+            Japanese Flag,&rdquo; 1906<span class="bottismall"><br />
+            [2002.3515]<br />
+            <br />
+            <br /></span>
+            <a href="javascript:openvcidwindow('gallery/pages/2002_6865.htm');"><img src="image/2002_6865_s.jpg" alt="&ldquo;Letter from the Front&rdquo;  Artist unknown, 1904-05 [2002.6865] Leonard A. Lauder Collection, Museum of Fine Arts, Boston" width="282" height="419" border="0" /></a><br />            
+            &ldquo;Letter from the Front&rdquo; <span class="bottismall"><br />
+            [2002.6865]
+            <br /><br /><br /></span>
+            </td>
+          <td width="282" align="center" class="bottiblock" valign="top"><a href="javascript:openvcidwindow('gallery/pages/2002_5180.htm');"><img src="image/2002_5180_s.jpg" alt="&ldquo;Returning Home&rdquo;  Artist unknown, 1904-05 [2002.5180] Leonard A. Lauder Collection, Museum of Fine Arts, Boston" width="282" height="434" border="0" /></a><br />
+            &ldquo;Returning Home&rdquo;<span class="bottismall"><br />
+[2002.5180]<br /><br /><br />
+</span>
+<br />
+ <a href="javascript:openvcidwindow('gallery/pages/2002_5130.htm');"><img src="image/2002_5130_s.jpg" alt="&ldquo;Commemoration of the Ceremony of the Army Triumphant Return&rdquo;  Artist unknown, 1904-05 [2002.5130] Leonard A. Lauder Collection, Museum of Fine Arts, Boston" width="282" height="424" border="0" /></a><br />
+&ldquo;Commemoration of the Ceremony of the Army's Triumphant Return&rdquo; <span class="bottismall"><br />
+[2002.5130]<br /><br />
+<br />
+
+</span><br /> <a href="javascript:openvcidwindow('gallery/pages/2002_5125.htm');"><img src="image/2002_5125_s.jpg" alt="&ldquo;News from the Seat of the War&rdquo;  Artist unknown, 1904-05 [2002.5125] Leonard A. Lauder Collection, Museum of Fine Arts, Boston" width="282" height="430" border="0" /></a><br />
+&ldquo;News from the Seat of the War&rdquo; <span class="bottismall"><br />
+[2002.5125] <br />
+<br />
+<br /></span></td>
+</tr>
+
+<!-- <tr align="left" valign="top"> 
+          <td colspan="2" class="bottibody"><img src="image/space.gif" alt="space" title="" width="17" height="120" align="left"/><img src="image/space.gif" width="16" height="120" align="right" alt="space" title=""/>Women sewed clothing for the military and joined in making the &ldquo;thousand-stitch belly warmers&rdquo; (<em>senninbari</em>) that symbolized an intimate relationship between brave men abroad and their communities back home. (In theory, a different girl or woman added each of the thousand decorative stitches on these stomach warmers.) Schoolgirls in their distinctive uniforms lined up to offer a ceremonial banzai for the men at the front. Fashionable Japanese women (sometimes virtually indistinguishable from high-society Caucasian ladies) saw troops off with flowers at the railway station. </td>
+        </tr> -->
+<tr>
+            <td width="297" align="center" valign="top" class="bottiblock"><a href="javascript:openvcidwindow('gallery/pages/2002_3181.htm');"><img src="image/2002_3181_s5422_Copy.jpg" alt="&ldquo;Woman Sewing for a Soldier&rdquo;  Artist unknown, 1904-05 [2002.3181] Leonard A. Lauder Collection, Museum of Fine Arts, Boston" width="282" height="429" border="0" /></a><br />              
+              &ldquo;Woman Sewing for a Soldier&rdquo;<span class="bottismall"><br />
+            [2002.3181]<br />
+            <br />
+            <br /></span>
+              <a href="javascript:openvcidwindow('gallery/pages/2002_5133.htm');"><img src="image/2002_5133_s5419_Copy.jpg" alt="&ldquo;School Girls' Banzai&rdquo;  Artist unknown, 1904-05 [2002.5133] Leonard A. Lauder Collection, Museum of Fine Arts, Boston" width="282" height="427" border="0" /></a><br />            
+              &ldquo;School Girls' <span class="bottiblockplain">Banzai</span>&rdquo; <span class="bottismall"><br />
+            [2002.5133]
+         <br /><br />
+         <br /></span>
+            </td>
+              <td width="282" align="center" valign="top" class="bottiblock"><a href="javascript:openvcidwindow('gallery/pages/2002_5244.htm');"><img src="image/2002_5244_s5421_Copy.jpg" alt="&ldquo;With Whole Heart&rdquo;  Artist unknown, 1906 [2002.5244] Leonard A. Lauder Collection, Museum of Fine Arts, Boston" width="282" height="424" border="0" /></a><br />                
+                &ldquo;With Whole Heart&rdquo;<span class="bottismall"><br />
+[2002.5244]<br />
+<br />
+<br />
+</span> <a href="javascript:openvcidwindow('gallery/pages/2002_5179.htm');"><img src="image/2002_5179_s5420_Copy.jpg" alt="&ldquo;Ujima&rdquo;  Artist unknown, 1904-05 [2002.5179] Leonard A. Lauder Collection, Museum of Fine Arts, Boston" width="282" height="430" border="0" /></a><br />
+&ldquo;Ujima&rdquo; <span class="bottismall"><br />
+[2002.5179]<br />
+ <br />
+<br /></span>
+            </td>
+</tr>
+<tr align="left" valign="top"> 
+          <td colspan="2" class="bottibody">By far the most eye-catching &ldquo;war&rdquo; postcards seemed, at first glance, as far removed from carnage and sacrifice as could possibly be imagined. Almost amounting to a little sub-genre, these depicted victory celebrations at home and the popular frenzy for glorious &ldquo;news&rdquo; from the front.<br />
+            <br />
+          In one of the more conventional but instructive postcard depictions of domestic war coverage, a traditionally dressed young woman stands in the doorway of a news shop that displays a large rising sun flag. All kinds of war reportage surround her. Newspaper street vendors hawk a special edition (the English caption on this bilingual card reads &ldquo;Extra of Victory&rdquo;). Two uniformed policemen and a male pedestrian in Western dress peruse the papers, while two other men wearing straw boaters read the news posted on the shop front itself. Woodblock war prints are also on display, alongside a nice self-referential touch: numerous postcards.<br />
+          <br /></td>
+        </tr>
+<tr> 
+          <td colspan="2" align="center" valign="top" class="bottiblock"><img src="image/2002_5267_2406_s.jpg" alt="Leonard A. Lauder Collection, Museum of Fine Arts, Boston" width="565" height="439" border="0" usemap="#5267Map" /></td>
+          </tr>
+ <tr>
+              <td align="center" valign="top" class="bottiblock"><img src="image/spacer.gif" width="70" height="50" align="left" alt="space" title=""/><img src="image/spacer.gif" width="10" height="50" align="right" alt="space" title=""/>&ldquo;Latest News from Seat of War&rdquo; <span class="bottismall"><br />
+            [2002.2406]<br />
+<br />
+<br />
+</span></td>
+              <td align="center" valign="top" class="bottiblock"><img src="image/spacer.gif" width="50" height="50" align="left" alt="space" title=""/><img src="image/spacer.gif" width="70" height="50" align="right" alt="space" title=""/>&ldquo;Extra of Victory&rdquo; <span class="bottismall"><br />
+[2002.5267]</span></td>
+</tr>
+ </table>
+		 <table width="579" border="0" cellspacing="0" cellpadding="0">
+
+ <tr> 
+          <td colspan="2" align="left" valign="top" class="bottibody">Other illustrators found this communications boom not only appropriate as a subject, but also conducive to exceptionally energetic compositions. On one picture postcard, for instance, a newspaper vendor with tiny flags in his headband runs straight at the viewer. In another absolutely sensational rendering&mdash;done entirely in black and white against a red background&mdash;vendors hawk their papers while two stylish, anglicized gentlemen stroll into the scene engrossed in a newspaper they hold between them. (While this rendering is a fine example of the fresh eye artists brought to the scene, the lively street vendors might almost have run out of one of Hokusai&rsquo;s famous mid-19th-century sketchbooks of ordinary people in every imaginable pose.)<br /><br /></td>
+        </tr>
+<tr> 
+          <td width="297" align="right" valign="top" class="bottiblock"><a href="javascript:openvcidwindow('gallery/pages/2002_1580.htm');"><img src="image/2002_1580_s.jpg" alt="&ldquo;Newspaper Man Rushing in the Latest&rdquo;  Artist unknown, 1904-05 [2002.1580] Leonard A. Lauder Collection, Museum of Fine Arts, Boston" width="282" height="439" border="0" align="right" /></a></td>
+          <td width="282" align="center" valign="middle" class="bottiblock">
+            Celebration of the war was often indistinguishable from celebration of Japan&rsquo;s rapid Westernization and modernization&mdash;which included a great boom in mass communications. In this milieu, &ldquo;news of the war&rdquo; became, in and of itself, a popular subject for postcards. This emerged in depictions of traditional shops selling war prints and postcards, as well as scenes of hawking the latest news from the front. Rival newsboys butted heads, and crowds gathered around news sheets posted in public places. Some postcards not only depicted highly-Westernized &ldquo;modern men&rdquo; devouring the news, but also did so in a strikingly fashionable &ldquo;art nouveau&rdquo; style. <br />            
+            <br />
+           
+           &ldquo;Newspaper Man Rushing in the Latest&rdquo; <span class="bottismall"><br />
+[2002.1580]<br /><img src="image/space.gif" width="281" height="15" alt="space" title="" />
+          </span></td>
+</tr>
+ </table>
+		 <table width="579" border="0" cellspacing="0" cellpadding="0">
+
+<tr> 
+          <td align="center" valign="top" class="bottiblock"><img src="image/2002_0926_news7_s.jpg" alt="Leonard A. Lauder Collection, Museum of Fine Arts, Boston" width="565" height="1670" border="0" usemap="#0926Map" /></td>
+          </tr>
+<tr>
+              <td colspan="2" align="center" class="bottiblock"><img src="image/spacer.gif" width="35" height="310" align="left" alt="space" title=""/><img src="image/spacer.gif" width="35" height="310" align="right" alt="space" title=""/>&ldquo;Newsboy Selling Extras&rdquo; (left, with hand-written message)<span class="bottismall"><br />
+            [2002.3335]</span><span class="halfer"><br />
+                <br />
+            </span>
+            &ldquo;The Newsboys Selling Extras&rdquo; (right, with hand-written message)<span class="bottismall"><br />
+            [2002.5245]</span><span class="halfer"><br />
+                <br />
+            </span>
+            &ldquo;Newsboys in Fight&rdquo; (left) <span class="bottismall"><br />
+            [2002.5242]</span><span class="halfer"><br />
+                <br />
+            </span>
+            &ldquo;Newsboys Rushing with the Latest News&rdquo;
+(right)            <span class="bottismall"><br />
+            [2002.5241]</span><span class="halfer"><br />
+                <br />
+            </span>
+            &ldquo;News Runners Rushing in with the Latest&rdquo;<span class="bottismall"></span> <span class="bottismall"><br />
+            [2002.1581]</span><span class="halfer"><br />
+                <br />
+            </span>
+            &ldquo;Crowds Gathering to Read the News&rdquo;<br />
+            by Hashimoto Kunisuke (left, with hand-written message)<span class="bottismall"><br />
+            [2002.926]</span><span class="halfer"><br />
+                <br />
+            </span>
+            &ldquo;Newsboy Selling Paper&rdquo;<br />by Hashimoto Kunisuke (right, with hand-written message)<span class="bottismall"><br />
+          [2002.927]<br />
+<br />
+<br />
+</span></td>
+          </tr>
+</table>
+<table width="579" border="0" cellspacing="0" cellpadding="0"><tr><td>
+		<table width="290" border="0" cellspacing="0" cellpadding="0" align="left">
+		<tr><td width="290" align="left" valign="top" class="bottibody"><a href="javascript:openvcidwindow('gallery/pages/2002_1587.htm');"><img src="image/2002_1587_s5485_Copy.jpg" alt="&ldquo;Crowds Celebrating with Flags&rdquo;  Artist unknown, 1904-05 [2002.1587] Leonard A. Lauder Collection, Museum of Fine Arts, Boston" width="282" height="423" border="0" align="top" /></a><a href="javascript:openvcidwindow('gallery/pages/2002_3358.htm');"><img src="image/2002_3358_s5540_Copy.jpg" alt="&ldquo;Parade with Japanese Flags&rdquo;  Artist unknown, 1904-05 [2002.3358] Leonard A. Lauder Collection, Museum of Fine Arts, Boston" width="282" height="429" border="0"  align="bottom"/></a></td>
+		</tr>
+		<tr>
+		  <td align="left" valign="top" class="bottibody"><span class="halfer"><br /></span> 
+                A favorite subject is &ldquo;paper lantern&rdquo; festivities, where the victory celebration spilled over into nighttime and festive lanterns were strung about and even hand-carried by participants. In one joyful rendering, men in Western suits and carrying lanterns ride bicycles to a celebration, each sporting a different style of hat. They do not really look Japanese at all. War, patriotism, celebration, and fashionable &ldquo;Westernization&rdquo; have all blurred into one.<br />
+                <br /></td>
+		  </tr>
+		</table>
+				
+				<table width="289" border="0" cellspacing="0" cellpadding="0" align="right"><tr>
+				<td width="289" rowspan="2" align="left" valign="middle" class="bottibody">The same exuberance pervades most depictions of victory celebrations. In many instances, seen without context or captions, these might easily pass for parties, festivals, or holidays utterly divorced from war. (Even where flags are featured, one can easily imagine some sort of national holiday or civic celebration.) Women wear up-to-date Western as well as Japanese fashions and hairstyles. Men commonly wear Western suits, and frequently even top hats.<br />                
+                <br />                
+                <a href="javascript:openvcidwindow('gallery/pages/2002_1582.htm');"><img src="image/2002_1582_s5486_Copy.jpg" alt="&ldquo;Celebrating War Victory&rdquo;  Artist unknown, 1906 [2002.1582] Leonard A. Lauder Collection, Museum of Fine Arts, Boston" width="282" height="431" border="0" /></a><a href="javascript:openvcidwindow('gallery/pages/2002_1377.htm');"><img src="image/2002_1377_s5529_Copy.jpg" alt="&ldquo;People Marching Under the Commemorative Lanterns&rdquo;  Artist unknown, 1904-05 [2002.1377] Leonard A. Lauder Collection, Museum of Fine Arts, Boston" width="282" height="427" border="0" align="bottom" /></a><br />
+<br />
+</td>
+</tr></table></td>
+</tr></table>
+		<!-- <table width="579" border="0" cellspacing="0" cellpadding="0">
+
+<tr>
+            <td width="290" align="left" valign="top" class="bottibody"><img src="image/2002_1587_s5485_Copy.jpg" alt="&ldquo;Crowds Celebrating with Flags&rdquo;  Artist unknown, 1904-05 [2002.1587] Leonard A. Lauder Collection, Museum of Fine Arts, Boston" width="282" height="423" border="0" align="top" />
+<img src="image/2002_3358_s5540_Copy.jpg" alt="&ldquo;Parade with Japanese Flags&rdquo;  Artist unknown, 1904-05 [2002.3358] Leonard A. Lauder Collection, Museum of Fine Arts, Boston" width="282" height="429" border="0"  align="left"/><br />  
+                A favorite subject is &ldquo;paper lantern&rdquo; festivities, where the victory celebration spilled over into nighttime and festive lanterns were strung about and even hand-carried by participants. In one joyful rendering, men in Western suits and carrying lanterns ride bicycles to a celebration, each sporting a different style of hat. They do not really look Japanese at all. War, patriotism, celebration, and fashionable &ldquo;Westernization&rdquo; have all blurred into one.</td>
+            <td width="289" rowspan="2" align="left" valign="middle" class="bottibody">The same exuberance pervades most depictions of victory celebrations. In many instances, seen without context or captions, these might easily pass for parties, festivals, or holidays utterly divorced from war. (Even where flags are featured, one can easily imagine some sort of national holiday or civic celebration.) Women wear up-to-date Western as well as Japanese fashions and hairstyles. Men commonly wear Western suits, and frequently even top hats.<br />                
+                <br />                
+          <img src="image/2002_1582_s5486_Copy.jpg" alt="&ldquo;Celebrating War Victory&rdquo;  Artist unknown, 1906 [2002.1582] Leonard A. Lauder Collection, Museum of Fine Arts, Boston" width="282" height="431" border="0" /><img src="image/2002_1377_s5529_Copy.jpg" alt="&ldquo;People Marching Under the Commemorative Lanterns&rdquo;  Artist unknown, 1904-05 [2002.1377] Leonard A. Lauder Collection, Museum of Fine Arts, Boston" width="282" height="427" border="0" /></td>
+</tr>
+<tr>
+  <td align="left" valign="top" class="bottibody">&nbsp;</td>
+</tr>
+</table> -->
+<table width="579" border="0" cellspacing="0" cellpadding="0">
+<tr > 
+          <td align="center" valign="top" class="bottiblock" colspan="2"><a href="javascript:openvcidwindow('gallery/pages/2002_3130.htm');"><img src="image/2002_3130_s5528_Copy.jpg" alt="&ldquo;Triumphal Lanterns&rdquo;  Artist unknown, 1904-05 [2002.3130] Leonard A. Lauder Collection, Museum of Fine Arts, Boston" width="566" height="319" border="0" /></a><br />
+            <a href="javascript:openvcidwindow('gallery/pages/2002_928.htm');"><img src="image/2002_0928_s5532_Copy.jpg" alt=" &ldquo;Men Bicycling with Lanterns&rdquo; by Hashimoto Kunisuke, 1904-05 [2002.928] Leonard A. Lauder Collection, Museum of Fine Arts, Boston" width="566" height="319" border="0" /></a></td>
+          </tr>
+<tr>
+              <td colspan="2" align="center" class="bottiblock"><img src="image/spacer.gif" width="35" height="320" align="left" alt="space" title=""/><img src="image/spacer.gif" width="35" height="320" align="right" alt="space" title=""/>Victory celebrations on the homefront drew festive crowds from all levels (including nattily-dressed high society), and often featured paper lanterns that could be illuminated in nighttime. This too captured the fancy of postcard<br />
+                artists and collectors.<br />
+                <br />                &ldquo;Crowds Celebrating with Flags&rdquo; (left, with hand-written message)<span class="bottismall"><br />
+            [2002.1587]</span><span class="halfer"><br />
+                <br />
+            </span>
+            &ldquo;Celebrating War Victory,&rdquo; 1906  (right, with hand-written message)<span class="bottismall"><br />
+            [2002.1582]</span><span class="halfer"><br />
+                <br />
+            </span>
+            &ldquo;Parade with Japanese Flags&rdquo; (left) <span class="bottismall"><br />
+            [2002.3358]</span><span class="halfer"><br />
+                <br />
+            </span>
+            &ldquo;People Marching Under the Commemorative Lanterns&rdquo;
+(right)            <span class="bottismall"><br />
+            [2002.1377]</span><span class="halfer"><br />
+                <br />
+            </span>
+            &ldquo;Triumphal Lanterns&rdquo;<span class="bottismall"></span> <span class="bottismall"><br />
+            [2002.3130]</span><span class="halfer"><br />
+                <br />
+            </span>
+            &ldquo;Men Bicycling with Lanterns&rdquo;<br />
+            by Hashimoto Kunisuke (with hand-written message in French)<span class="bottismall"><br />
+            [2002.0928]</span><br />
+            <br /><br />
+<br />
+</td>
+  </tr><tr>
+          <td align="left" valign="top">
+<span class="bottismall"><img src="image/redline.gif" width="570" height="1"  alt="MIT Visualizing Cultures" title=""/><br/><br/>
+                <a href="javascript:imalert('../home/about.html')"><em>On viewing images of a potentially disturbing nature: click here.</em></a><br /><br/>Images from the Leonard A. Lauder Collection of Japanese Postcards at the Museum of Fine Arts, Boston. 
+          Unless otherwise indicated, all are by unidentified artists and date from the 1904-1905 war years.<br /><br/></span><table width="582" border="0" cellspacing="0" cellpadding="0"><tr><td  width="350" align="left" valign="middle" class="bottismall" >Massachusetts Institute of Technology &#169; 2010 Visualizing Cultures
+                </td> <td  width="152" align="right" valign="middle" class="bottismall" > &nbsp;<a href="http://creativecommons.org/licenses/by-nc-sa/3.0/us/" target="_blank">Creative Commons License</a>&nbsp;&nbsp;
+              
+</td><td  align="left" valign="top" width="80" class="bottismall" ><a rel="license"
+ href="http://creativecommons.org/licenses/by-nc-sa/3.0/us/" target="_blank" ><img src="http://visualizingcultures.mit.edu/home/image/cc.png" alt="Creative Commons - some rights reserved" width="80" height="15" border="0" align="left" /></a></td>
+
+
+    </tr><tr><td colspan="3" class="bottismall" ><br />
+<br /></td></tr></table>
+</td>
+  </tr><tr>
+          <td align="left" valign="top"><div class="bottom"><img src="image/essay_bottom.gif"  alt="MIT Visualizing Cultures" width="970" height="136" border="0" align="left" title=""/></div>
+<div class="essaynavbottom">
+  <table width="622" border="0" cellspacing="0" cellpadding="0" align="left">
+  <tr align="left">
+    <td align="left" width="105"><img src="image/ar_essay_nav_04.gif"  alt="Asia Rising" name="nav01b" width="622" height="39" border="0" usemap="#Map5" id="nav01b" title=""/></td>
+  </tr>
+</table>
+</div></td>
+          </tr>
+	  </table>
+</td>
+    <td width="371">&nbsp;</td>
+  </tr>
+</table>
+</div>
+<!--end  essay -->
+
+
+</div>
+</div>
+
+
+<!--top bar nav elements -->
+<div class="box14" id="box14" ><table  width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><img src="../home/image/spacer.gif" width="10" height="26"  alt="MIT Visualizing Cultures"/><img src="../home/image/hometopnav01.gif"  alt="Menu" width="227" height="26" border="0" usemap="#topmap"/></td>
+  </tr>
+</table>
+</div>
+
+<div class="box15" id="box15" ><table  width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><img src="../home/image/spacer.gif" width="10" height="27"  alt="MIT Visualizing Cultures"/></td>
+  </tr>
+</table>
+</div>
+
+<div class="navbox" id="hideme"><a  onmouseout="javascript:noverlay();" onmouseover="javascript:overlay();"><img src="../home/image/vc_home_nav.png" alt="MIT Visualizing Cultures" width="202" height="300" border="0" usemap="#Map"  id="Image5"  name="Image5" title="" /></a></div> 
+
+<div class="twit">
+<a href="https://twitter.com/share" class="twitter-share-button" data-count="none">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></div>
+
+<div class="emil"><!--email-->
+<script type="text/javascript"><!--
+
+var SubjectLine='MIT Visualizing Cultures'; 
+var BodyText='You can see this page at: '+top.location.href;
+
+var Message='<A CLASS=contact HREF="mailto:?SUBJECT='+escape(SubjectLine)+'&BODY='+escape(BodyText)+'" OnMouseOver="status=\'Envoyer cette page à vos amis\'; return true;" ><img src="../home/image/email2.gif" alt="Email" name="Image321"   border="0" id="Image321"  title=""/><\/A>';
+
+var MessageIE='<A CLASS=contact HREF="mailto:?SUBJECT='+(SubjectLine)+'&BODY='+(BodyText)+'" OnMouseOver="status=\'Envoyer cette page à vos amis\'; return true;" ><img src="../home/image/email2.gif" alt="Email" name="Image321"   border="0" id="Image321"  title=""/><\/A>';
+
+if(document.all) { document.write(MessageIE); }
+
+else { document.write(Message); }
+
+// http://javascriptsource.com "The JavaScript Source"
+//--></script></div>
+
+
+
+<!--facebook--><div class="fbok">
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<div class="fb-like" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false" data-colorscheme="light" data-font="verdana"></div>
+
+</div> 
+
+<div class="unitsnavbox01" id="unitsnavbox01" ><a  onmouseout="javascript:noverlayu();" onmouseover="javascript:overlayu();"><img src="../home/image/unitstopnav01.gif"  alt="Units" width="227" height="26" border="0"/></a></div>
+ <div class="navboxu" id="hidemeu"><a href="#" onmouseout="javascript:noverlayu();" onmouseover="javascript:overlayu();"><img src="../home/image/vc_units_cur_nav.png" alt="MIT Visualizing Cultures" width="179" height="148" border="0" usemap="#Map3"  id="Image6"  name="Image6" title=""/></a></div> <div class="unitnavbox" id="unitnavbox" ><a  onmouseout="javascript:noverlayv();" onmouseover="javascript:overlayv();"><img src="image/topnav.gif"  alt="Asia Rising" width="227" height="26" border="0"/></a></div>
+ 
+<div class="navboxv" id="hidemev"><a  onmouseout="javascript:noverlayv();" onmouseover="javascript:overlayv();"><img src="image/ar_nav.png" alt="Asia Rising"  name="Image7" width="212" height="169" border="0" usemap="#Image7Map"   id="Image7" title=""/>
+    
+</a></div>
+<!--end top bar nav elements -->
+
+
+
+<!--image maps -->
+    <map name="topmap" id="topmap">
+      <area shape="rect" coords="0,0,180,47" href="#" onmouseover="overlay();"  alt="MIT Visualizing Cultures" />
+      <area shape="rect" coords="194,0,300,47" href="#" onmouseover="overlayu();"  alt="VC Units" />
+  </map>
+
+<map name="Map" id="Map">
+      <area shape="rect" coords="0,0,211,39" href="../home/index.html" onmouseover="overlay()" alt="MIT Visualizing Cultures"/>
+      <area shape="rect" coords="0,39,211,66" href="../home/vc01_about.html" target="_top"  alt="About VC" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_02.png',1)"/>      
+      <area shape="rect" coords="0,66,211,96" href="../home/vc02_schol.html" target="_top"  alt="VC Scholars" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_03.png',1)" />
+  <area shape="rect" coords="0,96,211,124" href="../home/vc03_partner.html" target="_top"  alt="Partner Institutions" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_04.png',1)" />
+
+  <area shape="rect" coords="0,124,211,147" href="../home/vc05_outreach.html" target="_top"  alt="Outreach" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_05.png',1)" />
+  <area shape="rect" coords="3,147,211,181" href="../home/vc06_event.html" target="_top"  alt="Conferences &amp; Events" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_06.png',1)" />
+  <area shape="rect" coords="3,181,211,214" href="mailto:visualizingcultures@mit.edu" target="_top"  alt="Contact" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_07.png',1)" />
+ <area shape="rect" coords="1,214,212,240" href="http://www.facebook.com/home.php#!/group.php?gid=261831254970&amp;ref=ts" target="_blank"  alt="Join Us" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_08.png',1)" />
+  <area shape="rect" coords="0,240,211,266" href="http://twitter.com/Visualizing_Cul" target="_blank"  alt="Follow Us" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_09.png',1)" />
+</map><map name="Map3" id="Map3">
+  
+<area shape="rect" coords="0,2,312,30" href="../home/vis_menu.html" target="_top" alt="Units" onmouseout="noverlayu();MM_swapImgRestore()" onmouseover="overlayu();" />
+
+<area shape="rect" coords="2,38,314,68" href="../home/vis_menu.html" target="_top" alt="Icon View" onmouseout="noverlayu();MM_swapImgRestore()" onmouseover="overlayu();MM_swapImage('Image6','','../home/image/vc_units_cur_nav_01.png',1)" />
+
+<area shape="rect" coords="0,67,312,95" href="../home/vis_menu_02b.html" target="_top" alt="Text View" onmouseout="noverlayu();MM_swapImgRestore()" onmouseover="overlayu();MM_swapImage('Image6','','../home/image/vc_units_cur_nav_02.png',1)" />
+
+<area shape="rect" coords="1,94,313,122" href="../home/vis_menu_03.html" target="_top" alt="Curriculae" onmouseout="noverlayu();MM_swapImgRestore()" onmouseover="overlayu();MM_swapImage('Image6','','../home/image/vc_units_cur_nav_03.png',1)" /></map>
+<map name="Image7Map" id="Image7Map">
+  <area shape="rect" coords="0,2,212,30" href="index.html" target="_top" alt="Asia Rising" onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();" />
+      <area shape="rect" coords="0,42,215,70" href="ar_essay01.html" target="_top" alt="Essay" onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();MM_swapImage('Image7','','image/ar_nav_02.png',1)" />
+  <area shape="rect" coords="0,70,216,98" href="ar_visnav01.html" target="_top" alt="Visual Narratives" onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();MM_swapImage('Image7','','image/ar_nav_03.png',1)" />
+  <area shape="rect" coords="0,97,216,127" href="javascript:alert('Under construction.')" target="_top" alt="Image Gallery" onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();MM_swapImage('Image7','','image/ar_nav_04.png',1)" />
+  <area shape="rect" coords="0,126,212,154" href="javascript:openvcidwindow('gallery/index.htm')" target="_top" alt="Image Database" onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();MM_swapImage('Image7','','image/ar_nav_05.png',1)" />
+  <area shape="rect" coords="0,153,210,183" href="javascript:opencurwindow('cur_student/ar_cur_toc.html')" target="_top" alt="Curriculum"  onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();MM_swapImage('Image7','','image/ar_nav_06.png',1)" />
+</map>
+
+<map name="Map4" id="Map4">
+<area shape="rect" coords="1,0,106,39"   href="ar_essay01.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01','','image/ar_essay_nav_01.gif',1);noverlay();noverlayv();noverlayu();" alt="Introduction"/>
+  <area shape="rect" coords="104,0,210,39" href="ar_essay02.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01','','image/ar_essay_nav_02.gif',1);noverlay();noverlayv();noverlayu();"  alt="Heroes &amp; Heroines"/> 
+ <area shape="rect" coords="209,0,306,39" href="ar_essay03.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01','','image/ar_essay_nav_03.gif',1);noverlay();noverlayv();noverlayu();"  alt="Victory"/>
+     <!-- <area shape="rect" coords="305,0,412,39" href="ar_essay04.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01','','image/ar_essay_nav_04.gif',1);noverlay();noverlayv();noverlayu();"  alt="Celebration"/>-->
+  <area shape="rect" coords="411,0,519,39" href="ar_essay05.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01','','image/ar_essay_nav_05.gif',1);noverlay();noverlayv();noverlayu();"  alt="Commemoration"/>
+  <area shape="rect" coords="518,0,621,39" href="ar_essay06.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01','','image/ar_essay_nav_06.gif',1);noverlay();noverlayv();noverlayu();"  alt="Sources"/>
+</map>
+
+
+<map name="Map5" id="Map5">
+<area shape="rect" coords="1,0,106,39"   href="ar_essay01.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01b','','image/ar_essay_nav_01.gif',1);noverlay();noverlayv();noverlayu();" alt="Introduction"/>
+ <area shape="rect" coords="104,0,210,39" href="ar_essay02.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01b','','image/ar_essay_nav_02.gif',1);noverlay();noverlayv();noverlayu();"  alt="Heroes &amp; Heroines"/>
+ <area shape="rect" coords="209,0,306,39" href="ar_essay03.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01b','','image/ar_essay_nav_03.gif',1);noverlay();noverlayv();noverlayu();"  alt="Victory"/>
+     <!--  <area shape="rect" coords="305,0,412,39" href="ar_essay04.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01b','','image/ar_essay_nav_04.gif',1);noverlay();noverlayv();noverlayu();"  alt="Celebration"/> -->
+  <area shape="rect" coords="411,0,519,39" href="ar_essay05.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01b','','image/ar_essay_nav_05.gif',1);noverlay();noverlayv();noverlayu();"  alt="Commemoration"/>
+  <area shape="rect" coords="518,0,621,39" href="ar_essay06.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01b','','image/ar_essay_nav_06.gif',1);noverlay();noverlayv();noverlayu();"  alt="Sources"/>
+</map>
+
+<!-- 
+<map name="Map2" id="Map2">
+  <area shape="rect" coords="6,10,281,420" href="#"  alt="&ldquo;Latest News from Seat of War&rdquo; [2002.2406] Leonard A. Lauder Collection of Japanese Postcards at the Museum of Fine Arts, Boston"/>
+  <area shape="rect" coords="307,11,551,421" href="#"  alt="&ldquo;Extra of Victory&rdquo; [2002.5267] Leonard A. Lauder Collection of Japanese Postcards at the Museum of Fine Arts, Boston"/>
+</map>
+
+<map name="Map3" id="Map3">
+  <area shape="rect" coords="13,22,284,427" href="#"  alt="&ldquo;Newsboy Selling Extras&rdquo; (with hand-written message) [2002.3335] Leonard A. Lauder Collection of Japanese Postcards at the Museum of Fine Arts, Boston"/>
+  <area shape="rect" coords="289,8,550,417" href="#"  alt=" &ldquo;The Newsboys Selling Extras&rdquo; (with hand-written message) [2002.5245] Leonard A. Lauder Collection of Japanese Postcards at the Museum of Fine Arts, Boston"/>
+  <area shape="rect" coords="8,474,257,886" href="#"  alt=" &ldquo;Newboys in Fight&rdquo; [2002.5242] Leonard A. Lauder Collection of Japanese Postcards at the Museum of Fine Arts, Boston"/>
+  <area shape="rect" coords="265,444,541,862" href="#"  alt="&ldquo;Newsboys Rushing with the Latest News&rdquo; [2002.5241] Leonard A. Lauder Collection of Japanese Postcards at the Museum of Fine Arts, Boston"/>
+  <area shape="rect" coords="57,910,520,1209" href="#"  alt="&ldquo;News Runners Rushing in with the Latest&rdquo; [2002.1581] Leonard A. Lauder Collection of Japanese Postcards at the Museum of Fine Arts, Boston"/>
+  <area shape="rect" coords="6,1236,277,1642" href="#"  alt="&ldquo;Crowds Gathering to Read the News&rdquo; by Hashimoto Kunisuke (with hand-written message) [2002.0926] Leonard A. Lauder Collection of Japanese Postcards at the Museum of Fine Arts, Boston"/>
+  <area shape="rect" coords="287,1242,549,1659" href="#"  alt="&ldquo;Newsboy Selling Paper&rdquo; by Hashimoto Kunisuke (with hand-written message) [2002.0927] Leonard A. Lauder Collection of Japanese Postcards at the Museum of Fine Arts, Boston"/>
+</map>
+ -->
+
+
+
+<map name="5267Map" id="5267Map">
+<area shape="poly" coords="308,397,46,428,3,41,265,13" href="javascript:openvcidwindow('gallery/pages/2002_2406.htm');" />
+<area shape="poly" coords="553,420,291,425,290,399,305,397,287,190,287,8,550,5" href="javascript:openvcidwindow('gallery/pages/2002_5267.htm');" />
+</map>
+<map name="0926Map" id="0926Map">
+<area shape="poly" coords="38,443,3,39,265,11,285,279,284,415,297,415,299,430" href="javascript:openvcidwindow('gallery/pages/2002_3335.htm');" />
+<area shape="poly" coords="282,415,284,220,285,5,552,11,550,415" href="javascript:openvcidwindow('gallery/pages/2002_5245.htm');" />
+<area shape="poly" coords="261,449,518,432,553,843,293,870" href="javascript:openvcidwindow('gallery/pages/2002_5241.htm');" />
+<area shape="poly" coords="261,471,5,474,8,889,275,885" href="javascript:openvcidwindow('gallery/pages/2002_5242.htm');" />
+<area shape="rect" coords="59,908,521,1217" href="javascript:openvcidwindow('gallery/pages/2002_1581.htm');" />
+<area shape="poly" coords="279,1649,547,1653,549,1247,287,1243" href="javascript:openvcidwindow('gallery/pages/2002_927.htm');" />
+<area shape="poly" coords="5,1241,270,1229,282,1429,279,1636,26,1646" href="javascript:openvcidwindow('gallery/pages/2002_926.htm');" />
+</map></body>
+</html>

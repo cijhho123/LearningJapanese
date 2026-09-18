@@ -1,0 +1,607 @@
+
+
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.28.0 by Michael Rose
+  Copyright 2013-2026 Michael Rose - mademistakes.com | @mmistakes
+  Copyright 2024-2026 iBug - ibugone.com | @iBug
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+
+<html lang="en" class="no-js" dir="ltr">
+  <head>
+    
+<meta charset="utf-8">
+
+
+<!-- begin _includes/seo.html --><title>Grammar Points - Kansaibenkyou.net</title>
+<meta name="description" content="A learning resource for Kansai-ben (関西弁), the family of Japanese dialects spoken in the Kansai region. Authored by Keiko Yukawa.">
+
+
+  <meta name="author" content="Keiko Yukawa">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Kansaibenkyou.net">
+<meta property="og:title" content="Grammar Points">
+<meta property="og:url" content="https://kansaibenkyou.net/grammar-points/">
+
+
+  <meta property="og:description" content="A learning resource for Kansai-ben (関西弁), the family of Japanese dialects spoken in the Kansai region. Authored by Keiko Yukawa.">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="canonical" href="grammar-points.1.html">
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css"></noscript>
+
+
+
+    <link rel="icon" href="assets/images/takkun.ico" type="image/x-icon">
+<meta name="baseurl" content="">
+<link rel="stylesheet" href="assets/css/custom.css">
+<script defer src="assets/js/kb-audio.js"></script>
+<script>
+// Banner-image rotation applies ONLY to the homepage hero overlay.
+// The old site did not carry a photo banner on interior pages — only
+// a thin title bar. Two independent visual audits flagged the
+// inner-page banner strip as the biggest "louder" regression.
+document.addEventListener("DOMContentLoaded", function() {
+  var hero = document.querySelector(".page__hero--overlay");
+  if (!hero) return;
+  var base = (document.querySelector('meta[name="baseurl"]') || {}).content || "";
+  fetch(base + "/assets/banner/manifest.json")
+    .then(function(r) { return r.json(); })
+    .then(function(images) {
+      if (!images.length) return;
+      var pick = images[Math.floor(Math.random() * images.length)];
+      var url = base + "/assets/banner/" + pick;
+      hero.style.backgroundImage = "linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(" + url + ")";
+    });
+});
+</script>
+
+  </head>
+
+  <body class="layout--single wide">
+    
+<nav class="skip-links" aria-label="Skip links">
+  <ul>
+    <li><a href="grammar-points.1.html#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="grammar-points.1.html#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="grammar-points.1.html#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    
+
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav" aria-label="Primary navigation">
+        
+          <a class="site-logo" href="index.html"><img src="assets/images/takkun.png" alt="Kansaibenkyou.net"></a>
+        
+        <a class="site-title" href="index.html">
+          Kansaibenkyou.net
+          <span class="site-subtitle">A learning resource for Kansai-ben (関西弁)</span>
+        </a>
+        <ul class="visible-links"></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+
+  
+    
+
+
+
+
+<nav class="breadcrumbs" aria-label="Breadcrumb">
+  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+    
+    
+    
+      
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="index.html" itemprop="item"><span itemprop="name">Home</span></a>
+
+          <meta itemprop="position" content="1" />
+        </li>
+        <span class="sep">/</span>
+      
+      
+        <li class="current">Grammar Points</li>
+      
+    
+  </ol>
+</nav>
+
+  
+
+
+<div id="main" role="main">
+  
+
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+    
+      
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    
+      
+      
+        <li>
+          
+            <a href="index.html"><span class="nav__sub-title">Home</span></a>
+          
+
+          
+        </li>
+      
+        <li>
+          
+            <a href="intro/index.html"><span class="nav__sub-title">Introduction</span></a>
+          
+
+          
+        </li>
+      
+        <li>
+          
+            <a href="what/index.html"><span class="nav__sub-title">Kansai-ben is...?</span></a>
+          
+
+          
+        </li>
+      
+        <li>
+          
+            <a href="example-conversations.1.html"><span class="nav__sub-title">Example conversations</span></a>
+          
+
+          
+        </li>
+      
+        <li>
+          
+            <a href="grammar/index.html"><span class="nav__sub-title">Grammar</span></a>
+          
+
+          
+        </li>
+      
+        <li>
+          
+            <a href="vocabulary/index.html"><span class="nav__sub-title">Vocabulary</span></a>
+          
+
+          
+        </li>
+      
+        <li>
+          
+            <a href="pronunciation/index.html"><span class="nav__sub-title">Pronunciation</span></a>
+          
+
+          
+        </li>
+      
+        <li>
+          
+            <a href="real-conversations.1.html"><span class="nav__sub-title">Real conversations</span></a>
+          
+
+          
+        </li>
+      
+        <li>
+          
+            <a href="resources/index.html"><span class="nav__sub-title">Resources</span></a>
+          
+
+          
+        </li>
+      
+        <li>
+          
+            <a href="about/index.html"><span class="nav__sub-title">About</span></a>
+          
+
+          
+        </li>
+      
+        <li>
+          
+            <a href="feedback/index.html"><span class="nav__sub-title">Feedback</span></a>
+          
+
+          
+        </li>
+      
+        <li>
+          
+            <a href="search/index.html"><span class="nav__sub-title">Search</span></a>
+          
+
+          
+        </li>
+      
+    
+  </ul>
+</nav>
+
+    
+  
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Grammar Points">
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title p-name" itemprop="headline">
+            <a href="grammar-points.1.html" itemprop="url">Grammar Points
+</a>
+          </h1>
+          
+
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+        <div class="content-box">
+<p>
+  All Kansai-ben grammar points currently explained on the site.
+  Each entry includes formation rules, examples, and contrast with
+  standard Japanese.
+</p>
+
+<table class="grammar-table">
+  <thead>
+    <tr>
+      <th>Grammar point</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+      <tr>
+        <td><a href="grammar-points/139/index.html">V (stem)</a></td>
+        <td><p>The standard verb stem<sup class="lexicon-indicator" title='The long (masu...</td>
+      </tr>
+      <tr>
+        <td><a href="grammar-points/296/index.html">Vへん／Vん</a></td>
+        <td><p>The Vへん verb ending may be the single most distinctive and recognizable pi...</td>
+      </tr>
+      <tr>
+        <td><a href="grammar-points/297/index.html">Aない／Aことあれへん／Aん(と)ちゃう</a></td>
+        <td><p>There are three negative forms for adjectives in Kansai-ben: Aない, Aことあれへん,...</td>
+      </tr>
+      <tr>
+        <td><a href="grammar-points/298/index.html">N(と)ちゃう／Nやない</a></td>
+        <td><p>In Kansai-ben, ちゃう can be used when negating nouns, originally deriving fr...</td>
+      </tr>
+      <tr>
+        <td><a href="grammar-points/299/index.html">いっこも／なんも</a></td>
+        <td><p>The standard Japanese 全然 and なにも (please see your favorite textbook or tea...</td>
+      </tr>
+      <tr>
+        <td><a href="grammar-points/300/index.html">どっこも／だぁれも／いっつも</a></td>
+        <td><p>The standard Japanese どこ(へ)も, だれも, and いつも can become どっこも, だぁれも, and いっつも...</td>
+      </tr>
+      <tr>
+        <td><a href="grammar-points/301/index.html">Te-form and ta-form (verbs)</a></td>
+        <td><p>Looking from standard Japanese to Kansai-ben, there are some differences i...</td>
+      </tr>
+      <tr>
+        <td><a href="grammar-points/302/index.html">Particle omission of “と” and “の”</a></td>
+        <td><p>Like standard Japanese, particles are tend to be omitted, especially in ca...</td>
+      </tr>
+      <tr>
+        <td><a href="grammar-points/303/index.html">Particles “へ” and “に”</a></td>
+        <td><p>In most Japanese textbooks, the destination particle (i.e., 学校<em>に</em>行く...</td>
+      </tr>
+      <tr>
+        <td><a href="grammar-points/304/index.html">Particle “わ”</a></td>
+        <td><p>The final particle わ in Kansai-ben is basically like the よ final particle ...</td>
+      </tr>
+      <tr>
+        <td><a href="grammar-points/305/index.html">Particle  “な”</a></td>
+        <td><p>The standard Japanese final particle ね can become な in Kansai-ben.</p></td>
+      </tr>
+      <tr>
+        <td><a href="grammar-points/306/index.html">Particle “や”</a></td>
+        <td><p>Standard Japanese's final particle よ can become や in Kansai-ben, often in ...</td>
+      </tr>
+      <tr>
+        <td><a href="grammar-points/307/index.html">Particles “で” and “ど”</a></td>
+        <td><p>The Kansai-ben final particles で and ど have a function that draws attentio...</td>
+      </tr>
+      <tr>
+        <td><a href="grammar-points/308/index.html">Particles “か”and “け” feeling</a></td>
+        <td><p>In Kansai-ben, when the question particles か and け are added to the end of...</td>
+      </tr>
+      <tr>
+        <td><a href="grammar-points/309/index.html">ねん／てん／ん／のん／たん</a></td>
+        <td><p>In Kansai-ben, ねん, てん, ん, のん, and たん are used in queries, asking for reaso...</td>
+      </tr>
+      <tr>
+        <td><a href="grammar-points/310/index.html">かいな</a></td>
+        <td><p>The standard Japanese sentence ending か(な), used in questions and strong n...</td>
+      </tr>
+      <tr>
+        <td><a href="grammar-points/311/index.html">やん／やんか／やんけ／がな</a></td>
+        <td><p>The standard Japanese endings __じゃないか, __ではないか, and __じゃん can become __やん,...</td>
+      </tr>
+      <tr>
+        <td><a href="grammar-points/312/index.html">Prefix “ど”</a></td>
+        <td><p>Prefix<sup class="lexicon-indicator" title='Words or morphemes that attach...</td>
+      </tr>
+      <tr>
+        <td><a href="grammar-points/313/index.html">Suffix “さん” and “ちゃん”</a></td>
+        <td><p>In Kansai-ben, the honorific title さん and ちゃん can be used for non-humans, ...</td>
+      </tr>
+      <tr>
+        <td><a href="grammar-points/314/index.html">かて／かって</a></td>
+        <td><p>The standard particle も, when used as a marker for supplements (e.g., "I'd...</td>
+      </tr>
+      <tr>
+        <td><a href="grammar-points/315/index.html">よって／さかい</a></td>
+        <td><p>The standard Japanese conjunctions for providing a reason, から and ので, may ...</td>
+      </tr>
+      <tr>
+        <td><a href="grammar-points/316/index.html">ほんで／ほいで</a></td>
+        <td><p>The standard conjunctive particle for connecting a reason and a consequenc...</td>
+      </tr>
+      <tr>
+        <td><a href="grammar-points/318/index.html">Vてくれへん／Vてんか</a></td>
+        <td><p>The standard Vてくれない, when used as a request, may become Vてくれへん and Vてんか in...</td>
+      </tr>
+      <tr>
+        <td><a href="grammar-points/319/index.html">Vたげる／Vたる</a></td>
+        <td><p>The standard Vてあげる and Vてやる may become Vたげる and Vたる in Kansai-ben.</p></td>
+      </tr>
+      <tr>
+        <td><a href="grammar-points/320/index.html">Vてもろた／Vてもうた</a></td>
+        <td><p>Vてもらう in Kansai-ben is the same as standard Japanese, but the past tense f...</td>
+      </tr>
+      <tr>
+        <td><a href="grammar-points/321/index.html">Vてみ(ぃ)</a></td>
+        <td><p>The standard Japanese Vてみなさい, when used as an imperative, may become Vてみ i...</td>
+      </tr>
+      <tr>
+        <td><a href="grammar-points/322/index.html">Vな</a></td>
+        <td><p>Like standard Japanese, Vな is also used in Kansai-ben for strong prohibiti...</td>
+      </tr>
+      <tr>
+        <td><a href="grammar-points/323/index.html">Vなあかん／Vんとあかん／Vんならん</a></td>
+        <td><p>The standard Japanese expressions for obligation and necessity (see the ta...</td>
+      </tr>
+      <tr>
+        <td><a href="grammar-points/324/index.html">Vたらあかん／Vんといて／Vんとって</a></td>
+        <td><p>The prohibition expression Vてはいけない can become Vたらあかん in Kansai-ben. Simila...</td>
+      </tr>
+      <tr>
+        <td><a href="grammar-points/325/index.html">Vてもええ／Vてもかめへん／Vてもかまへん／Vてもかまん</a></td>
+        <td><p>The standard Japanese expression to give or ask for permission, Vてもいい, can...</td>
+      </tr>
+      <tr>
+        <td><a href="grammar-points/326/index.html">Vてまう</a></td>
+        <td><p>The Vてしまう of standard Japanese, when used to indicate completion, can beco...</td>
+      </tr>
+      <tr>
+        <td><a href="grammar-points/327/index.html">Vてしもた／Vても(う)た</a></td>
+        <td><p>The Vてしまった of standard Japanese, when used as an expression of completion ...</td>
+      </tr>
+      <tr>
+        <td><a href="grammar-points/328/index.html">たら</a></td>
+        <td><p>In Kansai-ben, the conditional clause (れ)ば is rarely used. Instead, the co...</td>
+      </tr>
+      <tr>
+        <td><a href="grammar-points/329/index.html">Vんと</a></td>
+        <td><p>Although Kansai-ben has the conditional clause __と__ like in standard Japa...</td>
+      </tr>
+      <tr>
+        <td><a href="grammar-points/330/index.html">や／やろ(う)／やったら</a></td>
+        <td><p>The standard Japanese だ, when used as an assertion, may become や in Kansai...</td>
+      </tr>
+      <tr>
+        <td><a href="grammar-points/331/index.html">Vてる／Vとる</a></td>
+        <td><p>The standard progressive, conditional, or stative Vている may become Vてる or V...</td>
+      </tr>
+      <tr>
+        <td><a href="grammar-points/332/index.html">Vたある</a></td>
+        <td><p>Vてある in standard Japanese, when used in the sense of preparation or state,...</td>
+      </tr>
+      <tr>
+        <td><a href="grammar-points/333/index.html">Vとく／Vんとく</a></td>
+        <td><p>The standard Vておく, when used in a sentence to indicate preparation, may be...</td>
+      </tr>
+      <tr>
+        <td><a href="grammar-points/334/index.html">ようV／ようVへん／ようVん</a></td>
+        <td><p>Unlike standard Japanese, there are two types of potential form<sup class=...</td>
+      </tr>
+      <tr>
+        <td><a href="grammar-points/335/index.html">Vささへん／Vさされる</a></td>
+        <td><p>There are some differences between the causative forms of standard Japanes...</td>
+      </tr>
+      <tr>
+        <td><a href="grammar-points/336/index.html">Vよ</a></td>
+        <td><p>In Kansai-ben, the final う sound of the volitional form<sup class="lexicon...</td>
+      </tr>
+      <tr>
+        <td><a href="grammar-points/337/index.html">Te-form (i-adjectives)</a></td>
+        <td><p>There are some cases where the te-form<sup class="lexicon-indicator" title...</td>
+      </tr>
+      <tr>
+        <td><a href="grammar-points/338/index.html">Vやる／Vよる</a></td>
+        <td><p>Vやる and Vよる are used to express a speaker's strong feelings, such as surpr...</td>
+      </tr>
+      <tr>
+        <td><a href="grammar-points/339/index.html">Short forms of verbs</a></td>
+        <td><p>As in standard Japanese, there are many short forms for verbs in Kansai-be...</td>
+      </tr>
+      <tr>
+        <td><a href="grammar-points/355/index.html">Vはる</a></td>
+        <td><p>While there are several ways to express honorifics in standard Japanese (s...</td>
+      </tr>
+  </tbody>
+</table>
+</div>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+  
+
+  
+
+
+        
+
+      </footer>
+
+      
+
+      
+
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+      
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-copyright">
+  <p>Unless otherwise noted on the <a href="copyright/index.html">copyright</a> page,
+  this site and its contents are licensed under a
+  <a href="https://creativecommons.org/licenses/by-sa/3.0/">Creative Commons
+  Attribution-ShareAlike 3.0 Unported License</a>
+  by <a href="about/index.html">Keiko Yukawa</a>.</p>
+</div>
+
+      </footer>
+    </div>
+
+    
+
+  <script src="assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-38LKKSF2EE"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-38LKKSF2EE', { 'anonymize_ip': false});
+</script>
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

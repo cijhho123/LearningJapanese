@@ -1,0 +1,9 @@
+https://lazyguidejp.github.io/jp-lazy-guide/
+https://github.com/LazyGuideJP/lazyguidejp.github.io
+
+Full rendered-site mirror (wget --mirror --convert-links --adjust-extension --page-requisites),
+taken to capture the ~130 setup-screenshot images that the markdown source in ../lazyguidejp/
+references but does not itself contain. Markdown source is deliberately duplicated between the
+two folders; this one is the built HTML+images site, that one is the plain-text source.
+
+Archive saved 2026/09/17

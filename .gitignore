@@ -1,0 +1,15 @@
+*.crdownload
+/.claude
+/.claude-plugin/*
+/tasks/
+
+# ...except the marketplace manifest, which is what lets anyone who clones
+# this repo install the japanese-tutor plugin.
+!/.claude-plugin/marketplace.json
+
+# Japanese Tutor - personal learner state, deliberately not committed
+japanese-tutor/state/
+
+# Python bytecode
+__pycache__/
+*.pyc

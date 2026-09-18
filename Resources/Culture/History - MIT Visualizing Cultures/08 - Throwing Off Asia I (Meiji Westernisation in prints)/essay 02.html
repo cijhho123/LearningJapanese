@@ -1,0 +1,773 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/tr/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>MIT Visualizing Cultures</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+
+
+<style type="text/css">
+<!--
+
+.backg {
+	position:absolute;
+	left:0px;
+	top:180px;
+	z-index: 1;
+background-image:url(../gt_japan_people/image/essay_bck.gif);
+}
+.navbox {
+		position: fixed;
+        left:10px;
+        top:0px;
+		z-index: 5;
+		visibility:hidden;
+}
+.unitsnavbox01 {
+        position:fixed;
+        left:200px;
+        top:0px;
+		z-index:5;
+}
+.unitnavbox {
+        position:fixed;
+        left:271px;
+        top:0px;
+		z-index:6;
+}
+.navboxu {
+		position: fixed;
+        left:200px;
+        top:0px;
+		z-index: 6;
+		visibility:hidden;	 
+}
+.navboxv {
+		position: fixed;
+        left:271px;
+        top:0px;
+		z-index: 7;
+		visibility:hidden;	 
+}
+.box14 {
+        position:fixed;
+        left:0px;
+        top:0px;
+		z-index:5;
+		background-color:#222222;
+		width:100%
+}
+.box15 {
+        position:fixed;
+        left:0px;
+        top:0px;
+		z-index:4;
+	    width: 100%;
+		background-color:#504B48
+}
+.boxessay {        position:absolute;
+        left:624px;
+        top:124px;
+		z-index:4;
+}
+.boxmono {        position:absolute;
+        left:624px;
+		z-index:4;
+}
+.boxpdf {        position:absolute;
+        left:671px;
+        top:220px;
+		z-index:4;color: #999999; font-size: 11px; line-height: 16px; font-family: Verdana, Arial, Helvetica, sans-serif;
+		width: 250px;
+		text-align:left;
+}
+.top {
+	position:absolute;
+	left:0px;
+	top:45px;
+	z-index: 2;
+}
+.bottom {
+	position:absolute;
+	left:0px;
+	z-index: 2;
+}
+.essaynavbottom {
+	position:absolute;
+	left:0px;
+	z-index: 3;
+}
+.essaynavtop {
+	position:absolute;
+	left:0px;
+	top:142px;
+	z-index: 3;
+}
+#horizon        
+	{
+	
+	text-align: center;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 1px;
+	overflow: visible;
+	visibility: visible;
+	display: block
+	}
+
+#content    
+	{
+	
+	margin-left: -485px;
+	position: absolute;
+	top: 0px;
+	left: 50%;
+	width: 250px;
+	height: 70px;
+	visibility: visible;
+
+	}
+.bottibody {color: #000000; font-size: 13px; line-height: 19px; font-family: Verdana, Arial, Helvetica, sans-serif
+	}
+.bottibody2 {color: #000000; font-size: 11px; line-height: 16px; font-family: Verdana, Arial, Helvetica, sans-serif }
+.bottiblock {
+	color: #2D2D2D;
+	font-size: 15px;
+	line-height: 19px;
+	font-family: Times New Roman, Times, serif;
+	font-style: italic;
+	}
+.bottiblockplain {
+	color: #2D2D2D;
+	font-size: 15px;
+	line-height: 19px;
+	font-family:   Times New Roman, Times, serif;
+	font-style: normal;
+	}
+.bottiblockhead {
+	color: #2D2D2D;
+	font-size: 18px;
+	line-height: 21px;
+	font-family: Times New Roman, Times, serif;
+	font-style: italic;
+	}
+.bottismall {
+	color: #333333;
+	font-size: 9px;
+	line-height: 12px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-style: normal;
+	}
+.head { color: #0033CC; font-size: 15px; line-height: 19px; font-family: Verdana, Arial, Helvetica, sans-serif
+	}
+.halfer { color: #ffffff; font-size: 6px; line-height: 6px; font-family: Verdana, Arial, Helvetica, sans-serif
+	}
+a:link {
+        color:#1233FF;
+        text-decoration:none;
+    }
+ a:active { 
+		color:#1233FF;
+        text-decoration:none;
+	}
+a:visited {
+		color:#1233FF;
+        text-decoration:none;
+	}
+a:hover {
+		color:#1233FF;
+        text-decoration:underline;
+	}
+
+.boxpdf a:link {
+        color:#aaaaaa;
+        text-decoration:none;
+    }
+ .boxpdf a:active { 
+		color:#aaaaaa;
+        text-decoration:none;
+	}
+.boxpdf a:visited {
+		color:#aaaaaa;
+        text-decoration:none;
+	}
+.boxpdf a:hover {
+		color:#ffffff;
+        text-decoration:none;
+	}
+.twit {
+		position: fixed;
+        top: 2px;
+        left: 810px;
+		z-index: 7;
+		
+}
+.emil{
+		position: fixed;
+        top: 4px;
+        left: 876px;
+		z-index: 7;
+		
+}
+.fbok{
+		position: fixed;
+        top: 2px;
+        left: 916px;
+		z-index: 7;
+		width: 48px;
+		overflow:hidden;
+}
+-->
+</style>
+
+
+<script language="JavaScript" type="text/JavaScript">
+<!--
+//rollovers for menus
+function overlay() {
+        el = document.getElementById("hideme");
+        el.style.visibility ="visible";
+		noverlayu();
+		noverlayv();
+}
+
+function noverlay() {
+        el = document.getElementById("hideme");
+        el.style.visibility ="hidden";
+}
+
+
+function overlayu() {
+        el = document.getElementById("hidemeu");
+        el.style.visibility ="visible";
+		noverlay();
+		noverlayv();
+}
+function noverlayu() {
+        el = document.getElementById("hidemeu");
+        el.style.visibility ="hidden";
+}
+
+
+function overlayv() {
+        el = document.getElementById("hidemev");
+        el.style.visibility ="visible";
+		noverlay();
+		noverlayu();
+}
+function noverlayv() {
+        el = document.getElementById("hidemev");
+        el.style.visibility ="hidden";
+}
+
+
+
+
+function sesame() {
+window.moveTo(0,0);        
+window.resizeTo(1350,screen.height);
+}
+
+
+window.onload=function()
+{
+	//sesame();
+	noverlay();
+	noverlayu();
+	MM_preloadImages('../home/image/vc_units_nav_13.png','../home/image/vc_units_nav_12.png','../home/image/vc_units_nav_11.png','../home/image/vc_units_nav_10.png','../home/image/vc_units_nav_07.png','../home/image/vc_units_nav_09.png','../home/image/vc_units_nav_14.png','../home/image/vc_units_nav_08.png','../home/image/vc_units_nav_06.png','../home/image/vc_units_nav_05.png','../home/image/vc_units_nav_04.png','../home/image/vc_units_nav_03.png','../home/image/vc_home_nav_02.png','../home/image/vc_home_nav_03.png','../home/image/vc_home_nav_04.png','../home/image/vc_home_nav_05.png','../home/image/vc_home_nav_06.png','../home/image/vc_home_nav_07.png','../home/image/vc_home_nav_08.png','../home/image/vc_home_nav_09.png','../home/image/vc_home_nav_10.png','../home/image/essay_icon02.gif','../home/image/album_icon02.gif','../home/image/pdf_essay02.gif','image/toa_nav_04.png','image/toa_nav_02.png','image/toa_nav_03.png','image/toa_nav_05.png','image/toa_essay_nav_01.gif','image/toa_essay_nav_02.gif','image/toa_essay_nav_03.gif','image/toa_essay_nav_04.gif','../home/image/popup02.gif');
+}
+var newwindow = '';
+
+function imalert(url)
+{
+	if (!newwindow.closed && newwindow.location)
+	{
+		newwindow.location.href = url;
+	}
+	else
+	{
+		newwindow=window.open(url,'windowtwo','height=360,width=586, toolbar=no,  resizable=yes, status=no, scrollbars=yes');
+		if (!newwindow.opener) newwindow.opener = self;
+	}
+	if (window.focus) {newwindow.focus()}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//
+var vcidwindow = '';
+
+function openvcidwindow(url)
+{
+	if (!vcidwindow.closed && vcidwindow.location)
+	{
+		vcidwindow.location.href = url;
+	}
+	else
+	{
+		vcidwindow=window.open(url,'vcid','height=950,width=1000, toolbar=yes, scrollbars=yes, resizable=yes, location=yes');
+		if (!vcidwindow.opener) vcidwindow.opener = self;
+	}
+	if (window.focus) {vcidwindow.focus()
+	}
+	} 
+
+
+
+ var curwindow = '';
+
+function opencurwindow(url)
+{
+	if (!curwindow.closed && curwindow.location)
+	{
+		curwindow.location.href = url;
+	}
+	else
+	{
+		curwindow=window.open(url,'curriculum','height=800,width=720, toolbar=yes, scrollbars=yes, resizable=yes,  location=yes');
+		if (!curwindow.opener) curwindow.opener = self;
+	}
+	if (window.focus) {curwindow.focus()
+	}
+	} 
+//-->
+</script>
+<script type="text/javascript">
+<!--
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." :
+"http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost +
+"google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+//-->
+</script>
+<script type="text/javascript">
+<!--
+try {
+var pageTracker = _gat._getTracker("UA-12446158-1");
+pageTracker._trackPageview();
+} catch(err) {}
+//-->
+</script></head>
+<body bgcolor="#252322">
+<div  id="horizon">
+<div  id="content">
+<div class="backg">
+<table width="970" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="20">&nbsp;</td>
+    <td width="579" ><table width="579" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td  align="left" valign="top" class="bottibody">                
+                <span class="head"><br />
+                &ldquo;Civilization &amp; Enlightenment&rdquo;</span><span class="halfer"><br />
+                <br /></span></td>
+        </tr></table>
+
+
+
+
+<table width="579" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td colspan="2" align="left" valign="top" class="bottibody">                As 1867 gave way to 1868, the feudal government that had opened the country was overthrown by a radical movement led largely by young samurai. The slogans on which the rebels rode to power were reactionary. They called for turning back the clock by &ldquo;expelling the barbarians&rdquo; (<em>j&#333;i</em>), and for &ldquo;revering the emperor&rdquo; (<em>sonn&#333;</em>) rather than venerating the warrior leaders ensconced in Edo.<br/>
+            <br/>
+            Once the rebels had attained power, they honored half of this &ldquo;<em>sonn&#333;</em> <em>j&#333;i</em>&rdquo; equation. They placed the emperor&mdash;a hereditary and long powerless figure&mdash;nominally at the head of their new government. And they immediately flip-flopped and embraced the foreign barbarians.<br/>
+            <br/>The new leaders adopted an auspicious new name for the new era: Meiji, written with two ideographs literally meaning &ldquo;Bright Government.&rdquo; Because supreme authority had ostensibly been &ldquo;restored&rdquo; to the imperial dynasty, the occasion was referred to as the Meiji Restoration. The emperor, still in his mid-teens in 1868, became identified as the Meiji emperor. His long reign, extending to 1912, is known as the Meiji period.<br/>
+            <br/>
+            Had the movement to overthrow the government in 1868 failed, its leaders would have gone down in history as reactionary and ruthless terrorists. As it turned out, victory transformed those of them who survived the years of civil disorder into pragmatists. Almost overnight, they became adroit practitioners of what we call today &ldquo;nation building&rdquo; and &ldquo;modernization.&rdquo; They became ardent &ldquo;Westernizers.&rdquo;<br/>
+            <br/>&ldquo;Westernization,&rdquo; however, had many meanings. Looking inward, it involved building a strong state and rich industrialized nation capable of resisting Western pressure and exploitation. Looking outward at an international arena dominated by expansionist powers, &ldquo;Westernization&rdquo; obviously entailed competing in the great game of modern conquest and empire. <br/>
+            <br/>Success in the modern world, in short, was measured by one&rsquo;s accomplishments in war as well as peace. &ldquo;Wealth and power&rdquo; is the ubiquitous phrase for this. In Japanese parlance, &ldquo;rich country, strong military&rdquo; (<em>fukoku ky&#333;hei</em>) became the most famous slogan of the early Meiji period. <br/>
+            <br/>Domestically, what this entailed in practical terms became apparent quickly. By the mid-1870s, the former warrior fiefs or domains had been turned into prefectures. The hereditary warrior class itself had been abolished. The military had been converted into a conscript army and navy (with many former samurai recruited as the officer corps). Simultaneously, &ldquo;industrialization&rdquo; was jump-started with intimate governmental support.<br/>
+            <br/>The coal-burning paddlewheel ships that astounded the Japanese when they appeared in Commodore Perry&rsquo;s fleet in the 1850s quickly became part of Japan&rsquo;s own navy and merchant marine.<br />            <br/></td>
+        </tr></table>
+		 <table border="0" cellspacing="0" cellpadding="0" width="579">
+          <tr> 
+          <td width="169" align="center" valign="middle" class="bottiblock"><img  title="" src="image/space.gif" alt="space" width="5" height="130" border="0" align="right"/>&quot;Complete Picture of a Steamship: Scenery of Uraga from the Sea&quot; by Sadahide, 1863 
+            <span class="bottismall"><br />
+            <br />
+            [Y0070] Arthur M. Sackler Gallery, Smithsonian Institution<br/><img  title="" src="image/space.gif" alt="space" width="130" height="5" align="right"/></span></td>
+          <td width="410" align="left" valign="top"><a href="Y0070_TOA_l.html"><img  title="" src="image/Y0070_s.jpg" alt="&quot;Complete Picture of a Steamship: Scenery of Uraga from the Sea&quot; by Sadahide, 1863 [Y0070] Arthur M. Sackler Gallery, Smithsonian Institution" width="404" height="216" border="0" align="left" /></a></td>
+        </tr>
+        <tr align="left" valign="top"> 
+          <td colspan="2" class="bottibody"><br />
+            One of Perry&rsquo;s most impressive gifts to the feudal government in 1854&mdash;a quarter-scale model train&mdash;had been reborn full-scale by the early 1870s, when the first railroad link between Tokyo and Yokohama was opened.<br />
+            <br /></td>
+        </tr>
+ <tr> 
+          <td align="center" valign="middle" class="bottiblock"><img  title="" src="image/space.gif" alt="space" width="5" height="130" border="0" align="right"/>&quot;Steam train between Tokyo and Yokohama&quot; by Utagawa Hiroshige III, 1875<span class="bottismall"><br />
+            <br />
+            [2000.549] Sharf Collection, Museum of Fine Arts, Boston</span></td>
+          <td align="left" valign="top"><a href="2000_549_l.html"><img  title="" src="image/2000_549_ss.jpg" alt="&quot;Steam train between Tokyo and Yokohama&quot; by Utagawa Hiroshige III, 1875 [2000.549] Sharf Collection, Museum of Fine Arts, Boston" width="404" height="207" border="0" align="left" /></a></td>
+        </tr>
+	  </table>
+		 <table width="579" border="0" cellspacing="0" cellpadding="0">
+	    <tr> 
+          <td colspan="2" align="left" valign="top" class="bottibody"><br /></td>
+        </tr>
+	  </table>
+		 <table border="0" cellspacing="0" cellpadding="0" width="579">
+	    <tr> 
+          <td width="209" align="left" valign="top" class="bottibody">    <br />
+            Telegraph wires began to appear around the same time, along with outdoor street lamps (another of Perry&rsquo;s impressive gifts had been a telegraph apparatus with a mile of wire). Heavy stone and brick Western-style architecture soon became a familiar sight in the Tokyo-Yokohama area.</td>
+	      <td width="240" align="right" valign="top" class="bottibody"><a href="Y0185_TOA_l.html"><img  title="" src="image/Y0185_TOA_s.jpg"  alt="&quot;Shimbashi Station&quot; by Hiroshige III, 1874 [Y0185] Arthur M. Sackler Gallery, Smithsonian Institution" width="234" height="338" border="0" align="right"/></a></td>
+	      <td width="130" align="center" valign="middle" class="bottibody"><span class="bottiblock">&quot;Shimbashi Station&quot;<br />
+                    by Hiroshige III, 1874
+                    </span><span class="bottismall"><br /> 
+                    <br />[Y0185] Arthur M. Sackler Gallery<br />
+                Smithsonian Institution</span></td>
+	    </tr>
+
+	  </table>
+<table width="579" border="0" cellspacing="0" cellpadding="0">
+	    <tr> 
+          <td colspan="2" align="left" valign="top" class="bottibody"><br /></td>
+        </tr>
+	  </table>
+		 <table width="579" border="0" cellspacing="0" cellpadding="0">
+	
+
+
+<tr> 
+          <td width="169" align="center" valign="middle" class="bottiblock">
+          <img  title="" src="image/space.gif" alt="space" width="5" height="135" border="0" align="right"/> &ldquo;Illustration of the Foreign Buildings along the Kaigandori Viewed from the Yokohama Wharves&rdquo; by Hiroshige III, c. 1870<span class="bottismall"><br />
+            <br />
+            [2000.506] Sharf Collection, Museum of Fine Arts, Boston<br/><img  title="" src="image/space.gif" alt="space" width="150" height="5" align="right"/></span></td>
+          <td width="410" align="left" valign="top"><a href="2000_506_l.html"><img  title="" src="image/2000_506_s.jpg" alt="&quot;Steam train between Tokyo and Yokohama&quot; by Hiroshige III, 1875 [2000.549] Sharf Collection, Museum of Fine Arts, Boston" width="404" height="215" border="0" align="left" /></a></td>
+        </tr>
+<tr> 
+          <td height="218" align="center" valign="middle" class="bottiblock"> <img  title="" src="image/space.gif" alt="space" width="5" height="130" border="0" align="right"/> &ldquo;The Most Famous View in Tokyo: Brick Buildings along the Ginza&rdquo;<br />
+          by Hiroshige III, c. 1874<span class="bottismall"><br />
+              <br />
+            [2000.388a-c] Sharf Collection, Museum of Fine Arts, Boston</span></td>
+          <td align="left" valign="top"><a href="2000_388_l.html"><img  title="" src="image/2000_388_s.jpg" alt="&ldquo;The Most Famous View in Tokyo: Brick Buildings along the Ginza&rdquo; by Hiroshige III, c. 1874 [2000.388] Sharf Collection, Museum of Fine Arts, Boston" width="404" height="215" border="0" align="left" /></a></td>
+        </tr>
+<tr> 
+          <td align="center" valign="middle" class="bottiblock"><img  title="" src="image/space.gif" alt="space" width="5" height="130" border="0" align="right"/> &ldquo;Famous Places in Tokyo: True View of the Post Office at Edobashi&rdquo; by Kobayashi Ikuhide, 1889<span class="bottismall"><br />
+              <br />
+            [2000.509] Sharf Collection, Museum of Fine Arts, Boston</span></td>
+          <td align="left" valign="top"><a href="2000_509_l.html"><img  title="" src="image/2000_509_s.jpg" alt="&ldquo;Famous Places in Tokyo: True View of the Post Office at Edobashi&rdquo; by Kobayashi Ikuhide, 1889 [2000.509] Sharf Collection, Museum of Fine Arts, Boston" width="404" height="207" border="0" align="left" /></a></td>
+        </tr>
+
+
+      </table>
+
+  <table border="0" cellspacing="0" cellpadding="0">
+	  
+				   <tr> 
+          <td align="left" valign="top" class="bottibody" colspan="2">
+             <br />
+             Iron bridges became listed among the &ldquo;famous places in Tokyo.&rdquo; Young women who had formerly been employed spinning and weaving cotton and silk in small cottage industries were quickly mobilized for larger-scale production using Western-style textile machinery. <br />
+             <br /></td>
+          </tr>
+<tr> 
+          <td width="169" height="215" align="center" valign="middle" class="bottiblock">
+<img  title="" src="image/space.gif" alt="space" width="5" height="130" border="0" align="right"/> &ldquo;Famous Places in Tokyo: Picture of Azuma Bridge and a Distant View of a Torpedo Explosion&rdquo; by Inoue Tankei, July 1888<span class="bottismall"><br />
+              <br />
+            [2000.395] Sharf Collection, Museum of Fine Arts, Boston<br/>
+            <img  title="" src="image/space.gif" alt="space" width="130" height="5" align="right"/></span></td>
+          <td width="410" align="left" valign="top"><a href="2000_395_l.html"><img  title="" src="image/2000_395_s.jpg" alt="&ldquo;Famous Places in Tokyo: Picture of Azuma Bridge and a Distant View of a Torpedo Explosion&rdquo; by Inoue Tankei, July 1888 [2000.395] Sharf Collection, Museum of Fine Arts, Boston" width="404" height="211" border="0" align="left" /></a></td>
+        </tr>
+<tr> 
+          <td align="center" valign="middle" class="bottiblock"> <img  title="" src="image/space.gif" alt="space" width="5" height="130" border="0" align="right"/> &ldquo;Album of Ten Prints Illustrating Sericulture: Unwinding Strands from Cocoons by Means of a Silk Reeling Machine&rdquo; by Toyohara Chikanobu, 1880<span class="bottismall"><br />
+              <br />
+            [2000.096.09] Sharf Collection, Museum of Fine Arts, Boston</span></td>
+          <td align="left" valign="top"><a href="2000_096_09_l.html"><img  title="" src="image/2000_096_09_s.jpg" alt="&ldquo;Album of Ten Prints Illustrating Sericulture: Unwinding Strands from Cocoons by Means of a Silk Reeling Machine&rdquo;by Toyohara Chikanobu, 1880 [2000.096_09] Sharf Collection, Museum of Fine Arts, Boston" width="404" height="284" border="0" align="left" /></a></td>
+        </tr>
+  <tr align="left" valign="top"> 
+          <td colspan="2" class="bottibody"><span class="bottismall"><br /></span>
+            Industrialization went hand-in-hand with political and cultural Westernization. Beginning in the mid-1880s, the emperor and empress, cultivated as symbols of a deep imperial tradition, were simultaneously presented as arch-exemplars of Western-style monarchical splendor. A succession of brightly colored &ldquo;brodcade picture&rdquo; woodblock prints (<em>nishikie</em>) presented the imperial couple as fashion plates for Western high couture. The emperor (who almost never appeared in photographs after the first few years of his reign) was invariably depicted in Western-style military dress. Starting in 1886, his consort always appeared in public&mdash;and in popular illustrations&mdash;wearing the most up-to-date European gowns.<br />
+            <br /><span class="bottismall"><br /></span></td>
+        </tr>
+ <tr align="left" valign="top"> 
+          <td colspan="2"  align="center">
+
+            <table width="579" border="0" cellspacing="0" cellpadding="0" bgcolor="#cccccc">
+            <tr>
+              <td align="center" class="bottiblock" colspan="2"><img  title="" src="image/spacer.gif" alt="space" width="30" height="250" align="left"/><img  title="" src="image/spacer.gif" alt="space" width="30" height="250" align="right"/><br />
+                 <span class="bottiblockhead">Reinventing the Emperor</span><span class="halfer"><br />
+                <br/>
+                </span>
+                Although the imperial court in Japan dated back to around the fifth century, the hereditary emperor actually exercised little if any political power after the rise of a warrior class in the 12th century. When the feudal government was overthrown in 1868, power was ostensibly &quot;restored&quot; to the emperor, who became a potent nationalist symbol in two contradictory ways. On the one hand, he was said to exemplify a &quot;sacred and inviolable&quot; tradition dating back to earliest times. On the other hand, the emperor and his family were presented as symbols of the nation's progressive &quot;Westernization&quot; and modernization. In the late 1880s, woodblock artists churned out many prints celebrating the imperial family, always imagining them in Western attire.</td>
+            </tr>
+<tr> 
+          <td width="167" align="center" valign="middle" class="bottiblock">
+            <img  title="" src="image/spacer.gif" alt="space" width="12" height="270" align="left"/><img  title="" src="image/spacer.gif" alt="space" width="12" height="270" align="right"/>The emperor and empress depicted in Western dress, with court ladies in traditional kimono in attendance.<br />
+          <br />
+          &ldquo;Maple Leaves at New Palace,&rdquo; artist unknown, December 1888 (detail)<span class="bottismall"><br />
+              <br />
+            [2000.237]<br />
+            Sharf Collection, Museum<br />
+            of Fine Arts, Boston<br/><img  title="" src="image/spacer.gif" alt="space" width="120" height="5" align="bottom"/></span></td>
+          <td width="412" align="left" valign="top"><a href="2000_237_l.html"><img  title="" src="image/2000_237_g.jpg" alt="&ldquo;Maple leaves at new palace,&rdquo; Artist unknown, December 1888 [2000.237] &nbsp;Sharf Collection, Museum of Fine Arts, Boston" width="402" height="309" border="0" align="middle" /></a></td>
+        </tr>
+ <tr>
+              <td colspan="2" align="center" class="bottiblock"><a href="2000_548_l.html"><img  title="" src="image/2000_548_g.jpg" alt="&ldquo;A Mirror of Japanese Nobility&rdquo; by Toyohara Chikanobu, August 1887 [2000.548] &nbsp;Sharf Collection, Museum of Fine Arts, Boston" width="553" height="296" border="0" /></a>               </td>
+            </tr>
+<tr>
+              <td colspan="2" align="center" class="bottiblock"><img  title="" src="image/spacer.gif" width="15" height="74" align="left" alt="space"/><img  title="" src="image/spacer.gif" width="15" height="70" align="right" alt="space"/>The Meiji emperor and empress with their young son. <br />
+                &ldquo;A Mirror of Japanese Nobility&rdquo; by Toyohara Chikanobu, August 1887<span class="halfer"><br /><br /></span><span class="bottismall">[2000.548] Sharf Collection, Museum of Fine Arts, Boston</span> </td>
+            </tr>
+<tr bgcolor="#cccccc">
+              <td colspan="2" align="center" class="bottiblock"><img  title="" src="image/spacer.gif" width="15" height="15" align="left" alt="space"/></td>
+            </tr>
+          </table></td>
+        </tr>
+  <tr align="left" valign="top"> 
+          <td colspan="2" class="bottibody"><span class="bottismall"><br /></span>From the 1870s into the 1890s, to be counted as &ldquo;high society&rdquo; in Japan was virtually synonymous with being seen as &ldquo;highly Westernized.&rdquo; Woodblock-print artists dwelled lovingly on this, often placing their fashionable men and women in scenes that also included appreciation of Western music (harpsichords and chamber or choral groups) and easily accessible technological wonders such as the sewing machine.<br />
+            <br /> </td>
+        </tr>
+<tr>
+              <td colspan="2" align="center" class="bottiblock"><a href="res_53_82_l.html"><img  title="" src="image/r_53_82_s.jpg" alt="&ldquo;Illustration of Singing by the Plum Garden&rdquo; by Toyohara Chikanobu, 1887 [res_53_82] Museum of Fine Arts, Boston" width="565" height="289" border="0" /></a>               </td>
+          </tr>
+<tr>
+              <td colspan="2" align="center" class="bottiblock"><img  title="" src="image/spacer.gif" width="15" height="50" align="left" alt="space"/><img  title="" src="image/spacer.gif" width="15" height="50" align="right" alt="space"/>&ldquo;Illustration of Singing by the Plum Garden&rdquo; by Toyohara Chikanobu, 1887<span class="halfer"><br />
+                <br />
+                </span><span class="bottismall">[res.53.82] Museum of Fine Arts, Boston</span> </td>
+          </tr>
+<tr>
+              <td colspan="2" align="center" class="bottiblock"><a href="11_18171_l.html"><img  title="" src="image/11_18171_s.jpg" alt="&ldquo;Illustration of Ladies Sewing&rdquo; by Adachi Gink&#333;, 1887 [11_18172_74] Museum of Fine Arts, Boston" width="565" height="288" border="0" /></a>               </td>
+          </tr>
+<tr>
+              <td colspan="2" align="center" class="bottiblock"><img  title="" src="image/spacer.gif" width="15" height="60" align="left" alt="space"/><img  title="" src="image/spacer.gif" width="15" height="60" align="right" alt="space"/>&ldquo;Illustration of Ladies Sewing&rdquo; by Adachi Gink&#333;, 1887<span class="halfer"><br />
+                <br />
+            </span><span class="bottismall">[11.18172.74] Museum of Fine Arts, Boston</span> </td>
+          </tr>
+ <tr align="left" valign="top"> 
+          <td colspan="2" class="bottibody">Such cultural manifestations of Western influence were often subsumed under the slogan &ldquo;civilization and enlightenment&rdquo; (<em>bunmei kaika</em>). This evocative phrase went far beyond just frills and fashions, however, and was explicitly associated with the progressive values of Western &ldquo;civilization&rdquo; and the European Enlightenment. Fukuzawa Yukichi, Meiji Japan&rsquo;s most prolific interpreter of Western values and practices, offered a concise interpretation of what &ldquo;civilization and enlightenment&rdquo; entailed. The strength and progress of the great Western nations, he argued, rested on science; and scientific accomplishment, in turn, required a spirit of free inquiry among the general populace. Thus, it followed that liberal and progressive values were not simply moral and political ideals; they were also part and parcel of creating a &ldquo;rich country, strong military&rdquo; capable of assuring national independence.<br />
+            <br />
+            The symbolic capstone of these various developments in &ldquo;modernization&rdquo; and &ldquo;Westernization&rdquo; was adoption of a Western-style constitution in 1890. Based primarily on conservative German legal precedents, the Meiji Constitution had two particularly notable features. It formally established Japan as a constitutional monarchy &ldquo;reigned over and governed by a line of Emperors unbroken for ages eternal,&rdquo; in which the reigning emperor was &ldquo;sacred and inviolable.&rdquo; (The government&rsquo;s German legal advisers had balked at codifying this &ldquo;divine descent&rdquo; ideology, but to no avail.) At the same time, the new constitution established an elective &ldquo;diet&rdquo; or parliament that lay the ground for a more generally representative government.<br />            <br/>
+            No other non-Western country had covered so much ground so quickly in responding to the American and European challenge. Foreign observers were impressed. <br />            <br/></td>
+        </tr>
+<tr> 
+          <td align="center" valign="middle" class="bottiblock">
+            <img  title="" src="image/spacer.gif" width="8" height="300" align="right" alt="space"/>The Meiji emperor bestows the new constitution, which formally established Japan as a constitutional monarchy. The empress is seated at the left. <br />
+          <br/>
+          &ldquo;Illustration of the Ceremony Promulgating the Constitution,&rdquo; artist unknown, 1890 (detail)<br/>          <span class="bottismall"><br />
+              [2000.226]<br />
+            Sharf Collection, Museum<br />
+            of Fine Arts, Boston<br />
+          </span></td>
+          <td height="370" align="left" valign="top"><a href="2000_226_l.html"><img  title="" src="image/2000_226_det.jpg" alt="Illustration of the Ceremony Promulgating the Constitution,&rdquo; Artist unknown, 1890 (detail)[2000.226] &nbsp;Sharf Collection, Museum of Fine Arts, Boston" width="404" height="366" border="0" align="left" /></a></td>
+        </tr>
+<tr>
+              <td colspan="2" align="center" class="bottiblock"><a href="2000_535_l.html"><img  title="" src="image/2000_535_s.jpg" alt="&ldquo;Illustration of the Imperial Diet of Japan&rdquo; by Got&#333; Yoshikage, 1890 [2000.535] Sharf Collection, Museum of Fine Arts, Boston" width="565" height="293" border="0" /></a>               </td>
+          </tr>
+<tr>
+              <td colspan="2" align="center" class="bottiblock"><img  title="" src="image/spacer.gif" width="22" height="140" align="left" alt="space"/><img  title="" src="image/spacer.gif" width="22" height="140" align="right" alt="space"/>The emperor can be seen seated in an ornate box, upper left, overlooking proceedings of Japan&rsquo;s new elective parliament, the Imperial Diet.<span class="halfer"><br />
+                <br /></span>&ldquo;Illustration of the Imperial Diet of Japan&rdquo; by Got&#333; Yoshikage, 1890<span class="halfer"><br />
+                <br />
+            </span><span class="bottismall">[2000.535] Sharf Collection, Museum of Fine Arts, Boston</span> </td>
+          </tr>
+</table>
+ 
+
+
+
+
+
+		 <table border="0" cellspacing="0" cellpadding="0" align="left">
+          
+ <tr>
+          <td align="left" valign="top"><span class="bottismall"><img src="../home/image/redline.gif" width="570" height="1"  alt="MIT Visualizing Cultures" title=""/><br/><br/>
+                <a href="javascript:imalert('../home/about.html')"><em>On viewing images of a potentially disturbing nature: click here.</em></a><br />
+                <br/>Massachusetts Institute of Technology &#169; 2008 Visualizing Cultures<br />
+                <br />
+          </span></td>
+          </tr>
+
+
+
+ <tr>
+          <td align="left" valign="top"><div class="bottom"><img src="image/essay_bottom.gif"  alt="MIT Visualizing Cultures" width="970" height="136" border="0" align="left" title=""/></div>
+<div class="essaynavbottom">
+  <table width="622" border="0" cellspacing="0" cellpadding="0" align="left">
+  <tr align="left">
+    <td align="left" width="105"><img src="image/toa_essay_nav_02.gif"  alt="Throwing Off Asia I" name="nav01b" width="622" height="39" border="0" usemap="#Map5" id="nav01b" title=""/></td>
+  </tr>
+</table>
+</div></td>
+          </tr>
+
+
+	  </table>
+</td>
+    <td width="371">&nbsp;</td>
+  </tr>
+</table></div>
+<div class="top"><img src="image/essay_top.gif"  alt="MIT Visualizing Cultures" width="970" height="136" border="0" align="left" title=""/></div>
+
+<!--end background elements -->
+
+<!-- essay nav -->
+<div class="essaynavtop"><table width="622" border="0" cellspacing="0" cellpadding="0" align="left">
+  <tr align="left">
+    <td align="left" width="622"><img src="image/toa_essay_nav_02.gif"  alt="Throwing Off Asia I" name="nav01" width="622" height="39" border="0" usemap="#Map4" id="nav01" title=""/></td>
+  </tr>
+</table>
+</div>
+
+
+<!-- end essay nav -->
+
+
+
+<!-- right-hand buttons -->
+
+
+
+
+
+<div class="boxpdf" id="boxpdf"><!--<a href="javascript:imalert('../home/about.html')">Warning: On viewing images of <br />a potentially
+disturbing nature</a><br />
+<br />-->
+<a href="pdf/toa1_essay_02.pdf" target="_blank"   onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image12','','../home/image/pdf_chap02.gif',1);noverlay();noverlayv();noverlayu();">Printer-friendly PDF of this chapter</a></div>
+
+
+
+
+<!--end  right-hand buttons -->
+
+
+
+
+
+</div>
+</div>
+
+<!--top bar nav elements -->
+<div class="box14" id="box14" ><table  width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><img src="../home/image/spacer.gif" width="10" height="26"  alt="MIT Visualizing Cultures"/><img src="../home/image/hometopnav01.gif"  alt="Menu" width="227" height="26" border="0" usemap="#topmap"/></td>
+  </tr>
+</table>
+</div>
+
+<div class="box15" id="box15" ><table  width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><img src="../home/image/spacer.gif" width="10" height="27"  alt="MIT Visualizing Cultures"/></td>
+  </tr>
+</table>
+</div>
+
+<div class="navbox" id="hideme"><a  onmouseout="javascript:noverlay();" onmouseover="javascript:overlay();"><img src="../home/image/vc_home_nav.png" alt="MIT Visualizing Cultures" width="202" height="300" border="0" usemap="#Map"  id="Image5"  name="Image5" title="" /></a></div> 
+
+<div class="twit">
+<a href="https://twitter.com/share" class="twitter-share-button" data-count="none">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></div>
+
+<div class="emil"><!--email-->
+<script type="text/javascript"><!--
+
+var SubjectLine='MIT Visualizing Cultures'; 
+var BodyText='You can see this page at: '+top.location.href;
+
+var Message='<A CLASS=contact HREF="mailto:?SUBJECT='+escape(SubjectLine)+'&BODY='+escape(BodyText)+'" OnMouseOver="status=\'Envoyer cette page à vos amis\'; return true;" ><img src="../home/image/email2.gif" alt="Email" name="Image321"   border="0" id="Image321"  title=""/><\/A>';
+
+var MessageIE='<A CLASS=contact HREF="mailto:?SUBJECT='+(SubjectLine)+'&BODY='+(BodyText)+'" OnMouseOver="status=\'Envoyer cette page à vos amis\'; return true;" ><img src="../home/image/email2.gif" alt="Email" name="Image321"   border="0" id="Image321"  title=""/><\/A>';
+
+if(document.all) { document.write(MessageIE); }
+
+else { document.write(Message); }
+
+// http://javascriptsource.com "The JavaScript Source"
+//--></script></div>
+
+
+
+<!--facebook--><div class="fbok">
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<div class="fb-like" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false" data-colorscheme="light" data-font="verdana"></div>
+
+</div> 
+
+<div class="unitsnavbox01" id="unitsnavbox01" ><a  onmouseout="javascript:noverlayu();" onmouseover="javascript:overlayu();"><img src="../home/image/unitstopnav01.gif"  alt="Units" width="227" height="26" border="0"/></a></div>
+ <div class="navboxu" id="hidemeu"><a href="#" onmouseout="javascript:noverlayu();" onmouseover="javascript:overlayu();"><img src="../home/image/vc_units_cur_nav.png" alt="MIT Visualizing Cultures" width="179" height="148" border="0" usemap="#Map3"  id="Image6"  name="Image6" title=""/></a></div> <div class="unitnavbox" id="unitnavbox" ><a  onmouseout="javascript:noverlayv();" onmouseover="javascript:overlayv();"><img src="image/topnav.gif"  alt="Throwing Off Asia I" width="227" height="26" border="0"/></a></div>
+ 
+<div class="navboxv" id="hidemev"><a  onmouseout="javascript:noverlayv();" onmouseover="javascript:overlayv();"><img src="image/toa_nav.png" alt="Asia Rising"  name="Image7" width="212" height="169" border="0" usemap="#Image7Map"   id="Image7" title=""/>
+    
+</a></div>
+<!--end top bar nav elements -->
+
+
+
+<!--image maps -->
+    <map name="topmap" id="topmap">
+      <area shape="rect" coords="0,0,180,47" href="#" onmouseover="overlay();"  alt="MIT Visualizing Cultures" />
+      <area shape="rect" coords="194,0,300,47" href="#" onmouseover="overlayu();"  alt="VC Units" />
+  </map>
+
+<map name="Map" id="Map">
+      <area shape="rect" coords="0,0,211,39" href="../home/index.html" onmouseover="overlay()" alt="MIT Visualizing Cultures"/>
+      <area shape="rect" coords="0,39,211,66" href="../home/vc01_about.html" target="_top"  alt="About VC" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_02.png',1)"/>      
+      <area shape="rect" coords="0,66,211,96" href="../home/vc02_schol.html" target="_top"  alt="VC Scholars" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_03.png',1)" />
+  <area shape="rect" coords="0,96,211,124" href="../home/vc03_partner.html" target="_top"  alt="Partner Institutions" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_04.png',1)" />
+
+  <area shape="rect" coords="0,124,211,147" href="../home/vc05_outreach.html" target="_top"  alt="Outreach" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_05.png',1)" />
+  <area shape="rect" coords="3,147,211,181" href="../home/vc06_event.html" target="_top"  alt="Conferences &amp; Events" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_06.png',1)" />
+  <area shape="rect" coords="3,181,211,214" href="mailto:visualizingcultures@mit.edu" target="_top"  alt="Contact" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_07.png',1)" />
+ <area shape="rect" coords="1,214,212,240" href="http://www.facebook.com/home.php#!/group.php?gid=261831254970&amp;ref=ts" target="_blank"  alt="Join Us" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_08.png',1)" />
+  <area shape="rect" coords="0,240,211,266" href="http://twitter.com/Visualizing_Cul" target="_blank"  alt="Follow Us" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_09.png',1)" />
+</map><map name="Map3" id="Map3">
+  
+<area shape="rect" coords="0,2,312,30" href="../home/vis_menu.html" target="_top" alt="Units" onmouseout="noverlayu();MM_swapImgRestore()" onmouseover="overlayu();" />
+
+<area shape="rect" coords="2,38,314,68" href="../home/vis_menu.html" target="_top" alt="Icon View" onmouseout="noverlayu();MM_swapImgRestore()" onmouseover="overlayu();MM_swapImage('Image6','','../home/image/vc_units_cur_nav_01.png',1)" />
+
+<area shape="rect" coords="0,67,312,95" href="../home/vis_menu_02b.html" target="_top" alt="Text View" onmouseout="noverlayu();MM_swapImgRestore()" onmouseover="overlayu();MM_swapImage('Image6','','../home/image/vc_units_cur_nav_02.png',1)" />
+
+<area shape="rect" coords="1,94,313,122" href="../home/vis_menu_03.html" target="_top" alt="Curriculae" onmouseout="noverlayu();MM_swapImgRestore()" onmouseover="overlayu();MM_swapImage('Image6','','../home/image/vc_units_cur_nav_03.png',1)" /></map>
+<map name="Image7Map" id="Image7Map">
+  <area shape="rect" coords="0,2,212,30" href="index.html" target="_top" alt="Globetrotters&#8217;s Japan: People" onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();" />
+      <area shape="rect" coords="0,42,215,70" href="toa_essay01.html" target="_top" alt="Essay" onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();MM_swapImage('Image7','','image/toa_nav_02.png',1)" />
+  <area shape="rect" coords="0,70,215,99" href="toa_vis_01.html" target="_top" alt="Visual Narratives" onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();MM_swapImage('Image7','','image/toa_nav_03.png',1)" />
+  <area shape="rect" coords="0,99,215,127" href="javascript:openvcidwindow('gallery/index.htm')" target="_top" alt="Image Gallery" onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();MM_swapImage('Image7','','image/toa_nav_04.png',1)" />
+<area shape="rect" coords="0,127,215,154" href="javascript:opencurwindow('cur_student/toa_cur_toc.html')" target="_top" alt="Image Gallery"  onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();MM_swapImage('Image7','','image/toa_nav_05.png',1)" />
+</map>
+
+<map name="Map4" id="Map4">
+<area shape="rect" coords="0,0,145,41"   href="toa_essay01.html" onmouseover="MM_swapImage('nav01','','image/toa_essay_nav_01.gif',1);noverlay();noverlayv();noverlayu();" onmouseout="MM_swapImgRestore()" alt="Westernization"/>
+   <!--  <area shape="rect" coords="145,0,355,41" href="toa_essay02.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01','','image/toa_essay_nav_02.gif',1);noverlay();noverlayv();noverlayu();"  alt="&#8220;Civilization &amp; Enlightenment&#8221;"/> -->
+  <area shape="rect" coords="355,0,499,41" href="toa_essay03.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01','','image/toa_essay_nav_03.gif',1);noverlay();noverlayv();noverlayu();"  alt="Wealth &amp; Power"/>
+
+  <area shape="rect" coords="499,0,622,41" href="toa_essay04.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01','','image/toa_essay_nav_04.gif',1);noverlay();noverlayv();noverlayu();"  alt="Sources"/>
+</map>
+
+<map name="Map5" id="Map5">
+ <area shape="rect" coords="0,0,145,41"   href="toa_essay01.html" onmouseover="MM_swapImage('nav01b','','image/toa_essay_nav_01.gif',1);noverlay();noverlayv();noverlayu();" onmouseout="MM_swapImgRestore()" alt="Westernization"/>
+   <!-- <area shape="rect" coords="145,0,355,41" href="toa_essay02.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01b','','image/toa_essay_nav_02.gif',1);noverlay();noverlayv();noverlayu();"  alt="&#8220;Civilization &amp; Enlightenment&#8221;"/> -->
+  <area shape="rect" coords="355,0,499,41" href="toa_essay03.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01b','','image/toa_essay_nav_03.gif',1);noverlay();noverlayv();noverlayu();"  alt="Wealth &amp; Power"/>
+
+  <area shape="rect" coords="499,0,622,41" href="toa_essay04.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01b','','image/toa_essay_nav_04.gif',1);noverlay();noverlayv();noverlayu();"  alt="Sources"/>
+</map>
+
+
+</body>
+</html>

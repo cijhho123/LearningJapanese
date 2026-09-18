@@ -1,0 +1,1333 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>MIT Visualizing Cultures</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+
+
+<style type="text/css">
+<!--
+
+.backg {
+	position:absolute;
+	left:0px;
+	top:180px;
+	z-index: 1;
+background-image:url(../gt_japan_people/image/essay_bck.gif);
+}
+.top {
+	position:absolute;
+	left:0px;
+	top:45px;
+	z-index: 2;
+}
+.bottom {
+	position:absolute;
+	left:0px;
+	z-index: 2;
+}
+.essaynavtop {
+	position:absolute;
+	left:0px;
+	top:142px;
+	z-index: 3;
+}
+.essaynavbottom {
+	position:absolute;
+	left:0px;
+	z-index: 3;
+}
+.essay {
+	position:absolute;
+	left:20px;
+	top:195px;
+	z-index: 4;
+	background-color:#FFFFFF;
+}
+.flashy {
+	position:absolute;
+	left:467px;
+	top:42px;
+	z-index: 3;
+}
+.slug {        position:absolute;
+        left:20px;
+        top:475px;
+        width:476px;
+		z-index:2;
+		text-align:left;
+}
+.navbox {
+		position: fixed;
+        left:10px;
+        top:0px;
+		z-index: 5;
+		visibility:hidden;
+}
+.unitsnavbox01 {
+        position:fixed;
+        left:200px;
+        top:0px;
+		z-index:5;
+}
+.xnavbox {
+        position:fixed;
+        left:271px;
+        top:0px;
+		z-index:6;
+}
+.unitnavbox {
+        position:fixed;        left:512px;
+top:0px;
+		z-index:6;
+}
+.navboxu {
+		position: fixed;
+        left:200px;
+        top:0px;
+		z-index: 5;
+		visibility:hidden;	 
+}
+.navboxx {
+		position: fixed;
+        left:271px;
+        top:0px;
+		z-index: 6;
+		visibility:hidden;	 
+}
+.navboxv {
+		position: fixed;        left:512px;
+top:0px;
+		z-index: 8;
+		visibility:hidden;	 
+}
+.box14 {
+        position:fixed;
+        left:0px;
+        top:0px;
+		z-index:5;
+		background-color:#222222;
+		width:100%
+}
+.box15 {
+        position:fixed;
+        left:0px;
+        top:0px;
+		z-index:4;
+	    width: 100%;
+		background-color:#504B48
+}
+.box16 {        position:fixed;
+        left:0px;
+        top:23px;
+		z-index:4;
+	width: 100%;
+background-color:#2F302F 
+}
+.popup01 {        position:absolute;
+        left:624px;
+		z-index:4;
+}
+.boxtoalink {        position:absolute;
+        left:624px;
+		z-index:4;
+}
+.boxpdf {        position:absolute;
+        left:624px;
+        top:220px;
+		z-index:4;
+}
+
+.box01 { 
+		position: static;
+		top: 20%;
+		left: 20%;
+}		
+.pop {position:absolute;
+        left:638px;
+		z-index:4;
+}
+
+#horizon        
+	{
+	text-align: center;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 1px;
+	overflow: visible;
+	visibility: visible;
+	display: block
+	}
+
+#content    
+	{
+	margin-left: -485px;
+	position: absolute;
+	top: 0px;
+	left: 50%;
+	width: 250px;
+	height: 70px;
+	visibility: visible;
+
+		}
+#treat    
+	{
+	margin-left: -610px;
+	position: absolute;
+	top: 379px;
+	left: 50%;
+	width: 1220px;
+	height: 640px;
+	visibility: hidden;
+	z-index: 5;
+		}
+.bottibody {color: #111111; font-size: 13px; line-height: 19px; font-family: Verdana, Arial, Helvetica, sans-serif
+	}
+.bottibody2 {color: #ffffff; font-size: 11px; line-height: 16px; font-family: Verdana, Arial, Helvetica, sans-serif
+	}
+.bottiblock {
+	color: #2D2D2D;
+	font-size: 15px;
+	line-height: 19px;
+	/*font-family: Georgia, "Times New Roman", Times, serif;*/
+	font-family: Times New Roman, Times, serif;
+	font-style: italic;
+	}
+.bottiblockplain {
+	color: #2D2D2D;
+	font-size: 15px;
+	line-height: 19px;
+	/*font-family: Georgia, "Times New Roman", Times, serif;*/
+	font-family:   Times New Roman, Times, serif;
+	font-style: normal;
+	}
+.bottiblock {
+	color: #2D2D2D;
+	font-size: 15px;
+	line-height: 19px;
+	/*font-family: Georgia, "Times New Roman", Times, serif;*/
+	font-family: Times New Roman, Times, serif;
+	font-style: italic;
+	}
+.bottiblockplain {
+	color: #2D2D2D;
+	font-size: 15px;
+	line-height: 19px;
+	/*font-family: Georgia, "Times New Roman", Times, serif;*/
+	font-family:   Times New Roman, Times, serif;
+	font-style: normal;
+	}
+.bottiblockiii {
+	color: #2D2D2D;
+	font-size: 14px;
+	line-height: 18px;
+	/*font-family: Georgia, "Times New Roman", Times, serif;*/
+	font-family: Times New Roman, Times, serif;
+	font-style: italic;
+	}
+.bottiblockplainiii {
+	color: #2D2D2D;
+	font-size: 14px;
+	line-height: 18px;
+	/*font-family: Georgia, "Times New Roman", Times, serif;*/
+	font-family:   Times New Roman, Times, serif;
+	font-style: normal;
+	}
+.bottiblockhead {
+	color: #2D2D2D;
+	font-size: 20px;
+	line-height: 18px;
+	/*font-family: Georgia, "Times New Roman", Times, serif;*/
+	font-family: Times New Roman, Times, serif;
+	font-style: italic;
+	}
+.bottismall {
+	color: #333333;
+	font-size: 9px;
+	line-height: 14px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-style: normal;
+	}
+.head { color: #222222; font-size: 15px; line-height: 19px; font-family: Verdana, Arial, Helvetica, sans-serif
+	}
+.halfer { color: #ffffff; font-size: 6px; line-height: 6px; font-family: Verdana, Arial, Helvetica, sans-serif
+	}
+a:link {
+        color:#1233FF;
+        text-decoration:none;
+    }
+ a:active { 
+		color:#1233FF;
+        text-decoration:none;
+	}
+a:visited {
+		color:#1233FF;
+        text-decoration:none;
+	}
+a:hover {
+		color:#1233FF;
+        text-decoration:none;
+	}
+.bottibody2 a:link {
+        color:#aaaaaa;
+        text-decoration:none;
+    }
+ .bottibody2 a:active { 
+		color:#aaaaaa;
+        text-decoration:none;
+	}
+.bottibody2 a:visited {
+		color:#aaaaaa;
+        text-decoration:none;
+	}
+.bottibody2 a:hover {
+		color:#ffffff;
+        text-decoration:none;
+	}
+.box141 {	position:absolute;
+	left:0px;
+	top:0px;
+}
+.intro {position:absolute;
+        left:0px;
+        width:600px;
+		z-index:2;
+text-align:center;
+font-family:"Times New Roman", Times, serif;
+color: #111111; font-size: 17px;
+line-height: 20px;
+}
+.bottiblockbig {
+	color: #111111;
+	font-size: 16px;
+	line-height: 23px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-style: italic;
+}
+.bottiblockbigplain {
+	color: #111111;
+	font-size: 16px;
+	line-height: 23px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-style: normal;
+}
+.boxtextplain{
+font-family:"Times New Roman", Times, serif;
+color: #000000; font-size: 18px;
+line-height: 22px;
+font-style:normal
+}
+.boxtextbig{
+font-family:"Times New Roman", Times, serif;
+color: #000000; font-size: 23px;
+line-height: 23px;
+font-style:italic;
+}
+.boxtext{
+font-family:"Times New Roman", Times, serif;
+color: #000000; font-size: 18px;
+line-height: 22px;
+font-style:italic;
+
+
+}
+
+.bottiblock a:link {
+        color:#275286;
+        text-decoration:none;
+    }
+ .bottiblock a:active { 
+		color:#275286;
+        text-decoration:none;
+	}
+.bottiblock a:visited {
+		color:#275286;
+        text-decoration:none;
+	}
+.bottiblock a:hover {
+		color:#275286;
+        text-decoration:none;
+	}
+
+.bottiblockplain a:link {
+        color:#000000;
+        text-decoration:none;
+    }
+ .bottiblockplain a:active { 
+		color:#000000;
+        text-decoration:none;
+	}
+.bottiblockplain a:visited {
+		color:#000000;
+        text-decoration:none;
+	}
+.bottiblockplain a:hover {
+		color:#000000;
+        text-decoration:none;
+	}
+
+.bottismall a:link {
+        color:#000000;
+        text-decoration:none;
+    }
+ .bottismall a:active { 
+		color:#000000;
+        text-decoration:none;
+	}
+.bottismall a:visited {
+		color:#000000;
+        text-decoration:none;
+	}
+.bottismall a:hover {
+		color:#000000;
+        text-decoration:none;
+	}
+
+.halfer a:link {
+        color:#000000;
+        text-decoration:none;
+    }
+ .halfer a:active { 
+		color:#000000;
+        text-decoration:none;
+	}
+.halfer a:visited {
+		color:#000000;
+        text-decoration:none;
+	}
+.halfer a:hover {
+		color:#000000;
+        text-decoration:none;
+	}
+.twit {
+		position: fixed;
+        top: 2px;
+        left: 810px;
+		z-index: 7;
+		
+}
+.emil{
+		position: fixed;
+        top: 4px;
+        left: 876px;
+		z-index: 7;
+		
+}
+.fbok{
+		position: fixed;
+        top: 2px;
+        left: 916px;
+		z-index: 7;
+		width: 48px;
+		overflow:hidden;
+}
+
+.eng
+ { visibility:hidden;
+   position:absolute;
+   left:302px;
+   width:320px;
+ }
+.ger
+ { visibility:visible;
+   position:absolute;
+   left:312px;
+   width:300px;
+ }
+
+
+
+
+
+-->
+</style>
+
+
+<script language="JavaScript" type="text/JavaScript">
+<!--
+//rollovers for menus
+
+function overlaytreat() {
+        el = document.getElementById("treat");
+        el.style.visibility ="visible";
+		noverlay();
+		noverlayu();
+		noverlayv();
+		noverlayx();
+}
+
+function noverlaytreat() {
+        el = document.getElementById("treat");
+        el.style.visibility ="hidden";
+}
+
+
+
+
+function overlay() {
+        el = document.getElementById("hideme");
+        el.style.visibility ="visible";
+		noverlayu();
+		noverlayv();
+		noverlayx();
+}
+
+function noverlay() {
+        el = document.getElementById("hideme");
+        el.style.visibility ="hidden";
+}
+
+
+function overlayu() {
+        el = document.getElementById("hidemeu");
+        el.style.visibility ="visible";
+		noverlay();
+		noverlayv();
+		noverlayx();
+}
+function noverlayu() {
+        el = document.getElementById("hidemeu");
+        el.style.visibility ="hidden";
+}
+
+
+function overlayv() {
+        el = document.getElementById("hidemev");
+        el.style.visibility ="visible";
+		noverlay();
+		noverlayu();
+		noverlayx();
+}
+function noverlayv() {
+        el = document.getElementById("hidemev");
+        el.style.visibility ="hidden";
+}
+
+
+function overlayx() {
+        el = document.getElementById("hidemex");
+        el.style.visibility ="visible";
+		noverlay();
+		noverlayu();
+		noverlayv();
+}
+function noverlayx() {
+        el = document.getElementById("hidemex");
+        el.style.visibility ="hidden";
+}
+function showvid() {
+        el = document.getElementById("thevid");
+        el.style.visibility ="visible";
+		noverlayu();
+		noverlayv();
+        PlayIt(document.movie1);
+}
+
+function hidevid() {
+        StopIt(document.movie1);
+		el = document.getElementById("thevid");
+        el.style.visibility ="hidden";
+
+
+}
+/* a javascript function that takes a QT movie and calls its "Play" method */
+        function PlayIt(anObj)
+        {
+                anObj.Play();
+        }
+        /* a javascript function that takes a QT movie and calls its "Stop" method */
+        function StopIt(anObj)
+        {
+                anObj.Stop();
+        }
+
+
+
+function sesame() {
+window.moveTo(0,0);        
+window.resizeTo(1350,screen.height);
+}
+
+
+window.onload=function()
+{
+	//sesame();
+    //StopIt(document.movie1);
+	noverlay();
+	noverlayu();
+	MM_preloadImages('../home/image/vc_home_nav_02.png','../home/image/vc_home_nav_03.png','../home/image/vc_home_nav_04.png','../home/image/vc_home_nav_05.png','../home/image/vc_home_nav_06.png','../home/image/vc_home_nav_07.png','../home/image/vc_home_nav_08.png','../home/image/vc_home_nav_09.png','../home/image/vc_home_nav_10.png','../home/image/vc_units_nav_01.png','../home/image/vc_units_nav_02.png','../home/image/essay_icon_jes02','image/anp2_nav_01.png','image/anp2_nav_02.png','image/anp2_nav_i_01.png','image/anp2_nav_i_02.png','image/anp2_nav_i_03.png','image/anp2_nav_i_04.png','image/anp2_nav_i_05.png','image/anp2_nav_i_06.png','image/anp2_essay_nav_01.gif','image/anp2_essay_nav_02.gif','image/anp2_essay_nav_03.gif','image/anp2_essay_nav_04.gif','image/anp2_essay_nav_05.gif','image/anp2_essay_nav_06.gif','image/anp2_gal_b.gif','image/essay_top.gif','../tokyo_1960/image/anp1_but02.png','image/anp2_nav_ii_01.png','image/anp2_nav_ii_02.png');
+}
+var newwindow = '';
+
+function imalert(url)
+{
+	if (!newwindow.closed && newwindow.location)
+	{
+		newwindow.location.href = url;
+	}
+	else
+	{
+		newwindow=window.open(url,'windowtwo','height=360,width=586, toolbar=no,  resizable=yes, status=no, scrollbars=yes');
+		if (!newwindow.opener) newwindow.opener = self;
+	}
+	if (window.focus) {newwindow.focus()}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//
+var vcidwindow = '';
+
+function openvcidwindow(url)
+{
+	if (!vcidwindow.closed && vcidwindow.location)
+	{
+		vcidwindow.location.href = url;
+	}
+	else
+	{
+		vcidwindow=window.open(url,'vcid','height=1000,width=1256, toolbar=yes, scrollbars=yes, resizable=yes, location=yes');
+		if (!vcidwindow.opener) vcidwindow.opener = self;
+	}
+	if (window.focus) {vcidwindow.focus()
+	}
+	} 
+
+
+
+ var curwindow = '';
+
+function opencurwindow(url)
+{
+	if (!curwindow.closed && curwindow.location)
+	{
+		curwindow.location.href = url;
+	}
+	else
+	{
+		curwindow=window.open(url,'curriculum','height=800,width=720, toolbar=yes, scrollbars=yes, resizable=yes,  location=yes');
+		if (!curwindow.opener) curwindow.opener = self;
+	}
+	if (window.focus) {curwindow.focus()
+	}
+	} 
+
+
+function decider(){
+ el = document.getElementById("thevid");
+
+if(el.style.visibility =="visible") {
+hidevid()
+} else {
+showvid()
+}
+}
+
+
+function german(){
+ el = document.getElementById("eng");
+
+if(el.style.visibility =="visible") {
+makger()
+} else {
+makeng()
+}
+}
+
+
+function makeng(){
+ el = document.getElementById("ger");
+ el.style.visibility ="hidden";
+ el = document.getElementById("eng");
+ el.style.visibility ="visible";
+}
+
+function makger(){
+ el = document.getElementById("ger");
+ el.style.visibility ="visible";
+ el = document.getElementById("eng");
+ el.style.visibility ="hidden";
+}
+//-->
+</script>
+<script type="text/javascript">
+<!--
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." :
+"http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost +
+"google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+//-->
+</script>
+<script type="text/javascript">
+<!--
+try {
+var pageTracker = _gat._getTracker("UA-12446158-1");
+pageTracker._trackPageview();
+} catch(err) {}
+//-->
+</script></head>
+<body bgcolor="#252422" >
+<div  id="horizon">
+<!--<div  id="treat"><a href="javascript:noverlaytreat();" onmouseout="noverlaytreat();" onmouseover="overlaytreat();"><img  alt="MIT Visualizing Cultures"  title="" border="0"  src="image/g_1846_TreatyNanking_B79155.jpg" width="1220" height="480" /><br />
+<img  alt="MIT Visualizing Cultures"  title="" border="0"  src="image/shad.png" width="1220" height="44" /></a></div> -->
+<div  id="content">
+<!--background elements -->
+<div class="backg"><table width="970" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    
+    <td width="970" ><table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td  width="622" align="left" valign="top" bgcolor="#C2C2C2" class="halfer" ><br /><br /><a href="javascript:openvcidwindow('hamaya/pages/anp7117_Hamaya_RG17_Jun3.htm');" ><img  src="image/anp7117_Hamaya_RG17_Jun2816.gif"  alt="MIT Visualizing Cultures" width="622" height="404" border="0"  title="" /></a></td>
+  </tr>
+</table>
+<table width="622" border="0" cellspacing="0" cellpadding="0" bgcolor="#C2C2C2">
+  <tr>
+    <td width="66">&nbsp;</td>
+    <td width="490" align="center" valign="top" class="bottiblock"><br />
+      In May and June of 1960 Japan was rocked by some of the largest protests in its history. They erupted over the passage of a revised security treaty between Japan and the United States, titled the Treaty of Mutual Cooperation and Security <span class="bottiblockplain">(S&#333;go Ky&#333;ryoku Oyobi Anzen Hosh&#333; J&#333;yaku),</span> and have become known as the &ldquo;Anpo&rdquo; protests from the Japanese shorthand for that treaty. Hundreds of thousands of people came onto the streets day after day, ten million signed petitions against the treaty, thousands were injured, and one person was killed. The protests forced cancellation of a planned visit to Japan by President Dwight D. Eisenhower, toppled the conservative prime minister Kishi Nobusuke, and have come to be recognized as the most significant political crisis of the postwar period.
+    <br /><br />
+This unit introduces photographs taken at the peak of the Anpo protests by photographer Hamaya Hiroshi. Sympathetic to the protestors, Hamaya&rsquo;s photographs allow us to see a great deal about the long-simmering tensions the postwar military alliance with the U.S. engendered within Japan.  Since 1951, when it was first signed, the security treaty had been harshly criticized by those who saw it as exposing Japan to unnecessary dangers in the cold war while undermining the principles of peace and democracy. The prospect of the treaty&rsquo;s revision and renewal pitted a conservative government, intent on protecting the alliance, against a loose coalition of opposition forces whose aspiration was that Japan become a neutral and unarmed nation&mdash;a decisive break  with U.S. cold-war policy, and with its own militarist past.<br /><br />Hamaya, a well-established freelance photographer, was the author of a number of photo books. Soon after the 1960 protests, he became the first Japanese contributor to the Magnum Photos collective.<span class="bottismall"><a href="anp2_essay06.html#n1"> [1]</a></span> As a subject, the protests are an outlier in his oeuvre, which is otherwise dominated by nature photography and ethnographic studies of life in Japan&rsquo;s hinterlands. Hamaya&rsquo;s interest in Anpo was driven primarily by an awareness of the momentousness of the events and a personal sympathy with the aims of the protests. His photographic record begins May 20 and ends on June 22, covering the period when the protests were at their height. It is estimated he took 2,600 photos altogether, which he narrowed down to 203 in preparation for publication as a book. This selection was narrowed further to 138 pictures, and the resulting book&mdash;titled <span class="bottiblockplain">Ikari to kanashimi no kiroku (A Record of Rage and Grief)</span>&mdash;was published by Kawade Shob&#333; Shinsha in August 1960. Some of Hamaya&rsquo;s photographs were also published in the French news magazine<span class="bottiblockplain"> Paris Match</span> and the Japanese photography journal <span class="bottiblockplain">Camera Mainichi.</span> This unit draws from the pool of 203 photographs.
+      <br /> 
+        <span class="bottiblockbig">
+        <br /><br />
+</span></td>
+    <td width="66">&nbsp;</td>
+  </tr>
+</table>
+
+	   <!--<table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+          <td align="center" valign="top" class="bottiblock"  ><span class="halfer"><br /></span>
+Images in this unit, unless otherwise noted, are from the Freer Gallery of Art<br />
+and the Arthur M. Sackler Gallery, Smithsonian Institution </td>
+	   </tr>
+</table> --><!--
+<table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+          <td align="center" valign="middle" class="bottiblock"  >
+	     <img  src="../empress_dowager/image/shad1.gif"  alt="MIT Visualizing Cultures" width="622" height="19" border="0" align="left"  title="" /> </td>
+	   </tr>
+</table>	 -->	
+<table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="20">&nbsp;</td>
+    <td width="582" align="left" class="bottibody"><span class="bottismall"><br /><br />
+      </span><strong>COLD-WAR JAPAN</strong><span class="bottismall"><br />
+      <br />
+      </span>World War II ended in disaster for Japan. The final year of the war saw relentless air raids that destroyed 40% of urban areas and culminated in the dropping of atomic bombs on Hiroshima and Nagasaki. With Japan&rsquo;s surrender in August 1945, its vast Asian empire&mdash;once spanning from Manchuria to Indonesia&mdash;ceased to exist, and Japan itself was left destitute and in ruins. Occupation of the defeated nation began within weeks. Although the occupation was nominally carried out under the aegis of the victorious Allied Powers, in practice it was almost wholly an American affair, with the &ldquo;supreme commander,&rdquo; as General Douglas MacArthur was fittingly titled, given &ldquo;all powers necessary &hellip; to carry out &hellip; the occupation and control of Japan.&rdquo;<span class="bottismall"><a href="anp2_essay06.html#n2"> [2]</a></span><br />
+      <br />At first, the occupation was fired by the ambitious and idealistic goals of demilitarizing and democratizing Japan. The project went well beyond dismantling the state&rsquo;s war-making capacity to envision a thorough remaking of government, industry, and civil institutions so that the sources of Japan&rsquo;s military aggressiveness would be removed at their very roots. The occupation authority, known as SCAP (Supreme Command of the Allied Powers) quickly dissolved the Imperial Army and Navy, issued a civil-rights directive and abolished the notorious Special Higher Police, passed a new Trade Union Law to protect workers&rsquo; right to organize, initiated a radical land-reform that would end rural tenancy, and introduced a purge of wartime leaders and ultranationalists that eventually removed 200,000 people from public office.<br /><br />
+      By 1947, occupation reforms had touched virtually every area of Japanese government and daily life, transforming the criminal and civil codes, liberating women from patriarchal family law, remaking the structure of public education, and decentralizing governing authority to foster greater local autonomy. The capstone of the drive towards democratization and demilitarization was the new Japanese constitution that came into force in 1947. Drafted by a group of occupation officials after the revisions proposed by Japanese conservative leaders were judged to be too tepid, the 1947 constitution was a model of democratic idealism, more progressive in many ways than the U.S.&rsquo;s own constitution. It stated explicitly that all people would be equal before the law regardless of &ldquo;race, creed, sex, social status, or family origin.&rdquo; It established a right to work and to education. And most famously, in article nine it forever renounced &ldquo;war as a sovereign right of the nation.&rdquo; <br />
+      <br />
+      But the ardor of this commitment to democracy and demilitarization soon faded. By 1947 the cold war dominated U.S. strategic thinking, and  the U.S. began to back away from its initial burst of progressive reform in a tectonic shift that has since become known as the &ldquo;reverse course.&rdquo; If the intent of the early occupation had been to dismantle the military, economic, and political structures that had made militarism possible, the overarching priority after 1947 became stabilizing Japan politically and economically in the face of the perceived communist threat.<br />
+      <br />
+      The U.S. now saw Japan as an indispensable link in a defensive chain around East Asia that stretched from the Aleutian Islands, through Japan and Okinawa, to Guam, the Philippines, and South East Asia. As such it became unthinkable that Japan might fall to communism, either through outside attack or domestic insurrection. Social stability and economic reconstruction were to be achieved at all costs, and the new strategic imperative displaced many of the early occupation reforms. The plan to dismantle Japan&rsquo;s war machine by breaking up powerful concentrations of economic influence barely got off the ground before being scuttled. Of the 325 companies originally slated for possible break-up, by 1948 only 11 were ordered to split, leaving Japanese industry and finance largely unchanged from the war.<span class="bottismall"><a href="anp2_essay06.html#n3"> [3]</a></span><br />
+      <br />The backing for a strong labor movement was also abandoned. The first year of the occupation had witnessed the growth of a spirited and confrontational labor movement which in some instances even took to locking managers out and taking over production. But SCAP made a highly public split with such radical movements in February 1947, when General MacArthur threatened to use occupation troops to put down a long-planned general strike if labor leaders insisted on going forward with it. Labor duly backed down.<br /><br /></td> <td width="20">&nbsp;</td></tr></table>
+	  <table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+          <td align="center" valign="middle" class="bottismall"  ><br />            <img  src="image/toho.gif"  alt="MIT Visualizing Cultures" width="622" height="323" border="0" align="left"  title="" /></td>
+	   </tr>
+</table>
+<table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="66" align="left" valign="top" >&nbsp;</td>
+    <td width="490" align="center" valign="top" class="bottiblock">On August 19, 1948, Japanese police backed by U.S. military personnel, tanks, and surveillance aircraft arrived at the Toho film studios to evict striking workers who had been occupying the buildings as part of a long-running labor dispute. In the face of this show of force the union vacated the studio without a clash. It is one episode emblematic of the reverse course in occupation policy.<span class="bottismall"><br />
+      <br />
+Photograph provided courtesy of Nihon Dokyumento Firumu</span></td>
+    <td width="66" align="right" valign="top">&nbsp;</td>
+  </tr>
+</table>
+      <table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="20">&nbsp;</td>
+    <td width="582" align="left" class="bottibody"><br /><br />
+      By 1949 the global situation was growing more dire and the reverse course intensified. Communist forces in China overwhelmed the Nationalists to establish the People&rsquo;s Republic in 1949, while the Soviet Union conducted its first nuclear-bomb test in the same year. The Korean War erupted in June 1950, pitting the Soviet-supported regime in the north against the U.S.-supported Korean government in the south&mdash;drawing the U.S. into the conflict immediately, and China soon thereafter, in December.<br />
+      <br />
+      In this milieu, U.S. willingness to sacrifice democratic reforms in Japan in the name of security became more pronounced. 1949 saw the beginning of a &ldquo;depurge,&rdquo; in which the wartime leaders who had formerly been expelled from public life began to be allowed to return. In the same year, a parallel &#8220;red purge&#8221; began in which public employees suspected of leftist leanings were summarily removed from office. The purge spread to the private sector in 1950, removing a total of 22,000 people&mdash;mostly  union activists&mdash;from their jobs.<br />
+      <br />
+      The drive to rationalize the Japanese economy proceeded apace under the stern directorship of newly arrived Detroit banker Joseph Dodge. In the name of rationalization, the so-called &ldquo;Dodge line&rdquo; reinvigorated Japan&rsquo;s largest enterprises&mdash;the same ones that had been the main engines of its wartime economy&mdash;and encouraged recentralization of economic decision-making. Even article nine&rsquo;s renunciation of war became an impediment to U.S. interests. Only four years after imposing the &ldquo;peace constitution,&rdquo; U.S. planners found themselves pressuring Japan to allow U.S. bases to remain on its soil and to rearm, so that it could begin to participate actively in regional security. Indeed, the U.S. began to see these as conditions for ending the occupation.<br /><br />It was against this background that the Allied occupation formally and finally came to an end. The Treaty of Peace with Japan, popularly known as the San Francisco Peace Treaty, was signed by Japan and 47 other nations in September 1951, laying out the terms, widely regarded as generous, for Japan to resume sovereignty in 1952. Only a few hours later on the same day, however, Japan signed a second, bilateral security treaty with the United States. This established the terms of a continued military alliance between the two countries, and locked Japan firmly within the orbit of U.S. cold-war strategy.<br /><br /></td>
+    <td width="20">&nbsp;</td>
+  </tr>
+</table>
+<table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+   
+    <td width="172" align="center" valign="middle" class="bottiblock"  >
+      <img  alt="MIT Visualizing Cultures"  title="" border="0"  src="image/spacer.gif" width="20" height="200"  align="left"/><img  alt="MIT Visualizing Cultures"  title="" border="0"  src="image/spacer.gif" width="20" height="200"  align="right"/>Japanese Prime Minister Yoshida Shigeru signs the San Francisco Peace Treaty on September 8, 1951. 47 other countries also signed the treaty.<!--<span class="bottismall"><br /><br />
+The Palace Museum, Beijing<br />
+[ymy7018]<br /><br /></span> --></td> 
+    <td width="450" align="left" valign="top"  ><img  src="image/1951_8Sept_SFPeaceTreat2882.jpg"  alt="MIT Visualizing Cultures" width="450" height="367" border="0" align="top"  title="" /><br />      <br />    </td>
+ </tr>
+</table>
+<table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+   
+    <td width="450" align="left" valign="top"  ><img  src="image/1951_securitytreaty4474.jpg"  alt="MIT Visualizing Cultures" width="450" height="349" border="0" align="left"  title="" /></td>
+    <td width="172" align="center" valign="middle" class="bottiblock"  >
+      <img  alt="MIT Visualizing Cultures"  title="" border="0"  src="image/spacer.gif" width="20" height="100"  align="left"/><img  alt="MIT Visualizing Cultures"  title="" border="0"  src="image/spacer.gif" width="20" height="100"  align="right"/>A smaller gathering later the same day, when the separate, bilateral U.S.-Japan security treaty was signed.      <!--<span class="bottismall"><br /><br />
+The Palace Museum, Beijing<br />
+[ymy7018]<br /><br /></span> --></td> 
+    
+ </tr>
+</table>
+
+<table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="20">&nbsp;</td>
+    <td width="582" align="left" class="bottibody"><br />
+    The terms of the two treaties reflected ongoing U.S. anxieties about the spread of communism in East Asia. The Treaty of Peace excluded key countries, including some of Japan&rsquo;s most significant neighbors and former enemies. The Soviet Union, Korea, India, and&mdash;perhaps most importantly&mdash;China were not signatories. Both the Soviet Union and India refused to sign because of objections to the way the attached bilateral security treaty absorbed Japan into the U.S. imperium. Korea and China weren&rsquo;t invited to the peace conference at all because of disagreement about who should represent them: Korea being in the midst of a civil war, and China split between the People&rsquo;s Republic of China on the mainland and the Republic of China on Taiwan. Japan would soon sign a bilateral peace agreement with Taiwan, but was forced to not establish relations with the mainland as a condition for passage of the peace treaty through the U.S. Senate. The shadow cast by U.S. policy thus limited Japanese autonomy in making peace with former enemies, and establishing foreign relations.<br />
+    <br />The security treaty was widely regarded as the price that Japan had to pay in order to regain sovereignty. Yoshida Shigeru, the conservative prime minister who negotiated the treaty, understood many of the U.S. demands as non-negotiable: such was U.S. military interest in Japan that had he not agreed to them, the end of the occupation could have been postponed indefinitely. The treaty gave the U.S. the right to maintain military bases in Japan, and Japan was forbidden to grant bases to any third party without prior consultation. When Japan resumed sovereignty in April 1952, 260,000 U.S. servicemen remained in the country, stationed at 2,824 separate facilities.<span class="bottismall"><a href="anp2_essay06.html#n4"> [4]</a></span><br /><br />There was no timetable for their departure. The Ry&#363;ky&#363; islands, including Okinawa, were excluded from the treaty and were to remain under U.S. military occupation, also indefinitely, in what Edwin Reischauer, ambassador to Japan in the early 1960s, later characterized as &ldquo;the only &lsquo;semi-colonial&rsquo; territory created in Asia since the war.&rdquo; <span class="bottismall"><a href="anp2_essay06.html#n5"> [5]</a></span><br />
+    <br /></td>
+    <td width="20">&nbsp;</td>
+  </tr>
+</table>
+<table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+          <td align="center" valign="top" class="bottiblock"  ><img  src="image/1952_1May_Bloody_May_Da4553.jpg"  alt="MIT Visualizing Cultures" width="622" height="490" border="0" usemap="#Map6"  title="" /></td>
+	   </tr>
+</table>
+<table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="66" align="left" valign="top" >&nbsp;</td>
+    <td width="490" align="center" valign="top" class="bottiblock"><span class="halfer"><br />
+      </span>The unpopularity of the bilateral U.S.-Japan security treaty found dramatic expression in violent May Day demonstrations in Tokyo on May 1, 1952&mdash;just days after the occupation of Japan formally ended. Known as &ldquo;Bloody May Day,&rdquo; these protests left two protestors dead and 22 with gunshot wounds. Over 2,000 police and protestors were injured. Protests against the ongoing U.S. military presence in Japan continued throughout the decade.</td>
+    <td width="66" align="right" valign="top">&nbsp;</td>
+  </tr>
+</table>
+<table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="20">&nbsp;</td>
+    <td width="582" align="left" class="bottibody"><br /><br />
+Among other things, the security treaty provided that the U.S. could use its military to put down disturbances within Japan, reflecting the widely held fear on the U.S. side that Japan&rsquo;s own people might drive it towards communism. Finally, the preamble to the treaty voiced the &ldquo;expectation&rdquo; that Japan would assume more responsibility for its own defense, meaning in effect that article nine of the constitution would have to be amended or worked around. At the time of the signing, American officials foresaw Japan creating an army of 325,000 to 350,000 within three years. This represented an enormous expansion, larger than the Japanese Self-Defense Force would ever become in the postwar period. It was only on this final point, Japanese rearmament, that Prime Minister Yoshida had some success resisting U.S. pressure.<br /><br />Japan was supposed to have emerged from the peace negotiations as an independent state, but the terms of the security treaty were so unbalanced that people referred to it as an &ldquo;unequal treaty,&rdquo; while the situation in which it left Japan was similarly described as &ldquo;dependent independence&rdquo; or &ldquo;subordinate independence.&rdquo; A startling 40% of respondents in a September 1952 <em>Asahi Newspaper</em> poll reported there were times they felt Japan was not an independent country, and the most common reason given was the presence of foreign troops. Only 18% of the respondents said they believed unreservedly that Japan was independent.<span class="bottismall"><a href="anp2_essay06.html#n6"> [6]</a></span><br />
+    <br />The security treaty was criticized across the political spectrum in Japan, but its most profound effect was to deepen and exacerbate the already deep divide between the political left and right. The political right accepted the overall framework of an anti-communist alliance with the U.S. Their criticisms focused on specific aspects of the treaty such as the lack of an explicit time frame for its revision, the provision that U.S. troops could act to quell domestic disturbances, and the fact that the treaty did not specifically obligate the U.S. to defend Japan. Regarding the expectation that Japan would rearm, Yoshida was aware of the Japanese people&rsquo;s deep aversion to risking another war, and successfully resisted the precipitous rearmament envisioned by the U.S. Yoshida also saw little reason for the forced isolation from mainland China, believing the Chinese posed no real threat and should be Japan&rsquo;s most natural trading partners.<br /><br />
+      Even people further to the right than Yoshida saw need for revision. Kishi Nobusuke, the former accused (but not indicted) war criminal who became prime minister in 1957 and was in office at the time of the Anpo protests, had no reservations about Japanese rearmament. To the contrary, Kishi saw rearmament as a necessary step to Japan becoming a full member of the international order and assuming equality in its relationship with the U.S. For conservatives, therefore, the limits on Japan&rsquo;s autonomy, the provision on domestic disturbances, the lack of an explicit time frame, and the lack of overall parity between the two parties were the sources of dissatisfaction with the treaty.<br />
+      <br />Among Japan&rsquo;s left-wing opposition, objection to the treaty was more fundamental. It was not simply the problem of parity, but a rejection of the wisdom and necessity of the treaty&rsquo;s most basic tenet&mdash;the military alliance with the United States&mdash;that underlay their dissatisfaction. To a range of groupings from communists to socialists to progressive public intellectuals, Japan did not have to choose either the Soviets or the U.S., but could exist as a neutral nation. Such a position would necessitate making peace with all of Japan&rsquo;s neighbors, avoiding bilateral military pacts, forbidding military bases on Japanese soil, and following the letter and spirit of article nine by refusing rearmament.<br /><br />
+      The Socialist Party settled on these as its four &ldquo;Principles of Peace&rdquo; between 1949 and 1951, and similar ideas were endorsed by a large group of highly respected and influential intellectuals known as the Peace Problems Symposium <em>(Heiwa Mondai Danwakai).</em> In a series of articles published in the mass-circulation monthly <em>Sekai (World),</em> this group spelled out the dangers of a separate peace and overreliance on the United States while arguing for a policy of strict unarmed non-alignment under the protection of the United Nations. The basic security argument was this: the bilateral relationship and U.S. bases in Japan put Japan in great danger in the event that the U.S. got into a war. Japan could be sucked into the conflict and potentially become a target of (nuclear) retaliation. Maintaining neutrality was ultimately safer for Japan.<br />
+      <br />This criticism of the alliance, moreover, went beyond security to include concerns about internal politics as well as broader ones about Japan&rsquo;s identity and direction. To those on the left, the security treaty represented a dangerous backslide towards militarism, authoritarianism, and war&mdash;a mere half decade or so after Japan&rsquo;s last prolonged and disastrous experience with these.<br /><br />
+      The ideals of peace and democracy could not be separated easily. The reverse course, initiated by the occupation and taken up with gusto by a succession of conservative governments, entailed Japan&rsquo;s remilitarization both literally and economically. Only one month after the beginning of the Korean War, Prime Minister Yoshida inaugurated a modestly named National Police Reserve <em>(Kokka Keisatsu Yobitai),</em> a 75,000-strong force trained by U.S. advisors and armed with U.S. weaponry, including M1 rifles, machine guns, mortars, bazookas, flame throwers, artillery, and tanks (known as &ldquo;special vehicles&rdquo;).<span class="bottismall"><a href="anp2_essay06.html#n7"> [7]</a></span> <br />
+      <br />The Korean War also rekindled Japan&rsquo;s military industrial capacity. The economic windfall brought about by &ldquo;special procurement&rdquo; contracts with the U.S. gave such a critical boost to Japan&rsquo;s languishing economy that Yoshida and other conservatives referred to the war as a &ldquo;gift from the gods.&rdquo; The sudden rise in the demand for military goods reanimated Japan&rsquo;s factories and economic structures and fostered closer relations between government and large industries.<br /><br />
+      <br /><br /></td>
+    <td width="20">&nbsp;</td>
+  </tr>
+</table>
+
+
+<table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+   
+    
+    <td width="334" align="center" valign="middle" class="bottiblock"  >
+      <img  alt="MIT Visualizing Cultures"  title="" border="0"  src="image/spacer.gif" width="20" height="200"  align="left"/><img  alt="MIT Visualizing Cultures"  title="" border="0"  src="image/spacer.gif" width="20" height="200"  align="right"/>Because of the constitution&rsquo;s article nine, the naming of Japan&rsquo;s postwar armed forces was a sensitive issue. When Prime Minister Yoshida inaugurated the force in 1950 it was called the  National Police Reserve <span class="bottiblockplain">(Kokka Keisatsu Yobitai).</span> In 1952 it was renamed the National Safety Forces (H&#333;antai), and in 1954 it became the Self Defense Forces (Jieitai). Here the H&#333;antai march in Tokyo&rsquo;s downtown shopping area, the Ginza, in October 1952.<span class="bottismall"><br />
+<br />
+      From the <em>Mainichi Shimbun</em><br /><br />
+ <br />
+      </span></td>
+    <td width="288" align="left" valign="top"  ><img  src="image/1952_ginza2919.jpg"  alt="MIT Visualizing Cultures" width="288" height="216" border="0" align="left"  title="" /></td> 
+ </tr>
+</table>
+<table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="20">&nbsp;</td>
+    <td width="582" align="left" class="bottibody"><br />Remilitarization went hand in hand with a conservative push to &ldquo;correct the excesses&rdquo; of the early occupation by rolling back democratic reforms. In autumn 1951, almost simultaneously with the San Francisco Peace Conference, Yoshida presented legislation titled the Subversive Activities Prevention Law that was designed to protect Japanese society from subversion after the end of the occupation. The law would have outlawed strikes, regulated public gatherings, and instituted a press code. Fierce opposition from the left eventually gutted the law of most of its provisions, but the battle over it was only the first in a series of many similar confrontations over the coming decade.<br /><br />
+    Across the decade of the 1950s, family law and women&rsquo;s rights, centralization of the school system and curricula, the extent of police powers and civil liberties, and of course the relationship with the United States were all occasions for bitter clashes between consecutive conservative governments and a shifting coalition of opposition groups that drew from the Socialist and Communist Parties, unions, women&rsquo;s groups, students, and leading intellectuals. It would not be going too far to say that these battles were for the soul of Japan, waged between conservatives&mdash;who saw the occupation reforms as overzealous, and hoped to return to a system closer to that of wartime&mdash;and those who embraced the progressive ideals of neutrality, peace, and democracy, and wished to make them the foundation of a new nation that had made a decisive break with its militarist past. The 1960 Anpo protests were by far the largest of these ongoing confrontations.<br />
+    <br />
+    Although the Socialist and Communist Parties, along with influential progressive intellectuals, were the most visible leaders of the peace and democracy movements of the 1950s, one must not overlook the extent to which these ideals tapped broad sympathy on the part of the Japanese public. Article nine, for instance, enjoyed a plurality of support through most of the postwar period, including substantial majorities of 60 to 90% from the 1960s to the 1980s. Peace movements were tremendously vibrant at the grassroots.<span class="bottismall"><a href="anp2_essay06.html#n8"> [8]</a></span> Workers, women, and students had particular prominence in these movements, and their thinking and action reveal how the broad ideals of peace and democracy were brought down to the level of everyday life.<br />
+    <br />For workers, the event that most forcefully brought the international situation together with everyday labor issues was the Korean War. Workers in the factories that supplied the U.S. war effort were faced with the uncomfortable reality that their livelihood was directly connected with a war in a neighboring Asian country, a scant five years after Japan&rsquo;s own misadventures in Korea and Asia had come to an end. One 18-year-old worker who found work at a munitions plant after a long period of unemployment was forced to quit after two weeks of sleepless nights, unable to bear the thought that he was producing bullets that would kill Koreans.<span class="bottismall"><a href="anp2_essay06.html#n9"> [9]</a></span><br />
+    <br />The war boom, although good for the economy as a whole, also went hand in hand with crackdowns on union organizers and dramatic increases in workload. This conjunction radicalized many unions and made the security relationship with the U.S. an issue of concern. The Japanese longshoremen&rsquo;s union (Zenk&#333;wan) was one of the few to defy an occupation ban and go on strike in protest of their workers&rsquo; forced participation in the war effort. They accused the U.S. of carrying out a &ldquo;war of aggression&rdquo; in Korea and connected their struggle for better working conditions with the fight against &ldquo;the conspiracy of international imperialists, rearmament, war, and colonial policy.&rdquo;<span class="bottismall"><a href="anp2_essay06.html#n10"> [10]</a></span> This was when unions began to call their first &ldquo;political&rdquo; strikes, meaning strikes that had political&mdash;rather  than work-related&mdash;goals.<br />
+    <br />Three general strikes held in June 1960 as part of the Anpo protests were all strikes of this kind, carried out to topple the Kishi government and block passage of the revised security treaty. The largest, on June 22, involved 6.2 million workers according to S&#333;hy&#333; (Japan&rsquo;s General Council of Trade Unions), and was one of the largest strikes in Japanese history.<span class="bottismall"><a href="anp2_essay06.html#n10"> [11]</a></span><br /><br /></td>
+    <td width="20">&nbsp;</td>
+  </tr>
+</table>
+
+<table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+      <td width="300" align="left" valign="top"  ><a href="javascript:openvcidwindow('hamaya/pages/anp7142_Hamaya_RG42_Jun11.htm');"><img  src="image/anp7142_Hamaya_RG42_Jun2959.jpg"  alt="MIT Visualizing Cultures" width="300" height="448" border="0" align="top"  title="" /></a></td>   
+      <td width="322" align="center" valign="middle" class="bottiblock"  ><img  alt="MIT Visualizing Cultures"  title="" border="0"  src="image/spacer.gif" width="18" height="190"  align="left"/><img  alt="MIT Visualizing Cultures"  title="" border="0"  src="image/spacer.gif" width="18" height="190"  align="right"/>A member of the All Japan Garrison Forces Labor Union <span class="bottiblockplain">(Zen Ch&#363;ry&#363;gun R&#333;d&#333; Kumiai,</span> or  Zench&#363;r&#333;) participating in a protest in front of the American embassy on June 11, 1960. This union united Japanese workers who worked in a variety of support functions at U.S. bases.
+
+<span class="bottismall"><br /><br />
+[anp7142]</span></td> 
+  </tr>
+</table>
+<table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+          <td align="center" valign="middle" class="bottismall"  ><br />
+            <a href="javascript:openvcidwindow('hamaya/pages/anp7192_Hamaya_RG92_Jun22.htm');"><img  src="image/anp7192_Hamaya_RG92_Jun2991.jpg"  alt="MIT Visualizing Cultures" width="622" height="388" border="0" align="left"  title="" /></a></td>
+	   </tr>
+</table>
+<table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="66" align="left" valign="top" >&nbsp;</td>
+    <td width="490" align="center" valign="top" class="bottiblock"><span class="halfer"><br />
+      </span>June 22, 1960. Striking rail workers sit on an idle train in a yard in Tokyo. The signs attached to the side of the car read &ldquo;Against Anpo,&rdquo; one of the most common slogans of the protest. The general strike on June 22 was the third strike that month. It involved 6.2 million workers and shut down the trunk line running from Tokyo to Osaka for the first time in history.
+<span class="bottismall"><br /><br />
+[anp7192]</span></td>
+    <td width="66" align="right" valign="top">&nbsp;</td>
+  </tr>
+</table>
+<table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="20">&nbsp;</td>
+    <td width="582" align="left" class="bottibody"><br />
+        <br />
+          Women entered the peace movement in large numbers in response to an incident that occurred in 1954. In March of that year a Japanese tuna fishing vessel named the Lucky Dragon #5 was caught in the radioactive fallout from a U.S. hydrogen bomb test in the Pacific, resulting in the death of one crew member from radiation sickness. News that the ship&rsquo;s cargo had been distributed to markets around Japan created a scare about the safety of the food supply, and six U.S. bomb tests over the subsequent two-and-a-half months kept the fear alive. The incident was sometimes referred to as Japan&rsquo;s third nuclear bombing, and brought Japan&rsquo;s continuing exposure to the gathering nuclear arms race to public consciousness. It sparked signature campaigns demanding a ban on nuclear weapons that began at the local level, led primarily by housewives who stood at their local markets or used connections with the PTA and local governments to circulate petitions.<br />
+      <br />
+      The politicization of women in these movements often hinged on their identity as caregiver and protector of the family. The danger that first brought the issue home was contaminated fish, but this subsequently broadened into the danger of being caught up in another war. Opposing war for the sake of one&rsquo;s children struck a chord with huge numbers of housewives who had lived through the devastation of World War II, and what began as a grassroots initiative quickly grew into Japan&rsquo;s largest anti-nuclear movement, the Japan Council Against A- and H- Bombs <em>(Gensuibaku Kinshi Nihon Ky&#333;gika</em>i, or Gensuiky&#333;). By August 1955, just over a year after its birth, the movement had gathered nearly 32.4 million signatures against the bomb&mdash;roughly one third of the Japanese population at the time.<span class="bottismall"><a href="anp2_essay06.html#n12"> [12]</a></span> Gensuiky&#333;, as well as dozens of women&rsquo;s organizations, were major constituents of the Anpo protests.<br />
+    <br /></td>
+    <td width="20">&nbsp;</td>
+  </tr>
+</table>
+<table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+          <td align="center" valign="middle" class="bottismall"  ><br />
+            <a href="javascript:openvcidwindow('hamaya/pages/anp7140_Hamaya_RG40_Jun11.htm');"><img  src="image/anp7140_Hamaya_RG40_Jun3090.jpg"  alt="MIT Visualizing Cultures" width="622" height="430" border="0" align="left"  title="" /></a></td>
+	   </tr>
+</table>
+<table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="66" align="left" valign="top" >&nbsp;</td>
+    <td width="490" align="center" valign="top" class="bottiblock"><span class="halfer"><br />
+      </span>A farmer, part of a group from Nagano Prefecture, participates in a protest in front of the American embassy on June 11, 1960.<span class="bottismall"><br /><br />
+[anp7140]</span></td>
+    <td width="66" align="right" valign="top">&nbsp;</td>
+  </tr>
+</table>
+<table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+          <td align="center" valign="middle" class="bottismall"  ><br />
+            <a href="javascript:openvcidwindow('hamaya/pages/anp7138_Hamaya_RG38_Jun11.htm');"><img  src="image/anp7138_Hamaya_RG38_Jun5098.jpg"  alt="MIT Visualizing Cultures" width="622" height="415" border="0" align="left"  title="" /></a></td>
+	   </tr>
+</table>
+<table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="66" align="left" valign="top" >&nbsp;</td>
+    <td width="490" align="center" valign="top" class="bottiblock"><span class="halfer"><br />
+      </span>Protestors from Shizuoka Prefecture join<br />
+      demonstrations in Tokyo on June 11.<span class="bottismall"><br />
+      <br />
+[anp7138]</span></td>
+    <td width="66" align="right" valign="top">&nbsp;</td>
+  </tr>
+</table>
+<table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+          <td align="center" valign="middle" class="bottismall"  ><br />
+            <a href="javascript:openvcidwindow('hamaya/pages/anp7049_Hamaya_RGd_48June18.htm');"><img  src="image/anp7049_Hamaya_RGd_48Ju3026.jpg"  alt="MIT Visualizing Cultures" width="622" height="388" border="0" align="left"  title="" /></a></td>
+	   </tr>
+</table>
+<table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="66" align="left" valign="top" >&nbsp;</td>
+    <td width="490" align="center" valign="top" class="bottiblock"><span class="halfer"><br />
+      </span>Families with children participate in a rally on June 18. One child has a message attached to him that speaks in the child&rsquo;s voice. Though part of the sign is obscured it probably reads something like &ldquo;I hate war&rdquo; <span class="bottiblockplain">(Boku wa sens&#333; ga iya da).</span> Many parents were politicized around the security treaty issue through their role as protectors of their children. For the people demonstrating here, the Anpo treaty was taken to be a threat to the safety of their families.<span class="bottismall"><br /><br />
+[anp7049]</span></td>
+    <td width="66" align="right" valign="top">&nbsp;</td>
+  </tr>
+</table>
+	
+<table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="20">&nbsp;</td>
+    <td width="582" align="left" class="bottibody"><br />
+      <br />
+      Students are a final group who played a pivotal role in the 1960 Anpo demonstrations. Zengakuren<em> (Zen Nihon Gakusei Jichikai S&#333;reng</em>&#333;, or All Japan League of Self-Governing Student Associations) was the most important network of student activists. After forming in 1948 out of a movement to resist U.S. &ldquo;imperialism&rdquo; in reforming the university system, it would remain a formidable bastion of anti-American sentiment and left-wing politics throughout the postwar.<br />
+      <br />Zengakuren students tended towards radical views and direct action. They lent moral and physical support to struggles across the 1950s including the red purges, the Korean War, and anti-U.S. base movements. The conflict over the proposed runway extension at the Tachikawa airbase near Tokyo was the most dramatic of these. Local farmers protecting their fields&mdash;pitted against the  weight of Japanese officialdom carrying out the demands of the U.S. bases&mdash;came to serve as symbolic stand-ins for Japan: condensations of an enduring injustice whereby American military expansionism, assisted by Japanese authorities, preyed on local communities. Students and radical union members clashed with police many times as part of these struggles, as they would again during the Anpo protests.<span class="bottismall"><a href="anp2_essay06.html#n13"> [13]</a></span><br />
+    <br /></td>
+    <td width="20">&nbsp;</td>
+  </tr>
+</table>
+	
+<table width="622" border="0" cellspacing="0" cellpadding="0" bgcolor="#C2C2C2">
+  <tr>
+    <td width="66">&nbsp;</td>
+    <td width="490" align="center" valign="top" class="bottiblock">
+      <span class="boxtextbig"><br />Student Opposition</span><span class="bottismall"><br />
+      <br />
+        </span><span class="bottiblockbig">Students were among the most radical participants in the Anpo protests, leading them to frequent violent confrontations with the police. The following three photos depict an incident on June 3, when a group of a few thousand Zengakuren students broke into the prime minister&rsquo;s official residence.</span><span class="bottismall"><br />
+        <br />
+        </span>        <span class="bottiblockbig">A photographer standing on the wall as he records the scene mirrors Hamaya&rsquo;s own angle of vision&mdash;a &ldquo;looking down from above&rdquo; perspective that characterizes many of his depictions of the demonstrations.</span><br />
+      <br /></td>
+    <td width="66">&nbsp;</td>
+  </tr>
+</table>
+<table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+          <td align="center" valign="middle" class="bottismall"  ><div class="pop"><br />
+<img  src="image/anp7109_Hamaya.png"  alt="MIT Visualizing Cultures" width="208" height="292" border="0" align="left"  title="" /></div>
+            <a href="javascript:openvcidwindow('hamaya/pages/anp7109_Hamaya_RG09_Jun3.htm');"><img  src="image/anp7109_Hamaya_RG09_Jun5851.gif"  alt="MIT Visualizing Cultures" width="622" height="430" border="0" align="left"  title="" /></a></td>
+	   </tr>
+</table>
+<table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="66" align="left" valign="top"  bgcolor="#C2C2C2" >&nbsp;</td>
+    <td width="490" align="center" valign="top" class="bottiblock"  bgcolor="#C2C2C2"><span class="bottismall"><br />
+[anp7109] (with detail of a photographer highlighted)<br /><br /></span></td>
+    <td width="66" align="right" valign="top" bgcolor="#C2C2C2" >&nbsp;</td>
+  </tr>
+</table>
+<table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+          <td align="center" valign="middle" class="bottismall"  ><a href="javascript:openvcidwindow('hamaya/pages/anp7120_Hamaya_RG20_Jun3.htm');"><img  src="image/anp7120_Hamaya_RG20_Jun5120.jpg"  alt="MIT Visualizing Cultures" width="622" height="447" border="0" align="left"  title="" /></a></td>
+	   </tr>
+</table>
+<table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="66" align="left" valign="top"  bgcolor="#C2C2C2" >&nbsp;</td>
+    <td width="490" align="center" valign="top" class="bottiblock" bgcolor="#C2C2C2" ><span class="bottismall"><br />
+[anp7120]<br /><br /></span></td>
+    <td width="66" align="right" valign="top"bgcolor="#C2C2C2" >&nbsp;</td>
+  </tr>
+</table>
+<table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+          <td align="center" valign="middle" class="bottismall"  ><a href="javascript:openvcidwindow('hamaya/pages/anp7110_Hamaya_RG10_Jun3.htm');"><img  src="image/anp7110_Hamaya_RG10_Jun5103.jpg"  alt="MIT Visualizing Cultures" width="622" height="413" border="0" align="left"  title="" /></a></td>
+	   </tr>
+</table>
+<table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="66" align="left" valign="top"  bgcolor="#C2C2C2">&nbsp;</td>
+    <td width="490" align="center" valign="top" class="bottiblock"  bgcolor="#C2C2C2"><span class="bottismall"><br />
+[anp7110]<br /><br /></span></td>
+    <td width="66" align="right" valign="top" bgcolor="#C2C2C2" >&nbsp;</td>
+  </tr>
+</table>
+
+<table width="622" border="0" cellspacing="0" cellpadding="0" bgcolor="#C2C2C2">
+  <tr>
+    <td width="66">&nbsp;</td>
+    <td width="490" align="center" valign="top" class="bottiblock"><span class="bottiblockbig"><br />
+      In a fateful moment on June 15, students stormed the south gate of the Diet (parliament) building, eventually forcing their way in. Here they are met with police water cannon.<br />
+      <br /></span>
+     </td>
+    <td width="66">&nbsp;</td>
+  </tr>
+</table>
+<table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+          <td align="center" valign="middle" class="bottismall"  ><a href="javascript:openvcidwindow('hamaya/pages/anp7156_Hamaya_RG56_Jun15.htm');"><img  src="image/anp7156_Hamaya_RG56_Jun3050.jpg"  alt="MIT Visualizing Cultures" width="622" height="410" border="0" align="left"  title="" /></a></td>
+	   </tr>
+</table>
+<table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="66" align="left" valign="top"  bgcolor="#C2C2C2">&nbsp;</td>
+    <td width="490" align="center" valign="top" class="bottiblock" bgcolor="#C2C2C2"><span class="bottismall"><br />
+[anp7156]<br /><br /><br />
+</span></td>
+    <td width="66" align="right" valign="top" bgcolor="#C2C2C2" >&nbsp;</td>
+  </tr>
+</table>
+<table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="20">&nbsp;</td>
+    <td width="582" align="left" class="bottibody"><br />War memory was a key ingredient in grassroots opposition to the security treaty. The final years of World War II had brought the horror of war home to Japan, witnessed the first use of atomic weapons, and ended with the country destitute, ruined, and occupied. The awareness of shared suffering during the war had a tendency to blind Japanese public discourse to the suffering its own empire had inflicted on others, but by the same token it generated a keen focus on the disaster awaiting Japan were it to get dragged into another war.<br /><br />
+    The unpredictable perils of the cold war were lent terrifying reality by the shadow of World War II; the nuclear brinkmanship of the 1950s sent regular ripples of anxiety through Japanese society each time the precariousness of its position was exposed. Support for neutrality, as opposed to alliance with the U.S., grew stronger through the 1950s. In 1950, 22% of those polled supported neutrality, with 55% supporting the U.S.-Japan alliance. In 1953, the figures were 38% and 35% respectively, and by 1959 support for neutrality had risen to 50%, while only 26% of respondents supported the military alliance. In 1960, on the eve of the Anpo protests, 59% supported neutrality and only 14% expressed support for the military alliance.<span class="bottismall"><a href="anp2_essay06.html#n14"> [14]</a></span><br />
+    <br />Though they were diverse and difficult to summarize, a general observation can be made about these popular engagements with peace and democracy. While peace and democracy functioned as broad ideals, they could also become local and often nationalist when people imagined their relevance to their daily lives. Workers saw their position in society as being tied up with the reconstruction of Japanese industry under U.S. military hegemony, women were motivated by a desire to protect and sustain their family&rsquo;s way of life, while students were fired by out-and-out anti-Americanism and disgust at Japan&rsquo;s conservative leaders.<br /><br />
+    The movements built an understanding of peace and democracy as things that had real consequences in the context of daily life, and tended towards action within that context. One of the great achievements of Hamaya Hiroshi&rsquo;s documentation of the Anpo protests is to give us sustained access to the protests as they played out at that level, across the faces and lives of ordinary people for whom peace and democracy were a complex mixture of the high-minded and concrete, calling forth aspirations and anxieties that embraced the global while remaining highly local, even intimate.<br />
+    <br />
+      <br />
+<!--The Qianlong emperor in turn spared no expense in expanding the gardens, pavilions, libraries, and residences at Chengde. Although his father the Yongzheng emperor had no interest in hunting, all the other Qing emperors regularly summered there when possible. The mountain resort also served a diplomatic function, receiving Central Asian and other foreign emissaries. --><span class="bottismall"><br /><br />
+      </span></td>
+    <td width="20">&nbsp;</td>
+  </tr>
+</table>
+<table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+
+    <td width="20">&nbsp;</td>
+    <td width="582" align="left" valign="top" class="bottibody"><br /><br />
+<br />
+<img src="../home/image/redline.gif" width="570" height="1"  alt="MIT Visualizing Cultures" title=""/><br /><br />                
+<table width="582" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="3" class="bottismall" ><a href="javascript:imalert('../home/about.html')"><em>On viewing images of a potentially disturbing nature: click here.</em></a><br /><br /></td></tr><tr>
+  <td  width="350" align="left" valign="middle" class="bottismall" >Massachusetts Institute of Technology &#169; 2012 Visualizing Cultures
+                </td> 
+  <td  width="152" align="right" valign="middle" class="bottismall" > &nbsp;<a href="http://creativecommons.org/licenses/by-nc-sa/3.0/us/" target="_blank">Creative Commons License</a>&nbsp;&nbsp;
+              
+</td><td  align="left" valign="top" width="80" class="bottismall" ><a rel="license"
+ href="http://creativecommons.org/licenses/by-nc-sa/3.0/us/" target="_blank" ><img src="http://visualizingcultures.mit.edu/home/image/cc.png" alt="Creative Commons - some rights reserved" width="80" height="15" border="0" align="left" /></a></td>
+
+
+    </tr><tr><td colspan="3" class="bottismall" ><br /><br /></td></tr></table>
+               
+          </td>
+    <td width="20">&nbsp;</td>
+  </tr>
+</table></td>
+        </tr>
+ <tr>
+          <td align="left" valign="top"><div class="bottom"><img src="image/essay_bottom.gif"  alt="MIT Visualizing Cultures" width="970" height="136" border="0" align="left" title=""/></div>
+<div class="essaynavbottom">
+  <table width="622" border="0" cellspacing="0" cellpadding="0" align="left">
+  <tr align="left">
+    <td align="left" width="105"><img src="image/anp2_essay_nav_01.gif"  alt="Tokyo 1960: Days of Rage &amp; Grief" name="nav01b" width="622" height="58" border="0" usemap="#Map5" id="nav01b" title=""/></td>
+  </tr>
+</table>
+</div></td>
+      </tr>
+
+
+	  </table>
+</div>
+<div class="top"><img src="image/essay_top.gif"  alt="MIT Visualizing Cultures" width="970" height="136" border="0" align="left" title=""/></div>
+
+<!--end background elements -->
+
+<!-- essay nav -->
+<div class="essaynavtop"><table width="622" border="0" cellspacing="0" cellpadding="0" align="left">
+  <tr align="left">
+    <td align="left" width="105"><img src="image/anp2_essay_nav_01.gif"  alt="Tokyo 1960: Days of Rage &amp; Grief" name="nav01" width="622" height="58" border="0" usemap="#Map4" id="nav01" title=""/></td>
+  </tr>
+</table>
+</div>
+
+
+<!-- end essay nav -->
+
+<!-- <div class="slug" id="slug"><span class="bottibody2">Massachusetts Institute of Technology &#169; 2010 Visualizing Cultures</span></div> -->
+
+
+<!-- right-hand buttons -->
+
+
+<!-- <div class="boxtoalink" id="boxtoalink"><a href="javascript:alert('Sorry, this unit is unavailable in this demonstration.')" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image11','','../home/image/go_toa02.gif',1);noverlay();noverlayv();noverlayu();"><img src="../home/image/go_toa.gif" alt="Visual Narrative" name="Image11" width="243" height="276" border="0" id="Image11" title=""/></a></div>  -->
+
+<div class="boxpdf" id="boxpdf">
+<table width="348" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="39" align="left" valign="bottom"><!--<img alt="MIT Visualizing Cultures"  title="" border="0"  src="../rise_fall_canton_01/image/cw_pop_dot.gif"  width="42" height="17" />--></td>
+    <td width="240" align="left" valign="middle"><span class="bottibody2"><a href="anp2_essay01.pdf"  target="_blank" onmouseover="noverlay();noverlayv();noverlayu();">Printer-friendly PDF of this chapter</a><br />
+<br /><br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br /><br /><br />
+<a href="../protest_art_50s_japan/index.html" onmouseover="MM_swapImage('anpbut','','../tokyo_1960/image/anp1_but02.png',1);noverlay();noverlayv();noverlayu()" onmouseout="MM_swapImgRestore()"><img src="../tokyo_1960/image/anp1_but.png" alt="Protest Art in 1950s Japan"  border="0"  title=""  id="anpbut"/></a></span><span class="halfer"><br />
+<br /></span><span class="bottibody2"><a href="../protest_art_50s_japan/index.html" onmouseover="MM_swapImage('anpbut','','../tokyo_1960/image/anp1_but02.png',1);noverlay();noverlayv();noverlayu()" onmouseout="MM_swapImgRestore()">Companion unit: <em><br />
+Protest Art in 1950s Japan</em></a></span>
+</td>
+  </tr>
+</table>
+<!--
+	  <table width="348" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="39" align="left" valign="bottom">&nbsp;</td>
+    <td width="240" align="left" valign="middle">
+      <span class="bottibody2"><a href="http://upload.wikimedia.org/wikipedia/commons/f/fb/Beijing_city_wall_map.jpg" target="_blank">Wikipedia: simplified Beijing map</a><br /><br />
+      <a href="http://www.davidrumsey.com/luna/servlet/detail/RUMSEY%7E8%7E1%7E21941%7E690033?qvq=w4s:/what/Atlas+Map/World+Atlas/where/Beijing+(China)/when/1860/;sort:Pub_List_No_InitialSort,Pub_Date,Pub_List_No,Series_No;lc:RUMSEY%7E8%7E1&amp;mi=0&amp;trs=1#" target="_blank">Explore a complete China map in the <br />
+        David Rumsey Historical Map Collection</a><br /><br />
+        <a href="http://books.google.com/books?id=2EtCTP7v8K0C&amp;pg=PA41&amp;dq=Lillian+M.+Li,+Alison+Dray-Novey,+Haili+Kong+chapter+2&amp;hl=en&amp;sa=X&amp;ei=PuoIT9yrDsrk0QGwrZmeAg&amp;ved=0CEAQ6AEwAA#v=onepage&amp;q&amp;f=false" target="_blank">Google Books: <em>Beijing: From Imperial <br />
+        Capital to Olympic City,</em> chapter two.
+        </a><br /><br />
+        
+        <a href="http://en.wikipedia.org/wiki/Eight_Banners" target="_blank">Wikipedia: read  about Manchu bannermen</a></span></td>
+	</tr></table>-->
+</div>
+
+
+
+<!--end  right-hand buttons -->
+
+
+<!-- essay -->
+<div class="essay">
+
+</div>
+<!--end  essay -->
+
+
+</div>
+</div>
+
+
+<!--top bar nav elements -->
+<div class="box14" id="box14" ><table  width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><img src="../home/image/spacer.gif" width="10" height="26"  alt="MIT Visualizing Cultures"/><img src="../home/image/hometopnav01.gif"  alt="Menu" width="227" height="26" border="0" usemap="#topmap"/></td>
+  </tr>
+</table>
+</div>
+
+<div class="box15" id="box15" ><table  width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><img src="../home/image/spacer.gif" width="10" height="27"  alt="MIT Visualizing Cultures"/></td>
+  </tr>
+</table>
+</div>
+
+<div class="navbox" id="hideme"><a  onmouseout="javascript:noverlay();" onmouseover="javascript:overlay();"><img src="../home/image/vc_home_nav.png" alt="MIT Visualizing Cultures" width="202" height="300" border="0" usemap="#Map"  id="Image5"  name="Image5" title="" /></a></div> 
+
+
+<div class="twit">
+<a href="https://twitter.com/share" class="twitter-share-button" data-count="none">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></div>
+
+<div class="emil"><!--email-->
+<script type="text/javascript"><!--
+
+var SubjectLine='MIT Visualizing Cultures'; 
+var BodyText='You can see this page at: '+top.location.href;
+
+var Message='<A CLASS=contact HREF="mailto:?SUBJECT='+escape(SubjectLine)+'&BODY='+escape(BodyText)+'" OnMouseOver="status=\'Envoyer cette page à vos amis\'; return true;" ><img src="../home/image/email2.gif" alt="Email" name="Image321"   border="0" id="Image321"  title=""/><\/A>';
+
+var MessageIE='<A CLASS=contact HREF="mailto:?SUBJECT='+(SubjectLine)+'&BODY='+(BodyText)+'" OnMouseOver="status=\'Envoyer cette page à vos amis\'; return true;" ><img src="../home/image/email2.gif" alt="Email" name="Image321"   border="0" id="Image321"  title=""/><\/A>';
+
+if(document.all) { document.write(MessageIE); }
+
+else { document.write(Message); }
+
+// http://javascriptsource.com "The JavaScript Source"
+//--></script></div>
+
+
+
+<!--facebook--><div class="fbok">
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<div class="fb-like" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false" data-colorscheme="light" data-font="verdana"></div>
+
+</div> 
+
+<div class="unitsnavbox01" id="unitsnavbox01" ><a  onmouseout="javascript:noverlayu();" onmouseover="javascript:overlayu();"><img src="../home/image/unitstopnav01.gif"  alt="Units" width="227" height="26" border="0" /></a></div>
+ 
+<div class="navboxu" id="hidemeu"><a href="#" onmouseout="javascript:noverlayu();" onmouseover="javascript:overlayu();"><img src="../home/image/vc_units_cur_nav.png" alt="MIT Visualizing Cultures" width="179" height="148" border="0" usemap="#Map3"  id="Image6"  name="Image6" title=""/></a></div> 
+
+
+<div class="xnavbox" id="xnavbox" ><a  onmouseout="javascript:noverlayx();" onmouseover="javascript:overlayx();"><img src="image/topnav.gif"  alt="Tokyo 1960: Days of Rage &amp; Grief" width="326" height="26" border="0"  title="" /></a></div>
+
+<div class="navboxx" id="hidemex"><a  onmouseout="javascript:noverlayx();" onmouseover="javascript:overlayx();"><img src="image/anp2_nav.png" alt="Tokyo 1960: Days of Rage &amp; Grief"  name="Image8" width="250" height="131" border="0" usemap="#Image8Map"   id="Image8" title="" /></a></div>
+ 
+ 
+
+
+<div class="unitnavbox" id="unitnavbox" ><a  onmouseout="javascript:noverlayv();" onmouseover="javascript:overlayv();"><img src="../home/image/essaytop.gif"  alt="Essay" width="227" height="26" border="0" title="" /></a></div>
+ 
+<div class="navboxv" id="hidemev"><a  onmouseout="javascript:noverlayv();" onmouseover="javascript:overlayv();"><img src="image/anp2_nav_i.png" alt="Essay"  name="Image7" width="200" height="230" border="0" usemap="#Image7Map"   id="Image7" title=""/>
+</a></div><!--end top bar nav elements -->
+
+
+
+<!--image maps -->
+    <map name="topmap" id="topmap">
+    <area shape="rect" coords="0,0,180,47" href="#" onmouseover="overlay();"  alt="MIT Visualizing Cultures" />
+      <area shape="rect" coords="194,0,300,47" href="#" onmouseover="overlayu();"  alt="VC Units" />
+  </map>
+    
+
+<map name="Map" id="Map">
+      <area shape="rect" coords="0,0,211,39" href="../home/index.html" onmouseover="overlay()" alt="MIT Visualizing Cultures"/>
+      <area shape="rect" coords="0,39,211,66" href="../home/vc01_about.html" target="_top"  alt="About VC" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_02.png',1)"/>      
+      <area shape="rect" coords="0,66,211,96" href="../home/vc02_schol.html" target="_top"  alt="VC Scholars" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_03.png',1)" />
+  <area shape="rect" coords="0,96,211,124" href="../home/vc03_partner.html" target="_top"  alt="Partner Institutions" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_04.png',1)" />
+
+  <area shape="rect" coords="0,124,211,147" href="../home/vc05_outreach.html" target="_top"  alt="Outreach" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_05.png',1)" />
+  <area shape="rect" coords="3,147,211,181" href="../home/vc06_event.html" target="_top"  alt="Conferences &amp; Events" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_06.png',1)" />
+  <area shape="rect" coords="3,181,211,214" href="mailto:visualizingcultures@mit.edu" target="_top"  alt="Contact" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_07.png',1)" />
+ <area shape="rect" coords="1,214,212,240" href="http://www.facebook.com/home.php#!/group.php?gid=261831254970&amp;ref=ts" target="_blank"  alt="Join Us" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_08.png',1)" />
+  <area shape="rect" coords="0,240,211,266" href="http://twitter.com/Visualizing_Cul" target="_blank"  alt="Follow Us" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_09.png',1)" />
+</map>
+
+
+
+<!---->
+
+
+
+
+<map name="Image7Map" id="Image7Map">
+  <area shape="rect" coords="1,3,213,31" href="index.html" target="_top" alt="Essay" onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();" />
+      
+	  <area shape="rect" coords="1,40,258,70" href="anp2_essay01.html" target="_top" alt="Cold-War Japan" onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();MM_swapImage('Image7','','image/anp2_nav_i_01.png',1)" />
+  
+  <area shape="rect" coords="0,68,258,96" href="anp2_essay02.html" target="_top" alt="The Confrontation" onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();MM_swapImage('Image7','','image/anp2_nav_i_02.png',1)" />
+
+<area shape="rect" coords="0,95,258,122" href="anp2_essay03.html"  target="_top" alt="Sites of Protest" onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();MM_swapImage('Image7','','image/anp2_nav_i_03.png',1)" />
+
+<area shape="rect" coords="0,122,258,150" href="anp2_essay04.html"  target="_top" alt="&#8220;Average Citizens&#8221;" onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();MM_swapImage('Image7','','image/anp2_nav_i_04.png',1)" />
+
+<area shape="rect" coords="2,150,258,177" href="anp2_essay05.html"  target="_top" alt="Hope Deferred" onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();MM_swapImage('Image7','','image/anp2_nav_i_05.png',1)" />
+
+<area shape="rect" coords="2,177,258,200" href="anp2_essay06.html"  target="_top" alt="Sources &amp; Credits" onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();MM_swapImage('Image7','','image/anp2_nav_i_06.png',1)" />
+</map>
+
+<map name="Map4" id="Map4">
+<area shape="rect" coords="0,1,99,60"   href="anp2_essay01.html" onmouseover="MM_swapImage('nav01','','image/anp2_essay_nav_01.gif',1);noverlay();noverlayv();noverlayu()" onmouseout="MM_swapImgRestore()" alt="Cold-War Japan" title=""/>
+<area shape="rect" coords="99,0,225,65" href="anp2_essay02.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01','','image/anp2_essay_nav_02.gif',1);noverlay();noverlayv();noverlayu()"    title=""   alt="The Confrontation"/>
+
+<area shape="rect" coords="225,0,319,65" href="anp2_essay03.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01','','image/anp2_essay_nav_03.gif',1);noverlay();noverlayv();noverlayu()"    title=""   alt="Sites of Protest"/>
+       <area shape="rect" coords="319,1,421,70" href="anp2_essay04.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01','','image/anp2_essay_nav_04.gif',1);noverlay();noverlayv();noverlayu()"    title=""   alt="&#8220;Average Citizens&#8221;"/> 
+  <area shape="rect" coords="420,0,520,61" href="anp2_essay05.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01','','image/anp2_essay_nav_05.gif',1);noverlay();noverlayv();noverlayu()"    title=""   alt="Hope Deferred"/>
+  <area shape="rect" coords="520,0,619,58" href="anp2_essay06.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01','','image/anp2_essay_nav_06.gif',1);noverlay();noverlayv();noverlayu()"    title=""   alt="Sources &amp; Credits"/>
+</map>
+
+ <map name="Map5" id="Map5"><area shape="rect" coords="0,1,99,60"   href="anp2_essay01.html" onmouseover="MM_swapImage('nav01b','','image/anp2_essay_nav_01.gif',1);noverlay();noverlayv();noverlayu()" onmouseout="MM_swapImgRestore()" alt="Cold-War Japan" title=""/>
+<area shape="rect" coords="99,0,225,65" href="anp2_essay02.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01b','','image/anp2_essay_nav_02.gif',1);noverlay();noverlayv();noverlayu()"    title=""   alt="The Confrontation"/>
+
+<area shape="rect" coords="225,0,319,65" href="anp2_essay03.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01b','','image/anp2_essay_nav_03.gif',1);noverlay();noverlayv();noverlayu()"    title=""   alt="Sites of Protest"/>
+       <area shape="rect" coords="319,1,421,70" href="anp2_essay04.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01b','','image/anp2_essay_nav_04.gif',1);noverlay();noverlayv();noverlayu()"    title=""   alt="&#8220;Average Citizens&#8221;"/> 
+  <area shape="rect" coords="420,0,520,61" href="anp2_essay05.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01b','','image/anp2_essay_nav_05.gif',1);noverlay();noverlayv();noverlayu()"    title=""   alt="Hope Deferred"/>
+  <area shape="rect" coords="520,0,619,58" href="anp2_essay06.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01b','','image/anp2_essay_nav_06.gif',1);noverlay();noverlayv();noverlayu()"    title=""   alt="Sources &amp; Credits"/>
+</map>
+
+ <map name="Map3" id="Map3">
+  
+<area shape="rect" coords="0,2,312,30" href="../home/vis_menu.html" target="_top" alt="Units" onmouseout="noverlayu();MM_swapImgRestore()" onmouseover="overlayu();" />
+
+<area shape="rect" coords="2,38,314,68" href="../home/vis_menu.html" target="_top" alt="Icon View" onmouseout="noverlayu();MM_swapImgRestore()" onmouseover="overlayu();MM_swapImage('Image6','','../home/image/vc_units_cur_nav_01.png',1)" />
+
+<area shape="rect" coords="0,67,312,95" href="../home/vis_menu_02b.html" target="_top" alt="Text View" onmouseout="noverlayu();MM_swapImgRestore()" onmouseover="overlayu();MM_swapImage('Image6','','../home/image/vc_units_cur_nav_02.png',1)" />
+
+<area shape="rect" coords="1,94,313,122" href="../home/vis_menu_03.html" target="_top" alt="Curriculae" onmouseout="noverlayu();MM_swapImgRestore()" onmouseover="overlayu();MM_swapImage('Image6','','../home/image/vc_units_cur_nav_03.png',1)" /></map>
+<map name="Image8Map" id="Image8Map">
+  
+  
+<area shape="rect" coords="0,2,312,30" href="index.html" target="_top" alt="Tokyo 1960: Days of Rage &amp; Grief" onmouseout="noverlayx();MM_swapImgRestore()" onmouseover="overlayx();" />
+
+<area shape="rect" coords="4,39,316,69" href="anp2_gallery.html" target="_top" alt="Image Gallery" onmouseout="noverlayx();MM_swapImgRestore()" onmouseover="overlayx();MM_swapImage('Image8','','image/anp2_nav_01.png',1)" />
+
+<area shape="rect" coords="0,69,312,97" href="../protest_art_50s_japan/index.html" target="_top" alt="Protest Art in 1950s Japan" onmouseout="noverlayx();MM_swapImgRestore()" onmouseover="overlayx();MM_swapImage('Image8','','image/anp2_nav_02.png',1)" /></map>
+
+
+
+</body>
+</html>

@@ -1,0 +1,613 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/tr/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>MIT Visualizing Cultures</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+
+
+<style type="text/css">
+<!--
+
+.backg {
+	position:absolute;
+	left:0px;
+	top:180px;
+	z-index: 1;
+background-image:url(../gt_japan_people/image/essay_bck.gif);
+}
+.flashy {
+	position:absolute;
+	left:467px;
+	top:42px;
+	z-index: 3;
+}
+.slug {        position:absolute;
+        left:20px;
+        top:475px;
+        width:467px;
+		z-index:2;
+		text-align:left;
+}
+.navbox {
+		position: fixed;
+        left:10px;
+        top:0px;
+		z-index: 5;
+		visibility:hidden;
+}
+.unitsnavbox01 {
+        position:fixed;
+        left:200px;
+        top:0px;
+		z-index:5;
+}
+.unitnavbox {
+        position:fixed;
+        left:271px;
+        top:0px;
+		z-index:6;
+}
+.navboxu {
+		position: fixed;
+        left:200px;
+        top:0px;
+		z-index: 6;
+		visibility:hidden;	 
+}
+.navboxv {
+		position: fixed;
+        left:271px;
+        top:0px;
+		z-index: 7;
+		visibility:hidden;	 
+}
+.box14 {
+        position:fixed;
+        left:0px;
+        top:0px;
+		z-index:5;
+		background-color:#222222;
+		width:100%
+}
+.box15 {
+        position:fixed;
+        left:0px;
+        top:0px;
+		z-index:4;
+	    width: 100%;
+		background-color:#504B48
+}
+.box16 {        position:fixed;
+        left:0px;
+        top:23px;
+		z-index:4;
+	width: 100%;
+background-color:#2F302F 
+}
+.boxessay {        position:absolute;
+        left:624px;
+        top:124px;
+		z-index:4;
+}
+.boxvisnav {        position:absolute;
+        left:624px;
+        top:200px;
+		z-index:4;
+}
+.boxpdf {        position:absolute;
+        left:624px;
+        top:220px;
+		z-index:4;
+}
+
+.box01 { 
+		position: static;
+		top: 20%;
+		left: 20%;
+}
+#horizon        
+	{
+	
+	text-align: center;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 1px;
+	overflow: visible;
+	visibility: visible;
+	display: block
+	}
+
+#content    
+	{
+	
+	margin-left: -485px;
+	position: absolute;
+	top: 0px;
+	left: 50%;
+	width: 250px;
+	height: 70px;
+	visibility: visible;
+
+	}
+.essaynavbottom {
+	position:absolute;
+	left:0px;
+	z-index: 3;
+}
+.essaynavtop {
+	position:absolute;
+	left:0px;
+	top:142px;
+	z-index: 3;
+}
+.top {
+	position:absolute;
+	left:0px;
+	top:45px;
+	z-index: 2;
+}
+.bottom {
+	position:absolute;
+	left:0px;
+	z-index: 2;
+}
+.boxmono {        position:absolute;
+        left:624px;
+		z-index:4;
+}
+.bottibody {color: #000000; font-size: 13px; line-height: 19px; font-family: Verdana, Arial, Helvetica, sans-serif
+	}
+.bottibody2 {color: #000000; font-size: 11px; line-height: 16px; font-family: Verdana, Arial, Helvetica, sans-serif }
+.bottismall {
+	color: #333333;
+	font-size: 9px;
+	line-height: 12px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-style: normal;
+	}
+.head { color: #8C42D0; font-size: 15px; line-height: 19px; font-family: Verdana, Arial, Helvetica, sans-serif
+	}
+.bottiblock {
+	color: #2D2D2D;
+	font-size: 15px;
+	line-height: 19px;
+	font-family: Times New Roman, Times, serif;
+	font-style: italic;
+	}
+.bottiblockplain {
+	color: #2D2D2D;
+	font-size: 15px;
+	line-height: 19px;
+	font-family:   Times New Roman, Times, serif;
+	font-style: normal;
+	}
+.bottiblockhead {
+	color: #2D2D2D;
+	font-size: 18px;
+	line-height: 21px;
+	font-family: Times New Roman, Times, serif;
+	font-style: italic;
+	}
+.halfer { color: #ffffff; font-size: 6px; line-height: 6px; font-family: Verdana, Arial, Helvetica, sans-serif
+	}
+a:link {
+        color:#1233FF;
+        text-decoration:none;
+    }
+ a:active { 
+		color:#1233FF;
+        text-decoration:none;
+	}
+a:visited {
+		color:#1233FF;
+        text-decoration:none;
+	}
+a:hover {
+		color:#1233FF;
+        text-decoration:underline;
+	}
+.twit {
+		position: fixed;
+        top: 2px;
+        left: 810px;
+		z-index: 7;
+		
+}
+.emil{
+		position: fixed;
+        top: 4px;
+        left: 876px;
+		z-index: 7;
+		
+}
+.fbok{
+		position: fixed;
+        top: 2px;
+        left: 916px;
+		z-index: 7;
+		width: 48px;
+		overflow:hidden;
+}
+-->
+</style>
+
+
+<script language="JavaScript" type="text/JavaScript">
+<!--
+//rollovers for menus
+function overlay() {
+        el = document.getElementById("hideme");
+        el.style.visibility ="visible";
+		noverlayu();
+		noverlayv();
+}
+
+function noverlay() {
+        el = document.getElementById("hideme");
+        el.style.visibility ="hidden";
+}
+
+
+function overlayu() {
+        el = document.getElementById("hidemeu");
+        el.style.visibility ="visible";
+		noverlay();
+		noverlayv();
+}
+function noverlayu() {
+        el = document.getElementById("hidemeu");
+        el.style.visibility ="hidden";
+}
+
+
+function overlayv() {
+        el = document.getElementById("hidemev");
+        el.style.visibility ="visible";
+		noverlay();
+		noverlayu();
+}
+function noverlayv() {
+        el = document.getElementById("hidemev");
+        el.style.visibility ="hidden";
+}
+
+
+
+
+function sesame() {
+window.moveTo(0,0);        
+window.resizeTo(1350,screen.height);
+}
+
+
+window.onload=function()
+{
+	//sesame();
+	noverlay();
+	noverlayu();
+	MM_preloadImages('../home/image/vc_home_nav_02.png','../home/image/vc_home_nav_03.png','../home/image/vc_home_nav_04.png','../home/image/vc_home_nav_05.png','../home/image/vc_home_nav_06.png','../home/image/vc_home_nav_07.png','../home/image/vc_home_nav_08.png','../home/image/vc_home_nav_09.png','../home/image/vc_home_nav_10.png','../home/image/vc_units_nav_01.png','../home/image/vc_units_nav_02.png','../home/image/vn_icon02.gif','../home/image/pdf_essay02.gif','../home/image/essay_icon02.gif','../home/image/units_bck_05.jpg','../home/image/units_bck_06.jpg','essay_icon02.gif','image/gz2_nav_02.png','image/gz2_nav_03.png','image/gz2_nav_04.png','image/gz2_nav_05.png','visnav/image/toc.jpg');
+}
+var newwindow = '';
+
+function imalert(url)
+{
+	if (!newwindow.closed && newwindow.location)
+	{
+		newwindow.location.href = url;
+	}
+	else
+	{
+		newwindow=window.open(url,'windowtwo','height=360,width=586, toolbar=no,  resizable=yes, status=no, scrollbars=yes');
+		if (!newwindow.opener) newwindow.opener = self;
+	}
+	if (window.focus) {newwindow.focus()}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//
+var vcidwindow = '';
+
+function openvcidwindow(url)
+{
+	if (!vcidwindow.closed && vcidwindow.location)
+	{
+		vcidwindow.location.href = url;
+	}
+	else
+	{
+		vcidwindow=window.open(url,'vcid','height=950,width=1000, toolbar=yes, scrollbars=yes, resizable=yes, location=yes');
+		if (!vcidwindow.opener) vcidwindow.opener = self;
+	}
+	if (window.focus) {vcidwindow.focus()
+	}
+	} 
+
+
+
+ var curwindow = '';
+
+function opencurwindow(url)
+{
+	if (!curwindow.closed && curwindow.location)
+	{
+		curwindow.location.href = url;
+	}
+	else
+	{
+		curwindow=window.open(url,'curriculum','height=800,width=720, toolbar=yes, scrollbars=yes, resizable=yes,  location=yes');
+		if (!curwindow.opener) curwindow.opener = self;
+	}
+	if (window.focus) {curwindow.focus()
+	}
+	} 
+//-->
+</script>
+<script type="text/javascript">
+<!--
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." :
+"http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost +
+"google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+//-->
+</script>
+<script type="text/javascript">
+<!--
+try {
+var pageTracker = _gat._getTracker("UA-12446158-1");
+pageTracker._trackPageview();
+} catch(err) {}
+//-->
+</script></head>
+<body bgcolor="#252422">
+<div  id="horizon">
+<div  id="content">
+<div class="backg">
+<table width="970" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="20">&nbsp;</td>
+    <td width="579" ><table width="579" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td  align="left" valign="top" class="bottibody"><span  class="bottismall"><br/></span><span class="bottibody">This unit presents the illustrated testimony of Akihiro Takahashi, an A-bomb survivor in Hiroshima, who was born in that city in 1931 and miraculously survived the atomic bombing on August 6, 1945 when he was 14 years old. It took 18 months for Takahashi to regain his health after that terrible event and two years until he was able to return to school. Throughout that time he suffered constant fatigue, a common symptom among A-bomb survivors. After completing his high-school education he applied for a job in a local advertising company. Although he was told initially that his application was successful, the job offer was withdrawn when the company realized that Takahashi&#8217;s right arm was partially disabled as a result of the bombing. Eventually, he was offered a temporary job at the Hiroshima City Council, where he later became a full-time worker. There too, however, he often experienced discrimination by  fellow workers due to his physical disability.
+  <br/>
+  <br/>
+  Takahashi&#8217;s injuries were extensive. His right hand was taut and stiff from keloid scars caused by  heat rays from the bomb, so he could not move his fingers. In 1953, after a skin-graft operation that lasted five hours, he was finally able to hold a pen again and write properly. But he still could not bend his right arm more than 120 degrees, an injury which has remained with him throughout his life. His back too is permanently covered with keloid scars. Takahashi has also suffered various illnesses since his exposure to the bomb, including chronic hepatitis that still plagues him. <br/>
+  <br/></span>
+  
+  <table border="0" cellspacing="0" cellpadding="0" align="left" width="325">
+    <tr>
+      <td><span class="halfer"><br/>
+      </span><img src="image/takahashi.jpg" alt="Akihiro Takahashi" width="304" height="245" align="left"/><img src="image/space.gif" width="15" height="20" alt="MIT Visualizing Cultures"/></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top"><span class="halfer"><br/>
+      </span><img src="image/space.gif" width="15" height="80"  align="left" alt="MIT Visualizing Cultures"/><img src="image/space.gif" width="30" height="80"  align="right" alt="MIT Visualizing Cultures"/><span class="bottibody"><em>Akihiro Takahashi giving the testimony reproduced in this unit at a conference in Hiroshima in March, 2006<br />
+      </em></span></td>
+    </tr>
+  </table><span class="bottibody">
+Despite his ill health and disabilities, Takahashi has been active in talking at various public gatherings and to school children about his experience of the nuclear holocaust. He was one of a number of A-bomb survivors who spoke about their ordeals at the first Hiroshima Citizens&#8217; Conference Against Atomic and Hydrogen Bombs, held on May 15, 1954 and attended by over 1,000 people. In 1965 he went to the Soviet Union, embarking on his first overseas trip as part of his anti-nuclear campaign. While there he talked in six cities, including Irkutsk, where he addressed 30,000 people in a large sports stadium. In 1983 he spoke at the UN European Headquarters in Geneva, where a special exhibition of the atomic bombing of Hiroshima was held. During this trip he  visited the IAEA (International Atomic Energy Agency) in Vienna and requested that photos and other  materials concerning the atomic bombing of Hiroshima and Nagasaki be placed on permanent display in the IAEA building. Not surprisingly, his request was rejected.<br />
+  <br />
+  In 1986 Takahashi was invited to China, where he met Chinese victims of atrocities committed by Japanese troops during the Asia Pacific War, such as the Nanjing Massacre and the bombing of Chongqing. These encounters had a significant impact on him. They made him realize Japan&#8217;s war responsibility vis-a-vis its Asian neighbors and  the importance of overcoming hatred among former enemies. In 1988 Takahashi visited Sweden, Italy, and the Vatican and met Pope John Paul II in Rome. In 1990 he attended the International Citizens&#8217; Conference for Banning Nuclear Tests, organized by IPPNW (International Physicians for the Prevention of Nuclear War) in Almaty, Kazakhstan. Semipalatinsk, in the northeast of Almaty, was a nuclear test site of the former Soviet Union where 456 nuclear tests were conducted between 1949 and 1989. It is said that more than one-million people were irradiated as a result of these tests. Takahashi met people from Semipalatinsk who were suffering from similar illnesses to those suffered by A-bomb survivors and he formed a friendship and solidarity with them. <br />
+  <br />
+  Takahashi has traveled to many other countries&mdash;including the United States&mdash;to inform people about the horror of nuclear attacks, and his testimony has been translated not only into English, but also into French and German. He has also been active in meeting children from all over Japan visiting Hiroshima on school excursions. On these occasions he speaks about the importance of building a peaceful society. In 1991 he was awarded the NHK (Japan Broadcasting Commission) Broadcasting Cultural Award for his contribution to promoting peace messages both in Japan and overseas. <br />
+  <br />
+  In June, 1980, when Takahashi visited Washington D.C. to speak at the Exhibition of the Atomic Bombing of Hiroshima and Nagasaki&mdash;held in the Russell Building of the U.S. Senate and organized by the Hiroshima Youth Association&mdash;he met Paul Tibetts, the pilot of the B-29 &#8220;Enola Gay,&#8221; from which the atomic bomb, &#8220;Little Boy,&#8221; was dropped. The meeting was arranged by Japanese journalists from Hiroshima. It was the first time a crew member from the &#8220;Enola Gay&#8221; met an A-bomb survivor face to face. <br />
+  <br />
+  At the meeting Takahashi said to Tibetts, &#8220;I have no intention to express my anger to you, so please feel at ease. For many years I have felt a deep hatred of American war leaders, including President Truman, who made the decision to drop atomic bombs on us, as well as for the Japanese militarists who initiated the war. But one day I realized that this hatred could not be erased by another hatred, and that peace could not be achieved by hatred. I started to think that I must overcome my hatred, although I knew it would require much courage. We, the A-bomb survivors, are appealing to the people of the world, irrespective of nationality and position, never to repeat this mistake with nuclear weapons. This is the spirit of Hiroshima, and I urge you to work for the abolition of nuclear weapons.&#8221;<br />
+  <br />
+  Tibetts responded, &#8220;I understand your feelings very well. But, if there was another war and I was ordered to drop an atomic bomb, I would obey the order again. This is the logic of war and the logic for soldiers. If war happens, we have no option but to accept orders. We must, therefore, make sure no wars are started ever again.&#8221; Takahashi did not agree with Tibetts&#8217; argument about the logic of war, but he was relieved to hear Tibetts&#8217;  words &#8220;we must make sure no wars are started ever again.&#8221; The meeting lasted about half an hour, throughout which Tibetts held Takahashi&#8217;s right hand. (At the beginning of the meeting, Tibetts had noticed the keloid scars on Takahashi&#8217;s  hand and asked if the scar was due to the bombing, to which Takahashi answered, &#8220;Yes.&#8221;) After the meeting the two men corresponded for a while, but Tibetts stopped replying to Takahashi&#8217;s letters when  controversy arose concerning the exhibition of the &#8220;Enola Gay&#8221; at the Smithsonian National Air Space Museum in 1995 and Tibetts made public statements staunchly justifying the bombing of Hiroshima and Nagasaki. <br />
+  <br />
+  In 1979 the then mayor of Hiroshima, Takeshi Araki, wanted to appoint an A-bomb survivor to become the director of the Hiroshima Peace Memorial Museum (the so-called A-bomb Museum). Takahashi was chosen because of his strong and sincere commitment to promoting the anti-nuclear message and because of his position as a victim of the atomic bombing. Takahashi was director for four years, during which he introduced various new programs to help as many people as possible understand the horrors of the atomic bombing. For example, he initiated a lending service of the museum&#8217;s collection. This enabled other museums and grass roots peace organizations to borrow displays such as torn clothes worn by A-bomb victims and roof tiles scorched and distorted by heat rays, together with written explanations and photos.<br />
+  <br />
+  This lending program  remains one of the most popular and important services that the museum operates, and has been extended to include overseas exhibitions in the U.S., Korea, Denmark, and many other countries. Another program that Takahashi introduced as director was the tape recording of A-bomb survivors&#8217; testimonies, which were then made available for visitors to the museum. This program later developed into an audio visual service, and some of the testimonies are now available with English translation. <br/>
+  <br/>
+  During the last few years Takahashi has had to spend a few months each year in the hospital due to his complicated illness, and it has become difficult for him to travel overseas. He is still, however, eager to speak about his experience at any opportunity, in Hiroshima or in other parts of Japan. He is possibly the best-known living witness to the nuclear holocaust. <br />
+      <br />
+  The pictures illustrating Takahashi&#8217;s experience were drawn by Mr. Goro Shikoku. Shikoku is a local amateur painter, although many people consider his paintings to be of  professional quaility. Born in Hiroshima in 1924, he is self-taught, having enjoyed painting since childhood. Before being drafted into the army and sent to Manchuria in 1944, he worked at an army uniform textile factory in Hiroshima. He was captured by the Russian army at the end of the war and sent to Siberia to do hard labor for more than three years. On his return in 1949 he found that many of his friends and relatives&mdash;including one of his brothers&mdash;had been killed by the atomic bomb. He was also shocked by the physical condition of A-bomb survivors and started painting to convey an anti-nuclear and peace message while working at the city council. During the next fifty years he produced many moving paintings, the &#8220;mother and child&#8221; theme being his most common. In addition, he produced posters and pamphlets for the anti-nuclear and anti-war campaign, as well as the cover art for books on nuclear issues. In 1999 a limited edition of a two-volume publication of his artwork was published by a group of friends and supporters. He still lives in Hiroshima [as of this writing in 2007], but does not paint any longer. &nbsp; <br />
+  <br />
+  Yuki Tanaka <br />
+  Hiroshima Peace Institute
+  <br />
+  <br />
+  <br />
+  <br /></span>
+
+ </td>
+          </tr>
+	  </table>
+		
+
+
+ 	<table width="579" border="0" cellspacing="0" cellpadding="0" bgcolor="#dcdcdc">
+  <tr>
+
+    <td  align="center" class="bottiblock"><br />
+      <blockquote><strong>Shikoku Gor&#333;</strong> (1924-2014), the illustrator of this intimate account of the atomic bombing of Hiroshima, became a prisoner of war in Siberia in 1945 and did not witness the devastation of his native city until 1948. The lingering horrors he encountered never left him: a self-taught artist, Shikoku devoted his life thereafter to creating artwork in support of antinuclear and other grassroots movements.<br /><br /><a href="http://scalar.oberlincollegelibrary.org/shikoku/index?fbclid=IwAR2fwU2aRVTdUl5u7m0ukaxu3eutZQ9q6NAqqT63aE4aokYBRTHR3q2w0dI" target="_blank">Click here to learn about his wide-ranging work in the exhibit:<br />&#8220;Popular Protest in Postwar Japan, the Antiwar Art of Shikoku Gor&#333;,&#8221;<br />produced by Professor Ann Sherif of Oberlin College.</a><br /><br />
+</blockquote>
+
+      <class="bottibody"><br/>
+
+ <img  src="https://pds.exblog.jp/pds/1/201504/20/68/b0077368_123613.jpg"  alt="https://pds.exblog.jp/pds/1/201504/20/68/b0077368_123613.jpg" width="579" height="auto" border="0"  title="" /><br/><br/>  
+Retrospective Exhibition of Gor&#333; Shikoku &#65372;&#22235;&#22283;&#20116;&#37070;&#36861;&#24764;&#12539;&#22238;&#39015;&#23637;<br/> 
+Japan&#65372;fukuro-machi, Naka-ku, Hiroshima&#12288;&#12288;&#12288;&#26085;&#26412;&#65372;&#24195;&#23798;&#24066;&#20013;&#21306;&#34955;&#30010;
+Apr 2015<br />
+      <br />
+Source: <a href ="https://tabinenpu.exblog.jp/24380905/" target = "blank">https://tabinenpu.exblog.jp/24380905/</a><br/><br/><br/></class>
+
+</td>
+  </tr>
+</table> 
+
+
+
+
+
+		 <table border="0" cellspacing="0" cellpadding="0" align="left">
+          
+ <tr>
+          <td align="left" valign="top"><span class="bottismall"><br/><br/><br/><!--<img src="../home/image/redline.gif" width="570" height="1"  alt="MIT Visualizing Cultures" title=""/>--><br/><br/>                
+<a href="javascript:imalert('../home/about.html')"><em>On viewing images of a potentially disturbing nature: click here.</em></a><br />
+                <br/>Massachusetts Institute of Technology &#169; 2008 Visualizing Cultures<br />
+                <br />
+          </span></td>
+          </tr>
+
+
+
+ <tr>
+          <td align="left" valign="top"><div class="bottom"><img src="image/essay_bottom.gif"  alt="MIT Visualizing Cultures" width="970" height="136" border="0" align="left" title=""/></div>
+</td>
+ </tr>
+
+
+	  </table>
+</td>
+    <td width="371">&nbsp;</td>
+  </tr>
+</table></div>
+<div class="top"><img src="image/essay_top.gif"  alt="MIT Visualizing Cultures" width="970" height="136" border="0" align="left" title=""/></div>
+
+<!--end background elements -->
+
+<!-- essay nav -->
+<!-- end essay nav -->
+<!-- right-hand buttons -->
+<div class="boxpdf" id="boxpdf"><a href="gz2.pdf"  target="_blank" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image12','','../home/image/pdf02.gif',1);noverlay();noverlayv();noverlayu();"><!--<img src="../home/image/pdf.gif" alt="Printable PDF of this chapter" name="Image12" width="348" height="67" border="0" id="Image12"  title=""/> --></a></div>
+
+
+
+
+<!--end  right-hand buttons -->
+
+
+
+
+
+</div>
+</div>
+
+
+<!--top bar nav elements -->
+<div class="box14" id="box14" ><table  width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><img src="../home/image/spacer.gif" width="10" height="26"  alt="MIT Visualizing Cultures"/><img src="../home/image/hometopnav01.gif"  alt="Menu" width="227" height="26" border="0" usemap="#topmap"/></td>
+  </tr>
+</table>
+</div>
+
+<div class="box15" id="box15" ><table  width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><img src="../home/image/spacer.gif" width="10" height="27"  alt="MIT Visualizing Cultures"/></td>
+  </tr>
+</table>
+</div>
+
+<div class="navbox" id="hideme"><a  onmouseout="javascript:noverlay();" onmouseover="javascript:overlay();"><img src="../home/image/vc_home_nav.png" alt="MIT Visualizing Cultures" width="202" height="300" border="0" usemap="#Map"  id="Image5"  name="Image5" title="" /></a></div> 
+
+<div class="twit">
+<a href="https://twitter.com/share" class="twitter-share-button" data-count="none">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></div>
+
+<div class="emil"><!--email-->
+<script type="text/javascript"><!--
+
+var SubjectLine='MIT Visualizing Cultures'; 
+var BodyText='You can see this page at: '+top.location.href;
+
+var Message='<A CLASS=contact HREF="mailto:?SUBJECT='+escape(SubjectLine)+'&BODY='+escape(BodyText)+'" OnMouseOver="status=\'Envoyer cette page ÃƒÂ  vos amis\'; return true;" ><img src="../home/image/email2.gif" alt="Email" name="Image321"   border="0" id="Image321"  title=""/><\/A>';
+
+var MessageIE='<A CLASS=contact HREF="mailto:?SUBJECT='+(SubjectLine)+'&BODY='+(BodyText)+'" OnMouseOver="status=\'Envoyer cette page ÃƒÂ  vos amis\'; return true;" ><img src="../home/image/email2.gif" alt="Email" name="Image321"   border="0" id="Image321"  title=""/><\/A>';
+
+if(document.all) { document.write(MessageIE); }
+
+else { document.write(Message); }
+
+// http://javascriptsource.com "The JavaScript Source"
+//--></script></div>
+
+
+
+<!--facebook--><div class="fbok">
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<div class="fb-like" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false" data-colorscheme="light" data-font="verdana"></div>
+
+</div> 
+
+<div class="unitsnavbox01" id="unitsnavbox01" ><a  onmouseout="javascript:noverlayu();" onmouseover="javascript:overlayu();"><img src="../home/image/unitstopnav01.gif"  alt="Units" width="227" height="26" border="0"/></a></div>
+ <div class="navboxu" id="hidemeu"><a href="#" onmouseout="javascript:noverlayu();" onmouseover="javascript:overlayu();"><img src="../home/image/vc_units_cur_nav.png" alt="MIT Visualizing Cultures" width="179" height="148" border="0" usemap="#Map3"  id="Image6"  name="Image6" title=""/></a></div> <div class="unitnavbox" id="unitnavbox" ><a  onmouseout="javascript:noverlayv();" onmouseover="javascript:overlayv();"><img src="image/topnav.gif"  alt="Yellow Promise/Yellow Peril" width="227" height="26" border="0"/></a></div>
+ 
+<div class="navboxv" id="hidemev"><a  onmouseout="javascript:noverlayv();" onmouseover="javascript:overlayv();"><img src="image/gz2_nav.png" alt="Ground Zero 1945 II"  name="Image7" width="212" height="169" border="0" usemap="#Image7Map"   id="Image7" title=""/>
+    
+</a></div>
+<!--end top bar nav elements -->
+
+
+
+<!--image maps -->
+    <map name="topmap" id="topmap">
+      <area shape="rect" coords="0,0,180,47" href="#" onmouseover="overlay();"  alt="MIT Visualizing Cultures" />
+      <area shape="rect" coords="194,0,300,47" href="#" onmouseover="overlayu();"  alt="VC Units" />
+  </map>
+
+<map name="Map" id="Map">
+      <area shape="rect" coords="0,0,211,39" href="../home/index.html" onmouseover="overlay()" alt="MIT Visualizing Cultures"/>
+      <area shape="rect" coords="0,39,211,66" href="../home/vc01_about.html" target="_top"  alt="About VC" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_02.png',1)"/>      
+      <area shape="rect" coords="0,66,211,96" href="../home/vc02_schol.html" target="_top"  alt="VC Scholars" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_03.png',1)" />
+  <area shape="rect" coords="0,96,211,124" href="../home/vc03_partner.html" target="_top"  alt="Partner Institutions" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_04.png',1)" />
+
+  <area shape="rect" coords="0,124,211,147" href="../home/vc05_outreach.html" target="_top"  alt="Outreach" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_05.png',1)" />
+  <area shape="rect" coords="3,147,211,181" href="../home/vc06_event.html" target="_top"  alt="Conferences &amp; Events" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_06.png',1)" />
+  <area shape="rect" coords="3,181,211,214" href="mailto:visualizingcultures@mit.edu" target="_top"  alt="Contact" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_07.png',1)" />
+ <area shape="rect" coords="1,214,212,240" href="http://www.facebook.com/home.php#!/group.php?gid=261831254970&amp;ref=ts" target="_blank"  alt="Join Us" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_08.png',1)" />
+  <area shape="rect" coords="0,240,211,266" href="http://twitter.com/Visualizing_Cul" target="_blank"  alt="Follow Us" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_09.png',1)" />
+</map><map name="Map3" id="Map3">
+  
+<area shape="rect" coords="0,2,312,30" href="../home/vis_menu.html" target="_top" alt="Units" onmouseout="noverlayu();MM_swapImgRestore()" onmouseover="overlayu();" />
+
+<area shape="rect" coords="2,38,314,68" href="../home/vis_menu.html" target="_top" alt="Icon View" onmouseout="noverlayu();MM_swapImgRestore()" onmouseover="overlayu();MM_swapImage('Image6','','../home/image/vc_units_cur_nav_01.png',1)" />
+
+<area shape="rect" coords="0,67,312,95" href="../home/vis_menu_02b.html" target="_top" alt="Text View" onmouseout="noverlayu();MM_swapImgRestore()" onmouseover="overlayu();MM_swapImage('Image6','','../home/image/vc_units_cur_nav_02.png',1)" />
+
+<area shape="rect" coords="1,94,313,122" href="../home/vis_menu_03.html" target="_top" alt="Curriculae" onmouseout="noverlayu();MM_swapImgRestore()" onmouseover="overlayu();MM_swapImage('Image6','','../home/image/vc_units_cur_nav_03.png',1)" /></map>
+<map name="Image7Map" id="Image7Map">
+  <area shape="rect" coords="-1,1,211,29" href="index.html" target="_top" alt="Ground Zero 1945 II" onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();" />
+      <area shape="rect" coords="0,40,215,70" href="gz2_essay01.html" target="_top" alt="Introduction" onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();MM_swapImage('Image7','','image/gz2_nav_02.png',1)" />
+  <area shape="rect" coords="-2,70,213,98" href="gz2_visnav01.html" target="_top" alt="Visual Narratives" onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();MM_swapImage('Image7','','image/gz2_nav_03.png',1)" />
+<area shape="rect" coords="0,98,215,128" href="gz2_video_home.html"  target="_top" alt="Akihiro Takahashi Video" onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();MM_swapImage('Image7','','image/gz2_nav_04.png',1)" />
+<area shape="rect" coords="0,128,215,158" href="javascript:openvcidwindow('gz2_image_home.html')"  target="_top" alt="Image Gallery" onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();MM_swapImage('Image7','','image/gz2_nav_05.png',1)" /></map>
+
+
+
+
+</body>
+</html>

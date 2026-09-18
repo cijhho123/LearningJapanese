@@ -1,0 +1,1330 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>MIT Visualizing Cultures</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+
+
+<style type="text/css">
+<!--
+
+.backg {
+	position:absolute;
+	left:0px;
+	top:180px;
+	z-index: 1;
+background-image:url(../gt_japan_people/image/essay_bck.gif);
+}
+.top {
+	position:absolute;
+	left:0px;
+	top:45px;
+	z-index: 2;
+}
+.bottom {
+	position:absolute;
+	left:0px;
+	z-index: 2;
+}
+.essaynavtop {
+	position:absolute;
+	left:0px;
+	top:142px;
+	z-index: 3;
+}
+.essaynavbottom {
+	position:absolute;
+	left:0px;
+	z-index: 3;
+}
+.essay {
+	position:absolute;
+	left:20px;
+	top:195px;
+	z-index: 4;
+	background-color:#FFFFFF;
+}
+.flashy {
+	position:absolute;
+	left:467px;
+	top:42px;
+	z-index: 3;
+}
+.slug {        position:absolute;
+        left:20px;
+        top:475px;
+        width:476px;
+		z-index:2;
+		text-align:left;
+}
+.navbox {
+		position: fixed;
+        left:10px;
+        top:0px;
+		z-index: 5;
+		visibility:hidden;
+}
+.unitsnavbox01 {
+        position:fixed;
+        left:200px;
+        top:0px;
+		z-index:5;
+}
+.xnavbox {
+        position:fixed;
+        left:271px;
+        top:0px;
+		z-index:6;
+}
+.unitnavbox {
+        position:fixed;
+        left:510px;
+        top:0px;
+		z-index:6;
+}
+.navboxu {
+		position: fixed;
+        left:200px;
+        top:0px;
+		z-index: 5;
+		visibility:hidden;	 
+}
+.navboxx {
+		position: fixed;
+        left:271px;
+        top:0px;
+		z-index: 6;
+		visibility:hidden;	 
+}
+.navboxv {
+		position: fixed;
+        left:510px;
+        top:0px;
+		z-index: 8;
+		visibility:hidden;	 
+}
+.box14 {
+        position:fixed;
+        left:0px;
+        top:0px;
+		z-index:5;
+		background-color:#222222;
+		width:100%
+}
+.box15 {
+        position:fixed;
+        left:0px;
+        top:0px;
+		z-index:4;
+	    width: 100%;
+		background-color:#504B48
+}
+.box16 {        position:fixed;
+        left:0px;
+        top:23px;
+		z-index:4;
+	width: 100%;
+background-color:#2F302F 
+}
+.popup01 {        position:absolute;
+        left:624px;
+		z-index:4;
+}
+.boxtoalink {        position:absolute;
+        left:624px;
+		z-index:4;
+}
+.boxpdf {        position:absolute;
+        left:624px;
+        top:231px;
+		z-index:4;
+}
+
+.box01 { 
+		position: static;
+		top: 20%;
+		left: 20%;
+}		
+.pop {position:absolute;
+        left:622px;
+		z-index:3;
+}
+
+#horizon        
+	{
+	text-align: center;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 1px;
+	overflow: visible;
+	visibility: visible;
+	display: block
+	}
+
+#content    
+	{
+	margin-left: -485px;
+	position: absolute;
+	top: 0px;
+	left: 50%;
+	width: 250px;
+	height: 70px;
+	visibility: visible;
+
+		}
+#treat    
+	{
+	margin-left: -610px;
+	position: absolute;
+	top: 379px;
+	left: 50%;
+	width: 1220px;
+	height: 640px;
+	visibility: hidden;
+	z-index: 5;
+		}
+.bottibody {color: #111111; font-size: 13px; line-height: 19px; font-family: Verdana, Arial, Helvetica, sans-serif
+	}
+.bottibody2 {color: #ffffff; font-size: 11px; line-height: 16px; font-family: Verdana, Arial, Helvetica, sans-serif
+	}
+.bottiblock {
+	color: #2D2D2D;
+	font-size: 14px;
+	line-height: 19px;
+	/*font-family: Georgia, "Times New Roman", Times, serif;*/
+	font-family: Times New Roman, Times, serif;
+	font-style: italic;
+	}
+.bottiblockplain {
+	color: #2D2D2D;
+	font-size: 14px;
+	line-height: 19px;
+	/*font-family: Georgia, "Times New Roman", Times, serif;*/
+	font-family:   Times New Roman, Times, serif;
+	font-style: normal;
+	}
+.bottiblockii {
+	color: #2D2D2D;
+	font-size: 16px;
+	line-height: 20px;
+	/*font-family: Georgia, "Times New Roman", Times, serif;*/
+	font-family: Times New Roman, Times, serif;
+	font-style: italic;
+	}
+.bottiblockplainii {
+	color: #2D2D2D;
+	font-size: 16px;
+	line-height: 20px;
+	/*font-family: Georgia, "Times New Roman", Times, serif;*/
+	font-family:   Times New Roman, Times, serif;
+	font-style: normal;
+	}
+.bottiblockhead {
+	color: #2D2D2D;
+	font-size: 20px;
+	line-height: 18px;
+	/*font-family: Georgia, "Times New Roman", Times, serif;*/
+	font-family: Times New Roman, Times, serif;
+	font-style: italic;
+	}
+.bottismall {
+	color: #333333;
+	font-size: 9px;
+	line-height: 14px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-style: normal;
+	}
+.head { color: #222222; font-size: 15px; line-height: 19px; font-family: Verdana, Arial, Helvetica, sans-serif
+	}
+.halfer { color: #ffffff; font-size: 6px; line-height: 6px; font-family: Verdana, Arial, Helvetica, sans-serif
+	}
+a:link {
+        color:#1233FF;
+        text-decoration:none;
+    }
+ a:active { 
+		color:#1233FF;
+        text-decoration:none;
+	}
+a:visited {
+		color:#1233FF;
+        text-decoration:none;
+	}
+a:hover {
+		color:#1233FF;
+        text-decoration:none;
+	}
+.bottibody2 a:link {
+        color:#aaaaaa;
+        text-decoration:none;
+    }
+ .bottibody2 a:active { 
+		color:#aaaaaa;
+        text-decoration:none;
+	}
+.bottibody2 a:visited {
+		color:#aaaaaa;
+        text-decoration:none;
+	}
+.bottibody2 a:hover {
+		color:#ffffff;
+        text-decoration:none;
+	}
+.box141 {	position:absolute;
+	left:0px;
+	top:0px;
+}
+.intro {position:absolute;
+        left:0px;
+        width:600px;
+		z-index:2;
+text-align:center;
+font-family:"Times New Roman", Times, serif;
+color: #111111; font-size: 17px;
+line-height: 20px;
+}
+.bottiblockbig {
+	color: #111111;
+	font-size: 16px;
+	line-height: 23px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-style: italic;
+}
+.bottiblockbigplain {
+	color: #111111;
+	font-size: 16px;
+	line-height: 23px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-style: normal;
+}
+.boxtextplain{
+font-family:"Times New Roman", Times, serif;
+color: #000000; font-size: 18px;
+line-height: 22px;
+font-style:normal
+}
+.boxtextbig{
+font-family:"Times New Roman", Times, serif;
+color: #000000; font-size: 23px;
+line-height: 23px;
+font-style:italic;
+}
+.boxtext{
+font-family:"Times New Roman", Times, serif;
+color: #000000; font-size: 18px;
+line-height: 22px;
+font-style:italic;
+
+
+}
+
+.bottiblock a:link {
+        color:#000000;
+        text-decoration:none;
+    }
+ .bottiblock a:active { 
+		color:#000000;
+        text-decoration:none;
+	}
+.bottiblock a:visited {
+		color:#000000;
+        text-decoration:none;
+	}
+.bottiblock a:hover {
+		color:#000000;
+        text-decoration:none;
+	}
+
+.bottiblockplain a:link {
+        color:#000000;
+        text-decoration:none;
+    }
+ .bottiblockplain a:active { 
+		color:#000000;
+        text-decoration:none;
+	}
+.bottiblockplain a:visited {
+		color:#000000;
+        text-decoration:none;
+	}
+.bottiblockplain a:hover {
+		color:#000000;
+        text-decoration:none;
+	}
+
+.bottismall a:link {
+        color:#000000;
+        text-decoration:none;
+    }
+ .bottismall a:active { 
+		color:#000000;
+        text-decoration:none;
+	}
+.bottismall a:visited {
+		color:#000000;
+        text-decoration:none;
+	}
+.bottismall a:hover {
+		color:#000000;
+        text-decoration:none;
+	}
+
+.halfer a:link {
+        color:#000000;
+        text-decoration:none;
+    }
+ .halfer a:active { 
+		color:#000000;
+        text-decoration:none;
+	}
+.halfer a:visited {
+		color:#000000;
+        text-decoration:none;
+	}
+.halfer a:hover {
+		color:#000000;
+        text-decoration:none;
+	}
+.twit {
+		position: fixed;
+        top: 2px;
+        left: 810px;
+		z-index: 7;
+		
+}
+.emil{
+		position: fixed;
+        top: 4px;
+        left: 876px;
+		z-index: 7;
+		
+}
+.fbok{
+		position: fixed;
+        top: 2px;
+        left: 916px;
+		z-index: 7;
+		width: 48px;
+		overflow:hidden;
+}
+-->
+</style>
+
+
+<script language="JavaScript" type="text/JavaScript">
+<!--
+//rollovers for menus
+
+function overlaytreat() {
+        el = document.getElementById("treat");
+        el.style.visibility ="visible";
+		noverlay();
+		noverlayu();
+		noverlayv();
+		noverlayx();
+}
+
+function noverlaytreat() {
+        el = document.getElementById("treat");
+        el.style.visibility ="hidden";
+}
+
+
+
+
+function overlay() {
+        el = document.getElementById("hideme");
+        el.style.visibility ="visible";
+		noverlayu();
+		noverlayv();
+		noverlayx();
+}
+
+function noverlay() {
+        el = document.getElementById("hideme");
+        el.style.visibility ="hidden";
+}
+
+
+function overlayu() {
+        el = document.getElementById("hidemeu");
+        el.style.visibility ="visible";
+		noverlay();
+		noverlayv();
+		noverlayx();
+}
+function noverlayu() {
+        el = document.getElementById("hidemeu");
+        el.style.visibility ="hidden";
+}
+
+
+function overlayv() {
+        el = document.getElementById("hidemev");
+        el.style.visibility ="visible";
+		noverlay();
+		noverlayu();
+		noverlayx();
+}
+function noverlayv() {
+        el = document.getElementById("hidemev");
+        el.style.visibility ="hidden";
+}
+
+
+function overlayx() {
+        el = document.getElementById("hidemex");
+        el.style.visibility ="visible";
+		noverlay();
+		noverlayu();
+		noverlayv();
+}
+function noverlayx() {
+        el = document.getElementById("hidemex");
+        el.style.visibility ="hidden";
+}
+function showvid() {
+        el = document.getElementById("thevid");
+        el.style.visibility ="visible";
+		noverlayu();
+		noverlayv();
+        PlayIt(document.movie1);
+}
+
+function hidevid() {
+        StopIt(document.movie1);
+		el = document.getElementById("thevid");
+        el.style.visibility ="hidden";
+
+
+}
+/* a javascript function that takes a QT movie and calls its "Play" method */
+        function PlayIt(anObj)
+        {
+                anObj.Play();
+        }
+        /* a javascript function that takes a QT movie and calls its "Stop" method */
+        function StopIt(anObj)
+        {
+                anObj.Stop();
+        }
+
+
+
+function sesame() {
+window.moveTo(0,0);        
+window.resizeTo(1350,screen.height);
+}
+
+
+window.onload=function()
+{
+	//sesame();
+    //StopIt(document.movie1);
+	noverlay();
+	noverlayu();
+	MM_preloadImages('../home/image/vc_home_nav_02.png','../home/image/vc_home_nav_03.png','../home/image/vc_home_nav_04.png','../home/image/vc_home_nav_05.png','../home/image/vc_home_nav_06.png','../home/image/vc_home_nav_07.png','../home/image/vc_home_nav_08.png','../home/image/vc_home_nav_09.png','../home/image/vc_home_nav_10.png','../home/image/vc_units_nav_01.png','../home/image/vc_units_nav_02.png','image/oje_nav_01.png','image/oje_nav_02.png','image/oje_nav_03.png','image/oje_nav_i_01.png','image/oje_nav_i_02.png','image/oje_nav_i_03.png','image/oje_nav_i_04.png','image/oje_nav_i_05.png','image/oje_essay_nav_01.gif','image/oje_essay_nav_02.gif','image/oje_essay_nav_03.gif','image/oje_essay_nav_04.gif','image/oje_essay_nav_05.gif','../home/image/essay_icon02.gif','image/ow1_but02.png');
+}
+var newwindow = '';
+
+function imalert(url)
+{
+	if (!newwindow.closed && newwindow.location)
+	{
+		newwindow.location.href = url;
+	}
+	else
+	{
+		newwindow=window.open(url,'windowtwo','height=360,width=586, toolbar=no,  resizable=yes, status=no, scrollbars=yes');
+		if (!newwindow.opener) newwindow.opener = self;
+	}
+	if (window.focus) {newwindow.focus()}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//
+var vcidwindow = '';
+
+function openvcidwindow(url)
+{
+	if (!vcidwindow.closed && vcidwindow.location)
+	{
+		vcidwindow.location.href = url;
+	}
+	else
+	{
+		vcidwindow=window.open(url,'vcid','height=1000,width=1256, toolbar=yes, scrollbars=yes, resizable=yes, location=yes');
+		if (!vcidwindow.opener) vcidwindow.opener = self;
+	}
+	if (window.focus) {vcidwindow.focus()
+	}
+	} 
+
+
+
+ var curwindow = '';
+
+function opencurwindow(url)
+{
+	if (!curwindow.closed && curwindow.location)
+	{
+		curwindow.location.href = url;
+	}
+	else
+	{
+		curwindow=window.open(url,'curriculum','height=800,width=720, toolbar=yes, scrollbars=yes, resizable=yes,  location=yes');
+		if (!curwindow.opener) curwindow.opener = self;
+	}
+	if (window.focus) {curwindow.focus()
+	}
+	} 
+
+
+function decider(){
+ el = document.getElementById("thevid");
+
+if(el.style.visibility =="visible") {
+hidevid()
+} else {
+showvid()
+}
+}
+//-->
+</script>
+<script type="text/javascript">
+<!--
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." :
+"http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost +
+"google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+//-->
+</script>
+<script type="text/javascript">
+<!--
+try {
+var pageTracker = _gat._getTracker("UA-12446158-1");
+pageTracker._trackPageview();
+} catch(err) {}
+//-->
+</script></head>
+<body bgcolor="#252422" >
+<div  id="horizon">
+<!--<div  id="treat"><a href="javascript:noverlaytreat();" onmouseout="noverlaytreat();" onmouseover="overlaytreat();"><img  alt="MIT Visualizing Cultures"  title="" border="0"  src="image/g_1846_TreatyNanking_B79155.jpg" width="1220" height="480" /><br />
+<img  alt="MIT Visualizing Cultures"  title="" border="0"  src="image/shad.png" width="1220" height="44" /></a></div> -->
+<div  id="content">
+<!--background elements -->
+<div class="backg"><table width="970" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    
+    <td width="970" ><table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td  width="622"><br class="bottibody" /><a href="javascript:openvcidwindow('gallery/pages/ks_v1-0-TitlePage.htm');" ><img  src="image/jb1_v1-1-TitlePage.gif"  alt="MIT Visualizing Cultures" width="622" height="356" border="0" usemap="#Map6"  title="" /></a></td>
+  </tr>
+</table>
+<table width="622" border="0" cellspacing="0" cellpadding="0" bgcolor="#C6C6C6">
+  <tr>
+    <td width="66">&nbsp;</td>
+    <td width="490" align="center" valign="top" class="bottiblock"><br class="halfer" />
+      <span class="bottiblockbig">Over a decade after the end of the first Opium War in 1842, China&rsquo;s island neighbor Japan also was subjected to gunboat diplomacy and &ldquo;opened&rdquo; to the outside world. In Japan&rsquo;s case, it was not the British navy but rather an American expedition led by Commodore Matthew Perry that forced the issue with two displays of naval power, in 1853 and 1854.<br />
+<br />
+Like the British, Perry&rsquo;s fleet mixed sail and steam. His coal-powered warships became famously known to Japanese as the &ldquo;black ships&rdquo;&mdash;partly because of their color, partly because of the dark clouds that spewed from the smokestacks. Unlike in China, however, no gunfire was exchanged. There was no carnage. There were no casualties on either side. Japan&rsquo;s feudal leaders, led by the Shogun and his government in Edo (later renamed Tokyo), acknowledged the superior firepower of the foreigners and&mdash;in treaties signed in 1854 and 1858&mdash; agreed to open the country to commerce, foreign residence, and diplomatic exchanges.<br /><br />
+  The rights and privileges that characterized the unequal treaties England and other Western powers extracted from China after the first Opium War&mdash;extraterritoriality, &ldquo;most-favored-nation&rdquo; status, and a fixed tariff&mdash;were repeated in the treaty agreements with Japan. Opium itself, on the other hand, never entered the country, either before or after Perry.<br />
+<br />
+This unit introduces Japanese writings about the Opium War published in the late 1840s, a few years after that conflict pitting China against England  ended. Based primarily on Chinese reports, these publications were strongly sympathetic to the Chinese side and highly critical of the foreign &ldquo;barbarians.&rdquo; They also included many original woodblock illustrations that had no counterpart on the Chinese side.</span><br />
+     <br />
+    <!-- <span class="bottiblockii">&mdash; The images in this unit (unless otherwise noted) were generously<br />
+     provided byBeinecke Library, Yale University&mdash;        </span> --><span class="bottismall"><br />
+     
+        </span></td>
+    <td width="66">&nbsp;</td>
+  </tr>
+</table>
+
+<table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+          <td align="center" valign="middle" class="bottiblock"  >
+	     <img  src="image/bein.gif"  alt="MIT Visualizing Cultures" width="622" height="98" border="0" align="left"  title="" /> </td>
+	   </tr>
+</table>		
+<table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="20">&nbsp;</td>
+    <td width="582" align="left" class="bottibody"><span class="bottismall"><br />
+          <br />
+      </span><strong>&ldquo;NEW STORIES FROM OVERSEAS&rdquo;:<em> Kaigai Shinwa</em></strong><span class="bottismall"><br />
+      <br />
+      </span>Ever since the early-17th century, Japan&rsquo;s samurai leaders had enforced a strict policy known as <em>sakoku,</em> or &ldquo;closed country.&rdquo; Foreigners were not allowed in, nor were Japanese permitted to leave and then return. In practice, however, the closed-country policy was not watertight. It leaked in various ways&mdash;and one of the most significant of these exceptions to strict seclusion was a window to the outside world established at the port city of Nagasaki in the southernmost island of Kyushu.<br />
+      <br />
+      Tightly regulated trade was permitted at Nagasaki, restricted almost entirely to the Dutch and the Chinese. This is an engaging story in itself. What is important here is that this window allowed more than just trade goods to enter and leave Japan. It also opened the country to knowledge of the world beyond its borders, in the form of Chinese writings and Dutch books and reports. Long before Perry appeared on the scene, &ldquo;Dutch learning&rdquo; had become the specialty of a small but increasingly influential number of intellectuals. Some of these scholars, who usually came from the lower ranks of the samurai class, were particularly interested in issues of military technology and coastal defense.<br /><br />
+      Because of the seclusion policy, there were no Japanese observers in China to witness the Opium War firsthand. It was the Nagasaki window that brought Japan knowledge of this conflict&mdash;and, with this, knowledge of the &ldquo;black ships.&rdquo; Until Commodore Perry made his first show of force in Edo Bay in 1853, the Japanese had never seen a steam-powered warship. They had read about them in connection with the war next door in the early 1840s, however&mdash;and had even drawn their own pictures of them, as well as of the huge multi-cannon men-of-war that made the British navy so formidable.<br /><br />
+    </td>
+    <td width="20">&nbsp;</td>
+  </tr>
+</table>
+<table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+   
+    <td width="152" align="center" valign="middle" class="bottiblock"  ><br />
+<img  alt="MIT Visualizing Cultures"  title="" border="0"  src="image/spacer.gif" width="20" height="150"  align="left"/><img  alt="MIT Visualizing Cultures"  title="" border="0"  src="image/spacer.gif" width="20" height="150"  align="right"/> &ldquo;Steamship&rdquo;<br />
+from the 1849<br />
+Japanese account of the Opium War<br />
+<span class="bottiblockplain">Kaigai Shinwa</span><br />
+vol. 1<br />
+<span class="bottismall"><br />
+  [ks_v1-5]</span></td> 
+    <td width="450" align="left" valign="top"  ><a href="javascript:openvcidwindow('gallery/pages/ks_v1-5.htm');"> <img  src="image/jb2_v1-5_cropped66566.gif"  alt="MIT Visualizing Cultures" width="450" height="333" border="0" align="left"  title="" /> </a></td>
+ 
+   <td width="20" align="center" valign="middle" class="bottiblock"  >&nbsp;</td> </tr>
+</table>
+	
+<table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+          <td width="20" align="center" valign="middle" class="bottiblock"  >&nbsp;</td>
+	   <td width="350" align="right" valign="top"  ><a href="javascript:openvcidwindow('gallery/pages/ks_v1-4-2_ubc.htm');"> <br  class="bottibody"/>
+	     <img  src="image/v1_p30_31_composite_ub66571.gif"  alt="MIT Visualizing Cultures" width="305" height="421" border="0"  title="" /> </a></td>
+    <td width="252" align="center" valign="middle" class="bottiblock"  ><br />
+<img  alt="MIT Visualizing Cultures"  title="" border="0"  src="image/spacer.gif" width="18" height="150"  align="left"/><img  alt="MIT Visualizing Cultures"  title="" border="0"  src="image/spacer.gif" width="40" height="150"  align="right"/>&ldquo;Great English Warship&rdquo;<br />
+<span class="bottiblockplain">Kaigai Shinwa</span><br />
+vol. 1<!--, pp. 14-15 --><br />
+University of <br />
+British Columbia<br />
+
+<span class="bottismall"><br />
+ [UBC_I:30-31]</span></td> 
+
+  </tr>
+</table>
+
+
+<table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="20">&nbsp;</td>
+    <td width="582" align="left" class="bottibody"><br />
+Knowing about the Opium War, however, did not necessarily translate into reporting about it with meticulous accuracy. On the contrary, detailed factual information went hand-in-hand with misinformation and fabrication. This combination of fact and fiction makes the Japanese war stories especially vivid and revealing. We might even call these accounts &ldquo;doubly&rdquo; graphic. The language is vigorous. And beyond this, unlike the Chinese, the Japanese also produced highly imaginative illustrations of the war.
+      The seminal graphic example of the Opium War in Japanese eyes was published in five string-bound parts in 1849, under the title <em>Kaigai Shinwa,</em> &ldquo;New Stories from Overseas.&rdquo; The author was a low-ranking samurai scholar named Mineta F&#363;k&#333; (1817&ndash;83). His text and illustrations combined totaled roughly 250 pages, and the initial print run appears to have been 200 copies. In his introduction to <em>Kaigai Shinwa,</em> Mineta gives the titles of five Chinese accounts to which he is particularly indebted, and his narrative reproduces much of the detailed and emotional flavor of these sources.<br /><br />
+      Although <em>Kaigai Shinwa</em> became well known to other intellectuals, it was not met with favor by the Shogun&rsquo;s minions, who were always vigilant in suppressing anything that might cause popular concern and unrest. Mineta was imprisoned for two years for publishing the book without official permission, and banned from residing in the three great cities of Edo, Osaka, and Kyoto after being released. The woodblocks used to print the original edition were incinerated, and the anonymous artist who provided the illustrations suffered more grievously than Mineta, for he too was arrested, and died in prison.<br /><br />
+      It tells us something about the temper of these times that such harsh censorship did not stop commentaries about the Opium War from circulating among the samurai scholars who were deeply interested in developments beyond Japan&rsquo;s borders. Mineta&rsquo;s peers produced a number of such texts both before and after Perry&rsquo;s arrival. Before the authorities closed in on him, moreover, Mineta himself produced an illustrated sequel to <em>Kaigai Shinwa,</em> probably also in 1849. Titled <em>Kaigai Shinwa Sh&#363;i</em> (Gleanings from the New Stories from Overseas), this also was hand-bound in five slim volumes. The woodblock illustrations in <em>Kaigai Shinwa</em> total 16 two-page spreads plus two single-page images; there are 14 graphic spreads in the &ldquo;Gleanings&rdquo; sequel.<br />
+        <br />
+        Certain patterns and themes characterize these Japanese writings about the war in China. All draw on the same basic Chinese and Dutch sources of information, mostly dating from 1939 to the early 1840s&mdash;that is, during the Opium War and in its immediate aftermath. All display general knowledge of England&rsquo;s global expansion; indeed, the first illustration in <em>Kaigai Shinwa</em> is a world map that highlights areas under British control. All show detailed knowledge of the opium trade in China, and the futile attempts of Chinese officials to suppress this. All acknowledge the impressive warships and cannons of the foreigners, a fact the Dutch in particular emphasized. All&mdash;here following the Chinese accounts&mdash;portray the British in general, and their fighting men in China in particular, as immoral and rapacious.<br /><br /></td>
+    <td width="20">&nbsp;</td>
+  </tr>
+</table>	
+
+<table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+          <td align="center" valign="middle" class="bottiblock"  ><a href="javascript:openvcidwindow('gallery/pages/ks_v1-1.htm');"> <br  class="halfer"/>
+	     <img  src="image/jb2_v1-1_cropped66598.gif"  alt="MIT Visualizing Cultures" width="622" height="458" border="0" align="left"  title="" /> </a></td>
+	   </tr>
+</table>
+<table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="66">&nbsp;</td>
+    <td width="490" align="center" valign="top" class="bottiblock"><br class="bottismall" />
+      &ldquo;Map of the World&rdquo;<br />
+      <span class="bottiblockplain">Kaigai Shinwa,</span> vol. 1<!--, pp. 10-11 --><br />
+      Shaded portions of the map indicate areas under English control.
+      <span class="halfer"><br />
+      <br />
+      </span><span class="bottismall">[ks_v1-1]<br />
+
+<br /><br />
+</span></td>
+    <td width="66">&nbsp;</td>
+  </tr>
+</table>
+<table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+   
+    <td width="152" align="center" valign="middle" class="bottiblock"  ><br />
+<img  alt="MIT Visualizing Cultures"  title="" border="0"  src="image/spacer.gif" width="20" height="150"  align="left"/><img  alt="MIT Visualizing Cultures"  title="" border="0"  src="image/spacer.gif" width="20" height="150"  align="right"/>&ldquo;Incineration of Opium at the Bogue&rdquo;<br />
+<span class="bottiblockplain">Kaigai Shinwa,</span><br />
+vol. 2<!--, pp. 4-5 --><br />
+<span class="bottismall"><br />
+  [ks_v2-1]</span></td> 
+    <td width="450" align="left" valign="top"  ><a href="javascript:openvcidwindow('gallery/pages/ks_v2-1.htm');"> <img  src="image/jb2_v2-1_cropped66605.gif"  alt="MIT Visualizing Cultures" width="450" height="362" border="0" align="left"  title="" /> </a></td>
+ 
+   <td width="20" align="center" valign="middle" class="bottiblock"  >&nbsp;</td> </tr>
+</table>
+	<table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="66">&nbsp;</td>
+    <td width="490" align="center" valign="top" class="bottiblock"><br class="bottismall" />
+      <span class="bottiblock">This illustration depicts the famous destruction by the Chinese of thousands of chests of opium owned by British traders, which took place outside Canton in June 1839 and marked a decisive moment in the tensions that culminated months later in the first Opium War. The opium was not actually burned, but rather mixed with lime and water, which produced billows of toxic smoke. The presence of the English as observers at this dramatic event is indicated by the intimidating man-of-war at <br />
+      the far right of the print.</span>
+</td>
+    <td width="66">&nbsp;</td>
+  </tr>
+</table>
+<table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+          <td width="20" align="center" valign="middle" class="bottiblock"  >&nbsp;</td>
+	   <td width="450" align="left" valign="top"  ><a href="javascript:openvcidwindow('gallery/pages/ks_v2-2.htm');"> <br  class="bottibody"/>
+	     <img  src="image/jb2_v2-2_cropped66603.gif"  alt="MIT Visualizing Cultures" width="450" height="368" border="0" align="left"  title="" /> </a></td>
+    <td width="152" align="center" valign="middle" class="bottiblock"  ><br />
+<img  alt="MIT Visualizing Cultures"  title="" border="0"  src="image/spacer.gif" width="18" height="150"  align="left"/><img  alt="MIT Visualizing Cultures"  title="" border="0"  src="image/spacer.gif" width="20" height="150"  align="right"/>&ldquo;The Fleet Sets Out from the River Thames&rdquo;<br />
+<span class="bottiblockplain">Kaigai Shinwa</span><br />
+vol. 2<!--, pp. 11-12 --><br />
+
+<span class="bottismall"><br />
+ [ks_v2-2]</span></td> 
+
+  </tr>
+</table>
+<table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="66">&nbsp;</td>
+    <td width="490" align="center" valign="top" class="bottiblock"><br class="bottismall" />
+      <span class="bottiblock">In actuality, the English fleet that attacked China was dispatched and reinforced largely from British-controlled India (which is also where England&rsquo;s opium exports came from). In this illustration, </span><span class="bottiblockplain">Kaigai Shinwa</span><span class="bottiblock"> imagines the huge armada departing directly from London.</span></td>
+    <td width="66">&nbsp;</td>
+  </tr>
+</table>
+<table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="20">&nbsp;</td>
+    <td width="582" align="left" class="bottibody"><br />
+By closely following their Chinese sources, texts like <em>Kaigai Shinwa</em> also devote many pages to accounts of extensive destruction and death inflicted on the foreign invaders that, in fact, never occurred. While such fanciful storytelling dilutes the thoroughgoing nature of China&rsquo;s military humiliation, the shortcomings of the Manchu-led Qing court in countering the foreign threat nonetheless clearly emerge as a negative object lesson for Japan.</td>
+    <td width="20">&nbsp;</td>
+  </tr>
+</table>	
+
+<table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+   
+    <td width="252" align="center" valign="middle" class="bottiblock"  ><br />
+<img  alt="MIT Visualizing Cultures"  title="" border="0"  src="image/spacer.gif" width="20" height="150"  align="left"/><img  alt="MIT Visualizing Cultures"  title="" border="0"  src="image/spacer.gif" width="20" height="150"  align="right"/>English Commander (right)<br />
+and Foot Soldier (below)<br />
+<span class="bottiblockplain">Kaigai Shinwa</span><br />
+vol. 1<!--, pp. 13-14 --><br />
+
+<span class="bottismall"><br />
+ [ks_v1-3]<br />
+[ks_v1-4]<br /></span></td> 
+    <td width="350" align="left" valign="top"  ><br  class="bottibody"/>
+<a href="javascript:openvcidwindow('gallery/pages/ks_v1-3.htm');"><img  src="image/jb2_v1-3_cropped_singl66612.gif"  alt="MIT Visualizing Cultures" width="350" height="501" border="0" align="left"  title="" /> </a></td>
+ 
+   <td width="20" align="center" valign="middle" class="bottiblock"  >&nbsp;</td> </tr>
+</table>
+
+<table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+          <td align="center" valign="middle" class="bottiblock"  ><a href="javascript:openvcidwindow('gallery/pages/ks_v1-4.htm');"> <br  class="bottismall"/>
+	     <img  src="image/jb2_v1-4_cropped66613.gif"  alt="MIT Visualizing Cultures" width="622" height="455" border="0" align="left"  title="" /> </a></td>
+	   </tr>
+</table>
+<table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="20">&nbsp;</td>
+    <td width="582" align="left" class="bottibody"><br />
+      The first white foreigners one literally sees in <em>Kaigai Shinwa</em> are straightforward generic sketches of a navy commander and a foot soldier face-on and in profile, holding a flintlock musket. Little that follows is this plain and serene. As scholars like Bob Tadashi Wakabayashi and Masuda Wataru emphasize&mdash;and the illustrations confirm&mdash;Mineta is as much a novelist as he is a reporter or historian. Indeed, he takes open pride in this, stating in the introductory pages of his 1849 text that his prose model is certain classic texts in the medieval Japanese genre of <em>gunki monogatari,</em> or epic war chronicles. Hyperbole and vivid personalized anecdotes are his stock in trade, increasingly so as his account of the Opium War unfolds and readers are introduced to just about everything one expects in an epic war story: heroes and villains, bravery and cowardice, virtue and debauchery, imagined speeches, extravagant language, bloody battles, supernatural occurrences, and undiluted horrors.<br /><br />
+      Here, for example&mdash;straight out of the <em>gunki monogatari</em> tradition&mdash;is a snippet from a battlefield scene in the closing stage of the Opium War:<blockquote> <em>General Hai Ling wielded a sword in each hand and fought with the crazed 
+        fury of the warrior god Kongo Yasha, whirling his blades about and slaying 20 of the black and white barbarians. Cavalry Commander Xian Yun, on the other hand, wished to take his own life rather than fall to the enemy, and hurled himself to his death in the moat.</em> [TR 69]</blockquote>
+      Throughout his narrative, Mineta relies on the sort of evocative metaphors that characterize not just medieval Japanese prose, but epic chronicles in every culture. Thus, early in his story he reports that in capturing the strategic island city of Dinghai, &ldquo;the English launched hundreds of small landing boats, which swirled down from the warships like leaves in a gale.&rdquo; [TR 15] Midway in his tale, he describes the panic that gripped soldiers and residents in Zhapu when &ldquo;Six huge warships that looked like floating mountains appeared together with six steamships, pulling into the harbor one after the other.&rdquo; [TR 56] Later, writing about the Chinese defeat at Zhenjiang, Mineta offers a deceptively gentle simile in observing that the sides of the British men-of-war &ldquo;were crowded with gun ports looking like the openings of a beehive&rdquo;&mdash;and then moves to language that is the very opposite of gentle to describe the ferocious fighting in this climactic battle: &ldquo;The air was so thick with gore that it was impossible so see anything clearly, and the deafening roar of the cannons put thunderstorms to shame, seeming likely to shake the earth off its axis.&rdquo; [TR 66-67]<br />
+      <br />
+      Even in these accounts of British victories, however, Mineta and his anonymous illustrator usually manage to incorporate vivid depictions of British warships being destroyed and hundreds, even thousands, of British soldiers and sailors being killed. At Canton early in 1841, for example, <em>Kaigai Shinwa</em> tells us that the Chinese destroyed seven great warships and two steamers with &ldquo;fire-boats&rdquo; (craft loaded with flammable straw, brush, and explosives), and killed well over a thousand of the enemy, including &ldquo;many black soldiers from the sweltering land of India,&rdquo; who either burned to death, or were drowned, or were slaughtered after swimming to shore. &ldquo;The Chinese forces were jubilant at having won their second battle,&rdquo; we read, &ldquo;and raised a thunderous victory cry that reached the heavens and shook the earth, resounding across the world to the farthest reaches of the barbarian lands.&rdquo; [TR 23-25]<br /><br />
+      Months later, at Zenhai, <em>Kaigai Shinwa</em> relates, three successive waves of fire-boats launched by local &ldquo;braves&rdquo; again created an &ldquo;inferno&rdquo; within the British fleet. While the Chinese did not suffer a single casualty in this particular attack, destruction on the enemy side was dramatic:<blockquote><em>
+     In an encounter that lasted only a few short hours, they [the Chinese] 
+      had sent down in flames four large warships and over 40 
+      smaller boats, and there was no telling how many casualties the 
+      barbarians suffered. Some ten days later, barbarian 
+      corpses, blackened fragments of boats, and all manner of weapons
+      floated to the surface in a mass, so that a seven or eight-hundred 
+      square meter section of the harbor looked like it was dry land.  [TR 53]</em></blockquote>
+      Shortly after this, we are told, fire-boats deployed at Dinghai again wreaked havoc on British warships and their crews, including a paddlewheel steamer. &ldquo;They all drowned as the ship went down,&rdquo; Mineta writes, &ldquo;doubtless becoming the next meal for the large fish of those waters.&rdquo; [TR 55]<span class="bottismall"><br />
+      <br />
+      <br />
+      </span></td>
+    <td width="20">&nbsp;</td>
+  </tr>
+</table>	
+
+<table width="622" border="0" cellspacing="0" cellpadding="0" bgcolor="#C6C6C6">
+  <tr>
+    <td width="66">&nbsp;</td>
+    <td width="490" align="center" valign="top" class="boxtext"><br class="boxtext" />
+      <span class="boxtextbig">Picturing Destruction and Death<br />
+        Among the Foreign Invaders</span><span class="bottibody"><br />
+        <br />
+        </span>Mineta F&#363;k&#333;&rsquo;s two illustrated texts about the first Opium War, both published in 1849, include several woodblock pictures of the British capturing Chinese cities. The graphics are most emphatic and dramatic, however, in depicting Chinese forces inflicting great damage on the enemy, especially the British fleet. Shore batteries direct devastating cannon fire against the invading warships. &ldquo;Fire-boats&rdquo; filled with straw, brush, and explosives ignite shipboard conflagrations that either consume the crews, or force them to abandon ship and face the likelihood of drowning or being slaughtered by Chinese soldiers as they make their way to shore.<br />
+      <br />
+      In fact, the shore batteries and fire-boats both were largely ineffective; and although Chinese land forces fought bravely in some battles, even earning praise from their British adversaries, they enjoyed no significant victories. British combat deaths were negligible&mdash;less than 200 over the full course of the war, which lasted from late 1839 to August 1842. By contrast, the destruction of fortifications, war junks, and cities on the Chinese side was extensive, and countless thousands of Chinese, civilians as well as fighting men, were killed.<br /><br />
+      Mineta&rsquo;s two illustrated books were based primarily on Chinese sources, and he was extremely sympathetic to the Chinese side. There were no Chinese models for the illustrations themselves, however: these were pure products of Japanese pictorial imagination. Confronted with woodblock war scenes such as those which follow here, it is natural to speculate how Japanese readers responded to this decidedly mixed presentation. Did British firepower, and the military might of the West more generally, seem irresistible? Did China&rsquo;s defeat reflect, in considerable measure, a failure of capable leadership at the highest levels? In all likelihood, most readers answered yes to both questions.<br /><br />
+    </td>
+    <td width="66">&nbsp;</td>
+  </tr>
+</table>
+
+
+<table width="622" border="0" cellspacing="0" cellpadding="0"  bgcolor="#C6C6C6">
+  <tr>
+          <td width="20" align="center" valign="middle" class="bottiblock"  >&nbsp;</td>
+	   <td width="450" align="left" valign="top"  ><a href="javascript:openvcidwindow('gallery/pages/ks_v2-3.htm');"> <br  class="halfer"/>
+	     <img  src="image/jb2_v2-3_cropped66673_67195.gif"  alt="MIT Visualizing Cultures" width="450" height="361" border="0" align="left"  title="" /> </a></td>
+    <td width="152" align="center" valign="middle" class="bottiblock"  ><br />
+<img  alt="MIT Visualizing Cultures"  title="" border="0"  src="image/spacer.gif" width="18" height="150"  align="left"/><img  alt="MIT Visualizing Cultures"  title="" border="0"  src="image/spacer.gif" width="20" height="150"  align="right"/>&ldquo;The Fall of Dinghai&rdquo;<br />
+<span class="bottiblockplain">Kaigai Shinwa</span><br />
+vol. 2<!--, pp. 19-20 --><br />
+
+<span class="bottismall"><br />
+[ks_v2-3]</span></td> 
+
+  </tr>
+</table>
+<table width="622" border="0" cellspacing="0" cellpadding="0"  bgcolor="#C6C6C6">
+  <tr>
+    <td width="66">&nbsp;</td>
+    <td width="490" align="center" valign="top" class="bottiblock"><br class="bottismall" />
+      <span class="bottiblock">British artillery bombards the capital of the Chusan islands, near Ningpo, while a landing party prepares to occupy the city. This strategic victory gave the British navy control of access to north China.</span></td>
+    <td width="66">&nbsp;</td>
+  </tr>
+</table>
+
+
+<table width="622" border="0" cellspacing="0" cellpadding="0"  bgcolor="#C6C6C6">
+  <tr>
+   
+    <td width="152" align="center" valign="middle" class="bottiblock"  ><br />
+<img  alt="MIT Visualizing Cultures"  title="" border="0"  src="image/spacer.gif" width="20" height="150"  align="left"/><img  alt="MIT Visualizing Cultures"  title="" border="0"  src="image/spacer.gif" width="20" height="150"  align="right"/>&ldquo;Tuan Yongfu  Burns the Barbarian Ships&rdquo;<br />
+<span class="bottiblockplain">Kaigai Shinwa,</span><br />
+vol. 4<!--, pp. 15-16 --><br />
+<span class="bottismall"><br />
+ [ks_v4-2]</span></td> 
+    <td width="450" align="left" valign="top"  ><br  class="boxtext"/><a href="javascript:openvcidwindow('gallery/pages/ks_v3-2.htm');"><img  src="image/jb2_v3-2_cropped66671_67161.gif"  alt="MIT Visualizing Cultures" width="450" height="360" border="0" align="left"  title="" /> </a></td>
+ 
+   <td width="20" align="center" valign="middle" class="bottiblock"  >&nbsp;</td> </tr>
+</table>
+	<table width="622" border="0" cellspacing="0" cellpadding="0"  bgcolor="#C6C6C6">
+  <tr>
+    <td width="66">&nbsp;</td>
+    <td width="490" align="center" valign="top" class="bottiblock"><br class="bottismall" />
+      <span class="bottiblock">The two-character banner reads &ldquo;<!--Combined Forces. -->Brigade General&rdquo; (the rank of the commanding officer). This is the battle at Canton in early 1841 in which Mineta imagines the Chinese side destroying nine British warships including two steamers.</span></td>
+    <td width="66">&nbsp;</td>
+  </tr>
+</table>
+<table width="622" border="0" cellspacing="0" cellpadding="0"  bgcolor="#C6C6C6">
+  <tr>
+          <td width="20" align="center" valign="middle" class="bottiblock"  >&nbsp;</td>
+	   <td width="450" align="left" valign="top"  ><a href="javascript:openvcidwindow('gallery/pages/kss_v2-1.htm');"> <br  class="boxtext"/>
+	     <img  src="image/jb1_v2-1_cropped66681_67159.gif"  alt="MIT Visualizing Cultures" width="450" height="360" border="0" align="left"  title="" /> </a></td>
+    <td width="152" align="center" valign="middle" class="bottiblock"  ><br />
+<img  alt="MIT Visualizing Cultures"  title="" border="0"  src="image/spacer.gif" width="18" height="150"  align="left"/><img  alt="MIT Visualizing Cultures"  title="" border="0"  src="image/spacer.gif" width="20" height="150"  align="right"/>&ldquo;Fire-boats Approaching a British Warship&rdquo;<br />
+<span class="bottiblockplain">Kaigai Shinwa Sh&#363;i,</span> vol. 2<br />
+
+<span class="bottismall"><br />
+ [kss_v2-1]</span></td> 
+
+  </tr>
+</table>
+<table width="622" border="0" cellspacing="0" cellpadding="0"  bgcolor="#C6C6C6">
+  <tr>
+    <td width="66">&nbsp;</td>
+    <td width="490" align="center" valign="top" class="bottiblock"><br class="bottismall" />
+      <span class="bottiblock">Although the Chinese navy relied heavily on these small floating infernos, which contained explosives and were intended to ignite wooden enemy warships, the tactic in fact proved largely ineffective against the British fleet.</span></td>
+    <td width="66">&nbsp;</td>
+  </tr>
+</table>
+
+
+<table width="622" border="0" cellspacing="0" cellpadding="0"  bgcolor="#C6C6C6">
+  <tr>
+   
+    <td width="152" align="center" valign="middle" class="bottiblock"  ><br />
+<img  alt="MIT Visualizing Cultures"  title="" border="0"  src="image/spacer.gif" width="20" height="150"  align="left"/><img  alt="MIT Visualizing Cultures"  title="" border="0"  src="image/spacer.gif" width="20" height="150"  align="right"/>&ldquo;Wang Shizhou Burns the Barbarian Ships&rdquo;<br />
+<span class="bottiblockplain">Kaigai Shinwa,</span><br />
+vol. 4<!--, pp. 15-16 --><br />
+<span class="bottismall"><br />
+ [ks_v4-2]</span></td> 
+    <td width="450" align="left" valign="top"  ><br  class="boxtext"/><a href="javascript:openvcidwindow('gallery/pages/ks_v4-2.htm');"><img  src="image/jb2_v4-2_cropped66679_67224.gif"  alt="MIT Visualizing Cultures" width="450" height="360" border="0" align="left"  title="" /> </a></td>
+ 
+   <td width="20" align="center" valign="middle" class="bottiblock"  >&nbsp;</td> </tr>
+</table>
+	<table width="622" border="0" cellspacing="0" cellpadding="0"  bgcolor="#C6C6C6">
+  <tr>
+    <td width="66">&nbsp;</td>
+    <td width="490" align="center" valign="top" class="bottiblock"><br class="bottismall" />
+      <span class="bottiblock">In this tumultuous naval battle scene, Chinese war junks bombard the British fleet while fire-boats crash against a flaming warship on the left. The streaks that crisscross the illustration represent cannon fire.</span></td>
+    <td width="66">&nbsp;</td>
+  </tr>
+</table>
+<table width="622" border="0" cellspacing="0" cellpadding="0"  bgcolor="#C6C6C6">
+  <tr>
+          <td width="20" align="center" valign="middle" class="bottiblock"  >&nbsp;</td>
+	   <td width="450" align="left" valign="top"  ><a href="javascript:openvcidwindow('gallery/pages/ks_v4-1.htm');"> <br  class="boxtext"/>
+	     <img  src="image/jb2_v4-1_cropped66685_67222.gif"  alt="MIT Visualizing Cultures" width="450" height="360" border="0" align="left"  title="" /> </a></td>
+    <td width="152" align="center" valign="middle" class="bottiblock"  ><br />
+<img  alt="MIT Visualizing Cultures"  title="" border="0"  src="image/spacer.gif" width="18" height="150"  align="left"/><img  alt="MIT Visualizing Cultures"  title="" border="0"  src="image/spacer.gif" width="20" height="150"  align="right"/>&ldquo;Wang Zipeng in Bloody Battle&rdquo;<br />
+<span class="bottiblockplain">Kaigai Shinwa,</span><br />
+vol. 4<!--, pp. 7-8 --><br />
+
+<span class="bottismall"><br />
+[ks_v4-1]</span></td> 
+
+  </tr>
+</table>
+<table width="622" border="0" cellspacing="0" cellpadding="0"  bgcolor="#C6C6C6">
+  <tr>
+    <td width="66">&nbsp;</td>
+    <td width="490" align="center" valign="top" class="bottiblock"><br class="bottismall" />
+      <span class="bottiblock">The accompanying text offers the following word-picture of this battle in late 1841, in which the Chinese fought heroically before being vanquished: &ldquo;Wang Xipeng led the charge on the English guns. He was severely 
+      wounded and his blood flowed like a spring; nonetheless, he felled  ten white men and eight black men before he took five more bullets  
+      and died a splendid death. When his men saw him succumb they, too, 
+      surged forward and went down fighting.&rdquo; [TR 44-45]<br />
+      <br />
+      <br />
+      </span></td>
+    <td width="66">&nbsp;</td>
+  </tr>
+</table>
+
+<table width="622" border="0" cellspacing="0" cellpadding="0" >
+  <tr>
+    <td width="20">&nbsp;</td>
+    <td width="582" align="left" class="bottibody"><br />
+      There were, in fact, few if any such dramatic Chinese military accomplishments. In the early battle at Canton where <em>Kaigai Shinwa</em> speaks of the incineration of seven British warships and two steamers, for example, Professor Wakabayashi calculates that the actual losses were seventy-one Chinese war junks and sixty shore batteries. Contemporary British military sources recorded their total casualties in this battle as 15 killed and 127 wounded, and calculated that&mdash;as always in these encounters&mdash;Chinese losses were vastly greater, possibly totaling as many as 1,000 killed and 3,000 wounded.<br />
+      <br />
+      In the Opium War as a whole, which lasted over two-and-a-half years, more British troops died of disease than from combat, where the official British fatality figure is a miniscule 156 killed. By contrast, some estimates put the total number of Chinese killed and wounded at as high as a hundred times that number.<br /><br />
+      Mineta did not invent these imaginary Chinese military accomplishments. Misleading accounts of success permeated the reports of Chinese officials at the time, and obviously made their way into the written materials Mineta and his samurai peers relied on so heavily. Like their Chinese sources, moreover, the sympathies of the Japanese clearly lay with China. In recounting these stories and embellishing them with the verbal and visual ornamentation associated with their own traditional war chronicles, they produced an &ldquo;Opium War&rdquo; very different from the conflict as British writers of the time described it. <br /><br /></td>
+    <td width="20">&nbsp;</td>
+  </tr>
+</table>	
+<table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+
+    <td width="20">&nbsp;</td>
+    <td width="582" align="left" valign="top" class="bottibody"><br />
+<br />
+<br />
+<img src="../home/image/redline.gif" width="570" height="1"  alt="MIT Visualizing Cultures" title=""/><br/><br/>                
+<table width="582" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="3" class="bottismall" ><a href="javascript:imalert('../home/about.html')"><em>On viewing images of a potentially disturbing nature: click here.</em></a><br />
+<br /></td></tr><tr>
+  <td  width="350" align="left" valign="middle" class="bottismall" >Massachusetts Institute of Technology &#169; 2010 Visualizing Cultures
+                </td> 
+  <td  width="152" align="right" valign="middle" class="bottismall" > &nbsp;<a href="http://creativecommons.org/licenses/by-nc-sa/3.0/us/" target="_blank">Creative Commons License</a>&nbsp;&nbsp;
+              
+</td><td  align="left" valign="top" width="80" class="bottismall" ><a rel="license"
+ href="http://creativecommons.org/licenses/by-nc-sa/3.0/us/" target="_blank" ><img src="http://visualizingcultures.mit.edu/home/image/cc.png" alt="Creative Commons - some rights reserved" width="80" height="15" border="0" align="left" /></a></td>
+
+
+    </tr><tr><td colspan="3" class="bottismall" ><br />
+<br /></td></tr></table>
+               
+          </td>
+    <td width="20">&nbsp;</td>
+  </tr>
+</table></td>
+        </tr>
+ <tr>
+          <td align="left" valign="top"><div class="bottom"><img src="../opium_wars_01/image/essay_bottom.gif"  alt="MIT Visualizing Cultures" width="970" height="136" border="0" align="left" title=""/></div>
+<div class="essaynavbottom">
+  <table width="622" border="0" cellspacing="0" cellpadding="0" align="left">
+  <tr align="left">
+    <td align="left" width="105"><img src="image/oje_essay_nav_01.gif"  alt="The Opium War in Japanese Eyes" name="nav01b" width="622" height="58" border="0" usemap="#Map5" id="nav01b" title=""/></td>
+  </tr>
+</table>
+</div></td>
+      </tr>
+
+
+	  </table>
+</div>
+<div class="top"><img src="image/essay_top.gif"  alt="MIT Visualizing Cultures" width="970" height="136" border="0" align="left" title=""/></div>
+
+<!--end background elements -->
+
+<!-- essay nav -->
+<div class="essaynavtop"><table width="622" border="0" cellspacing="0" cellpadding="0" align="left">
+  <tr align="left">
+    <td align="left" width="105"><img src="image/oje_essay_nav_01.gif"  alt="The Opium War in Japanese Eyes" name="nav01" width="622" height="58" border="0" usemap="#Map4" id="nav01" title=""/></td>
+  </tr>
+</table>
+</div>
+
+
+<!-- end essay nav -->
+
+<!-- <div class="slug" id="slug"><span class="bottibody2">Massachusetts Institute of Technology &#169; 2010 Visualizing Cultures</span></div> -->
+
+
+<!-- right-hand buttons -->
+
+
+<!-- <div class="boxtoalink" id="boxtoalink"><a href="javascript:alert('Sorry, this unit is unavailable in this demonstration.')" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image11','','../home/image/go_toa02.gif',1);noverlay();noverlayv();noverlayu();"><img src="../home/image/go_toa.gif" alt="Visual Narrative" name="Image11" width="243" height="276" border="0" id="Image11" title=""/></a></div>  -->
+
+<div class="boxpdf" id="boxpdf">
+<table width="348" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="39" align="left" valign="bottom"><!--<img alt="MIT Visualizing Cultures"  title="" border="0"  src="../rise_fall_canton_01/image/cw_pop_dot.gif"  width="42" height="17" />--></td>
+    <td width="240" align="left" valign="middle"><span class="bottibody2"><a href="oje_essay_01.pdf"  target="_blank" onmouseover="noverlay();noverlayv();noverlayu();">Printer-friendly PDF of this chapter</a><br /><br /><br /><!--<a href="javascript:opencurwindow('../opium_wars_01/pinyin.html');" onmouseover="noverlay();noverlayv();noverlayu();">A note on romanization of<br />
+Chinese place names in this unit</a> --><br /><br />
+<br />
+<br /><br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br /><br /><br />
+<a href="../opium_wars_01/index.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image81','','image/ow1_but02.png',0)"><img src="image/ow1_but.png" alt="MIT Visualizing Cultures" name="Image81" width="216" height="188" border="0" id="Image81" title="" /><br />
+<br />
+&nbsp;Companion unit: <em>The First Opium War</em></a>
+      <br />
+      <br /><br /><br /><br /><br /><br />
+    </span><span class="boxtextbig"><br /><br /><br /><br /><br />
+    <br />
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    <br />
+    <br />
+    <br /><br /><br />
+    </span><span class="bottibody2"><a href="kaigai_shinwa.pdf" target="_blank" >Click here for the complete text of  <em>Kaigai Shinwa</em> vol. 1, translated into English by Sam Malissa </a><br />
+<br />
+<a href="http://digitalcollections.library.ubc.ca/cdm4/results.php?CISOOP1=any&amp;CISOFIELD1=CISOSEARCHALL&amp;CISOROOT=/tokugawa&amp;CISOBOX1=shinwa" target="_blank">Complete five-volume Japanese text of <em>Kaigai Shinwa</em> in the University of British Columbia Library Digital Collections</a></span>
+    <span class="boxtextbig"><br />
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+  
+      </span><span class="bottibody2"><br />
+      <br />
+      <br />
+      <br />
+      <br />
+
+    
+     <a href="javascript:opencurwindow('japanese_names.html');">A note on Japanese names</a> <br />
+     <br />
+     <!--    Click here for a full translation of Kaigai Shinwa by Sam Malissa. -->
+     <br />
+     <br />
+     <span class="boxtextbig"><br />
+     <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+     <br />
+     <br /><br /><br />
+  
+      </span><a href="javascript:opencurwindow('translation.html');">A note on &#8220;TR&#8221; citations</a><span class="boxtextbig"><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+     <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+     <br />
+     <br />
+     <br /><br /><br />
+  
+      </span><a href="http://en.wikipedia.org/wiki/Battle_of_Canton" target="_blank">Read about the &#8220;Battle of Canton&#8221;<br /> 
+      on Wikipedia</a></span></td>
+    <td width="69">&nbsp;</td>
+  </tr>
+
+    <tr>
+    <td width="44" align="left" valign="bottom" colspan="3"><img  alt="MIT Visualizing Cultures"  title="" border="0"  src="../rise_fall_canton_01/image/spacer.gif" width="348" height="4"  align="left"/></td>
+  </tr>
+</table>
+</div>
+
+
+
+<!--end  right-hand buttons -->
+
+
+<!-- essay -->
+<div class="essay">
+
+</div>
+<!--end  essay -->
+
+
+</div>
+</div>
+
+
+<!--top bar nav elements -->
+<div class="box14" id="box14" ><table  width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><img src="../home/image/spacer.gif" width="10" height="26"  alt="MIT Visualizing Cultures"/><img src="../home/image/hometopnav01.gif"  alt="Menu" width="227" height="26" border="0" usemap="#topmap"/></td>
+  </tr>
+</table>
+</div>
+
+<div class="box15" id="box15" ><table  width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><img src="../home/image/spacer.gif" width="10" height="27"  alt="MIT Visualizing Cultures"/></td>
+  </tr>
+</table>
+</div>
+
+<div class="navbox" id="hideme"><a  onmouseout="javascript:noverlay();" onmouseover="javascript:overlay();"><img src="../home/image/vc_home_nav.png" alt="MIT Visualizing Cultures" width="202" height="300" border="0" usemap="#Map"  id="Image5"  name="Image5" title="" /></a></div> 
+
+
+<div class="twit">
+<a href="https://twitter.com/share" class="twitter-share-button" data-count="none">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></div>
+
+<div class="emil"><!--email-->
+<script type="text/javascript"><!--
+
+var SubjectLine='MIT Visualizing Cultures'; 
+var BodyText='You can see this page at: '+top.location.href;
+
+var Message='<A CLASS=contact HREF="mailto:?SUBJECT='+escape(SubjectLine)+'&BODY='+escape(BodyText)+'" OnMouseOver="status=\'Envoyer cette page à vos amis\'; return true;" ><img src="../home/image/email2.gif" alt="Email" name="Image321"   border="0" id="Image321"  title=""/><\/A>';
+
+var MessageIE='<A CLASS=contact HREF="mailto:?SUBJECT='+(SubjectLine)+'&BODY='+(BodyText)+'" OnMouseOver="status=\'Envoyer cette page à vos amis\'; return true;" ><img src="../home/image/email2.gif" alt="Email" name="Image321"   border="0" id="Image321"  title=""/><\/A>';
+
+if(document.all) { document.write(MessageIE); }
+
+else { document.write(Message); }
+
+// http://javascriptsource.com "The JavaScript Source"
+//--></script></div>
+
+
+
+<!--facebook--><div class="fbok">
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<div class="fb-like" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false" data-colorscheme="light" data-font="verdana"></div>
+
+</div>
+
+<div class="unitsnavbox01" id="unitsnavbox01" ><a  onmouseout="javascript:noverlayu();" onmouseover="javascript:overlayu();"><img src="../home/image/unitstopnav01.gif"  alt="Units" width="227" height="26" border="0" /></a></div>
+ 
+<div class="navboxu" id="hidemeu"><a href="#" onmouseout="javascript:noverlayu();" onmouseover="javascript:overlayu();"><img src="../home/image/vc_units_cur_nav.png" alt="MIT Visualizing Cultures" width="179" height="148" border="0" usemap="#Map3"  id="Image6"  name="Image6" title=""/></a></div> 
+
+
+<div class="xnavbox" id="xnavbox" ><a  onmouseout="javascript:noverlayx();" onmouseover="javascript:overlayx();"><img src="image/topnav.gif"  alt="The Opium War in Japanese Eyes" width="227" height="26" border="0"  title="" /></a></div>
+
+<div class="navboxx" id="hidemex"><a  onmouseout="javascript:noverlayx();" onmouseover="javascript:overlayx();"><img src="image/oje_nav.png" alt="The Opium War in Japanese Eyes"  name="Image8" width="202" height="149" border="0" usemap="#Image8Map"   id="Image8" title="" /></a></div>
+ 
+ 
+
+
+<div class="unitnavbox" id="unitnavbox" ><a  onmouseout="javascript:noverlayv();" onmouseover="javascript:overlayv();"><img src="../home/image/essaytop.gif"  alt="Essay" width="227" height="26" border="0" title="" /></a></div>
+ 
+<div class="navboxv" id="hidemev"><a  onmouseout="javascript:noverlayv();" onmouseover="javascript:overlayv();"><img src="image/oje_nav_i.png" alt="Essay"  name="Image7" width="270" height="210" border="0" usemap="#Image7Map"   id="Image7" title=""/>
+</a></div>
+
+<!--end top bar nav elements -->
+
+
+
+<!--image maps -->
+    <map name="topmap" id="topmap">
+    <area shape="rect" coords="0,0,180,47" href="#" onmouseover="overlay();"  alt="MIT Visualizing Cultures" />
+      <area shape="rect" coords="194,0,300,47" href="#" onmouseover="overlayu();"  alt="VC Units" />
+  </map>
+    
+
+<map name="Map" id="Map">
+      <area shape="rect" coords="0,0,211,39" href="../home/index.html" onmouseover="overlay()" alt="MIT Visualizing Cultures"/>
+      <area shape="rect" coords="0,39,211,66" href="../home/vc01_about.html" target="_top"  alt="About VC" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_02.png',1)"/>      
+      <area shape="rect" coords="0,66,211,96" href="../home/vc02_schol.html" target="_top"  alt="VC Scholars" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_03.png',1)" />
+  <area shape="rect" coords="0,96,211,124" href="../home/vc03_partner.html" target="_top"  alt="Partner Institutions" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_04.png',1)" />
+
+  <area shape="rect" coords="0,124,211,147" href="../home/vc05_outreach.html" target="_top"  alt="Outreach" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_05.png',1)" />
+  <area shape="rect" coords="3,147,211,181" href="../home/vc06_event.html" target="_top"  alt="Conferences &amp; Events" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_06.png',1)" />
+  <area shape="rect" coords="3,181,211,214" href="mailto:visualizingcultures@mit.edu" target="_top"  alt="Contact" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_07.png',1)" />
+ <area shape="rect" coords="1,214,212,240" href="http://www.facebook.com/home.php#!/group.php?gid=261831254970&amp;ref=ts" target="_blank"  alt="Join Us" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_08.png',1)" />
+  <area shape="rect" coords="0,240,211,266" href="http://twitter.com/Visualizing_Cul" target="_blank"  alt="Follow Us" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_09.png',1)" />
+</map>
+
+
+
+
+
+
+
+
+<map name="Image7Map" id="Image7Map">
+  <area shape="rect" coords="1,3,213,31" href="index.html" target="_top" alt="Essay" onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();" />
+      
+	  <area shape="rect" coords="1,40,258,70" href="oje_essay01.html" target="_top" alt="&#8220;New Stories from Overseas&#8221;" onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();MM_swapImage('Image7','','image/oje_nav_i_01.png',1)" />
+  
+  <area shape="rect" coords="0,68,258,96" href="oje_essay02.html" target="_top" alt="The Eye of the Beholder" onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();MM_swapImage('Image7','','image/oje_nav_i_02.png',1)" />
+
+<area shape="rect" coords="0,95,258,122" href="oje_essay03.html"  target="_top" alt="Monsters, Heroines &amp; High Officials" onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();MM_swapImage('Image7','','image/oje_nav_i_03.png',1)" />
+
+<area shape="rect" coords="0,124,258,150" href="oje_essay04.html"  target="_top" alt="Lessons from the War Next Door" onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();MM_swapImage('Image7','','image/oje_nav_i_04.png',1)" />
+
+<area shape="rect" coords="2,150,258,177" href="oje_essay05.html"  target="_top" alt="Sources &amp; Credits" onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();MM_swapImage('Image7','','image/oje_nav_i_05.png',1)" />
+</map>
+
+<map name="Map4" id="Map4">
+<area shape="rect" coords="0,0,130,57"   href="oje_essay01.html" onmouseover="MM_swapImage('nav01','','image/oje_essay_nav_01.gif',1);noverlay();noverlayv();noverlayu()" onmouseout="MM_swapImgRestore()" alt="The Eye of the Beholder" title=""/>
+<area shape="rect" coords="130,0,252,56" href="oje_essay02.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01','','image/oje_essay_nav_02.gif',1);noverlay();noverlayv();noverlayu()"    title=""   alt="The Eye of the Beholder"/>
+       <area shape="rect" coords="251,0,389,56" href="oje_essay03.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01','','image/oje_essay_nav_03.gif',1);noverlay();noverlayv();noverlayu()"    title=""   alt="Monsters, Heroines &amp; High Officials"/> 
+  <area shape="rect" coords="387,0,528,56" href="oje_essay04.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01','','image/oje_essay_nav_04.gif',1);noverlay();noverlayv();noverlayu()"    title=""   alt="Lessons from the War Next Door"/>
+  <area shape="rect" coords="527,0,620,57" href="oje_essay05.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01','','image/oje_essay_nav_05.gif',1);noverlay();noverlayv();noverlayu()"    title=""   alt="Sources &amp; Credits"/>
+</map> 
+
+
+
+<map name="Map5" id="Map5">
+
+<area shape="rect" coords="0,0,130,57"   href="oje_essay01.html" onmouseover="MM_swapImage('nav01b','','image/oje_essay_nav_01.gif',1);noverlay();noverlayv();noverlayu()" onmouseout="MM_swapImgRestore()" alt="The Eye of the Beholder" title=""/>
+<area shape="rect" coords="130,0,252,56" href="oje_essay02.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01b','','image/oje_essay_nav_02.gif',1);noverlay();noverlayv();noverlayu()"    title=""   alt="The Eye of the Beholder"/>
+       <area shape="rect" coords="251,0,389,56" href="oje_essay03.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01b','','image/oje_essay_nav_03.gif',1);noverlay();noverlayv();noverlayu()"    title=""   alt="Monsters, Heroines &amp; High Officials"/> 
+  <area shape="rect" coords="387,0,528,56" href="oje_essay04.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01b','','image/oje_essay_nav_04.gif',1);noverlay();noverlayv();noverlayu()"    title=""   alt="Lessons from the War Next Door"/>
+  <area shape="rect" coords="527,0,620,57" href="oje_essay05.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01b','','image/oje_essay_nav_05.gif',1);noverlay();noverlayv();noverlayu()"    title=""   alt="Sources &amp; Credits"/>
+</map>  
+
+
+<map name="Map3" id="Map3">
+  
+<area shape="rect" coords="0,2,312,30" href="../home/vis_menu.html" target="_top" alt="Units" onmouseout="noverlayu();MM_swapImgRestore()" onmouseover="overlayu();" />
+
+<area shape="rect" coords="2,38,314,68" href="../home/vis_menu.html" target="_top" alt="Icon View" onmouseout="noverlayu();MM_swapImgRestore()" onmouseover="overlayu();MM_swapImage('Image6','','../home/image/vc_units_cur_nav_01.png',1)" />
+
+<area shape="rect" coords="0,67,312,95" href="../home/vis_menu_02b.html" target="_top" alt="Text View" onmouseout="noverlayu();MM_swapImgRestore()" onmouseover="overlayu();MM_swapImage('Image6','','../home/image/vc_units_cur_nav_02.png',1)" />
+
+<area shape="rect" coords="1,94,313,122" href="../home/vis_menu_03.html" target="_top" alt="Curriculae" onmouseout="noverlayu();MM_swapImgRestore()" onmouseover="overlayu();MM_swapImage('Image6','','../home/image/vc_units_cur_nav_03.png',1)" /></map>
+<map name="Image8Map" id="Image8Map">
+<area shape="rect" coords="0,2,312,30" href="index.html" target="_top" alt="The Opium War in Japanese Eyes" onmouseout="noverlayx();MM_swapImgRestore()" onmouseover="overlayx();" />
+
+<area shape="rect" coords="2,38,314,68" href="oje_gallery.html" target="_top" alt="Image Galleries" onmouseout="noverlayx();MM_swapImgRestore()" onmouseover="overlayx();MM_swapImage('Image8','','image/oje_nav_01.png',1)" />
+
+<area shape="rect" coords="1,68,313,94" href="../opium_wars_01/index.html" target="_top" alt="The First Opium War" onmouseout="noverlayx();MM_swapImgRestore()" onmouseover="overlayx();MM_swapImage('Image8','','image/oje_nav_02.png',1)" />
+
+<area shape="rect" coords="1,94,313,130" href="../opium_wars_02/index.html" target="_top" alt="The Second Opium War" onmouseout="noverlayx();MM_swapImgRestore()" onmouseover="overlayx();MM_swapImage('Image8','','image/oje_nav_03.png',1)" />
+</map>
+
+
+
+
+<map name="Map6" id="Map6">
+<area shape="poly" coords="98,26,296,16,305,242,299,331,111,342" href="javascript:openvcidwindow('gallery/pages/kss_v1-0-TitlePage.htm');" alt="MIT Visualizing Cultures" />
+</map></body>
+</html>

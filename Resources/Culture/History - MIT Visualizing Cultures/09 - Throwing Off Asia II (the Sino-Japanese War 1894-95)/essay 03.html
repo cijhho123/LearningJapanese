@@ -1,0 +1,866 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/tr/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>MIT Visualizing Cultures</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+
+
+<style type="text/css">
+<!--
+
+.backg {
+	position:absolute;
+	left:0px;
+	top:180px;
+	z-index: 1;
+background-image:url(../gt_japan_people/image/essay_bck.gif);
+}
+.navbox {
+		position: fixed;
+        left:10px;
+        top:0px;
+		z-index: 5;
+		visibility:hidden;
+}
+.unitsnavbox01 {
+        position:fixed;
+        left:200px;
+        top:0px;
+		z-index:5;
+}
+.unitnavbox {
+        position:fixed;
+        left:271px;
+        top:0px;
+		z-index:6;
+}
+.navboxu {
+		position: fixed;
+        left:200px;
+        top:0px;
+		z-index: 6;
+		visibility:hidden;	 
+}
+.navboxv {
+		position: fixed;
+        left:271px;
+        top:0px;
+		z-index: 7;
+		visibility:hidden;	 
+}
+.box14 {
+        position:fixed;
+        left:0px;
+        top:0px;
+		z-index:5;
+		background-color:#222222;
+		width:100%
+}
+.box15 {
+        position:fixed;
+        left:0px;
+        top:0px;
+		z-index:4;
+	    width: 100%;
+		background-color:#504B48
+}
+.boxessay {        position:absolute;
+        left:624px;
+        top:124px;
+		z-index:4;
+}
+.boxmono {        position:absolute;
+        left:624px;
+		z-index:4;
+}
+.boxpdf {        position:absolute;
+        left:671px;
+        top:220px;
+		z-index:4;color: #999999; font-size: 12px; line-height: 16px; font-family: Verdana, Arial, Helvetica, sans-serif;
+		width: 250px;
+		text-align:left;
+}
+.top {
+	position:absolute;
+	left:0px;
+	top:45px;
+	z-index: 2;
+}
+.bottom {
+	position:absolute;
+	left:0px;
+	z-index: 2;
+}
+.essaynavbottom {
+	position:absolute;
+	left:0px;
+	z-index: 3;
+}
+.essaynavtop {
+	position:absolute;
+	left:0px;
+	top:142px;
+	z-index: 3;
+}
+#horizon        
+	{
+	
+	text-align: center;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 1px;
+	overflow: visible;
+	visibility: visible;
+	display: block
+	}
+
+#content    
+	{
+	
+	margin-left: -485px;
+	position: absolute;
+	top: 0px;
+	left: 50%;
+	width: 250px;
+	height: 70px;
+	visibility: visible;
+
+	}
+.bottibody {color: #000000; font-size: 13px; line-height: 19px; font-family: Verdana, Arial, Helvetica, sans-serif
+	}
+.bottibody2 {color: #000000; font-size: 11px; line-height: 16px; font-family: Verdana, Arial, Helvetica, sans-serif }
+.bottismall {
+	color: #333333;
+	font-size: 9px;
+	line-height: 12px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-style: normal;
+	}
+.head { color: #0033CC; font-size: 15px; line-height: 19px; font-family: Verdana, Arial, Helvetica, sans-serif
+	}
+.bottiblock {
+	color: #2D2D2D;
+	font-size: 15px;
+	line-height: 19px;
+	font-family: Times New Roman, Times, serif;
+	font-style: italic;
+	}
+.bottiblockplain {
+	color: #2D2D2D;
+	font-size: 15px;
+	line-height: 19px;
+	font-family:   Times New Roman, Times, serif;
+	font-style: normal;
+	}
+.bottiblockhead {
+	color: #2D2D2D;
+	font-size: 18px;
+	line-height: 21px;
+	font-family: Times New Roman, Times, serif;
+	font-style: italic;
+	}
+.halfer { color: #ffffff; font-size: 6px; line-height: 6px; font-family: Verdana, Arial, Helvetica, sans-serif
+	}
+a:link {
+        color:#1233FF;
+        text-decoration:none;
+    }
+ a:active { 
+		color:#1233FF;
+        text-decoration:none;
+	}
+a:visited {
+		color:#1233FF;
+        text-decoration:none;
+	}
+a:hover {
+		color:#1233FF;
+        text-decoration:underline;
+	}
+
+.boxpdf a:link {
+        color:#999999;
+        text-decoration:none;
+    }
+ .boxpdf a:active { 
+		color:#999999;
+        text-decoration:none;
+	}
+.boxpdf a:visited {
+		color:#999999;
+        text-decoration:none;
+	}
+.boxpdf a:hover {
+		color:#ffffff;
+        text-decoration:none;
+	}
+.twit {
+		position: fixed;
+        top: 2px;
+        left: 810px;
+		z-index: 7;
+		
+}
+.emil{
+		position: fixed;
+        top: 4px;
+        left: 876px;
+		z-index: 7;
+		
+}
+.fbok{
+		position: fixed;
+        top: 2px;
+        left: 916px;
+		z-index: 7;
+		width: 48px;
+		overflow:hidden;
+}
+
+	.bottibody22 {color: #CFE3D8; font-size: 13px; line-height: 18px; font-family: Verdana, Arial, Helvetica, sans-serif }
+	
+.bottibody22 a:link {
+        color:#CFE3D8;
+        text-decoration:none;
+    }
+ .bottibody22 a:active { 
+		color:#CFE3D8;
+        text-decoration:none;
+	}
+.bottibody22 a:visited {
+		color:#CFE3D8;
+        text-decoration:none;
+	}
+.bottibody22 a:hover {
+		color:#ffffff;
+        text-decoration:none;
+	}
+-->
+</style>
+
+
+<script language="JavaScript" type="text/JavaScript">
+<!--
+//rollovers for menus
+function overlay() {
+        el = document.getElementById("hideme");
+        el.style.visibility ="visible";
+		noverlayu();
+		noverlayv();
+}
+
+function noverlay() {
+        el = document.getElementById("hideme");
+        el.style.visibility ="hidden";
+}
+
+
+function overlayu() {
+        el = document.getElementById("hidemeu");
+        el.style.visibility ="visible";
+		noverlay();
+		noverlayv();
+}
+function noverlayu() {
+        el = document.getElementById("hidemeu");
+        el.style.visibility ="hidden";
+}
+
+
+function overlayv() {
+        el = document.getElementById("hidemev");
+        el.style.visibility ="visible";
+		noverlay();
+		noverlayu();
+}
+function noverlayv() {
+        el = document.getElementById("hidemev");
+        el.style.visibility ="hidden";
+}
+
+
+
+
+function sesame() {
+window.moveTo(0,0);        
+window.resizeTo(1350,screen.height);
+}
+
+
+window.onload=function()
+{
+	//sesame();
+	noverlay();
+	noverlayu();
+	MM_preloadImages('../home/image/vc_units_nav_13.png','../home/image/vc_units_nav_12.png','../home/image/vc_units_nav_11.png','../home/image/vc_units_nav_10.png','../home/image/vc_units_nav_07.png','../home/image/vc_units_nav_09.png','../home/image/vc_units_nav_14.png','../home/image/vc_units_nav_08.png','../home/image/vc_units_nav_06.png','../home/image/vc_units_nav_05.png','../home/image/vc_units_nav_04.png','../home/image/vc_units_nav_03.png','../home/image/vc_home_nav_02.png','../home/image/vc_home_nav_03.png','../home/image/vc_home_nav_04.png','../home/image/vc_home_nav_05.png','../home/image/vc_home_nav_06.png','../home/image/vc_home_nav_07.png','../home/image/vc_home_nav_08.png','../home/image/vc_home_nav_09.png','../home/image/vc_home_nav_10.png','../home/image/essay_icon02.gif','../home/image/album_icon02.gif','../home/image/pdf_essay02.gif','../throwing_off_asia_01/image/toa_nav_04.png','../throwing_off_asia_01/image/toa_nav_02.png','../throwing_off_asia_01/image/toa_nav_03.png','../throwing_off_asia_01/image/toa_nav_05.png','../throwing_off_asia_01/image/toa2_essay_nav_01.gif','../throwing_off_asia_01/image/toa2_essay_nav_02.gif','../throwing_off_asia_01/image/toa2_essay_nav_03.gif','../throwing_off_asia_01/image/toa2_essay_nav_04.gif','../throwing_off_asia_01/image/toa2_essay_nav_05.gif','../throwing_off_asia_01/image/toa2_essay_nav_06.gif','../home/image/popup02.gif');
+}
+var newwindow = '';
+
+function imalert(url)
+{
+	if (!newwindow.closed && newwindow.location)
+	{
+		newwindow.location.href = url;
+	}
+	else
+	{
+		newwindow=window.open(url,'windowtwo','height=360,width=586, toolbar=no,  resizable=yes, status=no, scrollbars=yes');
+		if (!newwindow.opener) newwindow.opener = self;
+	}
+	if (window.focus) {newwindow.focus()}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//
+var vcidwindow = '';
+
+function openvcidwindow(url)
+{
+	if (!vcidwindow.closed && vcidwindow.location)
+	{
+		vcidwindow.location.href = url;
+	}
+	else
+	{
+		vcidwindow=window.open(url,'vcid','height=950,width=1000, toolbar=yes, scrollbars=yes, resizable=yes, location=yes');
+		if (!vcidwindow.opener) vcidwindow.opener = self;
+	}
+	if (window.focus) {vcidwindow.focus()
+	}
+	} 
+
+
+
+ var curwindow = '';
+
+function opencurwindow(url)
+{
+	if (!curwindow.closed && curwindow.location)
+	{
+		curwindow.location.href = url;
+	}
+	else
+	{
+		curwindow=window.open(url,'curriculum','height=800,width=720, toolbar=yes, scrollbars=yes, resizable=yes,  location=yes');
+		if (!curwindow.opener) curwindow.opener = self;
+	}
+	if (window.focus) {curwindow.focus()
+	}
+	} 
+//-->
+</script>
+<script type="text/javascript">
+<!--
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." :
+"http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost +
+"google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+//-->
+</script>
+<script type="text/javascript">
+<!--
+try {
+var pageTracker = _gat._getTracker("UA-12446158-1");
+pageTracker._trackPageview();
+} catch(err) {}
+//-->
+</script></head>
+<body bgcolor="#252322">
+<div  id="horizon">
+<div  id="content">
+<div class="backg">
+<table width="970" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="20">&nbsp;</td>
+    <td width="579" ><table width="579" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td  align="left" valign="top" class="bottibody">                
+                <span class="head"><br />&#8220;Old China, New Japan&#8221;</span><span class="halfer"><br /><br /></span></td>
+        </tr></table>
+
+
+
+ <table width="579" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td colspan="4" align="left" valign="top" class="bottibody"><span class="bottibody"></span>In contrast to Kiyochika&rsquo;s distinctive thematic compositions, many woodblock artists reveled in the tumult and chaos of the battlefield. They offered their audience riotous melees&mdash;congested spectacles that invite the viewer to scrutinize the scene, sort out the combatants, discover any number of intimate details. Sometimes the detail is so dense it is startling to be reminded that these popular artworks were usually tossed off in a matter of days.
+             <br />
+              <br />
+              Still, predictable patterns give order to this chaos. Discipline (the Japanese side) prevails over disarray (the Chinese). The sword-wielding Japanese officer and bayonet-thrusting infantryman are invariably present&mdash;and easy to locate, since their black uniforms contrast sharply to the flamboyant clothing and paraphernalia of the Chinese. The enemy&rsquo;s garments vary from battle to battle but are always colorful and frequently decorated with elaborate designs. Their headgear suggests that they employ many different haberdashers. In contrast to the ubiquitous rising-sun-with-rays military flag of the Japanese, Chinese banners and ensigns feature a range of designs. Sometimes the enemy employ archaic weapons such as a three-prong pike or trident. Here and there they carry old-fashioned round shields decorated with garish face-like designs. The braided queues worn by Chinese men often stretch out like ropes or snakes; sometimes they are coiled in a bun. In short, the Chinese are depicted as being riotous in every way&mdash;disgracefully so in their behavior, and delightfully so in their accoutrements.<br />
+              <br /></td>
+        </tr>
+
+<tr>
+<td colspan="3" align="center" class="bottiblock"><a href="../throwing_off_asia_01/2000_102_l.html"><img  title="" src="../throwing_off_asia_01/image/2000_102_s.jpg" alt="&ldquo;Great Attack in Snow at Fort of One-Hundred-Foot Cliff Near Weihaiwei: Illustration of Major General Odera&rsquo;s Desperate Fight - Commander of the 11th Brigade&rdquo; by Utagawa Kokunimasa, February 1895 [2000_102] Sharf Collection, Museum of Fine Arts, Boston" width="565" height="287" border="0" /></a>               </td>
+          </tr>
+<tr>
+              <td colspan="3" align="center" valign="top" class="bottiblock"><img  title="" src="../throwing_off_asia_01/image/spacer.gif" width="44" height="78" align="left" alt="space"/><img  title="" src="../throwing_off_asia_01/image/spacer.gif" width="44" height="78" align="right" alt="space"/>&ldquo;Great Attack in Snow at Fort of One-Hundred-Foot Cliff Near Weihaiwei: 
+                Illustration of Major General Odera&rsquo;s Desperate Fight - Commander of the 11th Brigade&rdquo; by Utagawa Kokunimasa, February 1895<span class="halfer"><br />
+                <br />
+            </span><span class="bottismall">[2000.102] Sharf Collection, Museum of Fine Arts, Boston<br /><br /></span> </td>
+          </tr>
+<tr>
+<td colspan="3" align="center" class="bottiblock"><a href="../throwing_off_asia_01/21_1540_l.html"><img  title="" src="../throwing_off_asia_01/image/21_1540_s.jpg" alt="&ldquo;Chinese and Japanese Troops: Picture of a Fierce Battle at Gaiping&rdquo; by Nakagawa, February 1895 [21_1540]  Museum of Fine Arts, Boston" width="565" height="302" border="0" /></a>               </td>
+          </tr>
+<tr>
+            <td colspan="3" align="center" class="bottiblock"><img  title="" src="../throwing_off_asia_01/image/spacer.gif" width="10" height="50" align="left" alt="space"/><img  title="" src="../throwing_off_asia_01/image/spacer.gif" width="15" height="50" align="right" alt="space"/>&ldquo;Chinese and Japanese Troops: Picture of a Fierce Battle at Gaiping&rdquo;<br />by Nakagawa, February 1895<span class="halfer"><br />
+                <br />
+            </span><span class="bottismall">[21.1540]  Museum of Fine Arts, Boston<br /><br /></span> </td>
+          </tr>
+<tr>
+<td colspan="3" align="center" class="bottiblock"><a href="../throwing_off_asia_01/2000_023_l.html"><img  title="" src="../throwing_off_asia_01/image/2000_023_s.jpg" alt="&ldquo;Sino-Japanese War: The Fierce Battle on the Floating Bridge at Jiuliancheng&rdquo; by Kobayashi Toshimitsu, October 1894 [2000_023] Sharf Collection, Museum of Fine Arts, Boston" width="565" height="289" border="0" /></a>               </td>
+          </tr>
+<tr>
+              <td colspan="3" align="center" class="bottiblock">&ldquo;Sino-Japanese War: The Fierce Battle on the Floating Bridge at<br />
+                Jiuliancheng&rdquo; by Kobayashi Toshimitsu, October 1894<span class="halfer"><br />
+                <br />
+            </span><span class="bottismall">[2000.023] Sharf Collection, Museum of Fine Arts, Boston<br /><br />
+            <br />
+            </span> </td>
+          </tr>
+<tr align="left" valign="top"> 
+          <td colspan="3" class="bottibody">Heroic encounters between relative equals are not entirely absent from these depictions, however. A fairly typical rendering of a melee by Toshimitsu, for example, includes two swordsmen dueling to an uncertain finish. With comparable even-handedness, several quite spectacular prints by unidentified artists render individuals on both sides as almost mirror images of one another&mdash;faces frozen in Kabuki-like determination or similarly marked by rather individualized touches.<br />
+            <br /> </td>
+        </tr>
+<tr>
+              <td colspan="4" align="center" class="bottiblock"><a href="../throwing_off_asia_01/2000_380_03_l.html"><img  title="" src="../throwing_off_asia_01/image/2000_380_03_s.jpg" alt="&ldquo;Picture of Our Forces Bringing About the Fall of Pyongyang&rdquo; by Kobayashi Toshimitsu, September 1894 [2000_380_03] Sharf Collection, Museum of Fine Arts, Boston" width="565" height="283" border="0" /></a>               </td>
+          </tr>
+	    <tr valign="top"> 
+          <td height="180" colspan="4" align="center" class="bottibody"><table width="560" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td align="center" valign="middle"><span class="bottiblock">&ldquo;Picture of Our Forces Bringing About the 
+            Fall of Pyongyang&rdquo; by Kobayashi Toshimitsu, September 1894 (above, with detail, right)</span><span class="bottismall"><br />
+<br />
+[2000.380.03] Sharf Collection,<br />
+Museum of Fine Arts, Boston<br /></span><img  title="" src="../throwing_off_asia_01/image/spacer.gif" width="270" height="5" align="bottom" alt="space"/></td>
+              <td height="170" align="left" valign="top"><a href="../throwing_off_asia_01/2000_380_03_l.html"><img  title="" src="../throwing_off_asia_01/image/2000_380_03_duel.jpg"  alt="&ldquo;Picture of Our Forces Bringing About the Fall of Pyongyang&rdquo; by Kobayashi Toshimitsu, September 1894 (detail) [2000_380_03] Sharf Collection, Museum of Fine Arts, Boston" width="282" height="160" border="0" align="right"/></a></td>
+            </tr>
+          </table>            </td>
+	    </tr>
+<tr>
+<td colspan="3" align="center" class="bottiblock"><a href="../throwing_off_asia_01/2000_113_l.html"><img  title="" src="../throwing_off_asia_01/image/2000_113_s.jpg" alt="&ldquo;Great Rear Attack by Our Second Army at Weihaiwei,&rdquo; Artist unknown, February 1895 [2000_113] Sharf Collection, Museum of Fine Arts, Boston" width="565" height="301" border="0" /></a>               </td>
+          </tr>
+
+<tr>
+<td colspan="3" align="center" class="bottiblock"><a href="../throwing_off_asia_01/2000_113_l.html"><img  title="" src="../throwing_off_asia_01/image/2000_113_det1.jpg" alt="&ldquo;Great Rear Attack by Our Second Army at Weihaiwei,&rdquo; Artist unknown, February 1895 (detail) [2000_113] Sharf Collection, Museum of Fine Arts, Boston" width="141" height="141" border="0" /></a> <a href="../throwing_off_asia_01/2000_113_l.html"><img  title="" src="../throwing_off_asia_01/image/2000_113_det3.jpg" alt="&ldquo;Great Rear Attack by Our Second Army at Weihaiwei,&rdquo; Artist unknown, February 1895 (detail) [2000_113] Sharf Collection, Museum of Fine Arts, Boston" width="141" height="141" border="0" /></a><a href="../throwing_off_asia_01/2000_113_l.html"><img  title="" src="../throwing_off_asia_01/image/2000_113_det2.jpg" alt="&ldquo;Great Rear Attack by Our Second Army at Weihaiwei,&rdquo; Artist unknown, February 1895 (detail) [2000_113] Sharf Collection, Museum of Fine Arts, Boston" width="141" height="141" border="0" /></a><a href="../throwing_off_asia_01/2000_113_l.html"><img  title="" src="../throwing_off_asia_01/image/2000_113_det4.jpg" alt="&ldquo;Great Rear Attack by Our Second Army at Weihaiwei,&rdquo; Artist unknown, February 1895 (detail) [2000_113] Sharf Collection, Museum of Fine Arts, Boston" width="141" height="141" border="0" /></a></td>
+          </tr>
+<tr>
+              <td colspan="3" align="center" valign="top" class="bottiblock"><img  title="" src="../throwing_off_asia_01/image/spacer.gif" width="10" height="64" align="left" alt="space"/><img  title="" src="../throwing_off_asia_01/image/spacer.gif" width="15" height="64" align="right" alt="space"/>&ldquo;Great Rear Attack by Our Second Army at Weihaiwei,&rdquo; artist unknown,<br />
+                February 1895 (with details of Chinese, left, and Japanese, right)<span class="halfer"><br />
+                <br />
+            </span><span class="bottismall">[2000.113] Sharf Collection, Museum of Fine Arts, Boston<br /><br /><br /></span> </td>
+          </tr>
+<tr>
+
+<td colspan="3" align="center" class="bottiblock"><a href="../throwing_off_asia_01/res_23_294_l.html"><img  title="" src="../throwing_off_asia_01/image/res_23_294_s.jpg" alt="&ldquo;The Japanese Second Army Battles at Jinzhou&rdquo; by Shuko, November 1894 [res_23_294] Museum of Fine Arts, Boston" width="565" height="301" border="0" /></a>               </td>
+          </tr>
+<tr>
+              <td width="193" align="right" valign="middle" class="bottiblock"><!-- <img  title="" src="../throwing_off_asia_01/image/spacer.gif" width="18" height="64" align="left" alt="space"/><img  title="" src="../throwing_off_asia_01/image/spacer.gif" width="18" height="64" align="right" alt="space"/> --><a href="../throwing_off_asia_01/res_23_294_l.html"><img  title="" src="../throwing_off_asia_01/image/r_23_294_face1_det.jpg" alt="&ldquo;The Japanese Second Army Battles at Jinzhou&rdquo; by Shuko, November 1894 (detail) [res_23_294] Museum of Fine Arts, Boston" width="188" height="188" border="0" align="right" /></a></td>
+              <td width="193" align="center" valign="middle" class="bottiblock">&ldquo;The Japanese Second Army Battles at Jinzhou&rdquo; by Shuko, November 1894 
+                (with details of Chinese, left, and Japanese, right)<span class="halfer"><br />
+                <br />
+            </span><span class="bottismall">[res.23.294]<br />
+            Museum of Fine Arts, Boston</span></td>
+              <td width="193" align="left" valign="middle" class="bottiblock"><a href="../throwing_off_asia_01/res_23_294_l.html"><img  title="" src="../throwing_off_asia_01/image/r_23_294_face2_det.jpg" alt="&ldquo;The Japanese Second Army Battles at Jinzhou&rdquo; by Shuko, November 1894 (detail) [res_23_294] Museum of Fine Arts, Boston " width="188" height="188" border="0" align="left" /></a></td>
+</tr>
+
+<tr align="center" valign="bottom">
+<td height="318" colspan="3" class="bottiblock"><a href="../throwing_off_asia_01/res_23_344_l.html"><img  title="" src="../throwing_off_asia_01/image/res_23_344_s.jpg" alt="&ldquo;Attacking Pyongyang, Our Troops Conquer the Enemy Fortress &rdquo; by Mizuno Toshikata, September 1894 [res_23_344] Museum of Fine Arts, Boston" width="565" height="297" border="0" /></a>               </td>
+          </tr>
+
+<tr>
+<td colspan="3" align="center" valign="top" class="bottiblock"><img  title="" src="../throwing_off_asia_01/image/spacer.gif" width="6" height="64" align="left" alt="space"/><img  title="" src="../throwing_off_asia_01/image/spacer.gif" width="6" height="64" align="right" alt="space"/>
+  <table width="282" border="0" cellspacing="0" cellpadding="0" align="left">
+  <tr>
+    <td><a href="../throwing_off_asia_01/res_23_344_l.html"><img  title="" src="../throwing_off_asia_01/image/res_23_344_dc2.jpg" alt="&ldquo;Attacking Pyongyang, Our Troops Conquer the Enemy Fortress &rdquo; by Mizuno Toshikata, September 1894 (detail) [res_23_344] Museum of Fine Arts, Boston" width="141" height="141" border="0" /></a></td>
+    <td><a href="../throwing_off_asia_01/res_23_344_l.html"><img  title="" src="../throwing_off_asia_01/image/res_23_344_dc3.jpg" alt="&ldquo;Attacking Pyongyang, Our Troops Conquer the Enemy Fortress &rdquo; by Mizuno Toshikata, September 1894 (detail) [res_23_344] Museum of Fine Arts, Boston" width="141" height="141" border="0" /></a></td>
+  </tr>
+  <tr>
+    <td colspan="2"><a href="../throwing_off_asia_01/res_23_344_l.html"><img  title="" src="../throwing_off_asia_01/image/res_23_344_rifc.jpg" alt="&ldquo;Attacking Pyongyang, Our Troops Conquer the Enemy Fortress &rdquo; by Mizuno Toshikata, September 1894 (detail) [res_23_344] Museum of Fine Arts, Boston" width="282" height="211" border="0" /></a></td>
+  </tr>
+</table>
+  <table width="282" border="0" cellspacing="0" cellpadding="0" align="right">
+    <tr>
+      <td colspan="2"><a href="../throwing_off_asia_01/res_23_344_l.html"><img  title="" src="../throwing_off_asia_01/image/res_23_344_rifj.jpg" alt="&ldquo;Attacking Pyongyang, Our Troops Conquer the Enemy Fortress &rdquo; by Mizuno Toshikata, September 1894 (detail) [res_23_344] Museum of Fine Arts, Boston" width="282" height="211" border="0" /></a></td>
+    </tr>
+    <tr>
+      <td><a href="../throwing_off_asia_01/res_23_344_l.html"><img  title="" src="../throwing_off_asia_01/image/res_23_344_dj.jpg" alt="&ldquo;Attacking Pyongyang, Our Troops Conquer the Enemy Fortress &rdquo; by Mizuno Toshikata, September 1894 (detail) [res_23_344] Museum of Fine Arts, Boston" width="141" height="141" border="0" /></a></td>
+      <td><a href="../throwing_off_asia_01/res_23_344_l.html"><img  title="" src="../throwing_off_asia_01/image/res_23_344_dj2.jpg" alt="&ldquo;Attacking Pyongyang, Our Troops Conquer the Enemy Fortress &rdquo; by Mizuno Toshikata, September 1894 (detail) [res_23_344] Museum of Fine Arts, Boston" width="141" height="141" border="0" /></a></td>
+    </tr>
+  </table></td>
+          </tr>
+<tr>
+            <td colspan="3" align="center" class="bottiblock"><img  title="" src="../throwing_off_asia_01/image/spacer.gif" width="15" height="78" align="left" alt="space"/><img  title="" src="../throwing_off_asia_01/image/spacer.gif" width="15" height="78" align="right" alt="space"/>&ldquo;Attacking Pyongyang, Our Troops Conquer the Enemy Fortress &rdquo;<br />
+              by Mizuno Toshikata, September 1894<br />
+              (above, with details of Chinese, left, and Japanese, right)<span class="halfer"><br />
+                <br />
+            </span><span class="bottismall">[res.23.344], Museum of Fine Arts, Boston<br /><br /><br /></span> </td>
+          </tr>
+
+</table><table cellspacing="0" cellpadding="0">
+          <tr align="left" valign="top"><td colspan="3" class="bottibody">Such suggestions of relative equality emerge especially clearly in depictions of combat between mounted officers. These figures stand out from the tumult around them by virtue of their horses alone, but this is not the only source of shared identity. On both sides these combatants were men of comparable rank, accomplishment, and ability.<br />
+            <br /></td>
+        </tr>
+<tr>
+<td colspan="3" align="center" class="bottiblock"><a href="../throwing_off_asia_01/2000_233_l.html"><img  title="" src="../throwing_off_asia_01/image/2000_233_s.jpg" alt="&ldquo;Great Sino-Japanese Battle at Fenghuangcheng&rdquo; by Toyohara Kuniteru III, October 1894 [2000_233] Sharf Collection, Museum of Fine Arts, Boston" width="565" height="290" border="0" /></a>               </td>
+          </tr>
+
+<tr>
+            <td width="206" align="right" valign="middle" class="bottiblock"><a href="../throwing_off_asia_01/2000_233_l.html"><img  title="" src="../throwing_off_asia_01/image/2000_233_dc.jpg" alt="&ldquo;Great Sino-Japanese Battle at Fenghuangcheng&rdquo; by Toyohara Kuniteru III, October 1894 (detail) [2000_233] Sharf Collection, Museum of Fine Arts, Boston" width="195" height="214" border="0" align="right" /></a><!-- <img  title="" src="../throwing_off_asia_01/image/spacer.gif" width="18" height="64" align="left" alt="space"/><img  title="" src="../throwing_off_asia_01/image/spacer.gif" width="18" height="64" align="right" alt="space"/> --> </td>
+            <td width="184" align="center" class="bottiblock">&ldquo;Great Sino-Japanese
+              Battle at Fenghuangcheng&rdquo; 
+              by Toyohara Kuniteru III, 
+              October 1894 
+              (with details of Chinese 
+              officer, left, and Japanese officer, right)<span class="halfer"><br />
+                <br />
+            </span><span class="bottismall">[2000.233] Sharf Collection, 
+            <br />
+            Museum of Fine Arts, Boston<br /><br />
+            </span></td>
+            <td width="206" align="left" valign="middle" class="bottiblock"><a href="../throwing_off_asia_01/2000_233_l.html"><img  title="" src="../throwing_off_asia_01/image/2000_233_dj.jpg" alt="&ldquo;Great Sino-Japanese Battle at Fenghuangcheng&rdquo; by Toyohara Kuniteru III, October 1894 (detail) [2000_233] Sharf Collection, Museum of Fine Arts, Boston" width="195" height="214" border="0" align="left" /></a></td>
+</tr>
+
+<tr align="left" valign="top"> 
+          <td colspan="3" class="bottibody"><br />In one print by an unidentified artist, a clash between two cavalrymen is actually turned into a spectator sport. Fighting men pause to watch, and a few Chinese have even climbed a tree to get a better view.<br />
+            <br /></td>
+        </tr>
+
+<tr>
+<td colspan="3" align="center" class="bottiblock"><a href="../throwing_off_asia_01/res_23_312_l.html"><img  title="" src="../throwing_off_asia_01/image/res_23_312_s.jpg" alt="&ldquo;The Battle of Mukden&rdquo; by Shunsai Toshimasa, 1894 [res_23_312] Museum of Fine Arts, Boston" width="565" height="297" border="0" /></a>               </td>
+          </tr>
+<tr>
+              <td colspan="3" align="center" class="bottiblock"><img  title="" src="../throwing_off_asia_01/image/spacer.gif" width="44" height="64" align="left" alt="space"/><img  title="" src="../throwing_off_asia_01/image/spacer.gif" width="44" height="64" align="right" alt="space"/>In the midst of battle a crowd has gathered to watch two cavalrymen in one-on-one combat. &ldquo;The Battle of Mukden&rdquo; by Shunsai Toshimasa, 1894<span class="halfer"><br />
+                <br />
+            </span><span class="bottismall">[res.23.312] Museum of Fine Arts, Boston<br /><br /><br /></span> </td>
+          </tr>
+<tr align="left" valign="top"> 
+          <td colspan="3" class="bottibody">A few prints detach cavalry combat from the congestion of battlefield tumult and place it alone at stage center, occasionally even giving the names of Chinese generals involved.<br />
+            <br /></td>
+        </tr>
+<tr>
+<td colspan="3" align="center" class="bottiblock"><a href="../throwing_off_asia_01/PMOA_055_l.html"><img  title="" src="../throwing_off_asia_01/image/PMOA_055_s.jpg" alt="&ldquo;A Great Victory at Port Arthur&rdquo; by Adachi Gink&#333;, November 1894 [PMOA_055]" width="565" height="287" border="0" /></a>               </td>
+          </tr>
+<tr>
+              <td colspan="3" align="center" class="bottiblock"><img  title="" src="../throwing_off_asia_01/image/spacer.gif" width="15" height="50" align="left" alt="space"/><img  title="" src="../throwing_off_asia_01/image/spacer.gif" width="15" height="50" align="right" alt="space"/>&ldquo;A Great Victory at Port Arthur&rdquo; by Adachi Gink&#333;, November 1894<span class="halfer"><br />
+              <br />
+            </span><span class="bottismall">[PMOA.055] Philadelphia Museum of Art<br /><br /><br /></span></td>
+          </tr>
+
+<tr>
+<td colspan="3" align="center" valign="top" class="bottiblock"><img  title="" src="../throwing_off_asia_01/image/spacer.gif" width="6" height="64" align="left" alt="space"/><img  title="" src="../throwing_off_asia_01/image/spacer.gif" width="6" height="64" align="right" alt="space"/>
+  <table width="282" border="0" cellspacing="0" cellpadding="0" align="left">
+  <tr>
+    <td align="left" valign="top"><a href="../throwing_off_asia_01/2000_009_l.html"><img src="../throwing_off_asia_01/image/2000_009_ss.jpg" alt="&ldquo;Sino-Japanese Pitched Battles: Two Generals Fighting at Fenghuangcheng&rdquo;by Watanabe Nobukazu, November 1894 [2000_009] Museum of Fine Arts, Boston" width="282" height="151" border="0" align="left"  title="" /></a></td>
+    </tr>
+  <tr>
+    <td align="center" valign="top"><img  title="" src="../throwing_off_asia_01/image/spacer.gif" width="12" height="70" align="left" alt="space"/><img  title="" src="../throwing_off_asia_01/image/spacer.gif" width="12" height="70" align="right" alt="space"/>&ldquo;Sino-Japanese Pitched Battles: Two Generals Fighting at Fenghuangcheng&rdquo; by Watanabe Nobukazu, November 1894<span class="halfer"><br />
+        <br />
+    </span><span class="bottismall">[2000.009] Sharf Collection,<br />
+    Museum of Fine Arts, Boston<br />
+    <br /><br /></span></td>
+  </tr>
+</table>
+  <table width="282" border="0" cellspacing="0" cellpadding="0" align="right">
+    <tr>
+      <td align="right" valign="top"><a href="../throwing_off_asia_01/21_1549_l.html"><img src="../throwing_off_asia_01/image/21_1549_ss.jpg" alt="&ldquo;Major Sakakibara Fights Fiercely to the South of Ximucheng&rdquo; by Adachi Gink&#333;, January 1895 [21_1549] Museum of Fine Arts, Boston" width="282" height="151" border="0" align="right"  title="" /></a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top"><img  title="" src="../throwing_off_asia_01/image/spacer.gif" width="6" height="70" align="left" alt="space"/><img  title="" src="../throwing_off_asia_01/image/spacer.gif" width="18" height="70" align="right" alt="space"/>&ldquo;Major Sakakibara Fights Fiercely to the South of Ximucheng&rdquo; by Adachi Gink&#333;, January 1895<span class="halfer"><br />
+            <br />
+        </span><span class="bottismall">[21.1549] Museum of Fine Arts, Boston<br /><br /><br />
+        </span></td>
+      </tr>
+  </table></td>
+          </tr>
+
+<tr align="left" valign="top"> 
+          <td colspan="3" class="bottibody">The single most honorable Chinese singled out in the war prints, however, was not a mounted officer but an admiral&mdash;the venerable 
+
+
+ Ding Juchang, whose fleet was destroyed after hard fighting off Weihaiwei early in 1895. After surrendering in a courteous exchange of messages between the two sides, Admiral 
+
+
+ Ding Juchang
+
+ committed suicide by taking poison. When the Chinese warship carrying his body left the harbor, the Japanese fleet dropped their flags to half-mast and fired a salute. Death by one&rsquo;s own hand held an honorable place in Japan&rsquo;s own warrior tradition, of course; be that as it may, several woodblock artists commemorated the admiral&rsquo;s death with respectful renderings. One of the best of these, by Toshikata, imagines Admiral 
+
+
+ Ding Juchang
+
+ seated in an elegant room holding a cup of poison in his hand.<br />
+ <br /></td>
+        </tr>
+<tr>
+<td colspan="3" align="center" class="bottiblock"><a href="../throwing_off_asia_01/IMP_44_74_l.html"><img  title="" src="../throwing_off_asia_01/image/IMP_44_74_s.jpg" alt="&ldquo;Admiral Ding Juchang of the Chinese Beiyang Fleet, Totally Destroyed at Weihaiwei, Commits Suicide at His Official Residence&rdquo; by Mizuno Toshikata, February 1895 [IMP_44_74]" width="565" height="292" border="0" /></a>               </td>
+          </tr>
+<tr valign="top">
+              <td colspan="3" align="center" class="bottiblock"><img  title="" src="../throwing_off_asia_01/image/spacer.gif" width="44" height="120" align="left" alt="space"/><img  title="" src="../throwing_off_asia_01/image/spacer.gif" width="44" height="120" align="right" alt="space"/>The most honorable Chinese opponent depicted in the Japanese war prints was Admiral
+                Ding Juchang, who committed suicide after his fleet was destroyed in 1895. Here he is
+                portrayed seated in an elegant room with a cup of poison in his hand.<span class="halfer"><br /><br /><br />
+            </span>&ldquo;Admiral Ding Juchang  of the Chinese Beiyang Fleet, Totally Destroyed at Weihaiwei,
+            Commits Suicide at His Official Residence&rdquo; by Mizuno Toshikata, February 1895<span class="halfer"><br />
+              <br />
+            </span><span class="bottismall">[IMP.44.74]  Philadelphia Museum of Art<br /><br /><br /></span> </td>
+          </tr>
+<tr align="left" valign="top"> 
+          <td colspan="3" class="bottibody">In another well-known print, Toshikata pitted his Japanese hero, &ldquo;Captain Awata,&rdquo; against a Chinese antagonist of no status but undeniably formidable strength&mdash;in this case, a giant on Taiwan whose weapon of choice was a halberd. In his treatment of this celebrated encounter, Toshikata portrays the Chinese foe with respect. More typical, however, was Toshihide&rsquo;s rendering of the same duel, in which Awata administers the <em>coup de gr&acirc;ce</em> to a twisted figure collapsing from a lethal blow to the head&mdash;his straw hat flying through the air, clearly torn where Awata&rsquo;s sword blade sliced through. (This is the same Captain Awata whom Kiyochika lovingly portrayed cleaving the enemy&rsquo;s skull.)<br />
+            <br /></td>
+        </tr>
+<tr>
+<td colspan="3" align="center" class="bottiblock"><a href="../throwing_off_asia_01/2000_440_l.html"><img  title="" src="../throwing_off_asia_01/image/2000_440_s.jpg" alt="&ldquo;Captain Awata&rdquo; by Mizuno Toshikata, 1895 [2000_440] Sharf Collection, Museum of Fine Arts, Boston" width="565" height="293" border="0" /></a>               </td>
+          </tr>
+<tr>
+<td colspan="3" align="center" class="bottiblock"><a href="../throwing_off_asia_01/2000_431_l.html"><img  title="" src="../throwing_off_asia_01/image/2000_431_s.jpg" alt="&ldquo;Picture of Captain Awata, Who Fights Furiously with His Celebrated Sword in the Assault on Magongcheng in the Pescadores&rdquo; by Migita Toshihide, 1895 [2000_431] Sharf Collection, Museum of Fine Arts, Boston" width="565" height="292" border="0" /></a>               </td>
+          </tr>
+<tr>
+<td colspan="3" align="center" class="bottiblock"><a href="../throwing_off_asia_01/2000_431_l.html"><img  title="" src="../throwing_off_asia_01/image/2000_431_head.jpg" alt="&ldquo;Picture of Captain Awata, Who Fights Furiously with His Celebrated Sword in the Assault on Magongcheng in the Pescadores&rdquo; by Migita Toshihide, 1895 (detail) [2000_431] Sharf Collection, Museum of Fine Arts, Boston" width="282" height="282" border="0" /></a> <a href="../throwing_off_asia_01/2000_431_l.html"><img  title="" src="../throwing_off_asia_01/image/2000_440_Chines.jpg" alt="&ldquo;Picture of Captain Awata, Who Fights Furiously with His Celebrated Sword in the Assault on Magongcheng in the Pescadores&rdquo; by Migita Toshihide, 1895 (detail) [2000_431] Sharf Collection, Museum of Fine Arts, Boston" width="282" height="282" border="0" /></a></td>
+          </tr>
+
+<tr align="center" valign="top">
+              <td colspan="3" class="bottiblock"><img  title="" src="../throwing_off_asia_01/image/spacer.gif" width="44" height="190" align="left" alt="space"/><img  title="" src="../throwing_off_asia_01/image/spacer.gif" width="44" height="190" align="right" alt="space"/>These two prints of the same subject&mdash;a powerful Chinese with a halberd fighting Captain Awata
+                on Taiwan&mdash;treat the enemy in completely different ways. In one (detail on right), he is a
+                stalwart and heroic foe. In the other (detail on left), he collapses in grotesque defeat.<span class="halfer">
+              
+            </span>&ldquo;Captain Awata&rdquo; by Mizuno Toshikata, 1895 (top)<span class="halfer"><br />
+            <br />
+              
+            </span><span class="bottismall">[2000.440] Sharf Collection, Museum of Fine Arts, Boston</span><span class="halfer"><br /><br /><br /><br />
+               
+            </span>&ldquo;Picture of Captain Awata, Who Fights Furiously with His Celebrated Sword in the Assault
+on Magongcheng in the Pescadores&rdquo; by Migita Toshihide, 1895<span class="halfer"><br />
+<br />
+</span><span class="bottismall">[2000.431] Sharf Collection, Museum of Fine Arts, Boston</span><br /><br /><br /><br /></td>
+          </tr>
+</table>
+
+
+
+
+		 <table border="0" cellspacing="0" cellpadding="0" align="left">
+          
+ <tr>
+          <td align="left" valign="top"><span class="bottismall"><img src="../home/image/redline.gif" width="570" height="1"  alt="MIT Visualizing Cultures" title=""/><br/><br/>
+                <a href="javascript:imalert('../home/about.html')"><em>On viewing images of a potentially disturbing nature: click here.</em></a><br />
+                <br/>Massachusetts Institute of Technology &#169; 2008 Visualizing Cultures<br />
+                <br />
+          </span></td>
+          </tr>
+
+
+
+ <tr>
+          <td align="left" valign="top"><div class="bottom"><img src="../throwing_off_asia_01/image/essay_bottom.gif"  alt="MIT Visualizing Cultures" width="970" height="136" border="0" align="left" title=""/></div>
+<div class="essaynavbottom">
+  <table width="622" border="0" cellspacing="0" cellpadding="0" align="left">
+  <tr align="left">
+    <td align="left" width="105"><img src="../throwing_off_asia_01/image/toa2_essay_nav_03.gif"  alt="Throwing Off Asia II" name="nav01b" width="622" height="39" border="0" usemap="#Map5" id="nav01b" title=""/></td>
+  </tr>
+</table>
+</div></td>
+          </tr>
+
+
+	  </table>
+</td>
+    <td width="371">&nbsp;</td>
+  </tr>
+</table></div>
+<div class="top"><img src="../throwing_off_asia_01/image/essay_top_ii.gif"  alt="MIT Visualizing Cultures" width="970" height="136" border="0" align="left" title=""/></div>
+
+<!--end background elements -->
+
+<!-- essay nav -->
+<div class="essaynavtop"><table width="622" border="0" cellspacing="0" cellpadding="0" align="left">
+  <tr align="left">
+    <td align="left" width="622"><img src="../throwing_off_asia_01/image/toa2_essay_nav_03.gif"  alt="Throwing Off Asia II" name="nav01" width="622" height="39" border="0" usemap="#Map4" id="nav01" title=""/></td>
+  </tr>
+</table>
+</div>
+
+
+<!-- end essay nav -->
+
+
+
+<!-- right-hand buttons -->
+
+
+
+
+
+<div class="boxpdf" id="boxpdf"><span class="bottibody22"><a href="javascript:imalert('../home/about.html')">Warning: On viewing images of<br />a potentially
+disturbing nature</a><br />
+<br />
+<a href="javascript:imalert('../home/vc_intro_chinese.pdf')">&#35531;&#27880;&#24847;:&#22294;&#29255;&#25110;&#35377;&#26371;&#28858;&#24118;&#20358;&#24515;&#29702;&#19981;&#36969;</a></span><br />
+<br /><br />
+<a href="../throwing_off_asia_01/pdf/toa2_essay_03.pdf" target="_blank"    onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image12','','../home/image/pdf_chap02.gif',1);noverlay();noverlayv();noverlayu();">Printer-friendly PDF of this chapter</a></div>
+
+
+
+
+<!--end  right-hand buttons -->
+
+
+
+
+
+</div>
+</div>
+
+<!--top bar nav elements -->
+<div class="box14" id="box14" ><table  width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><img src="../home/image/spacer.gif" width="10" height="26"  alt="MIT Visualizing Cultures"/><img src="../home/image/hometopnav01.gif"  alt="Menu" width="227" height="26" border="0" usemap="#topmap"/></td>
+  </tr>
+</table>
+</div>
+
+<div class="box15" id="box15" ><table  width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><img src="../home/image/spacer.gif" width="10" height="27"  alt="MIT Visualizing Cultures"/></td>
+  </tr>
+</table>
+</div>
+
+<div class="navbox" id="hideme"><a  onmouseout="javascript:noverlay();" onmouseover="javascript:overlay();"><img src="../home/image/vc_home_nav.png" alt="MIT Visualizing Cultures" width="202" height="300" border="0" usemap="#Map"  id="Image5"  name="Image5" title="" /></a></div> 
+
+<div class="twit">
+<a href="https://twitter.com/share" class="twitter-share-button" data-count="none">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></div>
+
+<div class="emil"><!--email-->
+<script type="text/javascript"><!--
+
+var SubjectLine='MIT Visualizing Cultures'; 
+var BodyText='You can see this page at: '+top.location.href;
+
+var Message='<A CLASS=contact HREF="mailto:?SUBJECT='+escape(SubjectLine)+'&BODY='+escape(BodyText)+'" OnMouseOver="status=\'Envoyer cette page à vos amis\'; return true;" ><img src="../home/image/email2.gif" alt="Email" name="Image321"   border="0" id="Image321"  title=""/><\/A>';
+
+var MessageIE='<A CLASS=contact HREF="mailto:?SUBJECT='+(SubjectLine)+'&BODY='+(BodyText)+'" OnMouseOver="status=\'Envoyer cette page à vos amis\'; return true;" ><img src="../home/image/email2.gif" alt="Email" name="Image321"   border="0" id="Image321"  title=""/><\/A>';
+
+if(document.all) { document.write(MessageIE); }
+
+else { document.write(Message); }
+
+// http://javascriptsource.com "The JavaScript Source"
+//--></script></div>
+
+
+
+<!--facebook--><div class="fbok">
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<div class="fb-like" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false" data-colorscheme="light" data-font="verdana"></div>
+
+</div> 
+
+<div class="unitsnavbox01" id="unitsnavbox01" ><a  onmouseout="javascript:noverlayu();" onmouseover="javascript:overlayu();"><img src="../home/image/unitstopnav01.gif"  alt="Units" width="227" height="26" border="0"/></a></div>
+ <div class="navboxu" id="hidemeu"><a href="#" onmouseout="javascript:noverlayu();" onmouseover="javascript:overlayu();"><img src="../home/image/vc_units_cur_nav.png" alt="MIT Visualizing Cultures" width="179" height="148" border="0" usemap="#Map3"  id="Image6"  name="Image6" title=""/></a></div> <div class="unitnavbox" id="unitnavbox" ><a  onmouseout="javascript:noverlayv();" onmouseover="javascript:overlayv();"><img src="../throwing_off_asia_01/image/topnav_ii.gif"  alt="Throwing Off Asia II" width="227" height="26" border="0"/></a></div>
+ 
+<div class="navboxv" id="hidemev"><a  onmouseout="javascript:noverlayv();" onmouseover="javascript:overlayv();"><img src="../throwing_off_asia_01/image/toa_nav.png" alt="Throwing Off Asia II"  name="Image7" width="212" height="169" border="0" usemap="#Image7Map"   id="Image7" title=""/>
+    
+</a></div>
+<!--end top bar nav elements -->
+
+
+
+<!--image maps -->
+    <map name="topmap" id="topmap">
+      <area shape="rect" coords="0,0,180,47" href="#" onmouseover="overlay();"  alt="MIT Visualizing Cultures" />
+      <area shape="rect" coords="194,0,300,47" href="#" onmouseover="overlayu();"  alt="VC Units" />
+  </map>
+
+<map name="Map" id="Map">
+      <area shape="rect" coords="0,0,211,39" href="../home/index.html" onmouseover="overlay()" alt="MIT Visualizing Cultures"/>
+      <area shape="rect" coords="0,39,211,66" href="../home/vc01_about.html" target="_top"  alt="About VC" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_02.png',1)"/>      
+      <area shape="rect" coords="0,66,211,96" href="../home/vc02_schol.html" target="_top"  alt="VC Scholars" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_03.png',1)" />
+  <area shape="rect" coords="0,96,211,124" href="../home/vc03_partner.html" target="_top"  alt="Partner Institutions" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_04.png',1)" />
+
+  <area shape="rect" coords="0,124,211,147" href="../home/vc05_outreach.html" target="_top"  alt="Outreach" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_05.png',1)" />
+  <area shape="rect" coords="3,147,211,181" href="../home/vc06_event.html" target="_top"  alt="Conferences &amp; Events" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_06.png',1)" />
+  <area shape="rect" coords="3,181,211,214" href="mailto:visualizingcultures@mit.edu" target="_top"  alt="Contact" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_07.png',1)" />
+ <area shape="rect" coords="1,214,212,240" href="http://www.facebook.com/home.php#!/group.php?gid=261831254970&amp;ref=ts" target="_blank"  alt="Join Us" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_08.png',1)" />
+  <area shape="rect" coords="0,240,211,266" href="http://twitter.com/Visualizing_Cul" target="_blank"  alt="Follow Us" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_09.png',1)" />
+</map><map name="Map3" id="Map3">
+  
+<area shape="rect" coords="0,2,312,30" href="../home/vis_menu.html" target="_top" alt="Units" onmouseout="noverlayu();MM_swapImgRestore()" onmouseover="overlayu();" />
+
+<area shape="rect" coords="2,38,314,68" href="../home/vis_menu.html" target="_top" alt="Icon View" onmouseout="noverlayu();MM_swapImgRestore()" onmouseover="overlayu();MM_swapImage('Image6','','../home/image/vc_units_cur_nav_01.png',1)" />
+
+<area shape="rect" coords="0,67,312,95" href="../home/vis_menu_02b.html" target="_top" alt="Text View" onmouseout="noverlayu();MM_swapImgRestore()" onmouseover="overlayu();MM_swapImage('Image6','','../home/image/vc_units_cur_nav_02.png',1)" />
+
+<area shape="rect" coords="1,94,313,122" href="../home/vis_menu_03.html" target="_top" alt="Curriculae" onmouseout="noverlayu();MM_swapImgRestore()" onmouseover="overlayu();MM_swapImage('Image6','','../home/image/vc_units_cur_nav_03.png',1)" /></map>
+<map name="Image7Map" id="Image7Map">
+  <area shape="rect" coords="0,2,212,30" href="index.html" target="_top" alt="Throwing Off Asia II" onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();" />
+      <area shape="rect" coords="0,42,215,70" href="toa_essay01.html" target="_top" alt="Essay" onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();MM_swapImage('Image7','','../throwing_off_asia_01/image/toa_nav_02.png',1)" />
+  <area shape="rect" coords="0,70,215,99" href="toa_vis_01.html" target="_top" alt="Visual Narratives" onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();MM_swapImage('Image7','','../throwing_off_asia_01/image/toa_nav_03.png',1)" />
+  <area shape="rect" coords="0,99,215,127" href="javascript:openvcidwindow('../throwing_off_asia_01/gallery/index.htm')" target="_top" alt="Image Gallery" onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();MM_swapImage('Image7','','../throwing_off_asia_01/image/toa_nav_04.png',1)" />
+<area shape="rect" coords="0,127,215,154" href="javascript:opencurwindow('../throwing_off_asia_01/cur_student/toa_cur_toc.html')" target="_top" alt="Curriculum"  onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();MM_swapImage('Image7','','../throwing_off_asia_01/image/toa_nav_05.png',1)" />
+</map>
+
+<map name="Map4" id="Map4">
+ <area shape="rect" coords="0,0,137,41"   href="toa_essay01.html" onmouseover="MM_swapImage('nav01','','../throwing_off_asia_01/image/toa2_essay_nav_01.gif',1);noverlay();noverlayv();noverlayu();" onmouseout="MM_swapImgRestore()" alt="Prints &amp; Propaganda"/>
+
+ <area shape="rect" coords="137,0,249,41" href="toa_essay02.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01','','../throwing_off_asia_01/image/toa2_essay_nav_02.gif',1);noverlay();noverlayv();noverlayu();"  alt="Kyochika&#8217;s War"/>
+
+  <!-- <area shape="rect" coords="249,1,346,42" href="toa_essay03.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01','','../throwing_off_asia_01/image/toa2_essay_nav_03.gif',1);noverlay();noverlayv();noverlayu();"  alt="&#8220;Old China,
+New Japan&#8221;"/> -->
+
+  <area shape="rect" coords="346,0,434,41" href="toa_essay04.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01','','../throwing_off_asia_01/image/toa2_essay_nav_04.gif',1);noverlay();noverlayv();noverlayu();"  alt="Devil in
+the Details"/>
+
+  <area shape="rect" coords="434,0,556,41" href="toa_essay05.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01','','../throwing_off_asia_01/image/toa2_essay_nav_05.gif',1);noverlay();noverlayv();noverlayu();"  alt="Symbolic &#8220;China&#8221;"/>
+
+  <area shape="rect" coords="555,0,622,41" href="toa_essay06.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01','','../throwing_off_asia_01/image/toa2_essay_nav_06.gif',1);noverlay();noverlayv();noverlayu();"  alt="Sources"/>
+</map>
+
+<map name="Map5" id="Map5">
+ <area shape="rect" coords="0,0,137,41"   href="toa_essay01.html" onmouseover="MM_swapImage('nav01b','','../throwing_off_asia_01/image/toa2_essay_nav_01.gif',1);noverlay();noverlayv();noverlayu();" onmouseout="MM_swapImgRestore()" alt="Prints &amp; Propaganda"/> 
+
+  <area shape="rect" coords="137,0,249,41" href="toa_essay02.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01b','','../throwing_off_asia_01/image/toa2_essay_nav_02.gif',1);noverlay();noverlayv();noverlayu();"  alt="Kyochika&#8217;s War"/>
+  
+ <!-- <area shape="rect" coords="249,1,346,42" href="toa_essay03.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01b','','../throwing_off_asia_01/image/toa2_essay_nav_03.gif',1);noverlay();noverlayv();noverlayu();"  alt="&#8220;Old China,
+New Japan&#8221;"/>-->
+
+  <area shape="rect" coords="346,0,434,41" href="toa_essay04.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01b','','../throwing_off_asia_01/image/toa2_essay_nav_04.gif',1);noverlay();noverlayv();noverlayu();"  alt="Devil in
+the Details"/>
+
+  <area shape="rect" coords="434,0,556,41" href="toa_essay05.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01b','','../throwing_off_asia_01/image/toa2_essay_nav_05.gif',1);noverlay();noverlayv();noverlayu();"  alt="Symbolic &#8220;China&#8221;"/>
+
+  <area shape="rect" coords="555,0,622,41" href="toa_essay06.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01b','','../throwing_off_asia_01/image/toa2_essay_nav_06.gif',1);noverlay();noverlayv();noverlayu();"  alt="Sources"/>
+</map>
+
+
+
+</body>
+</html>

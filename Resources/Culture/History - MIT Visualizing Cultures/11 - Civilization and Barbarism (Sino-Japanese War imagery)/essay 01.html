@@ -1,0 +1,1163 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>MIT Visualizing Cultures</title>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+
+
+<style type="text/css">
+<!--
+
+.backg {
+	position:absolute;
+	left:0px;
+	top:131px;
+	z-index: 1;
+background-image:url(../kiyochika_tokyo/image/essay_bck.gif);
+/*visibility:hidden;*/
+}
+.top {
+	position:absolute;
+	left:0px;
+	top:45px;
+	z-index: 4;
+}
+.bottom {
+	position:absolute;
+	left:0px;
+	z-index: 2;
+}
+.essaynavtop {
+	position:absolute;
+	left:0px;
+	top:149px;
+	z-index: 3;
+}
+.essaynavbottom {
+	position:absolute;
+	left:0px;
+	z-index: 3;
+}
+.essay {
+	position:absolute;
+	left:20px;
+	top:195px;
+	z-index: 4;
+	background-color:#FFFFFF;
+}
+.flashy {
+	position:absolute;
+	left:467px;
+	top:42px;
+	z-index: 3;
+}
+.slug {        position:absolute;
+        left:20px;
+        top:475px;
+        width:476px;
+		z-index:2;
+		text-align:left;
+}
+.navbox {
+		position: fixed;
+        left:10px;
+        top:0px;
+		z-index: 5;
+		visibility:hidden;
+}
+.unitsnavbox01 {
+        position:fixed;
+        left:200px;
+        top:0px;
+		z-index:5;
+}
+.xnavbox {
+        position:fixed;
+        left:271px;
+        top:0px;
+		z-index:6;
+}
+.unitnavbox {
+        position:fixed;        left:452px;
+top:0px;
+		z-index:6;
+}
+.navboxu {
+		position: fixed;
+        left:200px;
+        top:0px;
+		z-index: 5;
+		visibility:hidden;	 
+}
+.navboxx {
+		position: fixed;
+        left:271px;
+        top:0px;
+		z-index: 6;
+		visibility:hidden;	 
+}
+.navboxv {
+		position: fixed;        left:452px;
+		top:0px;
+		z-index: 8;
+		visibility:hidden;	 
+}
+.box14 {
+        position:fixed;
+        left:0px;
+        top:0px;
+		z-index:5;
+		background-color:#222222;
+		width:100%
+}
+.box15 {
+        position:fixed;
+        left:0px;
+        top:0px;
+		z-index:4;
+	    width: 100%;
+		background-color:#504B48
+}
+.box16 {        position:fixed;
+        left:0px;
+        top:23px;
+		z-index:4;
+	width: 100%;
+background-color:#2F302F 
+}
+.popup01 {        position:absolute;
+        left:624px;
+		z-index:4;
+}
+.boxtoalink {        position:absolute;
+        left:624px;
+		z-index:4;
+}
+.boxpdf {        position:absolute;
+        left:624px;
+        top:164px;
+		z-index:4;
+}
+
+.box01 { 
+		position: static;
+		top: 20%;
+		left: 20%;
+}		
+.pop {
+	position:absolute;
+	left:0px;
+	z-index:4;
+	width: 970px;
+}
+		
+.pop2 {position:absolute;
+        left:516px;
+		z-index:4;
+}
+		
+.pop3 {position:absolute;
+        left:236px;
+		z-index:4;
+}
+		
+.pop4 {position:absolute;
+        left:490px;
+		z-index:4;
+}	
+.pop5 {position:absolute;
+        left:497px;
+		z-index:4;
+}
+
+#horizon        
+	{
+	text-align: center;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 1px;
+	overflow: visible;
+	visibility: visible;
+	display: block
+	}
+
+#content    
+	{
+	margin-left: -485px;
+	position: absolute;
+	top: 0px;
+	left: 50%;
+	width: 250px;
+	height: 70px;
+	visibility: visible;
+
+		}
+#treat    
+	{
+	margin-left: -610px;
+	position: absolute;
+	top: 379px;
+	left: 50%;
+	width: 1220px;
+	height: 640px;
+	visibility: hidden;
+	z-index: 5;
+		}
+.bottibody {color: #111111; font-size: 13px; line-height: 19px; font-family: Verdana, Arial, Helvetica, sans-serif
+	}
+.bottibody2 {color: #ffffff; font-size: 11px; line-height: 18px; font-family: Verdana, Arial, Helvetica, sans-serif
+	}
+.bottiblock {
+	color: #2D2D2D;
+	font-size: 15px;
+	line-height: 19px;
+	/*font-family: Georgia, "Times New Roman", Times, serif;*/
+	font-family: Times New Roman, Times, serif;
+	font-style: italic;
+	}
+.bottiblockplain {
+	color: #2D2D2D;
+	font-size: 15px;
+	line-height: 19px;
+	/*font-family: Georgia, "Times New Roman", Times, serif;*/
+	font-family:   Times New Roman, Times, serif;
+	font-style: normal;
+	}
+.bottiblock {
+	color: #2D2D2D;
+	font-size: 15px;
+	line-height: 19px;
+	/*font-family: Georgia, "Times New Roman", Times, serif;*/
+	font-family: Times New Roman, Times, serif;
+	font-style: italic;
+	}
+.bottiblockplain {
+	color: #2D2D2D;
+	font-size: 15px;
+	line-height: 19px;
+	/*font-family: Georgia, "Times New Roman", Times, serif;*/
+	font-family:   Times New Roman, Times, serif;
+	font-style: normal;
+	}
+.bottiblockiii {
+	color: #2D2D2D;
+	font-size: 14px;
+	line-height: 18px;
+	/*font-family: Georgia, "Times New Roman", Times, serif;*/
+	font-family: Times New Roman, Times, serif;
+	font-style: italic;
+	}
+.bottiblockplainiii {
+	color: #2D2D2D;
+	font-size: 14px;
+	line-height: 18px;
+	/*font-family: Georgia, "Times New Roman", Times, serif;*/
+	font-family:   Times New Roman, Times, serif;
+	font-style: normal;
+	}
+.bottiblockhead {
+	color: #2D2D2D;
+	font-size: 20px;
+	line-height: 18px;
+	/*font-family: Georgia, "Times New Roman", Times, serif;*/
+	font-family: Times New Roman, Times, serif;
+	font-style: italic;
+	}
+.bottismall {
+	color: #333333;
+	font-size: 9px;
+	line-height: 14px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-style: normal;
+	}
+.head { color: #222222; font-size: 15px; line-height: 19px; font-family: Verdana, Arial, Helvetica, sans-serif
+	}
+.halfer { color: #ffffff; font-size: 6px; line-height: 6px; font-family: Verdana, Arial, Helvetica, sans-serif
+	}
+a:link {
+        color:#1233FF;
+        text-decoration:none;
+    }
+ a:active { 
+		color:#1233FF;
+        text-decoration:none;
+	}
+a:visited {
+		color:#1233FF;
+        text-decoration:none;
+	}
+a:hover {
+		color:#1233FF;
+        text-decoration:none;
+	}
+.bottibody2 a:link {
+        color:#aaaaaa;
+        text-decoration:none;
+    }
+ .bottibody2 a:active { 
+		color:#aaaaaa;
+        text-decoration:none;
+	}
+.bottibody2 a:visited {
+		color:#aaaaaa;
+        text-decoration:none;
+	}
+.bottibody2 a:hover {
+		color:#ffffff;
+        text-decoration:none;
+	}
+.box141 {	position:absolute;
+	left:0px;
+	top:0px;
+}
+.intro {position:absolute;
+        left:0px;
+        width:600px;
+		z-index:2;
+text-align:center;
+font-family:"Times New Roman", Times, serif;
+color: #111111; font-size: 17px;
+line-height: 20px;
+}
+.bottiblockbig {
+	color: #111111;
+	font-size: 16px;
+	line-height: 23px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-style: italic;
+}
+.bottiblockbigplain {
+	color: #111111;
+	font-size: 16px;
+	line-height: 23px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-style: normal;
+}
+.boxtextplain{
+font-family:"Times New Roman", Times, serif;
+color: #000000; font-size: 18px;
+line-height: 22px;
+font-style:normal
+}
+.boxtextbig{
+font-family:"Times New Roman", Times, serif;
+color: #000000; font-size: 23px;
+line-height: 23px;
+font-style:italic;
+}
+.boxtext{
+font-family:"Times New Roman", Times, serif;
+color: #000000; font-size: 18px;
+line-height: 22px;
+font-style:italic;
+
+
+}
+
+.bottiblock a:link {
+        color:#275286;
+        text-decoration:none;
+    }
+ .bottiblock a:active { 
+		color:#275286;
+        text-decoration:none;
+	}
+.bottiblock a:visited {
+		color:#275286;
+        text-decoration:none;
+	}
+.bottiblock a:hover {
+		color:#275286;
+        text-decoration:none;
+	}
+
+.bottiblockplain a:link {
+        color:#000000;
+        text-decoration:none;
+    }
+ .bottiblockplain a:active { 
+		color:#000000;
+        text-decoration:none;
+	}
+.bottiblockplain a:visited {
+		color:#000000;
+        text-decoration:none;
+	}
+.bottiblockplain a:hover {
+		color:#000000;
+        text-decoration:none;
+	}
+
+.bottismall a:link {
+        color:#000000;
+        text-decoration:none;
+    }
+ .bottismall a:active { 
+		color:#000000;
+        text-decoration:none;
+	}
+.bottismall a:visited {
+		color:#000000;
+        text-decoration:none;
+	}
+.bottismall a:hover {
+		color:#000000;
+        text-decoration:none;
+	}
+
+.halfer a:link {
+        color:#000000;
+        text-decoration:none;
+    }
+ .halfer a:active { 
+		color:#000000;
+        text-decoration:none;
+	}
+.halfer a:visited {
+		color:#000000;
+        text-decoration:none;
+	}
+.halfer a:hover {
+		color:#000000;
+        text-decoration:none;
+	}
+.twit {
+		position: fixed;
+        top: 2px;
+        left: 810px;
+		z-index: 7;
+		
+}
+.emil{
+		position: fixed;
+        top: 4px;
+        left: 876px;
+		z-index: 7;
+		
+}
+.fbok{
+		position: fixed;
+        top: 2px;
+        left: 916px;
+		z-index: 7;
+		width: 48px;
+		overflow:hidden;
+}
+
+.eng
+ { visibility:hidden;
+   position:absolute;
+   left:302px;
+   width:320px;
+ }
+.ger
+ { visibility:visible;
+   position:absolute;
+   left:312px;
+   width:300px;
+ }
+.bottibody1 {color: #ffffff; font-size: 13px; line-height: 19px; font-family: Verdana, Arial, Helvetica, sans-serif
+}
+.bottibody21 {color: #aaabbb; font-size: 12px; line-height: 18px; font-family: Verdana, Arial, Helvetica, sans-serif }
+.halfer1 {color: #ffffff; font-size: 4px; line-height: 6px; font-family: Verdana, Arial, Helvetica, sans-serif }
+
+
+
+
+
+-->
+</style>
+
+
+<script language="JavaScript" type="text/JavaScript">
+<!--
+//rollovers for menus
+
+function overlaytreat() {
+        el = document.getElementById("treat");
+        el.style.visibility ="visible";
+		noverlay();
+		noverlayu();
+		noverlayv();
+		noverlayx();
+}
+
+function noverlaytreat() {
+        el = document.getElementById("treat");
+        el.style.visibility ="hidden";
+}
+
+
+
+
+function overlay() {
+        el = document.getElementById("hideme");
+        el.style.visibility ="visible";
+		noverlayu();
+		noverlayv();
+		noverlayx();
+}
+
+function noverlay() {
+        el = document.getElementById("hideme");
+        el.style.visibility ="hidden";
+}
+
+
+function overlayu() {
+        el = document.getElementById("hidemeu");
+        el.style.visibility ="visible";
+		noverlay();
+		noverlayv();
+		noverlayx();
+}
+function noverlayu() {
+        el = document.getElementById("hidemeu");
+        el.style.visibility ="hidden";
+}
+
+
+function overlayv() {
+        el = document.getElementById("hidemev");
+        el.style.visibility ="visible";
+		noverlay();
+		noverlayu();
+		noverlayx();
+}
+function noverlayv() {
+        el = document.getElementById("hidemev");
+        el.style.visibility ="hidden";
+}
+
+
+function overlayx() {
+        el = document.getElementById("hidemex");
+        el.style.visibility ="visible";
+		noverlay();
+		noverlayu();
+		noverlayv();
+}
+function noverlayx() {
+        el = document.getElementById("hidemex");
+        el.style.visibility ="hidden";
+}
+function showvid() {
+        el = document.getElementById("thevid");
+        el.style.visibility ="visible";
+		noverlayu();
+		noverlayv();
+        PlayIt(document.movie1);
+}
+
+function hidevid() {
+        StopIt(document.movie1);
+		el = document.getElementById("thevid");
+        el.style.visibility ="hidden";
+
+
+}
+/* a javascript function that takes a QT movie and calls its "Play" method */
+        function PlayIt(anObj)
+        {
+                anObj.Play();
+        }
+        /* a javascript function that takes a QT movie and calls its "Stop" method */
+        function StopIt(anObj)
+        {
+                anObj.Stop();
+        }
+
+
+
+function sesame() {
+window.moveTo(0,0);        
+window.resizeTo(1350,screen.height);
+}
+
+
+window.onload=function()
+{
+	//sesame();
+    //StopIt(document.movie1);
+	noverlay();
+	noverlayu();
+	MM_preloadImages('../home/image/vc_home_nav_02.png','../home/image/vc_home_nav_03.png','../home/image/vc_home_nav_04.png','../home/image/vc_home_nav_05.png','../home/image/vc_home_nav_06.png','../home/image/vc_home_nav_07.png','../home/image/vc_home_nav_08.png','../home/image/vc_home_nav_09.png','../home/image/vc_home_nav_10.png','../home/image/vc_units_nav_01.png','../home/image/vc_units_nav_02.png','image/cb_nav_01.png','image/cb_nav_02.png','image/cb_nav_03.png','image/cb_nav_04.png','image/cb_nav_05.png','image/cb_nav_06.png','image/essay_top.gif');
+}
+var newwindow = '';
+
+function imalert(url)
+{
+	if (!newwindow.closed && newwindow.location)
+	{
+		newwindow.location.href = url;
+	}
+	else
+	{
+		newwindow=window.open(url,'windowtwo','height=360,width=586, toolbar=no,  resizable=yes, status=no, scrollbars=yes');
+		if (!newwindow.opener) newwindow.opener = self;
+	}
+	if (window.focus) {newwindow.focus()}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+//
+var vcidwindow = '';
+
+function openvcidwindow(url)
+{
+	if (!vcidwindow.closed && vcidwindow.location)
+	{
+		vcidwindow.location.href = url;
+	}
+	else
+	{
+		vcidwindow=window.open(url,'vcid','height=1000,width=1256, toolbar=yes, scrollbars=yes, resizable=yes, location=yes');
+		if (!vcidwindow.opener) vcidwindow.opener = self;
+	}
+	if (window.focus) {vcidwindow.focus()
+	}
+	} 
+
+
+
+ var curwindow = '';
+
+function opencurwindow(url)
+{
+	if (!curwindow.closed && curwindow.location)
+	{
+		curwindow.location.href = url;
+	}
+	else
+	{
+		curwindow=window.open(url,'curriculum','height=800,width=720, toolbar=yes, scrollbars=yes, resizable=yes,  location=yes');
+		if (!curwindow.opener) curwindow.opener = self;
+	}
+	if (window.focus) {curwindow.focus()
+	}
+	} 
+
+
+function decider(){
+ el = document.getElementById("thevid");
+
+if(el.style.visibility =="visible") {
+hidevid()
+} else {
+showvid()
+}
+}
+
+
+function german(){
+ el = document.getElementById("eng");
+
+if(el.style.visibility =="visible") {
+makger()
+} else {
+makeng()
+}
+}
+
+
+function makeng(){
+ el = document.getElementById("ger");
+ el.style.visibility ="hidden";
+ el = document.getElementById("eng");
+ el.style.visibility ="visible";
+}
+
+function makger(){
+ el = document.getElementById("ger");
+ el.style.visibility ="visible";
+ el = document.getElementById("eng");
+ el.style.visibility ="hidden";
+}
+//-->
+</script>
+<script type="text/javascript">
+<!--
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." :
+"http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost +
+"google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+//-->
+</script>
+<script type="text/javascript">
+<!--
+try {
+var pageTracker = _gat._getTracker("UA-12446158-1");
+pageTracker._trackPageview();
+} catch(err) {}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+</head>
+<body bgcolor="#252422"  >
+<div  id="horizon">
+<!--<div  id="treat"><a href="javascript:noverlaytreat();" onmouseout="noverlaytreat();" onmouseover="overlaytreat();"><img  alt="MIT Visualizing Cultures"  title="" border="0"  src="image/g_1846_TreatyNanking_B79155.jpg" width="1220" height="480" /><br />
+<img  alt="MIT Visualizing Cultures"  title="" border="0"  src="image/shad.png" width="1220" height="44" /></a></div> -->
+<div  id="content">
+<!--background elements -->
+<div class="backg">
+  <table width="970" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    
+    <td width="970" >
+<table width="622" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td class="bottibody2" colspan="3">
+  <br /><br /><br /><br />
+<a href="javascript:openvcidwindow('gallery/pages/cb27-004_1900_judge__2d6470.htm');"><img src="gallery/images/cb27-004_1900_judge__2d6470.jpg"  alt="MIT Visualizing Cultures" width="622" height="auto" border="0" align="left" title=""/></a></td>
+</tr><tr><td width="61" bgcolor="#CCCCCC"></td>
+<td width="500" align="center" valign="top" bgcolor="cccccc" class="boxtext">
+<br />
+Rudyard Kipling&rsquo;s famous poem &ldquo;The White Man&rsquo;s Burden&rdquo; was published in 1899, during a high tide of British and American rhetoric about bringing the blessings of &ldquo;civilization and progress&rdquo; to barbaric non-Western, non-Christian, non-white peoples. In Kipling&rsquo;s often-quoted phrase, this noble mission required willingness to engage in &ldquo;savage wars of peace.&rdquo;<br />
+<br />
+Three savage turn-of-the-century conflicts defined the milieu in which such rhetoric flourished: the Anglo-Boer War of 1899&ndash;1902 in South Africa; the U.S. conquest and occupation of the Philippines initiated in 1899; and the anti-foreign Boxer Uprising in China that provoked intervention by eight foreign nations in 1900.<br />
+<br />
+The imperialist rhetoric of &ldquo;civilization&rdquo; versus &ldquo;barbarism&rdquo; that took root during these years was reinforced in both the United States and England by a small flood of political cartoons&mdash;commonly executed in full color and with meticulous attention to detail. Most viewers <!--of this web site  -->will probably agree that there is nothing really comparable in the contemporary world of political cartooning to the drafting skill and flamboyance of these single-panel graphics, which appeared in such popular periodicals as <span class="boxtextplain">Puck</span> and <span class="boxtextplain">Judge.</span><br />
+<br />
+This early outburst of what we refer to today as clash-of-civilizations thinking did not go unchallenged, however. The turn of the century also witnessed emergence of articulate anti-imperialist voices worldwide&mdash;and this movement had its own powerful wing of incisive graphic artists. In often searing graphics, they challenged the complacent propagandists for Western expansion by addressing (and illustrating) a devastating question about the savage wars of peace. Who, they asked, was the real barbarian?<br />
+<br /><br />
+<br /></td>
+<td width="61" bgcolor="#CCCCCC"></td>
+</tr><!--<tr><td width="61" bgcolor="#ffffff"></td>
+<td width="500" align="center" valign="top" bgcolor="ffffff" class="bottiblock">
+<span  class="bottismall"><br /></span>
+ Unless otherwise noted, all images in this unit are from the Robert O. Muller Collection of the Freer Gallery of Art and the Arthur M. Sackler Gallery, Smithsonian Institution.<br />
+ <br /></td><td width="61" bgcolor="#FFFFFF"></td>
+</tr> -->
+</table>
+	<!--<table width="622" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td class="bottibody2" >
+<img src="image/shad.png"  alt="MIT Visualizing Cultures" width="622" height="17" border="0" align="left" title=""/></td>
+</tr>
+</table> -->
+	
+	  
+<table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="20">&nbsp;</td>
+    <td width="582" align="left" class="bottibody"><span class="halfer"><br />
+</span><br /><strong>INTRODUCTION</strong><br/>
+      <br/>
+      The march of &ldquo;civilization&rdquo; against &ldquo;barbarism&rdquo; is a late-19th-century construct that cast imperialist wars as moral crusades. Driven by competition with each other and economic pressures at home, the world&rsquo;s major powers ventured to ever-distant lands to spread their religion, culture, power, and sources of profits. This unit examines cartoons from the turn-of-the-century visual record that reference civilization and its nemesis&mdash;barbarism. In the United States <em>Puck, Judge,</em> and the first version of a pictorial magazine titled <em>Life;</em> in France <em>L&rsquo;Assiette au Beurre;</em> and in Germany the acerbic <em>Simplicissimus</em> published masterful illustrations that ranged in opinion and style from partisan to thoughtful to gruesome.<br/><br/>
+      <!--In the &ldquo;civilization&rdquo; narrative, barbarians were the non-white, non-Christian natives of the developing world. At the same time however, some cartoonists skewered the imperialist crusaders themselves with the label. -->In the “civilization” narrative, barbarians were commonly identified as the non-Western, non-white, non-Christian natives of the less-developed nations of the world. Three overlapping turn-of-the-century conflicts in particular stirred the righteous rhetoric of the white imperialists. One was the second Boer War of 1899&ndash;1902 that pitted British forces against Dutch-speaking settlers in South Africa and their black supporters. The second was the U.S. conquest and occupation of the Philippines that began in 1899. And the third was the anti-foreign Boxer Uprising in China in 1899&ndash;1901, which led to military intervention by no less than eight foreign nations including not only Tsarist Russia and the Western powers, but also Japan.<br/>
+      <br/>
+      Civilization and barbarism were vividly portrayed in the visual record. The word &quot;Civilization&quot; (with a capital &ldquo;C&rdquo;), alongside &ldquo;Progress,&rdquo; was counterposed against the words &ldquo;barbarism,&rdquo; &ldquo;barbarians,&rdquo; and &ldquo;barbarity,&rdquo; with accompanying visual stereotypes. Colossal goddess figures and other national symbols were overwritten with the message on their clothing and the flags they carried.<br/><br/>
+      The archetypal dominance of &ldquo;Civilization&rdquo; over &ldquo;Barbarism&rdquo; is conveyed in a 1902 <em>Puck</em> graphic with the sweeping white figure of Britannia leading British soldiers and colonists in the Boer War. A band of tribal defenders, whose leader rides a white charger and wields the flag of &ldquo;Barbarism,&rdquo; fades in the face of Civilization&rsquo;s advance. The caption, &ldquo;From the Cape to Cairo. Though the Process Be Costly, The Road of Progress Must Be Cut,&rdquo; states that progress must be pursued despite suffering on both sides. The message suggests that the indigenous man will be brought out of ignorance through the inescapable march of progress in the form of Western civilization.<br/>
+      <br/></td> 
+    <td width="20">&nbsp;</td></tr></table>
+	  
+	  <table width="622" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td colspan="3" align="left" valign="top" class="bottibody2">
+<div class="pop"><a href="javascript:openvcidwindow('gallery/pages/cb01-026_puck_1902_d_2d77a3.htm');"><img src="image/cb01-026_puck_1902_d_2d77a3.png"  alt="MIT Visualizing Cultures" width="980" height="641" border="0" align="left" title=""/></a><br />
+</div>
+<img src="image/spacer.gif"  alt="MIT Visualizing Cultures" width="622" height="641" border="0" align="left" title=""/></td>
+</tr><tr><td width="61" ></td>
+<td width="500" align="center" valign="top"  class="bottiblock">
+&ldquo;From the Cape to Cairo.<br />
+  Though the Process Be Costly, The Road of Progress Must Be Cut&rdquo;<br />
+  <span class="bottiblockplain">Puck,</span> December 10, 1902<br />
+  Artist: Udo Keppler<br />
+Source: Library of Congress <a href="http://www.loc.gov/pictures/resource/ppmsca.25696/" target="_blank">[view]</a><span class="bottismall"><span class="halfer"><br />
+<br /></span>[cb01-026_puck_1902_Dec10_CapeToCairo_loc]<br/>
+   <br/>
+  </span>In this 1902 cartoon, Britain&rsquo;s Boer War and goals on the African continent are identified with the march of civilization and progress against barbarism. Brandishing the flag of &ldquo;Civilization,&rdquo; Britannia leads white troops and settlers against native forces under the banner of &ldquo;Barbarism.&rdquo;
+<span class="bottismall"><br />
+<br />
+</span><br />
+<br /></td>
+<td width="61" ></td>
+</tr>
+</table>
+<table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="20">&nbsp;</td>
+    <td width="582" align="left" valign="top" class="bottibody">      Other graphic techniques were used by cartoonists to communicate this message. For example, the light of civilization literally illuminated vicious, helpless, or clueless barbarians. In &ldquo;The Pigtail Has Got to Go,&rdquo; a white-robed goddess wears a star  that radiates over a Chinese mandarin. A more earthly approach is taken in the graphic &ldquo;Some One Must Back Up&rdquo; that heads this essay. Here the &ldquo;Auto-Truck of Civilization and Trade&rdquo; shines a headlight upon a raging dragon and sword-wielding Chinese Boxer whose banner reads &ldquo;400 Million Barbarians.&rdquo; In the imagery of the civilizing mission, China is portrayed as both backward and savage. The aggressive quest for new markets&mdash;China&rsquo;s millions being the most coveted&mdash;was justified as part of the benevolent and inevitable spread of progress.<span class="bottismall"><br />
+      <br /></span></td> 
+    <td width="20">&nbsp;</td></tr></table>
+	
+  <table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    
+    <td width="13">&nbsp;</td> <td width="600" align="left" valign="top" class="bottismall" ><a href="javascript:openvcidwindow('gallery/pages/cb27-004_1900_judge__2d6470.htm');"><img src="image/cb27-004_1900_Judge_Ba39046.jpg"  alt="MIT Visualizing Cultures" width="300" height="auto" border="0" align="left" title=""/></a><a href="javascript:openvcidwindow('gallery/pages/cb30-021_puck_1898_o_2d7560.htm');"><img src="image/cb30-021_puck_1898_Oct39048.jpg"  alt="MIT Visualizing Cultures" width="300" height="auto" border="0" align="right" title=""/></a><br />
+      <br /></td>  <td width="9">&nbsp;</td>
+   
+  </tr></table>
+	
+  <table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="61">&nbsp;</td>
+    <td width="500" align="center" >
+    <span class="bottiblock"><span class="halfer"><br />
+    </span>
+    <span class="bottismall">[cb27-004_1900_Judge_BackUp_000016]<span class="halfer"><br />
+    <br />
+    </span> [cb30-021_puck_1898_Oct19_cover_1290728_y]</span><br />
+    <br />
+    Pro-imperialist cartoons often depicted the West as literally shining the light of civilization and progress on barbaric peoples. In these details, the headlight of a modern vehicle </span><span class="bottiblockplain">(Judge,</span><span class="bottiblock"> 1900) and starlight from a goddess of &ldquo;civilization&rdquo; </span><span class="bottiblockplain">(Puck,</span><span class="bottiblock"> 1898) illuminate demeaning caricatures of China.
+    </span><br />
+<br />
+<br />
+</td> 
+    <td width="61">&nbsp;</td>
+  </tr></table>
+  <table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="20">&nbsp;</td>
+    <td width="582" align="left" valign="top" class="bottibody">Long-standing personifications and visual symbols for countries were used by cartoonists to dramatize events to suit their message. Anthropomorphizing nations and concepts meant that in an 1899 cartoon captioned &ldquo;The White Man&rsquo;s Burden,&rdquo; the U.S., as Uncle Sam, could be shown trudging after Britain&rsquo;s John Bull, his Anglo-Saxon partner,  carrying non-white nations&mdash;depicted in grotesque racist caricatures&mdash;uphill from the depths of barbarism to the heights of civilization. <span class="bottismall"><br />
+        <br />
+    </span></td> 
+    <td width="20">&nbsp;</td></tr></table><table width="622" border="0" cellspacing="0" cellpadding="0">
+ <tr>
+	  <td width="20">&nbsp;</td>
+    <td width="180" align="center" class="bottiblock">&ldquo;The White Man&rsquo;s Burden (Apologies to Rudyard Kipling)&rdquo; (detail)<br />
+        <span class="bottiblockplain">Judge,</span> April 1, 1899<br />
+      Artist: Victor Gillam<br />
+      Source: The Ohio State University
+Billy Ireland Cartoon Library &amp; Museum<br />
+<a href="https://library.osu.edu/ims/files/g732tk384#.VnRQOHsfuP8" target="_blank">[view]</a><span class="halfer"><br />
+       <br /></span>
+	   <span class="bottismall">
+[cb25-141_1899_Judge_10386_osu]<br />
+<br />
+</span>
+<span class="bottismall"><br />
+      <br /></span>
+      Britain&rsquo;s John Bull leads Uncle Sam uphill as the two imperialists take up the &ldquo;White Man&rsquo;s Burden&rdquo; in this detail from an overtly racist 1899 cartoon referencing Kipling&rsquo;s poem.       </td>
+	  <td width="6">&nbsp;</td>
+	<td width="416" align="left" valign="top" class="halfer"><a href="javascript:openvcidwindow('gallery/pages/cb25-141_1899_judge__2d5989.htm');"><img src="image/cb25-141_1899_Judge_d_17063.jpg"  alt="MIT Visualizing Cultures" width="412" height="480" border="0" title=""/></a><br />
+      <br /></td> 
+  </tr></table>
+  <table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="20">&nbsp;</td>
+    <td width="582" align="left" class="bottibody">The cartoon takes its title from Rudyard Kipling&rsquo;s poem &ldquo;The White Man&rsquo;s Burden.&rdquo; Published in February, 1899 in response to the annexation of the Philippines by the United States, the poem quickly became a famous endorsement of the civilizing mission&mdash;a battle cry, full of heroic stoicism and self-sacrifice, offering moral justification for U.S. perseverance in its first major and unexpectedly prolonged overseas war.<span class="bottismall"><br />
+        <br />
+    </span></td> 
+    <td width="20">&nbsp;</td></tr></table>
+	<table width="622" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td colspan="3" align="center" valign="top" class="bottibody2">
+<a href="javascript:openvcidwindow('gallery/pages/cb02-027_28_mcclures.htm');"><img src="image/cb02-027_28_Mcclures.png"  alt="MIT Visualizing Cultures" width="622" height="auto" border="0" title=""/></a><a href="javascript:openvcidwindow('gallery/pages/s2003_8_1179.htm');"></a></td>
+</tr> <tr>
+    <td width="61">&nbsp;</td>
+    <td width="500" align="center" >
+    <span class="bottiblock">Original publication of Rudyard Kipling&rsquo;s poem, &ldquo;The White Man&rsquo;s Burden.&rdquo;<br />
+    </span><span class="bottiblockplain">McClure&rsquo;s Magazine,</span><span class="bottiblock"> February, 1899 (Vol. XII, No. 4)<br />
+    </span><span class="halfer"><br /><br />
+    </span><span class="bottismall">[cb02-027_28_Mcclures]</span><br />
+<br />
+<br />
+</td> 
+    <td width="61">&nbsp;</td>
+  </tr>
+</table>
+   <table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="20">&nbsp;</td>
+    <td width="582" align="left" class="bottibody">Newly conquered populations, described in the opening stanza as &ldquo;your new-caught, sullen peoples, half-devil and half-child&rdquo; would need sustained commitments &ldquo;to serve your captives&lsquo; needs.&rdquo; <blockquote>
+Take up the White Man's burden&mdash;<br />
+  Send forth the best ye breed&mdash;<br />
+  Go bind your sons to exile<br />
+  To serve your captives' need;<br />
+  To wait in heavy harness,<br />
+  On fluttered folk and wild&mdash;<br />
+  Your new-caught, sullen peoples,<br />
+  Half-devil and half-child.</blockquote>
+Expansionism promulgated under the banner of civilization could not escape being carried out in global military campaigns, referred to as the &ldquo;savage wars of peace&rdquo; in the third stanza:<blockquote>
+Take up the White Man's burden&mdash;<br />
+  The savage wars of peace&mdash;<br />
+  Fill full the mouth of Famine<br />
+  And bid the sickness cease;<br />
+  And when your goal is nearest<br />
+  The end for others sought,<br />
+  Watch sloth and heathen Folly<br />
+  Bring all your hopes to nought.</blockquote>
+Such avowed paternalism towards other cultures recast the invasion of their lands as altruistic service to humankind. The aggressors brought progress in the form of modern technology, communications, and Western dress and culture. Christian missionaries often led the way, followed by politicians, troops, and&mdash;bringing up the rear&mdash;businessmen. Education in the ways of the West completed the political and commercial occupation. Cartoons endorsing imperialist expansion depicted a beneficent West as father, teacher, even Santa Claus&mdash;bearing the gifts of progress to benefit poor, backward, and childlike nations destined to become profitable new markets.<br/>
+<br/>
+<!--Three major overlapping conflicts drew particular attention at the turbulent turn of the century&mdash;the Philippine-American War and Britain&rsquo;s Boer War in Africa (both 1899-1902), and the eight-nation international alliance that marched on Beijing during the Boxer Uprising in China (1899-1901).<br/><br/> -->
+In the United States, the Boer War, conquest of the Philippines,  and Boxer Uprising  prompted large, detailed, sophisticated, full-color cartoons in <em>Puck</em> and <em>Judge.</em> Although these magazines were affiliated with different political parties&mdash;the Democratic Party and Republican Party respectively&mdash;both generally supported pro-expansionist policies. Opposing viewpoints usually found expression in simpler but no less powerful black-and-white graphics in other publications. Periodicals like <em>Life</em> in the U.S. (predecessor to the later famous weekly of the same title), as well as French and German publications, printed both poignant and outraged visual arguments against the imperialist tide, often with acute sensitivity to its racist underpinnings.<br/>
+<br/>
+These more critical graphics did not exist in a vacuum. On the contrary, they reflected intense debates about &ldquo;civilization,&rdquo; &ldquo;progress,&rdquo; and &ldquo;the white man&rsquo;s burden&rdquo; that took place on both sides of the Atlantic. It was the anti-imperialist cartoonists, however, who most starkly posed the question: who is the real barbarian?<br/><br/></td> 
+    <td width="20">&nbsp;</td></tr></table>
+	<table width="622" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+
+    <td width="20">&nbsp;</td>
+    <td width="582" align="left" valign="top" class="bottibody"><br /><br />
+<br />
+<img src="../home/image/redline.gif" width="570" height="1"  alt="MIT Visualizing Cultures" title=""/><br />                
+<table width="582" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="3" class="bottismall" ><!--<a href="javascript:imalert('../home/about.html')"><em>On viewing images of a potentially disturbing nature: click here.</em></a> --><br /><br /></td></tr><tr>
+  <td  width="350" align="left" valign="middle" class="bottismall" >Massachusetts Institute of Technology &#169; 2014 Visualizing Cultures
+                </td> 
+  <td  width="152" align="right" valign="middle" class="bottismall" > &nbsp;<a href="http://creativecommons.org/licenses/by-nc-sa/3.0/us/" target="_blank">Creative Commons License</a>&nbsp;&nbsp;
+              
+</td><td  align="left" valign="top" width="80" class="bottismall" ><a rel="license"
+ href="http://creativecommons.org/licenses/by-nc-sa/3.0/us/" target="_blank" ><img src="http://visualizingcultures.mit.edu/home/image/cc.png" alt="Creative Commons - some rights reserved" width="80" height="15" border="0" align="left" /></a></td>
+
+
+    </tr><tr><td colspan="3" class="bottismall" ><br /></td></tr></table>
+               
+          </td>
+    <td width="20">&nbsp;</td>
+  </tr>
+</table></td>
+        </tr>
+ <tr>
+          <td align="left" valign="top"><div class="essaynavbottom">
+  <table width="622" border="0" cellspacing="0" cellpadding="0" align="left">
+  <tr align="left">
+    <td align="left" width="105"><img src="image/cb_essay_nav_01.gif"  alt="Civilization &amp; Barbarism" name="nav01b" width="622" height="58" border="0" usemap="#Map5" id="nav01b" title=""/></td>
+  </tr>
+</table>
+</div><div class="bottom"><img src="../kiyochika_tokyo/image/bottom2.gif"  alt="MIT Visualizing Cultures" width="970" height="122" border="0" align="left" title=""/></div>
+</td>
+ </tr>
+
+
+	  </table>
+</div>
+<div class="top"><img src="image/essay_top.gif"  alt="MIT Visualizing Cultures" width="970" height="104" border="0" align="left" title=""/></div>
+
+<!--end background elements -->
+
+<!-- essay nav -->
+<div class="essaynavtop"><table width="622" border="0" cellspacing="0" cellpadding="0" align="left">
+  <tr align="left">
+    <td align="left" width="105"><img src="image/cb_essay_nav_01.gif"  alt="Civilization &amp; Barbarism" name="nav01" width="622" height="58" border="0" usemap="#Map4" id="nav01" title=""/></td>
+  </tr>
+</table>
+</div>
+<!-- end essay nav -->
+<!-- <div class="slug" id="slug"><span class="bottibody2">Massachusetts Institute of Technology &#169; 2010 Visualizing Cultures</span></div> -->
+<!-- right-hand buttons -->
+<!-- <div class="boxtoalink" id="boxtoalink"><a href="javascript:alert('Sorry, this unit is unavailable in this demonstration.')" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image11','','../home/image/go_toa02.gif',1);noverlay();noverlayv();noverlayu();"><img src="../home/image/go_toa.gif" alt="Visual Narrative" name="Image11" width="243" height="276" border="0" id="Image11" title=""/></a></div>  -->
+<div class="boxpdf" id="boxpdf">
+<table width="348" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="39" align="left" valign="bottom"><!--<img alt="MIT Visualizing Cultures"  title="" border="0"  src="../rise_fall_canton_01/image/cw_pop_dot.gif"  width="42" height="17" />--></td>
+    <td width="240" align="left" valign="top" class="bottibody2"><a href="cb_essay_01.pdf"  target="_blank" onmouseover="noverlay();noverlayv();noverlayu();">Printer-friendly PDF</a><br />
+            <br /><br />
+     <a href="javascript:imalert('../home/about.html')">Warning: On viewing images of <br />
+a potentially
+disturbing nature</a><br /><br />
+
+  <img src="image/spacer.gif" alt="MIT Visualizing Cultures" width="22" height="57" /><br />
+ </td>
+  </tr>
+</table>
+
+</div>
+
+
+
+<!--end  right-hand buttons -->
+
+
+<!-- essay -->
+<div class="essay">
+
+</div>
+<!--end  essay -->
+
+
+</div>
+</div>
+
+
+<!--top bar nav elements -->
+<div class="box14" id="box14" ><table  width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><img src="../home/image/spacer.gif" width="10" height="26"  alt="MIT Visualizing Cultures"/><img src="../home/image/hometopnav01.gif"  alt="Menu" width="227" height="26" border="0" usemap="#topmap"/></td>
+  </tr>
+</table>
+</div>
+
+<div class="box15" id="box15" ><table  width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><img src="../home/image/spacer.gif" width="10" height="27"  alt="MIT Visualizing Cultures"/></td>
+  </tr>
+</table>
+</div>
+
+<div class="navbox" id="hideme"><a  onmouseout="javascript:noverlay();" onmouseover="javascript:overlay();"><img src="../home/image/vc_home_nav.png" alt="MIT Visualizing Cultures" width="202" height="300" border="0" usemap="#Map"  id="Image5"  name="Image5" title="" /></a></div> 
+
+
+<div class="twit">
+<a href="https://twitter.com/share" class="twitter-share-button" data-count="none">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></div>
+
+<div class="emil"><!--email-->
+<script type="text/javascript"><!--
+
+var SubjectLine='MIT Visualizing Cultures'; 
+var BodyText='You can see this page at: '+top.location.href;
+
+var Message='<A CLASS=contact HREF="mailto:?SUBJECT='+escape(SubjectLine)+'&BODY='+escape(BodyText)+'" OnMouseOver="status=\'Envoyer cette page à vos amis\'; return true;" ><img src="../home/image/email2.gif" alt="Email" name="Image321"   border="0" id="Image321"  title=""/><\/A>';
+
+var MessageIE='<A CLASS=contact HREF="mailto:?SUBJECT='+(SubjectLine)+'&BODY='+(BodyText)+'" OnMouseOver="status=\'Envoyer cette page à vos amis\'; return true;" ><img src="../home/image/email2.gif" alt="Email" name="Image321"   border="0" id="Image321"  title=""/><\/A>';
+
+if(document.all) { document.write(MessageIE); }
+
+else { document.write(Message); }
+
+// http://javascriptsource.com "The JavaScript Source"
+//--></script></div>
+
+
+
+<!--facebook--><div class="fbok">
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<div class="fb-like" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false" data-colorscheme="light" data-font="verdana"></div>
+
+</div> 
+
+<div class="unitsnavbox01" id="unitsnavbox01" ><a  onmouseout="javascript:noverlayu();" onmouseover="javascript:overlayu();"><img src="../home/image/unitstopnav01.gif"  alt="Units" width="227" height="26" border="0" /></a></div>
+ 
+<div class="navboxu" id="hidemeu"><a href="#" onmouseout="javascript:noverlayu();" onmouseover="javascript:overlayu();"><img src="../home/image/vc_units_cur_nav.png" alt="MIT Visualizing Cultures" width="179" height="148" border="0" usemap="#Map3"  id="Image6"  name="Image6" title=""/></a></div> 
+
+
+<div class="xnavbox" id="xnavbox" ><a  onmouseout="javascript:noverlayx();" onmouseover="javascript:overlayx();"><img src="image/topnav.gif"  alt="Civilization &amp; Barbarism" width="227" height="26" border="0"  title="" /></a></div>
+
+<div class="navboxx" id="hidemex"><a  onmouseout="javascript:noverlayx();" onmouseover="javascript:overlayx();"><img src="image/cb_nav.png" alt="Civilization &amp; Barbarism"  name="Image8" width="223" height="110" border="0" usemap="#Image8Map"   id="Image8" title="" /></a></div>
+ 
+ 
+
+
+<div class="unitnavbox" id="unitnavbox" ><a  onmouseout="javascript:noverlayv();" onmouseover="javascript:overlayv();"><img src="../home/image/essaytop.gif"  alt="Essay" width="227" height="26" border="0" title="" /></a></div> 
+ 
+<div class="navboxv" id="hidemev"><a  onmouseout="javascript:noverlayv();" onmouseover="javascript:overlayv();"><img src="image/cb_nav_i.png" alt="Essay"  name="Image7" width="207" height="238" border="0" usemap="#Image7Map"   id="Image7" title=""/>
+</a></div>
+
+ 
+<!--end top bar nav elements -->
+
+
+
+<!--image maps -->
+
+<map name="Map4" id="Map4">
+  
+<area shape="rect" coords="0,0,117,66"   href="cb_essay01.html" onmouseover="MM_swapImage('nav01','','image/cb_essay_nav_01.gif',1);noverlay();noverlayv();noverlayu()" onmouseout="MM_swapImgRestore()" alt="Introduction" title=""/>
+
+<area shape="rect" coords="115,0,237,60" href="cb_essay02.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01','','image/cb_essay_nav_02.gif',1);noverlay();noverlayv();noverlayu()"    title=""   alt="#8220;The White Man's Burden&#8221;"/>
+
+<area shape="rect" coords="237,0,334,59" href="cb_essay03.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01','','image/cb_essay_nav_03.gif',1);noverlay();noverlayv();noverlayu()"    title=""   alt="Progress &amp; Profits"/>
+
+  <area shape="rect" coords="333,1,420,60" href="cb_essay04.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01','','image/cb_essay_nav_04.gif',1);noverlay();noverlayv();noverlayu()"    title=""   alt="Bibles &amp; Guns"/>
+  
+  <area shape="rect" coords="418,3,525,61" href="cb_essay05.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01','','image/cb_essay_nav_05.gif',1);noverlay();noverlayv();noverlayu()"    title=""   alt="Who is the Barbarian?"/>
+  
+  <area shape="rect" coords="524,0,627,57" href="cb_essay06.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01','','image/cb_essay_nav_06.gif',1);noverlay();noverlayv();noverlayu()"    title=""   alt="Sources &amp; Credits"/>
+</map> 
+
+<map name="Map5" id="Map5">
+<area shape="rect" coords="0,0,117,66"   href="cb_essay01.html" onmouseover="MM_swapImage('nav01b','','image/cb_essay_nav_01.gif',1);noverlay();noverlayv();noverlayu()" onmouseout="MM_swapImgRestore()" alt="Introduction" title=""/>
+
+<area shape="rect" coords="115,0,237,60" href="cb_essay02.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01b','','image/cb_essay_nav_02.gif',1);noverlay();noverlayv();noverlayu()"    title=""   alt="#8220;The White Man's Burden&#8221;"/>
+
+<area shape="rect" coords="237,0,334,59" href="cb_essay03.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01b','','image/cb_essay_nav_03.gif',1);noverlay();noverlayv();noverlayu()"    title=""   alt="Progress &amp; Profits"/>
+
+  <area shape="rect" coords="333,1,420,60" href="cb_essay04.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01b','','image/cb_essay_nav_04.gif',1);noverlay();noverlayv();noverlayu()"    title=""   alt="Bibles &amp; Guns"/>
+  
+  <area shape="rect" coords="418,3,525,61" href="cb_essay05.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01b','','image/cb_essay_nav_05.gif',1);noverlay();noverlayv();noverlayu()"    title=""   alt="Who is the Barbarian?"/>
+  
+  <area shape="rect" coords="524,0,627,57" href="cb_essay06.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01b','','image/cb_essay_nav_06.gif',1);noverlay();noverlayv();noverlayu()"    title=""   alt="Sources &amp; Credits"/>
+</map> 
+
+
+    <map name="topmap" id="topmap">
+    <area shape="rect" coords="0,0,180,47" href="#" onmouseover="overlay();"  alt="MIT Visualizing Cultures" />
+      <area shape="rect" coords="194,0,300,47" href="#" onmouseover="overlayu();"  alt="VC Units" />
+  </map>
+    
+
+<map name="Map" id="Map">
+      <area shape="rect" coords="0,0,211,39" href="../home/index.html" onmouseover="overlay()" alt="MIT Visualizing Cultures"/>
+      <area shape="rect" coords="0,39,211,66" href="../home/vc01_about.html" target="_top"  alt="About VC" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_02.png',1)"/>      
+      <area shape="rect" coords="0,66,211,96" href="../home/vc02_schol.html" target="_top"  alt="VC Scholars" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_03.png',1)" />
+  <area shape="rect" coords="0,96,211,124" href="../home/vc03_partner.html" target="_top"  alt="Partner Institutions" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_04.png',1)" />
+
+  <area shape="rect" coords="0,124,211,147" href="../home/vc05_outreach.html" target="_top"  alt="Outreach" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_05.png',1)" />
+  <area shape="rect" coords="3,147,211,181" href="../home/vc06_event.html" target="_top"  alt="Conferences &amp; Events" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_06.png',1)" />
+  <area shape="rect" coords="3,181,211,214" href="mailto:visualizingcultures@mit.edu" target="_top"  alt="Contact" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_07.png',1)" />
+ <area shape="rect" coords="1,214,212,240" href="http://www.facebook.com/home.php#!/group.php?gid=261831254970&amp;ref=ts" target="_blank"  alt="Join Us" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_08.png',1)" />
+  <area shape="rect" coords="0,240,211,266" href="http://twitter.com/Visualizing_Cul" target="_blank"  alt="Follow Us" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_09.png',1)" />
+</map>
+
+
+<map name="Image7Map" id="Image7Map">
+  <area shape="rect" coords="1,3,213,31" href="index.html" target="_top" alt="Essay" onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();" />
+      
+	  <area shape="rect" coords="1,40,258,70" href="cb_essay01.html" target="_top" alt="Introduction" onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();MM_swapImage('Image7','','image/cb_nav_i_01.png',1)" />
+  
+  <area shape="rect" coords="0,68,258,96" href="cb_essay02.html" target="_top" alt="&#8220;The White Man’s Burden&#8221;" onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();MM_swapImage('Image7','','image/cb_nav_i_02.png',1)" />
+
+<area shape="rect" coords="0,95,258,122" href="cb_essay03.html"  target="_top" alt="Progress &amp; Profits" onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();MM_swapImage('Image7','','image/cb_nav_i_03.png',1)" />
+
+<area shape="rect" coords="0,121,258,150" href="cb_essay04.html"  target="_top" alt="Bibles &amp; Guns" onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();MM_swapImage('Image7','','image/cb_nav_i_04.png',1)" />
+
+<area shape="rect" coords="0,149,258,179" href="cb_essay05.html"  target="_top" alt="Who is the Barbarian?" onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();MM_swapImage('Image7','','image/cb_nav_i_05.png',1)" />
+
+<area shape="rect" coords="0,178,258,200" href="cb_essay06.html"  target="_top" alt="Sources &amp; Credits" onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();MM_swapImage('Image7','','image/cb_nav_i_06.png',1)" />
+
+
+</map>
+<map name="Map3" id="Map3">
+  
+<area shape="rect" coords="0,2,312,30" href="../home/vis_menu.html" target="_top" alt="Units" onmouseout="noverlayu();MM_swapImgRestore()" onmouseover="overlayu();" />
+
+<area shape="rect" coords="2,38,314,68" href="../home/vis_menu.html" target="_top" alt="Icon View" onmouseout="noverlayu();MM_swapImgRestore()" onmouseover="overlayu();MM_swapImage('Image6','','../home/image/vc_units_cur_nav_01.png',1)" />
+
+<area shape="rect" coords="0,67,312,95" href="../home/vis_menu_02b.html" target="_top" alt="Text View" onmouseout="noverlayu();MM_swapImgRestore()" onmouseover="overlayu();MM_swapImage('Image6','','../home/image/vc_units_cur_nav_02.png',1)" />
+
+<area shape="rect" coords="1,94,313,122" href="../home/vis_menu_03.html" target="_top" alt="Curriculae" onmouseout="noverlayu();MM_swapImgRestore()" onmouseover="overlayu();MM_swapImage('Image6','','../home/image/vc_units_cur_nav_03.png',1)" /></map>
+
+<map name="Image8Map" id="Image8Map">
+  
+<area shape="rect" coords="0,2,312,30" href="index.html" target="_top" alt="Civilization &amp; Barbarism" onmouseout="noverlayx();MM_swapImgRestore()" onmouseover="overlayx();" />
+
+<area shape="rect" coords="0,39,316,66" href="cb_gallery.html" target="_top" alt="Civilization &amp; Barbarism" onmouseout="noverlayx();MM_swapImgRestore()" onmouseover="overlayx();MM_swapImage('Image8','','image/cb_nav_01.png',1)" />
+
+
+</map>
+
+
+</body>
+</html>

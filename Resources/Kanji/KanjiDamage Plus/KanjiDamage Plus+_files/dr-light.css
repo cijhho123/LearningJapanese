@@ -1,0 +1,66 @@
+.Card {
+ font-family: arial;
+ font-size: 20px;
+ text-align: center;
+}
+
+.kanji {
+ font-family: EPSON 教科書体Ｍ;
+ font-size: 96px;
+}
+
+.mnemonic {
+ font-family: Century Gothic;
+ font-size: 16px;
+}
+
+.onyomi {
+	color:#f89406;
+}
+
+.radical {
+	color:#FF1200;
+}
+
+.keyword {
+	color:#46a546;
+}
+
+.other {
+	color:#637c8b;
+}
+
+.particle {
+	color:#5c73b8;
+}
+
+.okurigana {
+ font-weight:600;
+ color:#5c73b8;
+}
+
+.keyword-big {
+ font-family: Century Gothic;
+ font-size: 36px;
+ color: #46a546;
+}
+
+.onyomi-big {
+ font-family: Meiryo UI;
+ font-size: 40px;
+ color: #ff7300;
+}
+
+.kunyomi {
+ font-family: Meiryo UI;
+ font-size: 20px;
+}
+
+.number {
+ font-family: Cambria Math;
+ font-size: 20px;
+}
+
+.words {
+ font-family: Meiryo UI;
+}

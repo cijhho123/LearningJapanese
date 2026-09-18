@@ -1,0 +1,658 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/tr/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>MIT Visualizing Cultures</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+
+
+<style type="text/css">
+<!--
+
+.backg {
+	position:absolute;
+	left:0px;
+	top:180px;
+	z-index: 1;
+background-image:url(../gt_japan_people/image/essay_bck.gif);
+}
+.top {
+	position:absolute;
+	left:0px;
+	top:45px;
+	z-index: 2;
+}
+.bottom {
+	position:absolute;
+	left:0px;
+	z-index: 2;
+}
+.essaynavtop {
+	position:absolute;
+	left:0px;
+	top:142px;
+	z-index: 3;
+}
+.essaynavbottom {
+	position:absolute;
+	left:0px;
+	z-index: 3;
+}
+.essay {
+	position:absolute;
+	left:20px;
+	top:195px;
+	z-index: 4;
+	background-color:#FFFFFF;
+}
+.flashy {
+	position:absolute;
+	left:467px;
+	top:42px;
+	z-index: 3;
+}
+.slug {        position:absolute;
+        left:20px;
+        top:475px;
+        width:476px;
+		z-index:2;
+		text-align:left;
+}
+.navbox {
+		position: fixed;
+        left:10px;
+        top:0px;
+		z-index: 5;
+		visibility:hidden;
+}
+.unitsnavbox01 {
+        position:fixed;
+        left:200px;
+        top:0px;
+		z-index:5;
+}
+.unitnavbox {
+        position:fixed;
+        left:271px;
+        top:0px;
+		z-index:6;
+}
+.navboxu {
+		position: fixed;
+        left:200px;
+        top:0px;
+		z-index: 6;
+		visibility:hidden;	 
+}
+.navboxv {
+		position: fixed;
+        left:271px;
+        top:0px;
+		z-index: 7;
+		visibility:hidden;	 
+}
+.box14 {
+        position:fixed;
+        left:0px;
+        top:0px;
+		z-index:5;
+		background-color:#222222;
+		width:100%
+}
+.box15 {
+        position:fixed;
+        left:0px;
+        top:0px;
+		z-index:4;
+	    width: 100%;
+		background-color:#504B48
+}
+.box16 {        position:fixed;
+        left:0px;
+        top:23px;
+		z-index:4;
+	width: 100%;
+background-color:#2F302F 
+}
+.popup01 {        position:absolute;
+        left:624px;
+        top:2020px;
+		z-index:4;
+}
+.boxtoalink {        position:absolute;
+        left:624px;
+        top:1294px;
+		z-index:4;
+}
+.boxpdf {        position:absolute;
+        left:621px;
+        top:410px;
+		z-index:4;
+}
+.box01 { 
+		position: static;
+		top: 20%;
+		left: 20%;
+}
+#horizon        
+	{
+	text-align: center;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 1px;
+	overflow: visible;
+	visibility: visible;
+	display: block
+	}
+
+#content    
+	{
+	margin-left: -485px;
+	position: absolute;
+	top: 0px;
+	left: 50%;
+	width: 250px;
+	height: 70px;
+	visibility: visible;
+
+	}
+.monkeybox {        position:absolute;
+        left:624px;
+		z-index:4;
+		line-height:20px;
+}
+.bottibody {color: #111111; font-size: 13px; line-height: 19px; font-family: Verdana, Arial, Helvetica, sans-serif
+	}
+.bottibody2 {color: #ffffff; font-size: 11px; line-height: 16px; font-family: Verdana, Arial, Helvetica, sans-serif
+	}
+.bottiblock {
+	color: #2D2D2D;
+	font-size: 15px;
+	line-height: 19px;
+	/*font-family: Georgia, "Times New Roman", Times, serif;*/
+	font-family: Times New Roman, Times, serif;
+	font-style: italic;
+	}
+.bottiblockplain {
+	color: #2D2D2D;
+	font-size: 15px;
+	line-height: 19px;
+	/*font-family: Georgia, "Times New Roman", Times, serif;*/
+	font-family:   Times New Roman, Times, serif;
+	font-style: normal;
+	}
+.bottismall {
+	color: #333333;
+	font-size: 9px;
+	line-height: 12px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-style: normal;
+	}
+.head { color: #3C6382; font-size: 15px; line-height: 19px; font-family: Verdana, Arial, Helvetica, sans-serif
+	}
+.halfer { color: #ffffff; font-size: 6px; line-height: 6px; font-family: Verdana, Arial, Helvetica, sans-serif
+	}
+a:link {
+        color:#1233FF;
+        text-decoration:none;
+    }
+ a:active { 
+		color:#1233FF;
+        text-decoration:none;
+	}
+a:visited {
+		color:#1233FF;
+        text-decoration:none;
+	}
+a:hover {
+		color:#1233FF;
+        text-decoration:underline;
+	}
+.twit {
+		position: fixed;
+        top: 2px;
+        left: 810px;
+		z-index: 7;
+		
+}
+.emil{
+		position: fixed;
+        top: 4px;
+        left: 876px;
+		z-index: 7;
+		
+}
+.fbok{
+		position: fixed;
+        top: 2px;
+        left: 916px;
+		z-index: 7;
+		width: 48px;
+		overflow:hidden;
+}
+-->
+</style>
+
+
+<script language="JavaScript" type="text/JavaScript">
+<!--
+//rollovers for menus
+function overlay() {
+        el = document.getElementById("hideme");
+        el.style.visibility ="visible";
+		noverlayu();
+		noverlayv();
+}
+
+function noverlay() {
+        el = document.getElementById("hideme");
+        el.style.visibility ="hidden";
+}
+
+
+function overlayu() {
+        el = document.getElementById("hidemeu");
+        el.style.visibility ="visible";
+		noverlay();
+		noverlayv();
+}
+function noverlayu() {
+        el = document.getElementById("hidemeu");
+        el.style.visibility ="hidden";
+}
+
+
+function overlayv() {
+        el = document.getElementById("hidemev");
+        el.style.visibility ="visible";
+		noverlay();
+		noverlayu();
+}
+function noverlayv() {
+        el = document.getElementById("hidemev");
+        el.style.visibility ="hidden";
+}
+
+
+
+
+function sesame() {
+window.moveTo(0,0);        
+window.resizeTo(1350,screen.height);
+}
+
+
+window.onload=function()
+{
+	//sesame();
+	noverlay();
+	noverlayu();
+	MM_preloadImages('../home/image/vc_units_nav_11.png','../home/image/vc_units_nav_01.png','../home/image/vc_units_nav_07.png','../home/image/vc_home_nav_02.png','../home/image/essay_icon02.gif','../home/image/vn_icon02.gif','../home/image/pdf_chap02.gif','../home/image/go_toa02.gif','image/ar_nav_04.png','image/ar_nav_02.png','image/ar_nav_03.png','image/ar_essay_nav_01.gif','image/ar_essay_nav_02.gif','image/ar_essay_nav_03.gif','image/ar_essay_nav_04.gif','image/ar_essay_nav_05.gif','image/ar_essay_nav_06.gif','../home/image/popup02.gif');
+}
+var newwindow = '';
+
+function imalert(url)
+{
+	if (!newwindow.closed && newwindow.location)
+	{
+		newwindow.location.href = url;
+	}
+	else
+	{
+		newwindow=window.open(url,'windowtwo','height=360,width=586, toolbar=no,  resizable=yes, status=no, scrollbars=yes');
+		if (!newwindow.opener) newwindow.opener = self;
+	}
+	if (window.focus) {newwindow.focus()}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//
+var vcidwindow = '';
+
+function openvcidwindow(url)
+{
+	if (!vcidwindow.closed && vcidwindow.location)
+	{
+		vcidwindow.location.href = url;
+	}
+	else
+	{
+		vcidwindow=window.open(url,'vcid','height=950,width=1000, toolbar=yes, scrollbars=yes, resizable=yes, location=yes');
+		if (!vcidwindow.opener) vcidwindow.opener = self;
+	}
+	if (window.focus) {vcidwindow.focus()
+	}
+	} 
+
+
+
+ var curwindow = '';
+
+function opencurwindow(url)
+{
+	if (!curwindow.closed && curwindow.location)
+	{
+		curwindow.location.href = url;
+	}
+	else
+	{
+		curwindow=window.open(url,'curriculum','height=800,width=720, toolbar=yes, scrollbars=yes, resizable=yes,  location=yes');
+		if (!curwindow.opener) curwindow.opener = self;
+	}
+	if (window.focus) {curwindow.focus()
+	}
+	} 
+//-->
+</script>
+<script type="text/javascript">
+<!--
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." :
+"http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost +
+"google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+//-->
+</script>
+<script type="text/javascript">
+<!--
+try {
+var pageTracker = _gat._getTracker("UA-12446158-1");
+pageTracker._trackPageview();
+} catch(err) {}
+//-->
+</script></head>
+<body bgcolor="#252422" onload="MM_preloadImages('image/ar_nav_05.png')">
+<div  id="horizon">
+<div  id="content">
+<!--background elements -->
+
+<div class="top"><img src="image/essay_top.gif"  alt="MIT Visualizing Cultures" width="970" height="136" border="0" align="left" title=""/></div>
+<!--end background elements -->
+<!-- essay nav -->
+<div class="essaynavtop"><table width="622" border="0" cellspacing="0" cellpadding="0" align="left">
+  <tr align="left">
+    <td align="left" width="105"><img src="image/ar_essay_nav_01.gif"  alt="Asia Rising" name="nav01" width="622" height="39" border="0" usemap="#Map4" id="nav01" title=""/></td>
+  </tr>
+</table>
+</div>
+
+
+<!-- end essay nav -->
+
+<!-- <div class="slug" id="slug"><span class="bottibody2">Massachusetts Institute of Technology &#169; 2008 Visualizing Cultures</span></div> -->
+
+
+<!-- right-hand buttons -->
+
+
+
+<div class="boxpdf" id="boxpdf"><a href="pdf/ar_essay_01.pdf" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image12','','../home/image/pdf_chap02.gif',1);noverlay();noverlayv();noverlayu();"  target="_blank" ><img src="../home/image/pdf_chap.gif" alt="Printable PDF of this chapter" name="Image12" width="348" height="67" border="0" id="Image12"  title=""/></a></div>
+
+
+<!--end  right-hand buttons -->
+
+
+<!-- essay -->
+<div class="backg">
+<table width="970" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="20">&nbsp;</td>
+    <td width="579" ><table width="579" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td  align="left" valign="top" class="bottibody">                
+                <span class="head"><br />
+Introduction</span>
+                <span class="halfer"><br />
+                <br />
+                </span>
+            On February 8, 1904, Imperial Japan launched war against Tsarist Russia and changed the global balance of power. A Japanese armada under Admiral T&#333;g&#333; Heihachir&#333; attacked the Russian Far Eastern Fleet&mdash;inflicting heavy losses, driving the Russians back into their anchorage at Port Arthur, and clamping a blockade on them.<br />
+            <br />
+            On February 10, Japan formally declared war.<br />
+            <br />
+          Despite the initial surprise attack, the war itself was no surprise. Both nations looked upon northeast Asia&mdash;Manchuria and Korea in particular&mdash;as critical to their strategic interests. Russia was developing its vast eastern frontier and completed the Trans-Siberian Railway between Moscow and Vladivostok (a distance of 5,772 miles, passing through eight time zones) at the turn of the century. Links to lines running across Manchuria (the Chinese Eastern Railway) and south to Port Arthur (the South Manchurian Railway) were in operation by 1903. Ever since the 1880s, Japan had cast its eyes west to Korea (&ldquo;the dagger pointing at the heart of Japan&rdquo;) and the northern reaches of China, including Manchuria north of the Great Wall. The two expanding empires were on a collision course.<br />          <br/></td>
+        </tr></table>
+		 <table border="0" cellspacing="0" cellpadding="0" align="right">
+          <tr> 
+          <td align="right" valign="top"><img src="image/trans_siberia_rr.gif" alt="Map of the Trans-Siberian Railway" width="579" height="406" /></td>
+          </tr>
+     <tr align="left" valign="top"> 
+          <td align="center" class="bottibody"><img src="image/space.gif" alt="space"   width="35" height="260" align="left" title="" /><img src="image/space.gif" width="35" height="260" align="right" alt="space"  title=""/><span class="bottiblock">The Russo-Japanese War took place neither in Japan nor Russia, but largely in Manchuria&mdash;the vast part of China that lay north of the Great Wall.<span class="halfer"><br />
+            <br /><br />
+          </span>
+            Much of the fighting focused on control of Port Arthur, where the Japanese had bottled up the Russian Far Eastern Fleet at the outset of the war in February 1904. The greatest land battle took place at Mukden in March 1905. The greatest naval battle was Admiral T&#333;g&#333;&rsquo;s
+            devastating May 1905 victory at Tsushima, where he destroyed a huge Russian fleet that had sailed around the world from the Baltic.<span class="halfer"><br /><br /><br />
+            </span>
+            The vast distance that Russian troops and supplies had to travel to get to the front posed enormous difficulties. The Trans-Siberian Railway and connecting railway lines were the key to these challenging logistics.
+            <br />
+            <br />
+          </span></td>
+        </tr> 
+ <tr> 
+          <td align="left" valign="top" class="bottibody">
+            
+            Tension between the two countries had been intense since 1895, when Russia, France, and Germany intervened to force Japan to give up one of the territorial spoils it acquired by crushing China in the Sino-Japanese War. The prize in question was a strategic leasehold in Port Arthur and the surrounding Liaodong Peninsula&mdash;and three years later, in 1898, Russia extracted this same concession from China for itself. <div class="monkeybox" id="boxtoalink"><a href="../throwing_off_asia_03/index.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image11','','../home/image/go_toa02.gif',1);noverlay();noverlayv();noverlayu();"><img src="../home/image/go_toa.gif" alt="Visual Narrative" name="Image11" width="243" height="276" border="0" id="Image11" title=""/></a></div>That is how the Russian fleet came to be in Port Arthur; and that is why Admiral T&#333;g&#333;&rsquo;s early victory brought almost delirious joy to the Japanese.<br />
+            <br />
+          Japan entered the war well prepared. Its military machine had been enlarged and updated in major ways in the decade since the defeat of China. Beyond this, a bilateral military alliance with Great Britain, dating from 1902, guaranteed that no other nation would intervene on Russia&rsquo;s side (for this would trigger British support of Japan). Japan and Russia would be left to pound each other one against one. To help finance the war, Japan raised large loans in London and New York.<br />
+          <br />
+          The Russo-Japanese War was brutal and left hundreds of thousands dead before a peace treaty was signed on September 5, 1905. For journalists, photographers, artists, and military attaches from around the world, it was an engrossing and even attractive affair&mdash;modern war turned into a spectator sport. Foreign observers flocked to the scene, and large numbers of them traveled officially with the Japanese army. British, American, French, and German warships gathered off the China coast to witness the mayhem, occasionally dropping anchor together. <a name="hare" id="hare"></a>In the United States and Europe, photographs of this titanic struggle between &ldquo;East&rdquo; and &ldquo;West&rdquo; were published in periodicals and collected in large-format volumes.<br />
+          <br />          </td>
+          </tr>
+<tr>
+              <td  align="center" class="bottiblock">
+<div class="monkeybox" id="popup01"><br /><br /><br /><br /><br />
+<br />
+<br />
+<br />
+<a href="ar_photo.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image98','','image/hare_link02.gif',1);noverlay();noverlayv();noverlayu();"><img src="image/hare_link.gif" alt="pop-up" name="Image98" width="348" height="67" border="0" id="Image98" title=""/></a></div>
+<a href="javascript:openvcidwindow('gallery/pages/SRWPhoto_200.htm');"><img src="image/300_0200_s.jpg" alt="This photo depicts &ldquo;embedded&rdquo; Westerners who accompanied Japanese forces led by General Kuroki" width="565" height="373" border="0" /></a> </td>
+          </tr>
+<tr>
+              <td  align="center" valign="top" class="bottiblock"><img src="image/spacer.gif" width="35" height="86" align="left" alt="space"  title="" /><img src="image/spacer.gif" width="35" height="86" align="right" alt="space"  title="" />Military attaches, journalists, and photographers from around the world flocked to Asia to observe the Russo-Japanese War. This photo depicts &ldquo;embedded&rdquo; Westerners who accompanied Japanese forces led by General Kuroki.<br />
+                <br /></td>
+          </tr>
+ <tr> 
+          <td align="left" valign="top"><span class="bottibody">War photos were also popular in Japan, where their reproduction in the mass media made graphic coverage of the front &ldquo;realistic&rdquo; and widely accessible in ways that were only beginning to emerge at the time of the war against China a decade earlier. Not only had the technologies of warfare changed. The technologies of communication had changed as well. The brilliantly colored &ldquo;war prints&rdquo; that flooded the market during the Sino-Japanese War suddenly seemed old-fashioned.<br />
+            <br />
+            The disappearance of a Japanese audience for woodblock-print &ldquo;reportage&rdquo; of the war was precipitated by more than just wide-scale reproduction of photographs, however. As it happened, the Russo-Japanese War coincided with the emergence of picture postcards as a global phenomenon. Photographers, artists, illustrators, flat-out propagandists&mdash;all suddenly possessed, in these engaging little mass-produced graphics, a new vehicle for reaching a huge popular audience.<br />
+            <br />
+            International postal conventions made it possible to circulate these images globally. Collecting postcards became a modest way to become cosmopolitan without much expense, and the war between Japan and Russia provided the first dramatic international spectacle for postcard manufacturers to focus on in common. Admiral T&#333;g&#333;&rsquo;s surprise attack triggered a postcard boom&mdash;not just in Japan but around the world.<br />
+            <br />
+            In retrospect, although there are exceptions, most photographs of the Russo-Japanese War are prosaic&mdash;warships not in action, officers and conscripts sitting for the camera, troops en route to battle, soldiers in trenches, stationary artillery, barren landscapes and nondescript buildings. Cameras were still too slow for action photos as such, and no cameramen had the consistent, steady, tragic eye of a Mathew Brady. Certainly for viewers today, it is only rarely that these photographs succeed in capturing the imagination.<br />
+            <br />
+            This is not the case with the general genre of picture postcards of the war. A great proportion of these is literally colorful (the significant breakthrough involved perfection of high quality color lithography just after the turn of the century). The graphics accommodate a variety of mediums and styles, extending from photos, paintings, and sketches to caricature and caustic political cartooning. Many carry a distinctive &ldquo;national&rdquo; flavor. At the same time, postcards can be idiosyncratic and subjective, for more than a few artists and illustrators imposed their own distinctive styles.<br />
+            <br />
+            In Japan, the kiss of death to war reportage in the form of woodblock prints thus came from picture postcards as much (or more) than from photography per se. This new mode of expression attracted many of the nation&rsquo;s talented artists, including some who were or would become well known. The postcards themselves became ephemeral little works of art as well as little gems of propaganda.<br />
+            <br />
+            This makes Japanese postcards of the Russo-Japanese War interesting in their own right, but this is just the half of it. Because Russia was also producing postcards of the war, and not only Russia but also France, England, Germany, Italy, and the United States, the great &ldquo;war in the Far East&rdquo; of 1904-1905 is the first modern war we can revisit, in a compact and manageable way, from a truly multi-national perspective.<br />
+            <br />
+            We can literally &ldquo;see,&rdquo; through thousands of fixed-format images (postcards have remained the same size to the present day), what people throughout the world were being offered as a mirror to the war and all that it portended.<br />
+            <br />
+            <br />
+            <br /></span></td></tr>
+<tr>
+          <td align="left" valign="top">
+<span class="bottismall"><img src="image/redline.gif" width="570" height="1"  alt="MIT Visualizing Cultures" title=""/><br/><br/>
+                <a href="javascript:imalert('../home/about.html')"><em>On viewing images of a potentially disturbing nature: click here.</em></a><br /><br/>Images from the Leonard A. Lauder Collection of Japanese Postcards at the Museum of Fine Arts, Boston. 
+          Unless otherwise indicated, all are by unidentified artists and date from the 1904-1905 war years.<br /><br/></span><table width="582" border="0" cellspacing="0" cellpadding="0"><tr><td  width="350" align="left" valign="middle" class="bottismall" >Massachusetts Institute of Technology &#169; 2010 Visualizing Cultures
+                </td> <td  width="152" align="right" valign="middle" class="bottismall" > &nbsp;<a href="http://creativecommons.org/licenses/by-nc-sa/3.0/us/" target="_blank">Creative Commons License</a>&nbsp;&nbsp;
+              
+</td><td  align="left" valign="top" width="80" class="bottismall" ><a rel="license"
+ href="http://creativecommons.org/licenses/by-nc-sa/3.0/us/" target="_blank" ><img src="http://visualizingcultures.mit.edu/home/image/cc.png" alt="Creative Commons - some rights reserved" width="80" height="15" border="0" align="left" /></a></td>
+
+
+    </tr><tr><td colspan="3" class="bottismall" ><br />
+<br /></td></tr></table>
+</td>
+  </tr>
+
+
+
+ <tr>
+          <td align="left" valign="top"><div class="bottom"><img src="image/essay_bottom.gif"  alt="MIT Visualizing Cultures" width="970" height="136" border="0" align="left" title=""/></div>
+<div class="essaynavbottom">
+  <table width="622" border="0" cellspacing="0" cellpadding="0" align="left">
+  <tr align="left">
+    <td align="left" width="105"><img src="image/ar_essay_nav_01.gif"  alt="Asia Rising" name="nav01b" width="622" height="39" border="0" usemap="#Map5" id="nav01b" title=""/></td>
+  </tr>
+</table>
+</div></td>
+          </tr>
+
+
+	  </table>
+</td>
+    <td width="371">&nbsp;</td>
+  </tr>
+</table>
+
+
+<!--end  essay -->
+
+</div>
+</div>
+</div>
+
+
+<!--top bar nav elements -->
+<div class="box14" id="box14" ><table  width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><img src="../home/image/spacer.gif" width="10" height="26"  alt="MIT Visualizing Cultures"/><img src="../home/image/hometopnav01.gif"  alt="Menu" width="227" height="26" border="0" usemap="#topmap"/></td>
+  </tr>
+</table>
+</div>
+
+<div class="box15" id="box15" ><table  width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><img src="../home/image/spacer.gif" width="10" height="27"  alt="MIT Visualizing Cultures"/></td>
+  </tr>
+</table>
+</div>
+
+<div class="navbox" id="hideme"><a  onmouseout="javascript:noverlay();" onmouseover="javascript:overlay();"><img src="../home/image/vc_home_nav.png" alt="MIT Visualizing Cultures" width="202" height="300" border="0" usemap="#Map"  id="Image5"  name="Image5" title="" /></a></div> 
+
+<div class="twit">
+<a href="https://twitter.com/share" class="twitter-share-button" data-count="none">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></div>
+
+<div class="emil"><!--email-->
+<script type="text/javascript"><!--
+
+var SubjectLine='MIT Visualizing Cultures'; 
+var BodyText='You can see this page at: '+top.location.href;
+
+var Message='<A CLASS=contact HREF="mailto:?SUBJECT='+escape(SubjectLine)+'&BODY='+escape(BodyText)+'" OnMouseOver="status=\'Envoyer cette page à vos amis\'; return true;" ><img src="../home/image/email2.gif" alt="Email" name="Image321"   border="0" id="Image321"  title=""/><\/A>';
+
+var MessageIE='<A CLASS=contact HREF="mailto:?SUBJECT='+(SubjectLine)+'&BODY='+(BodyText)+'" OnMouseOver="status=\'Envoyer cette page à vos amis\'; return true;" ><img src="../home/image/email2.gif" alt="Email" name="Image321"   border="0" id="Image321"  title=""/><\/A>';
+
+if(document.all) { document.write(MessageIE); }
+
+else { document.write(Message); }
+
+// http://javascriptsource.com "The JavaScript Source"
+//--></script></div>
+
+
+
+<!--facebook--><div class="fbok">
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<div class="fb-like" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false" data-colorscheme="light" data-font="verdana"></div>
+
+</div> 
+
+<div class="unitsnavbox01" id="unitsnavbox01" ><a  onmouseout="javascript:noverlayu();" onmouseover="javascript:overlayu();"><img src="../home/image/unitstopnav01.gif"  alt="Units" width="227" height="26" border="0"/></a></div>
+ <div class="navboxu" id="hidemeu"><a href="#" onmouseout="javascript:noverlayu();" onmouseover="javascript:overlayu();"><img src="../home/image/vc_units_cur_nav.png" alt="MIT Visualizing Cultures" width="179" height="148" border="0" usemap="#Map3"  id="Image6"  name="Image6" title=""/></a></div> <div class="unitnavbox" id="unitnavbox" ><a  onmouseout="javascript:noverlayv();" onmouseover="javascript:overlayv();"><img src="image/topnav.gif"  alt="Asia Rising" width="227" height="26" border="0"/></a></div>
+ 
+<div class="navboxv" id="hidemev"><a  onmouseout="javascript:noverlayv();" onmouseover="javascript:overlayv();"><img src="image/ar_nav.png" alt="Asia Rising"  name="Image7" width="212" height="169" border="0" usemap="#Image7Map"   id="Image7" title=""/>
+    
+</a></div>
+<!--end top bar nav elements -->
+
+
+
+<!--image maps -->
+    <map name="topmap" id="topmap">
+      <area shape="rect" coords="0,-1,180,46" href="#" onmouseover="overlay();"  alt="MIT Visualizing Cultures" />
+      <area shape="rect" coords="194,0,300,47" href="#" onmouseover="overlayu();"  alt="VC Units" />
+</map>
+
+<map name="Map" id="Map">
+      <area shape="rect" coords="0,0,211,39" href="../home/index.html" onmouseover="overlay()" alt="MIT Visualizing Cultures"/>
+      <area shape="rect" coords="0,39,211,66" href="../home/vc01_about.html" target="_top"  alt="About VC" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_02.png',1)"/>      
+      <area shape="rect" coords="0,66,211,96" href="../home/vc02_schol.html" target="_top"  alt="VC Scholars" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_03.png',1)" />
+  <area shape="rect" coords="0,96,211,124" href="../home/vc03_partner.html" target="_top"  alt="Partner Institutions" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_04.png',1)" />
+
+  <area shape="rect" coords="0,124,211,147" href="../home/vc05_outreach.html" target="_top"  alt="Outreach" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_05.png',1)" />
+  <area shape="rect" coords="3,147,211,181" href="../home/vc06_event.html" target="_top"  alt="Conferences &amp; Events" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_06.png',1)" />
+  <area shape="rect" coords="3,181,211,214" href="mailto:visualizingcultures@mit.edu" target="_top"  alt="Contact" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_07.png',1)" />
+ <area shape="rect" coords="1,214,212,240" href="http://www.facebook.com/home.php#!/group.php?gid=261831254970&amp;ref=ts" target="_blank"  alt="Join Us" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_08.png',1)" />
+  <area shape="rect" coords="0,240,211,266" href="http://twitter.com/Visualizing_Cul" target="_blank"  alt="Follow Us" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_09.png',1)" />
+</map><map name="Map3" id="Map3">
+  
+<area shape="rect" coords="0,2,312,30" href="../home/vis_menu.html" target="_top" alt="Units" onmouseout="noverlayu();MM_swapImgRestore()" onmouseover="overlayu();" />
+
+<area shape="rect" coords="2,38,314,68" href="../home/vis_menu.html" target="_top" alt="Icon View" onmouseout="noverlayu();MM_swapImgRestore()" onmouseover="overlayu();MM_swapImage('Image6','','../home/image/vc_units_cur_nav_01.png',1)" />
+
+<area shape="rect" coords="0,67,312,95" href="../home/vis_menu_02b.html" target="_top" alt="Text View" onmouseout="noverlayu();MM_swapImgRestore()" onmouseover="overlayu();MM_swapImage('Image6','','../home/image/vc_units_cur_nav_02.png',1)" />
+
+<area shape="rect" coords="1,94,313,122" href="../home/vis_menu_03.html" target="_top" alt="Curriculae" onmouseout="noverlayu();MM_swapImgRestore()" onmouseover="overlayu();MM_swapImage('Image6','','../home/image/vc_units_cur_nav_03.png',1)" /></map>
+<map name="Image7Map" id="Image7Map">
+  <area shape="rect" coords="0,2,212,30" href="index.html" target="_top" alt="Asia Rising" onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();" />
+      <area shape="rect" coords="0,42,215,70" href="ar_essay01.html" target="_top" alt="Essay" onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();MM_swapImage('Image7','','image/ar_nav_02.png',1)" />
+	  
+  <area shape="rect" coords="0,70,216,98" href="ar_visnav01.html" target="_top" alt="Visual Narratives" onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();MM_swapImage('Image7','','image/ar_nav_03.png',1)" />
+  
+  <area shape="rect" coords="0,97,216,127" href="javascript:openvcidwindow('gallery/index.htm');" target="_top" alt="Image Gallery" onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();MM_swapImage('Image7','','image/ar_nav_04.png',1)" />
+  
+  <area shape="rect" coords="0,126,212,154" href="javascript:opencurwindow('cur_student/ar_cur_toc.html')" target="_top" alt="Image Database" onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();MM_swapImage('Image7','','image/ar_nav_05.png',1)" />
+  
+</map>
+
+<map name="Map4" id="Map4">
+ <!--  <area shape="rect" coords="1,0,106,39"   href="ar_essay01.html" onmouseover="MM_swapImage('nav01','','image/ar_essay_nav_01.gif',1);noverlay();noverlayv();noverlayu();" onmouseout="MM_swapImage('nav01','','image/ar_essay_nav_01.gif',1);" alt="Introduction"/> -->
+  <area shape="rect" coords="104,0,210,39" href="ar_essay02.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01','','image/ar_essay_nav_02.gif',1);noverlay();noverlayv();noverlayu();"  alt="Heroes &amp; Heroines"/>
+  <area shape="rect" coords="209,0,306,39" href="ar_essay03.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01','','image/ar_essay_nav_03.gif',1);noverlay();noverlayv();noverlayu();"  alt="Victory"/>
+  <area shape="rect" coords="305,0,412,39" href="ar_essay04.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01','','image/ar_essay_nav_04.gif',1);noverlay();noverlayv();noverlayu();"  alt="Celebration"/>
+  <area shape="rect" coords="411,0,519,39" href="ar_essay05.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01','','image/ar_essay_nav_05.gif',1);noverlay();noverlayv();noverlayu();"  alt="Commemoration"/>
+  <area shape="rect" coords="518,0,621,39" href="ar_essay06.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01','','image/ar_essay_nav_06.gif',1);noverlay();noverlayv();noverlayu();"  alt="Sources"/>
+</map>
+
+
+<map name="Map5" id="Map5">
+ <!--  <area shape="rect" coords="1,0,106,39"   href="ar_essay01.html" onmouseover="MM_swapImage('nav01b','','image/ar_essay_nav_01.gif',1);noverlay();noverlayv();noverlayu();" onmouseout="MM_swapImage('nav01b','','image/ar_essay_nav_01.gif',1);" alt="Introduction"/> -->
+  <area shape="rect" coords="104,0,210,39" href="ar_essay02.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01b','','image/ar_essay_nav_02.gif',1);noverlay();noverlayv();noverlayu();"  alt="Heroes &amp; Heroines"/>
+  <area shape="rect" coords="209,0,306,39" href="ar_essay03.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01b','','image/ar_essay_nav_03.gif',1);noverlay();noverlayv();noverlayu();"  alt="Victory"/>
+  <area shape="rect" coords="305,0,412,39" href="ar_essay04.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01b','','image/ar_essay_nav_04.gif',1);noverlay();noverlayv();noverlayu();"  alt="Celebration"/>
+  <area shape="rect" coords="411,0,519,39" href="ar_essay05.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01b','','image/ar_essay_nav_05.gif',1);noverlay();noverlayv();noverlayu();"  alt="Commemoration"/>
+  <area shape="rect" coords="518,0,621,39" href="ar_essay06.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01b','','image/ar_essay_nav_06.gif',1);noverlay();noverlayv();noverlayu();"  alt="Sources"/>
+</map>
+</body>
+</html>

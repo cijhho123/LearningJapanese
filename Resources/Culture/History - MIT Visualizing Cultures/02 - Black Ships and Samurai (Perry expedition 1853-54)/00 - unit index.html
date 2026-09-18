@@ -1,0 +1,539 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/tr/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>MIT Visualizing Cultures</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+
+
+<style type="text/css">
+<!--
+
+.backg {
+	position:absolute;
+	left:0px;
+	top:45px;
+	z-index: 1;
+}
+.flashy {
+	position:absolute;
+	left:467px;
+	top:42px;
+	z-index: 3;
+}
+.slug {        position:absolute;
+        left:20px;
+        top:475px;
+        width:451px;
+		z-index:2;
+		text-align:left;
+}
+.navbox {
+		position: fixed;
+        left:10px;
+        top:0px;
+		z-index: 5;
+		visibility:hidden;
+}
+.unitsnavbox01 {
+        position:fixed;
+        left:200px;
+        top:0px;
+		z-index:5;
+}
+.unitnavbox {
+        position:fixed;
+        left:271px;
+        top:0px;
+		z-index:6;
+}
+.navboxu {
+		position: fixed;
+        left:200px;
+        top:0px;
+		z-index: 6;
+		visibility:hidden;	 
+}
+.navboxv {
+		position: fixed;
+        left:271px;
+        top:0px;
+		z-index: 7;
+		visibility:hidden;	 
+}
+.unitnavbox2 {
+        position:fixed;
+        left:454px;
+        top:0px;
+		z-index:6;
+}
+.navboxv2 {
+		position: fixed;
+        left:454px;
+        top:0px;
+		z-index: 7;
+		visibility:hidden;	 
+}
+.box14 {
+        position:fixed;
+        left:0px;
+        top:0px;
+		z-index:5;
+		background-color:#222222;
+		width:100%
+}
+.box15 {
+        position:fixed;
+        left:0px;
+        top:0px;
+		z-index:4;
+	    width: 100%;
+		background-color:#504B48
+}
+.box16 {        position:fixed;
+        left:0px;
+        top:23px;
+		z-index:4;
+	width: 100%;
+background-color:#2F302F 
+}
+.boxessay {        position:absolute;
+        left:624px;
+        top:124px;
+		z-index:4;
+}
+.boxvisnav {        position:absolute;
+        left:624px;
+        top:200px;
+		z-index:4;
+}
+.boxpdf {        position:absolute;
+        left:624px;
+        top:197px;
+		z-index:4;
+}
+
+.box01 { 
+		position: static;
+		top: 20%;
+		left: 20%;
+}
+#horizon        
+	{
+	
+	text-align: center;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 1px;
+	overflow: visible;
+	visibility: visible;
+	display: block
+	}
+
+#content    
+	{
+	
+	margin-left: -485px;
+	position: absolute;
+	top: 0px;
+	left: 50%;
+	width: 250px;
+	height: 70px;
+	visibility: visible;
+
+	}
+.bottibody {color: #ffffff; font-size: 13px; line-height: 19px; font-family: Verdana, Arial, Helvetica, sans-serif
+	}
+
+	.bottibody2 {color: #ffffff; font-size: 12px; line-height: 16px; font-family: Verdana, Arial, Helvetica, sans-serif }
+	
+.bottibody2 a:link {
+        color:#72777C;
+        text-decoration:none;
+    }
+ .bottibody2 a:active { 
+		color:#72777C;
+        text-decoration:none;
+	}
+.bottibody2 a:visited {
+		color:#72777C;
+        text-decoration:none;
+	}
+.bottibody2 a:hover {
+		color:#ffffff;
+        text-decoration:none;
+	}
+.bottibody3 {color: #ffffff; font-size: 11px; line-height: 16px; font-family: Verdana, Arial, Helvetica, sans-serif }
+
+.bottibody4 {color: #ffffff; font-size: 11px; line-height: 16px; font-family: Verdana, Arial, Helvetica, sans-serif }
+
+.twit {
+		position: fixed;
+        top: 2px;
+        left: 810px;
+		z-index: 7;
+		
+}
+.emil{
+		position: fixed;
+        top: 4px;
+        left: 876px;
+		z-index: 7;
+		
+}
+.fbok{
+		position: fixed;
+        top: 2px;
+        left: 916px;
+		z-index: 7;
+		width: 48px;
+		overflow:hidden;
+}
+.cc {
+	position:absolute;
+	left:20px;
+	top:661px;
+	z-index:4;
+	width: 486px;
+	text-align:left;
+	
+}
+
+
+
+
+
+-->
+</style>
+
+
+<script language="JavaScript" type="text/JavaScript">
+<!--
+//rollovers for menus
+function overlay() {
+        el = document.getElementById("hideme");
+        el.style.visibility ="visible";
+		noverlayu();
+		noverlayv();
+		noverlayv2();
+}
+
+function noverlay() {
+        el = document.getElementById("hideme");
+        el.style.visibility ="hidden";
+}
+
+
+function overlayu() {
+        el = document.getElementById("hidemeu");
+        el.style.visibility ="visible";
+		noverlay();
+		noverlayv();
+		noverlayv2()
+}
+function noverlayu() {
+        el = document.getElementById("hidemeu");
+        el.style.visibility ="hidden";
+}
+
+
+function overlayv() {
+        el = document.getElementById("hidemev");
+        el.style.visibility ="visible";
+		noverlay();
+		noverlayu();
+		noverlayv2();
+}
+function noverlayv() {
+        el = document.getElementById("hidemev");
+        el.style.visibility ="hidden";
+}
+
+
+function overlayv2() {
+        el = document.getElementById("hidemev2");
+        el.style.visibility ="visible";
+		noverlay();
+		noverlayu();
+		noverlayv();
+}
+function noverlayv2() {
+        el = document.getElementById("hidemev2");
+        el.style.visibility ="hidden";
+}
+
+
+
+
+function sesame() {
+window.moveTo(0,0);        
+window.resizeTo(1350,screen.height);
+}
+
+
+window.onload=function()
+{
+	//sesame();
+	noverlay();
+	noverlayu();
+	MM_preloadImages('../home/image/vc_home_nav_02.png','../home/image/vc_home_nav_03.png','../home/image/vc_home_nav_04.png','../home/image/vc_home_nav_05.png','../home/image/vc_home_nav_06.png','../home/image/vc_home_nav_07.png','../home/image/vc_home_nav_08.png','../home/image/vc_home_nav_09.png','../home/image/vc_home_nav_10.png','../home/image/vc_units_nav_01.png','../home/image/vc_units_nav_02.png','../home/image/vn_icon02.gif','../home/image/pdf_essay02.gif','../home/image/essay_icon02.gif','../home/image/units_bck_05.jpg','../home/image/units_bck_06.jpg','../black_ships_and_samurai/image/bss_i_nav.png','../black_ships_and_samurai/image/bss_i_nav_02.png','../black_ships_and_samurai/image/bss_i_nav_03.png','../black_ships_and_samurai/image/bss_i_nav_04.png','../black_ships_and_samurai/image/bss_i_essay_nav.png','../black_ships_and_samurai/image/bss_i_essay_nav_02.png','../black_ships_and_samurai/image/bss_i_essay_nav_03.png','../black_ships_and_samurai/image/bss_i_essay_nav_04.png','../black_ships_and_samurai/image/bss_i_essay_nav_05.png','../black_ships_and_samurai/image/bss_i_essay_nav_06.png','../black_ships_and_samurai/image/bss_i_essay_nav_07.png','../black_ships_and_samurai/image/bss_i_essay_nav_08.png','../black_ships_and_samurai/image/bss_i_essay_nav_09.png','../black_ships_and_samurai/image/bss_i_essay_nav_10.png','image/bss_essay_nav_01.gif','image/bss_essay_nav_02.gif','image/bss_essay_nav_03.gif','image/bss_essay_nav_04.gif','image/bss_essay_nav_05.gif','image/bss_essay_nav_06.gif','image/bss_essay_nav_07.gif','image/bss_essay_nav_08.gif','image/bss_essay_nav_09.gif','../home/image/popup02.gif');
+}
+var newwindow = '';
+
+function imalert(url)
+{
+	if (!newwindow.closed && newwindow.location)
+	{
+		newwindow.location.href = url;
+	}
+	else
+	{
+		newwindow=window.open(url,'windowtwo','height=360,width=586, toolbar=no,  resizable=yes, status=no, scrollbars=yes');
+		if (!newwindow.opener) newwindow.opener = self;
+	}
+	if (window.focus) {newwindow.focus()}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//
+var vcidwindow = '';
+
+function openvcidwindow(url)
+{
+	if (!vcidwindow.closed && vcidwindow.location)
+	{
+		vcidwindow.location.href = url;
+	}
+	else
+	{
+		vcidwindow=window.open(url,'vcid','height=950,width=1000, toolbar=yes, scrollbars=yes, resizable=yes, location=yes');
+		if (!vcidwindow.opener) vcidwindow.opener = self;
+	}
+	if (window.focus) {vcidwindow.focus()
+	}
+	} 
+
+
+
+ var curwindow = '';
+
+function opencurwindow(url)
+{
+	if (!curwindow.closed && curwindow.location)
+	{
+		curwindow.location.href = url;
+	}
+	else
+	{
+		curwindow=window.open(url,'curriculum','height=800,width=720, toolbar=yes, scrollbars=yes, resizable=yes,  location=yes');
+		if (!curwindow.opener) curwindow.opener = self;
+	}
+	if (window.focus) {curwindow.focus()
+	}
+	} 
+//-->
+</script>
+<script type="text/javascript">
+<!--
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." :
+"http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost +
+"google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+//-->
+</script>
+<script type="text/javascript">
+<!--
+try {
+var pageTracker = _gat._getTracker("UA-12446158-1");
+pageTracker._trackPageview();
+} catch(err) {}
+//-->
+</script></head>
+<body bgcolor="#252422">
+<div  id="horizon">
+<div  id="content">
+<div class="backg"><img src="image/bss_home_bck.jpg"  alt="MIT Visualizing Cultures" width="970" height="765" border="0" title=""/></div>
+
+<div class="slug" id="slug"><span class="bottibody"> On July 8, 1853, residents of feudal Japan beheld an astonishing sight&mdash;foreign warships entering their harbor under a cloud of black smoke. Commodore Matthew Perry had arrived to force the long-secluded country to open its doors.<span class="bottibody4"><br />
+    <br />
+</span>
+    This unit was funded in part by The National Endowment for the Humanities, The d'Arbeloff Excellence in Education Fund, The Center for Global Partnership, and MIT iCampus Outreach.</span></div>
+	
+	<div class="cc">
+  <table width="472" border="0" cellspacing="0" cellpadding="0">
+<tr>
+  <td  width="392" align="left" valign="middle" class="bottibody3" >Massachusetts Institute of Technology &#169; 2010 Visualizing Cultures
+          </td> 
+  <td  align="left" valign="top" width="80" class="bottismall" ><a rel="license"
+ href="http://creativecommons.org/licenses/by-nc-sa/3.0/us/" target="_blank" ><img src="../home/image/cc.png" alt="Creative Commons - some rights reserved" width="80" height="19" border="0" align="left" /></a></td>
+
+
+    </tr></table></div>
+
+
+<!-- right-hand buttons -->
+<div class="boxessay" id="boxessay"><a href="bss_essay01.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image10','','../home/image/essay_icon02.gif',1);noverlay();noverlayu();noverlayv();"><img src="../home/image/essay_icon.gif" alt="Essay" name="Image10" width="348" height="67" border="0" id="Image10" /></a></div>
+
+<div class="boxpdf" id="boxpdf"><!--<a href="pdf/bss_essay.pdf" target="_blank" onmouseover="MM_swapImage('Image12','','../home/image/pdf_essay02.gif',1);noverlay();noverlayu();noverlayv();" onmouseout="MM_swapImgRestore()"><img src="../home/image/pdf_essay.gif" alt="Printable PDF" name="Image12" width="348" height="67" border="0" id="Image12" /></a> -->
+  <table width="348" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="44" align="left" valign="bottom"><img  alt="MIT Visualizing Cultures"  title="" border="0"  src="image/spacer.gif" width="44" height="19"  align="left"/></td>
+    <td width="273" align="left" valign="top"><span class="bottibody2" id="bot"><a href="pdf/bss_essay.pdf"  onmouseover="noverlay();noverlayu();noverlayv();"  target="_blank" >
+     Printer-friendly PDF of the Essay</a><br />
+     <br />
+     <br />
+     <br />
+     <a href="javascript:openvcidwindow('gallery/index.htm')">Image Gallery</a><br />
+     <br />
+     <a href="javascript:opencurwindow('../black_ships_and_samurai/cur_student/bss_cur_toc.html')">Curriculum by Lynn Parisi</a></span></td> 
+
+    <td width="31">&nbsp;</td>
+  </tr></table></div>
+
+
+<!--end  right-hand buttons -->
+</div>
+</div>
+
+
+<!--top bar nav elements -->
+<div class="box14" id="box14" ><table  width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><img src="../home/image/spacer.gif" width="10" height="26"  alt="MIT Visualizing Cultures"/><img src="../home/image/hometopnav01.gif"  alt="Menu" width="227" height="26" border="0" usemap="#topmap"/></td>
+  </tr>
+</table>
+</div>
+
+<div class="box15" id="box15" ><table  width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><img src="../home/image/spacer.gif" width="10" height="27"  alt="MIT Visualizing Cultures"/></td>
+  </tr>
+</table>
+</div>
+
+<div class="navbox" id="hideme"><a  onmouseout="javascript:noverlay();" onmouseover="javascript:overlay();"><img src="../home/image/vc_home_nav.png" alt="MIT Visualizing Cultures" width="202" height="300" border="0" usemap="#Map"  id="Image5"  name="Image5" title="" /></a></div> 
+
+<div class="twit">
+<a href="https://twitter.com/share" class="twitter-share-button" data-count="none">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></div>
+
+<div class="emil"><!--email-->
+<script type="text/javascript"><!--
+
+var SubjectLine='MIT Visualizing Cultures'; 
+var BodyText='You can see this page at: '+top.location.href;
+
+var Message='<A CLASS=contact HREF="mailto:?SUBJECT='+escape(SubjectLine)+'&BODY='+escape(BodyText)+'" OnMouseOver="status=\'Envoyer cette page à vos amis\'; return true;" ><img src="../home/image/email2.gif" alt="Email" name="Image321"   border="0" id="Image321"  title=""/><\/A>';
+
+var MessageIE='<A CLASS=contact HREF="mailto:?SUBJECT='+(SubjectLine)+'&BODY='+(BodyText)+'" OnMouseOver="status=\'Envoyer cette page à vos amis\'; return true;" ><img src="../home/image/email2.gif" alt="Email" name="Image321"   border="0" id="Image321"  title=""/><\/A>';
+
+if(document.all) { document.write(MessageIE); }
+
+else { document.write(Message); }
+
+// http://javascriptsource.com "The JavaScript Source"
+//--></script></div>
+
+
+
+<!--facebook--><div class="fbok">
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<div class="fb-like" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false" data-colorscheme="light" data-font="verdana"></div>
+
+</div> 
+
+<div class="unitsnavbox01" id="unitsnavbox01" ><a  onmouseout="javascript:noverlayu();" onmouseover="javascript:overlayu();"><img src="../home/image/unitstopnav01.gif"  alt="Units" width="227" height="26" border="0"/></a></div>
+ <div class="navboxu" id="hidemeu"><a href="#" onmouseout="javascript:noverlayu();" onmouseover="javascript:overlayu();"><img src="../home/image/vc_units_cur_nav.png" alt="MIT Visualizing Cultures" width="179" height="148" border="0" usemap="#Map3"  id="Image6"  name="Image6" title=""/></a></div> 
+
+<div class="unitnavbox" id="unitnavbox" ><a  onmouseout="javascript:noverlayv();" onmouseover="javascript:overlayv();"><img src="../black_ships_and_samurai/image/topnav.gif"  alt="Black Ships &amp; Samurai" width="227" height="26" border="0"/></a></div>
+ 
+<div class="navboxv" id="hidemev"><a  onmouseout="javascript:noverlayv();" onmouseover="javascript:overlayv();"><img src="../black_ships_and_samurai/image/bss_i_nav.png" alt="Black Ships &amp; Samurai"  name="Image7" width="212" height="157" border="0" usemap="#Image7Map"   id="Image7" title=""/>
+    
+</a></div>
+	
+	<div class="unitnavbox2" id="unitnavbox2" ><a  onmouseout="javascript:noverlayv2();" onmouseover="javascript:overlayv2();"><img src="../home/image/essaytop.gif"  alt="Black Ships &amp; Samurai" width="227" height="26" border="0"/></a></div>
+ 
+<div class="navboxv2" id="hidemev2"><a  onmouseout="javascript:noverlayv2();" onmouseover="javascript:overlayv2();"><img src="../black_ships_and_samurai/image/bss_i_essay_nav.png" alt="Black Ships &amp; Samurai"  name="Image777" width="212" height="300" border="0" usemap="#Image777Map"   id="Image777" title=""/>
+</a></div>
+<!--end top bar nav elements -->
+
+
+
+<!--image maps -->
+    <map name="topmap" id="topmap">
+      <area shape="rect" coords="0,0,180,47" href="#" onmouseover="overlay();"  alt="MIT Visualizing Cultures" />
+      <area shape="rect" coords="194,0,300,47" href="#" onmouseover="overlayu();"  alt="VC Units" />
+  </map>
+
+<map name="Map" id="Map">
+      <area shape="rect" coords="0,0,211,39" href="../home/index.html" onmouseover="overlay()" alt="MIT Visualizing Cultures"/>
+      <area shape="rect" coords="0,39,211,66" href="../home/vc01_about.html" target="_top"  alt="About VC" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_02.png',1)"/>      
+      <area shape="rect" coords="0,66,211,96" href="../home/vc02_schol.html" target="_top"  alt="VC Scholars" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_03.png',1)" />
+  <area shape="rect" coords="0,96,211,124" href="../home/vc03_partner.html" target="_top"  alt="Partner Institutions" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_04.png',1)" />
+
+  <area shape="rect" coords="0,124,211,147" href="../home/vc05_outreach.html" target="_top"  alt="Outreach" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_05.png',1)" />
+  <area shape="rect" coords="3,147,211,181" href="../home/vc06_event.html" target="_top"  alt="Conferences &amp; Events" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_06.png',1)" />
+  <area shape="rect" coords="3,181,211,214" href="mailto:visualizingcultures@mit.edu" target="_top"  alt="Contact" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_07.png',1)" />
+ <area shape="rect" coords="1,214,212,240" href="http://www.facebook.com/home.php#!/group.php?gid=261831254970&amp;ref=ts" target="_blank"  alt="Join Us" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_08.png',1)" />
+  <area shape="rect" coords="0,240,211,266" href="http://twitter.com/Visualizing_Cul" target="_blank"  alt="Follow Us" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_09.png',1)" />
+</map><map name="Map3" id="Map3">
+  
+<area shape="rect" coords="0,2,312,30" href="../home/vis_menu.html" target="_top" alt="Units" onmouseout="noverlayu();MM_swapImgRestore()" onmouseover="overlayu();" />
+
+<area shape="rect" coords="2,38,314,68" href="../home/vis_menu.html" target="_top" alt="Icon View" onmouseout="noverlayu();MM_swapImgRestore()" onmouseover="overlayu();MM_swapImage('Image6','','../home/image/vc_units_cur_nav_01.png',1)" />
+
+<area shape="rect" coords="0,67,312,95" href="../home/vis_menu_02b.html" target="_top" alt="Text View" onmouseout="noverlayu();MM_swapImgRestore()" onmouseover="overlayu();MM_swapImage('Image6','','../home/image/vc_units_cur_nav_02.png',1)" />
+
+<area shape="rect" coords="1,94,313,122" href="../home/vis_menu_03.html" target="_top" alt="Curriculae" onmouseout="noverlayu();MM_swapImgRestore()" onmouseover="overlayu();MM_swapImage('Image6','','../home/image/vc_units_cur_nav_03.png',1)" /></map>
+<map name="Image7Map" id="Image7Map">
+  <area shape="rect" coords="0,2,212,30" href="index.html" target="_top" alt="Black Ships &amp; Samurai" onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();" />
+      <area shape="rect" coords="1,42,216,70" href="../black_ships_and_samurai_02/index.html" target="_top" alt="Black Ships &amp; Samurai II" onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();MM_swapImage('Image7','','../black_ships_and_samurai/image/bss_i_nav_02.png',1)" />
+  <area shape="rect" coords="0,69,215,99" href="javascript:openvcidwindow('gallery/index.htm')" target="_top" alt="Image Gallery" onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();MM_swapImage('Image7','','../black_ships_and_samurai/image/bss_i_nav_03.png',1)" />
+<area shape="rect" coords="1,100,216,130" href="javascript:opencurwindow('../black_ships_and_samurai/cur_student/bss_cur_toc.html')" target="_top" alt="Curriculum" onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();MM_swapImage('Image7','','../black_ships_and_samurai/image/bss_i_nav_04.png',1)" />
+</map>
+
+<map name="Image777Map" id="Image777Map">
+  <area shape="rect" coords="0,-1,212,27" href="index.html" target="_top" alt="Black Ships &amp; Samurai II" onmouseout="noverlayv2();MM_swapImgRestore()" onmouseover="overlayv2();" />
+      <area shape="rect" coords="0,40,215,69" href="bss_essay01.html" target="_top" alt="Introduction" onmouseout="noverlayv2();MM_swapImgRestore()" onmouseover="overlayv2();MM_swapImage('Image777','','../black_ships_and_samurai/image/bss_i_essay_nav_02.png',1)" />
+  <area shape="rect" coords="0,69,215,96" href="bss_essay02.html" target="_top" alt="Perry" onmouseout="noverlayv2();MM_swapImgRestore()" onmouseover="overlayv2();MM_swapImage('Image777','','../black_ships_and_samurai/image/bss_i_essay_nav_03.png',1)" />
+<area shape="rect" coords="4,96,216,122" href="bss_essay03.html" target="_top" alt="Blackships" onmouseout="noverlayv2();MM_swapImgRestore()" onmouseover="overlayv2();MM_swapImage('Image777','','../black_ships_and_samurai/image/bss_i_essay_nav_04.png',1)" />
+<area shape="rect" coords="4,122,216,150" href="bss_essay04.html" target="_top" alt="Facing East" onmouseout="noverlayv2();MM_swapImgRestore()" onmouseover="overlayv2();MM_swapImage('Image777','','../black_ships_and_samurai/image/bss_i_essay_nav_05.png',1)" />
+<area shape="rect" coords="3,150,216,175" href="bss_essay05.html" target="_top" alt="Facing West" onmouseout="noverlayv2();MM_swapImgRestore()" onmouseover="overlayv2();MM_swapImage('Image777','','../black_ships_and_samurai/image/bss_i_essay_nav_06.png',1)" />
+<area shape="rect" coords="4,175,216,200" href="bss_essay06.html" target="_top" alt="Portraits" onmouseout="noverlayv2();MM_swapImgRestore()" onmouseover="overlayv2();MM_swapImage('Image777','','../black_ships_and_samurai/image/bss_i_essay_nav_07.png',1)" />
+<area shape="rect" coords="4,200,216,226" href="bss_essay07.html" target="_top" alt="Gifts" onmouseout="noverlayv2();MM_swapImgRestore()" onmouseover="overlayv2();MM_swapImage('Image777','','../black_ships_and_samurai/image/bss_i_essay_nav_08.png',1)" />
+<area shape="rect" coords="4,226,216,254" href="bss_essay08.html" target="_top" alt="Nature" onmouseout="noverlayv2();MM_swapImgRestore()" onmouseover="overlayv2();MM_swapImage('Image777','','../black_ships_and_samurai/image/bss_i_essay_nav_09.png',1)" />
+<area shape="rect" coords="4,254,216,280" href="bss_essay09.html" target="_top" alt="Sources" onmouseout="noverlayv2();MM_swapImgRestore()" onmouseover="overlayv2();MM_swapImage('Image777','','../black_ships_and_samurai/image/bss_i_essay_nav_10.png',1)" />
+</map>
+</body>
+
+</html>

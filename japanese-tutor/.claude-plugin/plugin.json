@@ -1,0 +1,18 @@
+{
+  "name": "japanese-tutor",
+  "displayName": "Japanese Tutor",
+  "version": "0.1.0",
+  "description": "A persistent, adaptive Japanese tutor. Tracks what you know, what you keep getting wrong, and how you like to be taught - and teaches from the resources in this repo.",
+  "keywords": [
+    "japanese",
+    "language-learning",
+    "tutor",
+    "srs",
+    "spaced-repetition",
+    "kanji"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "LearningJapanese"
+  }
+}

@@ -1,0 +1,864 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/tr/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>MIT Visualizing Cultures</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+
+
+<style type="text/css">
+<!--
+
+.backg {
+	position:absolute;
+	left:0px;
+	top:180px;
+	z-index: 1;
+background-image:url(../gt_japan_people/image/essay_bck.gif);
+}
+.top {
+	position:absolute;
+	left:0px;
+	top:45px;
+	z-index: 2;
+}
+.bottom {
+	position:absolute;
+	left:0px;
+	z-index: 2;
+}
+.essaynavtop {
+	position:absolute;
+	left:0px;
+	top:142px;
+	z-index: 3;
+}
+.essaynavbottom {
+	position:absolute;
+	left:0px;
+	z-index: 3;
+}
+.essay {
+	position:absolute;
+	left:20px;
+	top:195px;
+	z-index: 4;
+	background-color:#FFFFFF;
+}
+.flashy {
+	position:absolute;
+	left:467px;
+	top:42px;
+	z-index: 3;
+}
+.slug {        position:absolute;
+        left:20px;
+        top:475px;
+        width:476px;
+		z-index:2;
+		text-align:left;
+}
+.navbox {
+		position: fixed;
+        left:10px;
+        top:0px;
+		z-index: 5;
+		visibility:hidden;
+}
+.unitsnavbox01 {
+        position:fixed;
+        left:200px;
+        top:0px;
+		z-index:5;
+}
+.unitnavbox {
+        position:fixed;
+        left:271px;
+        top:0px;
+		z-index:6;
+}
+.navboxu {
+		position: fixed;
+        left:200px;
+        top:0px;
+		z-index: 6;
+		visibility:hidden;	 
+}
+.navboxv {
+		position: fixed;
+        left:271px;
+        top:0px;
+		z-index: 7;
+		visibility:hidden;	 
+}
+.box14 {
+        position:fixed;
+        left:0px;
+        top:0px;
+		z-index:5;
+		background-color:#222222;
+		width:100%
+}
+.box15 {
+        position:fixed;
+        left:0px;
+        top:0px;
+		z-index:4;
+	    width: 100%;
+		background-color:#504B48
+}
+.box16 {        position:fixed;
+        left:0px;
+        top:23px;
+		z-index:4;
+	width: 100%;
+background-color:#2F302F 
+}
+.popup01 {        position:absolute;
+        left:624px;
+		z-index:4;
+}
+.boxpreslink {        position:absolute;
+        left:624px;
+		z-index:4;
+}
+.boxtreatylink {        position:absolute;
+        left:624px;
+		z-index:4;
+}
+.boxjapanlink {        position:absolute;
+        left:624px;
+		z-index:4;
+}
+.boxperrylink {        position:absolute;
+        left:624px;
+		z-index:4;
+}
+.boxpdf {        position:absolute;
+        left:624px;
+        top:210px;
+		z-index:4;
+}
+.explore07 {        position:absolute;
+        left:622px;
+		z-index:3;
+}
+.explore01 {        position:absolute;
+        left:622px;
+		z-index:3;
+}
+.explore02 {        position:absolute;
+        left:622px;
+		z-index:3;
+}
+.explore03 {        position:absolute;
+        left:622px;
+		z-index:3;
+}
+.explore04 {        position:absolute;
+        left:622px;
+		z-index:3;
+}
+.explore05 {        position:absolute;
+        left:622px;
+		z-index:3;
+}
+.explore06 {        position:absolute;
+        left:622px;
+		z-index:3;
+}
+.boxwelcome {        position:absolute;
+        left:624px;
+        top:280px;
+		z-index:4;
+}
+
+.box01 { 
+		position: static;
+		top: 20%;
+		left: 20%;
+}
+
+.japan { 
+		position: absolute;
+		left:0px;
+}
+
+.video { 
+		position: absolute;
+		left:68px;
+		height:391px;
+		background-color:#cccccc;
+		visibility:hidden;
+}
+#horizon        
+	{
+	text-align: center;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 1px;
+	overflow: visible;
+	visibility: visible;
+	display: block
+	}
+
+#content    
+	{
+	margin-left: -485px;
+	position: absolute;
+	top: 0px;
+	left: 50%;
+	width: 250px;
+	height: 70px;
+	visibility: visible;
+
+	}
+.bottibody {color: #111111; font-size: 13px; line-height: 19px; font-family: Verdana, Arial, Helvetica, sans-serif
+	}
+.bottibody2 {color: #ffffff; font-size: 11px; line-height: 16px; font-family: Verdana, Arial, Helvetica, sans-serif
+	}
+.bottiblock {
+	color: #2D2D2D;
+	font-size: 15px;
+	line-height: 19px;
+	/*font-family: Georgia, "Times New Roman", Times, serif;*/
+	font-family: Times New Roman, Times, serif;
+	font-style: italic;
+	}
+.bottiblockplain {
+	color: #2D2D2D;
+	font-size: 15px;
+	line-height: 19px;
+	/*font-family: Georgia, "Times New Roman", Times, serif;*/
+	font-family:   Times New Roman, Times, serif;
+	font-style: normal;
+	}
+.bottiblockii {
+	color: #2D2D2D;
+	font-size: 16px;
+	line-height: 20px;
+	/*font-family: Georgia, "Times New Roman", Times, serif;*/
+	font-family: Times New Roman, Times, serif;
+	font-style: italic;
+	}
+.bottiblockplainii {
+	color: #2D2D2D;
+	font-size: 16px;
+	line-height: 20px;
+	/*font-family: Georgia, "Times New Roman", Times, serif;*/
+	font-family:   Times New Roman, Times, serif;
+	font-style: normal;
+	}
+.bottiblockhead {
+	color: #2D2D2D;
+	font-size: 20px;
+	line-height: 18px;
+	/*font-family: Georgia, "Times New Roman", Times, serif;*/
+	font-family: Times New Roman, Times, serif;
+	font-style: italic;
+	}
+.bottismall {
+	color: #333333;
+	font-size: 9px;
+	line-height: 12px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-style: normal;
+	}
+.head { color: #CC210E; font-size: 15px; line-height: 19px; font-family: Verdana, Arial, Helvetica, sans-serif
+	}
+.halfer { color: #ffffff; font-size: 6px; line-height: 6px; font-family: Verdana, Arial, Helvetica, sans-serif
+	}
+a:link {
+        color:#1233FF;
+        text-decoration:none;
+    }
+ a:active { 
+		color:#1233FF;
+        text-decoration:none;
+	}
+a:visited {
+		color:#1233FF;
+        text-decoration:none;
+	}
+a:hover {
+		color:#1233FF;
+        text-decoration:underline;
+	}
+.box141 {	position:absolute;
+	left:0px;
+	top:0px;
+	}
+.twit {
+		position: fixed;
+        top: 2px;
+        left: 810px;
+		z-index: 7;
+		
+}
+.emil{
+		position: fixed;
+        top: 4px;
+        left: 876px;
+		z-index: 7;
+		
+}
+.fbok{
+		position: fixed;
+        top: 2px;
+        left: 916px;
+		z-index: 7;
+		width: 48px;
+		overflow:hidden;
+}
+-->
+</style>
+
+
+<script language="JavaScript" type="text/JavaScript">
+<!--
+//rollovers for menus
+function overlay() {
+        el = document.getElementById("hideme");
+        el.style.visibility ="visible";
+		noverlayu();
+		noverlayv();
+}
+
+function noverlay() {
+        el = document.getElementById("hideme");
+        el.style.visibility ="hidden";
+}
+
+
+function overlayu() {
+        el = document.getElementById("hidemeu");
+        el.style.visibility ="visible";
+		noverlay();
+		noverlayv();
+}
+function noverlayu() {
+        el = document.getElementById("hidemeu");
+        el.style.visibility ="hidden";
+}
+
+
+function overlayv() {
+        el = document.getElementById("hidemev");
+        el.style.visibility ="visible";
+		noverlay();
+		noverlayu();
+}
+function noverlayv() {
+        el = document.getElementById("hidemev");
+        el.style.visibility ="hidden";
+}
+function showvid() {
+        el = document.getElementById("thevid");
+        el.style.visibility ="visible";
+		noverlayu();
+		noverlayv();
+        PlayIt(document.movie1);
+}
+
+function hidevid() {
+        StopIt(document.movie1);
+		el = document.getElementById("thevid");
+        el.style.visibility ="hidden";
+
+
+}
+/* a javascript function that takes a QT movie and calls its "Play" method */
+        function PlayIt(anObj)
+        {
+                anObj.Play();
+        }
+        /* a javascript function that takes a QT movie and calls its "Stop" method */
+        function StopIt(anObj)
+        {
+                anObj.Stop();
+        }
+
+
+
+function sesame() {
+window.moveTo(0,0);        
+window.resizeTo(1350,screen.height);
+}
+
+
+window.onload=function()
+{
+	//sesame();
+   // StopIt(document.movie1);
+	noverlay();
+	noverlayu();
+	MM_preloadImages('../home/image/vc_units_nav_11.png','../home/image/vc_units_nav_01.png','../home/image/vc_units_nav_07.png','../home/image/vc_home_nav_02.png','../home/image/essay_icon02.gif','../home/image/vn_icon02.gif','../home/image/pdf_chap02.gif','../home/image/go_toa02.gif','image/yb_nav_04.png','image/yb_nav_05.png','image/yb_nav_06.png','image/yb_nav_02.png','image/yb_nav_03.png','image/yb_essay_nav_01.gif','image/yb_essay_nav_02.gif','image/yb_essay_nav_03.gif','image/yb_essay_nav_04.gif','image/yb_essay_nav_05.gif','image/yb_essay_nav_06.gif','image/yb_essay_nav_07.gif','../home/image/popup02.gif','../black_ships_and_samurai/image/bss01_welcome02.gif','image/related_bss02.gif','image/explore_image02.gif');
+}
+var newwindow = '';
+
+function imalert(url)
+{
+	if (!newwindow.closed && newwindow.location)
+	{
+		newwindow.location.href = url;
+	}
+	else
+	{
+		newwindow=window.open(url,'windowtwo','height=360,width=586, toolbar=no,  resizable=yes, status=no, scrollbars=yes');
+		if (!newwindow.opener) newwindow.opener = self;
+	}
+	if (window.focus) {newwindow.focus()}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//
+var vcidwindow = '';
+
+function openvcidwindow(url)
+{
+	if (!vcidwindow.closed && vcidwindow.location)
+	{
+		vcidwindow.location.href = url;
+	}
+	else
+	{
+		vcidwindow=window.open(url,'vcid','height=950,width=1000, toolbar=yes, scrollbars=yes, resizable=yes, location=yes');
+		if (!vcidwindow.opener) vcidwindow.opener = self;
+	}
+	if (window.focus) {vcidwindow.focus()
+	}
+	} 
+
+
+
+ var curwindow = '';
+
+function opencurwindow(url)
+{
+	if (!curwindow.closed && curwindow.location)
+	{
+		curwindow.location.href = url;
+	}
+	else
+	{
+		curwindow=window.open(url,'curriculum','height=800,width=720, toolbar=yes, scrollbars=yes, resizable=yes,  location=yes');
+		if (!curwindow.opener) curwindow.opener = self;
+	}
+	if (window.focus) {curwindow.focus()
+	}
+	} 
+
+
+function decider(){
+ el = document.getElementById("thevid");
+
+if(el.style.visibility =="visible") {
+hidevid()
+} else {
+showvid()
+}
+}
+//-->
+</script>
+<script type="text/javascript">
+<!--
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." :
+"http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost +
+"google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+//-->
+</script>
+<script type="text/javascript">
+<!--
+try {
+var pageTracker = _gat._getTracker("UA-12446158-1");
+pageTracker._trackPageview();
+} catch(err) {}
+//-->
+</script></head>
+<body bgcolor="#252422" onload="MM_preloadImages('image/yb_essay_nav_01.gif','image/popup02.gif')">
+<div  id="horizon">
+  <p>&nbsp;</p>
+  <div  id="content">
+<!--background elements -->
+<div class="backg"><table width="970" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="20">&nbsp;</td>
+    <td width="579" ><table width="579" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td  align="left" valign="top" class="bottibody">                
+                <span class="head"><br />Internationalism</span><span class="halfer"><br /><br /></span></td>
+        </tr></table>
+
+ 
+      <table width="579" border="0"  title="" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td align="left" valign="top" class="bottibody">The little sub-genre of &ldquo;Yokohama prints&rdquo; that flourished in the early 1860s was not restricted to just depicting Yokohama and its foreign residents. Illustrations of exotic animals brought in by foreign entrepreneurs&mdash;especially elephants, tigers, and camels&mdash;also became categorized as Yokohama pictures.<br />
+                <br />
+             
+                 
+                At the same time, the woodblock artists also turned their talents to imagining the far-away places from which the foreigners had come. <table width="230" border="0"  title="" cellspacing="10" cellpadding="0" align="right">
+                  <tr>
+                    <td  align="center" valign="top"><div class="explore01" id="explore01" ><span class="bottibody"><br />
+                    <br />
+</span><a href="animals.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image222','','image/explore_images02.gif',0);noverlay();noverlayv();noverlayu();"><img src="image/explore_images.gif" alt="Explore this image" name="Image222" width="348" height="67" border="0" title=""  id="Image222" /></a></div>                      <a href="javascript:openvcidwindow('gallery/pages/Y0155_Elephant.htm');"><img src="image/Y0155_Elephant_ss.jpg" alt="Recently Imported Large Elephant" width="104" height="144" border="0"  title="" /></a><a href="javascript:openvcidwindow('gallery/pages/Y0153_Leopard.htm');"><img src="image/Y0153_Leopard_ss.jpg" alt="Display at Nishi Ry_goku" width="102" height="144" border="0"  title="" /></a></td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="top"><span class="bottiblock">
+                    </span><span class="halfer"><br />
+                    </span>
+                      <span class="bottismall">[Y0155] and [Y0153]<br />
+                      Arthur M. Sackler Gallery,<br />
+                      Smithsonian Institution<br />
+                      <img src="image/space.gif" width="230" height="5" align="right" alt="space"/>
+                    </span></td>
+                  </tr>
+                </table>Here, even more transparently than elsewhere, their observations derived entirely from illustrated Western periodicals. And, here again, some of their representations were imaginative to an extreme.<br />
+<br />
+<a name="cities" id="cities"></a>That scenes of foreign places were included under the &ldquo;Yokohama&rdquo; rubric might seem to make little sense at first. This make good sense, however, when we keep in mind that &ldquo;Yokohama&rdquo; really operated as a synonym for &ldquo;the West&rdquo; in these years.</td>
+        </tr>
+		<tr>
+          <td align="center" valign="top" class="bottibody"><br />                
+            <table width="579" border="0" cellspacing="3" cellpadding="0" align="center">
+              <tr>
+                <td><a href="javascript:openvcidwindow('gallery/pages/Y0160_city_Washington.htm');"><img src="image/Y0160_city_Washington_ss.jpg" alt="[Y0160] Washington, D.C." width="282" height="148" border="0" align="right"  title="" /></a></td>
+                <td><a href="javascript:openvcidwindow('gallery/pages/Y0163_AmericanBalloons.htm');"><img src="image/Y0163_AmericanBalloons_ss.jpg"  alt="[Y0163]&ldquo;America&rdquo;" width="282" height="148" border="0" align="right"/></a></td>
+              </tr>
+              <tr>
+                <td><a href="javascript:openvcidwindow('gallery/pages/Y0164_city_London.htm');"><img src="image/Y0164_city_London_ss.jpg" alt="[Y0164] London" width="282" height="148" border="0" align="right"  title="" /></a></td>
+                <td><div class="explore02" id="explore02" ><span class="bottibody"><br />
+                    <br />
+</span><a href="cities.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image223','','image/explore_images02.gif',0);noverlay();noverlayv();noverlayu();"><img src="image/explore_images.gif" alt="Explore this image" name="Image223" width="348" height="67" border="0" title=""  id="Image223" /></a></div><a href="javascript:openvcidwindow('gallery/pages/Y0166_city_HollandNSW.htm');"><img src="image/Y0166_city_HollandNSW_ss.jpg" alt="[Y0166]  Picture of the Country of New Holland,South Wales" width="282" height="149" border="0" align="right"  title="" /></a></td>
+              </tr>
+              <tr>
+                <td><a href="javascript:openvcidwindow('gallery/pages/Y0167_city_FrenchPort.htm');"><img src="image/Y0167_city_FrenchPort_ss.jpg" alt="[Y0166] Holland N.S.W." width="282" height="150" border="0" align="right"  title="" /></a></td>
+                <td align="left" valign="middle"><span class="bottiblock"><img src="image/space.gif" alt="MIT Visualizing Cultures" width="10" height="110" align="left" title="" />Scenes of Foreign Places </span><span class="halfer"><br/>
+                    <br/>
+                </span> <a href="javascript:openvcidwindow('cities.html')" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image36','','image/popup02.gif',1)"> </a><br />
+                <span class="bottismall">[Y0160] Washington, D.C. <br />
+[Y0163]&ldquo;America&rdquo; [Y0164] London<br />
+[Y0167] French port [Y0166] Holland N.S.W.<br />
+Arthur M. Sackler Gallery, Smithsonian Institution</span></td>
+              </tr>
+            </table>            </td>
+        </tr>
+        <tr>
+          <td align="left" valign="top" class="bottibody"><span class="bottismall"><br />
+          </span>
+            It is also illuminating to note that much that was associated with the Westerners in Yokohama did not appear in these prints. Perry&rsquo;s visits in 1853 and 1854, for example, had inspired a great range of graphic responses on the part of Japanese artists. &ldquo;Portraits&rdquo; of the Americans ranged from fairly realistic renderings to outright cartoons and caricatures that conformed to the old stereotypes of &ldquo;hairy barbarians.&rdquo; Despite the demonization of foreigners that was taking place throughout much of Japan in the 1860s, virtually none of this seeped into the Yokohama prints themselves.<br />
+<br />
+This may have been commendable, but the obverse side of such generally flattering treatment was romanticization. Here again, Japanese graphics depicting the Perry mission offer a suggestive point of contrast. Particularly during Perry&rsquo;s more extended visit in 1854, many local artists took care to depict the full gamut of &ldquo;representative&rdquo; foreigners that had suddenly landed on their shores. As a result, they produced a collective picture that ran from the august commodore down through the ranks to the lowliest seaman.<br />
+<br />
+Although the Yokohama artists did include Chinese assistants and Indian servants, their overall treatment of the &ldquo;people of the five nations&rdquo; was highly idealized and homogenized. They focused attention on the merchants and traders, rather than the ordinary seamen who were constantly entering and leaving the treaty port. They averted their eyes from the disorderly riffraff that so appalled that early British diplomat and early French traveler. They did not dwell on the &ldquo;grog shops&rdquo; or frequent public drunkenness. There are no firearms in their portraits of the foreigners&mdash;although we know from other sources that many of the foreigners kept pistols and rifles close by, day and night, fearful that the anti-foreign agitation wracking the country might at any moment spill into their own sheltered lives.<br />
+<br />
+There are also no suggestions of religion in the &ldquo;West&rdquo; that is portrayed in the Yokohama prints&mdash;in this case for understandable reasons. Although Christian missionaries entered the treaty ports as soon as they opened, Christianity itself remained proscribed until 1873. The foreigners were not permitted to preach, and the artists would have faced punishment had they included any representation of Christianity. That is why pioneer missionaries like James Hepburn, who compiled the first Japanese-English dictionary, entered the country in capacities other than a religious one&mdash;in his case, as a medical practitioner. But even this points to yet another lacuna in the early prints: just as there are no ship&rsquo;s crewmen and no saloon keepers, there are also no doctors or other technical specialists.<br />
+<br />
+
+<table width="300" border="0" cellspacing="0" cellpadding="14" align="right">
+  <tr>
+    <td align="center" valign="top"  class="bottiblock"><a href="javascript:openvcidwindow('gallery/pages/Y0163_AmericanBalloons.htm');"><img src="image/Y0163_AmBalloons_det.jpg" alt="&ldquo;America&rdquo; by Yoshitora, 1867 (detail) [Y0163] Arthur M. Sackler Gallery Smithsonian Institution" width="300" height="432" hspace="10" vspace="0" border="0"  title="" align="top" /></a><br />
+      &ldquo;America&rdquo; by Yoshitora, 1867 (detail)<span class="halfer"><br />
+<br />
+</span>        <span class="bottismall">[Y0163]<span class="halfer"><br />
+<br />
+</span>
+        Arthur M. Sackler Gallery, Smithsonian Institution<br />
+        <br />
+        </span></td>
+  </tr>
+</table>
+Western technology was given due recognition in the early prints, but not obsessively. The great foreign ships in the harbor naturally commanded attention, as did technological wonders such as the sewing machine and camera. The fabricated images of foreign countries not only offered renderings of Western architecture, but occasionally also populated the sky with large manned balloons&mdash;a spectacle that the 1860 Japanese mission to America had witnessed in Philadelphia.<br />
+<br />
+
+	  
+	  
+	  Horse-drawn carriages also intrigued the artists&mdash;as did a conveyance, simple in the extreme, that probably had its genesis in the Yokohama treaty port itself. This was the rickshaw, which appeared on the Yokohama scene in 1867 when an American resident named Jonathan Goble fashioned one of these two-wheel, man-pulled vehicles as a way of conveying his ailing wife. There may have been earlier versions of this outside Japan, and the patent to manufacture the conveyance was obtained by several Japanese entrepreneurs in 1870; but Goble laid claim to the prototype, and the eventual &ldquo;rickshaw&rdquo; name came out of the Japanese coinage <em>jinrikisha</em>&mdash;literally, &ldquo;person-power-vehicle.&rdquo; By the end of the century, the rickshaw was ubiquitous throughout Asia&mdash;and commonly regarded by Westerns as a uniquely Oriental invention.<br />
+<br />
+As Yokohama expanded and the swampy fields beyond the city&rsquo;s original layout became filled in, Western-style stone and masonry buildings appeared to capture artists&rsquo; eyes&mdash;especially after a disastrous fire in 1866 paved the way for wide-scale civic reconstruction.<br />
+<br /></td>
+          </tr>
+	  </table>
+	  <table width="579" border="0"  title="" cellspacing="0" cellpadding="0">
+				   <tr> 
+          <td align="center" valign="top"><a href="javascript:openvcidwindow('gallery/pages/Y0090_Waterfront.htm');"><img src="image/Y0090_Waterfront_s.jpg" alt="&ldquo;Picture of the Prosperity of Mercantile Establishments along Nakad&#333;ri on the Yokohama Waterfront&rdquo;  by Kuniteru II, 1870 [Y0090] Arthur M. Sackler Gallery, Smithsonian Institution" width="565" height="291" border="0"  title="" /></a><br />
+            <span class="bottiblock">&ldquo;Picture of the Prosperity of Mercantile Establishments along Nakad&#333;ri on the<br />
+            Yokohama Waterfront&rdquo; by Kuniteru II, 1870<br />
+            </span><span class="halfer"><br/>
+            </span>
+            <span class="bottismall">[Y0090] Arthur M. Sackler Gallery, Smithsonian Institution<br />
+            <br /><br />
+            </span></td>
+          </tr>
+		<tr>
+          <td align="left" class="bottibody" valign="top">
+            In 1872, four years after the Bakufu had been overthrown, one of Commodore Perry&rsquo;s most spectacular gifts to the Japanese government in 1854&mdash;a quarter-size locomotive with cars and a tiny track&mdash;was reborn, full-blown, as a symbol of the new &ldquo;modern&rdquo; Japan. Constructed between 1870 and 1872, the first railway in Japan linked Yokohama to Shinagawa in Tokyo, a distance of a little over 17 miles.<br />
+            <br /> </td>
+        </tr>
+		</table>
+		
+		 <table width="579" border="0"  title="" cellspacing="0" cellpadding="0">
+				   <tr> 
+          <td width="300" align="left" valign="top">            <a href="javascript:openvcidwindow('gallery/pages/Y0184_train_schedule.htm');"><img src="image/Y0184_train_schedule_s.jpg"  alt="&ldquo;Railway Timetable&rdquo; by Yoshitora, 1872 [Y0184] Arthur M. Sackler Gallery Smithsonian Institution" width="282" height="409" border="0"  title="" align="left"/></a></td>
+          <td width="279" align="left" valign="top"><span class="bottibody"><br />
+            Woodblock artists loved the new railway, and their many renderings of it may, perhaps, be seen as bringing the epoch of Yokohama prints full cycle. A charming print from 1872, for example, reproduces the Yokohama-Tokyo train schedule over a scene of a Japanese woman in a rickshaw, with a train crossing a trestle behind her and the great ship-filled harbor behind the train.</span> <br />            <span class="bottiblock"><br />
+            <br />
+            <br />
+            <br />
+            &ldquo;Railway Timetable&rdquo; <br />
+            by Yoshitora, 1872</span>            <p class="bottismall">[Y0184] Arthur M. Sackler Gallery<br />
+              Smithsonian Institution<span class="bottismall"><br />
+              <span class="bottibody"><img src="image/space.gif" width="270" height="5" align="right" alt="space"/></span>
+              </span></p>            </td>
+	      </tr>
+	    </table>
+	  
+ 
+	  
+<table width="579" border="0"  title="" cellspacing="0" cellpadding="0" >
+        <tr valign="middle"> 
+          <td height="5" colspan="2" align="left" valign="top" class="bottibody"><span class="bottismall"><br />
+          </span><a name="y0182" id="y0182"></a>A rather garish print from two years later calls to mind Sadahide&rsquo;s 1861 masterpiece of the bustling, newly opened harbor&mdash;full of foreign ships and flags, but this time including not only a huge Western battleship but also a large locomotive belching steam on the shore. Just two decades after Commodore Perry had pried feudal Japan out of centuries-long seclusion, foreigners had become a fixture on the Japanese scene, internationalism was the name of the game, and &ldquo;Westernization&rdquo; was all the vogue.<br />
+          <br /></td>
+        </tr>
+        <tr valign="middle">
+          <td height="2" colspan="2" align="center" valign="top"><a name="popy0182" id="popy0182"></a><div class="explore03" id="explore03" ><span class="bottibody"><br />
+                    <br />
+</span><br />
+<br />
+<br />
+<br />
+<a href="y0182.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image224','','image/explore_image02.gif',0);noverlay();noverlayv();noverlayu();"><img src="image/explore_image.gif" alt="Explore this image" name="Image224" width="348" height="67" border="0" title=""  id="Image224" /></a></div>
+            <a href="javascript:openvcidwindow('gallery/pages/Y0182_TrainShip.htm');"><img src="image/Y0182_TrainShip_s.jpg" alt="&ldquo;Picture of a Steam Locomotive along the Yokohama Waterfront&rdquo; by Hiroshige III, ca. 1874 [Y0182] Arthur M. Sackler Gallery, Smithsonian Institution" width="565" height="291" border="0"  title="" /></a><br />            <span class="bottiblock">&ldquo;Picture of a Steam Locomotive along the Yokohama Waterfront&rdquo; by Hiroshige III, ca. 1874<br />
+            </span><span class="halfer"><br/>
+            </span><span class="bottismall">[Y0182] Arthur M. Sackler Gallery, Smithsonian Institution<br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            </span>            </td>
+        </tr>
+       </table>
+
+
+		 <table border="0" cellspacing="0" cellpadding="0" align="left">
+          
+ <tr>
+          <td align="left" valign="top"><span class="bottismall"><img src="../home/image/redline.gif" width="570" height="1"  alt="MIT Visualizing Cultures" title=""/><br/><br/>
+                <a href="javascript:imalert('../home/about.html')"><em>On viewing images of a potentially disturbing nature: click here.</em></a><br />
+                <br/>Massachusetts Institute of Technology &#169; 2008 Visualizing Cultures<br />
+                <br />
+          </span></td>
+          </tr>
+
+
+
+ <tr>
+          <td align="left" valign="top"><div class="bottom"><img src="image/essay_bottom.gif"  alt="MIT Visualizing Cultures" width="970" height="136" border="0" align="left" title=""/></div>
+<div class="essaynavbottom">
+  <table width="622" border="0" cellspacing="0" cellpadding="0" align="left">
+  <tr align="left">
+    <td align="left" width="105"><img src="image/yb_essay_nav_06.gif"  alt="Black Ships &amp; Samurai" name="nav01b" width="622" height="39" border="0" usemap="#Map5" id="nav01b" title=""/></td>
+  </tr>
+</table>
+</div></td>
+          </tr>
+
+
+	  </table>
+</td>
+    <td width="371">&nbsp;</td>
+  </tr>
+</table></div>
+<div class="top"><img src="image/essay_top.gif"  alt="MIT Visualizing Cultures" width="970" height="136" border="0" align="left" title=""/></div>
+
+<!--end background elements -->
+
+<!-- essay nav -->
+<div class="essaynavtop"><table width="622" border="0" cellspacing="0" cellpadding="0" align="left">
+  <tr align="left">
+    <td align="left" width="622"><img src="image/yb_essay_nav_06.gif"  alt="Black Ships &amp; Samurai" name="nav01" width="622" height="39" border="0" usemap="#Map4" id="nav01" title=""/></td>
+  </tr>
+</table>
+</div>
+
+
+<!-- end essay nav -->
+
+<!-- <div class="slug" id="slug"><span class="bottibody2">Massachusetts Institute of Technology &#169; 2008 Visualizing Cultures</span></div> -->
+
+
+<!-- right-hand buttons -->
+
+<!-- <div class="boxwelcome" id="boxwelcome">
+  <a href="y0119a.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image123','','image/woodblock_link02.gif',1);noverlay();noverlayv();noverlayu();"><img src="image/woodblock_link.gif" alt="How a woodblock print is made" name="Image123" width="243" height="198" border="0" id="Image123"  title=""/></a></div> -->
+
+
+
+<div class="boxpdf" id="boxpdf"><a href="pdf/yb_essay_06.pdf" target="_blank"  onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image12','','../home/image/pdf_chap02.gif',1);noverlay();noverlayv();noverlayu();"><img src="../home/image/pdf_chap.gif" alt="Printable PDF of this chapter" name="Image12" width="348" height="67" border="0" id="Image12"  title=""/></a></div>
+
+
+
+
+<!--end  right-hand buttons -->
+
+
+<!-- essay -->
+<div class="essay">
+
+</div>
+<!--end  essay -->
+
+
+</div>
+</div>
+
+
+<!--top bar nav elements -->
+<div class="box14" id="box14" ><table  width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><img src="../home/image/spacer.gif" width="10" height="26"  alt="MIT Visualizing Cultures"/><img src="../home/image/hometopnav01.gif"  alt="Menu" width="227" height="26" border="0" usemap="#topmap"/></td>
+  </tr>
+</table>
+</div>
+
+<div class="box15" id="box15" ><table  width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><img src="../home/image/spacer.gif" width="10" height="27"  alt="MIT Visualizing Cultures"/></td>
+  </tr>
+</table>
+</div>
+
+<div class="navbox" id="hideme"><a  onmouseout="javascript:noverlay();" onmouseover="javascript:overlay();"><img src="../home/image/vc_home_nav.png" alt="MIT Visualizing Cultures" width="202" height="300" border="0" usemap="#Map"  id="Image5"  name="Image5" title="" /></a></div> 
+
+<div class="twit">
+<a href="https://twitter.com/share" class="twitter-share-button" data-count="none">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></div>
+
+<div class="emil"><!--email-->
+<script type="text/javascript"><!--
+
+var SubjectLine='MIT Visualizing Cultures'; 
+var BodyText='You can see this page at: '+top.location.href;
+
+var Message='<A CLASS=contact HREF="mailto:?SUBJECT='+escape(SubjectLine)+'&BODY='+escape(BodyText)+'" OnMouseOver="status=\'Envoyer cette page à vos amis\'; return true;" ><img src="../home/image/email2.gif" alt="Email" name="Image321"   border="0" id="Image321"  title=""/><\/A>';
+
+var MessageIE='<A CLASS=contact HREF="mailto:?SUBJECT='+(SubjectLine)+'&BODY='+(BodyText)+'" OnMouseOver="status=\'Envoyer cette page à vos amis\'; return true;" ><img src="../home/image/email2.gif" alt="Email" name="Image321"   border="0" id="Image321"  title=""/><\/A>';
+
+if(document.all) { document.write(MessageIE); }
+
+else { document.write(Message); }
+
+// http://javascriptsource.com "The JavaScript Source"
+//--></script></div>
+
+
+
+<!--facebook--><div class="fbok">
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<div class="fb-like" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false" data-colorscheme="light" data-font="verdana"></div>
+
+</div> 
+
+<div class="unitsnavbox01" id="unitsnavbox01" ><a  onmouseout="javascript:noverlayu();" onmouseover="javascript:overlayu();"><img src="../home/image/unitstopnav01.gif"  alt="Units" width="227" height="26" border="0"/></a></div>
+ <div class="navboxu" id="hidemeu"><a href="#" onmouseout="javascript:noverlayu();" onmouseover="javascript:overlayu();"><img src="../home/image/vc_units_cur_nav.png" alt="MIT Visualizing Cultures" width="179" height="148" border="0" usemap="#Map3"  id="Image6"  name="Image6" title=""/></a></div> <div class="unitnavbox" id="unitnavbox" ><a  onmouseout="javascript:noverlayv();" onmouseover="javascript:overlayv();"><img src="image/topnav.gif"  alt="Black Ships &amp; Samurai" width="227" height="26" border="0"/></a></div>
+ 
+<div class="navboxv" id="hidemev"><a  onmouseout="javascript:noverlayv();" onmouseover="javascript:overlayv();"><img src="image/yb_nav.png" alt="Black Ships &amp; Samurai"  name="Image7" width="212" height="194" border="0" usemap="#Image7Map"   id="Image7" title=""/>
+    
+</a></div>
+<!--end top bar nav elements -->
+
+
+
+<!--image maps -->
+    <map name="topmap" id="topmap">
+      <area shape="rect" coords="0,0,180,47" href="#" onmouseover="overlay();"  alt="MIT Visualizing Cultures" />
+      <area shape="rect" coords="194,0,300,47" href="#" onmouseover="overlayu();"  alt="VC Units" />
+  </map>
+
+<map name="Map" id="Map">
+      <area shape="rect" coords="0,0,211,39" href="../home/index.html" onmouseover="overlay()" alt="MIT Visualizing Cultures"/>
+      <area shape="rect" coords="0,39,211,66" href="../home/vc01_about.html" target="_top"  alt="About VC" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_02.png',1)"/>      
+      <area shape="rect" coords="0,66,211,96" href="../home/vc02_schol.html" target="_top"  alt="VC Scholars" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_03.png',1)" />
+  <area shape="rect" coords="0,96,211,124" href="../home/vc03_partner.html" target="_top"  alt="Partner Institutions" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_04.png',1)" />
+
+  <area shape="rect" coords="0,124,211,147" href="../home/vc05_outreach.html" target="_top"  alt="Outreach" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_05.png',1)" />
+  <area shape="rect" coords="3,147,211,181" href="../home/vc06_event.html" target="_top"  alt="Conferences &amp; Events" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_06.png',1)" />
+  <area shape="rect" coords="3,181,211,214" href="mailto:visualizingcultures@mit.edu" target="_top"  alt="Contact" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_07.png',1)" />
+ <area shape="rect" coords="1,214,212,240" href="http://www.facebook.com/home.php#!/group.php?gid=261831254970&amp;ref=ts" target="_blank"  alt="Join Us" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_08.png',1)" />
+  <area shape="rect" coords="0,240,211,266" href="http://twitter.com/Visualizing_Cul" target="_blank"  alt="Follow Us" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_09.png',1)" />
+</map><map name="Map3" id="Map3">
+  
+<area shape="rect" coords="0,2,312,30" href="../home/vis_menu.html" target="_top" alt="Units" onmouseout="noverlayu();MM_swapImgRestore()" onmouseover="overlayu();" />
+
+<area shape="rect" coords="2,38,314,68" href="../home/vis_menu.html" target="_top" alt="Icon View" onmouseout="noverlayu();MM_swapImgRestore()" onmouseover="overlayu();MM_swapImage('Image6','','../home/image/vc_units_cur_nav_01.png',1)" />
+
+<area shape="rect" coords="0,67,312,95" href="../home/vis_menu_02b.html" target="_top" alt="Text View" onmouseout="noverlayu();MM_swapImgRestore()" onmouseover="overlayu();MM_swapImage('Image6','','../home/image/vc_units_cur_nav_02.png',1)" />
+
+<area shape="rect" coords="1,94,313,122" href="../home/vis_menu_03.html" target="_top" alt="Curriculae" onmouseout="noverlayu();MM_swapImgRestore()" onmouseover="overlayu();MM_swapImage('Image6','','../home/image/vc_units_cur_nav_03.png',1)" /></map>
+<map name="Image7Map" id="Image7Map">
+  <area shape="rect" coords="0,2,212,30" href="index.html" target="_top" alt="Black Ships &amp; Samurai" onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();" />
+      <area shape="rect" coords="0,30,215,70" href="yb_essay01.html" target="_top" alt="Essay" onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();MM_swapImage('Image7','','image/yb_nav_02.png',1)" />
+  <area shape="rect" coords="0,70,215,95" href="yb_visnav01.html" target="_top" alt="Visual Narratives" onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();MM_swapImage('Image7','','image/yb_nav_03.png',1)" />
+<area shape="rect" coords="0,95,215,130" href="woodblock.html" target="_top" alt="Making a Woodblock Print" onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();MM_swapImage('Image7','','image/yb_nav_04.png',1)" />
+  <area shape="rect" coords="0,130,215,155" href="javascript:openvcidwindow('gallery/index.htm')" target="_top" alt="Image Database" onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();MM_swapImage('Image7','','image/yb_nav_05.png',1)" />
+  <area shape="rect" coords="0,155,215,185" href="javascript:opencurwindow('cur_student/yb_cur_toc.html')" target="_top" alt="Curriculum" onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();MM_swapImage('Image7','','image/yb_nav_06.png',1)" />
+</map>
+<map name="Map4" id="Map4">
+<area shape="rect" coords="0,0,100,39"   href="yb_essay01.html" onmouseover="MM_swapImage('nav01','','image/yb_essay_nav_01.gif',1);noverlay();noverlayv();noverlayu();" onmouseout="MM_swapImgRestore()" alt="Introduction"/> 
+ <area shape="rect" coords="100,0,164,39" href="yb_essay02.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01','','image/yb_essay_nav_02.gif',1);noverlay();noverlayv();noverlayu();"  alt="Chaos"/>
+  <area shape="rect" coords="164,0,252,39" href="yb_essay03.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01','','image/yb_essay_nav_03.gif',1);noverlay();noverlayv();noverlayu();"  alt="Commerce"/>
+ <area shape="rect" coords="252,0,337,39" href="yb_essay04.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01','','image/yb_essay_nav_04.gif',1);noverlay();noverlayv();noverlayu();"  alt="Boomtown"/>
+    <area shape="rect" coords="337,0,430,39" href="yb_essay05.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01','','image/yb_essay_nav_05.gif',1);noverlay();noverlayv();noverlayu();"  alt="Interactions"/>
+   <!--  <area shape="rect" coords="430,0,544,39" href="yb_essay06.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01','','image/yb_essay_nav_06.gif',1);noverlay();noverlayv();noverlayu();"  alt="Internationalism"/>-->
+  <area shape="rect" coords="544,0,622,39" href="yb_essay07.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01','','image/yb_essay_nav_07.gif',1);noverlay();noverlayv();noverlayu();"  alt="Sources"/>
+</map>
+
+
+<map name="Map5" id="Map5">
+<area shape="rect" coords="0,0,100,39"   href="yb_essay01.html" onmouseover="MM_swapImage('nav01b','','image/yb_essay_nav_01.gif',1);noverlay();noverlayv();noverlayu();" onmouseout="MM_swapImgRestore()" alt="Introduction"/>
+ <area shape="rect" coords="100,0,164,39" href="yb_essay02.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01b','','image/yb_essay_nav_02.gif',1);noverlay();noverlayv();noverlayu();"  alt="Chaos"/>
+ <area shape="rect" coords="164,0,252,39" href="yb_essay03.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01b','','image/yb_essay_nav_03.gif',1);noverlay();noverlayv();noverlayu();"  alt="Commerce"/> 
+  <area shape="rect" coords="252,0,337,39" href="yb_essay04.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01b','','image/yb_essay_nav_04.gif',1);noverlay();noverlayv();noverlayu();"  alt="Boomtown"/>
+   <area shape="rect" coords="337,0,430,39" href="yb_essay05.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01b','','image/yb_essay_nav_05.gif',1);noverlay();noverlayv();noverlayu();"  alt="Interactions"/>
+    <!--  <area shape="rect" coords="430,0,544,39" href="yb_essay06.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01b','','image/yb_essay_nav_06.gif',1);noverlay();noverlayv();noverlayu();"  alt="Internationalism"/>-->
+  <area shape="rect" coords="544,0,622,39" href="yb_essay07.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01b','','image/yb_essay_nav_07.gif',1);noverlay();noverlayv();noverlayu();"  alt="Sources"/>
+</map>
+
+<!-- body image maps-->
+<map name="yoko01" id="yoko01">
+  <area shape="rect" coords="7,5,269,398" href="javascript:openvcidwindow('http://visualizingcultures.com:8080/narravision-web/large_view.jsp?assetId=Y0122&amp;largeURL=http://www.blackshipsandsamurai.com/YOKO_COLLECTION_jpgs/Y0122_American_Courtesan_lg.jpg&amp;mediumURL=http://www.blackshipsandsamurai.com/YOKO_COLLECTION_jpgs/Y0122_American_Courtesan_md.jpg');" alt="&ldquo;Autumn Moon at Miyozaki&rdquo; by Yoshitora, 1861 [Y0122] Arthur M. Sackler Gallery, Smithsonian Institution" />
+  <area shape="rect" coords="287,5,550,398" href="javascript:openvcidwindow('http://visualizingcultures.com:8080/narravision-web/large_view.jsp?assetId=Y0145&amp;largeURL=http://www.blackshipsandsamurai.com/YOKO_COLLECTION_jpgs/Y0145_American_Courtesan_lg.jpg&amp;mediumURL=http://www.blackshipsandsamurai.com/YOKO_COLLECTION_jpgs/Y0145_American_Courtesan_md.jpg');" alt="&ldquo;American Drinking and Carousing&rdquo; by Yoshitora, 1861 [Y0145] Arthur M. Sackler Gallery, Smithsonian Institution" />
+</map>
+</body>
+</html>

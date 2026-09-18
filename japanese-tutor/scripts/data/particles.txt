@@ -1,0 +1,16 @@
+# Case and binding particles. Used to split unknown chunks at word boundaries.
+# Only include particles that reliably mark a boundary - inflection tails
+# such as shi/te/ta must NOT go here or verb and adjective stems get mangled.
+は
+が
+を
+に
+で
+と
+も
+へ
+の
+から
+まで
+より
+や

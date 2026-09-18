@@ -1,0 +1,117 @@
+# Sources and provenance
+
+Everything in this folder except `Past Exams/` was fetched on the date below. This file records where each
+item came from, what its licence actually is, and why it is here. It also records the well-regarded things
+that were deliberately **not** downloaded, so the gaps are visible rather than silent.
+
+**Total size of this folder excluding `Past Exams/`: ~125 MB** (of which the `JLPT Sensei` mirror alone accounts for ~72 MB).
+
+---
+
+## The one caveat that matters most
+
+Almost every *free* per-level JLPT vocabulary and kanji list in existence - Tanos, the CSV/JSON conversions
+below, the `jlpt_new` field in the KANJIDIC-derived data, the Yomitan tag dictionary, and the JLPT tags you
+see on **Jisho** - all trace back to the same origin: **Jonathan Waller's lists**, themselves derived from the
+**pre-2010** official vocabulary and kanji lists. The organisers stopped publishing official lists after the
+2010 revision and have never resumed.
+
+So when four different sources "agree" on which words are N2, that is **not** independent corroboration - it
+is one source quoted four times. Treat all level tagging here as a rough historical proxy, never a syllabus.
+The only genuinely authoritative material in this folder is the `Official *` folders, straight from the
+organisers.
+
+---
+
+## Downloaded
+
+| Resource | Source URL | Retrieved | License/Status | Why it is worth having |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Official Practice Workbook 2018](<./Official Practice Workbook 2018>)** (Vol. 2) - 35 PDFs, all 5 levels: vocabulary, grammar, reading and listening question papers, plus answer keys, listening scripts and answer sheets | <https://www.jlpt.jp/e/samples/sampleindex.html> | 2026-09-17 | **Official free download**, (c) Japan Foundation / JEES. Site policy explicitly permits reproduction "for personal use such as individual study"; **public transmission is prohibited** - see the redistribution warning below | The single highest-value legitimately-free JLPT resource. Real, officially calibrated questions in the real format. This is the only material that tells you what the exam actually demands rather than what a third party guesses it demands. The listening **scripts** make the listening section usable as text without the 350 MB of audio. |
+| **[Official Guidebook](<./Official Guidebook>)** - the complete Vol. 1 guidebook (English and Japanese), plus the Vol. 2 executive summary | <https://www.jlpt.jp/e/reference/index.html> | 2026-09-17 | **Official free download**, (c) Japan Foundation / JEES, same personal-use terms | The organisers' own statement of what each level means, how scaled scoring works, and how the test is constructed. The authority behind most of the numbers people quote second-hand. |
+| **[Official Can-do Self-Evaluation List](<./Official Can-do Self-Evaluation List>)** | <https://www.jlpt.jp/e/about/candolist.html> | 2026-09-17 | **Official free download**, (c) Japan Foundation / JEES | Official "what examinees at this level say they can actually do" statements across listening, speaking, reading and writing. The best available sanity check on whether a level means what you think, and it covers **speaking and writing** - which the exam itself never tests. |
+| **[New Test Sample Questions 2009](<./New Test Sample Questions 2009>)** - Composition of Test Items (all levels), table of contents, changes to test directions, cover | <https://www.jlpt.jp/e/samples/sample09.html> | 2026-09-17 | **Official free download**, (c) Japan Foundation / JEES, same personal-use terms | "Composition of Test Items" is the official taxonomy of **every question type at every level**, with the intent behind each. Nothing else in this folder maps the exam's structure this explicitly. Published in 2009 to explain the 2010 revision. |
+| **[Tanos JLPT Lists](<./Tanos JLPT Lists>)** - grammar lists N1-N5 and kanji lists N1-N5 (PDF) | <https://www.tanos.co.uk/jlpt/> | 2026-09-17 | **CC-BY (Jonathan Waller)** - but note: the CC-BY claim comes from downstream re-users who attribute it that way; tanos.co.uk itself states only "(c) Jonathan Waller" with no explicit licence text | The longest-standing free per-level lists, recommended independently by effectively every JLPT guide. The **grammar** lists are the most useful part: there is no official grammar list at all, so an unofficial-but-stable one is the only practical gap-check. Human-readable, with readings and meanings. |
+| **[Tanos Vocab and Kanji Data (CSV-JSON)](<./Tanos Vocab and Kanji Data (CSV-JSON)>)** - per-level and combined vocabulary (8,505 entries) and kanji (2,211 entries) | <https://github.com/Bluskyo/JLPT_Vocabulary> | 2026-09-17 | **MIT** (conversion code and repo); underlying data **CC-BY, Jonathan Waller / tanos.co.uk** per the repo's own attribution | The same Tanos data in machine-readable form: importable into Anki, greppable, diffable against a deck you already have. **Limitation: the per-level vocabulary CSVs carry only `Kanji,Reading` - no English glosses.** Use the Tanos PDFs or a dictionary for meanings. |
+| **[Kanji Data by JLPT Level (KANJIDIC-derived)](<./Kanji Data by JLPT Level (KANJIDIC-derived)>)** - all 2,136 jouyou kanji and 1,006 kyouiku kanji as JSON, with `jlpt_old`/`jlpt_new`, stroke count, frequency rank, English meanings, on/kun readings and WaniKani level | <https://github.com/davidluzgouveia/kanji-data> | 2026-09-17 | **MIT** (repo). Underlying kanji data is **KANJIDIC (EDRDG), CC-BY-SA 4.0** - the repo's blanket MIT does not really cover that, so the attribution chain is imperfect upstream | The most useful single file here for kanji planning: gives English meanings (which the Tanos CSVs lack) plus a **frequency rank**, so you can sort by what actually appears in print rather than by level alone. Also exposes `jlpt_old` next to `jlpt_new`, which makes the pre/post-2010 discrepancy visible instead of hidden. The `jlpt_new` distribution: N5=79, N4=166, N3=367, N2=367, N1=985. |
+| **[Yomitan JLPT Vocab Level Tags](<./Yomitan JLPT Vocab Level Tags>)** - `jlpt.zip`, a Yomitan meta-dictionary | <https://github.com/stephenmk/yomitan-jlpt-vocab> | 2026-09-17 | **CC-BY-SA 4.0**; data attributed to Jonathan Waller / tanos.co.uk under CC-BY | Turns level tagging into something passive: hover any word while reading and see its JLPT tag. By the author of Jitendex, and cleaned against JMdict so that rare spellings in Waller's original lists are corrected to their common forms. 79 KB for a permanent reading-time upgrade. |
+| **[JLPT Sensei](<./JLPT Sensei>)** - `wget --mirror` of jlptsensei.com: homepage, per-level study guides, grammar/vocabulary/kanji list pages, about/downloads/ebooks/flashcards/blog sections (1,732 files, 1,560 HTML, 72 MB) | <https://jlptsensei.com/> | 2026-09-17 | **All rights reserved** - the site's own terms prohibit reproduction, copying and redistribution of its content; kept as a private offline copy for personal study only, not redistributable | A second independent-looking headword/reading/gloss set at the list-page level to cross-check against the Tanos data. **Materially incomplete**: the ~1,060 individual grammar/vocabulary/kanji lesson pages - the site's actual detailed content, with usage notes and example sentences - sit behind an anti-scraping CAPTCHA gate and were saved as redirect stubs, not lessons. See `archive-info.md` inside the folder for exactly what did and did not survive, and for what the site does (and does not) say about the origin of its own level lists. |
+
+### Additional official resources
+
+| Resource | Source URL | Retrieved | License/Status | Why it is worth having |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Official Statistics Archive](<./Official Statistics Archive>)** - all 33 official per-sitting results pages (July/December, 2009-2025), the "Whole" statistics report for the most recent sitting (Dec 2025), and the "Applicants and Examinees by Test Site" spreadsheet for the same sitting | <https://www.jlpt.jp/e/statistics/archive.html> | 2026-09-17 | **Official free download**, (c) Japan Foundation / JEES, same personal-use terms as the redistribution warning below | The guide discusses pass rates and difficulty with no data behind it - this is that data, straight from the organisers: applicants, examinees, certified counts and pass percentage **per level, per sitting, split Japan vs. Overseas**, back to 2009 (the July 2020 sitting was cancelled due to COVID, so that year has December data only). The "Whole" report adds average scores, standard deviations and the cumulative distribution of scaled scores for the latest sitting; the spreadsheet adds a by-test-site (city/country) breakdown in machine-readable form. |
+| **[Official CEFR Correspondence (Standard Setting)](<./Official CEFR Correspondence (Standard Setting)>)** - the official CEFR-reference page, the two explanatory graphics, and the 2024-02-13 standard-setting report | <https://www.jlpt.jp/e/about/cefr_reference.html> and <https://www.jlpt.jp/cefrlevel/pdf/jlptcefrreport20240213.pdf> | 2026-09-17 | **Official free download**, (c) Japan Foundation / JEES, same personal-use terms | Starting with the December 2025 sitting, passing score reports carry a reference CEFR level (A1-C1); this is the official score-range table plus the methodology report describing the 5-step Council-of-Europe linking procedure (Familiarisation, Specification, Standardisation training and benchmarking, Standard setting, Validation) and the specific standard-setting methods used (Tucker-Angoff, Bookmark, Item-Descriptor Matching). This is the JLPT-to-CEFR alignment the guide's JF Standard material does not cover, and it is genuinely new information (CEFR reference only began with the Dec 2025 test). The standard-setting report is Japanese-only. |
+| **[Official Scaled Scoring Methodology](<./Official Scaled Scoring Methodology>)** - "Scaled Scores" explainer | <https://www.jlpt.jp/e/about/pdf/scaledscore_e.pdf> | 2026-09-17 | **Official free download**, (c) Japan Foundation, same personal-use terms | The organisers' own plain-language explanation of Item Response Theory (IRT), why raw scores are not comparable across sittings, and how scaled scores are calculated. This is the actual methodology behind every pass-mark number quoted elsewhere in this guide - the closest thing to a validity/psychometrics document that the organisers themselves publish. |
+| **[JFT-Basic Test Specification (Comparison Test)](<./JFT-Basic Test Specification (Comparison Test)>)** - "Document Describing the Test," 29 slides | <https://www.jpf.go.jp/jft-basic/e/about/pdf/describing_en.pdf> | 2026-09-17 | **Official free download**, (c) The Japan Foundation | JFT-Basic (国際交流基金日本語基礎テスト) is the CBT the Specified Skilled Worker visa route accepts in place of JLPT N4, and the guide mentions it with no local material. This is the Japan Foundation's own specification: test method (CBT, audio-plus-screen), section structure, and the A2-equivalent level it targets. A genuinely different, independently administered test, not another JLPT level list. |
+| **[Official 2026 Guide (Registration and Logistics)](<./Official 2026 Guide (Registration and Logistics)>)** - bilingual FAQ brochure | <https://www.jlpt.jp/reference/pdf/guide_2026.pdf> | 2026-09-17 | **Official free download**, (c) Japan Foundation / JEES, same personal-use terms | The registration and logistics gap: who can sit the test, how and where to register, what to do for cross-border registration, disability accommodations (with the "Request Form for Special Testing Accommodations" named), and the 2026 test dates (July 5 / December 6). Short, current, and something no other file in this folder covers. |
+
+### Redistribution warning
+
+The `jlpt.jp` [site policy](https://www.jlpt.jp/e/policy.html) grants reproduction and copying **for personal
+study** and for non-profit classroom use, but prohibits **public transmission** without permission. It also
+warns that the sample questions embed third-party copyrighted works needing separate authorisation. Keeping
+these PDFs in a **private** repo for personal study is within the granted terms; **publishing this repo
+publicly would not be.** If this repo is ever made public, delete `Official Practice Workbook 2018`,
+`Official Guidebook`, `Official Can-do Self-Evaluation List`, `New Test Sample Questions 2009`,
+`Official Statistics Archive`, `Official CEFR Correspondence (Standard Setting)`,
+`Official Scaled Scoring Methodology`, and `Official 2026 Guide (Registration and Logistics)` and rely on
+the links instead - all of these are jlpt.jp material under the same policy.
+
+`JFT-Basic Test Specification (Comparison Test)` is **not** jlpt.jp material - it is a Japan Foundation
+document under its own (equally permission-for-personal-use) terms, but it is a different organiser page
+(`jpf.go.jp`), so check its own policy separately if this repo is ever made public.
+
+---
+
+## Not included here
+
+### Free and legal, but skipped on size or redundancy
+
+| Resource | URL | Why not |
+| :--- | :--- | :--- |
+| **Official listening audio** (2018 and 2009 sets, MP3) | <https://www.jlpt.jp/e/samples/sampleindex.html> | ~350 MB across all levels - roughly 7x the entire budget for this folder, and audio rather than text. The site also flags that **all** listening audio contains third-party works whose reproduction is prohibited without permission. The **listening scripts were downloaded instead**, which preserves the content as text. |
+| **Official Practice Workbook 2012** (Vol. 1) - the older free set, a second complete set of questions | `https://www.jlpt.jp/samples/sample2012/pdf/{N1..N5}{V,G,R,L,sheet,answer,script}.pdf` | Genuinely valuable, and would roughly double the volume of official practice questions, but ~31 MB. Taking both workbooks would have blown the 50 MB budget. **This is the first thing to add if the budget is ever raised.** |
+| **2009 full sample question booklets** (`N1-N5` mondai / script / seikai / kaitou) | <https://www.jlpt.jp/e/samples/sample09.html> | ~28 MB. Superseded for practice purposes by the 2018 workbook, which is newer and better calibrated. Only the uniquely useful non-question parts were taken. |
+| **Can-do survey interim and final reports** | <https://www.jlpt.jp/e/about/candolist.html> | ~1.3 MB of survey methodology. Legitimately free, but research background rather than study material. |
+| **Tanos vocabulary list PDFs, `.anki`/`.mem` files, and MP3 archives** | <https://www.tanos.co.uk/jlpt/> | The vocabulary PDFs alone are ~12 MB and the N1 MP3 archive is 188 MB. The same vocabulary data is already here in CSV/JSON at a fraction of the size. The `.anki` and `.mem` formats are for long-dead software. |
+| **Tanos past papers section** | <https://www.tanos.co.uk/jlpt/skills/pastpapers/> | `Past Exams/` in this folder already covers past papers far more comprehensively. Not duplicated. |
+
+### Well-regarded but copyrighted and sold - pointers only
+
+Do not add these to the repo. Buy them.
+
+| Resource | URL | Note |
+| :--- | :--- | :--- |
+| **Official Practice Workbook, print editions** | <https://www.bonjinsha.com/> | The free PDFs above are the same questions. The print edition adds the audio CD. |
+| **Shin Kanzen Master** (新完全マスター) | <https://www.3anet.co.jp/> | The standard grind series, one volume per skill per level. Check you are buying *Shin* and not the pre-2010 edition. |
+| **Nihongo So-matome** (日本語総まとめ) | <https://www.ask-books.com/> | Fixed-schedule daily-chunk review series. Good when already near the level, not enough if you have real gaps. |
+| **Try! N5-N1** | <https://www.ask-books.com/> | Grammar-centred and textbook-like, with audio. Weaker as sole material at N1. |
+| **Commercial mock exam books** | various | Useful for volume; difficulty calibration varies a lot. Do not judge readiness by them. |
+
+### Free to use but not downloadable in bulk - pointers only
+
+| Resource | URL | Note |
+| :--- | :--- | :--- |
+| **JLPT Sensei** | <https://jlptsensei.com/> | Free per-level grammar indexes with example sentences - the most complete free grammar-point browser (180+ entries for N3 alone). Site content is copyrighted with no bulk export, so scraping it was not appropriate. The best free complement to the Tanos grammar PDFs here. |
+| **Tofugu** | <https://www.tofugu.com/japanese/> | Well-regarded article body on JLPT levels, materials and test-day practicalities, plus a resource-review database. Copyrighted blog content; linked rather than mirrored. |
+| **Bunpro** | <https://bunpro.jp/> | Grammar SRS with JLPT paths. The most efficient way to close grammar gaps found in a diagnostic. Paid. |
+| **Renshuu / jpdb / Jisho** | <https://www.renshuu.org/> / <https://jpdb.io/> / <https://jisho.org/> | Level-filtered drilling, frequency data and dictionary lookup. Web apps; nothing to download. Jisho's JLPT tags are Waller-derived, with the same caveat as above. |
+| **Nihongo 123 / ARC Academy practice quizzes** | <https://www.nihongo123.com/> | Free browser-based practice; Nihongo 123 is supervised by the University of Tsukuba and covers N5-N2. No offline export. |
+| **medamayaki JLPT grammar deck** | see <https://learnjapanese.moe/> | Anki grammar deck recommended by TheMoeWay for systematically covering N5-N1 grammar points. Externally hosted, large, and licensing is unclear - fetch it yourself if you want it. |
+| **JMdict / KANJIDIC full datasets** | <https://www.edrdg.org/> | CC-BY-SA 4.0, and the upstream of much of the data here, but they are general dictionaries rather than JLPT material and belong in `../General content/` if wanted. |
+
+### Other resources not included
+
+| Resource | URL | Why not |
+| :--- | :--- | :--- |
+| **出題基準** (Test Content Specification, 1994/rev. 2004) - the last official vocabulary/kanji/grammar list, published before the organisers stopped maintaining one | Published in print by Bonjinsha (<https://www.bonjinsha.com/>); no official free PDF exists | This is the actual root document behind every Waller-derived list (see the caveat at the top of this file), but it was only ever published as a commercial book, out of print, with no legitimate free digital copy available. If a copy is ever obtained, it would be the single most valuable addition to this folder for explaining the lineage properly. |
+| **Nishizawa, Isbell & Suzuki (2022), "Review of the Japanese-Language Proficiency Test,"** *Language Testing* 39(3), 494-503 | <https://journals.sagepub.com/doi/full/10.1177/02655322221080898> | The academic validity review the guide's "no output component" claim deserves, but it is paywalled (SAGE). The ResearchGate mirror requires login and the Waseda institutional repository page links back to the same paywall rather than hosting a copy. Worth buying/accessing via a library if a real validity discussion is wanted. |
+| **BJT sample questions** (kanken.or.jp, run by the Kanji Kentei organisation) | <https://www.kanken.or.jp/bjt/english/sample/> | The actual question text - even in the "Reading Comprehension" section - is embedded as `.jpg` images (`sample03.html` alone references 33 image files), not selectable text. A saved HTML copy would be unreadable without the images, and this folder is text-formats-only, with no images. |
+| **JFT-Basic sample questions** | <https://www.jpf.go.jp/jft-basic/sample/q01.html> (and q02-q05) | Same problem as the BJT samples: question content is delivered as image files with the HTML acting only as a frame. Declined for the same reason; the JFT-Basic **specification** document was kept instead since it is genuinely text. |
+| **JFT-Basic brochure** (`JFT-Basic_Brochure_202404.pdf`) | <https://www.jpf.go.jp/jft-basic/report/pdf/JFT-Basic_Brochure_202404.pdf> | Renders as a layout of empty placeholder boxes rather than readable content (likely depends on linked/interactive elements). The fuller "Document Describing the Test" covers the same ground in actual text and is used instead. |
+| **Kanken (日本漢字能力検定) official specimen PDFs**, all levels | <https://www.kanken.or.jp/kanken/grades/sample/> | Real, current (2026), genuine per-level specimen PDFs exist, but kanken.or.jp's site policy (<https://www.kanken.or.jp/policy/>) states content may be used for **private purposes only** and reproduction requires the association's prior written consent, with no "public transmission" carve-out of the kind jlpt.jp grants. Not included here on licensing grounds; listed as a pointer only. Kanken remains a well-regarded, genuinely different Japanese-proficiency credential the guide could reference. |
+| **"日本語能力試験改定の中間報告"** (interim report on the JLPT revision, 大隅敦子, *言語教育評価研究* No.1, 2009, pp.73-77) | <https://www.jlpt.jp/reference/pdf/2009_011.pdf> | Discusses exactly the IRT/vertical-equating methodology behind the scaled-scoring numbers elsewhere in this folder, but its Japanese text uses non-embedded CID fonts that render as **blank glyphs** in common PDF tooling - jlpt.jp itself warns that some of its PDFs need an "Asian Font Pack" for Acrobat Reader to display correctly, which is consistent with this file. Not included here: the embedded CJK fonts do not render with common PDF tooling, so the text is not reliably readable. |
+| **国際交流基金日本語基礎テストの開発** (JFT-Basic development paper, 熊野七絵ほか, 国際交流基金日本語教育紀要) | <https://www.jpf.go.jp/jft-basic/report/pdf/kiyou17_kumano.pdf> | Same issue as the row above: discusses JFT-Basic's development as a CBT, but its Japanese text renders as blank glyphs due to non-embedded CID fonts. Not included here for the same reason. |
+

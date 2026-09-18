@@ -1,0 +1,38 @@
+# Particles and inflection tails that are grammar, not vocabulary.
+# Kept out of the coverage report so mining candidates stay useful.
+# One per line; edit freely.
+は
+が
+を
+に
+で
+と
+も
+へ
+から
+まで
+より
+の
+や
+ね
+よ
+か
+な
+ぞ
+さ
+わ
+けど
+し
+て
+た
+だ
+です
+ます
+でした
+ました
+こと
+もの
+する
+いる
+ある
+ない

@@ -1,0 +1,29 @@
+Sources (author self-archived preprints on arXiv, cmp-lg = Computation and
+Language):
+
+Walker, Iida & Cote (1994), "Japanese Discourse and the Process of
+Centering", Computational Linguistics 20(2).
+https://arxiv.org/abs/cmp-lg/9609006
+https://arxiv.org/pdf/cmp-lg/9609006
+
+Iida (1996), "Discourse Coherence and Shifting Centers in Japanese Texts",
+in Walker, Joshi & Prince (eds.), Centering in Discourse, Oxford University
+Press.
+https://arxiv.org/abs/cmp-lg/9609007
+https://arxiv.org/pdf/cmp-lg/9609007
+
+Two linked academic papers that give the linguistic/computational backbone
+under this guide's is-vs-ga and "invisible subject" discussion. Both study
+zero pronouns (unexpressed verb arguments) in real Japanese text and how
+wa/ga/o/ni marking plus "centering" (which entity a passage is about)
+constrain what a dropped argument refers to. The 1994 paper proposes a
+"zero topic assignment" rule tested against native-speaker judgements on
+minimal discourse pairs; the 1996 chapter tests the resulting algorithm
+against 250 utterances from 20 Japanese newspaper articles.
+
+Not a teaching resource - this is the scholarly literature the guide's
+"is Japanese really subjectless" section is implicitly drawing on. Public
+via arXiv (author self-archival of published/in-press work); cite the
+original venues above.
+
+Retrieved 2026-09-17.

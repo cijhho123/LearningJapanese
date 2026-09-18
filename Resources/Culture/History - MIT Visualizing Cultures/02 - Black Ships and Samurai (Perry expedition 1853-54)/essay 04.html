@@ -1,0 +1,1381 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/tr/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>MIT Visualizing Cultures</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+
+
+<style type="text/css">
+<!--
+
+.backg {
+	position:absolute;
+	left:0px;
+	top:180px;
+	z-index: 1;
+background-image:url(../gt_japan_people/image/essay_bck.gif);
+}
+.top {
+	position:absolute;
+	left:0px;
+	top:45px;
+	z-index: 2;
+}
+.bottom {
+	position:absolute;
+	left:0px;
+	z-index: 2;
+}
+.essaynavtop {
+	position:absolute;
+	left:0px;
+	top:142px;
+	z-index: 3;
+}
+.essaynavbottom {
+	position:absolute;
+	left:0px;
+	z-index: 3;
+}
+.essay {
+	position:absolute;
+	left:20px;
+	top:195px;
+	z-index: 4;
+	background-color:#FFFFFF;
+}
+.flashy {
+	position:absolute;
+	left:467px;
+	top:42px;
+	z-index: 3;
+}
+.slug {        position:absolute;
+        left:20px;
+        top:475px;
+        width:476px;
+		z-index:2;
+		text-align:left;
+}
+.navbox {
+		position: fixed;
+        left:10px;
+        top:0px;
+		z-index: 5;
+		visibility:hidden;
+}
+.unitsnavbox01 {
+        position:fixed;
+        left:200px;
+        top:0px;
+		z-index:5;
+}
+.unitnavbox {
+        position:fixed;
+        left:271px;
+        top:0px;
+		z-index:6;
+}
+.navboxu {
+		position: fixed;
+        left:200px;
+        top:0px;
+		z-index: 6;
+		visibility:hidden;	 
+}
+.navboxv {
+		position: fixed;
+        left:271px;
+        top:0px;
+		z-index: 7;
+		visibility:hidden;	 
+}
+.unitnavbox2 {
+        position:fixed;
+        left:454px;
+        top:0px;
+		z-index:6;
+}
+.navboxv2 {
+		position: fixed;
+        left:454px;
+        top:0px;
+		z-index: 7;
+		visibility:hidden;	 
+}
+.box14 {
+        position:fixed;
+        left:0px;
+        top:0px;
+		z-index:5;
+		background-color:#222222;
+		width:100%
+}
+.box15 {
+        position:fixed;
+        left:0px;
+        top:0px;
+		z-index:4;
+	    width: 100%;
+		background-color:#504B48
+}
+.box16 {        position:fixed;
+        left:0px;
+        top:23px;
+		z-index:4;
+	width: 100%;
+background-color:#2F302F 
+}
+.popup01 {        position:absolute;
+        left:624px;
+		z-index:4;
+}
+.boxjapanlink {        position:absolute;
+        left:624px;
+		z-index:4;
+}
+.boxpdf {        position:absolute;
+        left:624px;
+        top:410px;
+		z-index:4;
+}
+
+.box01 { 
+		position: static;
+		top: 20%;
+		left: 20%;
+}
+
+.japan { 
+		position: absolute;
+		left:0px;
+}
+
+.video { 
+		position: absolute;
+		left:68px;
+		height:391px;
+		background-color:#cccccc;
+		visibility:hidden;
+}
+#horizon        
+	{
+	text-align: center;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 1px;
+	overflow: visible;
+	visibility: visible;
+	display: block
+	}
+
+#content    
+	{
+	margin-left: -485px;
+	position: absolute;
+	top: 0px;
+	left: 50%;
+	width: 250px;
+	height: 70px;
+	visibility: visible;
+
+	}
+.bottibody {color: #111111; font-size: 13px; line-height: 19px; font-family: Verdana, Arial, Helvetica, sans-serif
+	}
+.bottibody2 {color: #ffffff; font-size: 11px; line-height: 16px; font-family: Verdana, Arial, Helvetica, sans-serif
+	}
+.bottiblock {
+	color: #2D2D2D;
+	font-size: 15px;
+	line-height: 19px;
+	/*font-family: Georgia, "Times New Roman", Times, serif;*/
+	font-family: Times New Roman, Times, serif;
+	font-style: italic;
+	}
+.bottiblockplain {
+	color: #2D2D2D;
+	font-size: 15px;
+	line-height: 19px;
+	/*font-family: Georgia, "Times New Roman", Times, serif;*/
+	font-family:   Times New Roman, Times, serif;
+	font-style: normal;
+	}
+.bottiblockii {
+	color: #2D2D2D;
+	font-size: 16px;
+	line-height: 20px;
+	/*font-family: Georgia, "Times New Roman", Times, serif;*/
+	font-family: Times New Roman, Times, serif;
+	font-style: italic;
+	}
+.bottiblockplainii {
+	color: #2D2D2D;
+	font-size: 16px;
+	line-height: 20px;
+	/*font-family: Georgia, "Times New Roman", Times, serif;*/
+	font-family:   Times New Roman, Times, serif;
+	font-style: normal;
+	}
+.bottiblockhead {
+	color: #2D2D2D;
+	font-size: 20px;
+	line-height: 18px;
+	/*font-family: Georgia, "Times New Roman", Times, serif;*/
+	font-family: Times New Roman, Times, serif;
+	font-style: italic;
+	}
+.bottismall {
+	color: #333333;
+	font-size: 9px;
+	line-height: 12px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-style: normal;
+	}
+.head { color: #34466F; font-size: 15px; line-height: 19px; font-family: Verdana, Arial, Helvetica, sans-serif
+	}
+.halfer { color: #ffffff; font-size: 6px; line-height: 6px; font-family: Verdana, Arial, Helvetica, sans-serif
+	}
+a:link {
+        color:#1233FF;
+        text-decoration:none;
+    }
+ a:active { 
+		color:#1233FF;
+        text-decoration:none;
+	}
+a:visited {
+		color:#1233FF;
+        text-decoration:none;
+	}
+a:hover {
+		color:#1233FF;
+        text-decoration:underline;
+	}
+.box141 {	position:absolute;
+	left:0px;
+	top:0px;
+	}
+.twit {
+		position: fixed;
+        top: 2px;
+        left: 810px;
+		z-index: 7;
+		
+}
+.emil{
+		position: fixed;
+        top: 4px;
+        left: 876px;
+		z-index: 7;
+		
+}
+.fbok{
+		position: fixed;
+        top: 2px;
+        left: 916px;
+		z-index: 7;
+		width: 48px;
+		overflow:hidden;
+}
+-->
+</style>
+
+
+<script language="JavaScript" type="text/JavaScript">
+<!--
+//rollovers for menus
+function overlay() {
+        el = document.getElementById("hideme");
+        el.style.visibility ="visible";
+		noverlayu();
+		noverlayv();
+		noverlayv2();
+}
+
+function noverlay() {
+        el = document.getElementById("hideme");
+        el.style.visibility ="hidden";
+}
+
+
+function overlayu() {
+        el = document.getElementById("hidemeu");
+        el.style.visibility ="visible";
+		noverlay();
+		noverlayv();
+		noverlayv2()
+}
+function noverlayu() {
+        el = document.getElementById("hidemeu");
+        el.style.visibility ="hidden";
+}
+
+
+function overlayv() {
+        el = document.getElementById("hidemev");
+        el.style.visibility ="visible";
+		noverlay();
+		noverlayu();
+		noverlayv2();
+}
+function noverlayv() {
+        el = document.getElementById("hidemev");
+        el.style.visibility ="hidden";
+}
+
+
+function overlayv2() {
+        el = document.getElementById("hidemev2");
+        el.style.visibility ="visible";
+		noverlay();
+		noverlayu();
+		noverlayv();
+}
+function noverlayv2() {
+        el = document.getElementById("hidemev2");
+        el.style.visibility ="hidden";
+}
+function showvid() {
+        el = document.getElementById("thevid");
+        el.style.visibility ="visible";
+		noverlayu();
+		noverlayv();
+        PlayIt(document.movie1);
+}
+
+function hidevid() {
+    //    StopIt(document.movie1);
+		el = document.getElementById("thevid");
+        el.style.visibility ="hidden";
+
+
+}
+/* a javascript function that takes a QT movie and calls its "Play" method */
+        function PlayIt(anObj)
+        {
+                anObj.Play();
+        }
+        /* a javascript function that takes a QT movie and calls its "Stop" method */
+        function StopIt(anObj)
+        {
+                anObj.Stop();
+        }
+
+
+
+function sesame() {
+window.moveTo(0,0);        
+window.resizeTo(1350,screen.height);
+}
+
+
+window.onload=function()
+{
+	//sesame();
+//    StopIt(document.movie1);
+	noverlay();
+	noverlayu();
+	MM_preloadImages('../home/image/vc_home_nav_02.png','../home/image/vc_home_nav_03.png','../home/image/vc_home_nav_04.png','../home/image/vc_home_nav_05.png','../home/image/vc_home_nav_06.png','../home/image/vc_home_nav_07.png','../home/image/vc_home_nav_08.png','../home/image/vc_home_nav_09.png','../home/image/vc_home_nav_10.png','../home/image/vc_units_nav_01.png','../home/image/vc_units_nav_02.png','../home/image/vn_icon02.gif','../home/image/pdf_essay02.gif','../home/image/essay_icon02.gif','../home/image/units_bck_05.jpg','../home/image/units_bck_06.jpg','../black_ships_and_samurai/image/bss_i_nav.png','../black_ships_and_samurai/image/bss_i_nav_02.png','../black_ships_and_samurai/image/bss_i_nav_03.png','../black_ships_and_samurai/image/bss_i_nav_04.png','../black_ships_and_samurai/image/bss_i_essay_nav.png','../black_ships_and_samurai/image/bss_i_essay_nav_02.png','../black_ships_and_samurai/image/bss_i_essay_nav_03.png','../black_ships_and_samurai/image/bss_i_essay_nav_04.png','../black_ships_and_samurai/image/bss_i_essay_nav_05.png','../black_ships_and_samurai/image/bss_i_essay_nav_06.png','../black_ships_and_samurai/image/bss_i_essay_nav_07.png','../black_ships_and_samurai/image/bss_i_essay_nav_08.png','../black_ships_and_samurai/image/bss_i_essay_nav_09.png','../black_ships_and_samurai/image/bss_i_essay_nav_10.png','image/bss_essay_nav_01.gif','image/bss_essay_nav_02.gif','image/bss_essay_nav_03.gif','image/bss_essay_nav_04.gif','image/bss_essay_nav_05.gif','image/bss_essay_nav_06.gif','image/bss_essay_nav_07.gif','image/bss_essay_nav_08.gif','image/bss_essay_nav_09.gif','../home/image/popup02.gif');
+}
+var newwindow = '';
+
+function imalert(url)
+{
+	if (!newwindow.closed && newwindow.location)
+	{
+		newwindow.location.href = url;
+	}
+	else
+	{
+		newwindow=window.open(url,'windowtwo','height=360,width=586, toolbar=no,  resizable=yes, status=no, scrollbars=yes');
+		if (!newwindow.opener) newwindow.opener = self;
+	}
+	if (window.focus) {newwindow.focus()}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//
+var vcidwindow = '';
+
+function openvcidwindow(url)
+{
+	if (!vcidwindow.closed && vcidwindow.location)
+	{
+		vcidwindow.location.href = url;
+	}
+	else
+	{
+		vcidwindow=window.open(url,'vcid','height=950,width=1000, toolbar=yes, scrollbars=yes, resizable=yes, location=yes');
+		if (!vcidwindow.opener) vcidwindow.opener = self;
+	}
+	if (window.focus) {vcidwindow.focus()
+	}
+	} 
+
+
+
+ var curwindow = '';
+
+function opencurwindow(url)
+{
+	if (!curwindow.closed && curwindow.location)
+	{
+		curwindow.location.href = url;
+	}
+	else
+	{
+		curwindow=window.open(url,'curriculum','height=800,width=720, toolbar=yes, scrollbars=yes, resizable=yes,  location=yes');
+		if (!curwindow.opener) curwindow.opener = self;
+	}
+	if (window.focus) {curwindow.focus()
+	}
+	} 
+
+
+function decider(){
+ el = document.getElementById("thevid");
+
+if(el.style.visibility =="visible") {
+hidevid()
+} else {
+showvid()
+}
+}
+//-->
+</script>
+<script type="text/javascript">
+<!--
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." :
+"http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost +
+"google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+//-->
+</script>
+<script type="text/javascript">
+<!--
+try {
+var pageTracker = _gat._getTracker("UA-12446158-1");
+pageTracker._trackPageview();
+} catch(err) {}
+//-->
+</script></head>
+<body bgcolor="#252422">
+<div  id="horizon">
+<div  id="content">
+<!--background elements -->
+<div class="backg"><table width="970" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="20">&nbsp;</td>
+    <td width="579" ><table width="579" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td  align="left" valign="top" class="bottibody">                
+                <span class="head"><br />Encounters: Facing &#8220;East&#8221;</span><span class="halfer"><br /><br /></span></td>
+        </tr></table>
+
+
+	  <table width="579" border="0" cellspacing="0" cellpadding="0">
+	       <tr> 
+          <td colspan="2" align="center"><img src="image/01_261L_30_026e_ENC_f.jpg" alt="Perry and Japanese officials, Japanese rendering" width="565" height="199" border="0" usemap="#perry01"/></td>
+        </tr>
+        <tr> 
+          <td width="289" height="20" align="left" valign="top" class="bottiblock"><img src="image/space.gif" alt="space" title="" width="6" height="15" align="left"/>&#8220;Delivery of the President's Letter&#8221;</td>
+          <td width="290" align="right" valign="top" class="bottiblock"><img src="image/space.gif" alt="space" title="" width="16" height="15" align="right"/>&#8220;Perry Taking a Bow&#8221;</td>
+        </tr>
+        <tr> 
+          <td colspan="2" align="center"><img src="image/redline.gif"  alt= "line" height="1" width="579"/></td>
+        </tr>
+        <tr> 
+          <td width="300" height="20" align="left" valign="middle" class="bottiblock"><img src="image/space.gif" alt="space" title="" width="11" height="10"/><span class="bottismall">Detail, 
+            from the official Narrative</span></td>
+          <td width="300" align="right" valign="middle" class="bottiblock"> <span class="bottismall">Ryosenji 
+            Treasure Museum</span><img src="image/space.gif" alt="space" title="" width="20" height="10"/></td>
+        </tr>
+      </table>
+	  <table width="579" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td colspan="2" align="left" valign="top" class="bottibody"><span class="bottismall"><br /></span>
+            
+            By far the greatest single source of American illustrations of the 
+            Perry expedition is to be found in volume one of the three-volume 
+            official Narrative published between 1856 and 1858. The most numerous 
+            and accomplished <table width="282" border="0" cellspacing="0" cellpadding="14" align="right">
+            <tr>
+              <td align="center" valign="top" class="bottiblock"><a href="javascript:openvcidwindow('gallery/pages/20_182L_narr_Heine.htm');"><span class="bottismall"></span>
+                <img src="image/20_182_fall_s.jpg" alt="Heine sketching in the Ryukyu Islands" width="282" height="182" border="0" align="top"/></a><br />                        
+              Heine sketching in the Ryukyu Islands,<br />
+              1853, from the official Narrative</td>
+            </tr>
+          </table>
+            of these illustrations were done by William Heine, 
+            a German-born artist who was only 25 years old when he first 
+            accompanied Perry to Japan.<br />
+            <br />Heine, who worked primarily with sketchpad and watercolors, brought a gentle, 
+            panoramic, romantic realism to both the selection and execution of 
+            his subjects. His landscapes were invariably scenic. Where people 
+            were concerned, he preferred them in substantial numbers. He rarely 
+            lingered on the &#8220;exotic,&#8221; did not dwell much (as happened 
+            later) on various social &#8220;types,&#8221; did not seek out the 
+            sensational. So enraptured was Heine by the opportunity to immerse 
+            himself in new landscapes and cultures that, now and then, he even 
+            painted himself painting the scene being depicted.<br />            <br/>                </td>
+          </tr>
+        <tr align="center"> 
+          <td width="297" align="right" valign="top"><a href="javascript:openvcidwindow('gallery/pages/01_190_narr_Reception.htm');"><img src="image/01_190_s.jpg" alt="Shui Castle, Ryukyu Islands, with two artists sketching the scene" width="282" height="194" border="0" align="right"/></a></td>
+          <td width="282" align="left" valign="top" class="bottiblock"><span class="head"><br/><img src="image/space.gif" alt="space" title="" width="272" height="4"/>
+            <br/>
+            </span><span class="head"><br/>
+            <img src="image/space.gif" alt="space" title="" width="10" height="80" align="left"/></span>Shui 
+            Castle, Ryukyu Islands, <br/>
+            with two artists sketching the scene,<br />
+from the official Narrative<br />
+(detail below)</td>
+        </tr>
+        <tr align="center" valign="top"> 
+          <td colspan="2" class="bottiblock"><a href="javascript:openvcidwindow('gallery/pages/01_190_narr_Reception.htm');"><img src="image/01_190_detail_s.jpg" alt="Shui Castle, Ryukyu Islands, with two artists sketching the scene" width="565" height="206" border="0"/><br />
+            <br />
+          </a></td>
+        </tr>
+        <tr> 
+          <td width="297" align="center" valign="top" class="bottiblock"><a href="javascript:openvcidwindow('gallery/pages/01_403L_narr_Heine.htm');"><img src="image/01_403L_TempleSimoda_f.jpg" alt="Entrance to Shinto shrine in Shimoda" width="282" height="194" border="0" align="top"/><br />
+          </a>Entrance to Shinto shrine in Shimoda,<br />
+from the official Narrative (detail below)<span class="bottismall"><br />
+<br />
+</span><a href="javascript:openvcidwindow('gallery/pages/01_403L_narr_Heine.htm');"><img src="image/01_403L_TempleSimoda_d.jpg" alt="Entrance to Shinto shrine in Shimoda" width="282" height="304" border="0" align="bottom"/></a></td>
+          <td width="282" align="left" valign="top" class="bottibody"><span class="head"><br/>
+            </span>&#8220;Temples&#8221; attracted Heine (he, or whoever captioned 
+            the reproductions of his artwork, made no distinction between Buddhist 
+            temples and Shinto shrines), but he depicted them with the same appreciative 
+            regard that he brought to trees, mountains, skies, crowds, individuals, 
+            and other natural and human phenomena. He turned his brush (and also 
+            his drawing pencil) to a few religious statues and monuments, but 
+            again with restraint and respect&#8212;a striking contrast to the 
+            more garish renderings of imagined heathen deities that had appeared 
+            in Western publications prior to Perry&#8217;s arrival.<br/>
+            <br/>
+            Since the Perry expedition never visited Edo or any other huge urban 
+            center, the illustrations in the official report conveyed the impression 
+            of a placid, rustic land of quiet villages and modest towns. <br/>
+            <span class="bottiblock"><br/>
+            </span></td>
+        </tr>
+      </table>
+      <table width="579" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td width="282" align="left" valign="top" class="bottibody"><span class="head"><br/>
+            </span> 
+            Heine and his colleagues gave only passing attention to commercial 
+            activities, and only rarely entered behind closed doors. With but 
+            one exception, they chose not to illustrate subjects that provoked 
+            moral indignation among some members of the mission (and delighted 
+            more than a few crewmen), such as prostitution, pornography, and public 
+            baths. <br/> 
+            <br/>
+            The only illustration in the Narrative that subsequently provoked 
+            shock and condemnation among Americans depicted a public bathhouse 
+            in Shimoda. Men, women, and children bathed together in these establishments, 
+            and good Christians found them appalling. Dr. James Morrow, the mission&#8217;s 
+            botanist, denounced the bath in Shimoda as one more example &#8220;of 
+            the licentiousness and degradation of these cultivated heathen,&#8221; 
+            for example, while a ship&#8217;s clerk sourly observed that &#8220;their 
+            religion might encourage cleanliness,&#8221; but it did so in a &#8220;repulsive 
+            and indecent manner.&#8221; The official report itself recorded that 
+            &#8220;a scene at the public baths, where the sexes mingle indiscriminately, 
+            unconscious of their nudity, was not calculated to impress the Americans 
+            with a very favorable opinion of the morals of the inhabitants.&#8221; 
+            <img src="image/space.gif" alt="space" title="" width="270" height="5"/><br/>            
+            <br/>
+          </td>
+          <td width="297" align="center" valign="top" class="bottiblock"><a href="javascript:openvcidwindow('gallery/pages/01_281L_narr_Heine.htm');"><br />
+            <img src="image/01_281L_detail_s.jpg" alt="Heine and shipmates exploring theRyukyu countryside" width="282" height="304" border="0" align="top"/><br />
+          </a><img src="image/space.gif" alt="space" title="" width="15" height="60" align="left"/><img src="image/space.gif" width="15" height="60" align="right" alt="space" title=""/>Heine 
+            and shipmates exploring the Ryukyu countryside, from the official Narrative (detail below)<span class="bottismall"><br />
+            <br />
+            </span><a href="javascript:openvcidwindow('gallery/pages/01_281L_narr_Heine.htm');"><img src="image/01_281L_LewChew_f_s.jpg" alt="Heine and shipmates exploring theRyukyu countryside" width="282" height="193" border="0" align="bottom"/></a></td>
+        </tr>
+        <tr align="center" valign="top"> 
+          <td colspan="2"><a href="javascript:openvcidwindow('gallery/pages/01_408aL_narr_Bath.htm');"><img src="image/01_408aL_PublicBath_f.jpg" alt="Heine&#8217;s controversial rendering of a public bath in Shimoda" width="565" height="377" border="0"/></a></td>
+        </tr>
+        <tr align="center"> 
+          <td colspan="2" class="bottiblock"><span class="head"><img src="image/space.gif" alt="space" title="" width="1" height="30" align="left"/></span>Heine&#8217;s 
+            controversial rendering of a public bath in Shimoda</td>
+        </tr>
+        <tr align="left" valign="top"> 
+          <td colspan="2" class="bottibody">Heine&#8217;s 
+            illustration of the bathhouse in Shimoda was removed from later editions 
+            of the Narrative. Where intercultural relations are concerned, morality 
+            obviously was a two-way mirror in this case. For the manner in which 
+            the Americans pointed to mixed bathing as evidence of Japanese lewdness 
+            and wantonness was strikingly similar to John Manjiro&#8217;s response, 
+            only a few years earlier, to the shocking spectacle of American men 
+            and women kissing in public.<br/> 
+            <br/>
+            The original artwork by Heine and his colleagues was seen by very 
+            few individuals. Rather, it reached the public in several different 
+            forms. Some 34,000 copies of the official three-volume Narrative were 
+            published (at the substantial cost of $400,000), of which over half 
+            were given to high government officials, members of Congress, and 
+            the Navy Department. <br/> <br/>
+            <table width="239" border="0" cellspacing="0" cellpadding="12" align="left">
+              <tr>
+                <td align="center" valign="top" class="bottiblock"><a href="javascript:openvcidwindow('gallery/pages/20_534_narr_ChapHearth.htm');"><img src="image/20_534_chapterheading.jpg" alt="Chapter heading drawingfrom the official Narrative" width="239" height="244" border="0" align="top"/></a><br/>Chapter 
+            heading drawing<br/>
+            from the official Narrative</td>
+              </tr>
+            </table>
+            The first and most pertinent volume of the set included some 165 handsome 
+            woodcuts and tipped-in lithographs depicting not only Japan but other 
+            stops on the two voyages&#8212;including China, the Bonin islands, 
+            and, of greatest interest, Okinawa in the Ryukyu (&#8220;Lew Chew&#8221;) 
+            islands.<br />
+            <br />            
+            In 
+            addition, this first volume also featured many small reproductions 
+            of pencil drawings by Heine, particularly at the beginnings and ends 
+            of chapters. Mid-century Western voyagers, artists, and scientists 
+            were intent on &#8220;mapping&#8221; literally all aspects of the 
+            little-known world, and in volume two several-score brilliantly colored 
+            plates were devoted to natural life, particularly fishes and birds. 
+            (Additional plates depicting the plants of Japan failed to be published 
+            due to vanity and obstreperousness on the part of Dr. Morrow, who 
+            collected and drew illustrations of hundreds of specimens, but held 
+            these back in the hopes of seeing a separate publication devoted solely 
+            to his own findings. This failed to materialize, and his work has 
+            been lost.) The third volume of the Narrative, of little interest 
+            today, reproduced charts of the stars recorded over the course of 
+            the two long voyages.<br />            <br/>
+            <img src="image/space.gif" alt="space" title="" width="270" height="5"/></td>
+        </tr>
+      </table>
+      <table width="579" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td colspan="3" align="left" valign="top" class="bottibody">The 
+            official publication was expensive, however, and the general public 
+            only encountered this handsome visual record indirectly. An affordable 
+            trade edition of volume one was published in 1856, with fewer lithographs 
+            and color throughout reduced to black and white. At the same time, 
+            a small number of illustrations (including some that did not appear 
+            in the official or commercial publications) were reproduced as large 
+            brightly colored &#8220;elephant&#8221; lithographs. One could thus 
+            encounter &quot;Perry&#8217;s Japan&quot; in various tones and formats.<br />
+            <br /></td>
+        </tr>
+        <tr> 
+          <td colspan="3" align="center" valign="top"><img src="image/20_506_01_401L_21_cover.jpg" alt="Illustration from the 1856 commercial edition" width="565" height="132" border="0" usemap="#perry02"/></td>
+        </tr>
+        <tr> 
+          <td width="193" align="center" valign="top" class="bottiblock">Illustration 
+            from the 1856<br/>
+            commercial edition</td>
+          <td width="193" align="center" valign="top" class="bottiblock"><img src="image/space.gif" alt="space" title="" width="5" height="40" align="right"/><img src="image/space.gif" alt="space" title="" width="4" height="40" align="left"/>Tinted 
+            lithograph from the <br/>
+            official printing of 1856</td>
+          <td width="193" align="center" valign="top" class="bottiblock">Independent 
+            large-format <br/>
+            lithograph, ca. 1855&ndash;56<br />
+            <br /></td>
+        </tr>
+      </table>
+      <table width="579" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td width="405" align="left" valign="top"><a name="lesson01g02"><img src="image/20_405_01_346L_s.jpg" alt="Two versions of Commodore Perry meeting officials at Yokohama" width="395" height="538" border="0" usemap="#perry03"/></a></td>
+          <td width="174" align="left" valign="top" class="bottibody">
+<br />
+It also happened that, in moving from one form of printing to another, 
+              the details of the original rendering were slightly altered&#8212;as 
+              seen, for <br/>
+              example, in the famous depiction of Perry&#8217;s landing in Yokohama 
+              that appears in the official and trade editions.
+            <br />
+            <br />            <br />
+            <span class="bottiblock">Two versions of 
+              Commodore Perry meeting 
+              officials at Yokohama<br/>
+              <br/>
+              The trade edition of the 
+              </span><span class="bottiblockplain">Narrative</span><span class="bottiblock"> (detail, above left)<br/>
+              <br/>
+              The official government 
+              edition (detail, left)<br/><img src="image/space.gif" alt="space" title="" width="164" height="5"/></span></td>
+        </tr>
+        <tr align="center" valign="middle"> 
+          <td height="20" colspan="2"><img src="image/redline.gif"  alt= "line" height="1" width="560"/></td>
+        </tr>
+        <tr align="center"> 
+          <td height="24" colspan="2" class="bottiblocklarge">From the 1853 Expedition</td>
+        </tr>
+        <tr align="center" valign="middle"> 
+          <td height="20" colspan="2"><img src="image/redline.gif"  alt= "line" height="1" width="560"/></td>
+        </tr>
+        <tr align="left" valign="top"> 
+          <td colspan="2" class="bottibody">The 
+            artwork in the Narrative (and independent lithographs) begins with 
+            impressions of ports of call en route to Japan (including scenes from 
+            Ceylon, Singapore, Canton, and Hong Kong), and then presents a record 
+            of major interactions between Perry and officials in &#8220;Lew Chew&#8221; 
+            and Japan.<br />
+            <br /></td>
+        </tr>
+      </table>
+      <table width="579" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td width="405" align="left" valign="top"><img src="image/01_189L_01_190_s.jpg" alt="Gate of Courtesy at the castle in Okinawa " width="395" height="538" border="0" usemap="#perry04"/></td>
+          <td width="174" align="left" valign="top" class="bottibody"><br/>
+            On the first visit to Okinawa, we move from the &#8220;exploring party&#8221; 
+            mingling with native peoples in bucolic settings to the castle in 
+            Naha, where Perry and his entourage paused by the imposing &#8220;Gate 
+            of Courtesy&#8221; and then attended a crowded formal reception. <br/> 
+            <br/> <br />
+            <br />            <br/> 
+            <span class="bottiblock">Gate of Courtesy <br/>
+            at the castle in Okinawa<br />
+            (above, left)            <br/>
+              <br/>
+          
+            Reception at Shui Castle, Okinawa (left) <br/>
+              <br/><img src="image/space.gif" alt="space" title="" width="164" height="5"/></span>
+           </td>
+        </tr>
+        <tr align="left" valign="top"> 
+          <td colspan="2" class="bottibody"><br />
+            Moving 
+            on to Edo Bay, the artists recorded a tense moment when the Americans 
+            began to survey the harbor and were briefly challenged by Japanese in small 
+            boats&#8212;a dramatic confrontation, referred to as &#8220;Passing the Rubicon,&#8221; that was 
+            inexplicably only made available as an independent print.<br />
+            <br /></td>
+        </tr>
+        <tr align="center" valign="top"> 
+          <td colspan="2"><a name="lesson01e02"><img src="image/01_233L_43_011_details.jpg" alt="The Americans sounding andsurveying Edo Bay" width="565" height="527" border="0" align="left" usemap="#perry05"/></a></td>
+        </tr>
+      </table>
+      <table width="579" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td align="center" valign="top" class="bottiblock">
+            <span class="halfer"><br/>
+            </span>
+            <span class="bottismall">The White House Collection<br />
+            <br />
+            </span></td>
+          </tr>
+        <tr>
+          <td align="left" valign="top" class="bottiblock">The 
+            Americans sounding and surveying Edo Bay (detail, top, from the official Narrative) <br/>
+            <span class="bottiblock"></span><span class="halfer"><br />            
+            <br />
+            </span>            <span class="bottiblock">&#8220;Passing 
+            the Rubicon&#8221;: Japanese officials confront the surveying party (detail</span>, bottom) <br/></td>
+        </tr>
+        <tr align="left" valign="top"> 
+          <td class="bottibody"><br />
+            Thereafter, 
+            all becomes decorous again. From the brief 1853 mission come iconic 
+            paintings of Perry coming ashore in Japan for the first time (on July 
+            14, at Kurihama) and delivering President Fillmore&#8217;s letter 
+            requesting the end of the policy of seclusion.<br />
+            <br /></td>
+        </tr>
+        <tr align="center" valign="top"> 
+          <td><a href="javascript:openvcidwindow('gallery/pages/01_256L_narr_Landing.htm');"><img src="image/01_256L_detail_s.jpg" alt="The landing at Kurihama" width="565" height="264" border="0" align="left"/></a></td>
+        </tr>
+      </table>
+      <table width="579" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td width="167" align="right" valign="top"><span class="head"><img src="image/space.gif" width="5" height="180" align="right" alt="space" title=""/></span><span class="bottiblock">The 
+            landing at Kurihama<br/>
+            (detail) </span> <br/>
+              <br/>
+              <br />
+              <br />
+              <br />
+              <br/>
+          <span class="bottiblock">Delivery of President<br />
+              Fillmore&#8217;s letter</span><br/>
+              <br/>
+              <br/>
+              <br/>
+              <br/></td>
+          <td width="412" align="left" valign="top"><a href="javascript:openvcidwindow('gallery/pages/01_261L_narr_PresLetter.htm');"><img src="image/01_261L_hawks_ms.jpg" alt="Delivery of President Fillmore&#8217;s letter" width="402" height="269" border="0" align="right"/></a></td>
+        </tr>
+      </table>
+      <table width="579" border="0" cellspacing="0" cellpadding="0">
+        <tr align="center" valign="middle"> 
+          <td height="20" colspan="2"><img src="image/redline.gif"  alt= "line" height="1" width="560"/></td>
+        </tr>
+        <tr align="center"> 
+          <td height="24" colspan="2" class="bottiblocklarge">From the 1854 Expedition</td>
+        </tr>
+        <tr align="center" valign="middle"> 
+          <td height="20" colspan="2"><img src="image/redline.gif"  alt= "line" height="1" width="560"/></td>
+        </tr>
+        <tr> 
+          <td colspan="2" align="left" valign="top" class="bottibody">The 
+            commodore&#8217;s return visit in 1854, which lasted for several months 
+            and saw the opening of Shimoda and Hakodate to foreign vessels, provided 
+            the occasion for more extended artwork. Perry&#8217;s landing in Yokohama on March 8 inspired a crowded scene 
+            of troops on parade before a horizon prickled with the masts of the 
+            black ships, as well as a solemn rendering of the commodore greeting 
+            the Japanese commissioners.<br />
+            <br /></td>
+        </tr>
+        <tr> 
+          <td colspan="2" align="center" valign="top"><a href="javascript:openvcidwindow('gallery/pages/21_000a_detail_Landing.htm');"><img src="image/21_cover_2ndLanding_f_s.jpg" alt="The landing at Yokohama" width="565" height="364" border="0"/></a></td>
+        </tr>
+        <tr align="center"> 
+          <td colspan="2" valign="top"><img src="image/space.gif" alt="space" title="" width="1" height="40" align="left"/><span class="bottiblock">The 
+            landing at Yokohama (detail)</span><br/>           <span class="halfer"><br/></span>
+            <span class="bottismall">Yokohama Archives of History<br />
+            <br />
+            </span></td>
+        </tr>
+        <tr> 
+          <td colspan="2" align="center" valign="top"><img src="image/01_345W_01_346L_f_s.jpg" alt="&#8220;Imperial barge&#8221; at Yokohama" width="565" height="196" border="0" usemap="#perry06"/></td>
+        </tr>
+        <tr> 
+          <td width="289" align="center" valign="top" class="bottiblock">&#8220;Imperial 
+            barge&#8221; at Yokohama</td>
+          <td width="290" align="left" valign="top" class="bottiblock">Japanese 
+            officials greet Perry at Yokohama<br />
+            <br /></td>
+        </tr>
+      </table>
+      <table width="579" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td width="430" align="left" valign="top" class="bottibody"><a href="javascript:openvcidwindow('gallery/pages/01_359L_narr_Samurai.htm');" name="lesson01f01"><img src="image/01_359L_JapaneseSold_f.jpg" alt="amurai defense forces " width="423" height="289" border="0" align="left"/></a></td>
+          <td width="149" align="left" valign="top" class="bottibody"><br/> 
+            In 
+            another illustration, armed samurai were depicted clustered together, 
+            some mounted and some on foot (a rare close-up of the thousands of 
+            warriors mobilized <br/>
+            for defense).<br/> <br/> 
+            <span class="bottiblock">Samurai 
+            defense forces <br/>
+            (detail)</span></td>
+        </tr>
+      </table>
+      <table width="579" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td width="149" align="left" valign="top" class="bottibody"><br/>
+            <br />
+            Formal 
+            occasions&#8212; the presentation of American gifts, a banquet on 
+            Perry&#8217;s flagship, a performance of sumo wrestling&#8212;were 
+            duly recorded.<br/>
+            <br/>
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td align="right"><span class="bottiblock"><img src="image/space.gif" width="10" height="75" align="right" alt="space" title=""/>Delivery 
+                  of the<br />
+                  American presents<br/>
+                  at Yokohama</span></td>
+              </tr>
+            </table>
+            <br/>          </td>
+          <td width="430" align="right" valign="top" class="bottismall"><a href="javascript:openvcidwindow('gallery/pages/01_357L_narr_Gifts.htm');"><br />
+            <img src="image/01_357L_Gifts_f.jpg" alt="Delivery of the American presents at Yokohama" width="423" height="290" border="0" align="right"/></a></td>
+        </tr>
+      </table>
+      <table width="579" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td width="430" align="left" valign="top" class="bottismall"><a href="javascript:openvcidwindow('gallery/pages/01_375L_narr_Dinner.htm');"><br />
+            <img src="image/01_375L_DinnerPowhatan.jpg" alt="Banquet on board the Powhatan" width="423" height="287" border="0" align="left"/></a></td>
+          <td width="149" align="left" valign="top" class="bottibody"><img src="image/space.gif" alt="space" title="" width="140" height="10"/><br/>            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/> <br/>
+            <span class="bottiblock">Banquet on board <br/>
+            the </span><span class="bottiblockplain">Powhatan</span></td>
+        </tr>
+      </table>
+      <table width="579" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td width="149" align="right" valign="top" class="bottiblock"><img src="image/space.gif" alt="space" title="" width="140" height="10"/><br/>
+            <img src="image/space.gif" width="10" height="275" align="right" alt="space" title=""/><img src="image/space.gif" alt="space" title="" width="14" height="194" align="left"/><br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            Sumo wrestler<br />
+            at Yokohama</td>
+          <td width="430" align="left" valign="top" class="bottismall"><a href="javascript:openvcidwindow('gallery/pages/01_371L_narr_Sumo.htm');"><br />
+            <img src="image/01_371L_wrestling_f.jpg" alt="Sumo wrestlers at Yokohama" width="423" height="294" border="0" align="left"/></a></td>
+        </tr>
+      </table>
+<table width="579" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+          <td align="left" valign="top" class="bottibody">Yokohama, 
+            and subsequently the newly designated &#8220;treaty ports&#8221; of 
+            Shimoda and Hakodate, provided the Americans with more intimate access to the countryside 
+            and the ordinary people who lived there.<br/>
+            <br/>
+            The rugged vistas in these areas inspired Heine to new heights of 
+            scenic romanticism, and he and his fellow artists also took advantage 
+            of their excursions onshore to depict the local people and their places 
+            of worship and daily activities (including the scandalous public bath 
+            in Shimoda). Although these detailed scenes are usually crowded with 
+            people, often with foreigners and natives intermingling, there is 
+            little sense of tension or strangeness. The atmosphere is serene. 
+            Everyone, native and foreigner alike, is comely. In the American record, 
+            these first encounters come across as almost dream-like.<br />
+            <br /></td>
+  </tr>
+</table>
+
+      <table width="579" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td width="430" align="left" valign="top"><a href="javascript:openvcidwindow('gallery/pages/01_425_narr_AmGrave.htm');"><img src="image/01_425_SimodaFrGrave_f.jpg" alt="Shimoda &#8220;from the American Grave Yard&#8221;" width="423" height="292" border="0"/></a></td>
+          <td width="149" align="left" valign="top" class="bottiblock"><img src="image/space.gif" alt="space" title="" width="140" height="10"/><br/>
+            <img src="image/space.gif" width="10" height="240" align="right" alt="space" title=""/><br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            Shimoda &#8220;from the
+            American Grave Yard&#8221;</td>
+        </tr>
+      </table>
+      <table width="579" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td width="149" align="right" valign="top"><img src="image/space.gif" alt="space" title="" width="140" height="10"/><br/>
+            <img src="image/space.gif" width="10" height="275" align="right" alt="space" title=""/><img src="image/space.gif" alt="space" title="" width="14" height="194" align="left"/><br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <span class="bottiblock">Moonlit graveyard at Ryosenji Temple, Shimoda<br />
+            </span>
+           <span class="halfer"><br/>
+            </span> <span class="bottismall">Harvard University<br />
+            Library</span></td>
+          <td width="430" align="left" valign="top" class="bottismall"><a href="javascript:openvcidwindow('gallery/pages/53_002_Graveyard.htm');"><br />
+            <img src="image/HarvardLib_graveyard_f.jpg" alt="Moonlit graveyard at Ryosenji Temple, Shimoda" width="423" height="286" border="0"/></a></td>
+        </tr>
+      </table>
+	  <table width="579" border="0" cellspacing="0" cellpadding="0">
+        <tr align="center" valign="middle"> 
+          <td height="20" colspan="2"><img src="image/redline.gif"  alt= "line" height="1" width="560"/></td>
+        </tr>
+        <tr align="center"> 
+          <td height="24" colspan="2" class="bottiblocklarge">A Gallery of Images 
+            from the Expedition</td>
+        </tr>
+        <tr align="center" valign="middle"> 
+          <td height="20" colspan="2"><img src="image/redline.gif"  alt= "line" height="1" width="560"/></td>
+        </tr>
+        <tr> 
+          <td colspan="2" align="center" valign="top"><a href="javascript:openvcidwindow('gallery/pages/18_158_Troops_Ryosenji.htm');"><img src="image/18_156f_troopsRyosenji.jpg" alt="Perry&#8217;s troops in formation at Ryosenji Temple, Shimoda" width="565" height="362" border="0"/></a></td>
+        </tr>
+        <tr align="center"> 
+          <td colspan="2" valign="top"><img src="image/space.gif" alt="space" title="" width="1" height="40" align="left"/><span class="bottiblock">Perry&#8217;s 
+            troops in formation at Ryosenji Temple, Shimoda</span><br/>           <span class="halfer"><br/></span>
+            <span class="bottismall">US Naval Academy Museum<br />
+            <br />
+            </span></td>
+        </tr>
+        <tr> 
+          <td colspan="2" align="center" valign="top"><a href="javascript:openvcidwindow('gallery/pages/01_406L_narr_Shrine.htm');"><img src="image/01_406L_temple_s.jpg" alt="Hachiman shrine" width="217" height="319" border="0"/></a><a href="javascript:openvcidwindow('gallery/pages/01_411L_narr_Temple.htm');"><img src="image/01_411L_MarinerTem_det.jpg" alt="Mariner&#8217;s temple" width="347" height="319" border="0"/></a></td>
+        </tr>
+        <tr> 
+          <td width="212" align="center" valign="top" class="bottiblock"><img src="image/space.gif" alt="space" title="" width="18" height="40" align="left"/>Hachiman 
+            shrine,<br/>
+            Shimoda</td>
+          <td width="367" align="center" valign="top" class="bottiblock"><img src="image/space.gif" alt="space" title="" width="30" height="40" align="right"/><img src="image/space.gif" alt="space" title="" width="18" height="40" align="left"/>Mariner&#8217;s 
+            temple,<br/>
+            Shimoda (detail)<span class="bottismall"><br />
+            <br />
+            </span></td>
+        </tr>
+      </table>
+	  <table width="579" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td width="430" align="left" valign="top"><a href="javascript:openvcidwindow('gallery/pages/01_407L_narr_Temple.htm');"><img src="image/01_407L_GreatTemple_f_27134.jpg" alt="Devotions in a Buddhist temple,Shimoda" width="423" height="294" border="0"/><span class="halfer"><br />
+                  <br />
+          </span></a></td>
+          <td width="149" align="left" valign="top" class="bottiblock"><br/>            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            Devotions in a <br/>
+            Buddhist temple,<br/>
+            Shimoda</td>
+        </tr>
+      </table>
+      <table width="579" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td width="149" align="right" valign="top" class="bottiblock"><img src="image/space.gif" alt="space" title="" width="140" height="10"/><br/>
+            <img src="image/space.gif" width="10" height="275" align="right" alt="space" title=""/><br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            Perry conferring
+            with local officials
+            in Hakodate</td>
+          <td width="430" align="left" valign="top"><a href="javascript:openvcidwindow('gallery/pages/01_470_narr_Conference.htm');"><img src="image/01_470_ConfRoom_f_s.jpg" alt="Perry conferring with local officials in Hakodat" width="423" height="290" border="0"/><span class="halfer"><br />
+                  <br />
+          </span></a></td>
+        </tr>
+      </table>
+      <table width="579" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td width="430" align="left" valign="top"><a href="javascript:openvcidwindow('gallery/pages/01_447_narr_TeleHill.htm');"><img src="image/01_447_TelegraphHill_f.jpg" alt="Hakodate&#8220;from Telegraph Hill&#8221;" width="423" height="298" border="0"/><span class="halfer"><br />
+                  <br />
+          </span></a></td>
+          <td width="149" align="left" valign="top" class="bottiblock"><img src="image/space.gif" alt="space" title="" width="140" height="10"/><br/>            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/> <br/>
+            Hakodate<br/>
+            &#8220;from Telegraph Hill&#8221;</td>
+        </tr>
+      </table>
+      <table width="579" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td width="149" align="right" valign="top" class="bottiblock"><img src="image/space.gif" alt="space" title="" width="140" height="10"/><br/>
+            <img src="image/space.gif" width="10" height="275" align="right" alt="space" title=""/><br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            Street by a temple
+            in Hakodate</td>
+          <td width="430" align="left" valign="top"><a href="javascript:openvcidwindow('gallery/pages/01_443_narr_Temple.htm');"><img src="image/01_443_TempleHakodadi_f.jpg" alt="Street by a temple in Hakodate" width="423" height="293" border="0"/><span class="halfer"><br />
+                  <br />
+          </span></a></td>
+        </tr>
+      </table>
+	  <table width="579" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td colspan="2" align="center" valign="top"><img src="image/01_456_01_457_s.jpg" alt="Blacksmith shop" width="565" height="210" border="0" usemap="#perry07"/></td>
+        </tr>
+        <tr> 
+          <td width="300" align="center" valign="top" class="bottiblock"><img src="image/space.gif" alt="space" title="" width="14" height="15" align="right"/>Blacksmith 
+            shop</td>
+          <td width="300" align="center" valign="top" class="bottiblock"><img src="image/space.gif" alt="space" title="" width="4" height="20" align="left"/>Shipyard<span class="halfer"><br />
+              <br />
+          </span></td>
+        </tr>
+        <tr align="center" valign="top"> 
+          <td colspan="2"><img src="image/01_452W_01_458W_Kago_S.jpg" alt="Japanese kago" width="565" height="219" border="0" usemap="#perry08"/></td>
+        </tr>
+        <tr> 
+          <td align="center" valign="top" class="bottiblock"><img src="image/space.gif" alt="space" title="" width="14" height="15" align="right"/>Japanese 
+            <span class="bottiblockplain">kago</span> (palanquin)</td>
+          <td align="center" class="bottiblock"><img src="image/space.gif" alt="space" title="" width="4" height="20" align="left"/>Spinning 
+            and weaving<span class="bottismall"><br />
+            <br />
+            </span></td>
+        </tr>
+        <tr align="center" valign="top"> 
+          <td colspan="2"><a href="javascript:openvcidwindow('gallery/pages/01_486_narr_Farewell.htm');"><img src="image/01_486_PerryFarewell_f.jpg" alt="Commodore Perry bids farewell to officials in Shimoda" width="565" height="387" border="0"/></a></td>
+        </tr>
+        <tr align="center" valign="top"> 
+          <td colspan="2" class="bottiblock"><img src="image/space.gif" alt="space" title="" width="1" height="20" align="left"/>Commodore 
+            Perry bids farewell to officials in Shimoda<br />
+            <br />
+            <br />
+            <br /></td>
+        </tr>
+      </table>
+
+
+
+
+		 <table border="0" cellspacing="0" cellpadding="0" align="left">
+          
+ <tr>
+        <td colspan="3" class="bottismall"  align="left" > <img src="../home/image/redline.gif" width="570" height="1"  alt="MIT Visualizing Cultures" title=""/><br/><br/><a href="javascript:imalert('../home/about.html')"><em>On viewing images of a potentially disturbing nature: click here.</em></a><br />
+<br /></td></tr><tr>
+  <td  width="350" align="left" valign="middle" class="bottismall" >Massachusetts Institute of Technology &#169; 2010 Visualizing Cultures
+                </td> 
+  <td  width="152" align="right" valign="middle" class="bottismall" > &nbsp;<a href="http://creativecommons.org/licenses/by-nc-sa/3.0/us/" target="_blank">Creative Commons License</a>&nbsp;&nbsp;
+              
+</td><td  align="left" valign="top" width="80" class="bottismall" ><a rel="license"
+ href="http://creativecommons.org/licenses/by-nc-sa/3.0/us/" target="_blank" ><img src="http://visualizingcultures.mit.edu/home/image/cc.png" alt="Creative Commons - some rights reserved" width="80" height="15" border="0" align="left" /></a></td> </tr><tr><td colspan="3"><br  class="bottismall" />
+<br   class="halfer" /></td></tr>
+
+
+
+
+ <tr>
+          <td align="left" valign="top"><div class="bottom"><img src="image/essay_bottom.gif"  alt="MIT Visualizing Cultures" width="970" height="136" border="0" align="left" title=""/></div>
+<div class="essaynavbottom">
+  <table width="622" border="0" cellspacing="0" cellpadding="0" align="left">
+  <tr align="left">
+    <td align="left" width="105"><img src="image/bss_essay_nav_04.gif"  alt="Black Ships &amp; Samurai" name="nav01b" width="622" height="39" border="0" usemap="#Map5" id="nav01b" title=""/></td>
+  </tr>
+</table>
+</div></td>
+          </tr>
+
+
+	  </table>
+</td>
+    <td width="371">&nbsp;</td>
+  </tr>
+</table></div>
+<div class="top"><img src="image/essay_top.gif"  alt="MIT Visualizing Cultures" width="970" height="136" border="0" align="left" title=""/></div>
+
+<!--end background elements -->
+
+<!-- essay nav -->
+<div class="essaynavtop"><table width="622" border="0" cellspacing="0" cellpadding="0" align="left">
+  <tr align="left">
+    <td align="left" width="622"><img src="image/bss_essay_nav_04.gif"  alt="Black Ships &amp; Samurai" name="nav01" width="622" height="39" border="0" usemap="#Map4" id="nav01" title=""/></td>
+  </tr>
+</table>
+</div>
+
+
+<!-- end essay nav -->
+
+<!-- <div class="slug" id="slug"><span class="bottibody2">Massachusetts Institute of Technology &#169; 2008 Visualizing Cultures</span></div> -->
+
+
+<!-- right-hand buttons -->
+
+
+
+
+<div class="boxpdf" id="boxpdf"><a href="pdf/bss_essay_04.pdf" target="_blank" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image12','','../home/image/pdf_chap02.gif',1);noverlay();noverlayv();noverlayu();"><img src="../home/image/pdf_chap.gif" alt="Printable PDF of this chapter" name="Image12" width="348" height="67" border="0" id="Image12"  title=""/></a></div>
+
+
+<!--end  right-hand buttons -->
+
+
+<!-- essay -->
+<div class="essay">
+
+</div>
+<!--end  essay -->
+
+
+</div>
+</div>
+
+
+<!--top bar nav elements -->
+<div class="box14" id="box14" ><table  width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><img src="../home/image/spacer.gif" width="10" height="26"  alt="MIT Visualizing Cultures"/><img src="../home/image/hometopnav01.gif"  alt="Menu" width="227" height="26" border="0" usemap="#topmap"/></td>
+  </tr>
+</table>
+</div>
+
+<div class="box15" id="box15" ><table  width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><img src="../home/image/spacer.gif" width="10" height="27"  alt="MIT Visualizing Cultures"/></td>
+  </tr>
+</table>
+</div>
+
+<div class="navbox" id="hideme"><a  onmouseout="javascript:noverlay();" onmouseover="javascript:overlay();"><img src="../home/image/vc_home_nav.png" alt="MIT Visualizing Cultures" width="202" height="300" border="0" usemap="#Map"  id="Image5"  name="Image5" title="" /></a></div> 
+
+<div class="twit">
+<a href="https://twitter.com/share" class="twitter-share-button" data-count="none">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></div>
+
+<div class="emil"><!--email-->
+<script type="text/javascript"><!--
+
+var SubjectLine='MIT Visualizing Cultures'; 
+var BodyText='You can see this page at: '+top.location.href;
+
+var Message='<A CLASS=contact HREF="mailto:?SUBJECT='+escape(SubjectLine)+'&BODY='+escape(BodyText)+'" OnMouseOver="status=\'Envoyer cette page à vos amis\'; return true;" ><img src="../home/image/email2.gif" alt="Email" name="Image321"   border="0" id="Image321"  title=""/><\/A>';
+
+var MessageIE='<A CLASS=contact HREF="mailto:?SUBJECT='+(SubjectLine)+'&BODY='+(BodyText)+'" OnMouseOver="status=\'Envoyer cette page à vos amis\'; return true;" ><img src="../home/image/email2.gif" alt="Email" name="Image321"   border="0" id="Image321"  title=""/><\/A>';
+
+if(document.all) { document.write(MessageIE); }
+
+else { document.write(Message); }
+
+// http://javascriptsource.com "The JavaScript Source"
+//--></script></div>
+
+
+
+<!--facebook--><div class="fbok">
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<div class="fb-like" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false" data-colorscheme="light" data-font="verdana"></div>
+
+</div> 
+
+<div class="unitsnavbox01" id="unitsnavbox01" ><a  onmouseout="javascript:noverlayu();" onmouseover="javascript:overlayu();"><img src="../home/image/unitstopnav01.gif"  alt="Units" width="227" height="26" border="0"/></a></div>
+ <div class="navboxu" id="hidemeu"><a href="#" onmouseout="javascript:noverlayu();" onmouseover="javascript:overlayu();"><img src="../home/image/vc_units_cur_nav.png" alt="MIT Visualizing Cultures" width="179" height="148" border="0" usemap="#Map3"  id="Image6"  name="Image6" title=""/></a></div> 
+
+<div class="unitnavbox" id="unitnavbox" ><a  onmouseout="javascript:noverlayv();" onmouseover="javascript:overlayv();"><img src="../black_ships_and_samurai/image/topnav.gif"  alt="Black Ships &amp; Samurai" width="227" height="26" border="0"/></a></div>
+ 
+<div class="navboxv" id="hidemev"><a  onmouseout="javascript:noverlayv();" onmouseover="javascript:overlayv();"><img src="../black_ships_and_samurai/image/bss_i_nav.png" alt="Black Ships &amp; Samurai"  name="Image7" width="212" height="157" border="0" usemap="#Image7Map"   id="Image7" title=""/>
+    
+</a></div>
+	
+	<div class="unitnavbox2" id="unitnavbox2" ><a  onmouseout="javascript:noverlayv2();" onmouseover="javascript:overlayv2();"><img src="../home/image/essaytop.gif"  alt="Black Ships &amp; Samurai" width="227" height="26" border="0"/></a></div>
+ 
+<div class="navboxv2" id="hidemev2"><a  onmouseout="javascript:noverlayv2();" onmouseover="javascript:overlayv2();"><img src="../black_ships_and_samurai/image/bss_i_essay_nav.png" alt="Black Ships &amp; Samurai"  name="Image777" width="212" height="300" border="0" usemap="#Image777Map"   id="Image777" title=""/>
+</a></div>
+<!--end top bar nav elements -->
+
+
+<!--image maps -->
+    <map name="topmap" id="topmap">
+      <area shape="rect" coords="0,0,180,47" href="#" onmouseover="overlay();"  alt="MIT Visualizing Cultures" />
+      <area shape="rect" coords="194,0,300,47" href="#" onmouseover="overlayu();"  alt="VC Units" />
+  </map>
+
+<map name="Map" id="Map">
+      <area shape="rect" coords="0,0,211,39" href="../home/index.html" onmouseover="overlay()" alt="MIT Visualizing Cultures"/>
+      <area shape="rect" coords="0,39,211,66" href="../home/vc01_about.html" target="_top"  alt="About VC" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_02.png',1)"/>      
+      <area shape="rect" coords="0,66,211,96" href="../home/vc02_schol.html" target="_top"  alt="VC Scholars" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_03.png',1)" />
+  <area shape="rect" coords="0,96,211,124" href="../home/vc03_partner.html" target="_top"  alt="Partner Institutions" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_04.png',1)" />
+
+  <area shape="rect" coords="0,124,211,147" href="../home/vc05_outreach.html" target="_top"  alt="Outreach" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_05.png',1)" />
+  <area shape="rect" coords="3,147,211,181" href="../home/vc06_event.html" target="_top"  alt="Conferences &amp; Events" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_06.png',1)" />
+  <area shape="rect" coords="3,181,211,214" href="mailto:visualizingcultures@mit.edu" target="_top"  alt="Contact" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_07.png',1)" />
+ <area shape="rect" coords="1,214,212,240" href="http://www.facebook.com/home.php#!/group.php?gid=261831254970&amp;ref=ts" target="_blank"  alt="Join Us" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_08.png',1)" />
+  <area shape="rect" coords="0,240,211,266" href="http://twitter.com/Visualizing_Cul" target="_blank"  alt="Follow Us" onmouseout="noverlay();MM_swapImgRestore()" onmouseover="overlay();MM_swapImage('Image5','','../home/image/vc_home_nav_09.png',1)" />
+</map><map name="Map3" id="Map3">
+  
+<area shape="rect" coords="0,2,312,30" href="../home/vis_menu.html" target="_top" alt="Units" onmouseout="noverlayu();MM_swapImgRestore()" onmouseover="overlayu();" />
+
+<area shape="rect" coords="2,38,314,68" href="../home/vis_menu.html" target="_top" alt="Icon View" onmouseout="noverlayu();MM_swapImgRestore()" onmouseover="overlayu();MM_swapImage('Image6','','../home/image/vc_units_cur_nav_01.png',1)" />
+
+<area shape="rect" coords="0,67,312,95" href="../home/vis_menu_02b.html" target="_top" alt="Text View" onmouseout="noverlayu();MM_swapImgRestore()" onmouseover="overlayu();MM_swapImage('Image6','','../home/image/vc_units_cur_nav_02.png',1)" />
+
+<area shape="rect" coords="1,94,313,122" href="../home/vis_menu_03.html" target="_top" alt="Curriculae" onmouseout="noverlayu();MM_swapImgRestore()" onmouseover="overlayu();MM_swapImage('Image6','','../home/image/vc_units_cur_nav_03.png',1)" /></map>
+<map name="Image7Map" id="Image7Map">
+  <area shape="rect" coords="0,2,212,30" href="index.html" target="_top" alt="Black Ships &amp; Samurai" onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();" />
+      <area shape="rect" coords="1,42,216,70" href="../black_ships_and_samurai_02/index.html" target="_top" alt="Black Ships &amp; Samurai II" onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();MM_swapImage('Image7','','../black_ships_and_samurai/image/bss_i_nav_02.png',1)" />
+  <area shape="rect" coords="0,69,215,99" href="javascript:openvcidwindow('gallery/index.htm')" target="_top" alt="Image Database" onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();MM_swapImage('Image7','','../black_ships_and_samurai/image/bss_i_nav_03.png',1)" />
+<area shape="rect" coords="1,100,216,130" href="javascript:opencurwindow('../black_ships_and_samurai/cur_student/bss_cur_toc.html')" target="_top" alt="Curriculum" onmouseout="noverlayv();MM_swapImgRestore()" onmouseover="overlayv();MM_swapImage('Image7','','../black_ships_and_samurai/image/bss_i_nav_04.png',1)" />
+</map>
+
+<map name="Map4" id="Map4">
+
+  <area shape="rect" coords="46,0,100,39" href="bss_essay02.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01','','image/bss_essay_nav_02.gif',1);noverlay();noverlayv();noverlayu();"  alt="Perry"/>
+  <area shape="rect" coords="99,0,184,39" href="bss_essay03.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01','','image/bss_essay_nav_03.gif',1);noverlay();noverlayv();noverlayu();"  alt="Blackships"/>
+  <area shape="rect" coords="0,0,46,39" href="bss_essay01.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01','','image/bss_essay_nav_01.gif',1);noverlay();noverlayv();noverlayu();"  alt="Intro"/>
+  <area shape="rect" coords="277,0,377,39" href="bss_essay05.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01','','image/bss_essay_nav_05.gif',1);noverlay();noverlayv();noverlayu();"  alt="Facing West"/>
+  <area shape="rect" coords="377,0,447,39" href="bss_essay06.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01','','image/bss_essay_nav_06.gif',1);noverlay();noverlayv();noverlayu();"  alt="Portraits"/>
+  <area shape="rect" coords="447,0,500,39" href="bss_essay07.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01','','image/bss_essay_nav_07.gif',1);noverlay();noverlayv();noverlayu();"  alt="Gifts"/>
+  <area shape="rect" coords="500,0,560,39" href="bss_essay08.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01','','image/bss_essay_nav_08.gif',1);noverlay();noverlayv();noverlayu();"  alt="Nature"/>
+  <area shape="rect" coords="560,0,622,39" href="bss_essay09.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01','','image/bss_essay_nav_09.gif',1);noverlay();noverlayv();noverlayu();"  alt="Sources"/>
+</map>
+
+
+<map name="Map5" id="Map5">
+  <area shape="rect" coords="0,0,46,39" href="bss_essay01.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01b','','image/bss_essay_nav_01.gif',1);noverlay();noverlayv();noverlayu();"  alt="Intro"/>
+  <area shape="rect" coords="46,0,100,39" href="bss_essay02.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01b','','image/bss_essay_nav_02.gif',1);noverlay();noverlayv();noverlayu();"  alt="Perry"/>
+  <area shape="rect" coords="99,0,184,39" href="bss_essay03.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01b','','image/bss_essay_nav_03.gif',1);noverlay();noverlayv();noverlayu();"  alt="Blackships"/>
+ 
+  <area shape="rect" coords="277,0,377,39" href="bss_essay05.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01b','','image/bss_essay_nav_05.gif',1);noverlay();noverlayv();noverlayu();"  alt="Facing West"/>
+  <area shape="rect" coords="377,0,447,39" href="bss_essay06.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01b','','image/bss_essay_nav_06.gif',1);noverlay();noverlayv();noverlayu();"  alt="Portraits"/> <area shape="rect" coords="447,0,500,39" href="bss_essay07.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01b','','image/bss_essay_nav_07.gif',1);noverlay();noverlayv();noverlayu();"  alt="Gifts"/>
+  <area shape="rect" coords="500,0,560,39" href="bss_essay08.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01b','','image/bss_essay_nav_08.gif',1);noverlay();noverlayv();noverlayu();"  alt="Nature"/>
+  <area shape="rect" coords="560,0,622,39" href="bss_essay09.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav01b','','image/bss_essay_nav_09.gif',1);noverlay();noverlayv();noverlayu();"  alt="Sources"/>
+</map>
+
+<!-- body image maps-->
+<map name="perry01" id="perry01">
+  <area shape="rect" coords="5,4,270,185" href="javascript:openvcidwindow('gallery/pages/01_261L_narr_PresLetter.htm');" alt="Perry &amp; Japanese officials, American rendering" />
+  <area shape="rect" coords="289,4,551,186" href="javascript:openvcidwindow('gallery/pages/30_026e_Perry_bow.htm');" alt="Perry &amp; Japanese officials, Japanese rendering" />
+</map>
+<map name="perry02" id="perry02">
+  <area shape="rect" coords="7,4,180,121" href="javascript:openvcidwindow('gallery/pages/20_506_narr_Hakodate.htm');" alt="Illustration from the 1856commercial edition" />
+  <area shape="rect" coords="194,4,369,121" href="javascript:openvcidwindow('gallery/pages/01_401L_narr_Shimoda.htm');" alt="Tinted lithograph from the official printing of 1856" />
+  <area shape="rect" coords="381,7,552,121" href="javascript:openvcidwindow('gallery/pages/21_000a_detail_Landing.htm');" alt="Independent large-format lithograph, ca. 1855/56" />
+</map>
+<map name="perry03" id="perry03">
+  <area shape="rect" coords="5,5,383,258" href="javascript:openvcidwindow('gallery/pages/20_405_narr_PerryCom.htm');" alt="The trade edition of theNarrative (detail)" />
+  <area shape="rect" coords="5,274,385,527" href="javascript:openvcidwindow('gallery/pages/01_346L_narr_PerryCom.htm');" alt="The official government edition (detail)" />
+</map>
+<map name="perry04" id="perry04">
+  <area shape="rect" coords="4,4,381,256" href="javascript:openvcidwindow('gallery/pages/01_189L_narr_Gate.htm');" alt="Gate of Courtesy at the castle in Okinawa" />
+  <area shape="rect" coords="6,274,382,525" href="javascript:openvcidwindow('gallery/pages/01_190_narr_Reception.htm');" alt="Reception at Shui Castle, Okinawa" />
+</map>
+<map name="perry05" id="perry05">
+  <area shape="rect" coords="4,4,553,251" href="javascript:openvcidwindow('gallery/pages/01_233L_narr_SurveyBay.htm');" alt="The Americans sounding andsurveying Edo Bay" />
+  <area shape="rect" coords="4,269,553,517" href="javascript:openvcidwindow('gallery/pages/43_022_rubicon.htm');" alt="&#8220;Passing the Rubicon&#8221;: Japanese officials confront the surveying party" />
+</map>
+<map name="perry06" id="perry06">
+  <area shape="rect" coords="6,4,269,183" href="javascript:openvcidwindow('gallery/pages/01_345W_narr_Barge.htm');" alt="Imperial barge at Yokohama" />
+  <area shape="rect" coords="290,4,555,182" href="javascript:openvcidwindow('gallery/pages/01_346L_narr_PerryCom.htm');" alt="Japanese officials greet Perry at Yokohama" />
+</map>
+<map name="perry07" id="perry07">
+  <area shape="rect" coords="7,6,269,196" href="javascript:openvcidwindow('gallery/pages/01_456W_narr_Blacksmith.htm');" alt="Blacksmith shop" />
+  <area shape="rect" coords="287,7,551,197" href="javascript:openvcidwindow('gallery/pages/01_457W_narr_Shipyard.htm');" alt="Shipyard" />
+</map>
+<map name="perry08" id="perry08">
+  <area shape="rect" coords="3,5,269,206" href="javascript:openvcidwindow('gallery/pages/01_452W_narr_Kago.htm');" alt="Japanese kago (palanquin)" />
+  <area shape="rect" coords="289,5,553,206" href="javascript:openvcidwindow('gallery/pages/01_458W_narr_Spinning.htm');" alt="Spinning and weaving" />
+</map>
+
+<map name="Image777Map" id="Image777Map">
+  <area shape="rect" coords="0,-1,212,27" href="index.html" target="_top" alt="Black Ships &amp; Samurai II" onmouseout="noverlayv2();MM_swapImgRestore()" onmouseover="overlayv2();" />
+      <area shape="rect" coords="0,40,215,69" href="bss_essay01.html" target="_top" alt="Introduction" onmouseout="noverlayv2();MM_swapImgRestore()" onmouseover="overlayv2();MM_swapImage('Image777','','../black_ships_and_samurai/image/bss_i_essay_nav_02.png',1)" />
+  <area shape="rect" coords="0,69,215,96" href="bss_essay02.html" target="_top" alt="Perry" onmouseout="noverlayv2();MM_swapImgRestore()" onmouseover="overlayv2();MM_swapImage('Image777','','../black_ships_and_samurai/image/bss_i_essay_nav_03.png',1)" />
+<area shape="rect" coords="4,96,216,122" href="bss_essay03.html" target="_top" alt="Blackships" onmouseout="noverlayv2();MM_swapImgRestore()" onmouseover="overlayv2();MM_swapImage('Image777','','../black_ships_and_samurai/image/bss_i_essay_nav_04.png',1)" />
+<area shape="rect" coords="4,122,216,150" href="bss_essay04.html" target="_top" alt="Facing East" onmouseout="noverlayv2();MM_swapImgRestore()" onmouseover="overlayv2();MM_swapImage('Image777','','../black_ships_and_samurai/image/bss_i_essay_nav_05.png',1)" />
+<area shape="rect" coords="3,150,216,175" href="bss_essay05.html" target="_top" alt="Facing West" onmouseout="noverlayv2();MM_swapImgRestore()" onmouseover="overlayv2();MM_swapImage('Image777','','../black_ships_and_samurai/image/bss_i_essay_nav_06.png',1)" />
+<area shape="rect" coords="4,175,216,200" href="bss_essay06.html" target="_top" alt="Portraits" onmouseout="noverlayv2();MM_swapImgRestore()" onmouseover="overlayv2();MM_swapImage('Image777','','../black_ships_and_samurai/image/bss_i_essay_nav_07.png',1)" />
+<area shape="rect" coords="4,200,216,226" href="bss_essay07.html" target="_top" alt="Gifts" onmouseout="noverlayv2();MM_swapImgRestore()" onmouseover="overlayv2();MM_swapImage('Image777','','../black_ships_and_samurai/image/bss_i_essay_nav_08.png',1)" />
+<area shape="rect" coords="4,226,216,254" href="bss_essay08.html" target="_top" alt="Nature" onmouseout="noverlayv2();MM_swapImgRestore()" onmouseover="overlayv2();MM_swapImage('Image777','','../black_ships_and_samurai/image/bss_i_essay_nav_09.png',1)" />
+<area shape="rect" coords="4,254,216,280" href="bss_essay09.html" target="_top" alt="Sources" onmouseout="noverlayv2();MM_swapImgRestore()" onmouseover="overlayv2();MM_swapImage('Image777','','../black_ships_and_samurai/image/bss_i_essay_nav_10.png',1)" />
+</map>
+
+</body>
+</html>
