@@ -3,7 +3,7 @@
 A working archive of resources for learning Japanese, plus a detailed guide to each part of the
 language. Continuously updated.
 
-**Version 1.0.0** - what changed, and when, is in the [changelog](CHANGELOG.md).
+**Version 1.1.0** - what changed, and when, is in the [changelog](CHANGELOG.md).
 
 The repo has three layers:
 
@@ -95,8 +95,8 @@ of material.
 | :------------------ | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Kana**            | Charts, writing-practice sheets, Tofugu's kana books, kana Anki decks, Unicode hentaigana references, NINJAL loanword proposals, mora and romanization mapping data                                                                            |
 | **Romaji**          | The Cabinet Notification that replaced Kunrei-shiki, the repealed 1954 notification, ALA-LC and BGN/PCGN tables, GSI and MLIT signage standards, MOFA passport rules, Hepburn's 1867 dictionary                                                |
-| **Grammar**         | Tae Kim, Cure Dolly transcripts, Yokubi, Imabi, Sakubi, Ixrec, Itazuraneko, DoJG, All About Particles, four grammar books, 文化庁 keigo guidelines, conjugation and deconjugation rule sets, a keigo corpus                                    |
-| **Kanji**           | KanjiDamage (mirror, markdown and deck), KanjiDamage Plus, Remembering the Kanji vols 1-3 with decks, KANJIDIC2, radical decomposition data, Kanken level data, the official jinmeiyou list, Shuowen Jiezi                                     |
+| **Grammar**         | Tae Kim, Cure Dolly transcripts, Yokubi, Imabi, Sakubi, Ixrec, Itazuraneko, DoJG, All About Particles, four grammar books, 文化庁 keigo guidelines, conjugation and deconjugation rule sets, a keigo corpus, novel-library kanji inventories   |
+| **Kanji**           | KanjiDamage (mirror, markdown and deck), KanjiDamage Plus, Remembering the Kanji vols 1-3 with decks, KANJIDIC2, radical decomposition data, KanjiVG stroke and component SVGs, Kanken level data, the official jinmeiyou list, Shuowen Jiezi  |
 | **Vocabulary**      | Kaishi 1.5k, Ankidrone Essentials and Foundation, Core10k, JP1K, 80-20 Japanese, JMdict, JMnedict, JmdictFurigana, the Tanaka Corpus, several frequency corpora, NINJAL's basic vocabulary survey                                              |
 | **Listening**       | Japanese subtitle sets, NHK World's Easy Japanese textbook, Erin's Challenge scripts, a Kansai-ben primer, a university listening course                                                                                                       |
 | **Speaking**        | Four audio courses with full audio, three pitch-accent datasets including devoicing data, and phonetics and shadowing scholarship                                                                                                              |
@@ -119,6 +119,31 @@ with no accounts or API keys:
 - **Frequency** - several different corpora, because which words are common depends on what you read
 - **Pronunciation** - pitch-accent datasets, one of them including devoicing
 - **Grammar** - conjugation and deconjugation rules, transitivity pairs, a keigo corpus
+
+Some of it was not downloaded but extracted here: material the repo held only as an HTML mirror or
+a spreadsheet, parsed into JSON - and CSV where the source was tabular - and left beside the
+untouched original in an `Extracted Data` sub-folder, each with its own `README.md` giving the
+fields, the caveats and the licence:
+
+- **Kanji** - [KanjiDamage](<Resources/Kanji/Kanji Damage/Extracted Data (JSON)>) (1,768 records)
+  and [KanjiDamage Plus](<Resources/Kanji/KanjiDamage Plus/Extracted Data (JSON)>) (2,136), with
+  mnemonics, components, readings, jukugo, look-alikes and usefulness ratings
+- **Grammar** - [the Itazuraneko reference tables](<Resources/Grammar/Itazuraneko Master Reference/Extracted Data (JSON-CSV)>):
+  2,628 grammar points, each indexed to the book that explains it, plus DoJG's 629 entries, Donna
+  Toki's 1,032, 27,506 kanji by Kanken level and the 214 radicals with their variants
+- **JLPT** - [JLPT Sensei](<Resources/JLPT/JLPT Sensei/Extracted Data (JSON)>)'s 848 grammar and
+  625 vocabulary lessons carrying 9,152 example sentences, and
+  [Coto Academy's N5-N1 mega list](<Resources/AJATT/Reference Spreadsheets/Coto JLPT Mega List (JSON-CSV)>)
+  as 8,411 vocabulary rows, 2,211 kanji and 287 bare grammar patterns
+- **Reading** - [kanji inventories](<Resources/Grammar/Itazuraneko Master Reference/Novel Library Kanji Inventories (JSON)>)
+  for 8,160 volumes across 5,456 works: diff one against your own known-kanji list and you know
+  whether a specific book is readable yet
+- **Dialect** - [a Kansai-ben primer](<Resources/Listening/Kansai-ben Primer (kansaibenkyou.net, CC BY-SA 3.0)/Extracted Data (JSON)>)
+  as 231 dialogue lines with the standard-Japanese equivalent beside each, plus 280 dialect words
+
+Two limits worth knowing before building on these: JLPT Sensei's vocabulary covers 625 of the 1,523
+lessons the site indexes, the rest never having been mirrored, and DoJG's notes are a scanned image
+rather than text on 416 of its 629 entries.
 
 Each folder's `sources.md` lists what it holds, where it came from, and its licence. Several are
 share-alike, so anything you build on them and publish inherits those terms.

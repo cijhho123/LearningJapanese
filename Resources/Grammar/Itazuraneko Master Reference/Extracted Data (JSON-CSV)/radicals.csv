@@ -1,0 +1,322 @@
+﻿strokes,image,position,meaning,reading,note
+1,kana/radical/001.png,,"one, horizontal stroke",いち,
+1,kana/radical/002.png,,vertical stroke,たてぼう,
+1,kana/radical/003.png,,dot,てん,
+1,kana/radical/004.png,,diagonal sweeping stroke,の,
+1,kana/radical/004a.png,kanmuri,diagonal sweeping stroke,のかんむり,a variant of ⼃（の）
+1,kana/radical/005.png,,the second,おつ,
+1,kana/radical/006.png,,the second,おつ,a variant of ⼄（おつ）
+1,kana/radical/007.png,,vertical stroke with a hook,はねぼう,
+2,kana/radical/008.png,,two,に,
+2,kana/radical/009.png,kanmuri,"lid, top",なべぶた,
+2,kana/radical/010.png,,person,ひと,
+2,kana/radical/011.png,hen,person,にんべん,a variant of ⼈（ひと）
+2,kana/radical/012.png,kanmuri,person,ひとやね,a variant of ⼈（ひと）
+2,kana/radical/013.png,ashi,human legs,ひとあし,
+2,kana/radical/014.png,,to enter,いる,
+2,kana/radical/015.png,,eight,はち,
+2,kana/radical/016.png,,eight,はちがしら,a variant of ⼋（はち）
+2,kana/radical/017.png,keigamae,to enclose,けいがまえ,
+2,kana/radical/018.png,kanmuri,"cover, crown",わかんむり,
+2,kana/radical/019.png,hen,ice,にすい,
+2,kana/radical/020.png,tsukuri,table,きにょう,
+2,kana/radical/021.png,kanmuri,wind,かぜかんむり,a variant of ⼏（きにょう）
+2,kana/radical/022.png,nyou,"container, open box",かんにょう,
+2,kana/radical/023.png,,"knife, sword",かたな,
+2,kana/radical/024.png,tsukuri,"knife, sword",りっとう,a variant of ⼑（かたな）
+2,kana/radical/025.png,,power,ちから,
+2,kana/radical/026.png,tsutsumigamae,to wrap,つつみがまえ,
+2,kana/radical/027.png,tsukuri,spoon,さじ,
+2,kana/radical/028.png,hakogamae,box,はこがまえ,
+2,kana/radical/029.png,hakogamae,"to conceal, hide",かくしがまえ,
+2,kana/radical/030.png,,ten,じゅう,
+2,kana/radical/031.png,,oracle,ぼく,
+2,kana/radical/032.png,tsukuri,"stamp, seal",ふしづくり,
+2,kana/radical/033.png,tare,cliff,がんだれ,
+2,kana/radical/034.png,,"private, Katakana Mu",む,
+2,kana/radical/035.png,,"again, right hand",また,
+3,kana/radical/036.png,,mouth,くち,
+3,kana/radical/037.png,hen,mouth,くちへん,a variant of ⼝（くち）
+3,kana/radical/038.png,kunigamae,"border, territorial boundaries",くにがまえ,
+3,kana/radical/039.png,,earth,つち,
+3,kana/radical/040.png,hen,earth,つちへん,a variant of ⼟（つち）
+3,kana/radical/041.png,,"man, scholar, samurai",さむらい,
+3,kana/radical/042.png,kanmuri,"man, scholar, samurai",さむらいかんむり,a variant of ⼠（さむらい）
+3,kana/radical/043.png,,to follow,のまた,
+3,kana/radical/044.png,ashi,to go slowly,なつあし,
+3,kana/radical/045.png,,evening,ゆうべ,
+3,kana/radical/046.png,,"large, big",だい,
+3,kana/radical/047.png,,woman,おんな,
+3,kana/radical/048.png,hen,woman,おんなへん,a variant of ⼥（おんな）
+3,kana/radical/049.png,,"child, son",こ,
+3,kana/radical/050.png,hen,"child, son",こへん,a variant of ⼦（こ）
+3,kana/radical/051.png,kanmuri,"roof, house",うかんむり,
+3,kana/radical/052.png,,"inch, (2.25 cm)",すん,
+3,kana/radical/053.png,tsukuri,"inch, (2.25 cm)",すんづくり,a variant of ⼨（すん）
+3,kana/radical/054.png,,small,しょう,
+3,kana/radical/055.png,kanmuri,small,しょうかんむり,a variant of ⼩（しょう）
+3,kana/radical/056.png,tsukuri,lame leg,だいのまげあし,
+3,kana/radical/057.png,tare,"corpse, awning",しかばね,
+3,kana/radical/058.png,,sprout,くさのめ,
+3,kana/radical/059.png,,mountain,やま,
+3,kana/radical/060.png,hen,mountain,やまへん,a variant of ⼭（やま）
+3,kana/radical/061.png,kanmuri,mountain,やまかんむり,a variant of ⼭（やま）
+3,kana/radical/062.png,,winding river,まがりがわ,
+3,kana/radical/063.png,,river,さんぼんがわ,a variant of ⼮（まがりがわ）
+3,kana/radical/064.png,,"work, carpenter, skill",たくみ,
+3,kana/radical/065.png,hen,"work, carpenter, skill",たくみへん,a variant of ⼯（たくみ）
+3,kana/radical/066.png,,self,おのれ,
+3,kana/radical/067.png,,cloth,はば,
+3,kana/radical/068.png,hen,cloth,はばへん,a variant of ⼱（はば）
+3,kana/radical/069.png,,"to dry, shield",かん,
+3,kana/radical/070.png,,"young, slight",いとがしら,
+3,kana/radical/071.png,tare,slanting roof,まだれ,
+3,kana/radical/072.png,nyou,"to move, stretch",えんにょう,
+3,kana/radical/073.png,ashi,folded hands,にじゅうあし,
+3,kana/radical/074.png,,javelin,いぐるみ,
+3,kana/radical/075.png,,bow （in archery）,ゆみ,
+3,kana/radical/076.png,hen,bow （in archery）,ゆみへん,a variant of ⼸（ゆみ）
+3,kana/radical/077.png,,pig’s head,けいがしら,
+3,kana/radical/078.png,,pig’s head,けいがしら,a variant of ⼹（けいがしら）
+3,kana/radical/079.png,,pig’s head,けいがしら,a variant of ⼹（けいがしら）
+3,kana/radical/080.png,tsukuri,"hair-style, light rays",さんづくり,
+3,kana/radical/081.png,hen,"step, stride, street, to go",ぎょうにんべん,
+3,kana/radical/082.png,kanmuri,grass,くさかんむり,a variant of ⾋（くさ）
+3,kana/radical/083.png,nyou,"road, walk, to advance",しんにょう,a variant of ⾡（しんにょう）
+3,kana/radical/084.png,tsukuri,"village, country, city",おおざと,a variant of ⾢（むら）
+3,kana/radical/085.png,hen,"hill, mound",こざとへん,a variant of ⾩（こざと）
+3,kana/radical/086.png,kanmuri,Katakana Tsu,つ,
+3,kana/radical/087.png,hen,"heart, mind, spirit",りっしんべん,a variant of ⼼（こころ）
+3,kana/radical/088.png,hen,hand,てへん,a variant of ⼿（て）
+3,kana/radical/089.png,hen,water,さんずい,a variant of ⽔（みず）
+3,kana/radical/090.png,hen,beast,けものへん,a variant of ⽝（いぬ）
+4,kana/radical/091.png,,"heart, mind, spirit",こころ,
+4,kana/radical/092.png,ashi,"heart, mind, spirit",したごころ,a variant of ⼼（こころ）
+4,kana/radical/093.png,,"spear, weapon",ほこ,
+4,kana/radical/094.png,,door,と,
+4,kana/radical/095.png,tare,door,とだれ,a variant of ⼾（と）
+4,kana/radical/096.png,,hand,て,
+4,kana/radical/097.png,,branch,しにょう,
+4,kana/radical/098.png,tsukuri,"activity, to strike, hit",ぼくづくり,
+4,kana/radical/099.png,tsukuri,"activity, to strike, hit",ぼくづくり,a variant of ⽁（ぼくづくり）
+4,kana/radical/100.png,,"literature, letters",ぶん,
+4,kana/radical/101.png,tsukuri,"big dipper, ladle, 18 liters",ますづくり,
+4,kana/radical/102.png,tsukuri,axe,おのづくり,
+4,kana/radical/103.png,,"direction, flag",ほう,
+4,kana/radical/104.png,hen,"direction, flag",ほうへん,a variant of ⽅（ほう）
+4,kana/radical/105.png,,not,むにょう,
+4,kana/radical/106.png,,"sun, day, time",ひ,
+4,kana/radical/107.png,hen,"sun, day, time",ひへん,a variant of ⽇（ひ）
+4,kana/radical/108.png,,to say,ひらび,
+4,kana/radical/109.png,,"moon, month, period",つき,
+4,kana/radical/110.png,hen,"moon, month, period",つきへん,a variant of ⽉（つき）
+4,kana/radical/111.png,,"meat, flesh",にくづき,a variant of ⾁（にく）
+4,kana/radical/112.png,,"tree, wood",き,
+4,kana/radical/113.png,hen,"tree, wood",きへん,a variant of ⽊（き）
+4,kana/radical/114.png,,"to lack, yawn",あくび,
+4,kana/radical/115.png,,to stop,とめる,
+4,kana/radical/116.png,,"death & dying, to decompose",がつ,
+4,kana/radical/117.png,hen,"death & dying, to decompose",がつへん,a variant of ⽍（がつ）
+4,kana/radical/118.png,tsukuri,"lance shaft, action",るまた,
+4,kana/radical/119.png,,"not, mother",なかれ,
+4,kana/radical/120.png,,to compare,くらべる,
+4,kana/radical/121.png,,hair,け,
+4,kana/radical/122.png,,"family, clan",うじ,
+4,kana/radical/123.png,kigamae,"steam, air",きがまえ,
+4,kana/radical/124.png,,water,みず,
+4,kana/radical/125.png,,fire,ひ,
+4,kana/radical/126.png,hen,fire,ひへん,a variant of ⽕（ひ）
+4,kana/radical/127.png,ashi,fire,れっか,a variant of ⽕（ひ）
+4,kana/radical/128.png,,"claw, nail",つめ,
+4,kana/radical/129.png,kanmuri,"claw, nail",つめかんむり,a variant of ⽖（つめ）
+4,kana/radical/130.png,kanmuri,"claw, nail",つめかんむり,a variant of ⽖（つめ）
+4,kana/radical/131.png,,father,ちち,
+4,kana/radical/132.png,,to mix,こう,
+4,kana/radical/133.png,hen,split wood,しょうへん,
+4,kana/radical/134.png,,split wood,かた,
+4,kana/radical/135.png,hen,split wood,かたへん,a variant of ⽚（かた）
+4,kana/radical/136.png,,"fang, canine tooth",きば,
+4,kana/radical/137.png,,cow,うし,
+4,kana/radical/138.png,hen,cow,うしへん,a variant of ⽜（うし）
+4,kana/radical/139.png,,dog,いぬ,
+4,kana/radical/140.png,hen,"jewelry, jeweled king",おうへん,a variant of ⽟（たま）
+4,kana/radical/141.png,hen,"altar, festival, religious service",しめすへん,a variant of ⽰（しめす）
+4,kana/radical/142.png,,net,あみがしら,a variant of ⽹（あみ）
+4,kana/radical/143.png,kanmuri,"old, old-age",おいかんむり,a variant of ⽼（おいかんむり）
+5,kana/radical/144.png,,darkness,げん,
+5,kana/radical/145.png,,jewelry,たま,
+5,kana/radical/146.png,,melon,うり,
+5,kana/radical/147.png,,tile,かわら,
+5,kana/radical/148.png,,sweet,あまい,
+5,kana/radical/149.png,,"birth, to be born, live",うまれる,
+5,kana/radical/150.png,,to use,もちいる,
+5,kana/radical/151.png,,rice paddy,た,
+5,kana/radical/152.png,hen,rice paddy,たへん,a variant of ⽥（た）
+5,kana/radical/153.png,,bolt of cloth,ひき,
+5,kana/radical/154.png,hen,bolt of cloth,ひきへん,a variant of ⽦（ひき）
+5,kana/radical/155.png,tare,sickness,やまいだれ,
+5,kana/radical/156.png,kanmuri,"outspread legs, departure",はつがしら,
+5,kana/radical/157.png,,white,しろ,
+5,kana/radical/158.png,hen,white,はくへん,a variant of ⽩（しろ）
+5,kana/radical/159.png,,"skin, hide",けがわ,
+5,kana/radical/160.png,,"plate, bowl",さら,
+5,kana/radical/161.png,,eye,め,
+5,kana/radical/162.png,hen,eye,めへん,a variant of ⽬（め）
+5,kana/radical/163.png,kanmuri,eye,よこめ,a variant of ⽬（め）
+5,kana/radical/164.png,,halberd,ほこ,
+5,kana/radical/165.png,hen,halberd,ほこへん,a variant of ⽭（ほこ）
+5,kana/radical/166.png,,arrow,や,
+5,kana/radical/167.png,hen,arrow,やへん,a variant of ⽮（や）
+5,kana/radical/168.png,,stone,いし,
+5,kana/radical/169.png,hen,stone,いしへん,a variant of ⽯（いし）
+5,kana/radical/170.png,,"altar, festival, religious service",しめす,
+5,kana/radical/171.png,,footprint,じゅうのあし,
+5,kana/radical/172.png,hen,grain,のぎへん,
+5,kana/radical/173.png,,"hole, cave",あな,
+5,kana/radical/174.png,kanmuri,"hole, cave",あなかんむり,a variant of ⽳（あな）
+5,kana/radical/175.png,,to stand,たつ,
+5,kana/radical/176.png,hen,to stand,たつへん,a variant of ⽴（たつ）
+5,kana/radical/177.png,,"fang, canine tooth",きば,a variant of （きば）
+5,kana/radical/178.png,hen,"fang, canine tooth",きばへん,a variant of ⽛（きば）
+5,kana/radical/179.png,,water,したみず,a variant of ⽔（みず）
+5,kana/radical/180.png,kanmuri,net,あみがしら,a variant of ⽹（あみ）
+5,kana/radical/181.png,,net,あみがしら,a variant of ⽹（あみ）
+5,kana/radical/182.png,hen,clothing,ころもへん,a variant of ⾐（ころも）
+5,kana/radical/183.png,,not,むにょう,a variant of ⽆（むにょう）
+6,kana/radical/184.png,,bamboo,たけ,
+6,kana/radical/185.png,kanmuri,bamboo,たけかんむり,a variant of ⽵（たけ）
+6,kana/radical/186.png,,rice,こめ,
+6,kana/radical/187.png,hen,rice,こめへん,a variant of ⽶（こめ）
+6,kana/radical/188.png,,thread,いと,
+6,kana/radical/189.png,hen,thread,いとへん,a variant of ⽷（いと）
+6,kana/radical/190.png,,earthen jar,みずがめ,
+6,kana/radical/191.png,,net,あみめ,
+6,kana/radical/192.png,,sheep,ひつじ,
+6,kana/radical/193.png,,sheep,ひつじ,a variant of ⽺（ひつじ）
+6,kana/radical/194.png,,"feather, wing",はね,
+6,kana/radical/195.png,,"feather, wing",はね,a variant of 羽（はね）
+6,kana/radical/196.png,,"old, old-age",おいかんむり,
+6,kana/radical/197.png,,and also,しこうして,
+6,kana/radical/198.png,hen,plow,らいすき,
+6,kana/radical/199.png,,ear,みみ,
+6,kana/radical/200.png,hen,ear,みみへん,a variant of ⽿（みみ）
+6,kana/radical/201.png,,writing brush,ふでづくり,
+6,kana/radical/202.png,,"flesh, meat",にく,
+6,kana/radical/203.png,,"retainer, minister",しん,
+6,kana/radical/204.png,,self,みずから,
+6,kana/radical/205.png,,"to arrive, reach",いたる,
+6,kana/radical/206.png,hen,"to arrive, reach",いたるへん,a variant of ⾄（いたる）
+6,kana/radical/207.png,,"mortar, quern",うす,
+6,kana/radical/208.png,,tongue,した,
+6,kana/radical/209.png,,"contrary, to err",まいあし,
+6,kana/radical/210.png,,"ship, boat",ふね,
+6,kana/radical/211.png,hen,"ship, boat",ふねへん,a variant of ⾈（ふね）
+6,kana/radical/212.png,,boundary,こん,
+6,kana/radical/213.png,,color,いろ,
+6,kana/radical/214.png,,"grass, plant",くさ,
+6,kana/radical/215.png,kanmuri,tiger,とらがしら,
+6,kana/radical/216.png,,"worm, insect, bug",むし,
+6,kana/radical/217.png,hen,"worm, insect, bug",むしへん,a variant of ⾍（むし）
+6,kana/radical/218.png,,blood,ち,
+6,kana/radical/219.png,gyougamae,to go,ぎょうがまえ,
+6,kana/radical/220.png,,clothing,ころも,
+6,kana/radical/221.png,,"cover, west",にし,
+6,kana/radical/222.png,,"cover, west",にし,a variant of ⾑（にし）
+6,kana/radical/223.png,,melon,うり,a variant of ⽠（うり）
+7,kana/radical/224.png,,to see,みる,
+7,kana/radical/225.png,,"horn, corner",つの,
+7,kana/radical/226.png,hen,"horn, corner",つのへん,a variant of ⾓（つの）
+7,kana/radical/227.png,,"words, to speak, say",げん,
+7,kana/radical/228.png,hen,"words, to speak, say",ごんべん,a variant of ⾔（げん）
+7,kana/radical/229.png,,valley,たに,
+7,kana/radical/230.png,hen,valley,たにへん,a variant of ⾕（たに）
+7,kana/radical/231.png,,bean,まめ,
+7,kana/radical/232.png,hen,bean,まめへん,a variant of ⾖（まめ）
+7,kana/radical/233.png,,pig,いのこ,
+7,kana/radical/234.png,hen,badger,むじなへん,
+7,kana/radical/235.png,,"shell, property, wealth",かい,
+7,kana/radical/236.png,hen,"shell, property, wealth",かいへん,a variant of ⾙（かい）
+7,kana/radical/237.png,,red,あか,
+7,kana/radical/238.png,,to run,はしる,
+7,kana/radical/239.png,nyou,to run,そうにょう,a variant of ⾛（はしる）
+7,kana/radical/240.png,,"foot, leg",あし,
+7,kana/radical/241.png,hen,"foot, leg",あしへん,a variant of ⾜（あし）
+7,kana/radical/242.png,,body,み,
+7,kana/radical/243.png,hen,body,みへん,a variant of ⾝（み）
+7,kana/radical/244.png,,"vehicle, wheel, car",くるま,
+7,kana/radical/245.png,hen,"vehicle, wheel, car",くるまへん,a variant of ⾞（くるま）
+7,kana/radical/246.png,,bitter,からい,
+7,kana/radical/247.png,,"Fifth zodiac sign, 7–9 A.M.",しんのたつ,
+7,kana/radical/248.png,,"to advance, move ahead",しんにょう,
+7,kana/radical/249.png,,community,むら,
+7,kana/radical/250.png,,"sake jar, bird",ひよみのとり,
+7,kana/radical/251.png,hen,"sake jar, bird",とりへん,a variant of ⾣（ひよみのとり）
+7,kana/radical/252.png,,to separate,のごめ,
+7,kana/radical/253.png,hen,to separate,のごめへん,a variant of ⾤（のごめ）
+7,kana/radical/254.png,,"village, (3.93 km)",さと,
+7,kana/radical/255.png,hen,"village, (3.93 km)",さとへん,a variant of ⾥（さと）
+7,kana/radical/256.png,,"retainer, minister",しん,a variant of ⾂（しん）
+7,kana/radical/257.png,,"contrary, to err",まいあし,a variant of ⾇（まいあし）
+7,kana/radical/258.png,,wheat,むぎ,a variant of ⿆（むぎ）
+8,kana/radical/259.png,,"metal, gold, mineral",かね,
+8,kana/radical/260.png,hen,"metal, gold, mineral",かねへん,a variant of ⾦（かね）
+8,kana/radical/261.png,,long,ながい,
+8,kana/radical/262.png,mongamae,"gate, door",もんがまえ,
+8,kana/radical/263.png,,hill,こざと,
+8,kana/radical/264.png,tsukuri,to capture,れいづくり,
+8,kana/radical/265.png,,small bird,ふるとり,
+8,kana/radical/266.png,,rain,あめ,
+8,kana/radical/267.png,kanmuri,rain,あめかんむり,a variant of ⾬（あめ）
+8,kana/radical/268.png,,"blue, green",あお,
+8,kana/radical/269.png,,"blue, green",あお,a variant of ⾭（あお）
+8,kana/radical/270.png,,"wrong, non-",あらず,
+8,kana/radical/271.png,hen,"food, to eat",しょくへん,a variant of ⾷（しょく）
+8,kana/radical/272.png,,alike,せい,a variant of ⿑（せい）
+9,kana/radical/273.png,,"face, surface",めん,
+9,kana/radical/274.png,,leather,つくりがわ,
+9,kana/radical/275.png,,leather,なめしがわ,
+9,kana/radical/276.png,,leek,にら,
+9,kana/radical/277.png,,"sound, noise",おと,
+9,kana/radical/278.png,tsukuri,"head, page",おおがい,
+9,kana/radical/279.png,,wind,かぜ,
+9,kana/radical/280.png,,to fly,とぶ,
+9,kana/radical/281.png,,"food, to eat",しょく,
+9,kana/radical/282.png,,head,くび,
+9,kana/radical/283.png,,scent,かおり,
+10,kana/radical/284.png,,horse,うま,
+10,kana/radical/285.png,hen,horse,うまへん,a variant of ⾺（うま）
+10,kana/radical/286.png,,bone,ほね,
+10,kana/radical/287.png,hen,bone,ほねへん,a variant of ⾻（ほね）
+10,kana/radical/288.png,,high,たかい,
+10,kana/radical/289.png,kanmuri,long hair,かみかんむり,
+10,kana/radical/290.png,mongamae,fighting,たたかいがまえ,
+10,kana/radical/291.png,,herbs,においざけ,
+10,kana/radical/292.png,,tripod,れき,
+10,kana/radical/293.png,,demon,おに,
+10,kana/radical/294.png,,leather,なめしがわ,a variant of （なめしがわ）
+11,kana/radical/295.png,,fish,うお,
+11,kana/radical/296.png,hen,fish,うおへん,a variant of ⿂（うお）
+11,kana/radical/297.png,,bird,とり,
+11,kana/radical/298.png,,salt,しお,
+11,kana/radical/299.png,,deer,しか,
+11,kana/radical/300.png,,wheat,むぎ,
+11,kana/radical/301.png,,hemp,あさ,
+11,kana/radical/302.png,kanmuri,hemp,あさかんむり,a variant of ⿇（あさ）
+11,kana/radical/303.png,,yellow,き,a variant of ⿈（き）
+11,kana/radical/304.png,,black,くろ,a variant of ⿊（くろ）
+11,kana/radical/305.png,,turtle,かめ,a variant of ⿔（かめ）
+12,kana/radical/306.png,,yellow,き,
+12,kana/radical/307.png,,millet,きび,
+12,kana/radical/308.png,,black,くろ,
+12,kana/radical/309.png,,embroider,ぬいとり,
+12,kana/radical/310.png,,tooth,は,a variant of ⿒（は）
+13,kana/radical/311.png,,frog,かえる,
+13,kana/radical/312.png,,tripod,かなえ,
+13,kana/radical/313.png,,drum,つづみ,
+13,kana/radical/314.png,,"rat, mouse",ねずみ,
+14,kana/radical/315.png,,nose,はな,
+14,kana/radical/316.png,,alike,せい,
+15,kana/radical/317.png,,tooth,は,
+16,kana/radical/318.png,,dragon,りゅう,
+16,kana/radical/319.png,,turtle,かめ,
+17,kana/radical/320.png,,flute,やく,
